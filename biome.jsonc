@@ -2,6 +2,7 @@
 	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
 	"root": true,
 	"files": {
-		"includes": ["**/*"]
+		"includes": ["**/*"],
+		"experimentalScannerIgnores": ["**/.rollup.cache/**", "**/node_modules/**", "**/dist/**", "**/.next/**", "**/coverage/**"]
 	}
 }
