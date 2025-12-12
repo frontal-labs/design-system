@@ -76,13 +76,13 @@ export default function Calendar27() {
 		to: new Date(2025, 5, 20),
 	});
 	const filteredData = React.useMemo(() => {
-		if (!range?.from && !range?.to) {
+		if (!range?.from || !range?.to) {
 			return chartData;
 		}
 
 		return chartData.filter((item) => {
 			const date = new Date(item.date);
-			return date >= range.from! && date <= range.to!;
+			return date >= range.from && date <= range.to;
 		});
 	}, [range]);
 

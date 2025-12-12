@@ -1,7 +1,25 @@
 import { jsx as _jsx } from "react/jsx-runtime";
-export function DeleteRowIcon({ width = 24, height = 24, color = 'currentColor', ...props }) {
-    return (_jsx("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", width: width, height: height, fill: color, "aria-label": "Delete Row Table", "aria-labelledby": "Delete Row Table", "aria-hidden": true, ...props, children: _jsx("path", { d: "M20 5C20.5523 5 21 5.44772 21 6V12C21 12.5523 20.5523 13 20 13C20.628 13.8355 21 14.8743 21 16C21 18.7614 18.7614 21 16 21C13.2386 21 11 18.7614 11 16C11 14.8743 11.372 13.8355 11.9998 12.9998L4 13C3.44772 13 3 12.5523 3 12V6C3 5.44772 3.44772 5 4 5H20ZM13 15V17H19V15H13ZM19 7H5V11H19V7Z" }) }));
+export function DeleteRowIcon({
+	width = 24,
+	height = 24,
+	color = "currentColor",
+	...props
+}) {
+	return _jsx("svg", {
+		xmlns: "http://www.w3.org/2000/svg",
+		viewBox: "0 0 24 24",
+		width: width,
+		height: height,
+		fill: color,
+		"aria-label": "Delete Row Table",
+		"aria-labelledby": "Delete Row Table",
+		"aria-hidden": true,
+		...props,
+		children: _jsx("path", {
+			d: "M20 5C20.5523 5 21 5.44772 21 6V12C21 12.5523 20.5523 13 20 13C20.628 13.8355 21 14.8743 21 16C21 18.7614 18.7614 21 16 21C13.2386 21 11 18.7614 11 16C11 14.8743 11.372 13.8355 11.9998 12.9998L4 13C3.44772 13 3 12.5523 3 12V6C3 5.44772 3.44772 5 4 5H20ZM13 15V17H19V15H13ZM19 7H5V11H19V7Z",
+		}),
+	});
 }
-DeleteRowIcon.displayName = 'DeleteRowIcon';
+DeleteRowIcon.displayName = "DeleteRowIcon";
 export default DeleteRowIcon;
 //# sourceMappingURL=delete-row-icon.js.map

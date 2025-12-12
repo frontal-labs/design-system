@@ -17,10 +17,7 @@ export default {
 			sourcemap: true,
 		},
 	],
-	external: [
-		/^next\//,
-		/^@frontal\//,
-	],
+	external: [/^next\//, /^@frontal\//],
 	plugins: [
 		resolve({
 			extensions: [".ts", ".tsx", ".js", ".jsx"],

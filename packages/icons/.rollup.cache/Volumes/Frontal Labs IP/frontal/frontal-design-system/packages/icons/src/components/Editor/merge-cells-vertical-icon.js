@@ -1,7 +1,25 @@
 import { jsx as _jsx } from "react/jsx-runtime";
-export function MergeCellsVerticalIcon({ width = 24, height = 24, color = 'currentColor', ...props }) {
-    return (_jsx("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", width: width, height: height, fill: color, "aria-label": "Merge Cells Vertical", "aria-labelledby": "Merge Cells Vertical", "aria-hidden": true, ...props, children: _jsx("path", { d: "M21 20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20C20.5523 3 21 3.44772 21 4V20ZM19 11V5H13.001V7H15L12 10L9 7H11V5H5V11H7V13H5V19H11V17H9L12 14L15 17H13.001V19H19V13H17V11H19ZM11 13H9V11H11V13ZM15 13H13V11H15V13Z" }) }));
+export function MergeCellsVerticalIcon({
+	width = 24,
+	height = 24,
+	color = "currentColor",
+	...props
+}) {
+	return _jsx("svg", {
+		xmlns: "http://www.w3.org/2000/svg",
+		viewBox: "0 0 24 24",
+		width: width,
+		height: height,
+		fill: color,
+		"aria-label": "Merge Cells Vertical",
+		"aria-labelledby": "Merge Cells Vertical",
+		"aria-hidden": true,
+		...props,
+		children: _jsx("path", {
+			d: "M21 20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20C20.5523 3 21 3.44772 21 4V20ZM19 11V5H13.001V7H15L12 10L9 7H11V5H5V11H7V13H5V19H11V17H9L12 14L15 17H13.001V19H19V13H17V11H19ZM11 13H9V11H11V13ZM15 13H13V11H15V13Z",
+		}),
+	});
 }
-MergeCellsVerticalIcon.displayName = 'MergeCellsVerticalIcon';
+MergeCellsVerticalIcon.displayName = "MergeCellsVerticalIcon";
 export default MergeCellsVerticalIcon;
 //# sourceMappingURL=merge-cells-vertical-icon.js.map

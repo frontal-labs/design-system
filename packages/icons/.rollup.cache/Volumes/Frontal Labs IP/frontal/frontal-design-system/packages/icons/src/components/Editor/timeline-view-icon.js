@@ -1,7 +1,25 @@
 import { jsx as _jsx } from "react/jsx-runtime";
-export function TimelineViewIcon({ width = 24, height = 24, color = 'currentColor', ...props }) {
-    return (_jsx("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", width: width, height: height, fill: color, "aria-label": "Timeline View List", "aria-labelledby": "Timeline View List", "aria-hidden": true, ...props, children: _jsx("path", { d: "M3 3C2.44772 3 2 3.44772 2 4V20C2 20.5523 2.44772 21 3 21H21C21.5523 21 22 20.5523 22 20V4C22 3.44772 21.5523 3 21 3H3ZM4 19V5H20V19H4ZM14 7H6V9H14V7ZM18 15V17H10V15H18ZM16 11H8V13H16V11Z" }) }));
+export function TimelineViewIcon({
+	width = 24,
+	height = 24,
+	color = "currentColor",
+	...props
+}) {
+	return _jsx("svg", {
+		xmlns: "http://www.w3.org/2000/svg",
+		viewBox: "0 0 24 24",
+		width: width,
+		height: height,
+		fill: color,
+		"aria-label": "Timeline View List",
+		"aria-labelledby": "Timeline View List",
+		"aria-hidden": true,
+		...props,
+		children: _jsx("path", {
+			d: "M3 3C2.44772 3 2 3.44772 2 4V20C2 20.5523 2.44772 21 3 21H21C21.5523 21 22 20.5523 22 20V4C22 3.44772 21.5523 3 21 3H3ZM4 19V5H20V19H4ZM14 7H6V9H14V7ZM18 15V17H10V15H18ZM16 11H8V13H16V11Z",
+		}),
+	});
 }
-TimelineViewIcon.displayName = 'TimelineViewIcon';
+TimelineViewIcon.displayName = "TimelineViewIcon";
 export default TimelineViewIcon;
 //# sourceMappingURL=timeline-view-icon.js.map

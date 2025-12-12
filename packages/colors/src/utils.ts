@@ -1,7 +1,45 @@
 // @frontal/colors - Utility functions
 
-import * as scales from "./scales";
+import {
+	blue,
+	blueDark,
+	brown,
+	brownDark,
+	cyan,
+	cyanDark,
+	gray,
+	grayDark,
+	green,
+	greenDark,
+	orange,
+	orangeDark,
+	pink,
+	pinkDark,
+	purple,
+	purpleDark,
+	red,
+	redDark,
+	teal,
+	tealDark,
+	yellow,
+	yellowDark,
+} from "./scales";
 import type { ColorScale, ColorScaleName, ColorShade } from "./types";
+
+// Static mapping to avoid dynamic namespace access
+const scaleMap: Record<string, { light: ColorScale; dark: ColorScale }> = {
+	gray: { light: gray, dark: grayDark },
+	blue: { light: blue, dark: blueDark },
+	cyan: { light: cyan, dark: cyanDark },
+	yellow: { light: yellow, dark: yellowDark },
+	brown: { light: brown, dark: brownDark },
+	green: { light: green, dark: greenDark },
+	teal: { light: teal, dark: tealDark },
+	pink: { light: pink, dark: pinkDark },
+	purple: { light: purple, dark: purpleDark },
+	orange: { light: orange, dark: orangeDark },
+	red: { light: red, dark: redDark },
+};
 
 /**
  * Get a color from a color scale by shade
@@ -15,9 +53,7 @@ export function getColor(
 	shade: ColorShade,
 	dark = false,
 ): string {
-	const scale = scales[dark ? `${scaleName}Dark` : scaleName] as
-		| ColorScale
-		| undefined;
+	const scale = scaleMap[scaleName]?.[dark ? "dark" : "light"];
 
 	if (!scale) {
 		throw new Error(`Color scale "${scaleName}" not found`);
@@ -40,9 +76,7 @@ export function getColor(
  * @returns Color scale object
  */
 export function getScale(scaleName: ColorScaleName, dark = false): ColorScale {
-	const scale = scales[dark ? `${scaleName}Dark` : scaleName] as
-		| ColorScale
-		| undefined;
+	const scale = scaleMap[scaleName]?.[dark ? "dark" : "light"];
 
 	if (!scale) {
 		throw new Error(`Color scale "${scaleName}" not found`);

@@ -1,7 +1,25 @@
 import { jsx as _jsx } from "react/jsx-runtime";
-export function FlightLandIcon({ width = 24, height = 24, color = 'currentColor', ...props }) {
-    return (_jsx("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", width: width, height: height, fill: color, "aria-label": "Airplane Flight Land", "aria-labelledby": "Airplane Flight Land", "aria-hidden": true, ...props, children: _jsx("path", { d: "M20.949 14.8882C20.7346 15.6884 19.9121 16.1633 19.1119 15.9489L3.44528 11.751C3.00205 11.6323 2.69653 11.2271 2.70424 10.7683L2.79514 5.36515L4.24403 5.75338L5.15891 9.10435L10.2542 10.4696L9.88479 2.08844L11.8166 2.60608L14.6269 11.6413L19.8883 13.0511C20.6885 13.2655 21.1634 14.088 20.949 14.8882ZM4.00008 19H20.0001V21H4.00008V19Z" }) }));
+export function FlightLandIcon({
+	width = 24,
+	height = 24,
+	color = "currentColor",
+	...props
+}) {
+	return _jsx("svg", {
+		xmlns: "http://www.w3.org/2000/svg",
+		viewBox: "0 0 24 24",
+		width: width,
+		height: height,
+		fill: color,
+		"aria-label": "Airplane Flight Land",
+		"aria-labelledby": "Airplane Flight Land",
+		"aria-hidden": true,
+		...props,
+		children: _jsx("path", {
+			d: "M20.949 14.8882C20.7346 15.6884 19.9121 16.1633 19.1119 15.9489L3.44528 11.751C3.00205 11.6323 2.69653 11.2271 2.70424 10.7683L2.79514 5.36515L4.24403 5.75338L5.15891 9.10435L10.2542 10.4696L9.88479 2.08844L11.8166 2.60608L14.6269 11.6413L19.8883 13.0511C20.6885 13.2655 21.1634 14.088 20.949 14.8882ZM4.00008 19H20.0001V21H4.00008V19Z",
+		}),
+	});
 }
-FlightLandIcon.displayName = 'FlightLandIcon';
+FlightLandIcon.displayName = "FlightLandIcon";
 export default FlightLandIcon;
 //# sourceMappingURL=flight-land-icon.js.map

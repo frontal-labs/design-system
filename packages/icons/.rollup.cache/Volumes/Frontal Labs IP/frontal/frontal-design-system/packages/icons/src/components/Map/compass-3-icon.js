@@ -1,7 +1,25 @@
 import { jsx as _jsx } from "react/jsx-runtime";
-export function Compass_3Icon({ width = 24, height = 24, color = 'currentColor', ...props }) {
-    return (_jsx("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", width: width, height: height, fill: color, "aria-label": "Compass Navigation Direction", "aria-labelledby": "Compass Navigation Direction", "aria-hidden": true, ...props, children: _jsx("path", { d: "M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM16.5 7.5L14 14L7.5 16.5L10 10L16.5 7.5ZM12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13Z" }) }));
+export function Compass_3Icon({
+	width = 24,
+	height = 24,
+	color = "currentColor",
+	...props
+}) {
+	return _jsx("svg", {
+		xmlns: "http://www.w3.org/2000/svg",
+		viewBox: "0 0 24 24",
+		width: width,
+		height: height,
+		fill: color,
+		"aria-label": "Compass Navigation Direction",
+		"aria-labelledby": "Compass Navigation Direction",
+		"aria-hidden": true,
+		...props,
+		children: _jsx("path", {
+			d: "M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM16.5 7.5L14 14L7.5 16.5L10 10L16.5 7.5ZM12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13Z",
+		}),
+	});
 }
-Compass_3Icon.displayName = 'Compass_3Icon';
+Compass_3Icon.displayName = "Compass_3Icon";
 export default Compass_3Icon;
 //# sourceMappingURL=compass-3-icon.js.map

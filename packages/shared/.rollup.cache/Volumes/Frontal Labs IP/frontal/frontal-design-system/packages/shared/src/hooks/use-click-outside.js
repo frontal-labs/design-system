@@ -6,22 +6,22 @@ import { useEffect, useRef } from "react";
  * @returns Ref to attach to the element
  */
 export function useClickOutside(handler) {
-    var ref = useRef(null);
-    useEffect(function () {
-        var listener = function (event) {
-            var el = ref === null || ref === void 0 ? void 0 : ref.current;
-            if (!el || el.contains(event.target)) {
-                return;
-            }
-            handler(event);
-        };
-        document.addEventListener("mousedown", listener);
-        document.addEventListener("touchstart", listener);
-        return function () {
-            document.removeEventListener("mousedown", listener);
-            document.removeEventListener("touchstart", listener);
-        };
-    }, [handler]);
-    return ref;
+	var ref = useRef(null);
+	useEffect(() => {
+		var listener = (event) => {
+			var el = ref === null || ref === void 0 ? void 0 : ref.current;
+			if (!el || el.contains(event.target)) {
+				return;
+			}
+			handler(event);
+		};
+		document.addEventListener("mousedown", listener);
+		document.addEventListener("touchstart", listener);
+		return () => {
+			document.removeEventListener("mousedown", listener);
+			document.removeEventListener("touchstart", listener);
+		};
+	}, [handler]);
+	return ref;
 }
 //# sourceMappingURL=use-click-outside.js.map

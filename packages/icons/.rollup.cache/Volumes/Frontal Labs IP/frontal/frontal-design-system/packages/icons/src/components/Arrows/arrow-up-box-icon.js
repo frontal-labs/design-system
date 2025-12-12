@@ -1,7 +1,25 @@
 import { jsx as _jsx } from "react/jsx-runtime";
-export function ArrowUpBoxIcon({ width = 24, height = 24, color = 'currentColor', ...props }) {
-    return (_jsx("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", width: width, height: height, fill: color, "aria-label": "Arrow Up Box", "aria-labelledby": "Arrow Up Box", "aria-hidden": true, ...props, children: _jsx("path", { d: "M20 3H4C3.44772 3 3 3.44772 3 4V20C3 20.5523 3.44772 21 4 21H20C20.5523 21 21 20.5523 21 20V4C21 3.44772 20.5523 3 20 3ZM5 19V5H19V19H5ZM12 6.34311L6.34315 12L7.75736 13.4142L11 10.1715V17.6568H13V10.1715L16.2426 13.4142L17.6569 12L12 6.34311Z" }) }));
+export function ArrowUpBoxIcon({
+	width = 24,
+	height = 24,
+	color = "currentColor",
+	...props
+}) {
+	return _jsx("svg", {
+		xmlns: "http://www.w3.org/2000/svg",
+		viewBox: "0 0 24 24",
+		width: width,
+		height: height,
+		fill: color,
+		"aria-label": "Arrow Up Box",
+		"aria-labelledby": "Arrow Up Box",
+		"aria-hidden": true,
+		...props,
+		children: _jsx("path", {
+			d: "M20 3H4C3.44772 3 3 3.44772 3 4V20C3 20.5523 3.44772 21 4 21H20C20.5523 21 21 20.5523 21 20V4C21 3.44772 20.5523 3 20 3ZM5 19V5H19V19H5ZM12 6.34311L6.34315 12L7.75736 13.4142L11 10.1715V17.6568H13V10.1715L16.2426 13.4142L17.6569 12L12 6.34311Z",
+		}),
+	});
 }
-ArrowUpBoxIcon.displayName = 'ArrowUpBoxIcon';
+ArrowUpBoxIcon.displayName = "ArrowUpBoxIcon";
 export default ArrowUpBoxIcon;
 //# sourceMappingURL=arrow-up-box-icon.js.map

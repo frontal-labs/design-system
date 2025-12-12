@@ -12,13 +12,7 @@
 		"incremental": true,
 		"paths": {
 			"@/*": ["./src/*"],
-			"@frontal/*": [
-				"../../packages/*",
-				"../../internals/*",
-				"../../services/*",
-				"../../testing/*",
-				"../../pipelines/*"
-			],
+			"@frontal/*": ["../../packages/*"],
 			"@frontal/ui/*": ["./src/*"]
 		}
 	},

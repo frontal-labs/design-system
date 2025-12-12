@@ -1,7 +1,25 @@
 import { jsx as _jsx } from "react/jsx-runtime";
-export function ArrowLeftBoxIcon({ width = 24, height = 24, color = 'currentColor', ...props }) {
-    return (_jsx("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", width: width, height: height, fill: color, "aria-label": "Arrow Left Box", "aria-labelledby": "Arrow Left Box", "aria-hidden": true, ...props, children: _jsx("path", { d: "M20 3H4C3.44772 3 3 3.44772 3 4V20C3 20.5523 3.44772 21 4 21H20C20.5523 21 21 20.5523 21 20V4C21 3.44772 20.5523 3 20 3ZM5 19V5H19V19H5ZM6.3436 12.001L12.0005 6.34412L13.4147 7.75834L10.172 11.001H17.6573V13.001H10.172L13.4147 16.2436L12.0005 17.6578L6.3436 12.001Z" }) }));
+export function ArrowLeftBoxIcon({
+	width = 24,
+	height = 24,
+	color = "currentColor",
+	...props
+}) {
+	return _jsx("svg", {
+		xmlns: "http://www.w3.org/2000/svg",
+		viewBox: "0 0 24 24",
+		width: width,
+		height: height,
+		fill: color,
+		"aria-label": "Arrow Left Box",
+		"aria-labelledby": "Arrow Left Box",
+		"aria-hidden": true,
+		...props,
+		children: _jsx("path", {
+			d: "M20 3H4C3.44772 3 3 3.44772 3 4V20C3 20.5523 3.44772 21 4 21H20C20.5523 21 21 20.5523 21 20V4C21 3.44772 20.5523 3 20 3ZM5 19V5H19V19H5ZM6.3436 12.001L12.0005 6.34412L13.4147 7.75834L10.172 11.001H17.6573V13.001H10.172L13.4147 16.2436L12.0005 17.6578L6.3436 12.001Z",
+		}),
+	});
 }
-ArrowLeftBoxIcon.displayName = 'ArrowLeftBoxIcon';
+ArrowLeftBoxIcon.displayName = "ArrowLeftBoxIcon";
 export default ArrowLeftBoxIcon;
 //# sourceMappingURL=arrow-left-box-icon.js.map
