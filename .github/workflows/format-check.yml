@@ -1,0 +1,50 @@
+# Description: Checks code formatting on pull requests.
+name: Format Check
+
+on:
+  pull_request:
+    branches: ["*"]
+
+jobs:
+  format-check:
+    runs-on: ubuntu-latest
+    name: Format Check
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          check-latest: true
+
+      - name: Enable pnpm via Corepack
+        run: |
+          corepack enable
+          corepack prepare pnpm@latest --activate
+
+      - name: Cache pnpm store
+        uses: actions/cache@v4
+        with:
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Check formatting
+        run: |
+          # Format files and check if there are any changes
+          pnpm format
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "❌ Files are not properly formatted. Please run 'pnpm format' and commit the changes."
+            git diff
+            exit 1
+          else
+            echo "✅ All files are properly formatted."
+          fi
+
