@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"list",
 		"ordered list",
@@ -9,5 +9,8 @@
 		"editor",
 		"formatting"
 	],
-	"categories": ["editors", "lists"]
+	"categories": [
+		"editors",
+		"lists"
+	]
 }

@@ -1,5 +1,16 @@
 {
-	"$schema": "../../../../icon.schema.json",
-	"tags": ["list", "bullet", "circle", "dot", "indefinite", "editor", "text"],
-	"categories": ["editors", "lists"]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"list",
+		"bullet",
+		"circle",
+		"dot",
+		"indefinite",
+		"editor",
+		"text"
+	],
+	"categories": [
+		"editors",
+		"lists"
+	]
 }

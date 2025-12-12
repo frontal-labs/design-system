@@ -1,4 +1,4 @@
-import { Plus } from "lucide-react";
+import { Plus } from "@frontal/icons";
 import type * as React from "react";
 
 import { Calendars } from "@/registry/new-york-v4/blocks/sidebar-12/components/calendars";

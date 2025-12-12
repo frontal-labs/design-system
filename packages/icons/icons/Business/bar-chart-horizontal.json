@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"bar chart",
 		"horizontal",
@@ -10,5 +10,8 @@
 		"business",
 		"report"
 	],
-	"categories": ["charts", "business"]
+	"categories": [
+		"charts",
+		"business"
+	]
 }

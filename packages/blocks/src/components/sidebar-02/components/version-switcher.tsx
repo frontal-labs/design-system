@@ -1,6 +1,6 @@
 "use client";
 
-import { Check, ChevronsUpDown, GalleryVerticalEnd } from "lucide-react";
+import { Check, ChevronsUpDown, GalleryVerticalEnd } from "@frontal/icons";
 import * as React from "react";
 
 import {

@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"cake",
 		"food",
@@ -9,5 +9,8 @@
 		"celebration",
 		"baked goods"
 	],
-	"categories": ["food", "desserts"]
+	"categories": [
+		"food",
+		"desserts"
+	]
 }

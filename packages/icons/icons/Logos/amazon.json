@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"amazon",
 		"ecommerce",
@@ -9,5 +9,8 @@
 		"logo",
 		"brand"
 	],
-	"categories": ["logos", "brand"]
+	"categories": [
+		"logos",
+		"brand"
+	]
 }

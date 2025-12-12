@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"tent",
 		"camping",
@@ -10,5 +10,8 @@
 		"pavilion",
 		"accommodation"
 	],
-	"categories": ["buildings", "outdoors"]
+	"categories": [
+		"buildings",
+		"outdoors"
+	]
 }

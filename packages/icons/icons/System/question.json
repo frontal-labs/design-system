@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "question",
-    "help",
-    "information",
-    "circle",
-    "symbol",
-    "faq",
-    "support",
-    "query"
-  ],
-  "categories": [
-    "symbols",
-    "systems"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"question",
+		"help",
+		"information",
+		"circle",
+		"symbol",
+		"faq",
+		"support",
+		"query"
+	],
+	"categories": [
+		"symbols",
+		"systems"
+	]
 }

@@ -1,4 +1,4 @@
-import type { LucideIcon } from "lucide-react";
+import type { IconComponent } from "@frontal/icons";
 import type React from "react";
 
 import {
@@ -17,7 +17,7 @@ export function NavSecondary({
 	items: {
 		title: string;
 		url: string;
-		icon: LucideIcon;
+		icon: IconComponent;
 		badge?: React.ReactNode;
 	}[];
 } & React.ComponentPropsWithoutRef<typeof SidebarGroup>) {

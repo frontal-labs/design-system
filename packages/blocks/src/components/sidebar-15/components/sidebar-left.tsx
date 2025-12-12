@@ -12,7 +12,7 @@ import {
 	Settings2,
 	Sparkles,
 	Trash2,
-} from "lucide-react";
+} from "@frontal/icons";
 import type * as React from "react";
 
 import { NavFavorites } from "@/registry/new-york-v4/blocks/sidebar-15/components/nav-favorites";

@@ -1,19 +1,19 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "genderless",
-    "symbol",
-    "circle",
-    "unisex",
-    "human",
-    "neutral",
-    "people",
-    "identity",
-    "nonbinary",
-    "user"
-  ],
-  "categories": [
-    "people",
-    "symbols"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"genderless",
+		"symbol",
+		"circle",
+		"unisex",
+		"human",
+		"neutral",
+		"people",
+		"identity",
+		"nonbinary",
+		"user"
+	],
+	"categories": [
+		"people",
+		"symbols"
+	]
 }

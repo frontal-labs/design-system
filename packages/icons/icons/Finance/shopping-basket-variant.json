@@ -1,0 +1,17 @@
+{
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"shopping",
+		"basket",
+		"finance",
+		"e-commerce",
+		"purchase",
+		"retail",
+		"cart",
+		"transaction"
+	],
+	"categories": [
+		"shopping",
+		"finance"
+	]
+}

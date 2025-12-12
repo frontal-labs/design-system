@@ -7,7 +7,7 @@ import {
 	CreditCard,
 	LogOut,
 	Sparkles,
-} from "lucide-react";
+} from "@frontal/icons";
 
 import {
 	Avatar,

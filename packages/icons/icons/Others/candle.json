@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "candle",
-    "flame",
-    "religion",
-    "ceremony",
-    "worship",
-    "lit",
-    "wax",
-    "symbol"
-  ],
-  "categories": [
-    "religions",
-    "symbols"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"candle",
+		"flame",
+		"religion",
+		"ceremony",
+		"worship",
+		"lit",
+		"wax",
+		"symbol"
+	],
+	"categories": [
+		"religions",
+		"symbols"
+	]
 }

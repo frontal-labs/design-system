@@ -1,0 +1,17 @@
+{
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"key",
+		"lock",
+		"security",
+		"access",
+		"hardware",
+		"authentication",
+		"door",
+		"keyhole"
+	],
+	"categories": [
+		"hardware",
+		"security"
+	]
+}

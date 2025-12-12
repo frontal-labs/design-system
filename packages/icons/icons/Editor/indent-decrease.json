@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"indent",
 		"decrease",
@@ -10,5 +10,8 @@
 		"list",
 		"document"
 	],
-	"categories": ["arrows", "editor"]
+	"categories": [
+		"arrows",
+		"editor"
+	]
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowDownFromLine, ArrowUpFromLine, TrendingUp } from "lucide-react";
+import { ArrowDownIcon, ArrowUpIcon } from "@frontal/icons";
 import { PolarAngleAxis, PolarGrid, Radar, RadarChart } from "recharts";
 
 import {
@@ -35,12 +35,12 @@ const chartConfig = {
 	desktop: {
 		label: "Desktop",
 		color: "var(--chart-1)",
-		icon: ArrowDownFromLine,
+		icon: ArrowDownIcon,
 	},
 	mobile: {
 		label: "Mobile",
 		color: "var(--chart-2)",
-		icon: ArrowUpFromLine,
+		icon: ArrowUpIcon,
 	},
 } satisfies ChartConfig;
 
@@ -83,7 +83,7 @@ export function ChartRadarIcons() {
 			</CardContent>
 			<CardFooter className="flex-col gap-2 pt-4 text-sm">
 				<div className="flex items-center gap-2 leading-none font-medium">
-					Trending up by 5.2% this month <TrendingUp className="h-4 w-4" />
+					Trending up by 5.2% this month <ArrowUpIcon className="h-4 w-4" />
 				</div>
 				<div className="text-muted-foreground flex items-center gap-2 leading-none">
 					January - June 2024

@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"coupon",
 		"voucher",
@@ -11,5 +11,8 @@
 		"money",
 		"bar"
 	],
-	"categories": ["finance", "documents"]
+	"categories": [
+		"finance",
+		"documents"
+	]
 }

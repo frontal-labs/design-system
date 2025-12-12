@@ -1,6 +1,6 @@
 "use client";
 
-import { SidebarIcon } from "lucide-react";
+import { SidebarIcon } from "@frontal/icons";
 
 import { SearchForm } from "@/registry/new-york-v4/blocks/sidebar-16/components/search-form";
 import {

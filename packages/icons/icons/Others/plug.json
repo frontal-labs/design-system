@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "plug",
-    "electricity",
-    "power",
-    "cable",
-    "socket",
-    "charging",
-    "connect",
-    "wire"
-  ],
-  "categories": [
-    "electronics",
-    "devices"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"plug",
+		"electricity",
+		"power",
+		"cable",
+		"socket",
+		"charging",
+		"connect",
+		"wire"
+	],
+	"categories": [
+		"electronics",
+		"devices"
+	]
 }

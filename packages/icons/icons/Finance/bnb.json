@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"bnb",
 		"binance",
@@ -10,5 +10,8 @@
 		"token",
 		"blockchain"
 	],
-	"categories": ["finance", "cryptocurrency"]
+	"categories": [
+		"finance",
+		"cryptocurrency"
+	]
 }

@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"luggage",
 		"cart",
@@ -9,5 +9,8 @@
 		"vehicle",
 		"transport"
 	],
-	"categories": ["transport", "travel"]
+	"categories": [
+		"transport",
+		"travel"
+	]
 }

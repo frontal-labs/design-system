@@ -1,0 +1,17 @@
+{
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"safe",
+		"vault",
+		"bank",
+		"money",
+		"lock",
+		"security",
+		"finance",
+		"protect"
+	],
+	"categories": [
+		"finance",
+		"security"
+	]
+}

@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"text",
 		"strikethrough",
@@ -10,5 +10,8 @@
 		"crossed-out",
 		"font"
 	],
-	"categories": ["editor", "typography"]
+	"categories": [
+		"editor",
+		"typography"
+	]
 }

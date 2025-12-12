@@ -3,7 +3,7 @@ import {
 	EllipsisVerticalIcon,
 	ListFilterIcon,
 	PlusIcon,
-} from "lucide-react";
+} from "@frontal/icons";
 
 import { Badge } from "@/registry/new-york-v4/ui/badge";
 import { Button } from "@/registry/new-york-v4/ui/button";

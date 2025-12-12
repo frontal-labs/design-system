@@ -1,0 +1,17 @@
+{
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"layout",
+		"columns",
+		"grid",
+		"right",
+		"two",
+		"design",
+		"interface",
+		"ui"
+	],
+	"categories": [
+		"design",
+		"layouts"
+	]
+}

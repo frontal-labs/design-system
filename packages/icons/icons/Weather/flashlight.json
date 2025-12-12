@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "flashlight",
-    "light",
-    "beam",
-    "battery",
-    "weather",
-    "sunny",
-    "illumination",
-    "device"
-  ],
-  "categories": [
-    "weather",
-    "tools"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"flashlight",
+		"light",
+		"beam",
+		"battery",
+		"weather",
+		"sunny",
+		"illumination",
+		"device"
+	],
+	"categories": [
+		"weather",
+		"tools"
+	]
 }

@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"camera",
 		"lens",
@@ -11,5 +11,8 @@
 		"camera icon",
 		"camera view"
 	],
-	"categories": ["media", "devices"]
+	"categories": [
+		"media",
+		"devices"
+	]
 }

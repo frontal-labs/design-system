@@ -13,7 +13,7 @@ import {
 	Paintbrush,
 	Settings,
 	Video,
-} from "lucide-react";
+} from "@frontal/icons";
 import * as React from "react";
 
 import {

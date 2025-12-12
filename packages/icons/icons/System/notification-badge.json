@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "notification",
-    "badge",
-    "bell",
-    "alert",
-    "message",
-    "system",
-    "status",
-    "notification-badge"
-  ],
-  "categories": [
-    "system",
-    "notifications"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"notification",
+		"badge",
+		"bell",
+		"alert",
+		"message",
+		"system",
+		"status",
+		"notification-badge"
+	],
+	"categories": [
+		"system",
+		"notifications"
+	]
 }

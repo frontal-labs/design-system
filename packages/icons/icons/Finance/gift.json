@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"gift",
 		"present",
@@ -11,5 +11,8 @@
 		"christmas",
 		"finance"
 	],
-	"categories": ["design", "finance"]
+	"categories": [
+		"design",
+		"finance"
+	]
 }

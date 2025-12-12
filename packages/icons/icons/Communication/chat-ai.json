@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"chat",
 		"speech-bubble",
@@ -12,5 +12,7 @@
 		"text",
 		"bubble"
 	],
-	"categories": ["communication"]
+	"categories": [
+		"communication"
+	]
 }

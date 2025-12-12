@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"goblet",
 		"broken",
@@ -10,5 +10,8 @@
 		"cracked",
 		"tableware"
 	],
-	"categories": ["food", "tableware"]
+	"categories": [
+		"food",
+		"tableware"
+	]
 }

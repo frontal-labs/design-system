@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"projector",
 		"screen",
@@ -10,5 +10,8 @@
 		"business",
 		"technology"
 	],
-	"categories": ["business", "technology"]
+	"categories": [
+		"business",
+		"technology"
+	]
 }

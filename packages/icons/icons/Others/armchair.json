@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "armchair",
-    "furniture",
-    "chair",
-    "seat",
-    "home",
-    "livingroom",
-    "sitting",
-    "decor"
-  ],
-  "categories": [
-    "furniture",
-    "design"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"armchair",
+		"furniture",
+		"chair",
+		"seat",
+		"home",
+		"livingroom",
+		"sitting",
+		"decor"
+	],
+	"categories": [
+		"furniture",
+		"design"
+	]
 }

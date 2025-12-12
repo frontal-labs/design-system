@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"movie",
 		"film",
@@ -11,5 +11,8 @@
 		"play button",
 		"movie icon"
 	],
-	"categories": ["media", "design"]
+	"categories": [
+		"media",
+		"design"
+	]
 }

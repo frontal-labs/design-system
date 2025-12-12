@@ -1,4 +1,4 @@
-import { ChevronRight, MoreHorizontal, Plus } from "lucide-react";
+import { ArrowRightIcon, MoreIcon, AddIcon } from "@frontal/icons";
 
 import {
 	Collapsible,
@@ -49,11 +49,11 @@ export function NavWorkspaces({
 										className="bg-sidebar-accent text-sidebar-accent-foreground left-2 data-[state=open]:rotate-90"
 										showOnHover
 									>
-										<ChevronRight />
+										<ArrowRightIcon />
 									</SidebarMenuAction>
 								</CollapsibleTrigger>
 								<SidebarMenuAction showOnHover>
-									<Plus />
+									<AddIcon />
 								</SidebarMenuAction>
 								<CollapsibleContent>
 									<SidebarMenuSub>
@@ -74,7 +74,7 @@ export function NavWorkspaces({
 					))}
 					<SidebarMenuItem>
 						<SidebarMenuButton className="text-sidebar-foreground/70">
-							<MoreHorizontal />
+							<MoreIcon />
 							<span>More</span>
 						</SidebarMenuButton>
 					</SidebarMenuItem>

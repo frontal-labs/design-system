@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"eject",
 		"media",
@@ -11,5 +11,8 @@
 		"icon",
 		"device"
 	],
-	"categories": ["media", "transport"]
+	"categories": [
+		"media",
+		"transport"
+	]
 }

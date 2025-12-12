@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"behance",
 		"social media",
@@ -10,5 +10,7 @@
 		"network",
 		"platform"
 	],
-	"categories": ["logos"]
+	"categories": [
+		"logos"
+	]
 }

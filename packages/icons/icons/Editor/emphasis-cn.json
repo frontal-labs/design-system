@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"highlight",
 		"pen",
@@ -9,5 +9,8 @@
 		"annotation",
 		"note"
 	],
-	"categories": ["design", "editor"]
+	"categories": [
+		"design",
+		"editor"
+	]
 }

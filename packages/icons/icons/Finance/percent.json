@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"percent",
 		"ratio",
@@ -10,5 +10,8 @@
 		"division",
 		"currency"
 	],
-	"categories": ["symbols", "finance"]
+	"categories": [
+		"symbols",
+		"finance"
+	]
 }

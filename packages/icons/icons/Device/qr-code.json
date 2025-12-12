@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"qr",
 		"code",
@@ -11,5 +11,8 @@
 		"square",
 		"icon"
 	],
-	"categories": ["devices", "barcodes"]
+	"categories": [
+		"devices",
+		"barcodes"
+	]
 }

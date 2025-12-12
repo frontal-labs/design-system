@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "zoom",
-    "magnifying glass",
-    "plus",
-    "search",
-    "increase",
-    "view",
-    "magnifier",
-    "icon"
-  ],
-  "categories": [
-    "navigation",
-    "design"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"zoom",
+		"magnifying glass",
+		"plus",
+		"search",
+		"increase",
+		"view",
+		"magnifier",
+		"icon"
+	],
+	"categories": [
+		"navigation",
+		"design"
+	]
 }

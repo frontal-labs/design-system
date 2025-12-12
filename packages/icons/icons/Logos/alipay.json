@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"alipay",
 		"payment",
@@ -10,5 +10,8 @@
 		"mobile payment",
 		"currency"
 	],
-	"categories": ["logos", "finance"]
+	"categories": [
+		"logos",
+		"finance"
+	]
 }

@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"registered",
 		"circle",
@@ -10,5 +10,8 @@
 		"trademark",
 		"intellectual property"
 	],
-	"categories": ["symbols", "business"]
+	"categories": [
+		"symbols",
+		"business"
+	]
 }

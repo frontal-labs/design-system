@@ -1,6 +1,6 @@
 "use client";
 
-import { GitCommitVertical, TrendingUp } from "lucide-react";
+import { GitCommitIcon, ArrowUpIcon } from "@frontal/icons";
 import { CartesianGrid, Line, LineChart, XAxis } from "recharts";
 
 import {
@@ -77,7 +77,7 @@ export function ChartLineDotsCustom() {
 							dot={({ cx, cy, payload }) => {
 								const r = 24;
 								return (
-									<GitCommitVertical
+									<GitCommitIcon
 										key={payload.month}
 										x={cx - r / 2}
 										y={cy - r / 2}
@@ -94,7 +94,7 @@ export function ChartLineDotsCustom() {
 			</CardContent>
 			<CardFooter className="flex-col items-start gap-2 text-sm">
 				<div className="flex gap-2 leading-none font-medium">
-					Trending up by 5.2% this month <TrendingUp className="h-4 w-4" />
+					Trending up by 5.2% this month <ArrowUpIcon className="h-4 w-4" />
 				</div>
 				<div className="text-muted-foreground leading-none">
 					Showing total visitors for the last 6 months

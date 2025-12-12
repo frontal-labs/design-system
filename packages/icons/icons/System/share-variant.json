@@ -1,0 +1,17 @@
+{
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"share",
+		"arrow",
+		"send",
+		"network",
+		"social",
+		"distribution",
+		"link",
+		"communication"
+	],
+	"categories": [
+		"actions",
+		"communications"
+	]
+}

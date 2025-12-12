@@ -1,16 +1,16 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "menu",
-    "search",
-    "magnifying-glass",
-    "list",
-    "navigation",
-    "ui",
-    "system"
-  ],
-  "categories": [
-    "navigation",
-    "systems"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"menu",
+		"search",
+		"magnifying-glass",
+		"list",
+		"navigation",
+		"ui",
+		"system"
+	],
+	"categories": [
+		"navigation",
+		"systems"
+	]
 }

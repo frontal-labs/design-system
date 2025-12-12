@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"file",
 		"shield",
@@ -9,5 +9,8 @@
 		"lock",
 		"file‑shield"
 	],
-	"categories": ["documents", "security"]
+	"categories": [
+		"documents",
+		"security"
+	]
 }

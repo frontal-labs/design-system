@@ -1,0 +1,16 @@
+{
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"file",
+		"document",
+		"word",
+		"office",
+		"text",
+		"letter",
+		"document-file"
+	],
+	"categories": [
+		"documents",
+		"files"
+	]
+}

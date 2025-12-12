@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"thermometer",
 		"temperature",
@@ -10,5 +10,8 @@
 		"medical equipment",
 		"gauge"
 	],
-	"categories": ["medical", "design"]
+	"categories": [
+		"medical",
+		"design"
+	]
 }

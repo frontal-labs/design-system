@@ -1,4 +1,4 @@
-import { ChevronRight, File, Folder } from "lucide-react";
+import { ArrowRightIcon, FileIcon, FolderIcon } from "@frontal/icons";
 import type * as React from "react";
 
 import {
@@ -75,7 +75,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 							{data.changes.map((item, index) => (
 								<SidebarMenuItem key={index}>
 									<SidebarMenuButton>
-										<File />
+										<FileIcon />
 										{item.file}
 									</SidebarMenuButton>
 									<SidebarMenuBadge>{item.state}</SidebarMenuBadge>
@@ -125,8 +125,8 @@ function Tree({ item }: { item: TreeItem }) {
 			>
 				<CollapsibleTrigger asChild>
 					<SidebarMenuButton>
-						<ChevronRight className="transition-transform" />
-						<Folder />
+						<ArrowRightIcon className="transition-transform" />
+						<FolderIcon />
 						{name}
 					</SidebarMenuButton>
 				</CollapsibleTrigger>

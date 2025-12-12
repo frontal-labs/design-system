@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "contacts",
-    "people",
-    "user",
-    "profile",
-    "group",
-    "list",
-    "multiple",
-    "avatar"
-  ],
-  "categories": [
-    "people",
-    "icons"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"contacts",
+		"people",
+		"user",
+		"profile",
+		"group",
+		"list",
+		"multiple",
+		"avatar"
+	],
+	"categories": [
+		"people",
+		"icons"
+	]
 }

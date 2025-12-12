@@ -1,5 +1,8 @@
 @import "tailwindcss";
 @import "@frontal/colors/styles/colors.css";
+@import "@frontal/typeface/styles/fonts.css";
+@import "@frontal/ui/styles/components.css";
+@import "@frontal/charts/styles/charts.css";
 
 @custom-variant dark (&:is(.dark *));
 

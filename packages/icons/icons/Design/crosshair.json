@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"crosshair",
 		"target",
@@ -10,5 +10,8 @@
 		"selection",
 		"precision"
 	],
-	"categories": ["design", "navigation"]
+	"categories": [
+		"design",
+		"navigation"
+	]
 }

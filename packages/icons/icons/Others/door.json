@@ -1,18 +1,18 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "door",
-    "entry",
-    "lock",
-    "building",
-    "architecture",
-    "interior",
-    "hallway",
-    "open",
-    "closed"
-  ],
-  "categories": [
-    "design",
-    "navigation"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"door",
+		"entry",
+		"lock",
+		"building",
+		"architecture",
+		"interior",
+		"hallway",
+		"open",
+		"closed"
+	],
+	"categories": [
+		"design",
+		"navigation"
+	]
 }

@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"brain",
 		"ai",
@@ -10,5 +10,8 @@
 		"neuroscience",
 		"technology"
 	],
-	"categories": ["design", "health"]
+	"categories": [
+		"design",
+		"health"
+	]
 }

@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"drinks",
 		"beverage",
@@ -10,5 +10,8 @@
 		"drinkware",
 		"cocktail"
 	],
-	"categories": ["food", "drinks"]
+	"categories": [
+		"food",
+		"drinks"
+	]
 }

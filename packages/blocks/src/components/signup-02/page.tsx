@@ -1,4 +1,4 @@
-import { GalleryVerticalEnd } from "lucide-react";
+import { GalleryVerticalEnd } from "@frontal/icons";
 
 import { SignupForm } from "@/registry/new-york-v4/blocks/signup-02/components/signup-form";
 

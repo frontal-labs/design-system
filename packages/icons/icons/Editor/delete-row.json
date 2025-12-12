@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"delete",
 		"row",
@@ -11,5 +11,8 @@
 		"action",
 		"command"
 	],
-	"categories": ["editors", "tables"]
+	"categories": [
+		"editors",
+		"tables"
+	]
 }

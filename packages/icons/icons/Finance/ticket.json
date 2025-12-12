@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"ticket",
 		"finance",
@@ -12,5 +12,8 @@
 		"cash",
 		"ticketing"
 	],
-	"categories": ["finance", "documents"]
+	"categories": [
+		"finance",
+		"documents"
+	]
 }

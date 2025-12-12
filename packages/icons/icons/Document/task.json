@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"task",
 		"checkmark",
@@ -9,5 +9,8 @@
 		"completed",
 		"task-list"
 	],
-	"categories": ["documents", "tasks"]
+	"categories": [
+		"documents",
+		"tasks"
+	]
 }

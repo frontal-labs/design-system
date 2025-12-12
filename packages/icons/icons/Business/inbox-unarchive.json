@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"inbox",
 		"unarchive",
@@ -9,5 +9,8 @@
 		"archive",
 		"return"
 	],
-	"categories": ["arrows", "business"]
+	"categories": [
+		"arrows",
+		"business"
+	]
 }

@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "video",
-    "upload",
-    "arrow",
-    "camera",
-    "media",
-    "file",
-    "cloud",
-    "action"
-  ],
-  "categories": [
-    "media",
-    "actions"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"video",
+		"upload",
+		"arrow",
+		"camera",
+		"media",
+		"file",
+		"cloud",
+		"action"
+	],
+	"categories": [
+		"media",
+		"actions"
+	]
 }

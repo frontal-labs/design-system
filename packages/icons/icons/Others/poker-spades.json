@@ -1,18 +1,18 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "poker",
-    "spade",
-    "card",
-    "playing card",
-    "deck",
-    "black",
-    "symbol",
-    "game",
-    "shapes"
-  ],
-  "categories": [
-    "cards",
-    "symbols"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"poker",
+		"spade",
+		"card",
+		"playing card",
+		"deck",
+		"black",
+		"symbol",
+		"game",
+		"shapes"
+	],
+	"categories": [
+		"cards",
+		"symbols"
+	]
 }

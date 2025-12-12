@@ -1,7 +1,7 @@
 "use client";
 
 import { formatDateRange } from "little-date";
-import { PlusIcon } from "lucide-react";
+import { PlusIcon } from "@frontal/icons";
 import * as React from "react";
 
 import { Button } from "@/registry/new-york-v4/ui/button";

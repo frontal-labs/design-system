@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"brush",
 		"paint",
@@ -10,5 +10,8 @@
 		"color",
 		"brushstroke"
 	],
-	"categories": ["designs", "tools"]
+	"categories": [
+		"designs",
+		"tools"
+	]
 }

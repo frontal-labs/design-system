@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"signal",
 		"tower",
@@ -11,5 +11,8 @@
 		"navigation",
 		"location"
 	],
-	"categories": ["map", "navigation"]
+	"categories": [
+		"map",
+		"navigation"
+	]
 }

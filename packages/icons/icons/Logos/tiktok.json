@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"tiktok",
 		"social media",
@@ -10,5 +10,8 @@
 		"brand",
 		"platform"
 	],
-	"categories": ["logos", "social media"]
+	"categories": [
+		"logos",
+		"social media"
+	]
 }

@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"pass",
 		"expired",
@@ -10,5 +10,8 @@
 		"warning",
 		"business"
 	],
-	"categories": ["business", "statuses"]
+	"categories": [
+		"business",
+		"statuses"
+	]
 }

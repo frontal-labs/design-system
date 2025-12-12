@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"film",
 		"movie",
@@ -10,5 +10,8 @@
 		"filmstrip",
 		"icon"
 	],
-	"categories": ["media", "films"]
+	"categories": [
+		"media",
+		"films"
+	]
 }

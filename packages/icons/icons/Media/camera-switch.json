@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"camera",
 		"switch",
@@ -10,5 +10,8 @@
 		"camera-toggle",
 		"camera-switch-icon"
 	],
-	"categories": ["media", "arrows"]
+	"categories": [
+		"media",
+		"arrows"
+	]
 }

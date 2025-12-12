@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"git",
 		"pull-request",
@@ -10,5 +10,8 @@
 		"github",
 		"code"
 	],
-	"categories": ["development", "design"]
+	"categories": [
+		"development",
+		"design"
+	]
 }

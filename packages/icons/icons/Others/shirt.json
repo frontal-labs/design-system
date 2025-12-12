@@ -1,19 +1,19 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "shirt",
-    "clothing",
-    "fashion",
-    "garment",
-    "top",
-    "apparel",
-    "t-shirt",
-    "casual",
-    "wear",
-    "outfit"
-  ],
-  "categories": [
-    "clothing",
-    "fashion"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"shirt",
+		"clothing",
+		"fashion",
+		"garment",
+		"top",
+		"apparel",
+		"t-shirt",
+		"casual",
+		"wear",
+		"outfit"
+	],
+	"categories": [
+		"clothing",
+		"fashion"
+	]
 }

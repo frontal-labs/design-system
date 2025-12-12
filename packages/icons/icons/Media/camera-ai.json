@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"camera",
 		"ai",
@@ -10,5 +10,8 @@
 		"media",
 		"surveillance"
 	],
-	"categories": ["media", "devices"]
+	"categories": [
+		"media",
+		"devices"
+	]
 }

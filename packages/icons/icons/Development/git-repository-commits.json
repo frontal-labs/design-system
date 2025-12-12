@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"git",
 		"repository",
@@ -10,5 +10,8 @@
 		"branch",
 		"document"
 	],
-	"categories": ["development", "source-control"]
+	"categories": [
+		"development",
+		"source-control"
+	]
 }

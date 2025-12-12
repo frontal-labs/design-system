@@ -1,4 +1,4 @@
-import { GalleryVerticalEnd } from "lucide-react";
+import { GalleryVerticalEnd } from "@frontal/icons";
 import type * as React from "react";
 
 import {

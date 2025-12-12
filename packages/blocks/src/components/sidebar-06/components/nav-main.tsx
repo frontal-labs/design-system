@@ -1,6 +1,6 @@
 "use client";
 
-import { type LucideIcon, MoreHorizontal } from "lucide-react";
+import { type LucideIcon, MoreHorizontal } from "@frontal/icons";
 
 import {
 	DropdownMenu,
@@ -22,7 +22,7 @@ export function NavMain({
 	items: {
 		title: string;
 		url: string;
-		icon?: LucideIcon;
+		icon?: IconComponent;
 		isActive?: boolean;
 		items?: {
 			title: string;

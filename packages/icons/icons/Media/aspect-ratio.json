@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"aspect-ratio",
 		"ratio",
@@ -10,5 +10,8 @@
 		"frame",
 		"resolution"
 	],
-	"categories": ["media", "design"]
+	"categories": [
+		"media",
+		"design"
+	]
 }

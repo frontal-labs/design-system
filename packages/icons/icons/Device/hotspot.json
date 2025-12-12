@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"hotspot",
 		"device",
@@ -11,5 +11,8 @@
 		"computer",
 		"icon"
 	],
-	"categories": ["devices", "communication"]
+	"categories": [
+		"devices",
+		"communication"
+	]
 }

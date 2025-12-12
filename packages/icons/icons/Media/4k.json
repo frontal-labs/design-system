@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"4k",
 		"video",
@@ -10,5 +10,8 @@
 		"screen",
 		"HD"
 	],
-	"categories": ["media", "video"]
+	"categories": [
+		"media",
+		"video"
+	]
 }

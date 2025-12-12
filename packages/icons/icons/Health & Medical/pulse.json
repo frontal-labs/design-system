@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"pulse",
 		"heartbeat",
@@ -10,5 +10,8 @@
 		"vital-sign",
 		"signal"
 	],
-	"categories": ["health", "medical"]
+	"categories": [
+		"health",
+		"medical"
+	]
 }

@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"ethereum",
 		"crypto",
@@ -10,5 +10,8 @@
 		"finance",
 		"digital currency"
 	],
-	"categories": ["finance", "design"]
+	"categories": [
+		"finance",
+		"design"
+	]
 }

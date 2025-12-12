@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"merge",
 		"cells",
@@ -9,5 +9,8 @@
 		"spreadsheet",
 		"combine"
 	],
-	"categories": ["editors", "tables"]
+	"categories": [
+		"editors",
+		"tables"
+	]
 }

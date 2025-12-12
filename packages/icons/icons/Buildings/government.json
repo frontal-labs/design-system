@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"government",
 		"building",
@@ -10,5 +10,8 @@
 		"public",
 		"courthouse"
 	],
-	"categories": ["buildings", "government"]
+	"categories": [
+		"buildings",
+		"government"
+	]
 }

@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"carousel",
 		"view",
@@ -10,5 +10,8 @@
 		"rectangles",
 		"dashboard"
 	],
-	"categories": ["editor", "layout"]
+	"categories": [
+		"editor",
+		"layout"
+	]
 }

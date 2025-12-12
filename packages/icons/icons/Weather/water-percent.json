@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "water",
-    "percent",
-    "droplet",
-    "percentage",
-    "weather",
-    "rain",
-    "forecast",
-    "symbol"
-  ],
-  "categories": [
-    "weather",
-    "symbols"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"water",
+		"percent",
+		"droplet",
+		"percentage",
+		"weather",
+		"rain",
+		"forecast",
+		"symbol"
+	],
+	"categories": [
+		"weather",
+		"symbols"
+	]
 }

@@ -1,16 +1,16 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "play",
-    "forward",
-    "speed",
-    "arrow",
-    "media",
-    "circle",
-    "fast-forward"
-  ],
-  "categories": [
-    "media",
-    "arrows"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"play",
+		"forward",
+		"speed",
+		"arrow",
+		"media",
+		"circle",
+		"fast-forward"
+	],
+	"categories": [
+		"media",
+		"arrows"
+	]
 }

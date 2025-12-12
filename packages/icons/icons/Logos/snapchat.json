@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"snapchat",
 		"social media",
@@ -9,5 +9,8 @@
 		"chat",
 		"brand"
 	],
-	"categories": ["logos", "social-media"]
+	"categories": [
+		"logos",
+		"social-media"
+	]
 }

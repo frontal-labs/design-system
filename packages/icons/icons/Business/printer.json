@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"printer",
 		"print",
@@ -10,5 +10,8 @@
 		"device",
 		"machine"
 	],
-	"categories": ["business", "office"]
+	"categories": [
+		"business",
+		"office"
+	]
 }

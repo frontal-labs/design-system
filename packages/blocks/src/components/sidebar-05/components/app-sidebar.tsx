@@ -1,4 +1,4 @@
-import { GalleryVerticalEnd, Minus, Plus } from "lucide-react";
+import { GalleryVerticalEnd, Minus, Plus } from "@frontal/icons";
 import type * as React from "react";
 
 import { SearchForm } from "@/registry/new-york-v4/blocks/sidebar-05/components/search-form";

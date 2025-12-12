@@ -1,16 +1,16 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "share",
-    "box",
-    "document",
-    "arrow",
-    "right",
-    "social",
-    "network"
-  ],
-  "categories": [
-    "social",
-    "actions"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"share",
+		"box",
+		"document",
+		"arrow",
+		"right",
+		"social",
+		"network"
+	],
+	"categories": [
+		"social",
+		"actions"
+	]
 }

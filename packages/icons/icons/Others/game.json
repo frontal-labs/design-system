@@ -1,16 +1,16 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "game",
-    "gaming",
-    "controller",
-    "video game",
-    "arcade",
-    "joystick",
-    "icon"
-  ],
-  "categories": [
-    "gaming",
-    "controls"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"game",
+		"gaming",
+		"controller",
+		"video game",
+		"arcade",
+		"joystick",
+		"icon"
+	],
+	"categories": [
+		"gaming",
+		"controls"
+	]
 }

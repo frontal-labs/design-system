@@ -1,15 +1,15 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "menu",
-    "hamburger",
-    "navigation",
-    "list",
-    "options",
-    "settings"
-  ],
-  "categories": [
-    "navigation",
-    "systems"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"menu",
+		"hamburger",
+		"navigation",
+		"list",
+		"options",
+		"settings"
+	],
+	"categories": [
+		"navigation",
+		"systems"
+	]
 }

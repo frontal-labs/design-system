@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"keyboard",
 		"box",
@@ -9,5 +9,8 @@
 		"keys",
 		"hardware"
 	],
-	"categories": ["devices", "computers"]
+	"categories": [
+		"devices",
+		"computers"
+	]
 }

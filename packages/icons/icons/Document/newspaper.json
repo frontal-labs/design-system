@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"newspaper",
 		"document",
@@ -9,5 +9,8 @@
 		"print",
 		"layout"
 	],
-	"categories": ["documents", "media"]
+	"categories": [
+		"documents",
+		"media"
+	]
 }

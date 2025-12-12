@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"nft",
 		"digital asset",
@@ -9,5 +9,8 @@
 		"finance",
 		"symbol"
 	],
-	"categories": ["finance", "cryptocurrencies"]
+	"categories": [
+		"finance",
+		"cryptocurrencies"
+	]
 }

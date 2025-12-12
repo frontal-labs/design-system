@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "poker",
-    "card",
-    "hearts",
-    "playing-cards",
-    "game",
-    "card-game",
-    "symbol",
-    "red-heart"
-  ],
-  "categories": [
-    "games",
-    "symbols"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"poker",
+		"card",
+		"hearts",
+		"playing-cards",
+		"game",
+		"card-game",
+		"symbol",
+		"red-heart"
+	],
+	"categories": [
+		"games",
+		"symbols"
+	]
 }

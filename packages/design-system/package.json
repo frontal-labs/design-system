@@ -13,7 +13,8 @@
 			"import": "./dist/index.js",
 			"require": "./dist/index.cjs",
 			"default": "./dist/index.js"
-		}
+		},
+		"./styles/globals.css": "./src/styles/globals.css"
 	},
 	"scripts": {
 		"build": "rollup -c",

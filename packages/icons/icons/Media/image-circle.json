@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"image",
 		"circle",
@@ -10,5 +10,8 @@
 		"icon",
 		"camera"
 	],
-	"categories": ["media", "icons"]
+	"categories": [
+		"media",
+		"icons"
+	]
 }

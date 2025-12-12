@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"dna",
 		"double helix",
@@ -11,5 +11,8 @@
 		"lab",
 		"research"
 	],
-	"categories": ["biology", "science"]
+	"categories": [
+		"biology",
+		"science"
+	]
 }

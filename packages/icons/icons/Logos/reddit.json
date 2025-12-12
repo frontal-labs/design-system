@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"reddit",
 		"social media",
@@ -9,5 +9,8 @@
 		"internet",
 		"icon"
 	],
-	"categories": ["logos", "social media"]
+	"categories": [
+		"logos",
+		"social media"
+	]
 }

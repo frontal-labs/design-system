@@ -1,5 +1,16 @@
 {
-	"$schema": "../../../../icon.schema.json",
-	"tags": ["wechat", "pay", "payment", "social", "messaging", "logo", "mobile"],
-	"categories": ["logos", "brands"]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"wechat",
+		"pay",
+		"payment",
+		"social",
+		"messaging",
+		"logo",
+		"mobile"
+	],
+	"categories": [
+		"logos",
+		"brands"
+	]
 }

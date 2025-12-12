@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"align",
 		"justify",
@@ -10,5 +10,8 @@
 		"lines",
 		"typography"
 	],
-	"categories": ["editors", "layouts"]
+	"categories": [
+		"editors",
+		"layouts"
+	]
 }

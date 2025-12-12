@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "user",
-    "voice",
-    "microphone",
-    "talk",
-    "speech",
-    "communication",
-    "profile",
-    "avatar"
-  ],
-  "categories": [
-    "people",
-    "communication"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"user",
+		"voice",
+		"microphone",
+		"talk",
+		"speech",
+		"communication",
+		"profile",
+		"avatar"
+	],
+	"categories": [
+		"people",
+		"communication"
+	]
 }

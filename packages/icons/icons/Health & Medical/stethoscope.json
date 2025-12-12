@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"stethoscope",
 		"medical",
@@ -12,5 +12,8 @@
 		"medicine",
 		"clinical"
 	],
-	"categories": ["medical", "equipment"]
+	"categories": [
+		"medical",
+		"equipment"
+	]
 }

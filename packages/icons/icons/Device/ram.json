@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"ram",
 		"memory",
@@ -10,5 +10,8 @@
 		"computer",
 		"electronics"
 	],
-	"categories": ["devices", "electronics"]
+	"categories": [
+		"devices",
+		"electronics"
+	]
 }

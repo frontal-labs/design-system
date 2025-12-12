@@ -1,15 +1,15 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "speedometer",
-    "gauge",
-    "speed",
-    "measurement",
-    "vehicle",
-    "dashboard",
-    "navigation"
-  ],
-  "categories": [
-    "design"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"speedometer",
+		"gauge",
+		"speed",
+		"measurement",
+		"vehicle",
+		"dashboard",
+		"navigation"
+	],
+	"categories": [
+		"design"
+	]
 }

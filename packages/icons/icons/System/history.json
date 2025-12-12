@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "clock",
-    "history",
-    "time",
-    "calendar",
-    "loop",
-    "refresh",
-    "arrow",
-    "round"
-  ],
-  "categories": [
-    "systems",
-    "clocks"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"clock",
+		"history",
+		"time",
+		"calendar",
+		"loop",
+		"refresh",
+		"arrow",
+		"round"
+	],
+	"categories": [
+		"systems",
+		"clocks"
+	]
 }

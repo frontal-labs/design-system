@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"file",
 		"forbidden",
@@ -10,5 +10,8 @@
 		"restricted",
 		"blocked"
 	],
-	"categories": ["files", "symbols"]
+	"categories": [
+		"files",
+		"symbols"
+	]
 }

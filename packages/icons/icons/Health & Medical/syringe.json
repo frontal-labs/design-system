@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"syringe",
 		"medicine",
@@ -11,5 +11,8 @@
 		"dose",
 		"pharmacy"
 	],
-	"categories": ["medical", "health"]
+	"categories": [
+		"medical",
+		"health"
+	]
 }

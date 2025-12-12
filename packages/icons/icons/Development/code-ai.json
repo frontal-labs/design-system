@@ -1,5 +1,16 @@
 {
-	"$schema": "../../../../icon.schema.json",
-	"tags": ["gear", "cog", "automation", "AI", "code", "programming", "arrow"],
-	"categories": ["development", "arrows"]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"gear",
+		"cog",
+		"automation",
+		"AI",
+		"code",
+		"programming",
+		"arrow"
+	],
+	"categories": [
+		"development",
+		"arrows"
+	]
 }

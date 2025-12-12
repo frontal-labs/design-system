@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"android",
 		"robot",
@@ -9,5 +9,8 @@
 		"brand",
 		"device"
 	],
-	"categories": ["logos", "technology"]
+	"categories": [
+		"logos",
+		"technology"
+	]
 }

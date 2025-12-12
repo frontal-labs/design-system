@@ -1,16 +1,16 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "information",
-    "off",
-    "disabled",
-    "circle",
-    "i",
-    "notification",
-    "status"
-  ],
-  "categories": [
-    "systems",
-    "statuses"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"information",
+		"off",
+		"disabled",
+		"circle",
+		"i",
+		"notification",
+		"status"
+	],
+	"categories": [
+		"systems",
+		"statuses"
+	]
 }

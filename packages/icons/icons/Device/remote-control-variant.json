@@ -1,0 +1,17 @@
+{
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"remote",
+		"control",
+		"device",
+		"buttons",
+		"electronics",
+		"tv",
+		"navigation",
+		"interface"
+	],
+	"categories": [
+		"devices",
+		"electronics"
+	]
+}

@@ -1,6 +1,6 @@
 "use client";
 
-import { Footprints, Waves } from "lucide-react";
+import { FootprintIcon, WaterFlashIcon } from "@frontal/icons";
 import { Bar, BarChart, XAxis } from "recharts";
 
 import {
@@ -32,12 +32,12 @@ const chartConfig = {
 	running: {
 		label: "Running",
 		color: "var(--chart-1)",
-		icon: Footprints,
+		icon: FootprintIcon,
 	},
 	swimming: {
 		label: "Swimming",
 		color: "var(--chart-2)",
-		icon: Waves,
+		icon: WaterFlashIcon,
 	},
 } satisfies ChartConfig;
 
