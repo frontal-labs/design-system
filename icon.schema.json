@@ -1,0 +1,38 @@
+{
+	"$id": "https://frontal.design/icons.schema.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$vocabulary": {
+		"https://json-schema.org/draft/2020-12/vocab/core": true,
+		"https://json-schema.org/draft/2020-12/vocab/applicator": true,
+		"https://json-schema.org/draft/2020-12/vocab/unevaluated": true,
+		"https://json-schema.org/draft/2020-12/vocab/validation": true,
+		"https://json-schema.org/draft/2020-12/vocab/meta-data": true,
+		"https://json-schema.org/draft/2020-12/vocab/format-annotation": true,
+		"https://json-schema.org/draft/2020-12/vocab/content": true
+	},
+	"title": "Frontal Icons tags schema",
+	"type": "object",
+	"properties": {
+		"_comment": {
+			"type": "string",
+			"description": "Optional comment describing the purpose of this file"
+		}
+	},
+	"patternProperties": {
+		"^[A-Z][a-zA-Z0-9 &]*$": {
+			"type": "object",
+			"description": "Category object containing icon names and their associated tags",
+			"propertyNames": {
+				"type": "string",
+				"pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+				"description": "Icon name in kebab-case"
+			},
+			"additionalProperties": {
+				"type": "string",
+				"description": "Comma-separated tags for the icon"
+			}
+		}
+	},
+	"additionalProperties": false,
+	"description": "A JSON Schema for icon tags defined by Frontal Icons. Categories are organized by folder names, and each icon has comma-separated tags."
+}

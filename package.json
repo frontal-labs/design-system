@@ -1,0 +1,84 @@
+{
+	"name": "frontal-design-system",
+	"description": "Frontal's Design System",
+	"author": "Frontal Labs, Inc.",
+	"homepage": "https://frontal.dev",
+	"private": true,
+	"version": "5.2.2",
+	"type": "module",
+	"bin": {
+		"frontal-design-system": "dist/index.js"
+	},
+	"files": [
+		"dist/index.js"
+	],
+	"scripts": {
+		"build": "turbo build",
+		"dev": "turbo dev",
+		"check": "npx ultracite@latest check",
+		"fix": "npx ultracite@latest fix",
+		"lint": "pnpm check",
+		"type-check": "pnpm check",
+		"format": "pnpm fix",
+		"test": "turbo test",
+		"analyze": "turbo analyze",
+		"translate": "turbo translate",
+		"boundaries": "turbo boundaries",
+		"bump-deps": "npx npm-check-updates --deep -u -x recharts && pnpm install",
+		"bump-ui": "npx shadcn@latest add --all --overwrite -c packages/design-system",
+		"migrate": "cd packages/database && npx prisma format && npx prisma generate && npx prisma db push",
+		"clean": "git clean -xdf node_modules",
+		"prepare": "test -d .git && husky || true",
+		"changeset": "changeset",
+		"version-packages": "changeset version",
+		"release": "changeset publish"
+	},
+	"devDependencies": {
+		"@auto-it/first-time-contributor": "^11.3.0",
+		"@biomejs/biome": "2.3.1",
+		"@changesets/cli": "^2.27.1",
+		"@commitlint/cli": "^19.4.0",
+		"@commitlint/config-conventional": "^19.2.2",
+		"@turbo/gen": "^2.5.8",
+		"@types/node": "^24.9.1",
+		"husky": "^9.0.11",
+		"lint-staged": "^15.2.2",
+		"tsup": "^8.5.0",
+		"turbo": "^2.5.8",
+		"typescript": "^5.9.3",
+		"ultracite": "6.0.3",
+		"vitest": "^4.0.3"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/frontal-labs/design-system"
+	},
+	"packageManager": "pnpm@10.19.0",
+	"dependencies": {
+		"@clack/prompts": "^0.11.0",
+		"commander": "^14.0.2"
+	},
+	"pnpm": {
+		"overrides": {
+			"parse5": "^7.2.1"
+		}
+	},
+	"keywords": [
+		"frontal",
+		"design",
+		"system",
+		"ui",
+		"components",
+		"react",
+		"tailwind",
+		"css",
+		"javascript",
+		"typescript",
+		"hooks",
+		"utilities",
+		"helpers"
+	]
+}
