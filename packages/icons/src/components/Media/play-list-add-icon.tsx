@@ -1,28 +1,28 @@
-import type { SVGProps } from "react";
+import type { SVGProps } from 'react';
 
 export function PlayListAddIcon({
-	width = 24,
-	height = 24,
-	color = "currentColor",
-	...props
+  width = 24,
+  height = 24,
+  color = 'currentColor',
+  ...props
 }: SVGProps<SVGSVGElement>) {
-	return (
-		<svg
-			xmlns="http://www.w3.org/2000/svg"
-			viewBox="0 0 24 24"
-			width={width}
-			height={height}
-			fill={color}
-			aria-label="Play List Add"
-			aria-labelledby="Play List Add"
-			aria-hidden={true}
-			{...props}
-		>
-			<path d="M2 18H12V20H2V18ZM2 11H22V13H2V11ZM2 4H22V6H2V4ZM18 18V15H20V18H23V20H20V23H18V20H15V18H18Z" />
-		</svg>
-	);
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width={width}
+      height={height}
+      fill={color}
+      aria-label="List Plus Add"
+      aria-labelledby="List Plus Add"
+      aria-hidden={true}
+      {...props}
+    >
+      <path d="M2 18H12V20H2V18ZM2 11H22V13H2V11ZM2 4H22V6H2V4ZM18 18V15H20V18H23V20H20V23H18V20H15V18H18Z"/>
+    </svg>
+  );
 }
 
-PlayListAddIcon.displayName = "PlayListAddIcon";
+PlayListAddIcon.displayName = 'PlayListAddIcon';
 
 export default PlayListAddIcon;

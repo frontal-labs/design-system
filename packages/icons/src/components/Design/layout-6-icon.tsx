@@ -1,28 +1,28 @@
-import type { SVGProps } from "react";
+import type { SVGProps } from 'react';
 
 export function Layout_6Icon({
-	width = 24,
-	height = 24,
-	color = "currentColor",
-	...props
+  width = 24,
+  height = 24,
+  color = 'currentColor',
+  ...props
 }: SVGProps<SVGSVGElement>) {
-	return (
-		<svg
-			xmlns="http://www.w3.org/2000/svg"
-			viewBox="0 0 24 24"
-			width={width}
-			height={height}
-			fill={color}
-			aria-label="Layout Grid Box"
-			aria-labelledby="Layout Grid Box"
-			aria-hidden={true}
-			{...props}
-		>
-			<path d="M3 21C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3ZM15 10H4V19H15V10ZM20 10H17V19H20V10ZM20 5H4V8H20V5Z" />
-		</svg>
-	);
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width={width}
+      height={height}
+      fill={color}
+      aria-label="Layout Grid Box"
+      aria-labelledby="Layout Grid Box"
+      aria-hidden={true}
+      {...props}
+    >
+      <path d="M3 21C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3ZM15 10H4V19H15V10ZM20 10H17V19H20V10ZM20 5H4V8H20V5Z"/>
+    </svg>
+  );
 }
 
-Layout_6Icon.displayName = "Layout_6Icon";
+Layout_6Icon.displayName = 'Layout_6Icon';
 
 export default Layout_6Icon;

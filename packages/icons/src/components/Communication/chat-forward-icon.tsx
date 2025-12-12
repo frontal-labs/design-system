@@ -1,28 +1,28 @@
-import type { SVGProps } from "react";
+import type { SVGProps } from 'react';
 
 export function ChatForwardIcon({
-	width = 24,
-	height = 24,
-	color = "currentColor",
-	...props
+  width = 24,
+  height = 24,
+  color = 'currentColor',
+  ...props
 }: SVGProps<SVGSVGElement>) {
-	return (
-		<svg
-			xmlns="http://www.w3.org/2000/svg"
-			viewBox="0 0 24 24"
-			width={width}
-			height={height}
-			fill={color}
-			aria-label="Chat Message Forward"
-			aria-labelledby="Chat Message Forward"
-			aria-hidden={true}
-			{...props}
-		>
-			<path d="M6.45455 19L2 22.5V4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V18C22 18.5523 21.5523 19 21 19H6.45455ZM4 18.3851L5.76282 17H20V5H4V18.3851ZM12 10V7L16 11L12 15V12H8V10H12Z" />
-		</svg>
-	);
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width={width}
+      height={height}
+      fill={color}
+      aria-label="Chat Message Forward"
+      aria-labelledby="Chat Message Forward"
+      aria-hidden={true}
+      {...props}
+    >
+      <path d="M6.45455 19L2 22.5V4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V18C22 18.5523 21.5523 19 21 19H6.45455ZM4 18.3851L5.76282 17H20V5H4V18.3851ZM12 10V7L16 11L12 15V12H8V10H12Z"/>
+    </svg>
+  );
 }
 
-ChatForwardIcon.displayName = "ChatForwardIcon";
+ChatForwardIcon.displayName = 'ChatForwardIcon';
 
 export default ChatForwardIcon;
