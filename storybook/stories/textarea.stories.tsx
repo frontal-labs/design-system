@@ -1,4 +1,4 @@
-import { Textarea } from "@frontal/design-systemtextarea";
+import { Textarea } from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**
