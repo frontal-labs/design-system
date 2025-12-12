@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"bank-card",
 		"credit-card",
@@ -12,5 +12,8 @@
 		"banking",
 		"money"
 	],
-	"categories": ["finance", "payments"]
+	"categories": [
+		"finance",
+		"payments"
+	]
 }

@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"trophy",
 		"award",
@@ -12,5 +12,8 @@
 		"gold",
 		"prize"
 	],
-	"categories": ["objects", "sports"]
+	"categories": [
+		"objects",
+		"sports"
+	]
 }

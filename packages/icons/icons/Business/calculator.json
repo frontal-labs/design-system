@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"calculator",
 		"finance",
@@ -10,5 +10,8 @@
 		"math",
 		"office"
 	],
-	"categories": ["business", "tools"]
+	"categories": [
+		"business",
+		"tools"
+	]
 }

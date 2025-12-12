@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"dvd",
 		"disc",
@@ -11,5 +11,8 @@
 		"play",
 		"file"
 	],
-	"categories": ["media", "devices"]
+	"categories": [
+		"media",
+		"devices"
+	]
 }

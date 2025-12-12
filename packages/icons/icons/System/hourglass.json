@@ -1,16 +1,16 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "hourglass",
-    "timer",
-    "time",
-    "waiting",
-    "sand",
-    "countdown",
-    "pause"
-  ],
-  "categories": [
-    "time",
-    "systems"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"hourglass",
+		"timer",
+		"time",
+		"waiting",
+		"sand",
+		"countdown",
+		"pause"
+	],
+	"categories": [
+		"time",
+		"systems"
+	]
 }

@@ -1,0 +1,17 @@
+{
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"gift",
+		"present",
+		"giftbox",
+		"bow",
+		"holiday",
+		"celebration",
+		"gift-wrap",
+		"finance"
+	],
+	"categories": [
+		"finance",
+		"gifts"
+	]
+}

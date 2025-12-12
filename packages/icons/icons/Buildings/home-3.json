@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"home",
 		"house",
@@ -10,5 +10,8 @@
 		"residential",
 		"real-estate"
 	],
-	"categories": ["design", "buildings"]
+	"categories": [
+		"design",
+		"buildings"
+	]
 }

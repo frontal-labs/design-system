@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"openbase",
 		"logo",
@@ -10,5 +10,8 @@
 		"geometric",
 		"symbol"
 	],
-	"categories": ["logos", "symbols"]
+	"categories": [
+		"logos",
+		"symbols"
+	]
 }

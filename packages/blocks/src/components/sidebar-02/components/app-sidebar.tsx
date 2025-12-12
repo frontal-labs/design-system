@@ -1,4 +1,4 @@
-import { ChevronRight } from "lucide-react";
+import { ChevronRight } from "@frontal/icons";
 import type * as React from "react";
 
 import { SearchForm } from "@/registry/new-york-v4/blocks/sidebar-02/components/search-form";

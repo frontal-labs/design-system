@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"linkedin",
 		"logo",
@@ -10,5 +10,8 @@
 		"business",
 		"corporate"
 	],
-	"categories": ["logos", "social"]
+	"categories": [
+		"logos",
+		"social"
+	]
 }

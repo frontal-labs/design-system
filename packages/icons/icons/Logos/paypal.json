@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"paypal",
 		"payment",
@@ -9,5 +9,8 @@
 		"money",
 		"credit-card"
 	],
-	"categories": ["logos", "payments"]
+	"categories": [
+		"logos",
+		"payments"
+	]
 }

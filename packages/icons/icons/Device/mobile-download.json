@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"mobile",
 		"phone",
@@ -9,5 +9,8 @@
 		"action",
 		"device"
 	],
-	"categories": ["devices", "arrows"]
+	"categories": [
+		"devices",
+		"arrows"
+	]
 }

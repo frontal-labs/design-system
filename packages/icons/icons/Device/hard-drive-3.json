@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"hard-drive",
 		"storage",
@@ -10,5 +10,8 @@
 		"drive",
 		"icon"
 	],
-	"categories": ["devices", "hardware"]
+	"categories": [
+		"devices",
+		"hardware"
+	]
 }

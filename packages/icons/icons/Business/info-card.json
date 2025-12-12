@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"card",
 		"info",
@@ -10,5 +10,8 @@
 		"layout",
 		"placeholder"
 	],
-	"categories": ["business", "design"]
+	"categories": [
+		"business",
+		"design"
+	]
 }

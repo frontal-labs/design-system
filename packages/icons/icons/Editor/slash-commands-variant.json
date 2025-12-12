@@ -1,0 +1,17 @@
+{
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"slash",
+		"command",
+		"editor",
+		"square",
+		"border",
+		"arrow",
+		"navigation",
+		"text"
+	],
+	"categories": [
+		"design",
+		"navigation"
+	]
+}

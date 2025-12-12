@@ -1,15 +1,15 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "import",
-    "folder",
-    "arrow-down",
-    "download",
-    "file",
-    "document"
-  ],
-  "categories": [
-    "actions",
-    "files"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"import",
+		"folder",
+		"arrow-down",
+		"download",
+		"file",
+		"document"
+	],
+	"categories": [
+		"actions",
+		"files"
+	]
 }

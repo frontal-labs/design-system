@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"bank",
 		"building",
@@ -11,5 +11,8 @@
 		"roof",
 		"symbol"
 	],
-	"categories": ["buildings", "finance"]
+	"categories": [
+		"buildings",
+		"finance"
+	]
 }

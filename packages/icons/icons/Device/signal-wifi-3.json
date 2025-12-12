@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"wifi",
 		"signal",
@@ -12,5 +12,8 @@
 		"icon",
 		"signal bars"
 	],
-	"categories": ["devices", "communication"]
+	"categories": [
+		"devices",
+		"communication"
+	]
 }

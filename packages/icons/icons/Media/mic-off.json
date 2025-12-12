@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"mic",
 		"microphone",
@@ -10,5 +10,8 @@
 		"disabled",
 		"slash"
 	],
-	"categories": ["media", "audio"]
+	"categories": [
+		"media",
+		"audio"
+	]
 }

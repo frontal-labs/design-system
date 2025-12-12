@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"contrast",
 		"drop",
@@ -10,5 +10,8 @@
 		"design",
 		"symbol"
 	],
-	"categories": ["design", "filters"]
+	"categories": [
+		"design",
+		"filters"
+	]
 }

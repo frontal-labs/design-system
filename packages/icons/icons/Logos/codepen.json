@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"codepen",
 		"logo",
@@ -10,5 +10,7 @@
 		"technology",
 		"brand"
 	],
-	"categories": ["logos"]
+	"categories": [
+		"logos"
+	]
 }

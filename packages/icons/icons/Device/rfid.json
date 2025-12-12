@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"rfid",
 		"wireless",
@@ -10,5 +10,8 @@
 		"circuit",
 		"electronic"
 	],
-	"categories": ["devices", "electronics"]
+	"categories": [
+		"devices",
+		"electronics"
+	]
 }

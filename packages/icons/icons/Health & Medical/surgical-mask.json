@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"mask",
 		"surgical mask",
@@ -9,5 +9,8 @@
 		"face covering",
 		"COVID-19"
 	],
-	"categories": ["medical", "equipment"]
+	"categories": [
+		"medical",
+		"equipment"
+	]
 }

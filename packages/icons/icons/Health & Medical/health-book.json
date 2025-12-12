@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"book",
 		"health",
@@ -12,5 +12,8 @@
 		"medicine",
 		"healthcare"
 	],
-	"categories": ["books", "health"]
+	"categories": [
+		"books",
+		"health"
+	]
 }

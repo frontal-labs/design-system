@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "speaker",
-    "audio",
-    "sound",
-    "module",
-    "volume",
-    "audio-equipment",
-    "sound-module",
-    "headphones"
-  ],
-  "categories": [
-    "media",
-    "audio"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"speaker",
+		"audio",
+		"sound",
+		"module",
+		"volume",
+		"audio-equipment",
+		"sound-module",
+		"headphones"
+	],
+	"categories": [
+		"media",
+		"audio"
+	]
 }

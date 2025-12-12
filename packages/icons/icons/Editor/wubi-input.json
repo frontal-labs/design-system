@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"keyboard",
 		"input",
@@ -11,5 +11,8 @@
 		"language",
 		"key"
 	],
-	"categories": ["editors", "inputs"]
+	"categories": [
+		"editors",
+		"inputs"
+	]
 }

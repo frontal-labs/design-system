@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"circle",
 		"app",
@@ -10,5 +10,8 @@
 		"mobile",
 		"icon"
 	],
-	"categories": ["logos", "software"]
+	"categories": [
+		"logos",
+		"software"
+	]
 }

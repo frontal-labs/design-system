@@ -1,0 +1,17 @@
+{
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"medal",
+		"award",
+		"trophy",
+		"ribbon",
+		"star",
+		"achievement",
+		"recognition",
+		"honor"
+	],
+	"categories": [
+		"business",
+		"awards"
+	]
+}

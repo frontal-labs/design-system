@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"calendar",
 		"close",
@@ -11,5 +11,8 @@
 		"schedule",
 		"time"
 	],
-	"categories": ["businesses", "actions"]
+	"categories": [
+		"businesses",
+		"actions"
+	]
 }

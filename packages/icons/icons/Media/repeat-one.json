@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "repeat",
-    "loop",
-    "one",
-    "media",
-    "control",
-    "refresh",
-    "number",
-    "circle"
-  ],
-  "categories": [
-    "media",
-    "controls"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"repeat",
+		"loop",
+		"one",
+		"media",
+		"control",
+		"refresh",
+		"number",
+		"circle"
+	],
+	"categories": [
+		"media",
+		"controls"
+	]
 }

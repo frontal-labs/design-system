@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"stack",
 		"overflow",
@@ -10,5 +10,8 @@
 		"brand",
 		"network"
 	],
-	"categories": ["logos", "brands"]
+	"categories": [
+		"logos",
+		"brands"
+	]
 }

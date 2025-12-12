@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"flip",
 		"vertical",
@@ -10,5 +10,8 @@
 		"design",
 		"arrows"
 	],
-	"categories": ["design", "transformations"]
+	"categories": [
+		"design",
+		"transformations"
+	]
 }

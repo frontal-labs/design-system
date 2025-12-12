@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"spectrum",
 		"logo",
@@ -11,5 +11,8 @@
 		"design",
 		"icon"
 	],
-	"categories": ["logos", "brands"]
+	"categories": [
+		"logos",
+		"brands"
+	]
 }

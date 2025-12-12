@@ -1,0 +1,16 @@
+{
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"ai",
+		"generate",
+		"refresh",
+		"square",
+		"arrow",
+		"circle",
+		"automation"
+	],
+	"categories": [
+		"design",
+		"arrows"
+	]
+}

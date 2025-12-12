@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "folder",
-    "image",
-    "media",
-    "multiple",
-    "stack",
-    "documents",
-    "collection",
-    "grid"
-  ],
-  "categories": [
-    "media",
-    "folders"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"folder",
+		"image",
+		"media",
+		"multiple",
+		"stack",
+		"documents",
+		"collection",
+		"grid"
+	],
+	"categories": [
+		"media",
+		"folders"
+	]
 }

@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"folder",
 		"cloud",
@@ -11,5 +11,8 @@
 		"document",
 		"cloud storage"
 	],
-	"categories": ["documents", "clouds"]
+	"categories": [
+		"documents",
+		"clouds"
+	]
 }

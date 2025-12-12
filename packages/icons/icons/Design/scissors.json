@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"scissors",
 		"cut",
@@ -10,5 +10,8 @@
 		"sharp",
 		"cutting"
 	],
-	"categories": ["tools", "design"]
+	"categories": [
+		"tools",
+		"design"
+	]
 }

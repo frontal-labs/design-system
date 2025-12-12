@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"airplane",
 		"flight",
@@ -10,5 +10,8 @@
 		"map",
 		"navigation"
 	],
-	"categories": ["transportation", "map"]
+	"categories": [
+		"transportation",
+		"map"
+	]
 }

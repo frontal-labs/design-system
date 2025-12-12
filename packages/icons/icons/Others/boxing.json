@@ -1,18 +1,18 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "boxing",
-    "glove",
-    "sport",
-    "fight",
-    "hand",
-    "punch",
-    "athletics",
-    "combat",
-    "sports"
-  ],
-  "categories": [
-    "sports",
-    "activity"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"boxing",
+		"glove",
+		"sport",
+		"fight",
+		"hand",
+		"punch",
+		"athletics",
+		"combat",
+		"sports"
+	],
+	"categories": [
+		"sports",
+		"activity"
+	]
 }

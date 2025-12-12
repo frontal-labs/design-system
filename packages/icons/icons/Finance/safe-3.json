@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"safe",
 		"lock",
@@ -10,5 +10,8 @@
 		"keyhole",
 		"money"
 	],
-	"categories": ["design", "finance"]
+	"categories": [
+		"design",
+		"finance"
+	]
 }

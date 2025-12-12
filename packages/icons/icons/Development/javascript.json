@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"javascript",
 		"code",
@@ -10,5 +10,8 @@
 		"frontend",
 		"technology"
 	],
-	"categories": ["development", "logos"]
+	"categories": [
+		"development",
+		"logos"
+	]
 }

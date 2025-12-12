@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"aed",
 		"electrodes",
@@ -10,5 +10,8 @@
 		"hospital",
 		"health"
 	],
-	"categories": ["devices", "medical"]
+	"categories": [
+		"devices",
+		"medical"
+	]
 }

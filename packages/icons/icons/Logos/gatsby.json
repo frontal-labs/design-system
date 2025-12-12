@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"gatsby",
 		"logo",
@@ -8,5 +8,7 @@
 		"open-source",
 		"web-development"
 	],
-	"categories": ["logos"]
+	"categories": [
+		"logos"
+	]
 }

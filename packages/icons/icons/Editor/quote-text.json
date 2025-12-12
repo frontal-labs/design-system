@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"quote",
 		"quotation",
@@ -9,5 +9,8 @@
 		"blockquote",
 		"symbol"
 	],
-	"categories": ["editor", "design"]
+	"categories": [
+		"editor",
+		"design"
+	]
 }

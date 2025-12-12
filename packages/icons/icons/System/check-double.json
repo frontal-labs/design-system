@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "check",
-    "double-check",
-    "tick",
-    "success",
-    "confirm",
-    "verification",
-    "done",
-    "multiple"
-  ],
-  "categories": [
-    "status",
-    "actions"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"check",
+		"double-check",
+		"tick",
+		"success",
+		"confirm",
+		"verification",
+		"done",
+		"multiple"
+	],
+	"categories": [
+		"status",
+		"actions"
+	]
 }

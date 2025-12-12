@@ -1,0 +1,15 @@
+{
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"ruler",
+		"measurement",
+		"tool",
+		"drafting",
+		"scale",
+		"design"
+	],
+	"categories": [
+		"design",
+		"tools"
+	]
+}

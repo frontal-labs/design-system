@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"slideshow",
 		"slides",
@@ -9,5 +9,8 @@
 		"presentation",
 		"grid"
 	],
-	"categories": ["editors", "designs"]
+	"categories": [
+		"editors",
+		"designs"
+	]
 }

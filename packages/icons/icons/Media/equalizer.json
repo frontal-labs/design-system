@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"equalizer",
 		"audio",
@@ -10,5 +10,8 @@
 		"sound",
 		"display"
 	],
-	"categories": ["media", "controls"]
+	"categories": [
+		"media",
+		"controls"
+	]
 }

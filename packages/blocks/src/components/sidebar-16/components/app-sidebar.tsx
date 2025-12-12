@@ -11,7 +11,7 @@ import {
 	Send,
 	Settings2,
 	SquareTerminal,
-} from "lucide-react";
+} from "@frontal/icons";
 import type * as React from "react";
 
 import { NavMain } from "@/registry/new-york-v4/blocks/sidebar-16/components/nav-main";

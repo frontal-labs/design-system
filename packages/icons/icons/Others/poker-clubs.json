@@ -1,18 +1,18 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "poker",
-    "club",
-    "card",
-    "playing card",
-    "suit",
-    "gaming",
-    "symbol",
-    "deck",
-    "black"
-  ],
-  "categories": [
-    "cards",
-    "symbols"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"poker",
+		"club",
+		"card",
+		"playing card",
+		"suit",
+		"gaming",
+		"symbol",
+		"deck",
+		"black"
+	],
+	"categories": [
+		"cards",
+		"symbols"
+	]
 }

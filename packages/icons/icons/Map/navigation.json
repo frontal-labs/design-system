@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"navigation",
 		"arrow",
@@ -10,5 +10,8 @@
 		"route",
 		"travel"
 	],
-	"categories": ["navigation", "arrows"]
+	"categories": [
+		"navigation",
+		"arrows"
+	]
 }

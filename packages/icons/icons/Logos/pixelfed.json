@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"pixelfed",
 		"logo",
@@ -10,5 +10,8 @@
 		"app",
 		"network"
 	],
-	"categories": ["logos", "social media"]
+	"categories": [
+		"logos",
+		"social media"
+	]
 }

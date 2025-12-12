@@ -1,0 +1,15 @@
+{
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"upload",
+		"arrow-up",
+		"box",
+		"file",
+		"system",
+		"actions"
+	],
+	"categories": [
+		"systems",
+		"arrows"
+	]
+}

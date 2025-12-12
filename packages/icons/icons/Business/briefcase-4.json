@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"briefcase",
 		"business",
@@ -9,5 +9,8 @@
 		"travel",
 		"file"
 	],
-	"categories": ["business", "office"]
+	"categories": [
+		"business",
+		"office"
+	]
 }

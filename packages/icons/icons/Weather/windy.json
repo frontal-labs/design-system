@@ -1,16 +1,16 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "wind",
-    "weather",
-    "breeze",
-    "gust",
-    "swirl",
-    "line",
-    "icon"
-  ],
-  "categories": [
-    "weather",
-    "design"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"wind",
+		"weather",
+		"breeze",
+		"gust",
+		"swirl",
+		"line",
+		"icon"
+	],
+	"categories": [
+		"weather",
+		"design"
+	]
 }

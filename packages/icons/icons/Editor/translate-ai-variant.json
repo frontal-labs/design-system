@@ -1,0 +1,18 @@
+{
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"translate",
+		"ai",
+		"document",
+		"file",
+		"language",
+		"speech",
+		"arrow",
+		"navigation",
+		"text"
+	],
+	"categories": [
+		"arrows",
+		"navigation"
+	]
+}

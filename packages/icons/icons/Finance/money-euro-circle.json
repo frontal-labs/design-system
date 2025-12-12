@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"euro",
 		"money",
@@ -9,5 +9,8 @@
 		"symbol",
 		"monetary"
 	],
-	"categories": ["finance", "currencies"]
+	"categories": [
+		"finance",
+		"currencies"
+	]
 }

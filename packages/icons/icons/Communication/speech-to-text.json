@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"speech bubble",
 		"microphone",
@@ -11,5 +11,8 @@
 		"recording",
 		"speech"
 	],
-	"categories": ["communication", "media"]
+	"categories": [
+		"communication",
+		"media"
+	]
 }

@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"fullscreen",
 		"expand",
@@ -9,5 +9,8 @@
 		"arrows",
 		"box"
 	],
-	"categories": ["media", "arrows"]
+	"categories": [
+		"media",
+		"arrows"
+	]
 }

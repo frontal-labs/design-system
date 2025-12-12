@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"hand sanitizer",
 		"hand wash",
@@ -10,5 +10,8 @@
 		"soap",
 		"cleaning"
 	],
-	"categories": ["health", "hygiene"]
+	"categories": [
+		"health",
+		"hygiene"
+	]
 }

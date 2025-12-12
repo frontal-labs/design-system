@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"stacked",
 		"view",
@@ -10,5 +10,8 @@
 		"outline",
 		"two-layer"
 	],
-	"categories": ["editors", "design"]
+	"categories": [
+		"editors",
+		"design"
+	]
 }

@@ -1,4 +1,4 @@
-import { GalleryVerticalEnd } from "lucide-react";
+import { GalleryVerticalEnd } from "@frontal/icons";
 
 import { OTPForm } from "@/registry/new-york-v4/blocks/otp-03/components/otp-form";
 

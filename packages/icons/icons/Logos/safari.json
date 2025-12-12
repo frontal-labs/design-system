@@ -1,5 +1,15 @@
 {
-	"$schema": "../../../../icon.schema.json",
-	"tags": ["safari", "browser", "logo", "compass", "circle", "navigation"],
-	"categories": ["logos", "navigation"]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"safari",
+		"browser",
+		"logo",
+		"compass",
+		"circle",
+		"navigation"
+	],
+	"categories": [
+		"logos",
+		"navigation"
+	]
 }

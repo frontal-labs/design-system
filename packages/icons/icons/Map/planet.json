@@ -1,5 +1,16 @@
 {
-	"$schema": "../../../../icon.schema.json",
-	"tags": ["planet", "globe", "world", "map", "navigation", "geo", "space"],
-	"categories": ["map", "navigation"]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"planet",
+		"globe",
+		"world",
+		"map",
+		"navigation",
+		"geo",
+		"space"
+	],
+	"categories": [
+		"map",
+		"navigation"
+	]
 }

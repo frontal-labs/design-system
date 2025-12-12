@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"trello",
 		"logo",
@@ -11,5 +11,8 @@
 		"software",
 		"list"
 	],
-	"categories": ["logos", "productivity"]
+	"categories": [
+		"logos",
+		"productivity"
+	]
 }

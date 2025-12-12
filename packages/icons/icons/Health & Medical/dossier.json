@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"folder",
 		"document",
@@ -9,5 +9,8 @@
 		"dossier",
 		"paper"
 	],
-	"categories": ["folders", "documents"]
+	"categories": [
+		"folders",
+		"documents"
+	]
 }

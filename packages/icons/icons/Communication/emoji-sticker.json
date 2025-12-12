@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"emoji",
 		"sticker",
@@ -10,5 +10,8 @@
 		"message",
 		"design"
 	],
-	"categories": ["communication", "design"]
+	"categories": [
+		"communication",
+		"design"
+	]
 }

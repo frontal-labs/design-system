@@ -1,6 +1,6 @@
 "use client";
 
-import { Clock2Icon } from "lucide-react";
+import { Clock2Icon } from "@frontal/icons";
 import * as React from "react";
 
 import { Calendar } from "@/registry/new-york-v4/ui/calendar";

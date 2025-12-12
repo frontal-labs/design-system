@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"taobao",
 		"logo",
@@ -11,5 +11,8 @@
 		"consumer goods",
 		"shopping cart"
 	],
-	"categories": ["logos", "brands"]
+	"categories": [
+		"logos",
+		"brands"
+	]
 }

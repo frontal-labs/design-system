@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"microscope",
 		"science",
@@ -12,5 +12,8 @@
 		"laboratory",
 		"magnification"
 	],
-	"categories": ["health", "science"]
+	"categories": [
+		"health",
+		"science"
+	]
 }

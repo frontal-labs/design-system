@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"screenshot",
 		"monitor",
@@ -9,5 +9,8 @@
 		"device",
 		"image"
 	],
-	"categories": ["design", "devices"]
+	"categories": [
+		"design",
+		"devices"
+	]
 }

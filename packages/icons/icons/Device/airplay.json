@@ -1,5 +1,16 @@
 {
-	"$schema": "../../../../icon.schema.json",
-	"tags": ["airplay", "screen", "arrow", "play", "media", "device", "video"],
-	"categories": ["devices", "media"]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"airplay",
+		"screen",
+		"arrow",
+		"play",
+		"media",
+		"device",
+		"video"
+	],
+	"categories": [
+		"devices",
+		"media"
+	]
 }

@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"ancient",
 		"pavilion",
@@ -10,5 +10,8 @@
 		"silhouette",
 		"historical"
 	],
-	"categories": ["buildings", "structures"]
+	"categories": [
+		"buildings",
+		"structures"
+	]
 }

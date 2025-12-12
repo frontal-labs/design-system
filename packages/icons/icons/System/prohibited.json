@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "prohibited",
-    "forbidden",
-    "no entry",
-    "stop",
-    "warning",
-    "circle",
-    "slash",
-    "alert"
-  ],
-  "categories": [
-    "systems",
-    "design"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"prohibited",
+		"forbidden",
+		"no entry",
+		"stop",
+		"warning",
+		"circle",
+		"slash",
+		"alert"
+	],
+	"categories": [
+		"systems",
+		"design"
+	]
 }

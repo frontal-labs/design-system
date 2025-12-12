@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "tooth",
-    "dentistry",
-    "oral health",
-    "smile",
-    "cavity",
-    "dentist",
-    "medicine",
-    "healthcare"
-  ],
-  "categories": [
-    "medical",
-    "health"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"tooth",
+		"dentistry",
+		"oral health",
+		"smile",
+		"cavity",
+		"dentist",
+		"medicine",
+		"healthcare"
+	],
+	"categories": [
+		"medical",
+		"health"
+	]
 }

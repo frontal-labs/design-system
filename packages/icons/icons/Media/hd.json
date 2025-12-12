@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"hd",
 		"high-definition",
@@ -10,5 +10,8 @@
 		"resolution",
 		"quality"
 	],
-	"categories": ["media", "display"]
+	"categories": [
+		"media",
+		"display"
+	]
 }

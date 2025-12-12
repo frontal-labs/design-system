@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"diamond",
 		"ring",
@@ -10,5 +10,7 @@
 		"symbol",
 		"value"
 	],
-	"categories": ["finance"]
+	"categories": [
+		"finance"
+	]
 }

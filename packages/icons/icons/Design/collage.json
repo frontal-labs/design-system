@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"collage",
 		"photo",
@@ -10,5 +10,8 @@
 		"art",
 		"collection"
 	],
-	"categories": ["design", "media"]
+	"categories": [
+		"design",
+		"media"
+	]
 }

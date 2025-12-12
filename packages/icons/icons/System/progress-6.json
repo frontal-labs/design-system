@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "progress",
-    "circular",
-    "loading",
-    "indicator",
-    "status",
-    "circle",
-    "activity",
-    "spinner"
-  ],
-  "categories": [
-    "system",
-    "indicators"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"progress",
+		"circular",
+		"loading",
+		"indicator",
+		"status",
+		"circle",
+		"activity",
+		"spinner"
+	],
+	"categories": [
+		"system",
+		"indicators"
+	]
 }

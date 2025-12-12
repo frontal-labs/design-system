@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "fire",
-    "flame",
-    "heat",
-    "danger",
-    "weather",
-    "nature",
-    "symbol",
-    "icon"
-  ],
-  "categories": [
-    "weather",
-    "symbols"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"fire",
+		"flame",
+		"heat",
+		"danger",
+		"weather",
+		"nature",
+		"symbol",
+		"icon"
+	],
+	"categories": [
+		"weather",
+		"symbols"
+	]
 }

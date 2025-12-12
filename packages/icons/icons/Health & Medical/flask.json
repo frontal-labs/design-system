@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"flask",
 		"lab",
@@ -9,5 +9,8 @@
 		"experiment",
 		"beaker"
 	],
-	"categories": ["health", "medical"]
+	"categories": [
+		"health",
+		"medical"
+	]
 }

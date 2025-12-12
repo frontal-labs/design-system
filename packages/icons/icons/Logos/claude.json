@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"logo",
 		"anthropic",
@@ -12,5 +12,8 @@
 		"stylized",
 		"circle"
 	],
-	"categories": ["logos", "brands"]
+	"categories": [
+		"logos",
+		"brands"
+	]
 }

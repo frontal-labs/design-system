@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"messenger",
 		"chat",
@@ -10,5 +10,8 @@
 		"app-icon",
 		"logo"
 	],
-	"categories": ["logos", "social"]
+	"categories": [
+		"logos",
+		"social"
+	]
 }

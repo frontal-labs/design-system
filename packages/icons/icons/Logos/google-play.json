@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"google play",
 		"play button",
@@ -11,5 +11,7 @@
 		"video",
 		"playstore"
 	],
-	"categories": ["logos"]
+	"categories": [
+		"logos"
+	]
 }

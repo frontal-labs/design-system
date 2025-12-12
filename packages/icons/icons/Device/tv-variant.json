@@ -1,0 +1,17 @@
+{
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"television",
+		"tv",
+		"device",
+		"screen",
+		"monitor",
+		"electronics",
+		"stand",
+		"media"
+	],
+	"categories": [
+		"devices",
+		"electronics"
+	]
+}

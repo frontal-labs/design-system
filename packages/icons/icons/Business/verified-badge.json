@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"verified",
 		"badge",
@@ -10,5 +10,8 @@
 		"status",
 		"security"
 	],
-	"categories": ["design", "status"]
+	"categories": [
+		"design",
+		"status"
+	]
 }

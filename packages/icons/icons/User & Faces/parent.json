@@ -1,16 +1,16 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "parent",
-    "child",
-    "family",
-    "people",
-    "heads",
-    "group",
-    "relationship"
-  ],
-  "categories": [
-    "people",
-    "faces"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"parent",
+		"child",
+		"family",
+		"people",
+		"heads",
+		"group",
+		"relationship"
+	],
+	"categories": [
+		"people",
+		"faces"
+	]
 }

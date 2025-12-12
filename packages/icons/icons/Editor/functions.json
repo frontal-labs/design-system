@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"functions",
 		"math",
@@ -10,5 +10,8 @@
 		"equation",
 		"calculator"
 	],
-	"categories": ["editors", "maths"]
+	"categories": [
+		"editors",
+		"maths"
+	]
 }

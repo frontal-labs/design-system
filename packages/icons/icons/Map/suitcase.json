@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"suitcase",
 		"luggage",
@@ -10,5 +10,8 @@
 		"package",
 		"travelling"
 	],
-	"categories": ["design", "travel"]
+	"categories": [
+		"design",
+		"travel"
+	]
 }

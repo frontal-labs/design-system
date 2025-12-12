@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"usb",
 		"connector",
@@ -10,5 +10,8 @@
 		"plug",
 		"port"
 	],
-	"categories": ["devices", "electronics"]
+	"categories": [
+		"devices",
+		"electronics"
+	]
 }

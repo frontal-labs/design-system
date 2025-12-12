@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"subway",
 		"train",
@@ -10,5 +10,8 @@
 		"network",
 		"rail"
 	],
-	"categories": ["transport", "network"]
+	"categories": [
+		"transport",
+		"network"
+	]
 }

@@ -1,16 +1,16 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "glasses",
-    "eyewear",
-    "sunglasses",
-    "optics",
-    "vision",
-    "fashion",
-    "accessory"
-  ],
-  "categories": [
-    "accessories",
-    "fashion"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"glasses",
+		"eyewear",
+		"sunglasses",
+		"optics",
+		"vision",
+		"fashion",
+		"accessory"
+	],
+	"categories": [
+		"accessories",
+		"fashion"
+	]
 }

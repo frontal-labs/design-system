@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "video",
-    "play",
-    "media",
-    "film",
-    "movie",
-    "screen",
-    "play button",
-    "movie player"
-  ],
-  "categories": [
-    "media",
-    "videos"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"video",
+		"play",
+		"media",
+		"film",
+		"movie",
+		"screen",
+		"play button",
+		"movie player"
+	],
+	"categories": [
+		"media",
+		"videos"
+	]
 }

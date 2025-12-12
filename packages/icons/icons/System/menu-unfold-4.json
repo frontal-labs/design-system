@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "menu",
-    "unfold",
-    "arrow",
-    "right",
-    "navigation",
-    "list",
-    "horizontal",
-    "expand"
-  ],
-  "categories": [
-    "navigation",
-    "arrows"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"menu",
+		"unfold",
+		"arrow",
+		"right",
+		"navigation",
+		"list",
+		"horizontal",
+		"expand"
+	],
+	"categories": [
+		"navigation",
+		"arrows"
+	]
 }

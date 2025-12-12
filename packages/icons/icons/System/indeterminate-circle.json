@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "circle",
-    "indeterminate",
-    "progress",
-    "loading",
-    "status",
-    "horizontal-line",
-    "centered",
-    "symbol"
-  ],
-  "categories": [
-    "statuses",
-    "systems"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"circle",
+		"indeterminate",
+		"progress",
+		"loading",
+		"status",
+		"horizontal-line",
+		"centered",
+		"symbol"
+	],
+	"categories": [
+		"statuses",
+		"systems"
+	]
 }

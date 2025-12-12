@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"paint bucket",
 		"color picker",
@@ -11,5 +11,8 @@
 		"text color",
 		"bucket"
 	],
-	"categories": ["editor", "design"]
+	"categories": [
+		"editor",
+		"design"
+	]
 }

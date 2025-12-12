@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"megaphone",
 		"speaker",
@@ -12,5 +12,8 @@
 		"audio",
 		"business"
 	],
-	"categories": ["businesses", "communications"]
+	"categories": [
+		"businesses",
+		"communications"
+	]
 }

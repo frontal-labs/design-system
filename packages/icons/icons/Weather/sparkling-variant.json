@@ -1,0 +1,17 @@
+{
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"sparkle",
+		"star",
+		"glitter",
+		"shine",
+		"weather",
+		"sunny",
+		"bright",
+		"radiant"
+	],
+	"categories": [
+		"weather",
+		"design"
+	]
+}

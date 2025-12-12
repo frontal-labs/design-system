@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "upload",
-    "arrow",
-    "up",
-    "file",
-    "system",
-    "navigation",
-    "document",
-    "box"
-  ],
-  "categories": [
-    "system",
-    "arrows"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"upload",
+		"arrow",
+		"up",
+		"file",
+		"system",
+		"navigation",
+		"document",
+		"box"
+	],
+	"categories": [
+		"system",
+		"arrows"
+	]
 }

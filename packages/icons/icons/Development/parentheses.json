@@ -1,5 +1,14 @@
 {
-	"$schema": "../../../../icon.schema.json",
-	"tags": ["parentheses", "brackets", "punctuation", "text", "symbol"],
-	"categories": ["symbols", "text"]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"parentheses",
+		"brackets",
+		"punctuation",
+		"text",
+		"symbol"
+	],
+	"categories": [
+		"symbols",
+		"text"
+	]
 }

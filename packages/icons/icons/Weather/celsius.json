@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "thermometer",
-    "celsius",
-    "temperature",
-    "weather",
-    "degree",
-    "measurement",
-    "heat",
-    "cold"
-  ],
-  "categories": [
-    "weather",
-    "design"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"thermometer",
+		"celsius",
+		"temperature",
+		"weather",
+		"degree",
+		"measurement",
+		"heat",
+		"cold"
+	],
+	"categories": [
+		"weather",
+		"design"
+	]
 }

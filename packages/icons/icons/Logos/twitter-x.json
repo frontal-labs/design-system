@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"twitter",
 		"bird",
@@ -10,5 +10,8 @@
 		"cross",
 		"network"
 	],
-	"categories": ["logos", "brands"]
+	"categories": [
+		"logos",
+		"brands"
+	]
 }

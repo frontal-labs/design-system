@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "microphone",
-    "voice",
-    "audio",
-    "recording",
-    "speech",
-    "recognition",
-    "sound",
-    "speech-to-text"
-  ],
-  "categories": [
-    "media",
-    "communication"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"microphone",
+		"voice",
+		"audio",
+		"recording",
+		"speech",
+		"recognition",
+		"sound",
+		"speech-to-text"
+	],
+	"categories": [
+		"media",
+		"communication"
+	]
 }

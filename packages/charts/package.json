@@ -13,7 +13,8 @@
 			"import": "./dist/index.js",
 			"require": "./dist/index.cjs",
 			"default": "./dist/index.js"
-		}
+		},
+		"./styles/charts.css": "./src/styles/charts.css"
 	},
 	"scripts": {
 		"build": "rollup -c",
@@ -35,7 +36,9 @@
 		"LICENSE.md",
 		"CONTRIBUTING.md"
 	],
-	"dependencies": {},
+	"dependencies": {
+		"@frontal/icons": "workspace:*"
+	},
 	"peerDependencies": {
 		"react": "^19.2.0"
 	},

@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"fingerprint",
 		"biometrics",
@@ -11,5 +11,8 @@
 		"scan",
 		"touch"
 	],
-	"categories": ["devices", "security"]
+	"categories": [
+		"devices",
+		"security"
+	]
 }

@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"percent",
 		"discount",
@@ -10,5 +10,8 @@
 		"price",
 		"offer"
 	],
-	"categories": ["finance", "design"]
+	"categories": [
+		"finance",
+		"design"
+	]
 }

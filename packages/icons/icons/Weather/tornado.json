@@ -1,18 +1,18 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "tornado",
-    "weather",
-    "storm",
-    "weather icon",
-    "storm icon",
-    "horizontal lines",
-    "icon",
-    "weather symbol",
-    "tornado shape"
-  ],
-  "categories": [
-    "weather",
-    "icons"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"tornado",
+		"weather",
+		"storm",
+		"weather icon",
+		"storm icon",
+		"horizontal lines",
+		"icon",
+		"weather symbol",
+		"tornado shape"
+	],
+	"categories": [
+		"weather",
+		"icons"
+	]
 }

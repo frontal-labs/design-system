@@ -6,7 +6,7 @@ import {
 	MoreHorizontal,
 	Share,
 	Trash2,
-} from "lucide-react";
+} from "@frontal/icons";
 
 import {
 	DropdownMenu,
@@ -31,7 +31,7 @@ export function NavProjects({
 	projects: {
 		name: string;
 		url: string;
-		icon: LucideIcon;
+		icon: IconComponent;
 	}[];
 }) {
 	const { isMobile } = useSidebar();

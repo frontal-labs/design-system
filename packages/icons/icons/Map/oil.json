@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"oil",
 		"barrel",
@@ -10,5 +10,8 @@
 		"map",
 		"marker"
 	],
-	"categories": ["maps", "design"]
+	"categories": [
+		"maps",
+		"design"
+	]
 }

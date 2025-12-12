@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"cloud",
 		"off",
@@ -12,5 +12,8 @@
 		"cloudy",
 		"unavailable"
 	],
-	"categories": ["clouds", "status"]
+	"categories": [
+		"clouds",
+		"status"
+	]
 }

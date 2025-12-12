@@ -6,7 +6,7 @@ import {
 	MoreHorizontal,
 	StarOff,
 	Trash2,
-} from "lucide-react";
+} from "@frontal/icons";
 
 import {
 	DropdownMenu,

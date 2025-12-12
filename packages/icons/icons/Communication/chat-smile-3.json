@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"chat",
 		"smile",
@@ -10,5 +10,8 @@
 		"happy",
 		"face"
 	],
-	"categories": ["communication", "emoticons"]
+	"categories": [
+		"communication",
+		"emoticons"
+	]
 }

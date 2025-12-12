@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"creative commons",
 		"non-commercial",
@@ -10,5 +10,8 @@
 		"text",
 		"business"
 	],
-	"categories": ["design", "business"]
+	"categories": [
+		"design",
+		"business"
+	]
 }

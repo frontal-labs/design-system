@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"clapperboard",
 		"film",
@@ -11,5 +11,8 @@
 		"media",
 		"clip"
 	],
-	"categories": ["media", "films"]
+	"categories": [
+		"media",
+		"films"
+	]
 }

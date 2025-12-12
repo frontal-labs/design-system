@@ -1,5 +1,15 @@
 {
-	"$schema": "../../../../icon.schema.json",
-	"tags": ["book", "document", "pages", "reading", "library", "text"],
-	"categories": ["documents", "books"]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"book",
+		"document",
+		"pages",
+		"reading",
+		"library",
+		"text"
+	],
+	"categories": [
+		"documents",
+		"books"
+	]
 }

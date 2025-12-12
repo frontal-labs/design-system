@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"heart",
 		"empathy",
@@ -10,5 +10,8 @@
 		"medical",
 		"sympathy"
 	],
-	"categories": ["health", "emotions"]
+	"categories": [
+		"health",
+		"emotions"
+	]
 }

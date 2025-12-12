@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"react",
 		"logo",
@@ -10,5 +10,8 @@
 		"library",
 		"reactjs"
 	],
-	"categories": ["logos", "technologies"]
+	"categories": [
+		"logos",
+		"technologies"
+	]
 }

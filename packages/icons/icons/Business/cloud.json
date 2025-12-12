@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"cloud",
 		"weather",
@@ -9,5 +9,7 @@
 		"simple",
 		"outline"
 	],
-	"categories": ["business"]
+	"categories": [
+		"business"
+	]
 }

@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "video",
-    "camera",
-    "media",
-    "record",
-    "film",
-    "play",
-    "recording",
-    "video camera"
-  ],
-  "categories": [
-    "media",
-    "devices"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"video",
+		"camera",
+		"media",
+		"record",
+		"film",
+		"play",
+		"recording",
+		"video camera"
+	],
+	"categories": [
+		"media",
+		"devices"
+	]
 }

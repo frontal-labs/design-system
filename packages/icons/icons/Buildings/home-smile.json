@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"home",
 		"house",
@@ -9,5 +9,8 @@
 		"facial expression",
 		"roof"
 	],
-	"categories": ["buildings", "faces"]
+	"categories": [
+		"buildings",
+		"faces"
+	]
 }

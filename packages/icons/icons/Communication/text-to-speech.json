@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"text",
 		"speech",
@@ -9,5 +9,8 @@
 		"communication",
 		"microphone"
 	],
-	"categories": ["communications", "media"]
+	"categories": [
+		"communications",
+		"media"
+	]
 }

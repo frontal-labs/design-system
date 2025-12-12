@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"tv",
 		"television",
@@ -10,5 +10,8 @@
 		"media",
 		"display"
 	],
-	"categories": ["devices", "electronics"]
+	"categories": [
+		"devices",
+		"electronics"
+	]
 }

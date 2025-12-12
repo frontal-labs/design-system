@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"forward",
 		"skip",
@@ -10,5 +10,8 @@
 		"clock",
 		"play"
 	],
-	"categories": ["arrows", "media"]
+	"categories": [
+		"arrows",
+		"media"
+	]
 }

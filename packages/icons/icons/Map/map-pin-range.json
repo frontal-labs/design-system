@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"map pin",
 		"location",
@@ -9,5 +9,8 @@
 		"circle",
 		"radius"
 	],
-	"categories": ["navigation", "maps"]
+	"categories": [
+		"navigation",
+		"maps"
+	]
 }

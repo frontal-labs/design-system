@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"blender",
 		"logo",
@@ -9,5 +9,8 @@
 		"graphics",
 		"digital art"
 	],
-	"categories": ["logos", "software"]
+	"categories": [
+		"logos",
+		"software"
+	]
 }

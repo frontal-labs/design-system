@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"battery",
 		"saver",
@@ -10,5 +10,8 @@
 		"charge",
 		"status"
 	],
-	"categories": ["devices", "status"]
+	"categories": [
+		"devices",
+		"status"
+	]
 }

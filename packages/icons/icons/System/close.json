@@ -1,17 +1,17 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "close",
-    "cancel",
-    "cross",
-    "delete",
-    "remove",
-    "x",
-    "dismiss",
-    "clear"
-  ],
-  "categories": [
-    "system",
-    "buttons"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"close",
+		"cancel",
+		"cross",
+		"delete",
+		"remove",
+		"x",
+		"dismiss",
+		"clear"
+	],
+	"categories": [
+		"system",
+		"buttons"
+	]
 }

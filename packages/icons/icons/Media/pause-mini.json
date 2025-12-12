@@ -1,18 +1,18 @@
 {
-  "$schema": "../../../../icon.schema.json",
-  "tags": [
-    "pause",
-    "media",
-    "control",
-    "button",
-    "mini",
-    "video",
-    "audio",
-    "playback",
-    "icon"
-  ],
-  "categories": [
-    "media",
-    "controls"
-  ]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"pause",
+		"media",
+		"control",
+		"button",
+		"mini",
+		"video",
+		"audio",
+		"playback",
+		"icon"
+	],
+	"categories": [
+		"media",
+		"controls"
+	]
 }

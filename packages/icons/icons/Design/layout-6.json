@@ -1,5 +1,16 @@
 {
-	"$schema": "../../../../icon.schema.json",
-	"tags": ["layout", "grid", "box", "columns", "rows", "interface", "design"],
-	"categories": ["design", "layouts"]
+	"$schema": "../../icon.schema.json",
+	"tags": [
+		"layout",
+		"grid",
+		"box",
+		"columns",
+		"rows",
+		"interface",
+		"design"
+	],
+	"categories": [
+		"design",
+		"layouts"
+	]
 }

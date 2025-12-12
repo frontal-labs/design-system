@@ -1,5 +1,0 @@
-{
-	"$schema": "../../../../icon.schema.json",
-	"tags": ["kanban", "board", "columns", "grid", "layout", "editor", "list"],
-	"categories": ["editor", "design"]
-}

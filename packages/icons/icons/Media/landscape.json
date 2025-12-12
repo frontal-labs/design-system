@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"landscape",
 		"mountain",
@@ -11,5 +11,8 @@
 		"environment",
 		"forest"
 	],
-	"categories": ["media", "nature"]
+	"categories": [
+		"media",
+		"nature"
+	]
 }

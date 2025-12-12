@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"focus",
 		"target",
@@ -9,5 +9,8 @@
 		"zoom",
 		"concentrate"
 	],
-	"categories": ["design", "symbols"]
+	"categories": [
+		"design",
+		"symbols"
+	]
 }

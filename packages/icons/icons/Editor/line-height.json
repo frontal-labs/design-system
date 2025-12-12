@@ -1,5 +1,5 @@
 {
-	"$schema": "../../../../icon.schema.json",
+	"$schema": "../../icon.schema.json",
 	"tags": [
 		"horizontal-lines",
 		"vertical-line",
@@ -10,5 +10,8 @@
 		"editor",
 		"measurement"
 	],
-	"categories": ["editor", "typography"]
+	"categories": [
+		"editor",
+		"typography"
+	]
 }

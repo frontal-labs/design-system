@@ -1,6 +1,6 @@
 "use client";
 
-import { ChevronDown, Plus } from "lucide-react";
+import { ChevronDown, Plus } from "@frontal/icons";
 import * as React from "react";
 
 import {
