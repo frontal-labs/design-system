@@ -1,7 +1,25 @@
 import { jsx as _jsx } from "react/jsx-runtime";
-export function EthIcon({ width = 24, height = 24, color = 'currentColor', ...props }) {
-    return (_jsx("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", width: width, height: height, fill: color, "aria-label": "Ethereum Crypto Blockchain", "aria-labelledby": "Ethereum Crypto Blockchain", "aria-hidden": true, ...props, children: _jsx("path", { d: "M8.1488 15.3042L12 20.5996L15.8513 15.3042L12 17.6742L8.1488 15.3042ZM17.1374 12.1643L12 3.81608L6.86261 12.1643L12 15.3258L17.1374 12.1643ZM4 13L12 0L20 13L12.0001 24L4 13Z" }) }));
+export function EthIcon({
+	width = 24,
+	height = 24,
+	color = "currentColor",
+	...props
+}) {
+	return _jsx("svg", {
+		xmlns: "http://www.w3.org/2000/svg",
+		viewBox: "0 0 24 24",
+		width: width,
+		height: height,
+		fill: color,
+		"aria-label": "Ethereum Crypto Blockchain",
+		"aria-labelledby": "Ethereum Crypto Blockchain",
+		"aria-hidden": true,
+		...props,
+		children: _jsx("path", {
+			d: "M8.1488 15.3042L12 20.5996L15.8513 15.3042L12 17.6742L8.1488 15.3042ZM17.1374 12.1643L12 3.81608L6.86261 12.1643L12 15.3258L17.1374 12.1643ZM4 13L12 0L20 13L12.0001 24L4 13Z",
+		}),
+	});
 }
-EthIcon.displayName = 'EthIcon';
+EthIcon.displayName = "EthIcon";
 export default EthIcon;
 //# sourceMappingURL=eth-icon.js.map

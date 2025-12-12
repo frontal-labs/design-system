@@ -3,6 +3,12 @@
 	"root": true,
 	"files": {
 		"includes": ["**/*"],
-		"experimentalScannerIgnores": ["**/.rollup.cache/**", "**/node_modules/**", "**/dist/**", "**/.next/**", "**/coverage/**"]
+		"experimentalScannerIgnores": [
+			"**/.rollup.cache/**",
+			"**/node_modules/**",
+			"**/dist/**",
+			"**/.next/**",
+			"**/coverage/**"
+		]
 	}
 }

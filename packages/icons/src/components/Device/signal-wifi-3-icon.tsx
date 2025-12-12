@@ -1,28 +1,28 @@
-import type { SVGProps } from 'react';
+import type { SVGProps } from "react";
 
 export function SignalWifi_3Icon({
-  width = 24,
-  height = 24,
-  color = 'currentColor',
-  ...props
+	width = 24,
+	height = 24,
+	color = "currentColor",
+	...props
 }: SVGProps<SVGSVGElement>) {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      width={width}
-      height={height}
-      fill={color}
-      aria-label="Wifi Signal Wireless"
-      aria-labelledby="Wifi Signal Wireless"
-      aria-hidden={true}
-      {...props}
-    >
-      <path d="M12.0005 3C16.2849 3 20.2196 4.49683 23.3104 6.99607L12.0005 21L0.689941 6.99671C3.78078 4.49709 7.71583 3 12.0005 3ZM12.0005 10C10.1028 10 8.31726 10.4806 6.75905 11.3267L12.0005 17.8169L17.2419 11.3266C15.6837 10.4805 13.8982 10 12.0005 10ZM12.0005 5C8.97296 5 6.07788 5.84185 3.57997 7.39179L5.48439 9.74853C7.40016 8.63663 9.626 8 12.0005 8C14.3751 8 16.6011 8.63667 18.5169 9.74863L20.4204 7.39132C17.9226 5.84167 15.0278 5 12.0005 5Z"/>
-    </svg>
-  );
+	return (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 24 24"
+			width={width}
+			height={height}
+			fill={color}
+			aria-label="Wifi Signal Wireless"
+			aria-labelledby="Wifi Signal Wireless"
+			aria-hidden={true}
+			{...props}
+		>
+			<path d="M12.0005 3C16.2849 3 20.2196 4.49683 23.3104 6.99607L12.0005 21L0.689941 6.99671C3.78078 4.49709 7.71583 3 12.0005 3ZM12.0005 10C10.1028 10 8.31726 10.4806 6.75905 11.3267L12.0005 17.8169L17.2419 11.3266C15.6837 10.4805 13.8982 10 12.0005 10ZM12.0005 5C8.97296 5 6.07788 5.84185 3.57997 7.39179L5.48439 9.74853C7.40016 8.63663 9.626 8 12.0005 8C14.3751 8 16.6011 8.63667 18.5169 9.74863L20.4204 7.39132C17.9226 5.84167 15.0278 5 12.0005 5Z" />
+		</svg>
+	);
 }
 
-SignalWifi_3Icon.displayName = 'SignalWifi_3Icon';
+SignalWifi_3Icon.displayName = "SignalWifi_3Icon";
 
 export default SignalWifi_3Icon;

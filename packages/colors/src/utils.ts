@@ -27,10 +27,7 @@ import {
 import type { ColorScale, ColorScaleName, ColorShade } from "./types";
 
 // Static mapping to avoid dynamic namespace access
-const scaleMap: Record<
-	string,
-	{ light: ColorScale; dark: ColorScale }
-> = {
+const scaleMap: Record<string, { light: ColorScale; dark: ColorScale }> = {
 	gray: { light: gray, dark: grayDark },
 	blue: { light: blue, dark: blueDark },
 	cyan: { light: cyan, dark: cyanDark },
