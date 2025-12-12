@@ -1,28 +1,28 @@
-import type { SVGProps } from "react";
+import type { SVGProps } from 'react';
 
 export function DeleteBin_7Icon({
-	width = 24,
-	height = 24,
-	color = "currentColor",
-	...props
+  width = 24,
+  height = 24,
+  color = 'currentColor',
+  ...props
 }: SVGProps<SVGSVGElement>) {
-	return (
-		<svg
-			xmlns="http://www.w3.org/2000/svg"
-			viewBox="0 0 24 24"
-			width={width}
-			height={height}
-			fill={color}
-			aria-label="Delete Bin_7"
-			aria-labelledby="Delete Bin_7"
-			aria-hidden={true}
-			{...props}
-		>
-			<path d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8ZM9 4V6H15V4H9Z" />
-		</svg>
-	);
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width={width}
+      height={height}
+      fill={color}
+      aria-label="Trash Delete Bin"
+      aria-labelledby="Trash Delete Bin"
+      aria-hidden={true}
+      {...props}
+    >
+      <path d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8ZM9 4V6H15V4H9Z"/>
+    </svg>
+  );
 }
 
-DeleteBin_7Icon.displayName = "DeleteBin_7Icon";
+DeleteBin_7Icon.displayName = 'DeleteBin_7Icon';
 
 export default DeleteBin_7Icon;

@@ -1,28 +1,28 @@
-import type { SVGProps } from "react";
+import type { SVGProps } from 'react';
 
 export function AddLargeIcon({
-	width = 24,
-	height = 24,
-	color = "currentColor",
-	...props
+  width = 24,
+  height = 24,
+  color = 'currentColor',
+  ...props
 }: SVGProps<SVGSVGElement>) {
-	return (
-		<svg
-			xmlns="http://www.w3.org/2000/svg"
-			viewBox="0 0 24 24"
-			width={width}
-			height={height}
-			fill={color}
-			aria-label="Add Large"
-			aria-labelledby="Add Large"
-			aria-hidden={true}
-			{...props}
-		>
-			<path d="M13.0001 10.9999L22.0002 10.9997L22.0002 12.9997L13.0001 12.9999L13.0001 21.9998L11.0001 21.9998L11.0001 12.9999L2.00004 13.0001L2 11.0001L11.0001 10.9999L11 2.00025L13 2.00024L13.0001 10.9999Z" />
-		</svg>
-	);
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width={width}
+      height={height}
+      fill={color}
+      aria-label="Add Plus Large"
+      aria-labelledby="Add Plus Large"
+      aria-hidden={true}
+      {...props}
+    >
+      <path d="M13.0001 10.9999L22.0002 10.9997L22.0002 12.9997L13.0001 12.9999L13.0001 21.9998L11.0001 21.9998L11.0001 12.9999L2.00004 13.0001L2 11.0001L11.0001 10.9999L11 2.00025L13 2.00024L13.0001 10.9999Z"/>
+    </svg>
+  );
 }
 
-AddLargeIcon.displayName = "AddLargeIcon";
+AddLargeIcon.displayName = 'AddLargeIcon';
 
 export default AddLargeIcon;

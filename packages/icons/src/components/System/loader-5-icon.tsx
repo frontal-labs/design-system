@@ -1,28 +1,28 @@
-import type { SVGProps } from "react";
+import type { SVGProps } from 'react';
 
 export function Loader_5Icon({
-	width = 24,
-	height = 24,
-	color = "currentColor",
-	...props
+  width = 24,
+  height = 24,
+  color = 'currentColor',
+  ...props
 }: SVGProps<SVGSVGElement>) {
-	return (
-		<svg
-			xmlns="http://www.w3.org/2000/svg"
-			viewBox="0 0 24 24"
-			width={width}
-			height={height}
-			fill={color}
-			aria-label="Loader_5"
-			aria-labelledby="Loader_5"
-			aria-hidden={true}
-			{...props}
-		>
-			<path d="M12 3C16.9706 3 21 7.02944 21 12H19C19 8.13401 15.866 5 12 5V3Z" />
-		</svg>
-	);
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width={width}
+      height={height}
+      fill={color}
+      aria-label="Loader Spinner Circular"
+      aria-labelledby="Loader Spinner Circular"
+      aria-hidden={true}
+      {...props}
+    >
+      <path d="M12 3C16.9706 3 21 7.02944 21 12H19C19 8.13401 15.866 5 12 5V3Z"/>
+    </svg>
+  );
 }
 
-Loader_5Icon.displayName = "Loader_5Icon";
+Loader_5Icon.displayName = 'Loader_5Icon';
 
 export default Loader_5Icon;
