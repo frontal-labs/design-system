@@ -10,8 +10,5 @@
 		"communication",
 		"conversation"
 	],
-	"categories": [
-		"arrows",
-		"communications"
-	]
+	"categories": ["arrows", "communications"]
 }

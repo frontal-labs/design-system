@@ -12,7 +12,5 @@
 		"weather icon",
 		"weather conditions"
 	],
-	"categories": [
-		"weather"
-	]
+	"categories": ["weather"]
 }

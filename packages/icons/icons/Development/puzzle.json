@@ -12,8 +12,5 @@
 		"development",
 		"shape"
 	],
-	"categories": [
-		"design",
-		"development"
-	]
+	"categories": ["design", "development"]
 }

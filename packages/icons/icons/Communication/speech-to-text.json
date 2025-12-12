@@ -11,8 +11,5 @@
 		"recording",
 		"speech"
 	],
-	"categories": [
-		"communication",
-		"media"
-	]
+	"categories": ["communication", "media"]
 }

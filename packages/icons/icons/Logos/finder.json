@@ -11,8 +11,5 @@
 		"app",
 		"icon"
 	],
-	"categories": [
-		"folders",
-		"navigation"
-	]
+	"categories": ["folders", "navigation"]
 }

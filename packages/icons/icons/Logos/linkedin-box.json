@@ -10,8 +10,5 @@
 		"business",
 		"corporate"
 	],
-	"categories": [
-		"logos",
-		"social"
-	]
+	"categories": ["logos", "social"]
 }

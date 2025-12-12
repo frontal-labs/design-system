@@ -10,8 +10,5 @@
 		"design",
 		"icon"
 	],
-	"categories": [
-		"design",
-		"layout"
-	]
+	"categories": ["design", "layout"]
 }

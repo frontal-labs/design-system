@@ -9,8 +9,5 @@
 		"e-commerce",
 		"retail"
 	],
-	"categories": [
-		"devices",
-		"barcodes"
-	]
+	"categories": ["devices", "barcodes"]
 }

@@ -10,8 +10,5 @@
 		"communication",
 		"symbol"
 	],
-	"categories": [
-		"devices",
-		"technology"
-	]
+	"categories": ["devices", "technology"]
 }

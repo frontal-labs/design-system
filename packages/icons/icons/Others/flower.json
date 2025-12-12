@@ -1,16 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"flower",
-		"nature",
-		"plant",
-		"petals",
-		"garden",
-		"spring",
-		"flora"
-	],
-	"categories": [
-		"objects",
-		"nature"
-	]
+	"tags": ["flower", "nature", "plant", "petals", "garden", "spring", "flora"],
+	"categories": ["objects", "nature"]
 }

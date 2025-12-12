@@ -10,8 +10,5 @@
 		"box",
 		"paper"
 	],
-	"categories": [
-		"communications",
-		"businesses"
-	]
+	"categories": ["communications", "businesses"]
 }

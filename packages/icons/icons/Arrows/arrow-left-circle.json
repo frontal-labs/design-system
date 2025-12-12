@@ -10,8 +10,5 @@
 		"return",
 		"pointer"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

@@ -10,8 +10,5 @@
 		"sharp",
 		"cutting"
 	],
-	"categories": [
-		"tools",
-		"design"
-	]
+	"categories": ["tools", "design"]
 }

@@ -10,8 +10,5 @@
 		"arrows",
 		"finance"
 	],
-	"categories": [
-		"arrows",
-		"finance"
-	]
+	"categories": ["arrows", "finance"]
 }

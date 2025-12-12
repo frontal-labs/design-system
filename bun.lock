@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "frontal-ai",
+      "name": "frontal-design-system",
       "dependencies": {
         "@clack/prompts": "^0.11.0",
         "commander": "^14.0.2",

@@ -11,8 +11,5 @@
 		"toggle",
 		"option"
 	],
-	"categories": [
-		"controls",
-		"form-elements"
-	]
+	"categories": ["controls", "form-elements"]
 }

@@ -10,8 +10,5 @@
 		"design",
 		"tool"
 	],
-	"categories": [
-		"filters",
-		"designs"
-	]
+	"categories": ["filters", "designs"]
 }

@@ -9,8 +9,5 @@
 		"phone",
 		"electronics"
 	],
-	"categories": [
-		"devices",
-		"technology"
-	]
+	"categories": ["devices", "technology"]
 }

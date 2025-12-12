@@ -12,8 +12,5 @@
 		"pie",
 		"representation"
 	],
-	"categories": [
-		"business",
-		"charts"
-	]
+	"categories": ["business", "charts"]
 }

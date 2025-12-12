@@ -9,8 +9,5 @@
 		"electronics",
 		"hardware"
 	],
-	"categories": [
-		"devices",
-		"storage"
-	]
+	"categories": ["devices", "storage"]
 }

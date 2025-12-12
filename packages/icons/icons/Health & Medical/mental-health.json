@@ -10,8 +10,5 @@
 		"medical",
 		"icon"
 	],
-	"categories": [
-		"health",
-		"medical"
-	]
+	"categories": ["health", "medical"]
 }

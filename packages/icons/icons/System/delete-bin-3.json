@@ -1,15 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"trash",
-		"delete",
-		"bin",
-		"file",
-		"action",
-		"remove"
-	],
-	"categories": [
-		"systems",
-		"design"
-	]
+	"tags": ["trash", "delete", "bin", "file", "action", "remove"],
+	"categories": ["systems", "design"]
 }

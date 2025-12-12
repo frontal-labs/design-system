@@ -10,8 +10,5 @@
 		"blockchain",
 		"btc"
 	],
-	"categories": [
-		"finance",
-		"currencies"
-	]
+	"categories": ["finance", "currencies"]
 }

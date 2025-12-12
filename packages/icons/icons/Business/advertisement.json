@@ -10,8 +10,5 @@
 		"promo",
 		"display"
 	],
-	"categories": [
-		"businesses",
-		"signs"
-	]
+	"categories": ["businesses", "signs"]
 }

@@ -11,8 +11,5 @@
 		"schedule",
 		"time"
 	],
-	"categories": [
-		"businesses",
-		"actions"
-	]
+	"categories": ["businesses", "actions"]
 }

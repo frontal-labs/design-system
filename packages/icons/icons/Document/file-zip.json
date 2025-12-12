@@ -10,8 +10,5 @@
 		"data",
 		"storage"
 	],
-	"categories": [
-		"documents",
-		"files"
-	]
+	"categories": ["documents", "files"]
 }

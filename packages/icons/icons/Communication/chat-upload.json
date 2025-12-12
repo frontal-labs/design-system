@@ -10,8 +10,5 @@
 		"send",
 		"cloud"
 	],
-	"categories": [
-		"communication",
-		"arrows"
-	]
+	"categories": ["communication", "arrows"]
 }

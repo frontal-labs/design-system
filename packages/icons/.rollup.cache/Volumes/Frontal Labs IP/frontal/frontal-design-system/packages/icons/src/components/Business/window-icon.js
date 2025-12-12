@@ -1,0 +1,7 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+export function WindowIcon({ width = 24, height = 24, color = 'currentColor', ...props }) {
+    return (_jsx("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", width: width, height: height, fill: color, "aria-label": "Window", "aria-labelledby": "Window", "aria-hidden": true, ...props, children: _jsx("path", { d: "M21 3C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H21ZM20 11H4V19H20V11ZM20 5H4V9H20V5ZM11 6V8H9V6H11ZM7 6V8H5V6H7Z" }) }));
+}
+WindowIcon.displayName = 'WindowIcon';
+export default WindowIcon;
+//# sourceMappingURL=window-icon.js.map

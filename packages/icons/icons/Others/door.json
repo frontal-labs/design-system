@@ -11,8 +11,5 @@
 		"open",
 		"closed"
 	],
-	"categories": [
-		"design",
-		"navigation"
-	]
+	"categories": ["design", "navigation"]
 }

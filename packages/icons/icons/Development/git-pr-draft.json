@@ -10,8 +10,5 @@
 		"github",
 		"code"
 	],
-	"categories": [
-		"development",
-		"design"
-	]
+	"categories": ["development", "design"]
 }

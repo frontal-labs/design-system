@@ -9,8 +9,5 @@
 		"error",
 		"notification"
 	],
-	"categories": [
-		"documents",
-		"alert"
-	]
+	"categories": ["documents", "alert"]
 }

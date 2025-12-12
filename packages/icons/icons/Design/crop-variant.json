@@ -10,8 +10,5 @@
 		"graphics",
 		"photo"
 	],
-	"categories": [
-		"design",
-		"tools"
-	]
+	"categories": ["design", "tools"]
 }

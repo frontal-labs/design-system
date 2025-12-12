@@ -10,8 +10,5 @@
 		"drinkware",
 		"cocktail"
 	],
-	"categories": [
-		"food",
-		"drinks"
-	]
+	"categories": ["food", "drinks"]
 }

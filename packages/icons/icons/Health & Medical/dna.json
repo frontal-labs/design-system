@@ -11,8 +11,5 @@
 		"lab",
 		"research"
 	],
-	"categories": [
-		"biology",
-		"science"
-	]
+	"categories": ["biology", "science"]
 }

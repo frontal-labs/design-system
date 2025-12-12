@@ -1,6 +1,6 @@
 "use client";
 
-import { GitCommitIcon, ArrowUpIcon } from "@frontal/icons";
+import { ArrowUpIcon, GitCommitIcon } from "@frontal/icons";
 import { CartesianGrid, Line, LineChart, XAxis } from "recharts";
 
 import {

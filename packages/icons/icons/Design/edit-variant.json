@@ -10,8 +10,5 @@
 		"tool",
 		"pen"
 	],
-	"categories": [
-		"design",
-		"tools"
-	]
+	"categories": ["design", "tools"]
 }

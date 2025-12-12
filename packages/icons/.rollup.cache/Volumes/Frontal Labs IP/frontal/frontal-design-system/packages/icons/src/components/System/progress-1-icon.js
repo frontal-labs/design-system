@@ -1,0 +1,7 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+export function Progress_1Icon({ width = 24, height = 24, color = 'currentColor', ...props }) {
+    return (_jsx("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", width: width, height: height, fill: color, "aria-label": "Circle Arrow Down", "aria-labelledby": "Circle Arrow Down", "aria-hidden": true, ...props, children: _jsx("path", { d: "M2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12ZM20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12ZM12 12V6C13.6569 6 15.1569 6.67157 16.2426 7.75736L12 12Z" }) }));
+}
+Progress_1Icon.displayName = 'Progress_1Icon';
+export default Progress_1Icon;
+//# sourceMappingURL=progress-1-icon.js.map

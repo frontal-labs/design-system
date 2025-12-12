@@ -10,8 +10,5 @@
 		"device",
 		"technology"
 	],
-	"categories": [
-		"devices",
-		"electronics"
-	]
+	"categories": ["devices", "electronics"]
 }

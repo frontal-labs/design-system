@@ -12,8 +12,5 @@
 		"cash",
 		"ticketing"
 	],
-	"categories": [
-		"finance",
-		"documents"
-	]
+	"categories": ["finance", "documents"]
 }

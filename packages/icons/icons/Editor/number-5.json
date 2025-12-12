@@ -12,8 +12,5 @@
 		"form",
 		"label"
 	],
-	"categories": [
-		"numbers",
-		"texts"
-	]
+	"categories": ["numbers", "texts"]
 }

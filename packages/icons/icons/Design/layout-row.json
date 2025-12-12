@@ -9,8 +9,5 @@
 		"design",
 		"structure"
 	],
-	"categories": [
-		"design",
-		"layouts"
-	]
+	"categories": ["design", "layouts"]
 }

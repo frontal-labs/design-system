@@ -9,8 +9,5 @@
 		"send",
 		"network"
 	],
-	"categories": [
-		"arrows",
-		"system"
-	]
+	"categories": ["arrows", "system"]
 }

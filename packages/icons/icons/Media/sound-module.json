@@ -10,8 +10,5 @@
 		"sound-module",
 		"headphones"
 	],
-	"categories": [
-		"media",
-		"audio"
-	]
+	"categories": ["media", "audio"]
 }

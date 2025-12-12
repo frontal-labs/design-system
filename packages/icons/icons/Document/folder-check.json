@@ -11,8 +11,5 @@
 		"save",
 		"folder-check"
 	],
-	"categories": [
-		"folders",
-		"documents"
-	]
+	"categories": ["folders", "documents"]
 }

@@ -10,8 +10,5 @@
 		"omega-symbol",
 		"math-symbol"
 	],
-	"categories": [
-		"symbols",
-		"math"
-	]
+	"categories": ["symbols", "math"]
 }

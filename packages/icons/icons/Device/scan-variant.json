@@ -9,8 +9,5 @@
 		"scanning",
 		"device"
 	],
-	"categories": [
-		"devices",
-		"scanners"
-	]
+	"categories": ["devices", "scanners"]
 }

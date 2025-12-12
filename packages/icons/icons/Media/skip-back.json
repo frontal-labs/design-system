@@ -11,8 +11,5 @@
 		"playback",
 		"arrow"
 	],
-	"categories": [
-		"media",
-		"navigation"
-	]
+	"categories": ["media", "navigation"]
 }

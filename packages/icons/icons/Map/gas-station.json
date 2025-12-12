@@ -12,8 +12,5 @@
 		"transportation",
 		"icon"
 	],
-	"categories": [
-		"map",
-		"navigation"
-	]
+	"categories": ["map", "navigation"]
 }

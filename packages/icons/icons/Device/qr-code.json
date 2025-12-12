@@ -11,8 +11,5 @@
 		"square",
 		"icon"
 	],
-	"categories": [
-		"devices",
-		"barcodes"
-	]
+	"categories": ["devices", "barcodes"]
 }

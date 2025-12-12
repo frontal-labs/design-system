@@ -10,8 +10,5 @@
 		"stand",
 		"display"
 	],
-	"categories": [
-		"devices",
-		"technology"
-	]
+	"categories": ["devices", "technology"]
 }

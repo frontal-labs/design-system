@@ -10,8 +10,5 @@
 		"map",
 		"transport"
 	],
-	"categories": [
-		"navigation",
-		"vehicles"
-	]
+	"categories": ["navigation", "vehicles"]
 }

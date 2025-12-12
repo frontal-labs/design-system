@@ -11,8 +11,5 @@
 		"symbol",
 		"icon"
 	],
-	"categories": [
-		"buildings",
-		"facilities"
-	]
+	"categories": ["buildings", "facilities"]
 }

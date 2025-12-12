@@ -10,8 +10,5 @@
 		"circular",
 		"double-arrow"
 	],
-	"categories": [
-		"arrows",
-		"finance"
-	]
+	"categories": ["arrows", "finance"]
 }

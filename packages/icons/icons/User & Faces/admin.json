@@ -10,8 +10,5 @@
 		"security",
 		"role"
 	],
-	"categories": [
-		"users",
-		"faces"
-	]
+	"categories": ["users", "faces"]
 }

@@ -1,14 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"camera",
-		"photography",
-		"lens",
-		"capture",
-		"media"
-	],
-	"categories": [
-		"media",
-		"photography"
-	]
+	"tags": ["camera", "photography", "lens", "capture", "media"],
+	"categories": ["media", "photography"]
 }

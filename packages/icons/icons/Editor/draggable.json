@@ -10,8 +10,5 @@
 		"controls",
 		"symbol"
 	],
-	"categories": [
-		"editors",
-		"controls"
-	]
+	"categories": ["editors", "controls"]
 }

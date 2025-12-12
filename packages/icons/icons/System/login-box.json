@@ -10,8 +10,5 @@
 		"entry",
 		"system"
 	],
-	"categories": [
-		"systems",
-		"arrows"
-	]
+	"categories": ["systems", "arrows"]
 }

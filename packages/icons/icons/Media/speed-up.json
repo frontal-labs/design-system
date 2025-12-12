@@ -9,8 +9,5 @@
 		"circle",
 		"fast-forward"
 	],
-	"categories": [
-		"media",
-		"arrows"
-	]
+	"categories": ["media", "arrows"]
 }

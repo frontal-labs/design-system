@@ -12,8 +12,5 @@
 		"nonbinary",
 		"user"
 	],
-	"categories": [
-		"people",
-		"symbols"
-	]
+	"categories": ["people", "symbols"]
 }

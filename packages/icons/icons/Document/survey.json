@@ -10,8 +10,5 @@
 		"file",
 		"header"
 	],
-	"categories": [
-		"documents",
-		"forms"
-	]
+	"categories": ["documents", "forms"]
 }

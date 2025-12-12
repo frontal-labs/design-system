@@ -9,8 +9,5 @@
 		"computer",
 		"technology"
 	],
-	"categories": [
-		"systems",
-		"design"
-	]
+	"categories": ["systems", "design"]
 }

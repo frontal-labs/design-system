@@ -10,8 +10,5 @@
 		"savings",
 		"receipt"
 	],
-	"categories": [
-		"finance",
-		"business"
-	]
+	"categories": ["finance", "business"]
 }

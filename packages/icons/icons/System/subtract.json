@@ -9,8 +9,5 @@
 		"symbol",
 		"horizontal"
 	],
-	"categories": [
-		"symbols",
-		"math"
-	]
+	"categories": ["symbols", "math"]
 }

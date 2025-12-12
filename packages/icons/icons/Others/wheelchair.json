@@ -10,8 +10,5 @@
 		"universal",
 		"assistive"
 	],
-	"categories": [
-		"design",
-		"accessibility"
-	]
+	"categories": ["design", "accessibility"]
 }

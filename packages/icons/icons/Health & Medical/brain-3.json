@@ -10,8 +10,5 @@
 		"mind",
 		"head"
 	],
-	"categories": [
-		"health",
-		"medical"
-	]
+	"categories": ["health", "medical"]
 }

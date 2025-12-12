@@ -9,8 +9,5 @@
 		"forward",
 		"horizontal"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

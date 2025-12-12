@@ -10,8 +10,5 @@
 		"tool",
 		"menu"
 	],
-	"categories": [
-		"systems",
-		"designs"
-	]
+	"categories": ["systems", "designs"]
 }

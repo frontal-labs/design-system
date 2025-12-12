@@ -10,8 +10,5 @@
 		"dismiss",
 		"action"
 	],
-	"categories": [
-		"actions",
-		"buttons"
-	]
+	"categories": ["actions", "buttons"]
 }

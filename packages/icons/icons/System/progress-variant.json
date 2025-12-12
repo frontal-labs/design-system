@@ -10,8 +10,5 @@
 		"activity",
 		"partial"
 	],
-	"categories": [
-		"statuses",
-		"indicators"
-	]
+	"categories": ["statuses", "indicators"]
 }

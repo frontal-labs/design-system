@@ -10,8 +10,5 @@
 		"parking",
 		"location"
 	],
-	"categories": [
-		"transportation",
-		"maps"
-	]
+	"categories": ["transportation", "maps"]
 }

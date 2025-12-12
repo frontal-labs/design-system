@@ -11,8 +11,5 @@
 		"combat",
 		"sports"
 	],
-	"categories": [
-		"sports",
-		"activity"
-	]
+	"categories": ["sports", "activity"]
 }

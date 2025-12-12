@@ -10,8 +10,5 @@
 		"structure",
 		"house icon"
 	],
-	"categories": [
-		"buildings",
-		"architecture"
-	]
+	"categories": ["buildings", "architecture"]
 }

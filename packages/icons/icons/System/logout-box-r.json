@@ -1,15 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"logout",
-		"box",
-		"arrow",
-		"right",
-		"exit",
-		"system"
-	],
-	"categories": [
-		"navigation",
-		"system"
-	]
+	"tags": ["logout", "box", "arrow", "right", "exit", "system"],
+	"categories": ["navigation", "system"]
 }

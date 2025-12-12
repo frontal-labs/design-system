@@ -10,8 +10,5 @@
 		"headset",
 		"speech-bubble"
 	],
-	"categories": [
-		"logos",
-		"communication"
-	]
+	"categories": ["logos", "communication"]
 }

@@ -11,8 +11,5 @@
 		"scan",
 		"touch"
 	],
-	"categories": [
-		"devices",
-		"security"
-	]
+	"categories": ["devices", "security"]
 }

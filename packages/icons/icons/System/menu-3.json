@@ -10,8 +10,5 @@
 		"icon",
 		"app"
 	],
-	"categories": [
-		"navigation",
-		"design"
-	]
+	"categories": ["navigation", "design"]
 }

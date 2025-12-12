@@ -11,8 +11,5 @@
 		"indicator",
 		"system"
 	],
-	"categories": [
-		"systems",
-		"design"
-	]
+	"categories": ["systems", "design"]
 }

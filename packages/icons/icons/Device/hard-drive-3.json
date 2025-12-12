@@ -10,8 +10,5 @@
 		"drive",
 		"icon"
 	],
-	"categories": [
-		"devices",
-		"hardware"
-	]
+	"categories": ["devices", "hardware"]
 }

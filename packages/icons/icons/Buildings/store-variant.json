@@ -10,8 +10,5 @@
 		"commerce",
 		"mall"
 	],
-	"categories": [
-		"buildings",
-		"commerce"
-	]
+	"categories": ["buildings", "commerce"]
 }

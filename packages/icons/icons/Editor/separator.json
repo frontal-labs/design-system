@@ -9,8 +9,5 @@
 		"design",
 		"line"
 	],
-	"categories": [
-		"editor",
-		"design"
-	]
+	"categories": ["editor", "design"]
 }

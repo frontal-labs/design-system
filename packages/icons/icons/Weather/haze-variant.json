@@ -11,8 +11,5 @@
 		"weather-forecast",
 		"weather-condition"
 	],
-	"categories": [
-		"weather",
-		"clouds"
-	]
+	"categories": ["weather", "clouds"]
 }

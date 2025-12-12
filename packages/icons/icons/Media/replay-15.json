@@ -1,15 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"replay",
-		"15",
-		"seconds",
-		"media",
-		"clock",
-		"time"
-	],
-	"categories": [
-		"media",
-		"controls"
-	]
+	"tags": ["replay", "15", "seconds", "media", "clock", "time"],
+	"categories": ["media", "controls"]
 }

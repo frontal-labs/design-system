@@ -9,8 +9,5 @@
 		"presentation",
 		"grid"
 	],
-	"categories": [
-		"editors",
-		"designs"
-	]
+	"categories": ["editors", "designs"]
 }

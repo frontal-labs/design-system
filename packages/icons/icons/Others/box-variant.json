@@ -11,8 +11,5 @@
 		"warehouse",
 		"inventory"
 	],
-	"categories": [
-		"design",
-		"objects"
-	]
+	"categories": ["design", "objects"]
 }

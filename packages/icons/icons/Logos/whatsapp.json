@@ -10,8 +10,5 @@
 		"brand",
 		"logo"
 	],
-	"categories": [
-		"logos",
-		"social"
-	]
+	"categories": ["logos", "social"]
 }

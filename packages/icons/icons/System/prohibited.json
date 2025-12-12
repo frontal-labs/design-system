@@ -10,8 +10,5 @@
 		"slash",
 		"alert"
 	],
-	"categories": [
-		"systems",
-		"design"
-	]
+	"categories": ["systems", "design"]
 }

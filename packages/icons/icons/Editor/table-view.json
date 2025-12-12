@@ -10,8 +10,5 @@
 		"editor",
 		"design"
 	],
-	"categories": [
-		"editor",
-		"layout"
-	]
+	"categories": ["editor", "layout"]
 }

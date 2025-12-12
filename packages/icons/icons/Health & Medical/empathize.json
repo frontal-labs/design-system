@@ -10,8 +10,5 @@
 		"medical",
 		"sympathy"
 	],
-	"categories": [
-		"health",
-		"emotions"
-	]
+	"categories": ["health", "emotions"]
 }

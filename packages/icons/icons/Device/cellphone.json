@@ -10,8 +10,5 @@
 		"handheld",
 		"screen"
 	],
-	"categories": [
-		"devices",
-		"technologies"
-	]
+	"categories": ["devices", "technologies"]
 }

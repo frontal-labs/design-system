@@ -9,8 +9,5 @@
 		"symbol",
 		"shape"
 	],
-	"categories": [
-		"business",
-		"flags"
-	]
+	"categories": ["business", "flags"]
 }

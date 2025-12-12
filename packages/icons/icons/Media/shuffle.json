@@ -10,8 +10,5 @@
 		"mix",
 		"repeat"
 	],
-	"categories": [
-		"media",
-		"controls"
-	]
+	"categories": ["media", "controls"]
 }

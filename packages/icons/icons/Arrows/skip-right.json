@@ -10,8 +10,5 @@
 		"play",
 		"control"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

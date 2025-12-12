@@ -12,8 +12,5 @@
 		"medicine",
 		"clinical"
 	],
-	"categories": [
-		"medical",
-		"equipment"
-	]
+	"categories": ["medical", "equipment"]
 }

@@ -11,8 +11,5 @@
 		"photo",
 		"camera-2"
 	],
-	"categories": [
-		"media",
-		"devices"
-	]
+	"categories": ["media", "devices"]
 }

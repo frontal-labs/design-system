@@ -10,8 +10,5 @@
 		"workspace",
 		"organization"
 	],
-	"categories": [
-		"logos",
-		"apps"
-	]
+	"categories": ["logos", "apps"]
 }

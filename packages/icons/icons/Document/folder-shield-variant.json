@@ -11,8 +11,5 @@
 		"privacy",
 		"safe"
 	],
-	"categories": [
-		"folders",
-		"security"
-	]
+	"categories": ["folders", "security"]
 }

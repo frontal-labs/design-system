@@ -11,8 +11,5 @@
 		"design",
 		"direction"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

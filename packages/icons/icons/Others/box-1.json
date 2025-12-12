@@ -10,8 +10,5 @@
 		"storage",
 		"inventory"
 	],
-	"categories": [
-		"design",
-		"others"
-	]
+	"categories": ["design", "others"]
 }

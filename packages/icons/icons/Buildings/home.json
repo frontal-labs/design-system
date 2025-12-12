@@ -10,8 +10,5 @@
 		"door",
 		"architecture"
 	],
-	"categories": [
-		"buildings",
-		"navigation"
-	]
+	"categories": ["buildings", "navigation"]
 }

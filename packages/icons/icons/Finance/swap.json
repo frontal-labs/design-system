@@ -10,8 +10,5 @@
 		"circulate",
 		"reorder"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

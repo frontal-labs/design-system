@@ -10,8 +10,5 @@
 		"sitting",
 		"decor"
 	],
-	"categories": [
-		"furniture",
-		"design"
-	]
+	"categories": ["furniture", "design"]
 }

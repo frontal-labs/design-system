@@ -11,8 +11,5 @@
 		"reversal",
 		"transaction"
 	],
-	"categories": [
-		"finance",
-		"arrows"
-	]
+	"categories": ["finance", "arrows"]
 }

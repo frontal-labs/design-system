@@ -10,8 +10,5 @@
 		"daytime",
 		"light"
 	],
-	"categories": [
-		"weather",
-		"design"
-	]
+	"categories": ["weather", "design"]
 }

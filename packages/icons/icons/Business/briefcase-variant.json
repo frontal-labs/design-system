@@ -11,8 +11,5 @@
 		"carry",
 		"transport"
 	],
-	"categories": [
-		"businesses",
-		"offices"
-	]
+	"categories": ["businesses", "offices"]
 }

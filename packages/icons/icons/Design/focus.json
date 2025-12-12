@@ -9,8 +9,5 @@
 		"zoom",
 		"concentrate"
 	],
-	"categories": [
-		"design",
-		"symbols"
-	]
+	"categories": ["design", "symbols"]
 }

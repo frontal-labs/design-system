@@ -10,8 +10,5 @@
 		"editor",
 		"type"
 	],
-	"categories": [
-		"editors",
-		"numbers"
-	]
+	"categories": ["editors", "numbers"]
 }

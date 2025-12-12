@@ -12,8 +12,5 @@
 		"icon",
 		"control"
 	],
-	"categories": [
-		"media",
-		"controls"
-	]
+	"categories": ["media", "controls"]
 }

@@ -10,8 +10,5 @@
 		"person",
 		"eyes"
 	],
-	"categories": [
-		"users",
-		"faces"
-	]
+	"categories": ["users", "faces"]
 }

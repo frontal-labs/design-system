@@ -10,8 +10,5 @@
 		"module",
 		"processor"
 	],
-	"categories": [
-		"devices",
-		"hardware"
-	]
+	"categories": ["devices", "hardware"]
 }

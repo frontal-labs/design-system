@@ -11,8 +11,5 @@
 		"media",
 		"clip"
 	],
-	"categories": [
-		"media",
-		"films"
-	]
+	"categories": ["media", "films"]
 }

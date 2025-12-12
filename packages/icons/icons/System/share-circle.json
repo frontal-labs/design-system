@@ -9,8 +9,5 @@
 		"communication",
 		"network"
 	],
-	"categories": [
-		"navigation",
-		"social"
-	]
+	"categories": ["navigation", "social"]
 }

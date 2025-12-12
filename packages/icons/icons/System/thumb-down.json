@@ -11,8 +11,5 @@
 		"rating",
 		"social"
 	],
-	"categories": [
-		"social",
-		"hand"
-	]
+	"categories": ["social", "hand"]
 }

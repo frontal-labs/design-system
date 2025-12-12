@@ -9,8 +9,5 @@
 		"controls",
 		"navigation"
 	],
-	"categories": [
-		"media",
-		"navigation"
-	]
+	"categories": ["media", "navigation"]
 }

@@ -10,8 +10,5 @@
 		"rectangle",
 		"icon"
 	],
-	"categories": [
-		"finance",
-		"cards"
-	]
+	"categories": ["finance", "cards"]
 }

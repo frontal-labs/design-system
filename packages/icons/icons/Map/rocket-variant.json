@@ -11,8 +11,5 @@
 		"symbol",
 		"icon"
 	],
-	"categories": [
-		"vehicles",
-		"navigation"
-	]
+	"categories": ["vehicles", "navigation"]
 }

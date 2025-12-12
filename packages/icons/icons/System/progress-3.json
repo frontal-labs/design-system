@@ -9,8 +9,5 @@
 		"pie",
 		"chart"
 	],
-	"categories": [
-		"indicators",
-		"status"
-	]
+	"categories": ["indicators", "status"]
 }

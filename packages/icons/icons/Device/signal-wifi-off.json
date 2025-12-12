@@ -10,8 +10,5 @@
 		"connectivity",
 		"device"
 	],
-	"categories": [
-		"devices",
-		"communication"
-	]
+	"categories": ["devices", "communication"]
 }

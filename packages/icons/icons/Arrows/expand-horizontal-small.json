@@ -10,8 +10,5 @@
 		"ui",
 		"interface"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

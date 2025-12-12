@@ -9,8 +9,5 @@
 		"map",
 		"marine"
 	],
-	"categories": [
-		"map",
-		"navigation"
-	]
+	"categories": ["map", "navigation"]
 }

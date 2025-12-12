@@ -10,8 +10,5 @@
 		"nodejs",
 		"typescript"
 	],
-	"categories": [
-		"logos",
-		"frameworks"
-	]
+	"categories": ["logos", "frameworks"]
 }

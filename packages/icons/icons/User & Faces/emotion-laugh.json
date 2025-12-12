@@ -10,8 +10,5 @@
 		"eyes",
 		"expression"
 	],
-	"categories": [
-		"faces",
-		"emotions"
-	]
+	"categories": ["faces", "emotions"]
 }

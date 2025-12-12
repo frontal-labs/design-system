@@ -10,8 +10,5 @@
 		"point",
 		"direction"
 	],
-	"categories": [
-		"maps",
-		"navigation"
-	]
+	"categories": ["maps", "navigation"]
 }

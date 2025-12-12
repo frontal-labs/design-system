@@ -9,8 +9,5 @@
 		"message",
 		"badge"
 	],
-	"categories": [
-		"mails",
-		"notifications"
-	]
+	"categories": ["mails", "notifications"]
 }

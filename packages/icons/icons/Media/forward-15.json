@@ -10,8 +10,5 @@
 		"clock",
 		"play"
 	],
-	"categories": [
-		"arrows",
-		"media"
-	]
+	"categories": ["arrows", "media"]
 }

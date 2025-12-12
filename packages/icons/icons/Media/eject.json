@@ -11,8 +11,5 @@
 		"icon",
 		"device"
 	],
-	"categories": [
-		"media",
-		"transport"
-	]
+	"categories": ["media", "transport"]
 }

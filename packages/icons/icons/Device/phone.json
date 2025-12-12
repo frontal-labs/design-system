@@ -10,8 +10,5 @@
 		"handset",
 		"contact"
 	],
-	"categories": [
-		"devices",
-		"communication"
-	]
+	"categories": ["devices", "communication"]
 }

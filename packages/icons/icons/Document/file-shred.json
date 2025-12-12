@@ -9,8 +9,5 @@
 		"garbage",
 		"privacy"
 	],
-	"categories": [
-		"documents",
-		"security"
-	]
+	"categories": ["documents", "security"]
 }

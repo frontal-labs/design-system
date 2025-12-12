@@ -10,8 +10,5 @@
 		"paper",
 		"annotation"
 	],
-	"categories": [
-		"documents",
-		"actions"
-	]
+	"categories": ["documents", "actions"]
 }

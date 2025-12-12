@@ -10,8 +10,5 @@
 		"business",
 		"technology"
 	],
-	"categories": [
-		"business",
-		"technology"
-	]
+	"categories": ["business", "technology"]
 }

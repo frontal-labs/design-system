@@ -12,8 +12,5 @@
 		"tower",
 		"strength"
 	],
-	"categories": [
-		"media",
-		"communication"
-	]
+	"categories": ["media", "communication"]
 }

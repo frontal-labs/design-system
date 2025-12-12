@@ -9,8 +9,5 @@
 		"web",
 		"microsoft"
 	],
-	"categories": [
-		"logos",
-		"software"
-	]
+	"categories": ["logos", "software"]
 }

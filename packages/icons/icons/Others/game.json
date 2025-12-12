@@ -9,8 +9,5 @@
 		"joystick",
 		"icon"
 	],
-	"categories": [
-		"gaming",
-		"controls"
-	]
+	"categories": ["gaming", "controls"]
 }

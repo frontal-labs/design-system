@@ -10,8 +10,5 @@
 		"business",
 		"view"
 	],
-	"categories": [
-		"design",
-		"media"
-	]
+	"categories": ["design", "media"]
 }

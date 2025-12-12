@@ -10,8 +10,5 @@
 		"antenna",
 		"tower"
 	],
-	"categories": [
-		"media",
-		"devices"
-	]
+	"categories": ["media", "devices"]
 }

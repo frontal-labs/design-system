@@ -10,8 +10,5 @@
 		"package",
 		"travelling"
 	],
-	"categories": [
-		"design",
-		"travel"
-	]
+	"categories": ["design", "travel"]
 }

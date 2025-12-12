@@ -9,8 +9,5 @@
 		"finance",
 		"symbol"
 	],
-	"categories": [
-		"finance",
-		"cryptocurrencies"
-	]
+	"categories": ["finance", "cryptocurrencies"]
 }

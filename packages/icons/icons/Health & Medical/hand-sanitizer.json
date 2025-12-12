@@ -10,8 +10,5 @@
 		"soap",
 		"cleaning"
 	],
-	"categories": [
-		"health",
-		"hygiene"
-	]
+	"categories": ["health", "hygiene"]
 }

@@ -9,7 +9,5 @@
 		"payment",
 		"investment"
 	],
-	"categories": [
-		"finance"
-	]
+	"categories": ["finance"]
 }

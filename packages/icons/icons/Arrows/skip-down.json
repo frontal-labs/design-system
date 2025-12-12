@@ -10,8 +10,5 @@
 		"play",
 		"skip-forward"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

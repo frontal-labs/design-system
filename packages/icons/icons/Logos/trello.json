@@ -11,8 +11,5 @@
 		"software",
 		"list"
 	],
-	"categories": [
-		"logos",
-		"productivity"
-	]
+	"categories": ["logos", "productivity"]
 }

@@ -9,8 +9,5 @@
 		"animal",
 		"cartoon character"
 	],
-	"categories": [
-		"faces",
-		"animals"
-	]
+	"categories": ["faces", "animals"]
 }

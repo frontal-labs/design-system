@@ -10,8 +10,5 @@
 		"bubble",
 		"x"
 	],
-	"categories": [
-		"communication",
-		"actions"
-	]
+	"categories": ["communication", "actions"]
 }

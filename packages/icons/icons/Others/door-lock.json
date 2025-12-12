@@ -10,8 +10,5 @@
 		"closed",
 		"key"
 	],
-	"categories": [
-		"objects",
-		"security"
-	]
+	"categories": ["objects", "security"]
 }

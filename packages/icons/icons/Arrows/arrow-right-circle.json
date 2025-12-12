@@ -11,8 +11,5 @@
 		"button",
 		"action"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

@@ -11,8 +11,5 @@
 		"language",
 		"key"
 	],
-	"categories": [
-		"editors",
-		"inputs"
-	]
+	"categories": ["editors", "inputs"]
 }

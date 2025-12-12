@@ -9,8 +9,5 @@
 		"group",
 		"relationship"
 	],
-	"categories": [
-		"people",
-		"faces"
-	]
+	"categories": ["people", "faces"]
 }

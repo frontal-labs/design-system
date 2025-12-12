@@ -9,8 +9,5 @@
 		"mute",
 		"status"
 	],
-	"categories": [
-		"media",
-		"notifications"
-	]
+	"categories": ["media", "notifications"]
 }

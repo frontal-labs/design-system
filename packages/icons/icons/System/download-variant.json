@@ -11,8 +11,5 @@
 		"document",
 		"icon"
 	],
-	"categories": [
-		"actions",
-		"arrows"
-	]
+	"categories": ["actions", "arrows"]
 }

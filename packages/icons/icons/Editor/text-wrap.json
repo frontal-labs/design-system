@@ -10,8 +10,5 @@
 		"paragraph",
 		"ui"
 	],
-	"categories": [
-		"editor",
-		"design"
-	]
+	"categories": ["editor", "design"]
 }

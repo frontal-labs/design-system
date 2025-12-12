@@ -9,8 +9,5 @@
 		"photo-frame",
 		"icon"
 	],
-	"categories": [
-		"media",
-		"design"
-	]
+	"categories": ["media", "design"]
 }

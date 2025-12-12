@@ -10,8 +10,5 @@
 		"sound",
 		"speech-to-text"
 	],
-	"categories": [
-		"media",
-		"communication"
-	]
+	"categories": ["media", "communication"]
 }

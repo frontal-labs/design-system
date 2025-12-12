@@ -10,8 +10,5 @@
 		"cart",
 		"transaction"
 	],
-	"categories": [
-		"shopping",
-		"finance"
-	]
+	"categories": ["shopping", "finance"]
 }

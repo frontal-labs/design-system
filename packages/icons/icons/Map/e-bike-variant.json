@@ -10,8 +10,5 @@
 		"electric",
 		"road"
 	],
-	"categories": [
-		"transportation",
-		"vehicles"
-	]
+	"categories": ["transportation", "vehicles"]
 }

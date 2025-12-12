@@ -10,8 +10,5 @@
 		"generation",
 		"camera icon"
 	],
-	"categories": [
-		"media",
-		"technology"
-	]
+	"categories": ["media", "technology"]
 }

@@ -9,8 +9,5 @@
 		"app",
 		"communication"
 	],
-	"categories": [
-		"logos",
-		"social"
-	]
+	"categories": ["logos", "social"]
 }

@@ -9,8 +9,5 @@
 		"panel",
 		"design"
 	],
-	"categories": [
-		"design",
-		"layout"
-	]
+	"categories": ["design", "layout"]
 }

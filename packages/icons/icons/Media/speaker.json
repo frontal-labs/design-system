@@ -11,8 +11,5 @@
 		"audio control",
 		"speaker icon"
 	],
-	"categories": [
-		"media",
-		"controls"
-	]
+	"categories": ["media", "controls"]
 }

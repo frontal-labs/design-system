@@ -10,8 +10,5 @@
 		"frontend",
 		"technology"
 	],
-	"categories": [
-		"development",
-		"logos"
-	]
+	"categories": ["development", "logos"]
 }

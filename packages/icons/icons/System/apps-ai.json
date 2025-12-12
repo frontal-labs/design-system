@@ -1,16 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"apps",
-		"grid",
-		"dashboard",
-		"icons",
-		"layout",
-		"3x3",
-		"square"
-	],
-	"categories": [
-		"apps",
-		"grid"
-	]
+	"tags": ["apps", "grid", "dashboard", "icons", "layout", "3x3", "square"],
+	"categories": ["apps", "grid"]
 }

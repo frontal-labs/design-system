@@ -10,8 +10,5 @@
 		"keyhole",
 		"money"
 	],
-	"categories": [
-		"design",
-		"finance"
-	]
+	"categories": ["design", "finance"]
 }

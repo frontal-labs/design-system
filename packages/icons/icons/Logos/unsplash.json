@@ -10,8 +10,5 @@
 		"grid",
 		"media"
 	],
-	"categories": [
-		"logos",
-		"brands"
-	]
+	"categories": ["logos", "brands"]
 }

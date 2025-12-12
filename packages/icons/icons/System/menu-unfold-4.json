@@ -10,8 +10,5 @@
 		"horizontal",
 		"expand"
 	],
-	"categories": [
-		"navigation",
-		"arrows"
-	]
+	"categories": ["navigation", "arrows"]
 }

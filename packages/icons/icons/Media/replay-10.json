@@ -10,8 +10,5 @@
 		"media",
 		"arrow"
 	],
-	"categories": [
-		"media",
-		"arrows"
-	]
+	"categories": ["media", "arrows"]
 }

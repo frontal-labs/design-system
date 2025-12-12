@@ -10,8 +10,5 @@
 		"play button",
 		"movie player"
 	],
-	"categories": [
-		"media",
-		"videos"
-	]
+	"categories": ["media", "videos"]
 }

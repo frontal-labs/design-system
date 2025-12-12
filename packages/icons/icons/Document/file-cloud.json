@@ -9,8 +9,5 @@
 		"storage",
 		"folder"
 	],
-	"categories": [
-		"documents",
-		"clouds"
-	]
+	"categories": ["documents", "clouds"]
 }

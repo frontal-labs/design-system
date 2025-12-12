@@ -1,15 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"star",
-		"half",
-		"rating",
-		"favorite",
-		"star-half",
-		"icon"
-	],
-	"categories": [
-		"rating",
-		"design"
-	]
+	"tags": ["star", "half", "rating", "favorite", "star-half", "icon"],
+	"categories": ["rating", "design"]
 }

@@ -10,8 +10,5 @@
 		"storm",
 		"symbol"
 	],
-	"categories": [
-		"weather",
-		"symbols"
-	]
+	"categories": ["weather", "symbols"]
 }

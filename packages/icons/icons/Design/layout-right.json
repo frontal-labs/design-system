@@ -10,8 +10,5 @@
 		"design",
 		"interface"
 	],
-	"categories": [
-		"design",
-		"layout"
-	]
+	"categories": ["design", "layout"]
 }

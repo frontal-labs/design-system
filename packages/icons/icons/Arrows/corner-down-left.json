@@ -9,8 +9,5 @@
 		"direction",
 		"pointer"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

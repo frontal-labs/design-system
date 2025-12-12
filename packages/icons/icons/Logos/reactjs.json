@@ -10,8 +10,5 @@
 		"library",
 		"reactjs"
 	],
-	"categories": [
-		"logos",
-		"technologies"
-	]
+	"categories": ["logos", "technologies"]
 }

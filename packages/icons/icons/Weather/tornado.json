@@ -11,8 +11,5 @@
 		"weather symbol",
 		"tornado shape"
 	],
-	"categories": [
-		"weather",
-		"icons"
-	]
+	"categories": ["weather", "icons"]
 }

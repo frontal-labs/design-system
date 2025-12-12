@@ -9,8 +9,5 @@
 		"blockquote",
 		"symbol"
 	],
-	"categories": [
-		"editor",
-		"design"
-	]
+	"categories": ["editor", "design"]
 }

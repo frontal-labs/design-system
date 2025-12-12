@@ -9,8 +9,5 @@
 		"ui",
 		"system"
 	],
-	"categories": [
-		"navigation",
-		"systems"
-	]
+	"categories": ["navigation", "systems"]
 }

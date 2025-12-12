@@ -10,8 +10,5 @@
 		"text",
 		"format"
 	],
-	"categories": [
-		"editor",
-		"arrows"
-	]
+	"categories": ["editor", "arrows"]
 }

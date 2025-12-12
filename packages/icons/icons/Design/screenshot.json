@@ -9,8 +9,5 @@
 		"device",
 		"image"
 	],
-	"categories": [
-		"design",
-		"devices"
-	]
+	"categories": ["design", "devices"]
 }

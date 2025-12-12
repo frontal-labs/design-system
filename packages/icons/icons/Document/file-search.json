@@ -9,8 +9,5 @@
 		"find",
 		"query"
 	],
-	"categories": [
-		"documents",
-		"search"
-	]
+	"categories": ["documents", "search"]
 }

@@ -9,8 +9,5 @@
 		"security",
 		"protection"
 	],
-	"categories": [
-		"shields",
-		"health"
-	]
+	"categories": ["shields", "health"]
 }

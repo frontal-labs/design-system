@@ -9,8 +9,5 @@
 		"bulb",
 		"symbol"
 	],
-	"categories": [
-		"design",
-		"technology"
-	]
+	"categories": ["design", "technology"]
 }

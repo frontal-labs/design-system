@@ -9,8 +9,5 @@
 		"pointer",
 		"travel"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

@@ -10,8 +10,5 @@
 		"number",
 		"circle"
 	],
-	"categories": [
-		"media",
-		"controls"
-	]
+	"categories": ["media", "controls"]
 }

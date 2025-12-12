@@ -9,8 +9,5 @@
 		"navigation",
 		"backward"
 	],
-	"categories": [
-		"arrows",
-		"media"
-	]
+	"categories": ["arrows", "media"]
 }

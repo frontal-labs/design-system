@@ -10,8 +10,5 @@
 		"expand",
 		"ui"
 	],
-	"categories": [
-		"navigation",
-		"arrows"
-	]
+	"categories": ["navigation", "arrows"]
 }

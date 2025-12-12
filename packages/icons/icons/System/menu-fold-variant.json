@@ -10,8 +10,5 @@
 		"system",
 		"horizontal-bars"
 	],
-	"categories": [
-		"navigation",
-		"system"
-	]
+	"categories": ["navigation", "system"]
 }

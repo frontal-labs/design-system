@@ -11,8 +11,5 @@
 		"drawing",
 		"studio"
 	],
-	"categories": [
-		"design",
-		"tools"
-	]
+	"categories": ["design", "tools"]
 }

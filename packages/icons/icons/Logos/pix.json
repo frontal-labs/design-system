@@ -10,8 +10,5 @@
 		"currency",
 		"financial"
 	],
-	"categories": [
-		"logos",
-		"payments"
-	]
+	"categories": ["logos", "payments"]
 }

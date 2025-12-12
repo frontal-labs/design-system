@@ -11,8 +11,5 @@
 		"library",
 		"import"
 	],
-	"categories": [
-		"documents",
-		"arrows"
-	]
+	"categories": ["documents", "arrows"]
 }

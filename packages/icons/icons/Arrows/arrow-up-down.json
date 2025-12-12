@@ -10,8 +10,5 @@
 		"two-way",
 		"toggle"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

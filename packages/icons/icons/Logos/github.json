@@ -10,8 +10,5 @@
 		"git",
 		"brand"
 	],
-	"categories": [
-		"logos",
-		"social"
-	]
+	"categories": ["logos", "social"]
 }

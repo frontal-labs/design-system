@@ -10,8 +10,5 @@
 		"icon",
 		"mini"
 	],
-	"categories": [
-		"arrows",
-		"media"
-	]
+	"categories": ["arrows", "media"]
 }

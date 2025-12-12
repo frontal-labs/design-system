@@ -1,0 +1,7 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+export function StarHalfSIcon({ width = 24, height = 24, color = "currentColor", ...props }) {
+    return (_jsx("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", width: width, height: height, fill: color, "aria-label": "Star Half S", "aria-labelledby": "Star Half S", "aria-hidden": true, ...props, children: _jsx("path", { d: "M11.9998 14.6564L14.8165 16.3769L14.0507 13.1664L16.5574 11.0192L13.2673 10.7554L11.9998 7.70792V14.6564ZM11.9998 17L6.12197 20.5902L7.72007 13.8906L2.48926 9.40983L9.35479 8.85942L11.9998 2.5L14.6449 8.85942L21.5104 9.40983L16.2796 13.8906L17.8777 20.5902L11.9998 17Z" }) }));
+}
+StarHalfSIcon.displayName = "StarHalfSIcon";
+export default StarHalfSIcon;
+//# sourceMappingURL=star-half-s-icon.js.map

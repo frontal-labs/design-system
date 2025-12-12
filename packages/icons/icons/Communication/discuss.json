@@ -10,8 +10,5 @@
 		"bubble",
 		"tail"
 	],
-	"categories": [
-		"communication",
-		"social"
-	]
+	"categories": ["communication", "social"]
 }

@@ -10,7 +10,5 @@
 		"cloudy",
 		"meteorology"
 	],
-	"categories": [
-		"weather"
-	]
+	"categories": ["weather"]
 }

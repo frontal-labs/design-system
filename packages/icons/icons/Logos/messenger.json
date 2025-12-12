@@ -10,8 +10,5 @@
 		"app-icon",
 		"logo"
 	],
-	"categories": [
-		"logos",
-		"social"
-	]
+	"categories": ["logos", "social"]
 }

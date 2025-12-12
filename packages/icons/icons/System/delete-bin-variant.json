@@ -10,8 +10,5 @@
 		"system",
 		"file"
 	],
-	"categories": [
-		"actions",
-		"systems"
-	]
+	"categories": ["actions", "systems"]
 }

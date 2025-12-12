@@ -10,8 +10,5 @@
 		"direction",
 		"geolocation"
 	],
-	"categories": [
-		"navigation",
-		"map"
-	]
+	"categories": ["navigation", "map"]
 }

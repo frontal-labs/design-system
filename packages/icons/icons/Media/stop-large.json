@@ -10,8 +10,5 @@
 		"button",
 		"player"
 	],
-	"categories": [
-		"media",
-		"controls"
-	]
+	"categories": ["media", "controls"]
 }

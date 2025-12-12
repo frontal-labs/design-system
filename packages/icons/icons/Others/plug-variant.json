@@ -10,8 +10,5 @@
 		"electronics",
 		"connect"
 	],
-	"categories": [
-		"devices",
-		"electronics"
-	]
+	"categories": ["devices", "electronics"]
 }

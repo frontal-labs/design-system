@@ -9,8 +9,5 @@
 		"circle",
 		"radius"
 	],
-	"categories": [
-		"navigation",
-		"maps"
-	]
+	"categories": ["navigation", "maps"]
 }

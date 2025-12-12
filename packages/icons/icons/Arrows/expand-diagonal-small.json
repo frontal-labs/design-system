@@ -9,8 +9,5 @@
 		"direction",
 		"resize"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

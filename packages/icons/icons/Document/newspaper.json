@@ -9,8 +9,5 @@
 		"print",
 		"layout"
 	],
-	"categories": [
-		"documents",
-		"media"
-	]
+	"categories": ["documents", "media"]
 }

@@ -10,8 +10,5 @@
 		"map",
 		"station"
 	],
-	"categories": [
-		"maps",
-		"vehicles"
-	]
+	"categories": ["maps", "vehicles"]
 }

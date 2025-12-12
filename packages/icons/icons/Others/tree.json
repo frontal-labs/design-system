@@ -11,8 +11,5 @@
 		"environment",
 		"outdoors"
 	],
-	"categories": [
-		"nature",
-		"plants"
-	]
+	"categories": ["nature", "plants"]
 }

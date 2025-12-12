@@ -10,8 +10,5 @@
 		"edit",
 		"tools"
 	],
-	"categories": [
-		"documents",
-		"tools"
-	]
+	"categories": ["documents", "tools"]
 }

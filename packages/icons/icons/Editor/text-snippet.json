@@ -10,8 +10,5 @@
 		"editor",
 		"note"
 	],
-	"categories": [
-		"editors",
-		"documents"
-	]
+	"categories": ["editors", "documents"]
 }

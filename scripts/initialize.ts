@@ -213,7 +213,7 @@ export const initialize = async (options: {
 	disableGit?: boolean;
 }) => {
 	try {
-		intro("Let's start a Frontal AI project!");
+		intro("Let's start a Frontal Design System project!");
 
 		const cwd = process.cwd();
 		const name = options.name || (await getName());
@@ -227,7 +227,7 @@ export const initialize = async (options: {
 		const s = spinner();
 		const projectDir = join(cwd, name);
 
-		s.start("Cloning Frontal AI...");
+		s.start("Cloning Frontal Design System...");
 		await cloneAI(name, packageManager);
 
 		s.message("Moving into repository...");

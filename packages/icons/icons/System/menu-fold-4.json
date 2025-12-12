@@ -11,8 +11,5 @@
 		"list",
 		"system"
 	],
-	"categories": [
-		"navigation",
-		"system"
-	]
+	"categories": ["navigation", "system"]
 }

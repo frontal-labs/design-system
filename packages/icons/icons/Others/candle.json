@@ -10,8 +10,5 @@
 		"wax",
 		"symbol"
 	],
-	"categories": [
-		"religions",
-		"symbols"
-	]
+	"categories": ["religions", "symbols"]
 }

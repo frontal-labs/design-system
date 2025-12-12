@@ -9,8 +9,5 @@
 		"hardware",
 		"file"
 	],
-	"categories": [
-		"devices",
-		"hardware"
-	]
+	"categories": ["devices", "hardware"]
 }

@@ -10,8 +10,5 @@
 		"board-game",
 		"dice-4"
 	],
-	"categories": [
-		"objects",
-		"gaming"
-	]
+	"categories": ["objects", "gaming"]
 }

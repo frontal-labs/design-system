@@ -10,8 +10,5 @@
 		"residential",
 		"real-estate"
 	],
-	"categories": [
-		"design",
-		"buildings"
-	]
+	"categories": ["design", "buildings"]
 }

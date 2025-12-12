@@ -10,8 +10,5 @@
 		"bullet list",
 		"box"
 	],
-	"categories": [
-		"documents",
-		"lists"
-	]
+	"categories": ["documents", "lists"]
 }

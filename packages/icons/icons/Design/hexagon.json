@@ -1,15 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"hexagon",
-		"polygon",
-		"shape",
-		"design",
-		"geometry",
-		"icon"
-	],
-	"categories": [
-		"design",
-		"shapes"
-	]
+	"tags": ["hexagon", "polygon", "shape", "design", "geometry", "icon"],
+	"categories": ["design", "shapes"]
 }

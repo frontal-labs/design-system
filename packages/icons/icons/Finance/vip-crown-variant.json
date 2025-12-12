@@ -1,16 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"crown",
-		"vip",
-		"royalty",
-		"badge",
-		"award",
-		"finance",
-		"gold"
-	],
-	"categories": [
-		"design",
-		"finance"
-	]
+	"tags": ["crown", "vip", "royalty", "badge", "award", "finance", "gold"],
+	"categories": ["design", "finance"]
 }

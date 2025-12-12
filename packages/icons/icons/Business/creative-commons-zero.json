@@ -10,8 +10,5 @@
 		"free",
 		"public domain"
 	],
-	"categories": [
-		"licenses",
-		"design"
-	]
+	"categories": ["licenses", "design"]
 }

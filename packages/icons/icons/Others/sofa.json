@@ -10,8 +10,5 @@
 		"interior",
 		"comfort"
 	],
-	"categories": [
-		"furniture",
-		"home"
-	]
+	"categories": ["furniture", "home"]
 }

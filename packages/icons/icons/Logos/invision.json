@@ -12,7 +12,5 @@
 		"brand",
 		"company"
 	],
-	"categories": [
-		"logos"
-	]
+	"categories": ["logos"]
 }

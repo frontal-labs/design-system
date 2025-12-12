@@ -10,8 +10,5 @@
 		"selection",
 		"ui"
 	],
-	"categories": [
-		"forms",
-		"ui"
-	]
+	"categories": ["forms", "ui"]
 }

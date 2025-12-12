@@ -11,8 +11,5 @@
 		"text color",
 		"bucket"
 	],
-	"categories": [
-		"editor",
-		"design"
-	]
+	"categories": ["editor", "design"]
 }

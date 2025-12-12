@@ -9,8 +9,5 @@
 		"options",
 		"app bar"
 	],
-	"categories": [
-		"navigation",
-		"design"
-	]
+	"categories": ["navigation", "design"]
 }

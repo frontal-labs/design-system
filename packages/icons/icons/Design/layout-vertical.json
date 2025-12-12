@@ -10,8 +10,5 @@
 		"sidebar",
 		"organization"
 	],
-	"categories": [
-		"design",
-		"layout"
-	]
+	"categories": ["design", "layout"]
 }

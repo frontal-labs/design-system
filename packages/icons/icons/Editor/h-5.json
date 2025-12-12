@@ -10,8 +10,5 @@
 		"icon",
 		"editor"
 	],
-	"categories": [
-		"editors",
-		"documents"
-	]
+	"categories": ["editors", "documents"]
 }

@@ -10,8 +10,5 @@
 		"audio",
 		"video"
 	],
-	"categories": [
-		"media",
-		"controls"
-	]
+	"categories": ["media", "controls"]
 }

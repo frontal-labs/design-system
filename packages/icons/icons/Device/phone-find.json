@@ -12,8 +12,5 @@
 		"telephony",
 		"find-phone"
 	],
-	"categories": [
-		"devices",
-		"search"
-	]
+	"categories": ["devices", "search"]
 }

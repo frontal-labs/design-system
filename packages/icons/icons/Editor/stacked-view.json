@@ -10,8 +10,5 @@
 		"outline",
 		"two-layer"
 	],
-	"categories": [
-		"editors",
-		"design"
-	]
+	"categories": ["editors", "design"]
 }

@@ -9,8 +9,5 @@
 		"sharp",
 		"cooking"
 	],
-	"categories": [
-		"foods",
-		"utensils"
-	]
+	"categories": ["foods", "utensils"]
 }

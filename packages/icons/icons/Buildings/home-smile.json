@@ -9,8 +9,5 @@
 		"facial expression",
 		"roof"
 	],
-	"categories": [
-		"buildings",
-		"faces"
-	]
+	"categories": ["buildings", "faces"]
 }

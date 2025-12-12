@@ -10,8 +10,5 @@
 		"window",
 		"interface"
 	],
-	"categories": [
-		"navigation",
-		"design"
-	]
+	"categories": ["navigation", "design"]
 }

@@ -10,8 +10,5 @@
 		"interface",
 		"grid"
 	],
-	"categories": [
-		"design",
-		"layout"
-	]
+	"categories": ["design", "layout"]
 }

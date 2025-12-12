@@ -9,8 +9,5 @@
 		"box",
 		"organization"
 	],
-	"categories": [
-		"business",
-		"design"
-	]
+	"categories": ["business", "design"]
 }

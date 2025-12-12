@@ -10,8 +10,5 @@
 		"geometric",
 		"symbol"
 	],
-	"categories": [
-		"logos",
-		"symbols"
-	]
+	"categories": ["logos", "symbols"]
 }

@@ -9,8 +9,5 @@
 		"lock",
 		"file‑shield"
 	],
-	"categories": [
-		"documents",
-		"security"
-	]
+	"categories": ["documents", "security"]
 }

@@ -10,8 +10,5 @@
 		"arrow-up",
 		"square"
 	],
-	"categories": [
-		"arrows",
-		"ui"
-	]
+	"categories": ["arrows", "ui"]
 }

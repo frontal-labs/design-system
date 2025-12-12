@@ -9,8 +9,5 @@
 		"navigation",
 		"folder-icon"
 	],
-	"categories": [
-		"folders",
-		"documents"
-	]
+	"categories": ["folders", "documents"]
 }

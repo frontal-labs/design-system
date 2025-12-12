@@ -10,8 +10,5 @@
 		"broadcast",
 		"icon"
 	],
-	"categories": [
-		"media",
-		"notifications"
-	]
+	"categories": ["media", "notifications"]
 }

@@ -10,8 +10,5 @@
 		"data",
 		"analytics"
 	],
-	"categories": [
-		"documents",
-		"folder"
-	]
+	"categories": ["documents", "folder"]
 }

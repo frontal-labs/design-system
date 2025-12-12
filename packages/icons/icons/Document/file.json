@@ -10,8 +10,5 @@
 		"file shape",
 		"file outline"
 	],
-	"categories": [
-		"documents",
-		"icons"
-	]
+	"categories": ["documents", "icons"]
 }

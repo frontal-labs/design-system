@@ -10,8 +10,5 @@
 		"currency symbol",
 		"finance icon"
 	],
-	"categories": [
-		"finance",
-		"logos"
-	]
+	"categories": ["finance", "logos"]
 }

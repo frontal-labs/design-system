@@ -12,8 +12,5 @@
 		"object",
 		"position"
 	],
-	"categories": [
-		"arrows",
-		"editor"
-	]
+	"categories": ["arrows", "editor"]
 }

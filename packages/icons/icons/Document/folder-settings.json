@@ -10,8 +10,5 @@
 		"tools",
 		"edit"
 	],
-	"categories": [
-		"folders",
-		"settings"
-	]
+	"categories": ["folders", "settings"]
 }

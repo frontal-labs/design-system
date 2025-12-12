@@ -10,8 +10,5 @@
 		"system",
 		"action"
 	],
-	"categories": [
-		"actions",
-		"system"
-	]
+	"categories": ["actions", "system"]
 }

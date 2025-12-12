@@ -1,16 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"reset",
-		"left",
-		"arrow",
-		"circle",
-		"undo",
-		"reload",
-		"system"
-	],
-	"categories": [
-		"system",
-		"arrows"
-	]
+	"tags": ["reset", "left", "arrow", "circle", "undo", "reload", "system"],
+	"categories": ["system", "arrows"]
 }

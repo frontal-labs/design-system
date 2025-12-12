@@ -9,8 +9,5 @@
 		"floor",
 		"accessibility"
 	],
-	"categories": [
-		"navigation",
-		"buildings"
-	]
+	"categories": ["navigation", "buildings"]
 }

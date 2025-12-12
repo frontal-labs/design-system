@@ -10,8 +10,5 @@
 		"travel",
 		"step"
 	],
-	"categories": [
-		"maps",
-		"navigation"
-	]
+	"categories": ["maps", "navigation"]
 }

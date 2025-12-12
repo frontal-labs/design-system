@@ -10,8 +10,5 @@
 		"symbol",
 		"red-heart"
 	],
-	"categories": [
-		"games",
-		"symbols"
-	]
+	"categories": ["games", "symbols"]
 }

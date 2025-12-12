@@ -10,8 +10,5 @@
 		"annotation",
 		"file"
 	],
-	"categories": [
-		"documents",
-		"design"
-	]
+	"categories": ["documents", "design"]
 }

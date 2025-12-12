@@ -10,8 +10,5 @@
 		"remove",
 		"close button"
 	],
-	"categories": [
-		"systems",
-		"buttons"
-	]
+	"categories": ["systems", "buttons"]
 }

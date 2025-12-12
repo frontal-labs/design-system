@@ -12,8 +12,5 @@
 		"pointer",
 		"arrow-left"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

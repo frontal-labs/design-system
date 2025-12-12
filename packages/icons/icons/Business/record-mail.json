@@ -9,8 +9,5 @@
 		"business",
 		"notification"
 	],
-	"categories": [
-		"business",
-		"communication"
-	]
+	"categories": ["business", "communication"]
 }

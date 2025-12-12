@@ -11,8 +11,5 @@
 		"mail",
 		"send"
 	],
-	"categories": [
-		"arrows",
-		"communication"
-	]
+	"categories": ["arrows", "communication"]
 }

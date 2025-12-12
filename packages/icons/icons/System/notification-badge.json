@@ -10,8 +10,5 @@
 		"status",
 		"notification-badge"
 	],
-	"categories": [
-		"system",
-		"notifications"
-	]
+	"categories": ["system", "notifications"]
 }

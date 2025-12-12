@@ -10,8 +10,5 @@
 		"math",
 		"office"
 	],
-	"categories": [
-		"business",
-		"tools"
-	]
+	"categories": ["business", "tools"]
 }

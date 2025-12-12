@@ -1,16 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"hand",
-		"coin",
-		"money",
-		"currency",
-		"finance",
-		"payment",
-		"wallet"
-	],
-	"categories": [
-		"finance",
-		"currency"
-	]
+	"tags": ["hand", "coin", "money", "currency", "finance", "payment", "wallet"],
+	"categories": ["finance", "currency"]
 }

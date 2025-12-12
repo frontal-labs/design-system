@@ -9,8 +9,5 @@
 		"tool",
 		"development"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

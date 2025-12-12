@@ -12,8 +12,5 @@
 		"financial",
 		"monetary"
 	],
-	"categories": [
-		"finance",
-		"currency"
-	]
+	"categories": ["finance", "currency"]
 }

@@ -10,8 +10,5 @@
 		"typography",
 		"alignment"
 	],
-	"categories": [
-		"design",
-		"layout"
-	]
+	"categories": ["design", "layout"]
 }

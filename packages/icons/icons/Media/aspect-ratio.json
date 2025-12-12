@@ -10,8 +10,5 @@
 		"frame",
 		"resolution"
 	],
-	"categories": [
-		"media",
-		"design"
-	]
+	"categories": ["media", "design"]
 }

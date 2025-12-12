@@ -9,8 +9,5 @@
 		"navigation",
 		"flight"
 	],
-	"categories": [
-		"arrows",
-		"business"
-	]
+	"categories": ["arrows", "business"]
 }

@@ -9,8 +9,5 @@
 		"input",
 		"system"
 	],
-	"categories": [
-		"forms",
-		"controls"
-	]
+	"categories": ["forms", "controls"]
 }

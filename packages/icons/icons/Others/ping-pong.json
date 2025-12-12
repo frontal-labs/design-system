@@ -9,8 +9,5 @@
 		"game",
 		"athletics"
 	],
-	"categories": [
-		"sports",
-		"games"
-	]
+	"categories": ["sports", "games"]
 }

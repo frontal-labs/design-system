@@ -10,8 +10,5 @@
 		"chat",
 		"bubble"
 	],
-	"categories": [
-		"communications",
-		"designs"
-	]
+	"categories": ["communications", "designs"]
 }

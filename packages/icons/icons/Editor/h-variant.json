@@ -12,8 +12,5 @@
 		"document",
 		"style"
 	],
-	"categories": [
-		"editors",
-		"fonts"
-	]
+	"categories": ["editors", "fonts"]
 }

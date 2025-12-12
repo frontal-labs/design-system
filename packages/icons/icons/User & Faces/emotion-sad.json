@@ -12,8 +12,5 @@
 		"smile",
 		"downward"
 	],
-	"categories": [
-		"faces",
-		"emoticons"
-	]
+	"categories": ["faces", "emoticons"]
 }

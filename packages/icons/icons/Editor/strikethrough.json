@@ -10,8 +10,5 @@
 		"crossed-out",
 		"font"
 	],
-	"categories": [
-		"editor",
-		"typography"
-	]
+	"categories": ["editor", "typography"]
 }

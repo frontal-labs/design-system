@@ -10,8 +10,5 @@
 		"hardware",
 		"cursor"
 	],
-	"categories": [
-		"devices",
-		"hardware"
-	]
+	"categories": ["devices", "hardware"]
 }

@@ -10,8 +10,5 @@
 		"pointer",
 		"inside"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

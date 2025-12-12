@@ -10,8 +10,5 @@
 		"export",
 		"communication"
 	],
-	"categories": [
-		"arrows",
-		"communication"
-	]
+	"categories": ["arrows", "communication"]
 }

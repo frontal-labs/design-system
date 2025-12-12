@@ -10,8 +10,5 @@
 		"statistics",
 		"representation"
 	],
-	"categories": [
-		"documents",
-		"charts"
-	]
+	"categories": ["documents", "charts"]
 }

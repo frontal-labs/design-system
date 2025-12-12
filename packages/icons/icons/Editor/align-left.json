@@ -11,8 +11,5 @@
 		"lines",
 		"document"
 	],
-	"categories": [
-		"editor",
-		"layout"
-	]
+	"categories": ["editor", "layout"]
 }

@@ -10,8 +10,5 @@
 		"brand",
 		"network"
 	],
-	"categories": [
-		"logos",
-		"brands"
-	]
+	"categories": ["logos", "brands"]
 }

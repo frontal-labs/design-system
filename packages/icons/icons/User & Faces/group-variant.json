@@ -10,8 +10,5 @@
 		"avatar",
 		"profile"
 	],
-	"categories": [
-		"people",
-		"avatars"
-	]
+	"categories": ["people", "avatars"]
 }

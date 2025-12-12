@@ -10,8 +10,5 @@
 		"stand",
 		"media"
 	],
-	"categories": [
-		"devices",
-		"electronics"
-	]
+	"categories": ["devices", "electronics"]
 }

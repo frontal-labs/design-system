@@ -11,8 +11,5 @@
 		"documents",
 		"laptop"
 	],
-	"categories": [
-		"business",
-		"design"
-	]
+	"categories": ["business", "design"]
 }

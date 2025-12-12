@@ -10,8 +10,5 @@
 		"design",
 		"multishape"
 	],
-	"categories": [
-		"design",
-		"shapes"
-	]
+	"categories": ["design", "shapes"]
 }

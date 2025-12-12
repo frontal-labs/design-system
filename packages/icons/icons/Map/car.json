@@ -10,8 +10,5 @@
 		"automobile",
 		"navigation"
 	],
-	"categories": [
-		"vehicles",
-		"maps"
-	]
+	"categories": ["vehicles", "maps"]
 }

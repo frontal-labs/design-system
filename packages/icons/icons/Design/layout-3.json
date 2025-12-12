@@ -10,8 +10,5 @@
 		"window",
 		"screen"
 	],
-	"categories": [
-		"design",
-		"layout"
-	]
+	"categories": ["design", "layout"]
 }

@@ -10,8 +10,5 @@
 		"view",
 		"navigation"
 	],
-	"categories": [
-		"navigation",
-		"system"
-	]
+	"categories": ["navigation", "system"]
 }

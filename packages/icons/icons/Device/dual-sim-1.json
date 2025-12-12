@@ -1,16 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"device",
-		"phone",
-		"mobile",
-		"sim",
-		"dual-sim",
-		"hardware",
-		"icon"
-	],
-	"categories": [
-		"devices",
-		"hardware"
-	]
+	"tags": ["device", "phone", "mobile", "sim", "dual-sim", "hardware", "icon"],
+	"categories": ["devices", "hardware"]
 }

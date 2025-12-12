@@ -10,8 +10,5 @@
 		"speech-bubble",
 		"technology"
 	],
-	"categories": [
-		"communication",
-		"technology"
-	]
+	"categories": ["communication", "technology"]
 }

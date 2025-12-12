@@ -10,8 +10,5 @@
 		"media",
 		"surveillance"
 	],
-	"categories": [
-		"media",
-		"devices"
-	]
+	"categories": ["media", "devices"]
 }

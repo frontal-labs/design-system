@@ -10,8 +10,5 @@
 		"structure",
 		"block"
 	],
-	"categories": [
-		"buildings",
-		"architecture"
-	]
+	"categories": ["buildings", "architecture"]
 }

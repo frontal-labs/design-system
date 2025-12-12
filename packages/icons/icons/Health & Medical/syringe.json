@@ -11,8 +11,5 @@
 		"dose",
 		"pharmacy"
 	],
-	"categories": [
-		"medical",
-		"health"
-	]
+	"categories": ["medical", "health"]
 }

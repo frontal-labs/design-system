@@ -10,8 +10,5 @@
 		"emoji",
 		"cartoon"
 	],
-	"categories": [
-		"faces",
-		"emoticons"
-	]
+	"categories": ["faces", "emoticons"]
 }

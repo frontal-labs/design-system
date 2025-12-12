@@ -10,8 +10,5 @@
 		"business",
 		"finance"
 	],
-	"categories": [
-		"charts",
-		"business"
-	]
+	"categories": ["charts", "business"]
 }

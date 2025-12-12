@@ -10,8 +10,5 @@
 		"silhouette",
 		"historical"
 	],
-	"categories": [
-		"buildings",
-		"structures"
-	]
+	"categories": ["buildings", "structures"]
 }

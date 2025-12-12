@@ -10,8 +10,5 @@
 		"profile",
 		"group"
 	],
-	"categories": [
-		"folders",
-		"people"
-	]
+	"categories": ["folders", "people"]
 }

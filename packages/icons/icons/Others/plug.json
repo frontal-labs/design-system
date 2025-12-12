@@ -10,8 +10,5 @@
 		"connect",
 		"wire"
 	],
-	"categories": [
-		"electronics",
-		"devices"
-	]
+	"categories": ["electronics", "devices"]
 }

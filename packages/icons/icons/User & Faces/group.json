@@ -10,8 +10,5 @@
 		"profile",
 		"icon"
 	],
-	"categories": [
-		"users",
-		"faces"
-	]
+	"categories": ["users", "faces"]
 }

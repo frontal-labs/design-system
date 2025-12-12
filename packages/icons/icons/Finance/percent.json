@@ -10,8 +10,5 @@
 		"division",
 		"currency"
 	],
-	"categories": [
-		"symbols",
-		"finance"
-	]
+	"categories": ["symbols", "finance"]
 }

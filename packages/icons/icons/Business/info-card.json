@@ -10,8 +10,5 @@
 		"layout",
 		"placeholder"
 	],
-	"categories": [
-		"business",
-		"design"
-	]
+	"categories": ["business", "design"]
 }

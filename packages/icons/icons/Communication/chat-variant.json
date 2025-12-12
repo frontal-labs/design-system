@@ -10,8 +10,5 @@
 		"messaging",
 		"bubble"
 	],
-	"categories": [
-		"communication",
-		"design"
-	]
+	"categories": ["communication", "design"]
 }

@@ -9,8 +9,5 @@
 		"file",
 		"notification"
 	],
-	"categories": [
-		"folders",
-		"alerts"
-	]
+	"categories": ["folders", "alerts"]
 }

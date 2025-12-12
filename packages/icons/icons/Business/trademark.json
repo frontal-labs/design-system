@@ -10,8 +10,5 @@
 		"symbol",
 		"label"
 	],
-	"categories": [
-		"businesses",
-		"symbols"
-	]
+	"categories": ["businesses", "symbols"]
 }

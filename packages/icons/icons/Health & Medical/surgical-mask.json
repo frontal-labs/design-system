@@ -9,8 +9,5 @@
 		"face covering",
 		"COVID-19"
 	],
-	"categories": [
-		"medical",
-		"equipment"
-	]
+	"categories": ["medical", "equipment"]
 }

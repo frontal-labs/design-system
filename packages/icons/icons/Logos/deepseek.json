@@ -10,8 +10,5 @@
 		"modern",
 		"brand"
 	],
-	"categories": [
-		"logos",
-		"branding"
-	]
+	"categories": ["logos", "branding"]
 }

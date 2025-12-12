@@ -10,8 +10,5 @@
 		"device",
 		"icon"
 	],
-	"categories": [
-		"media",
-		"devices"
-	]
+	"categories": ["media", "devices"]
 }

@@ -10,7 +10,5 @@
 		"clouds",
 		"rain"
 	],
-	"categories": [
-		"weather"
-	]
+	"categories": ["weather"]
 }

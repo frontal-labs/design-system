@@ -9,8 +9,5 @@
 		"dots",
 		"navigation"
 	],
-	"categories": [
-		"navigation",
-		"design"
-	]
+	"categories": ["navigation", "design"]
 }

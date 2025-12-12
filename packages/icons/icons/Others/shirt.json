@@ -12,8 +12,5 @@
 		"wear",
 		"outfit"
 	],
-	"categories": [
-		"clothing",
-		"fashion"
-	]
+	"categories": ["clothing", "fashion"]
 }

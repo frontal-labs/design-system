@@ -10,8 +10,5 @@
 		"unknown",
 		"icon"
 	],
-	"categories": [
-		"design",
-		"symbols"
-	]
+	"categories": ["design", "symbols"]
 }

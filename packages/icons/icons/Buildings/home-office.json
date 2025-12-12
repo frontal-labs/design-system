@@ -10,8 +10,5 @@
 		"architecture",
 		"workplace"
 	],
-	"categories": [
-		"buildings",
-		"offices"
-	]
+	"categories": ["buildings", "offices"]
 }

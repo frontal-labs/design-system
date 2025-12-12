@@ -10,8 +10,5 @@
 		"icon",
 		"editing"
 	],
-	"categories": [
-		"editing",
-		"tables"
-	]
+	"categories": ["editing", "tables"]
 }

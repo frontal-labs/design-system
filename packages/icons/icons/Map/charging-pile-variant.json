@@ -11,8 +11,5 @@
 		"transportation",
 		"maps"
 	],
-	"categories": [
-		"maps",
-		"transportation"
-	]
+	"categories": ["maps", "transportation"]
 }

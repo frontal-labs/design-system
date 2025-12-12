@@ -9,8 +9,5 @@
 		"navigation",
 		"travel"
 	],
-	"categories": [
-		"maps",
-		"navigation"
-	]
+	"categories": ["maps", "navigation"]
 }

@@ -9,8 +9,5 @@
 		"balance",
 		"symbol"
 	],
-	"categories": [
-		"system",
-		"math"
-	]
+	"categories": ["system", "math"]
 }

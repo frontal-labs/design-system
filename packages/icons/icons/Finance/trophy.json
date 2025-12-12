@@ -12,8 +12,5 @@
 		"gold",
 		"prize"
 	],
-	"categories": [
-		"objects",
-		"sports"
-	]
+	"categories": ["objects", "sports"]
 }

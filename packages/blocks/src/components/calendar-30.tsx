@@ -1,7 +1,7 @@
 "use client";
 
-import { formatDateRange } from "little-date";
 import { ChevronDownIcon } from "@frontal/icons";
+import { formatDateRange } from "little-date";
 import * as React from "react";
 import type { DateRange } from "react-day-picker";
 

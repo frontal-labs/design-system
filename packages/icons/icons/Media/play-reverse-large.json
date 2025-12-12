@@ -10,8 +10,5 @@
 		"left",
 		"triangle"
 	],
-	"categories": [
-		"media",
-		"controls"
-	]
+	"categories": ["media", "controls"]
 }

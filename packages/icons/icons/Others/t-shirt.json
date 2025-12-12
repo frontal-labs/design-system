@@ -10,8 +10,5 @@
 		"wearable",
 		"style"
 	],
-	"categories": [
-		"design",
-		"fashion"
-	]
+	"categories": ["design", "fashion"]
 }

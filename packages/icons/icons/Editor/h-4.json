@@ -9,8 +9,5 @@
 		"formatting",
 		"document"
 	],
-	"categories": [
-		"editor",
-		"typography"
-	]
+	"categories": ["editor", "typography"]
 }

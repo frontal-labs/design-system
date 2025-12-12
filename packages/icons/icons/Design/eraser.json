@@ -10,8 +10,5 @@
 		"editing",
 		"remove"
 	],
-	"categories": [
-		"designs",
-		"tools"
-	]
+	"categories": ["designs", "tools"]
 }

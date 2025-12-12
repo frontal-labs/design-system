@@ -10,8 +10,5 @@
 		"botany",
 		"foliage"
 	],
-	"categories": [
-		"nature",
-		"design"
-	]
+	"categories": ["nature", "design"]
 }

@@ -9,8 +9,5 @@
 		"experiment",
 		"beaker"
 	],
-	"categories": [
-		"health",
-		"medical"
-	]
+	"categories": ["health", "medical"]
 }

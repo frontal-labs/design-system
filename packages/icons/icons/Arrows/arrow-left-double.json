@@ -9,8 +9,5 @@
 		"back",
 		"previous"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

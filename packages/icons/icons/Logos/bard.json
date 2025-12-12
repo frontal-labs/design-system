@@ -10,8 +10,5 @@
 		"logo",
 		"musical"
 	],
-	"categories": [
-		"logos",
-		"design"
-	]
+	"categories": ["logos", "design"]
 }

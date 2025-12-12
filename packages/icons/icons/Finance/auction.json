@@ -11,8 +11,5 @@
 		"hand",
 		"tool"
 	],
-	"categories": [
-		"finance",
-		"design"
-	]
+	"categories": ["finance", "design"]
 }

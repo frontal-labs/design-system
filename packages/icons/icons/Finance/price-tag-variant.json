@@ -10,7 +10,5 @@
 		"shopping",
 		"sale"
 	],
-	"categories": [
-		"finance"
-	]
+	"categories": ["finance"]
 }

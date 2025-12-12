@@ -12,8 +12,5 @@
 		"home",
 		"communication"
 	],
-	"categories": [
-		"devices",
-		"network"
-	]
+	"categories": ["devices", "network"]
 }

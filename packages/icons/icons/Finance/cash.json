@@ -10,8 +10,5 @@
 		"banknote",
 		"wallet"
 	],
-	"categories": [
-		"finance",
-		"money"
-	]
+	"categories": ["finance", "money"]
 }

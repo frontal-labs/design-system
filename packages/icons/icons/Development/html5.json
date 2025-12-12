@@ -9,8 +9,5 @@
 		"markup",
 		"language"
 	],
-	"categories": [
-		"logos",
-		"development"
-	]
+	"categories": ["logos", "development"]
 }

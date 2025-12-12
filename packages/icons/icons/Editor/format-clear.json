@@ -10,8 +10,5 @@
 		"text",
 		"editor"
 	],
-	"categories": [
-		"editor",
-		"actions"
-	]
+	"categories": ["editor", "actions"]
 }

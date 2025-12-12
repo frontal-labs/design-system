@@ -10,8 +10,5 @@
 		"video",
 		"film reel"
 	],
-	"categories": [
-		"media",
-		"design"
-	]
+	"categories": ["media", "design"]
 }

@@ -10,8 +10,5 @@
 		"options",
 		"toggle"
 	],
-	"categories": [
-		"design",
-		"system"
-	]
+	"categories": ["design", "system"]
 }

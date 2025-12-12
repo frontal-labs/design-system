@@ -10,8 +10,5 @@
 		"illumination",
 		"device"
 	],
-	"categories": [
-		"weather",
-		"tools"
-	]
+	"categories": ["weather", "tools"]
 }

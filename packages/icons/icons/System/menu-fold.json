@@ -10,8 +10,5 @@
 		"system",
 		"sidebar"
 	],
-	"categories": [
-		"navigation",
-		"system"
-	]
+	"categories": ["navigation", "system"]
 }

@@ -10,8 +10,5 @@
 		"editing",
 		"media"
 	],
-	"categories": [
-		"media",
-		"film"
-	]
+	"categories": ["media", "film"]
 }

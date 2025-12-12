@@ -9,8 +9,5 @@
 		"icon",
 		"simple"
 	],
-	"categories": [
-		"design",
-		"shapes"
-	]
+	"categories": ["design", "shapes"]
 }

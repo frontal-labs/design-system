@@ -1,16 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"pipette",
-		"dropper",
-		"medical",
-		"lab",
-		"sample",
-		"fluid",
-		"health"
-	],
-	"categories": [
-		"medical",
-		"health"
-	]
+	"tags": ["pipette", "dropper", "medical", "lab", "sample", "fluid", "health"],
+	"categories": ["medical", "health"]
 }

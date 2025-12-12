@@ -11,8 +11,5 @@
 		"screen",
 		"conversation"
 	],
-	"categories": [
-		"communications",
-		"media"
-	]
+	"categories": ["communications", "media"]
 }

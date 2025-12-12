@@ -9,8 +9,5 @@
 		"documents",
 		"container"
 	],
-	"categories": [
-		"business",
-		"storage"
-	]
+	"categories": ["business", "storage"]
 }

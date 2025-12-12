@@ -10,8 +10,5 @@
 		"expression",
 		"facial"
 	],
-	"categories": [
-		"faces",
-		"people"
-	]
+	"categories": ["faces", "people"]
 }

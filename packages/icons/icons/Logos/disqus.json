@@ -10,8 +10,5 @@
 		"forum",
 		"website"
 	],
-	"categories": [
-		"logos",
-		"communications"
-	]
+	"categories": ["logos", "communications"]
 }

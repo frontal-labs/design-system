@@ -9,8 +9,5 @@
 		"transform",
 		"design"
 	],
-	"categories": [
-		"design",
-		"arrows"
-	]
+	"categories": ["design", "arrows"]
 }

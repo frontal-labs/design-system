@@ -11,8 +11,5 @@
 		"roof",
 		"symbol"
 	],
-	"categories": [
-		"buildings",
-		"finance"
-	]
+	"categories": ["buildings", "finance"]
 }

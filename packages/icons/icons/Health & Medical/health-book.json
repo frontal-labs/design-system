@@ -12,8 +12,5 @@
 		"medicine",
 		"healthcare"
 	],
-	"categories": [
-		"books",
-		"health"
-	]
+	"categories": ["books", "health"]
 }

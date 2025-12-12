@@ -11,8 +11,5 @@
 		"direction",
 		"movement"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

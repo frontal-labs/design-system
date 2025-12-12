@@ -10,8 +10,5 @@
 		"microphone",
 		"recording"
 	],
-	"categories": [
-		"media",
-		"audio"
-	]
+	"categories": ["media", "audio"]
 }

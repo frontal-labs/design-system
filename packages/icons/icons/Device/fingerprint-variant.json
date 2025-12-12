@@ -10,8 +10,5 @@
 		"pattern",
 		"device"
 	],
-	"categories": [
-		"devices",
-		"security"
-	]
+	"categories": ["devices", "security"]
 }

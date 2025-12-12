@@ -11,8 +11,5 @@
 		"computer",
 		"icon"
 	],
-	"categories": [
-		"devices",
-		"communication"
-	]
+	"categories": ["devices", "communication"]
 }

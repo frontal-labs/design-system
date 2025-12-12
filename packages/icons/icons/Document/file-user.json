@@ -10,8 +10,5 @@
 		"folder",
 		"document icon"
 	],
-	"categories": [
-		"documents",
-		"people"
-	]
+	"categories": ["documents", "people"]
 }

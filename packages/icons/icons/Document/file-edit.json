@@ -10,8 +10,5 @@
 		"file-edit",
 		"document-pencil"
 	],
-	"categories": [
-		"documents",
-		"edits"
-	]
+	"categories": ["documents", "edits"]
 }

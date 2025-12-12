@@ -10,8 +10,5 @@
 		"public",
 		"courthouse"
 	],
-	"categories": [
-		"buildings",
-		"government"
-	]
+	"categories": ["buildings", "government"]
 }

@@ -1,16 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"repeat",
-		"loop",
-		"circular",
-		"media",
-		"control",
-		"arrow",
-		"cycle"
-	],
-	"categories": [
-		"media",
-		"arrows"
-	]
+	"tags": ["repeat", "loop", "circular", "media", "control", "arrow", "cycle"],
+	"categories": ["media", "arrows"]
 }

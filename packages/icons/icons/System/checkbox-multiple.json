@@ -9,8 +9,5 @@
 		"ui",
 		"list"
 	],
-	"categories": [
-		"forms",
-		"controls"
-	]
+	"categories": ["forms", "controls"]
 }

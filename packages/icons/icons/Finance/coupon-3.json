@@ -10,8 +10,5 @@
 		"offer",
 		"money"
 	],
-	"categories": [
-		"finance",
-		"documents"
-	]
+	"categories": ["finance", "documents"]
 }

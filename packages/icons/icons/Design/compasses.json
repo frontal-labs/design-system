@@ -9,8 +9,5 @@
 		"travel",
 		"orientation"
 	],
-	"categories": [
-		"navigation",
-		"design"
-	]
+	"categories": ["navigation", "design"]
 }

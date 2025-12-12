@@ -10,8 +10,5 @@
 		"UI",
 		"visual"
 	],
-	"categories": [
-		"systems",
-		"layouts"
-	]
+	"categories": ["systems", "layouts"]
 }

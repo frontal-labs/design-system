@@ -11,8 +11,5 @@
 		"flora",
 		"vegetation"
 	],
-	"categories": [
-		"plants",
-		"nature"
-	]
+	"categories": ["plants", "nature"]
 }

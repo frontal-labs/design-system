@@ -11,8 +11,5 @@
 		"design",
 		"chain"
 	],
-	"categories": [
-		"design",
-		"accessories"
-	]
+	"categories": ["design", "accessories"]
 }

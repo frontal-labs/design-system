@@ -10,8 +10,5 @@
 		"storage",
 		"data center"
 	],
-	"categories": [
-		"devices",
-		"hardware"
-	]
+	"categories": ["devices", "hardware"]
 }

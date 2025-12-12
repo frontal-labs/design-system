@@ -9,8 +9,5 @@
 		"communication",
 		"notification"
 	],
-	"categories": [
-		"media",
-		"communication"
-	]
+	"categories": ["media", "communication"]
 }

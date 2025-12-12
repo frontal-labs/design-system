@@ -9,8 +9,5 @@
 		"system",
 		"selection"
 	],
-	"categories": [
-		"design",
-		"symbols"
-	]
+	"categories": ["design", "symbols"]
 }

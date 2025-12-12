@@ -9,8 +9,5 @@
 		"media",
 		"video"
 	],
-	"categories": [
-		"businesses",
-		"media"
-	]
+	"categories": ["businesses", "media"]
 }

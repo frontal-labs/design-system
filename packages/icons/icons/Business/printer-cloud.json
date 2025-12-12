@@ -10,8 +10,5 @@
 		"document",
 		"cloud printing"
 	],
-	"categories": [
-		"business",
-		"technology"
-	]
+	"categories": ["business", "technology"]
 }

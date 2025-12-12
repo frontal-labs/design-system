@@ -10,8 +10,5 @@
 		"container",
 		"save"
 	],
-	"categories": [
-		"business",
-		"documents"
-	]
+	"categories": ["business", "documents"]
 }

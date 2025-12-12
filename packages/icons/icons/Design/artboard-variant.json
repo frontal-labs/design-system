@@ -10,8 +10,5 @@
 		"canvas",
 		"border"
 	],
-	"categories": [
-		"design",
-		"layout"
-	]
+	"categories": ["design", "layout"]
 }

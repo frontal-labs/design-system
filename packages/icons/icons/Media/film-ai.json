@@ -10,8 +10,5 @@
 		"filmstrip",
 		"icon"
 	],
-	"categories": [
-		"media",
-		"films"
-	]
+	"categories": ["media", "films"]
 }

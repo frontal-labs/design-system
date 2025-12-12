@@ -10,8 +10,5 @@
 		"recognition",
 		"honor"
 	],
-	"categories": [
-		"business",
-		"awards"
-	]
+	"categories": ["business", "awards"]
 }

@@ -12,8 +12,5 @@
 		"laboratory",
 		"magnification"
 	],
-	"categories": [
-		"health",
-		"science"
-	]
+	"categories": ["health", "science"]
 }

@@ -10,8 +10,5 @@
 		"pavilion",
 		"accommodation"
 	],
-	"categories": [
-		"buildings",
-		"outdoors"
-	]
+	"categories": ["buildings", "outdoors"]
 }

@@ -10,8 +10,5 @@
 		"mobile payment",
 		"currency"
 	],
-	"categories": [
-		"logos",
-		"finance"
-	]
+	"categories": ["logos", "finance"]
 }

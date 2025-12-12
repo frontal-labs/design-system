@@ -10,8 +10,5 @@
 		"message",
 		"design"
 	],
-	"categories": [
-		"communication",
-		"design"
-	]
+	"categories": ["communication", "design"]
 }

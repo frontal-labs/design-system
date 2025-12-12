@@ -10,8 +10,5 @@
 		"report",
 		"dashboard"
 	],
-	"categories": [
-		"business",
-		"charts"
-	]
+	"categories": ["business", "charts"]
 }

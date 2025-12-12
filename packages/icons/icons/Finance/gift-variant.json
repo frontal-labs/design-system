@@ -10,8 +10,5 @@
 		"gift-wrap",
 		"finance"
 	],
-	"categories": [
-		"finance",
-		"gifts"
-	]
+	"categories": ["finance", "gifts"]
 }

@@ -1,0 +1,7 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+export function SkipUpIcon({ width = 24, height = 24, color = 'currentColor', ...props }) {
+    return (_jsx("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", width: width, height: height, fill: color, "aria-label": "Arrow Up Skip", "aria-labelledby": "Arrow Up Skip", "aria-hidden": true, ...props, children: _jsx("path", { d: "M12 13.9142L16.7929 18.7071L18.2071 17.2929L12 11.0858L5.79289 17.2929L7.20711 18.7071L12 13.9142ZM6 7L18 7V9L6 9L6 7Z" }) }));
+}
+SkipUpIcon.displayName = 'SkipUpIcon';
+export default SkipUpIcon;
+//# sourceMappingURL=skip-up-icon.js.map

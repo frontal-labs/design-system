@@ -10,8 +10,5 @@
 		"furniture",
 		"home"
 	],
-	"categories": [
-		"furniture",
-		"office"
-	]
+	"categories": ["furniture", "office"]
 }

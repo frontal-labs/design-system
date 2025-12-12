@@ -10,8 +10,5 @@
 		"electronics",
 		"monitoring"
 	],
-	"categories": [
-		"devices",
-		"navigation"
-	]
+	"categories": ["devices", "navigation"]
 }

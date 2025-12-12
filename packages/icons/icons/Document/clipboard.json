@@ -10,8 +10,5 @@
 		"office",
 		"note"
 	],
-	"categories": [
-		"documents",
-		"office"
-	]
+	"categories": ["documents", "office"]
 }

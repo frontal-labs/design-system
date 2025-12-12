@@ -9,8 +9,5 @@
 		"system",
 		"badge"
 	],
-	"categories": [
-		"systems",
-		"design"
-	]
+	"categories": ["systems", "design"]
 }

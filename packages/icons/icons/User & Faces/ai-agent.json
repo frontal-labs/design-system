@@ -11,8 +11,5 @@
 		"human",
 		"agent"
 	],
-	"categories": [
-		"faces",
-		"people"
-	]
+	"categories": ["faces", "people"]
 }

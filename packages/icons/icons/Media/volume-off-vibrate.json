@@ -10,8 +10,5 @@
 		"sound",
 		"media"
 	],
-	"categories": [
-		"media",
-		"audio"
-	]
+	"categories": ["media", "audio"]
 }

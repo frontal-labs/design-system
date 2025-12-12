@@ -11,8 +11,5 @@
 		"status",
 		"icon"
 	],
-	"categories": [
-		"systems",
-		"statuses"
-	]
+	"categories": ["systems", "statuses"]
 }

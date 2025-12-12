@@ -9,8 +9,5 @@
 		"file icon",
 		"document with lines"
 	],
-	"categories": [
-		"documents",
-		"files"
-	]
+	"categories": ["documents", "files"]
 }

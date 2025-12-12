@@ -12,8 +12,5 @@
 		"gaming",
 		"tabletop"
 	],
-	"categories": [
-		"games",
-		"dice"
-	]
+	"categories": ["games", "dice"]
 }

@@ -11,8 +11,5 @@
 		"symbol",
 		"text"
 	],
-	"categories": [
-		"text",
-		"design"
-	]
+	"categories": ["text", "design"]
 }

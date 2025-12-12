@@ -10,8 +10,5 @@
 		"charging",
 		"icon"
 	],
-	"categories": [
-		"devices",
-		"power"
-	]
+	"categories": ["devices", "power"]
 }

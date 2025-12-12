@@ -9,8 +9,5 @@
 		"technology",
 		"circle"
 	],
-	"categories": [
-		"navigation",
-		"design"
-	]
+	"categories": ["navigation", "design"]
 }

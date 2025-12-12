@@ -12,8 +12,5 @@
 		"technology",
 		"icon"
 	],
-	"categories": [
-		"devices",
-		"power"
-	]
+	"categories": ["devices", "power"]
 }

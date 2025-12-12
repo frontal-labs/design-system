@@ -10,8 +10,5 @@
 		"technology",
 		"icon"
 	],
-	"categories": [
-		"media",
-		"audio"
-	]
+	"categories": ["media", "audio"]
 }

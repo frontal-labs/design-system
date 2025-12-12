@@ -1,16 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"restaurant",
-		"food",
-		"fork",
-		"knife",
-		"dining",
-		"utensils",
-		"meal"
-	],
-	"categories": [
-		"food",
-		"utensils"
-	]
+	"tags": ["restaurant", "food", "fork", "knife", "dining", "utensils", "meal"],
+	"categories": ["food", "utensils"]
 }

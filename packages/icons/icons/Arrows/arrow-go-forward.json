@@ -10,8 +10,5 @@
 		"movement",
 		"icon"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

@@ -10,8 +10,5 @@
 		"selection",
 		"precision"
 	],
-	"categories": [
-		"design",
-		"navigation"
-	]
+	"categories": ["design", "navigation"]
 }

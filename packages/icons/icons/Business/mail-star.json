@@ -10,8 +10,5 @@
 		"business",
 		"inbox"
 	],
-	"categories": [
-		"communication",
-		"business"
-	]
+	"categories": ["communication", "business"]
 }

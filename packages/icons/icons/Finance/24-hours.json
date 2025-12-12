@@ -10,8 +10,5 @@
 		"timekeeping",
 		"calendar"
 	],
-	"categories": [
-		"clocks",
-		"time"
-	]
+	"categories": ["clocks", "time"]
 }

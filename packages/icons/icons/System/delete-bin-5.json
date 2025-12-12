@@ -10,8 +10,5 @@
 		"recycle bin",
 		"trash can"
 	],
-	"categories": [
-		"systems",
-		"design"
-	]
+	"categories": ["systems", "design"]
 }

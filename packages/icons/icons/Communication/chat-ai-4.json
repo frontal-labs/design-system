@@ -10,8 +10,5 @@
 		"speech",
 		"icon"
 	],
-	"categories": [
-		"communication",
-		"design"
-	]
+	"categories": ["communication", "design"]
 }

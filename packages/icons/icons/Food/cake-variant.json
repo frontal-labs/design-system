@@ -10,8 +10,5 @@
 		"layered",
 		"sweet"
 	],
-	"categories": [
-		"food",
-		"desserts"
-	]
+	"categories": ["food", "desserts"]
 }

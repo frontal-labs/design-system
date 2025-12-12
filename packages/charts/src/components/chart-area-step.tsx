@@ -1,6 +1,6 @@
 "use client";
 
-import { PulseIcon, ArrowUpIcon } from "@frontal/icons";
+import { ArrowUpIcon, PulseIcon } from "@frontal/icons";
 import { Area, AreaChart, CartesianGrid, XAxis } from "recharts";
 
 import {

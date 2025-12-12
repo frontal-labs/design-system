@@ -10,8 +10,5 @@
 		"transaction",
 		"symbol"
 	],
-	"categories": [
-		"arrows",
-		"finance"
-	]
+	"categories": ["arrows", "finance"]
 }

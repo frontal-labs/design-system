@@ -10,8 +10,5 @@
 		"expand",
 		"collapse"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

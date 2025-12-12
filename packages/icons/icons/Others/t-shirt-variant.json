@@ -9,8 +9,5 @@
 		"shirt",
 		"wearable"
 	],
-	"categories": [
-		"design",
-		"fashion"
-	]
+	"categories": ["design", "fashion"]
 }

@@ -11,8 +11,5 @@
 		"social",
 		"team"
 	],
-	"categories": [
-		"users",
-		"social"
-	]
+	"categories": ["users", "social"]
 }

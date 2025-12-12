@@ -10,8 +10,5 @@
 		"UI/UX",
 		"brand"
 	],
-	"categories": [
-		"logos",
-		"brands"
-	]
+	"categories": ["logos", "brands"]
 }

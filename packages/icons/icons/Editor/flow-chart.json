@@ -10,8 +10,5 @@
 		"chart",
 		"workflow"
 	],
-	"categories": [
-		"editors",
-		"designs"
-	]
+	"categories": ["editors", "designs"]
 }

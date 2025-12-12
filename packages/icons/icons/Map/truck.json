@@ -10,8 +10,5 @@
 		"logistics",
 		"shipping"
 	],
-	"categories": [
-		"vehicles",
-		"transportation"
-	]
+	"categories": ["vehicles", "transportation"]
 }

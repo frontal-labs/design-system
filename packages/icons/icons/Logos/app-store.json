@@ -10,8 +10,5 @@
 		"software",
 		"store"
 	],
-	"categories": [
-		"logos",
-		"apps"
-	]
+	"categories": ["logos", "apps"]
 }

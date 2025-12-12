@@ -10,8 +10,5 @@
 		"agenda",
 		"document"
 	],
-	"categories": [
-		"business",
-		"calendar"
-	]
+	"categories": ["business", "calendar"]
 }

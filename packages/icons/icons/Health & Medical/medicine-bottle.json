@@ -10,8 +10,5 @@
 		"tablet",
 		"medical"
 	],
-	"categories": [
-		"medical",
-		"health"
-	]
+	"categories": ["medical", "health"]
 }

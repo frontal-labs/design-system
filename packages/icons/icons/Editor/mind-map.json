@@ -10,8 +10,5 @@
 		"concept map",
 		"visualization"
 	],
-	"categories": [
-		"design",
-		"editors"
-	]
+	"categories": ["design", "editors"]
 }

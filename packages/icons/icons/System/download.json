@@ -10,8 +10,5 @@
 		"navigation",
 		"system"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

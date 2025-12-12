@@ -10,8 +10,5 @@
 		"pointer",
 		"long-arrow"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

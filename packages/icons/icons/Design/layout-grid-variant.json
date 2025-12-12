@@ -9,8 +9,5 @@
 		"interface",
 		"2x2-grid"
 	],
-	"categories": [
-		"design",
-		"layouts"
-	]
+	"categories": ["design", "layouts"]
 }

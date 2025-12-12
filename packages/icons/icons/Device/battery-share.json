@@ -10,8 +10,5 @@
 		"electronics",
 		"connectivity"
 	],
-	"categories": [
-		"devices",
-		"symbols"
-	]
+	"categories": ["devices", "symbols"]
 }

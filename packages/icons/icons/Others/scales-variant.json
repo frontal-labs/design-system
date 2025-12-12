@@ -9,8 +9,5 @@
 		"weighing",
 		"scale"
 	],
-	"categories": [
-		"symbols",
-		"design"
-	]
+	"categories": ["symbols", "design"]
 }

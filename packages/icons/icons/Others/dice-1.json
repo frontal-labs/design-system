@@ -9,8 +9,5 @@
 		"board-game",
 		"probability"
 	],
-	"categories": [
-		"games",
-		"symbols"
-	]
+	"categories": ["games", "symbols"]
 }

@@ -10,8 +10,5 @@
 		"outline",
 		"multiple"
 	],
-	"categories": [
-		"documents",
-		"icons"
-	]
+	"categories": ["documents", "icons"]
 }

@@ -9,8 +9,5 @@
 		"tower",
 		"media"
 	],
-	"categories": [
-		"media",
-		"communication"
-	]
+	"categories": ["media", "communication"]
 }

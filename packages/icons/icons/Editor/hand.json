@@ -11,8 +11,5 @@
 		"user",
 		"tool"
 	],
-	"categories": [
-		"design",
-		"editor"
-	]
+	"categories": ["design", "editor"]
 }

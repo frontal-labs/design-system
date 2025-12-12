@@ -9,8 +9,5 @@
 		"urban",
 		"city"
 	],
-	"categories": [
-		"buildings",
-		"architecture"
-	]
+	"categories": ["buildings", "architecture"]
 }

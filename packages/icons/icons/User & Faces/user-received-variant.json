@@ -10,8 +10,5 @@
 		"arrow-left",
 		"notification"
 	],
-	"categories": [
-		"users",
-		"communication"
-	]
+	"categories": ["users", "communication"]
 }

@@ -12,8 +12,5 @@
 		"profile",
 		"people-contacts"
 	],
-	"categories": [
-		"documents",
-		"people"
-	]
+	"categories": ["documents", "people"]
 }

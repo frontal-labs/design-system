@@ -10,8 +10,5 @@
 		"icon",
 		"interlocking"
 	],
-	"categories": [
-		"designs",
-		"games"
-	]
+	"categories": ["designs", "games"]
 }

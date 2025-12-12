@@ -12,8 +12,5 @@
 		"orientation",
 		"map"
 	],
-	"categories": [
-		"design",
-		"navigation"
-	]
+	"categories": ["design", "navigation"]
 }

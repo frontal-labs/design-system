@@ -10,8 +10,5 @@
 		"brand",
 		"platform"
 	],
-	"categories": [
-		"logos",
-		"brands"
-	]
+	"categories": ["logos", "brands"]
 }

@@ -11,8 +11,5 @@
 		"athletics",
 		"equipment"
 	],
-	"categories": [
-		"sports",
-		"games"
-	]
+	"categories": ["sports", "games"]
 }

@@ -10,8 +10,5 @@
 		"music-file",
 		"folder-icon"
 	],
-	"categories": [
-		"folders",
-		"documents"
-	]
+	"categories": ["folders", "documents"]
 }

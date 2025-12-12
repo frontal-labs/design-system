@@ -10,8 +10,5 @@
 		"gear icon",
 		"chat bubble"
 	],
-	"categories": [
-		"communication",
-		"settings"
-	]
+	"categories": ["communication", "settings"]
 }

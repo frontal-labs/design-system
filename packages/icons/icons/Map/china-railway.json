@@ -10,8 +10,5 @@
 		"track",
 		"station"
 	],
-	"categories": [
-		"transport",
-		"maps"
-	]
+	"categories": ["transport", "maps"]
 }

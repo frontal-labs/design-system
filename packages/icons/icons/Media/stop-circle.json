@@ -9,8 +9,5 @@
 		"pause",
 		"media control"
 	],
-	"categories": [
-		"media",
-		"controls"
-	]
+	"categories": ["media", "controls"]
 }

@@ -10,8 +10,5 @@
 		"center",
 		"top-bottom"
 	],
-	"categories": [
-		"arrows",
-		"layouts"
-	]
+	"categories": ["arrows", "layouts"]
 }

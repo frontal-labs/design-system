@@ -11,8 +11,5 @@
 		"playback",
 		"icon"
 	],
-	"categories": [
-		"media",
-		"controls"
-	]
+	"categories": ["media", "controls"]
 }

@@ -10,8 +10,5 @@
 		"action",
 		"folder-close"
 	],
-	"categories": [
-		"folders",
-		"actions"
-	]
+	"categories": ["folders", "actions"]
 }

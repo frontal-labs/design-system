@@ -10,8 +10,5 @@
 		"statistics",
 		"investment"
 	],
-	"categories": [
-		"finance",
-		"charts"
-	]
+	"categories": ["finance", "charts"]
 }

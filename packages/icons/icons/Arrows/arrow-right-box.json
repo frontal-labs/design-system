@@ -10,8 +10,5 @@
 		"square",
 		"icon"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

@@ -9,8 +9,5 @@
 		"arrow",
 		"instrument"
 	],
-	"categories": [
-		"navigation",
-		"maps"
-	]
+	"categories": ["navigation", "maps"]
 }

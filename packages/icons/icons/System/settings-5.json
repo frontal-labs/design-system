@@ -9,8 +9,5 @@
 		"control",
 		"options"
 	],
-	"categories": [
-		"design",
-		"system"
-	]
+	"categories": ["design", "system"]
 }

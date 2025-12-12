@@ -9,7 +9,5 @@
 		"cloud cover",
 		"cloudy sky"
 	],
-	"categories": [
-		"weather"
-	]
+	"categories": ["weather"]
 }

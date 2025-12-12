@@ -10,8 +10,5 @@
 		"transfer",
 		"send"
 	],
-	"categories": [
-		"documents",
-		"arrows"
-	]
+	"categories": ["documents", "arrows"]
 }

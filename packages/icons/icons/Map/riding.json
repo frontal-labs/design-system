@@ -9,8 +9,5 @@
 		"map",
 		"travel"
 	],
-	"categories": [
-		"vehicles",
-		"transportation"
-	]
+	"categories": ["vehicles", "transportation"]
 }

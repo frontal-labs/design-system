@@ -10,8 +10,5 @@
 		"color",
 		"brushstroke"
 	],
-	"categories": [
-		"designs",
-		"tools"
-	]
+	"categories": ["designs", "tools"]
 }

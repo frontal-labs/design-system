@@ -1,16 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"info",
-		"information",
-		"i",
-		"symbol",
-		"circle",
-		"help",
-		"indicator"
-	],
-	"categories": [
-		"information",
-		"design"
-	]
+	"tags": ["info", "information", "i", "symbol", "circle", "help", "indicator"],
+	"categories": ["information", "design"]
 }

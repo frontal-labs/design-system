@@ -10,8 +10,5 @@
 		"document shape",
 		"paper icon"
 	],
-	"categories": [
-		"documents",
-		"files"
-	]
+	"categories": ["documents", "files"]
 }

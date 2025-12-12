@@ -10,8 +10,5 @@
 		"text",
 		"grid"
 	],
-	"categories": [
-		"design",
-		"documents"
-	]
+	"categories": ["design", "documents"]
 }

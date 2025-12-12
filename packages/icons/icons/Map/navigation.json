@@ -10,8 +10,5 @@
 		"route",
 		"travel"
 	],
-	"categories": [
-		"navigation",
-		"arrows"
-	]
+	"categories": ["navigation", "arrows"]
 }

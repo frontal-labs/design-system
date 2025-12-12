@@ -10,8 +10,5 @@
 		"equation",
 		"calculator"
 	],
-	"categories": [
-		"editors",
-		"maths"
-	]
+	"categories": ["editors", "maths"]
 }

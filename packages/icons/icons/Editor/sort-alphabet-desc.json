@@ -10,8 +10,5 @@
 		"a",
 		"editor"
 	],
-	"categories": [
-		"arrows",
-		"editor"
-	]
+	"categories": ["arrows", "editor"]
 }

@@ -11,8 +11,5 @@
 		"camera icon",
 		"camera view"
 	],
-	"categories": [
-		"media",
-		"devices"
-	]
+	"categories": ["media", "devices"]
 }

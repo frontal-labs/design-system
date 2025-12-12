@@ -10,8 +10,5 @@
 		"group",
 		"diagram"
 	],
-	"categories": [
-		"design",
-		"business"
-	]
+	"categories": ["design", "business"]
 }

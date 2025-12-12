@@ -10,8 +10,5 @@
 		"toggle",
 		"minimize"
 	],
-	"categories": [
-		"media",
-		"navigation"
-	]
+	"categories": ["media", "navigation"]
 }

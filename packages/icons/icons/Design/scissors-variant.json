@@ -10,8 +10,5 @@
 		"design",
 		"utility"
 	],
-	"categories": [
-		"design",
-		"tools"
-	]
+	"categories": ["design", "tools"]
 }

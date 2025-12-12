@@ -10,8 +10,5 @@
 		"time",
 		"paper"
 	],
-	"categories": [
-		"businesses",
-		"schedules"
-	]
+	"categories": ["businesses", "schedules"]
 }

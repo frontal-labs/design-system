@@ -10,8 +10,5 @@
 		"multiple-lines",
 		"icon"
 	],
-	"categories": [
-		"documents",
-		"files"
-	]
+	"categories": ["documents", "files"]
 }

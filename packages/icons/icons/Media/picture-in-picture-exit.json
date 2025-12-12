@@ -10,8 +10,5 @@
 		"window",
 		"media"
 	],
-	"categories": [
-		"media",
-		"navigation"
-	]
+	"categories": ["media", "navigation"]
 }

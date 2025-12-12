@@ -11,8 +11,5 @@
 		"money",
 		"bar"
 	],
-	"categories": [
-		"finance",
-		"documents"
-	]
+	"categories": ["finance", "documents"]
 }
