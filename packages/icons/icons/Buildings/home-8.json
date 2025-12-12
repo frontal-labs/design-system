@@ -10,8 +10,5 @@
 		"navigation",
 		"realestate"
 	],
-	"categories": [
-		"buildings",
-		"navigation"
-	]
+	"categories": ["buildings", "navigation"]
 }

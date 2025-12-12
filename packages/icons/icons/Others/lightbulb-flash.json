@@ -10,8 +10,5 @@
 		"technology",
 		"symbol"
 	],
-	"categories": [
-		"lightbulbs",
-		"symbols"
-	]
+	"categories": ["lightbulbs", "symbols"]
 }

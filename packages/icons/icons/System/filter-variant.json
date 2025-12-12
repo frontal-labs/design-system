@@ -10,8 +10,5 @@
 		"search",
 		"list"
 	],
-	"categories": [
-		"navigation",
-		"system"
-	]
+	"categories": ["navigation", "system"]
 }

@@ -10,8 +10,5 @@
 		"support",
 		"query"
 	],
-	"categories": [
-		"symbols",
-		"systems"
-	]
+	"categories": ["symbols", "systems"]
 }

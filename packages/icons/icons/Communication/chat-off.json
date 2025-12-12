@@ -11,8 +11,5 @@
 		"no",
 		"cancel"
 	],
-	"categories": [
-		"communication",
-		"status"
-	]
+	"categories": ["communication", "status"]
 }

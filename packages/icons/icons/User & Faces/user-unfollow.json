@@ -11,8 +11,5 @@
 		"x",
 		"icon"
 	],
-	"categories": [
-		"faces",
-		"actions"
-	]
+	"categories": ["faces", "actions"]
 }

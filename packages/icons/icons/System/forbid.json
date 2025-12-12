@@ -9,8 +9,5 @@
 		"stop",
 		"exclusion"
 	],
-	"categories": [
-		"system",
-		"design"
-	]
+	"categories": ["system", "design"]
 }

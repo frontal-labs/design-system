@@ -1,16 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"play",
-		"media",
-		"audio",
-		"video",
-		"triangle",
-		"forward",
-		"control"
-	],
-	"categories": [
-		"media",
-		"controls"
-	]
+	"tags": ["play", "media", "audio", "video", "triangle", "forward", "control"],
+	"categories": ["media", "controls"]
 }

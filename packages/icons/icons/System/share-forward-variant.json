@@ -10,8 +10,5 @@
 		"navigation",
 		"send"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

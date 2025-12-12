@@ -10,8 +10,5 @@
 		"circle",
 		"round"
 	],
-	"categories": [
-		"media",
-		"storage"
-	]
+	"categories": ["media", "storage"]
 }

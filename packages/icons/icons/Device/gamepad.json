@@ -9,8 +9,5 @@
 		"video game",
 		"console"
 	],
-	"categories": [
-		"devices",
-		"gaming"
-	]
+	"categories": ["devices", "gaming"]
 }

@@ -9,8 +9,5 @@
 		"timeline",
 		"archive"
 	],
-	"categories": [
-		"documents",
-		"files"
-	]
+	"categories": ["documents", "files"]
 }

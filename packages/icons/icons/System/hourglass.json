@@ -9,8 +9,5 @@
 		"countdown",
 		"pause"
 	],
-	"categories": [
-		"time",
-		"systems"
-	]
+	"categories": ["time", "systems"]
 }

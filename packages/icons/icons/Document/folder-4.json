@@ -10,8 +10,5 @@
 		"navigation",
 		"icon"
 	],
-	"categories": [
-		"folders",
-		"documents"
-	]
+	"categories": ["folders", "documents"]
 }

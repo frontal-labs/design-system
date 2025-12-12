@@ -10,8 +10,5 @@
 		"file",
 		"editor"
 	],
-	"categories": [
-		"editor",
-		"documents"
-	]
+	"categories": ["editor", "documents"]
 }

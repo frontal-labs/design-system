@@ -10,8 +10,5 @@
 		"square",
 		"border"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

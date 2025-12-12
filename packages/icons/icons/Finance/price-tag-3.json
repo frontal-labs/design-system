@@ -10,8 +10,5 @@
 		"label",
 		"shopping"
 	],
-	"categories": [
-		"finance",
-		"shopping"
-	]
+	"categories": ["finance", "shopping"]
 }

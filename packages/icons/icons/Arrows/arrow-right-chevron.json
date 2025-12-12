@@ -9,8 +9,5 @@
 		"forward",
 		"chevron"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

@@ -10,8 +10,5 @@
 		"direction",
 		"world"
 	],
-	"categories": [
-		"navigation",
-		"devices"
-	]
+	"categories": ["navigation", "devices"]
 }

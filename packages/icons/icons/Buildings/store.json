@@ -10,8 +10,5 @@
 		"window",
 		"sign"
 	],
-	"categories": [
-		"buildings",
-		"business"
-	]
+	"categories": ["buildings", "business"]
 }

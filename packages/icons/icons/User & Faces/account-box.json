@@ -10,8 +10,5 @@
 		"account",
 		"face"
 	],
-	"categories": [
-		"users",
-		"people"
-	]
+	"categories": ["users", "people"]
 }

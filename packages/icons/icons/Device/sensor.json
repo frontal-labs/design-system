@@ -10,8 +10,5 @@
 		"technology",
 		"monitor"
 	],
-	"categories": [
-		"devices",
-		"electronics"
-	]
+	"categories": ["devices", "electronics"]
 }

@@ -10,8 +10,5 @@
 		"options",
 		"ui"
 	],
-	"categories": [
-		"navigation",
-		"design"
-	]
+	"categories": ["navigation", "design"]
 }

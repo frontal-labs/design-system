@@ -11,8 +11,5 @@
 		"chance",
 		"gaming"
 	],
-	"categories": [
-		"dice",
-		"games"
-	]
+	"categories": ["dice", "games"]
 }

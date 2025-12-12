@@ -9,8 +9,5 @@
 		"carry",
 		"transport"
 	],
-	"categories": [
-		"objects",
-		"transportation"
-	]
+	"categories": ["objects", "transportation"]
 }

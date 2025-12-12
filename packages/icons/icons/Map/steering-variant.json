@@ -10,8 +10,5 @@
 		"control",
 		"circle"
 	],
-	"categories": [
-		"maps",
-		"navigation"
-	]
+	"categories": ["maps", "navigation"]
 }

@@ -11,8 +11,5 @@
 		"document-file",
 		"file-document"
 	],
-	"categories": [
-		"documents",
-		"files"
-	]
+	"categories": ["documents", "files"]
 }

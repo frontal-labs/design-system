@@ -10,8 +10,5 @@
 		"control",
 		"gearwheel"
 	],
-	"categories": [
-		"systems",
-		"settings"
-	]
+	"categories": ["systems", "settings"]
 }

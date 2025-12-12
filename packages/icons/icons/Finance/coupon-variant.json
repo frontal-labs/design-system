@@ -9,8 +9,5 @@
 		"finance",
 		"receipt"
 	],
-	"categories": [
-		"finance",
-		"design"
-	]
+	"categories": ["finance", "design"]
 }

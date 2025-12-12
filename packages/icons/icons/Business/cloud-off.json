@@ -12,8 +12,5 @@
 		"cloudy",
 		"unavailable"
 	],
-	"categories": [
-		"clouds",
-		"status"
-	]
+	"categories": ["clouds", "status"]
 }

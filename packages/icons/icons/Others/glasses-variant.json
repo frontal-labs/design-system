@@ -10,8 +10,5 @@
 		"accessory",
 		"optical"
 	],
-	"categories": [
-		"accessories",
-		"fashion"
-	]
+	"categories": ["accessories", "fashion"]
 }

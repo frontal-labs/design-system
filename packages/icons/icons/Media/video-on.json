@@ -11,8 +11,5 @@
 		"recording",
 		"stream"
 	],
-	"categories": [
-		"media",
-		"devices"
-	]
+	"categories": ["media", "devices"]
 }

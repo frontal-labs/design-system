@@ -10,8 +10,5 @@
 		"mouth",
 		"simple"
 	],
-	"categories": [
-		"faces",
-		"emotions"
-	]
+	"categories": ["faces", "emotions"]
 }

@@ -10,8 +10,5 @@
 		"back",
 		"rotate"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

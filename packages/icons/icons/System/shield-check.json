@@ -9,8 +9,5 @@
 		"badge",
 		"protection"
 	],
-	"categories": [
-		"shields",
-		"system"
-	]
+	"categories": ["shields", "system"]
 }

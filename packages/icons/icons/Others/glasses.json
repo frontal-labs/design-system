@@ -9,8 +9,5 @@
 		"fashion",
 		"accessory"
 	],
-	"categories": [
-		"accessories",
-		"fashion"
-	]
+	"categories": ["accessories", "fashion"]
 }

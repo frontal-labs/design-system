@@ -11,8 +11,5 @@
 		"multifolder",
 		"document"
 	],
-	"categories": [
-		"navigation",
-		"design"
-	]
+	"categories": ["navigation", "design"]
 }

@@ -10,8 +10,5 @@
 		"circuit",
 		"electronic"
 	],
-	"categories": [
-		"devices",
-		"electronics"
-	]
+	"categories": ["devices", "electronics"]
 }

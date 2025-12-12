@@ -10,8 +10,5 @@
 		"art",
 		"collection"
 	],
-	"categories": [
-		"design",
-		"media"
-	]
+	"categories": ["design", "media"]
 }

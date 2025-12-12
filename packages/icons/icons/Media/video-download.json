@@ -10,8 +10,5 @@
 		"download icon",
 		"video download"
 	],
-	"categories": [
-		"media",
-		"arrows"
-	]
+	"categories": ["media", "arrows"]
 }

@@ -12,8 +12,5 @@
 		"menu",
 		"icon"
 	],
-	"categories": [
-		"systems",
-		"designs"
-	]
+	"categories": ["systems", "designs"]
 }

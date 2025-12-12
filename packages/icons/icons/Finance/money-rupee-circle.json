@@ -10,8 +10,5 @@
 		"indian",
 		"currency sign"
 	],
-	"categories": [
-		"finance",
-		"currency"
-	]
+	"categories": ["finance", "currency"]
 }

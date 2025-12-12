@@ -11,8 +11,5 @@
 		"file icon",
 		"outline"
 	],
-	"categories": [
-		"documents",
-		"office"
-	]
+	"categories": ["documents", "office"]
 }

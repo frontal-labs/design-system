@@ -10,8 +10,5 @@
 		"gender",
 		"figure"
 	],
-	"categories": [
-		"users",
-		"faces"
-	]
+	"categories": ["users", "faces"]
 }

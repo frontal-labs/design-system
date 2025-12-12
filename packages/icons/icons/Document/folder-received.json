@@ -9,8 +9,5 @@
 		"inbox",
 		"file"
 	],
-	"categories": [
-		"folders",
-		"arrows"
-	]
+	"categories": ["folders", "arrows"]
 }

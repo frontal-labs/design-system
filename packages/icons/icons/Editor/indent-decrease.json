@@ -10,8 +10,5 @@
 		"list",
 		"document"
 	],
-	"categories": [
-		"arrows",
-		"editor"
-	]
+	"categories": ["arrows", "editor"]
 }

@@ -10,8 +10,5 @@
 		"direction",
 		"circle"
 	],
-	"categories": [
-		"arrows",
-		"system"
-	]
+	"categories": ["arrows", "system"]
 }

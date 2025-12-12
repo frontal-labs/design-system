@@ -10,8 +10,5 @@
 		"formatting",
 		"language"
 	],
-	"categories": [
-		"editors",
-		"symbols"
-	]
+	"categories": ["editors", "symbols"]
 }

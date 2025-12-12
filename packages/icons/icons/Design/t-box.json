@@ -9,8 +9,5 @@
 		"placeholder",
 		"layout"
 	],
-	"categories": [
-		"design",
-		"ui"
-	]
+	"categories": ["design", "ui"]
 }

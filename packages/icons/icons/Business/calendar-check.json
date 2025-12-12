@@ -9,8 +9,5 @@
 		"verification",
 		"schedule"
 	],
-	"categories": [
-		"calendars",
-		"businesses"
-	]
+	"categories": ["calendars", "businesses"]
 }

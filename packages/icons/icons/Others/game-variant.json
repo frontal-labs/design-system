@@ -9,8 +9,5 @@
 		"controller",
 		"arcade"
 	],
-	"categories": [
-		"gaming",
-		"electronics"
-	]
+	"categories": ["gaming", "electronics"]
 }

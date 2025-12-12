@@ -10,8 +10,5 @@
 		"layout",
 		"rectangles"
 	],
-	"categories": [
-		"businesses",
-		"documents"
-	]
+	"categories": ["businesses", "documents"]
 }

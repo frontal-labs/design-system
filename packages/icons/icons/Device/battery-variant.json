@@ -10,8 +10,5 @@
 		"status",
 		"icon"
 	],
-	"categories": [
-		"devices",
-		"status"
-	]
+	"categories": ["devices", "status"]
 }

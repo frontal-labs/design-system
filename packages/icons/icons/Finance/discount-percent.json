@@ -10,8 +10,5 @@
 		"price",
 		"offer"
 	],
-	"categories": [
-		"finance",
-		"design"
-	]
+	"categories": ["finance", "design"]
 }

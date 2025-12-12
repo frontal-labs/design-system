@@ -10,8 +10,5 @@
 		"icon",
 		"multilayer"
 	],
-	"categories": [
-		"documents",
-		"copy"
-	]
+	"categories": ["documents", "copy"]
 }

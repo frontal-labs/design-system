@@ -10,8 +10,5 @@
 		"collection",
 		"grid"
 	],
-	"categories": [
-		"media",
-		"folders"
-	]
+	"categories": ["media", "folders"]
 }

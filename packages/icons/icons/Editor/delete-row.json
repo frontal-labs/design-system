@@ -11,8 +11,5 @@
 		"action",
 		"command"
 	],
-	"categories": [
-		"editors",
-		"tables"
-	]
+	"categories": ["editors", "tables"]
 }

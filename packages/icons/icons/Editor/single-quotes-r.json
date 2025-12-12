@@ -10,8 +10,5 @@
 		"typing",
 		"character"
 	],
-	"categories": [
-		"editors",
-		"symbols"
-	]
+	"categories": ["editors", "symbols"]
 }

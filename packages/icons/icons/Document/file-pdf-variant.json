@@ -10,8 +10,5 @@
 		"icon",
 		"filetype"
 	],
-	"categories": [
-		"documents",
-		"design"
-	]
+	"categories": ["documents", "design"]
 }

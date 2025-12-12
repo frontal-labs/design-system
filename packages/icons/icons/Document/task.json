@@ -9,8 +9,5 @@
 		"completed",
 		"task-list"
 	],
-	"categories": [
-		"documents",
-		"tasks"
-	]
+	"categories": ["documents", "tasks"]
 }

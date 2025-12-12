@@ -12,8 +12,5 @@
 		"historic",
 		"gatehouse"
 	],
-	"categories": [
-		"buildings",
-		"structures"
-	]
+	"categories": ["buildings", "structures"]
 }

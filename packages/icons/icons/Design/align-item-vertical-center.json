@@ -11,8 +11,5 @@
 		"grid",
 		"centered"
 	],
-	"categories": [
-		"design",
-		"layout"
-	]
+	"categories": ["design", "layout"]
 }

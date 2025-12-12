@@ -11,7 +11,5 @@
 		"sky",
 		"daytime"
 	],
-	"categories": [
-		"weather"
-	]
+	"categories": ["weather"]
 }

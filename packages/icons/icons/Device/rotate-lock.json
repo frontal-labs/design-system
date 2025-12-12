@@ -10,8 +10,5 @@
 		"arrow",
 		"circular arrow"
 	],
-	"categories": [
-		"devices",
-		"locks"
-	]
+	"categories": ["devices", "locks"]
 }

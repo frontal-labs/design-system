@@ -10,8 +10,5 @@
 		"code",
 		"development"
 	],
-	"categories": [
-		"development",
-		"source control"
-	]
+	"categories": ["development", "source control"]
 }

@@ -10,8 +10,5 @@
 		"direction",
 		"editor"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

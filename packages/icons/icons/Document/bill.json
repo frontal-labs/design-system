@@ -10,8 +10,5 @@
 		"rectangle",
 		"file"
 	],
-	"categories": [
-		"documents",
-		"design"
-	]
+	"categories": ["documents", "design"]
 }

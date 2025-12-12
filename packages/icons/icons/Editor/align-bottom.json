@@ -10,8 +10,5 @@
 		"text",
 		"alignment"
 	],
-	"categories": [
-		"arrows",
-		"layout"
-	]
+	"categories": ["arrows", "layout"]
 }

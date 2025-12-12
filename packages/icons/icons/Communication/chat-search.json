@@ -11,8 +11,5 @@
 		"filter",
 		"query"
 	],
-	"categories": [
-		"communication",
-		"search"
-	]
+	"categories": ["communication", "search"]
 }

@@ -11,8 +11,5 @@
 		"play button",
 		"movie icon"
 	],
-	"categories": [
-		"media",
-		"design"
-	]
+	"categories": ["media", "design"]
 }

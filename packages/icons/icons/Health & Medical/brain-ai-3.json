@@ -10,8 +10,5 @@
 		"neuroscience",
 		"technology"
 	],
-	"categories": [
-		"design",
-		"health"
-	]
+	"categories": ["design", "health"]
 }

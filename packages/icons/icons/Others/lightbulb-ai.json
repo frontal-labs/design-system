@@ -10,8 +10,5 @@
 		"electric",
 		"brain"
 	],
-	"categories": [
-		"design",
-		"technology"
-	]
+	"categories": ["design", "technology"]
 }

@@ -10,8 +10,5 @@
 		"politics",
 		"country"
 	],
-	"categories": [
-		"businesses",
-		"symbols"
-	]
+	"categories": ["businesses", "symbols"]
 }

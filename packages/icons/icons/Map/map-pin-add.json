@@ -10,8 +10,5 @@
 		"map",
 		"pin"
 	],
-	"categories": [
-		"navigation",
-		"design"
-	]
+	"categories": ["navigation", "design"]
 }

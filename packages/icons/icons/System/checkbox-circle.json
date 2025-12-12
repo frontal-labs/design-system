@@ -10,8 +10,5 @@
 		"status",
 		"done"
 	],
-	"categories": [
-		"controls",
-		"forms"
-	]
+	"categories": ["controls", "forms"]
 }

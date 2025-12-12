@@ -11,8 +11,5 @@
 		"access",
 		"lock"
 	],
-	"categories": [
-		"doors",
-		"architecture"
-	]
+	"categories": ["doors", "architecture"]
 }

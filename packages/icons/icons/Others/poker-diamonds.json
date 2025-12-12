@@ -12,8 +12,5 @@
 		"shape",
 		"deck"
 	],
-	"categories": [
-		"cards",
-		"games"
-	]
+	"categories": ["cards", "games"]
 }

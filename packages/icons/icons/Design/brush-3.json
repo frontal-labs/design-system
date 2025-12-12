@@ -10,8 +10,5 @@
 		"creative",
 		"craft"
 	],
-	"categories": [
-		"design",
-		"tools"
-	]
+	"categories": ["design", "tools"]
 }

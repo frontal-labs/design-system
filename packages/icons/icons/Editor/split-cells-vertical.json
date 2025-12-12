@@ -10,8 +10,5 @@
 		"divider",
 		"separator"
 	],
-	"categories": [
-		"design",
-		"editor"
-	]
+	"categories": ["design", "editor"]
 }

@@ -9,8 +9,5 @@
 		"ui",
 		"arrow-right"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

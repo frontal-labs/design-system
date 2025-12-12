@@ -12,8 +12,5 @@
 		"geometry",
 		"design"
 	],
-	"categories": [
-		"design",
-		"tools"
-	]
+	"categories": ["design", "tools"]
 }

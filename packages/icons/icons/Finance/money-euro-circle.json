@@ -9,8 +9,5 @@
 		"symbol",
 		"monetary"
 	],
-	"categories": [
-		"finance",
-		"currencies"
-	]
+	"categories": ["finance", "currencies"]
 }

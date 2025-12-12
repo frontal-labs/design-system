@@ -11,8 +11,5 @@
 		"classroom",
 		"architecture"
 	],
-	"categories": [
-		"buildings",
-		"education"
-	]
+	"categories": ["buildings", "education"]
 }

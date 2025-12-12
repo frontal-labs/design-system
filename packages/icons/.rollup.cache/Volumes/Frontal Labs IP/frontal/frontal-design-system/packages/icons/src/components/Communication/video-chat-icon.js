@@ -1,0 +1,7 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+export function VideoChatIcon({ width = 24, height = 24, color = 'currentColor', ...props }) {
+    return (_jsx("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", width: width, height: height, fill: color, "aria-label": "Video Chat Camera", "aria-labelledby": "Video Chat Camera", "aria-hidden": true, ...props, children: _jsx("path", { d: "M14 10.25L17 8V14L14 11.75V14H7V8H14V10.25ZM5.76282 17H20V5H4V18.3851L5.76282 17ZM6.45455 19L2 22.5V4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V18C22 18.5523 21.5523 19 21 19H6.45455Z" }) }));
+}
+VideoChatIcon.displayName = 'VideoChatIcon';
+export default VideoChatIcon;
+//# sourceMappingURL=video-chat-icon.js.map

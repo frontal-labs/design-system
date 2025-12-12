@@ -10,8 +10,5 @@
 		"cutting",
 		"scissor"
 	],
-	"categories": [
-		"design",
-		"tools"
-	]
+	"categories": ["design", "tools"]
 }

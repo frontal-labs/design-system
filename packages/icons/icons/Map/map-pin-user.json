@@ -9,8 +9,5 @@
 		"person",
 		"marker"
 	],
-	"categories": [
-		"navigation",
-		"people"
-	]
+	"categories": ["navigation", "people"]
 }

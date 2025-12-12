@@ -10,7 +10,5 @@
 		"technology",
 		"brand"
 	],
-	"categories": [
-		"logos"
-	]
+	"categories": ["logos"]
 }

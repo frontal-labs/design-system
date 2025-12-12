@@ -10,8 +10,5 @@
 		"spinner",
 		"percentage"
 	],
-	"categories": [
-		"systems",
-		"indicators"
-	]
+	"categories": ["systems", "indicators"]
 }

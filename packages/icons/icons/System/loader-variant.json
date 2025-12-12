@@ -10,8 +10,5 @@
 		"progress",
 		"refresh"
 	],
-	"categories": [
-		"system",
-		"loaders"
-	]
+	"categories": ["system", "loaders"]
 }

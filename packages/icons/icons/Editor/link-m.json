@@ -10,8 +10,5 @@
 		"chain-link",
 		"editor"
 	],
-	"categories": [
-		"design",
-		"navigation"
-	]
+	"categories": ["design", "navigation"]
 }

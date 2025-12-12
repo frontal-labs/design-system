@@ -11,8 +11,5 @@
 		"editor",
 		"form"
 	],
-	"categories": [
-		"design",
-		"editor"
-	]
+	"categories": ["design", "editor"]
 }

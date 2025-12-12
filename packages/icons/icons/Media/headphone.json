@@ -9,8 +9,5 @@
 		"media",
 		"listening"
 	],
-	"categories": [
-		"media",
-		"audio"
-	]
+	"categories": ["media", "audio"]
 }

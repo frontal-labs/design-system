@@ -10,8 +10,5 @@
 		"list",
 		"text"
 	],
-	"categories": [
-		"documents",
-		"design"
-	]
+	"categories": ["documents", "design"]
 }

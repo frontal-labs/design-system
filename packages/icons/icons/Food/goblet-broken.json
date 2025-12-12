@@ -10,8 +10,5 @@
 		"cracked",
 		"tableware"
 	],
-	"categories": [
-		"food",
-		"tableware"
-	]
+	"categories": ["food", "tableware"]
 }

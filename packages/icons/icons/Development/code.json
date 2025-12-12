@@ -11,8 +11,5 @@
 		"pair",
 		"angle brackets"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

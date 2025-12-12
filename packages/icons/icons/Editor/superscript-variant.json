@@ -10,8 +10,5 @@
 		"numeric",
 		"type"
 	],
-	"categories": [
-		"editors",
-		"formatting"
-	]
+	"categories": ["editors", "formatting"]
 }

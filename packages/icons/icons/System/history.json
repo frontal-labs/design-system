@@ -10,8 +10,5 @@
 		"arrow",
 		"round"
 	],
-	"categories": [
-		"systems",
-		"clocks"
-	]
+	"categories": ["systems", "clocks"]
 }

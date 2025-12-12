@@ -10,8 +10,5 @@
 		"communication",
 		"user"
 	],
-	"categories": [
-		"business",
-		"symbols"
-	]
+	"categories": ["business", "symbols"]
 }

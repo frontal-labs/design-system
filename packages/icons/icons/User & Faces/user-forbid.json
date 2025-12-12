@@ -12,8 +12,5 @@
 		"lock",
 		"restricted"
 	],
-	"categories": [
-		"users",
-		"prohibitions"
-	]
+	"categories": ["users", "prohibitions"]
 }

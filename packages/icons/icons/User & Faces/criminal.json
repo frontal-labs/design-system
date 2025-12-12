@@ -1,16 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"criminal",
-		"mask",
-		"face",
-		"person",
-		"crime",
-		"villain",
-		"masked"
-	],
-	"categories": [
-		"people",
-		"faces"
-	]
+	"tags": ["criminal", "mask", "face", "person", "crime", "villain", "masked"],
+	"categories": ["people", "faces"]
 }

@@ -11,8 +11,5 @@
 		"education",
 		"text"
 	],
-	"categories": [
-		"documents",
-		"media"
-	]
+	"categories": ["documents", "media"]
 }

@@ -11,8 +11,5 @@
 		"operation",
 		"symbol"
 	],
-	"categories": [
-		"actions",
-		"operations"
-	]
+	"categories": ["actions", "operations"]
 }

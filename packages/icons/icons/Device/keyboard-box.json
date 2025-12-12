@@ -9,8 +9,5 @@
 		"keys",
 		"hardware"
 	],
-	"categories": [
-		"devices",
-		"computers"
-	]
+	"categories": ["devices", "computers"]
 }

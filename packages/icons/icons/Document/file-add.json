@@ -10,8 +10,5 @@
 		"folder",
 		"icon"
 	],
-	"categories": [
-		"documents",
-		"actions"
-	]
+	"categories": ["documents", "actions"]
 }

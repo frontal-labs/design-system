@@ -9,8 +9,5 @@
 		"edit",
 		"creative"
 	],
-	"categories": [
-		"design",
-		"tools"
-	]
+	"categories": ["design", "tools"]
 }

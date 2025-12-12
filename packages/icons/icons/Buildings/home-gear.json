@@ -10,8 +10,5 @@
 		"control",
 		"tools"
 	],
-	"categories": [
-		"buildings",
-		"design"
-	]
+	"categories": ["buildings", "design"]
 }

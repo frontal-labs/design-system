@@ -1,16 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"money",
-		"pound",
-		"box",
-		"currency",
-		"finance",
-		"cash",
-		"account"
-	],
-	"categories": [
-		"finance",
-		"currency"
-	]
+	"tags": ["money", "pound", "box", "currency", "finance", "cash", "account"],
+	"categories": ["finance", "currency"]
 }

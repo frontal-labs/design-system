@@ -10,8 +10,5 @@
 		"upload",
 		"new"
 	],
-	"categories": [
-		"media",
-		"design"
-	]
+	"categories": ["media", "design"]
 }

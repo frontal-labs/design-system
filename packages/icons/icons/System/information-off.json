@@ -9,8 +9,5 @@
 		"notification",
 		"status"
 	],
-	"categories": [
-		"systems",
-		"statuses"
-	]
+	"categories": ["systems", "statuses"]
 }

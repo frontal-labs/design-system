@@ -10,8 +10,5 @@
 		"controls",
 		"audio"
 	],
-	"categories": [
-		"media",
-		"arrows"
-	]
+	"categories": ["media", "arrows"]
 }

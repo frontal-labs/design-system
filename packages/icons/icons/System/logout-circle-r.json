@@ -10,8 +10,5 @@
 		"system",
 		"user"
 	],
-	"categories": [
-		"system",
-		"navigation"
-	]
+	"categories": ["system", "navigation"]
 }

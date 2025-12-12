@@ -10,8 +10,5 @@
 		"scale",
 		"measurement"
 	],
-	"categories": [
-		"weather",
-		"thermometers"
-	]
+	"categories": ["weather", "thermometers"]
 }

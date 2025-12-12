@@ -10,8 +10,5 @@
 		"access",
 		"protected"
 	],
-	"categories": [
-		"folders",
-		"security"
-	]
+	"categories": ["folders", "security"]
 }

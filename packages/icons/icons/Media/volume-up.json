@@ -10,7 +10,5 @@
 		"media",
 		"play"
 	],
-	"categories": [
-		"media"
-	]
+	"categories": ["media"]
 }

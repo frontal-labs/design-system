@@ -9,8 +9,5 @@
 		"strategy",
 		"game piece"
 	],
-	"categories": [
-		"games",
-		"board games"
-	]
+	"categories": ["games", "board games"]
 }

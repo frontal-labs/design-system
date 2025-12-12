@@ -10,8 +10,5 @@
 		"token",
 		"blockchain"
 	],
-	"categories": [
-		"finance",
-		"cryptocurrency"
-	]
+	"categories": ["finance", "cryptocurrency"]
 }

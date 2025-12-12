@@ -1,15 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"css",
-		"web",
-		"frontend",
-		"style",
-		"logo",
-		"technology"
-	],
-	"categories": [
-		"design",
-		"logos"
-	]
+	"tags": ["css", "web", "frontend", "style", "logo", "technology"],
+	"categories": ["design", "logos"]
 }

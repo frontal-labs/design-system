@@ -9,8 +9,5 @@
 		"editor",
 		"formatting"
 	],
-	"categories": [
-		"editors",
-		"lists"
-	]
+	"categories": ["editors", "lists"]
 }

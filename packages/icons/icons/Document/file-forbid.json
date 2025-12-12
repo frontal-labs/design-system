@@ -10,8 +10,5 @@
 		"restricted",
 		"blocked"
 	],
-	"categories": [
-		"files",
-		"symbols"
-	]
+	"categories": ["files", "symbols"]
 }

@@ -10,8 +10,5 @@
 		"traffic",
 		"building"
 	],
-	"categories": [
-		"maps",
-		"navigation"
-	]
+	"categories": ["maps", "navigation"]
 }

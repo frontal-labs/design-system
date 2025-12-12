@@ -9,8 +9,5 @@
 		"equation",
 		"math notation"
 	],
-	"categories": [
-		"editor",
-		"design"
-	]
+	"categories": ["editor", "design"]
 }

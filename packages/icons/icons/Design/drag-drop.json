@@ -11,8 +11,5 @@
 		"file",
 		"folder"
 	],
-	"categories": [
-		"design",
-		"ui"
-	]
+	"categories": ["design", "ui"]
 }

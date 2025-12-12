@@ -12,8 +12,5 @@
 		"arrowhead",
 		"line"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

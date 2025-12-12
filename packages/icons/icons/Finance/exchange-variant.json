@@ -12,8 +12,5 @@
 		"transfer",
 		"transaction"
 	],
-	"categories": [
-		"arrows",
-		"finance"
-	]
+	"categories": ["arrows", "finance"]
 }

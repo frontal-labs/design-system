@@ -10,8 +10,5 @@
 		"office",
 		"technology"
 	],
-	"categories": [
-		"devices",
-		"business"
-	]
+	"categories": ["devices", "business"]
 }

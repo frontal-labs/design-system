@@ -10,8 +10,5 @@
 		"signal bars",
 		"strength"
 	],
-	"categories": [
-		"devices",
-		"networking"
-	]
+	"categories": ["devices", "networking"]
 }

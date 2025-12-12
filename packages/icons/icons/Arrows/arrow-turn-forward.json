@@ -11,8 +11,5 @@
 		"forward arrow",
 		"turning arrow"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

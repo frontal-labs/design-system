@@ -10,8 +10,5 @@
 		"bag",
 		"work"
 	],
-	"categories": [
-		"business",
-		"office"
-	]
+	"categories": ["business", "office"]
 }

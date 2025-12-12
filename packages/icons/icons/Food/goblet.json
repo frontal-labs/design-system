@@ -11,8 +11,5 @@
 		"food",
 		"drink"
 	],
-	"categories": [
-		"foods",
-		"drinks"
-	]
+	"categories": ["foods", "drinks"]
 }

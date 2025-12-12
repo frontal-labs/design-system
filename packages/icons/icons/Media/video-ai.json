@@ -10,8 +10,5 @@
 		"recording",
 		"video camera"
 	],
-	"categories": [
-		"media",
-		"devices"
-	]
+	"categories": ["media", "devices"]
 }

@@ -11,8 +11,5 @@
 		"icon",
 		"media"
 	],
-	"categories": [
-		"documents",
-		"media"
-	]
+	"categories": ["documents", "media"]
 }

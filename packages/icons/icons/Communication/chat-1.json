@@ -11,8 +11,5 @@
 		"text",
 		"icon"
 	],
-	"categories": [
-		"communication",
-		"social"
-	]
+	"categories": ["communication", "social"]
 }

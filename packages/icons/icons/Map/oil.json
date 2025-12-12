@@ -10,8 +10,5 @@
 		"map",
 		"marker"
 	],
-	"categories": [
-		"maps",
-		"design"
-	]
+	"categories": ["maps", "design"]
 }

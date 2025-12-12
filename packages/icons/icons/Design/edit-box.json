@@ -10,8 +10,5 @@
 		"form",
 		"settings"
 	],
-	"categories": [
-		"design",
-		"actions"
-	]
+	"categories": ["design", "actions"]
 }

@@ -10,8 +10,5 @@
 		"box",
 		"transport"
 	],
-	"categories": [
-		"objects",
-		"travel"
-	]
+	"categories": ["objects", "travel"]
 }

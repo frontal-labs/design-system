@@ -8,8 +8,5 @@
 		"download arrow",
 		"file icon"
 	],
-	"categories": [
-		"documents",
-		"arrows"
-	]
+	"categories": ["documents", "arrows"]
 }

@@ -9,8 +9,5 @@
 		"finance",
 		"digital currency"
 	],
-	"categories": [
-		"finance",
-		"currency"
-	]
+	"categories": ["finance", "currency"]
 }

@@ -10,8 +10,5 @@
 		"folder-upload",
 		"arrow"
 	],
-	"categories": [
-		"documents",
-		"files"
-	]
+	"categories": ["documents", "files"]
 }

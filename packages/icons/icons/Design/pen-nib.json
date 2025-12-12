@@ -11,8 +11,5 @@
 		"draft",
 		"calligraphy"
 	],
-	"categories": [
-		"design",
-		"tools"
-	]
+	"categories": ["design", "tools"]
 }

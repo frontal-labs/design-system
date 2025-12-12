@@ -9,8 +9,5 @@
 		"electric",
 		"icon"
 	],
-	"categories": [
-		"devices",
-		"electronics"
-	]
+	"categories": ["devices", "electronics"]
 }

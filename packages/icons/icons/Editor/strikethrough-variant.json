@@ -10,8 +10,5 @@
 		"text-editing",
 		"text-style"
 	],
-	"categories": [
-		"editors",
-		"design"
-	]
+	"categories": ["editors", "design"]
 }

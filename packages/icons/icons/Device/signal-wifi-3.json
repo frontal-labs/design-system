@@ -12,8 +12,5 @@
 		"icon",
 		"signal bars"
 	],
-	"categories": [
-		"devices",
-		"communication"
-	]
+	"categories": ["devices", "communication"]
 }

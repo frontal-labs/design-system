@@ -10,8 +10,5 @@
 		"plug",
 		"port"
 	],
-	"categories": [
-		"devices",
-		"electronics"
-	]
+	"categories": ["devices", "electronics"]
 }

@@ -10,8 +10,5 @@
 		"gold",
 		"celebration"
 	],
-	"categories": [
-		"business",
-		"awards"
-	]
+	"categories": ["business", "awards"]
 }

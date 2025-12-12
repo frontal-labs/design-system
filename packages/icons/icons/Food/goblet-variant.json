@@ -11,8 +11,5 @@
 		"party",
 		"ceremony"
 	],
-	"categories": [
-		"food",
-		"drinks"
-	]
+	"categories": ["food", "drinks"]
 }

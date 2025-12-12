@@ -10,7 +10,5 @@
 		"weather icon",
 		"stormy"
 	],
-	"categories": [
-		"weather"
-	]
+	"categories": ["weather"]
 }

@@ -10,8 +10,5 @@
 		"bidirectional",
 		"two-way"
 	],
-	"categories": [
-		"finance",
-		"arrows"
-	]
+	"categories": ["finance", "arrows"]
 }

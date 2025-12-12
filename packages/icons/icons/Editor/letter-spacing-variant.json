@@ -10,8 +10,5 @@
 		"spacing",
 		"layout"
 	],
-	"categories": [
-		"editor",
-		"typography"
-	]
+	"categories": ["editor", "typography"]
 }

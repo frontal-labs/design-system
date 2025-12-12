@@ -10,8 +10,5 @@
 		"money",
 		"finance"
 	],
-	"categories": [
-		"finance",
-		"shopping"
-	]
+	"categories": ["finance", "shopping"]
 }

@@ -10,8 +10,5 @@
 		"interface",
 		"sidebar"
 	],
-	"categories": [
-		"design",
-		"layout"
-	]
+	"categories": ["design", "layout"]
 }

@@ -10,8 +10,5 @@
 		"draft",
 		"icon"
 	],
-	"categories": [
-		"design",
-		"tools"
-	]
+	"categories": ["design", "tools"]
 }

@@ -10,8 +10,5 @@
 		"action",
 		"document"
 	],
-	"categories": [
-		"designs",
-		"actions"
-	]
+	"categories": ["designs", "actions"]
 }

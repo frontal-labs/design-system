@@ -10,8 +10,5 @@
 		"letter",
 		"message"
 	],
-	"categories": [
-		"business",
-		"communications"
-	]
+	"categories": ["business", "communications"]
 }

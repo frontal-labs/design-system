@@ -10,8 +10,5 @@
 		"checked",
 		"toggle"
 	],
-	"categories": [
-		"system",
-		"inputs"
-	]
+	"categories": ["system", "inputs"]
 }

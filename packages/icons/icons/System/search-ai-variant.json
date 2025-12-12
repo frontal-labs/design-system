@@ -10,8 +10,5 @@
 		"finder",
 		"system"
 	],
-	"categories": [
-		"search",
-		"navigation"
-	]
+	"categories": ["search", "navigation"]
 }

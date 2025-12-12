@@ -10,8 +10,5 @@
 		"arrows",
 		"double-arrow"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

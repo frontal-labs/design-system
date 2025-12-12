@@ -10,8 +10,5 @@
 		"charge",
 		"status"
 	],
-	"categories": [
-		"devices",
-		"status"
-	]
+	"categories": ["devices", "status"]
 }

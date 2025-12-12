@@ -9,8 +9,5 @@
 		"circle",
 		"operator"
 	],
-	"categories": [
-		"symbols",
-		"math"
-	]
+	"categories": ["symbols", "math"]
 }

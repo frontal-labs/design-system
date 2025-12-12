@@ -10,8 +10,5 @@
 		"document lock",
 		"folder"
 	],
-	"categories": [
-		"documents",
-		"security"
-	]
+	"categories": ["documents", "security"]
 }

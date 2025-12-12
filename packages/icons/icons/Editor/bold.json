@@ -10,8 +10,5 @@
 		"letter",
 		"design"
 	],
-	"categories": [
-		"design",
-		"fonts"
-	]
+	"categories": ["design", "fonts"]
 }

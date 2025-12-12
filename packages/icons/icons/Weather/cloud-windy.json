@@ -9,7 +9,5 @@
 		"forecast",
 		"sky"
 	],
-	"categories": [
-		"weather"
-	]
+	"categories": ["weather"]
 }

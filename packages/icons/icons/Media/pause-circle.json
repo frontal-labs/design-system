@@ -10,8 +10,5 @@
 		"icon",
 		"pause button"
 	],
-	"categories": [
-		"media",
-		"controls"
-	]
+	"categories": ["media", "controls"]
 }

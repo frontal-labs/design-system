@@ -10,8 +10,5 @@
 		"font",
 		"layout"
 	],
-	"categories": [
-		"editors",
-		"typography"
-	]
+	"categories": ["editors", "typography"]
 }

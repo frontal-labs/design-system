@@ -12,8 +12,5 @@
 		"account",
 		"icon"
 	],
-	"categories": [
-		"faces",
-		"people"
-	]
+	"categories": ["faces", "people"]
 }

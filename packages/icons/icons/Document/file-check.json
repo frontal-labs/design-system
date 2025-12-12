@@ -10,8 +10,5 @@
 		"accept",
 		"confirmation"
 	],
-	"categories": [
-		"documents",
-		"status"
-	]
+	"categories": ["documents", "status"]
 }

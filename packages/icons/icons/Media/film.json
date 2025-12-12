@@ -10,8 +10,5 @@
 		"strip",
 		"icon"
 	],
-	"categories": [
-		"media",
-		"design"
-	]
+	"categories": ["media", "design"]
 }

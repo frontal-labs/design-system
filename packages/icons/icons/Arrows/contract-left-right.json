@@ -10,8 +10,5 @@
 		"direction",
 		"symbol"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

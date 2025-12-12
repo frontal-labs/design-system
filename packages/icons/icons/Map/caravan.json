@@ -10,8 +10,5 @@
 		"journey",
 		"van"
 	],
-	"categories": [
-		"maps",
-		"vehicles"
-	]
+	"categories": ["maps", "vehicles"]
 }

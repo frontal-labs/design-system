@@ -10,8 +10,5 @@
 		"profile picture",
 		"account"
 	],
-	"categories": [
-		"users",
-		"faces"
-	]
+	"categories": ["users", "faces"]
 }

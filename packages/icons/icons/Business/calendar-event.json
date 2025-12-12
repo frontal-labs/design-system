@@ -10,8 +10,5 @@
 		"business",
 		"calendar-page"
 	],
-	"categories": [
-		"business",
-		"design"
-	]
+	"categories": ["business", "design"]
 }

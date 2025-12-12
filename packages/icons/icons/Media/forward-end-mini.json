@@ -10,8 +10,5 @@
 		"mini",
 		"direction"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

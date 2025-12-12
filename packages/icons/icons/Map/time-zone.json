@@ -10,8 +10,5 @@
 		"map",
 		"navigation"
 	],
-	"categories": [
-		"maps",
-		"navigation"
-	]
+	"categories": ["maps", "navigation"]
 }

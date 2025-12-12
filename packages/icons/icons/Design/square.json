@@ -9,8 +9,5 @@
 		"geometry",
 		"rectangle"
 	],
-	"categories": [
-		"design",
-		"shapes"
-	]
+	"categories": ["design", "shapes"]
 }

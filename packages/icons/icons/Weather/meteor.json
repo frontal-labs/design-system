@@ -10,8 +10,5 @@
 		"falling",
 		"space"
 	],
-	"categories": [
-		"weather",
-		"celestial"
-	]
+	"categories": ["weather", "celestial"]
 }

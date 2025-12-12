@@ -10,8 +10,5 @@
 		"control",
 		"mute"
 	],
-	"categories": [
-		"media",
-		"controls"
-	]
+	"categories": ["media", "controls"]
 }

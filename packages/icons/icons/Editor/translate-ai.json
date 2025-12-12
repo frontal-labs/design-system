@@ -10,8 +10,5 @@
 		"message",
 		"icon"
 	],
-	"categories": [
-		"communication",
-		"language"
-	]
+	"categories": ["communication", "language"]
 }

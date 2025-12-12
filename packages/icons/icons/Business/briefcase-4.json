@@ -9,8 +9,5 @@
 		"travel",
 		"file"
 	],
-	"categories": [
-		"business",
-		"office"
-	]
+	"categories": ["business", "office"]
 }

@@ -9,8 +9,5 @@
 		"reuse",
 		"circular"
 	],
-	"categories": [
-		"design",
-		"others"
-	]
+	"categories": ["design", "others"]
 }

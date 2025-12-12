@@ -9,8 +9,5 @@
 		"equation",
 		"math function"
 	],
-	"categories": [
-		"symbols",
-		"math"
-	]
+	"categories": ["symbols", "math"]
 }

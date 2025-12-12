@@ -9,8 +9,5 @@
 		"paper",
 		"duplicate file"
 	],
-	"categories": [
-		"documents",
-		"files"
-	]
+	"categories": ["documents", "files"]
 }

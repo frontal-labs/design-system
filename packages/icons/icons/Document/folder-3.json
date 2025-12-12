@@ -11,8 +11,5 @@
 		"flat",
 		"simple"
 	],
-	"categories": [
-		"folders",
-		"documents"
-	]
+	"categories": ["folders", "documents"]
 }

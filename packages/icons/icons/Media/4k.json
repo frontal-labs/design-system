@@ -10,8 +10,5 @@
 		"screen",
 		"HD"
 	],
-	"categories": [
-		"media",
-		"video"
-	]
+	"categories": ["media", "video"]
 }

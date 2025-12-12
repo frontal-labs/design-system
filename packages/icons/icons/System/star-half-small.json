@@ -10,8 +10,5 @@
 		"filled",
 		"icon"
 	],
-	"categories": [
-		"symbols",
-		"rating"
-	]
+	"categories": ["symbols", "rating"]
 }

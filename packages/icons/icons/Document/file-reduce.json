@@ -9,8 +9,5 @@
 		"minimize",
 		"action"
 	],
-	"categories": [
-		"documents",
-		"actions"
-	]
+	"categories": ["documents", "actions"]
 }

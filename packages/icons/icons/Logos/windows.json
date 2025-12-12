@@ -10,8 +10,5 @@
 		"software",
 		"icon"
 	],
-	"categories": [
-		"logos",
-		"brands"
-	]
+	"categories": ["logos", "brands"]
 }

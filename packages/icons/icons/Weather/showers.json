@@ -9,8 +9,5 @@
 		"cloud",
 		"weather icon"
 	],
-	"categories": [
-		"weather",
-		"icons"
-	]
+	"categories": ["weather", "icons"]
 }

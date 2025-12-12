@@ -10,8 +10,5 @@
 		"technology",
 		"layout"
 	],
-	"categories": [
-		"devices",
-		"input"
-	]
+	"categories": ["devices", "input"]
 }

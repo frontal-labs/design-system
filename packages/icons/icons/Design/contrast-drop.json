@@ -10,8 +10,5 @@
 		"design",
 		"symbol"
 	],
-	"categories": [
-		"design",
-		"filters"
-	]
+	"categories": ["design", "filters"]
 }

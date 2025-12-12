@@ -11,8 +11,5 @@
 		"environment",
 		"forest"
 	],
-	"categories": [
-		"media",
-		"nature"
-	]
+	"categories": ["media", "nature"]
 }

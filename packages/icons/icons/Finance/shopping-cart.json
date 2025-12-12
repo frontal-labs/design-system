@@ -9,8 +9,5 @@
 		"purchase",
 		"retail"
 	],
-	"categories": [
-		"commerce",
-		"finance"
-	]
+	"categories": ["commerce", "finance"]
 }

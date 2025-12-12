@@ -10,8 +10,5 @@
 		"emoticon",
 		"symptom"
 	],
-	"categories": [
-		"health",
-		"symbols"
-	]
+	"categories": ["health", "symbols"]
 }

@@ -10,8 +10,5 @@
 		"editor",
 		"file"
 	],
-	"categories": [
-		"arrows",
-		"development"
-	]
+	"categories": ["arrows", "development"]
 }

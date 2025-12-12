@@ -11,8 +11,5 @@
 		"math",
 		"input"
 	],
-	"categories": [
-		"numbers",
-		"editor"
-	]
+	"categories": ["numbers", "editor"]
 }

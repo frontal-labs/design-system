@@ -9,8 +9,5 @@
 		"file",
 		"rating"
 	],
-	"categories": [
-		"navigation",
-		"design"
-	]
+	"categories": ["navigation", "design"]
 }

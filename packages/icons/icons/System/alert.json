@@ -11,8 +11,5 @@
 		"error",
 		"icon"
 	],
-	"categories": [
-		"system",
-		"alerts"
-	]
+	"categories": ["system", "alerts"]
 }

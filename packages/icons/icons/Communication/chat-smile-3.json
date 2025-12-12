@@ -10,8 +10,5 @@
 		"happy",
 		"face"
 	],
-	"categories": [
-		"communication",
-		"emoticons"
-	]
+	"categories": ["communication", "emoticons"]
 }

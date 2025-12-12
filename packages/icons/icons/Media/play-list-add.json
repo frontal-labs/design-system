@@ -10,8 +10,5 @@
 		"add-to-list",
 		"playlist-add"
 	],
-	"categories": [
-		"media",
-		"lists"
-	]
+	"categories": ["media", "lists"]
 }

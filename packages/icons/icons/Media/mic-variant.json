@@ -9,8 +9,5 @@
 		"speaker",
 		"media"
 	],
-	"categories": [
-		"media",
-		"audio"
-	]
+	"categories": ["media", "audio"]
 }

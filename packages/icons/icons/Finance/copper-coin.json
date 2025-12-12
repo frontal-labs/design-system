@@ -9,8 +9,5 @@
 		"round",
 		"metallic"
 	],
-	"categories": [
-		"finances",
-		"currencies"
-	]
+	"categories": ["finances", "currencies"]
 }

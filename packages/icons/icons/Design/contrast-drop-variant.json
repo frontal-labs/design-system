@@ -10,8 +10,5 @@
 		"icon",
 		"shape"
 	],
-	"categories": [
-		"design",
-		"shapes"
-	]
+	"categories": ["design", "shapes"]
 }

@@ -11,8 +11,5 @@
 		"broken-file",
 		"file-icon"
 	],
-	"categories": [
-		"documents",
-		"alert"
-	]
+	"categories": ["documents", "alert"]
 }

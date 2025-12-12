@@ -10,8 +10,5 @@
 		"cooking",
 		"meal"
 	],
-	"categories": [
-		"food",
-		"baked goods"
-	]
+	"categories": ["food", "baked goods"]
 }

@@ -9,8 +9,5 @@
 		"grid",
 		"barcode scanner"
 	],
-	"categories": [
-		"devices",
-		"symbols"
-	]
+	"categories": ["devices", "symbols"]
 }

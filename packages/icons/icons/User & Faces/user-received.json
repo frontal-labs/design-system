@@ -10,8 +10,5 @@
 		"communication",
 		"chat"
 	],
-	"categories": [
-		"people",
-		"arrows"
-	]
+	"categories": ["people", "arrows"]
 }

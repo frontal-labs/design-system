@@ -10,8 +10,5 @@
 		"cross-platform",
 		"open-source"
 	],
-	"categories": [
-		"logos",
-		"technologies"
-	]
+	"categories": ["logos", "technologies"]
 }

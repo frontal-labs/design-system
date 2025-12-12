@@ -10,8 +10,5 @@
 		"rectangles",
 		"dashboard"
 	],
-	"categories": [
-		"editor",
-		"layout"
-	]
+	"categories": ["editor", "layout"]
 }

@@ -10,8 +10,5 @@
 		"color",
 		"stroke"
 	],
-	"categories": [
-		"design",
-		"tools"
-	]
+	"categories": ["design", "tools"]
 }

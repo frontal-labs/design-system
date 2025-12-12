@@ -10,8 +10,5 @@
 		"navigation",
 		"folder-open"
 	],
-	"categories": [
-		"documents",
-		"folders"
-	]
+	"categories": ["documents", "folders"]
 }

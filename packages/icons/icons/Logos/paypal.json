@@ -9,8 +9,5 @@
 		"money",
 		"credit-card"
 	],
-	"categories": [
-		"logos",
-		"payments"
-	]
+	"categories": ["logos", "payments"]
 }

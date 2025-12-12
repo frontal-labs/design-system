@@ -10,8 +10,5 @@
 		"cross",
 		"network"
 	],
-	"categories": [
-		"logos",
-		"brands"
-	]
+	"categories": ["logos", "brands"]
 }

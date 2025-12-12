@@ -9,8 +9,5 @@
 		"duplicate",
 		"copy"
 	],
-	"categories": [
-		"design",
-		"transforms"
-	]
+	"categories": ["design", "transforms"]
 }

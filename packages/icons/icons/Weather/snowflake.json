@@ -10,8 +10,5 @@
 		"snow",
 		"nature"
 	],
-	"categories": [
-		"weather",
-		"nature"
-	]
+	"categories": ["weather", "nature"]
 }

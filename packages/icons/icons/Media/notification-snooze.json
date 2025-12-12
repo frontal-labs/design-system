@@ -10,8 +10,5 @@
 		"pause",
 		"media"
 	],
-	"categories": [
-		"media",
-		"notifications"
-	]
+	"categories": ["media", "notifications"]
 }

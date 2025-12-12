@@ -10,8 +10,5 @@
 		"storm",
 		"weather icon"
 	],
-	"categories": [
-		"weather",
-		"clouds"
-	]
+	"categories": ["weather", "clouds"]
 }

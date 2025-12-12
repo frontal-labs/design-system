@@ -10,8 +10,5 @@
 		"windows",
 		"roof"
 	],
-	"categories": [
-		"buildings",
-		"architecture"
-	]
+	"categories": ["buildings", "architecture"]
 }

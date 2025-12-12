@@ -11,8 +11,5 @@
 		"graph",
 		"analytics"
 	],
-	"categories": [
-		"documents",
-		"charts"
-	]
+	"categories": ["documents", "charts"]
 }

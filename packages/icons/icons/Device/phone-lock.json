@@ -11,8 +11,5 @@
 		"call",
 		"telephone"
 	],
-	"categories": [
-		"devices",
-		"security"
-	]
+	"categories": ["devices", "security"]
 }

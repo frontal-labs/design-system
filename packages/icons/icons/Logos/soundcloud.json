@@ -10,8 +10,5 @@
 		"social",
 		"streaming"
 	],
-	"categories": [
-		"logos",
-		"brands"
-	]
+	"categories": ["logos", "brands"]
 }

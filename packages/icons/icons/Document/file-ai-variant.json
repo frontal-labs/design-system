@@ -11,8 +11,5 @@
 		"file-icon",
 		"document-icon"
 	],
-	"categories": [
-		"documents",
-		"icons"
-	]
+	"categories": ["documents", "icons"]
 }

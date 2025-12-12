@@ -9,8 +9,5 @@
 		"letter",
 		"document-file"
 	],
-	"categories": [
-		"documents",
-		"files"
-	]
+	"categories": ["documents", "files"]
 }

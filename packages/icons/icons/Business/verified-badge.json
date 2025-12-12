@@ -10,8 +10,5 @@
 		"status",
 		"security"
 	],
-	"categories": [
-		"design",
-		"status"
-	]
+	"categories": ["design", "status"]
 }

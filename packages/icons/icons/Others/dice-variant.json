@@ -11,8 +11,5 @@
 		"square",
 		"random"
 	],
-	"categories": [
-		"games",
-		"dice"
-	]
+	"categories": ["games", "dice"]
 }

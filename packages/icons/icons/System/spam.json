@@ -10,8 +10,5 @@
 		"document",
 		"communication"
 	],
-	"categories": [
-		"mail",
-		"communications"
-	]
+	"categories": ["mail", "communications"]
 }

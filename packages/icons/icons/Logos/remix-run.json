@@ -10,8 +10,5 @@
 		"framework",
 		"javascript"
 	],
-	"categories": [
-		"logos",
-		"technology"
-	]
+	"categories": ["logos", "technology"]
 }

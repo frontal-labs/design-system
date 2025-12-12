@@ -10,8 +10,5 @@
 		"window",
 		"rectangle"
 	],
-	"categories": [
-		"design",
-		"layouts"
-	]
+	"categories": ["design", "layouts"]
 }

@@ -10,8 +10,5 @@
 		"mobile",
 		"icon"
 	],
-	"categories": [
-		"logos",
-		"software"
-	]
+	"categories": ["logos", "software"]
 }

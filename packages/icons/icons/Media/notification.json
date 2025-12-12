@@ -1,14 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"bell",
-		"notification",
-		"alert",
-		"sound",
-		"message"
-	],
-	"categories": [
-		"media",
-		"notifications"
-	]
+	"tags": ["bell", "notification", "alert", "sound", "message"],
+	"categories": ["media", "notifications"]
 }

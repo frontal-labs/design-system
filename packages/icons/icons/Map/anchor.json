@@ -11,8 +11,5 @@
 		"compass",
 		"direction"
 	],
-	"categories": [
-		"navigation",
-		"symbols"
-	]
+	"categories": ["navigation", "symbols"]
 }

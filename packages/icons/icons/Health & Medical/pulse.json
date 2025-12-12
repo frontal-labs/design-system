@@ -10,8 +10,5 @@
 		"vital-sign",
 		"signal"
 	],
-	"categories": [
-		"health",
-		"medical"
-	]
+	"categories": ["health", "medical"]
 }

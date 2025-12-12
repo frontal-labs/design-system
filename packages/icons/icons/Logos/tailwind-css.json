@@ -1,16 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"tailwind",
-		"css",
-		"logo",
-		"web",
-		"framework",
-		"design",
-		"stylized"
-	],
-	"categories": [
-		"logos",
-		"design"
-	]
+	"tags": ["tailwind", "css", "logo", "web", "framework", "design", "stylized"],
+	"categories": ["logos", "design"]
 }

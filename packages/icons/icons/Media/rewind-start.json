@@ -10,8 +10,5 @@
 		"navigation",
 		"skip"
 	],
-	"categories": [
-		"arrows",
-		"media"
-	]
+	"categories": ["arrows", "media"]
 }

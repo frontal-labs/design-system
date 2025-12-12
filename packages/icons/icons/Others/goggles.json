@@ -10,8 +10,5 @@
 		"vision",
 		"protective eyewear"
 	],
-	"categories": [
-		"gear",
-		"equipment"
-	]
+	"categories": ["gear", "equipment"]
 }

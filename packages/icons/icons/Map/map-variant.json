@@ -9,8 +9,5 @@
 		"geography",
 		"atlas"
 	],
-	"categories": [
-		"maps",
-		"navigation"
-	]
+	"categories": ["maps", "navigation"]
 }

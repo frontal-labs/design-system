@@ -10,8 +10,5 @@
 		"internet",
 		"web"
 	],
-	"categories": [
-		"logos",
-		"brands"
-	]
+	"categories": ["logos", "brands"]
 }

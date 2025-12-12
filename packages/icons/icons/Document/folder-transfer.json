@@ -10,8 +10,5 @@
 		"navigation",
 		"action"
 	],
-	"categories": [
-		"folders",
-		"arrows"
-	]
+	"categories": ["folders", "arrows"]
 }

@@ -10,8 +10,5 @@
 		"icon",
 		"camera"
 	],
-	"categories": [
-		"media",
-		"icons"
-	]
+	"categories": ["media", "icons"]
 }

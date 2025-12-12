@@ -9,8 +9,5 @@
 		"communication",
 		"microphone"
 	],
-	"categories": [
-		"communications",
-		"media"
-	]
+	"categories": ["communications", "media"]
 }

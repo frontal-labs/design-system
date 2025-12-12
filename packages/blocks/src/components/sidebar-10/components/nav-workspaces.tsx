@@ -1,4 +1,4 @@
-import { ArrowRightIcon, MoreIcon, AddIcon } from "@frontal/icons";
+import { AddIcon, ArrowRightIcon, MoreIcon } from "@frontal/icons";
 
 import {
 	Collapsible,

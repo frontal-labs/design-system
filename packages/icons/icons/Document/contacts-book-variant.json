@@ -9,8 +9,5 @@
 		"folder",
 		"list"
 	],
-	"categories": [
-		"documents",
-		"design"
-	]
+	"categories": ["documents", "design"]
 }

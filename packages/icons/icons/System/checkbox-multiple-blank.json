@@ -12,8 +12,5 @@
 		"document",
 		"box"
 	],
-	"categories": [
-		"forms",
-		"systems"
-	]
+	"categories": ["forms", "systems"]
 }

@@ -12,8 +12,5 @@
 		"city",
 		"travel"
 	],
-	"categories": [
-		"transportation",
-		"maps"
-	]
+	"categories": ["transportation", "maps"]
 }

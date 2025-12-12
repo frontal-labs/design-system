@@ -10,8 +10,5 @@
 		"file-system",
 		"folder-number"
 	],
-	"categories": [
-		"design",
-		"folders"
-	]
+	"categories": ["design", "folders"]
 }

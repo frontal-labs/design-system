@@ -10,8 +10,5 @@
 		"heat",
 		"cold"
 	],
-	"categories": [
-		"weather",
-		"design"
-	]
+	"categories": ["weather", "design"]
 }

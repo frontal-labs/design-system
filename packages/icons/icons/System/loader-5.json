@@ -11,8 +11,5 @@
 		"circle",
 		"clockwise"
 	],
-	"categories": [
-		"design",
-		"navigation"
-	]
+	"categories": ["design", "navigation"]
 }

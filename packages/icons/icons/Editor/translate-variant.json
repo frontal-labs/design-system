@@ -10,8 +10,5 @@
 		"text",
 		"page"
 	],
-	"categories": [
-		"arrows",
-		"documents"
-	]
+	"categories": ["arrows", "documents"]
 }

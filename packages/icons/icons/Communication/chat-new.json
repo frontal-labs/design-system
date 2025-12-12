@@ -12,8 +12,5 @@
 		"bubble",
 		"create"
 	],
-	"categories": [
-		"communications",
-		"design"
-	]
+	"categories": ["communications", "design"]
 }

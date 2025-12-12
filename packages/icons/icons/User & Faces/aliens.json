@@ -9,8 +9,5 @@
 		"eyes",
 		"science-fiction"
 	],
-	"categories": [
-		"faces",
-		"creatures"
-	]
+	"categories": ["faces", "creatures"]
 }

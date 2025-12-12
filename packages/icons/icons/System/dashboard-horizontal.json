@@ -9,8 +9,5 @@
 		"monitor",
 		"interface"
 	],
-	"categories": [
-		"systems",
-		"dashboards"
-	]
+	"categories": ["systems", "dashboards"]
 }

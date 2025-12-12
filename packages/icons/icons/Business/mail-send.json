@@ -11,8 +11,5 @@
 		"business",
 		"delivery"
 	],
-	"categories": [
-		"communication",
-		"mail"
-	]
+	"categories": ["communication", "mail"]
 }

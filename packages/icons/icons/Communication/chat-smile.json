@@ -9,8 +9,5 @@
 		"communication",
 		"message"
 	],
-	"categories": [
-		"communication",
-		"design"
-	]
+	"categories": ["communication", "design"]
 }

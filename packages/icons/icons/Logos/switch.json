@@ -10,8 +10,5 @@
 		"control",
 		"device"
 	],
-	"categories": [
-		"buttons",
-		"controls"
-	]
+	"categories": ["buttons", "controls"]
 }

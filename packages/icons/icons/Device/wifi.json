@@ -11,8 +11,5 @@
 		"signal strength",
 		"wireless network"
 	],
-	"categories": [
-		"devices",
-		"communication"
-	]
+	"categories": ["devices", "communication"]
 }

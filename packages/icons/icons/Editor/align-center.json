@@ -10,8 +10,5 @@
 		"formatting",
 		"alignment"
 	],
-	"categories": [
-		"editors",
-		"formatting"
-	]
+	"categories": ["editors", "formatting"]
 }

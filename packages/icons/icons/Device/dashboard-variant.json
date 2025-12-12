@@ -10,8 +10,5 @@
 		"monitor",
 		"analytics"
 	],
-	"categories": [
-		"devices",
-		"analytics"
-	]
+	"categories": ["devices", "analytics"]
 }

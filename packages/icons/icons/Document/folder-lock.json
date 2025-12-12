@@ -10,8 +10,5 @@
 		"privacy",
 		"protection"
 	],
-	"categories": [
-		"documents",
-		"security"
-	]
+	"categories": ["documents", "security"]
 }

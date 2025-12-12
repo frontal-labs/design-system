@@ -10,8 +10,5 @@
 		"bottom",
 		"document"
 	],
-	"categories": [
-		"editors",
-		"design"
-	]
+	"categories": ["editors", "design"]
 }

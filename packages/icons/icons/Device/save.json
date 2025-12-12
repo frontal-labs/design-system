@@ -1,16 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"save",
-		"folder",
-		"document",
-		"file",
-		"storage",
-		"action",
-		"ui"
-	],
-	"categories": [
-		"actions",
-		"files"
-	]
+	"tags": ["save", "folder", "document", "file", "storage", "action", "ui"],
+	"categories": ["actions", "files"]
 }

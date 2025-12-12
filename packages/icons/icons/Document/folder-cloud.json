@@ -11,8 +11,5 @@
 		"document",
 		"cloud storage"
 	],
-	"categories": [
-		"documents",
-		"clouds"
-	]
+	"categories": ["documents", "clouds"]
 }

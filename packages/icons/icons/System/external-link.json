@@ -10,8 +10,5 @@
 		"url",
 		"share"
 	],
-	"categories": [
-		"navigation",
-		"arrows"
-	]
+	"categories": ["navigation", "arrows"]
 }

@@ -10,8 +10,5 @@
 		"medical equipment",
 		"gauge"
 	],
-	"categories": [
-		"medical",
-		"design"
-	]
+	"categories": ["medical", "design"]
 }

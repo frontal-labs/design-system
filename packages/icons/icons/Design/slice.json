@@ -10,8 +10,5 @@
 		"polygon",
 		"geometry"
 	],
-	"categories": [
-		"design",
-		"tools"
-	]
+	"categories": ["design", "tools"]
 }

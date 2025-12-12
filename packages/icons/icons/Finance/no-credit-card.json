@@ -10,8 +10,5 @@
 		"block",
 		"card"
 	],
-	"categories": [
-		"finance",
-		"symbols"
-	]
+	"categories": ["finance", "symbols"]
 }

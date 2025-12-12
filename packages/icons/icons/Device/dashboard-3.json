@@ -10,8 +10,5 @@
 		"display",
 		"speedometer"
 	],
-	"categories": [
-		"devices",
-		"indicators"
-	]
+	"categories": ["devices", "indicators"]
 }

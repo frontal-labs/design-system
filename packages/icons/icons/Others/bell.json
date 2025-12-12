@@ -12,8 +12,5 @@
 		"bell icon",
 		"notification bell icon"
 	],
-	"categories": [
-		"notifications",
-		"communication"
-	]
+	"categories": ["notifications", "communication"]
 }

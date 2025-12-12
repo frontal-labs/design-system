@@ -10,8 +10,5 @@
 		"ui",
 		"symbol"
 	],
-	"categories": [
-		"design",
-		"inputs"
-	]
+	"categories": ["design", "inputs"]
 }

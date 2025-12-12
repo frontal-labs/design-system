@@ -10,8 +10,5 @@
 		"dismiss",
 		"clear"
 	],
-	"categories": [
-		"system",
-		"buttons"
-	]
+	"categories": ["system", "buttons"]
 }

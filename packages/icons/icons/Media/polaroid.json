@@ -9,8 +9,5 @@
 		"rectangle",
 		"circle"
 	],
-	"categories": [
-		"media",
-		"design"
-	]
+	"categories": ["media", "design"]
 }

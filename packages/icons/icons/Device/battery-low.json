@@ -1,16 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"battery",
-		"low",
-		"power",
-		"device",
-		"status",
-		"charge",
-		"warning"
-	],
-	"categories": [
-		"devices",
-		"status"
-	]
+	"tags": ["battery", "low", "power", "device", "status", "charge", "warning"],
+	"categories": ["devices", "status"]
 }

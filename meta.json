@@ -1,25 +1,16 @@
 {
-	"name": "frontal-ai",
+	"name": "frontal-design-system",
 	"version": "5.2.2",
-	"description": "Frontal's AI Platform - A unified platform for building modern applications, agents, and internal tools",
-	"type": "module",
-	"packageManager": "pnpm@10.19.0",
-	"engines": {
-		"node": ">=18"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/frontal-labs/ai"
-	},
-	"license": "MIT",
+	"description": "Frontal's Design System - A unified platform for building modern applications, agents, and internal tools",
 	"keywords": [
-		"ai",
-		"sdk",
+		"design",
 		"frontal",
-		"turborepo",
-		"monorepo",
+		"design-system",
 		"typescript",
-		"agents",
-		"ml"
+		"ui",
+		"components",
+		"hooks",
+		"utilities",
+		"helpers"
 	]
 }

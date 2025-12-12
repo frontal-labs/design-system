@@ -12,8 +12,5 @@
 		"album",
 		"snapshot"
 	],
-	"categories": [
-		"media",
-		"design"
-	]
+	"categories": ["media", "design"]
 }

@@ -10,8 +10,5 @@
 		"business",
 		"license"
 	],
-	"categories": [
-		"business",
-		"symbols"
-	]
+	"categories": ["business", "symbols"]
 }

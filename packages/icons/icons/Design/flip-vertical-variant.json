@@ -10,8 +10,5 @@
 		"mirror",
 		"symmetry"
 	],
-	"categories": [
-		"arrows",
-		"design"
-	]
+	"categories": ["arrows", "design"]
 }

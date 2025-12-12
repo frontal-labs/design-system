@@ -10,8 +10,5 @@
 		"design",
 		"arrows"
 	],
-	"categories": [
-		"design",
-		"transformations"
-	]
+	"categories": ["design", "transformations"]
 }

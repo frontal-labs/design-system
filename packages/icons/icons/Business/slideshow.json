@@ -12,8 +12,5 @@
 		"carousel",
 		"overview"
 	],
-	"categories": [
-		"business",
-		"media"
-	]
+	"categories": ["business", "media"]
 }

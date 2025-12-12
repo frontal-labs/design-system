@@ -9,8 +9,5 @@
 		"layout",
 		"editor"
 	],
-	"categories": [
-		"editor",
-		"layout"
-	]
+	"categories": ["editor", "layout"]
 }

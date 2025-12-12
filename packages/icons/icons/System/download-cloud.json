@@ -9,8 +9,5 @@
 		"file",
 		"network"
 	],
-	"categories": [
-		"arrows",
-		"clouds"
-	]
+	"categories": ["arrows", "clouds"]
 }

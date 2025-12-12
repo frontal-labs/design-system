@@ -11,8 +11,5 @@
 		"conversation",
 		"communication"
 	],
-	"categories": [
-		"communication",
-		"social"
-	]
+	"categories": ["communication", "social"]
 }

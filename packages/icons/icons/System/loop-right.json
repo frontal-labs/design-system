@@ -9,8 +9,5 @@
 		"navigation",
 		"redo"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

@@ -10,8 +10,5 @@
 		"hospital",
 		"health"
 	],
-	"categories": [
-		"devices",
-		"medical"
-	]
+	"categories": ["devices", "medical"]
 }

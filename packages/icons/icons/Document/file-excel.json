@@ -10,8 +10,5 @@
 		"workbook",
 		"file icon"
 	],
-	"categories": [
-		"documents",
-		"office"
-	]
+	"categories": ["documents", "office"]
 }

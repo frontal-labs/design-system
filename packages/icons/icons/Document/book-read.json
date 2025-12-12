@@ -10,8 +10,5 @@
 		"education",
 		"library"
 	],
-	"categories": [
-		"documents",
-		"illustrations"
-	]
+	"categories": ["documents", "illustrations"]
 }

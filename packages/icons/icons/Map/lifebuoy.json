@@ -9,8 +9,5 @@
 		"circle",
 		"navigation"
 	],
-	"categories": [
-		"design",
-		"navigation"
-	]
+	"categories": ["design", "navigation"]
 }

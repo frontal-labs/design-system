@@ -8,8 +8,5 @@
 		"professional",
 		"networking"
 	],
-	"categories": [
-		"logos",
-		"social"
-	]
+	"categories": ["logos", "social"]
 }

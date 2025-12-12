@@ -10,8 +10,5 @@
 		"approval",
 		"validate"
 	],
-	"categories": [
-		"statuses",
-		"symbols"
-	]
+	"categories": ["statuses", "symbols"]
 }

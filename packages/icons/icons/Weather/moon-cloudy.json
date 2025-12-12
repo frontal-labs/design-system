@@ -10,7 +10,5 @@
 		"crescent",
 		"overcast"
 	],
-	"categories": [
-		"weather"
-	]
+	"categories": ["weather"]
 }

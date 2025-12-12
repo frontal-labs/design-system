@@ -10,8 +10,5 @@
 		"signal",
 		"audio-level"
 	],
-	"categories": [
-		"media",
-		"audio"
-	]
+	"categories": ["media", "audio"]
 }

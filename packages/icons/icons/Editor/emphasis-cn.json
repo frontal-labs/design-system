@@ -9,8 +9,5 @@
 		"annotation",
 		"note"
 	],
-	"categories": [
-		"design",
-		"editor"
-	]
+	"categories": ["design", "editor"]
 }

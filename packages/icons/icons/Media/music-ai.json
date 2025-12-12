@@ -10,8 +10,5 @@
 		"headphones",
 		"sound"
 	],
-	"categories": [
-		"audio",
-		"technology"
-	]
+	"categories": ["audio", "technology"]
 }

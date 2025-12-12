@@ -9,8 +9,5 @@
 		"toggle",
 		"navigation"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

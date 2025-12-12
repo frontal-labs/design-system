@@ -10,8 +10,5 @@
 		"divider",
 		"split"
 	],
-	"categories": [
-		"arrows",
-		"editors"
-	]
+	"categories": ["arrows", "editors"]
 }

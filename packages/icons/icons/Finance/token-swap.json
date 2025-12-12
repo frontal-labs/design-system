@@ -11,8 +11,5 @@
 		"two-way",
 		"refresh"
 	],
-	"categories": [
-		"arrows",
-		"finance"
-	]
+	"categories": ["arrows", "finance"]
 }

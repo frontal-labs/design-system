@@ -10,8 +10,5 @@
 		"avatar",
 		"account"
 	],
-	"categories": [
-		"shields",
-		"people"
-	]
+	"categories": ["shields", "people"]
 }

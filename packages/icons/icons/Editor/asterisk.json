@@ -9,8 +9,5 @@
 		"formatting",
 		"design"
 	],
-	"categories": [
-		"symbols",
-		"design"
-	]
+	"categories": ["symbols", "design"]
 }

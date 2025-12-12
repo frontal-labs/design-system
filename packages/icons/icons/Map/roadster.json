@@ -10,8 +10,5 @@
 		"roadster",
 		"car icon"
 	],
-	"categories": [
-		"vehicles",
-		"map"
-	]
+	"categories": ["vehicles", "map"]
 }

@@ -8,8 +8,5 @@
 		"maintenance",
 		"construction"
 	],
-	"categories": [
-		"design",
-		"tools"
-	]
+	"categories": ["design", "tools"]
 }

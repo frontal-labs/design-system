@@ -1,15 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"logo",
-		"circle",
-		"product-hunt",
-		"brand",
-		"technology",
-		"social"
-	],
-	"categories": [
-		"logos",
-		"brands"
-	]
+	"tags": ["logo", "circle", "product-hunt", "brand", "technology", "social"],
+	"categories": ["logos", "brands"]
 }

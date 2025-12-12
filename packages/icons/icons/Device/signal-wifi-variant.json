@@ -10,8 +10,5 @@
 		"bars",
 		"strength"
 	],
-	"categories": [
-		"devices",
-		"communication"
-	]
+	"categories": ["devices", "communication"]
 }

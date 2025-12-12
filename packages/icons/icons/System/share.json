@@ -9,8 +9,5 @@
 		"connect",
 		"icon"
 	],
-	"categories": [
-		"social",
-		"communication"
-	]
+	"categories": ["social", "communication"]
 }

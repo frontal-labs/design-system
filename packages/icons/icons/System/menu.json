@@ -10,8 +10,5 @@
 		"icon",
 		"three-lines"
 	],
-	"categories": [
-		"navigation",
-		"buttons"
-	]
+	"categories": ["navigation", "buttons"]
 }

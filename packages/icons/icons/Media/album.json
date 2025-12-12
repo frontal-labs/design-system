@@ -1,16 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"album",
-		"music",
-		"circle",
-		"disc",
-		"media",
-		"record",
-		"icon"
-	],
-	"categories": [
-		"media",
-		"design"
-	]
+	"tags": ["album", "music", "circle", "disc", "media", "record", "icon"],
+	"categories": ["media", "design"]
 }

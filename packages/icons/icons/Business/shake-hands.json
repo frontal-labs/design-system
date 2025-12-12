@@ -9,8 +9,5 @@
 		"greeting",
 		"agreement"
 	],
-	"categories": [
-		"businesses",
-		"people"
-	]
+	"categories": ["businesses", "people"]
 }

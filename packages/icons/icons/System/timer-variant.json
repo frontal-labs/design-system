@@ -1,16 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"timer",
-		"clock",
-		"time",
-		"arrow",
-		"circle",
-		"play",
-		"system"
-	],
-	"categories": [
-		"timers",
-		"arrows"
-	]
+	"tags": ["timer", "clock", "time", "arrow", "circle", "play", "system"],
+	"categories": ["timers", "arrows"]
 }

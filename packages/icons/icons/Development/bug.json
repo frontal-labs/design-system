@@ -11,8 +11,5 @@
 		"symbol",
 		"software"
 	],
-	"categories": [
-		"development",
-		"icons"
-	]
+	"categories": ["development", "icons"]
 }

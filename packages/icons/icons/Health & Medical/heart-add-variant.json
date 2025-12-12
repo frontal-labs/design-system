@@ -11,8 +11,5 @@
 		"symbol",
 		"heart-add"
 	],
-	"categories": [
-		"medical",
-		"symbols"
-	]
+	"categories": ["medical", "symbols"]
 }

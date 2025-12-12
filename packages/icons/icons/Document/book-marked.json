@@ -9,8 +9,5 @@
 		"read",
 		"highlight"
 	],
-	"categories": [
-		"documents",
-		"design"
-	]
+	"categories": ["documents", "design"]
 }

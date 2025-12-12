@@ -12,8 +12,5 @@
 		"document",
 		"interface"
 	],
-	"categories": [
-		"design",
-		"business"
-	]
+	"categories": ["design", "business"]
 }

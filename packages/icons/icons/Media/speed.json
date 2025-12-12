@@ -9,7 +9,5 @@
 		"dashboard",
 		"navigation"
 	],
-	"categories": [
-		"design"
-	]
+	"categories": ["design"]
 }

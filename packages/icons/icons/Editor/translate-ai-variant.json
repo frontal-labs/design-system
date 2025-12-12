@@ -11,8 +11,5 @@
 		"navigation",
 		"text"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

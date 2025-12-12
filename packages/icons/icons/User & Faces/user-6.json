@@ -10,8 +10,5 @@
 		"silhouette",
 		"generic"
 	],
-	"categories": [
-		"people",
-		"users"
-	]
+	"categories": ["people", "users"]
 }

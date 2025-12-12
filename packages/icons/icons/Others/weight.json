@@ -9,7 +9,5 @@
 		"health",
 		"bodyweight"
 	],
-	"categories": [
-		"others"
-	]
+	"categories": ["others"]
 }

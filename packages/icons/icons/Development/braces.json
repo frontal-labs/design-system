@@ -9,8 +9,5 @@
 		"programming",
 		"punctuation"
 	],
-	"categories": [
-		"design",
-		"development"
-	]
+	"categories": ["design", "development"]
 }

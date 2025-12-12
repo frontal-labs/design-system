@@ -11,8 +11,5 @@
 		"confirmation",
 		"security"
 	],
-	"categories": [
-		"business",
-		"checkmarks"
-	]
+	"categories": ["business", "checkmarks"]
 }

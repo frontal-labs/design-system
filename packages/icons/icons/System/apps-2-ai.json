@@ -10,8 +10,5 @@
 		"dashboard",
 		"multitouch"
 	],
-	"categories": [
-		"apps",
-		"system"
-	]
+	"categories": ["apps", "system"]
 }

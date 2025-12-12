@@ -11,8 +11,5 @@
 		"celebration",
 		"badge"
 	],
-	"categories": [
-		"business",
-		"awards"
-	]
+	"categories": ["business", "awards"]
 }

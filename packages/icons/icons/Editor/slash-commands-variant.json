@@ -10,8 +10,5 @@
 		"navigation",
 		"text"
 	],
-	"categories": [
-		"design",
-		"navigation"
-	]
+	"categories": ["design", "navigation"]
 }

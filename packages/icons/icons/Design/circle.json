@@ -11,8 +11,5 @@
 		"simple",
 		"icon"
 	],
-	"categories": [
-		"designs",
-		"shapes"
-	]
+	"categories": ["designs", "shapes"]
 }

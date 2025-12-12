@@ -9,8 +9,5 @@
 		"notification",
 		"icon"
 	],
-	"categories": [
-		"communications",
-		"messages"
-	]
+	"categories": ["communications", "messages"]
 }

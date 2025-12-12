@@ -11,8 +11,5 @@
 		"ui",
 		"toggle"
 	],
-	"categories": [
-		"forms",
-		"controls"
-	]
+	"categories": ["forms", "controls"]
 }

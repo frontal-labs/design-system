@@ -10,8 +10,5 @@
 		"currency",
 		"shopping-bag"
 	],
-	"categories": [
-		"finance",
-		"shopping"
-	]
+	"categories": ["finance", "shopping"]
 }

@@ -10,8 +10,5 @@
 		"bright",
 		"radiant"
 	],
-	"categories": [
-		"weather",
-		"design"
-	]
+	"categories": ["weather", "design"]
 }

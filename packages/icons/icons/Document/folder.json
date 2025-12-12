@@ -9,8 +9,5 @@
 		"open",
 		"navigation"
 	],
-	"categories": [
-		"folders",
-		"documents"
-	]
+	"categories": ["folders", "documents"]
 }

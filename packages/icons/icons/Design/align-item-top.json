@@ -10,8 +10,5 @@
 		"grid",
 		"design"
 	],
-	"categories": [
-		"design",
-		"layout"
-	]
+	"categories": ["design", "layout"]
 }

@@ -9,8 +9,5 @@
 		"brand",
 		"device"
 	],
-	"categories": [
-		"logos",
-		"technology"
-	]
+	"categories": ["logos", "technology"]
 }

@@ -10,8 +10,5 @@
 		"symbol",
 		"gore"
 	],
-	"categories": [
-		"faces",
-		"symbols"
-	]
+	"categories": ["faces", "symbols"]
 }

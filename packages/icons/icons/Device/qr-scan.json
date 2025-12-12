@@ -10,8 +10,5 @@
 		"grid",
 		"technology"
 	],
-	"categories": [
-		"devices",
-		"cameras"
-	]
+	"categories": ["devices", "cameras"]
 }

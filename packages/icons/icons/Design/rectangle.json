@@ -9,8 +9,5 @@
 		"container",
 		"panel"
 	],
-	"categories": [
-		"design",
-		"shapes"
-	]
+	"categories": ["design", "shapes"]
 }

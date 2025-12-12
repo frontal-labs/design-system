@@ -10,8 +10,5 @@
 		"document",
 		"box"
 	],
-	"categories": [
-		"system",
-		"arrows"
-	]
+	"categories": ["system", "arrows"]
 }

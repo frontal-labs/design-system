@@ -12,8 +12,5 @@
 		"move",
 		"backward"
 	],
-	"categories": [
-		"editor",
-		"design"
-	]
+	"categories": ["editor", "design"]
 }

@@ -10,8 +10,5 @@
 		"avatar",
 		"inspection"
 	],
-	"categories": [
-		"users",
-		"search"
-	]
+	"categories": ["users", "search"]
 }

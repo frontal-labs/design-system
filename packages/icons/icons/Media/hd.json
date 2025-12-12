@@ -10,8 +10,5 @@
 		"resolution",
 		"quality"
 	],
-	"categories": [
-		"media",
-		"display"
-	]
+	"categories": ["media", "display"]
 }

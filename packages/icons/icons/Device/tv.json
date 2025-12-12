@@ -10,8 +10,5 @@
 		"media",
 		"display"
 	],
-	"categories": [
-		"devices",
-		"electronics"
-	]
+	"categories": ["devices", "electronics"]
 }

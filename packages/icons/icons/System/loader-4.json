@@ -10,8 +10,5 @@
 		"waiting",
 		"circle"
 	],
-	"categories": [
-		"systems",
-		"loaders"
-	]
+	"categories": ["systems", "loaders"]
 }

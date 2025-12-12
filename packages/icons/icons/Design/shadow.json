@@ -12,8 +12,5 @@
 		"panel",
 		"frame"
 	],
-	"categories": [
-		"design",
-		"ui"
-	]
+	"categories": ["design", "ui"]
 }

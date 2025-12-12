@@ -9,8 +9,5 @@
 		"brand",
 		"payment card"
 	],
-	"categories": [
-		"logos",
-		"brands"
-	]
+	"categories": ["logos", "brands"]
 }

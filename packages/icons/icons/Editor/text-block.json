@@ -10,8 +10,5 @@
 		"typography",
 		"page"
 	],
-	"categories": [
-		"editor",
-		"design"
-	]
+	"categories": ["editor", "design"]
 }

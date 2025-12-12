@@ -9,8 +9,5 @@
 		"status",
 		"circle"
 	],
-	"categories": [
-		"design",
-		"system"
-	]
+	"categories": ["design", "system"]
 }

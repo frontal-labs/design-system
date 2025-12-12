@@ -10,8 +10,5 @@
 		"privacy",
 		"authentication"
 	],
-	"categories": [
-		"systems",
-		"security"
-	]
+	"categories": ["systems", "security"]
 }

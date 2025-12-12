@@ -10,8 +10,5 @@
 		"caret",
 		"expand"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

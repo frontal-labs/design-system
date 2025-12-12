@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { promisify } from "node:util";
 
-export const url = "https://github.com/frontal-labs/ai";
+export const url = "https://github.com/frontal-labs/design-system";
 
 export const cleanFileName = (file: string) =>
 	file.replace(/\\/g, "\\\\").replace(/"/g, '\\"').replace(/\\/g, "/");
@@ -34,7 +34,7 @@ export const allInternalContent = [
 
 export const semver = /^\d+\.\d+\.\d+$/;
 
-export const tempDirName = "frontal-ai-update";
+export const tempDirName = "frontal-design-system-update";
 
 export const exec = promisify(execRaw);
 

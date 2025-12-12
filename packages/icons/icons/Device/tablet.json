@@ -9,8 +9,5 @@
 		"touchscreen",
 		"mobile"
 	],
-	"categories": [
-		"devices",
-		"hardware"
-	]
+	"categories": ["devices", "hardware"]
 }

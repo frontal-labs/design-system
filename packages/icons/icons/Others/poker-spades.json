@@ -11,8 +11,5 @@
 		"game",
 		"shapes"
 	],
-	"categories": [
-		"cards",
-		"symbols"
-	]
+	"categories": ["cards", "symbols"]
 }

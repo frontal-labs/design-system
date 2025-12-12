@@ -1,16 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"news",
-		"document",
-		"article",
-		"file",
-		"text",
-		"layout",
-		"report"
-	],
-	"categories": [
-		"documents",
-		"media"
-	]
+	"tags": ["news", "document", "article", "file", "text", "layout", "report"],
+	"categories": ["documents", "media"]
 }

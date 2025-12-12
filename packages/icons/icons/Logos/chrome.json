@@ -9,8 +9,5 @@
 		"google",
 		"browser-icon"
 	],
-	"categories": [
-		"logos",
-		"software"
-	]
+	"categories": ["logos", "software"]
 }

@@ -1,15 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"stop",
-		"media",
-		"control",
-		"square",
-		"button",
-		"icon"
-	],
-	"categories": [
-		"media",
-		"controls"
-	]
+	"tags": ["stop", "media", "control", "square", "button", "icon"],
+	"categories": ["media", "controls"]
 }

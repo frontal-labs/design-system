@@ -10,8 +10,5 @@
 		"minimize",
 		"fold"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

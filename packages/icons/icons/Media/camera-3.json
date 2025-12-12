@@ -10,8 +10,5 @@
 		"film",
 		"viewfinder"
 	],
-	"categories": [
-		"media",
-		"devices"
-	]
+	"categories": ["media", "devices"]
 }

@@ -10,8 +10,5 @@
 		"currency",
 		"direction"
 	],
-	"categories": [
-		"arrows",
-		"finance"
-	]
+	"categories": ["arrows", "finance"]
 }

@@ -10,8 +10,5 @@
 		"data",
 		"machine-learning"
 	],
-	"categories": [
-		"systems",
-		"navigation"
-	]
+	"categories": ["systems", "navigation"]
 }

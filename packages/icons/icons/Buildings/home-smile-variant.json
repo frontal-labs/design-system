@@ -12,8 +12,5 @@
 		"roof",
 		"smile-icon"
 	],
-	"categories": [
-		"buildings",
-		"faces"
-	]
+	"categories": ["buildings", "faces"]
 }

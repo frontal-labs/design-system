@@ -10,8 +10,5 @@
 		"controls",
 		"options"
 	],
-	"categories": [
-		"system",
-		"navigation"
-	]
+	"categories": ["system", "navigation"]
 }

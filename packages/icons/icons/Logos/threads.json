@@ -10,8 +10,5 @@
 		"network",
 		"brand"
 	],
-	"categories": [
-		"logos",
-		"social media"
-	]
+	"categories": ["logos", "social media"]
 }

@@ -10,8 +10,5 @@
 		"cup",
 		"food"
 	],
-	"categories": [
-		"foods",
-		"drinks"
-	]
+	"categories": ["foods", "drinks"]
 }

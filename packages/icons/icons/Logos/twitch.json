@@ -10,8 +10,5 @@
 		"logo",
 		"digital"
 	],
-	"categories": [
-		"logos",
-		"brands"
-	]
+	"categories": ["logos", "brands"]
 }

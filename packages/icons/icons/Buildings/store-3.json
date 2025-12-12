@@ -9,8 +9,5 @@
 		"architecture",
 		"window"
 	],
-	"categories": [
-		"buildings",
-		"commerce"
-	]
+	"categories": ["buildings", "commerce"]
 }

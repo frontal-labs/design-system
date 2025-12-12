@@ -10,8 +10,5 @@
 		"camera-toggle",
 		"camera-switch-icon"
 	],
-	"categories": [
-		"media",
-		"arrows"
-	]
+	"categories": ["media", "arrows"]
 }

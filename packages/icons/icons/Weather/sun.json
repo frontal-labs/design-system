@@ -10,8 +10,5 @@
 		"light",
 		"solar"
 	],
-	"categories": [
-		"weather",
-		"suns"
-	]
+	"categories": ["weather", "suns"]
 }

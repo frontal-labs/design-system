@@ -9,8 +9,5 @@
 		"user",
 		"authentication"
 	],
-	"categories": [
-		"navigation",
-		"system"
-	]
+	"categories": ["navigation", "system"]
 }

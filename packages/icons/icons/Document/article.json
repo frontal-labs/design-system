@@ -10,8 +10,5 @@
 		"file",
 		"layout"
 	],
-	"categories": [
-		"documents",
-		"design"
-	]
+	"categories": ["documents", "design"]
 }

@@ -9,8 +9,5 @@
 		"office",
 		"file-type"
 	],
-	"categories": [
-		"documents",
-		"file-types"
-	]
+	"categories": ["documents", "file-types"]
 }

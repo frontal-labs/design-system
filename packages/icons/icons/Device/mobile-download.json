@@ -9,8 +9,5 @@
 		"action",
 		"device"
 	],
-	"categories": [
-		"devices",
-		"arrows"
-	]
+	"categories": ["devices", "arrows"]
 }

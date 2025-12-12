@@ -9,8 +9,5 @@
 		"information",
 		"grid"
 	],
-	"categories": [
-		"devices",
-		"storage"
-	]
+	"categories": ["devices", "storage"]
 }

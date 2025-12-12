@@ -10,8 +10,5 @@
 		"cloud",
 		"action"
 	],
-	"categories": [
-		"media",
-		"actions"
-	]
+	"categories": ["media", "actions"]
 }

@@ -10,8 +10,5 @@
 		"favorite",
 		"symbol"
 	],
-	"categories": [
-		"health",
-		"design"
-	]
+	"categories": ["health", "design"]
 }

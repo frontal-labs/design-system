@@ -10,8 +10,5 @@
 		"data",
 		"direction"
 	],
-	"categories": [
-		"arrows",
-		"editors"
-	]
+	"categories": ["arrows", "editors"]
 }

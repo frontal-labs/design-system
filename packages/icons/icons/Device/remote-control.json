@@ -10,8 +10,5 @@
 		"button",
 		"interface"
 	],
-	"categories": [
-		"devices",
-		"electronics"
-	]
+	"categories": ["devices", "electronics"]
 }

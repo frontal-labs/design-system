@@ -10,8 +10,5 @@
 		"internet",
 		"connectivity"
 	],
-	"categories": [
-		"buildings",
-		"networks"
-	]
+	"categories": ["buildings", "networks"]
 }

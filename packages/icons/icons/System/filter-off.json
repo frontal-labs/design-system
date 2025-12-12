@@ -1,16 +1,5 @@
 {
 	"$schema": "../../icon.schema.json",
-	"tags": [
-		"filter",
-		"off",
-		"disabled",
-		"funnel",
-		"cross",
-		"no",
-		"status"
-	],
-	"categories": [
-		"systems",
-		"statuses"
-	]
+	"tags": ["filter", "off", "disabled", "funnel", "cross", "no", "status"],
+	"categories": ["systems", "statuses"]
 }

@@ -10,8 +10,5 @@
 		"design",
 		"arrangement"
 	],
-	"categories": [
-		"design",
-		"layout"
-	]
+	"categories": ["design", "layout"]
 }

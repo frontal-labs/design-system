@@ -1,0 +1,7 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+export function StickyNoteVariantIcon({ width = 24, height = 24, color = 'currentColor', ...props }) {
+    return (_jsx("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", width: width, height: height, fill: color, "aria-label": "Note Sticky Document", "aria-labelledby": "Note Sticky Document", "aria-hidden": true, ...props, children: _jsx("path", { d: "M3.99826 21C3.44694 21 3 20.5551 3 20.0066V3.9934C3 3.44476 3.44495 3 3.9934 3H20.0066C20.5552 3 21 3.44749 21 3.9985V16L15.9968 21H3.99826ZM5 19H15.1688L19 15.1712V5H5V19Z" }) }));
+}
+StickyNoteVariantIcon.displayName = 'StickyNoteVariantIcon';
+export default StickyNoteVariantIcon;
+//# sourceMappingURL=sticky-note-variant-icon.js.map

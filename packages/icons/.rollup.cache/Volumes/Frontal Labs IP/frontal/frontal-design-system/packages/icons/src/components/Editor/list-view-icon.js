@@ -1,0 +1,7 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+export function ListViewIcon({ width = 24, height = 24, color = 'currentColor', ...props }) {
+    return (_jsx("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", width: width, height: height, fill: color, "aria-label": "List View", "aria-labelledby": "List View", "aria-hidden": true, ...props, children: _jsx("path", { d: "M2 4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4ZM4 5V19H20V5H4ZM6 7H8V9H6V7ZM8 11H6V13H8V11ZM6 15H8V17H6V15ZM18 7H10V9H18V7ZM10 15H18V17H10V15ZM18 11H10V13H18V11Z" }) }));
+}
+ListViewIcon.displayName = 'ListViewIcon';
+export default ListViewIcon;
+//# sourceMappingURL=list-view-icon.js.map

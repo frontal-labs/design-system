@@ -9,8 +9,5 @@
 		"pointer",
 		"chevron"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

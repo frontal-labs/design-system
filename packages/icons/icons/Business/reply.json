@@ -10,8 +10,5 @@
 		"navigation",
 		"back"
 	],
-	"categories": [
-		"arrows",
-		"communication"
-	]
+	"categories": ["arrows", "communication"]
 }

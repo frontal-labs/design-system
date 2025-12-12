@@ -9,8 +9,5 @@
 		"navigation",
 		"point"
 	],
-	"categories": [
-		"navigation",
-		"map"
-	]
+	"categories": ["navigation", "map"]
 }

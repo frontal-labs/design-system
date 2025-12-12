@@ -9,8 +9,5 @@
 		"graphics",
 		"digital art"
 	],
-	"categories": [
-		"logos",
-		"software"
-	]
+	"categories": ["logos", "software"]
 }

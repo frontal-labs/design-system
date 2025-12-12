@@ -9,8 +9,5 @@
 		"control",
 		"cogwheel"
 	],
-	"categories": [
-		"systems",
-		"cogs"
-	]
+	"categories": ["systems", "cogs"]
 }

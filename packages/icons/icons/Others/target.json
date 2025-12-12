@@ -11,8 +11,5 @@
 		"pointer",
 		"shoot"
 	],
-	"categories": [
-		"design",
-		"symbols"
-	]
+	"categories": ["design", "symbols"]
 }

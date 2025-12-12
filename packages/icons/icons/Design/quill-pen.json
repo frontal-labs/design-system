@@ -10,8 +10,5 @@
 		"creative",
 		"tool"
 	],
-	"categories": [
-		"design",
-		"writing"
-	]
+	"categories": ["design", "writing"]
 }

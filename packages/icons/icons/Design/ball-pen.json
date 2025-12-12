@@ -10,8 +10,5 @@
 		"handwriting",
 		"office"
 	],
-	"categories": [
-		"design",
-		"tools"
-	]
+	"categories": ["design", "tools"]
 }

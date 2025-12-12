@@ -9,8 +9,5 @@
 		"web",
 		"javascript"
 	],
-	"categories": [
-		"logos",
-		"technologies"
-	]
+	"categories": ["logos", "technologies"]
 }

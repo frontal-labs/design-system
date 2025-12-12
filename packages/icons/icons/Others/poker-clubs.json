@@ -11,8 +11,5 @@
 		"deck",
 		"black"
 	],
-	"categories": [
-		"cards",
-		"symbols"
-	]
+	"categories": ["cards", "symbols"]
 }

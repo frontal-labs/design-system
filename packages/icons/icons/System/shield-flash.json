@@ -10,8 +10,5 @@
 		"danger",
 		"lightning"
 	],
-	"categories": [
-		"security",
-		"status"
-	]
+	"categories": ["security", "status"]
 }

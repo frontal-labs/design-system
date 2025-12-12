@@ -10,8 +10,5 @@
 		"document",
 		"archive"
 	],
-	"categories": [
-		"communications",
-		"designs"
-	]
+	"categories": ["communications", "designs"]
 }

@@ -11,8 +11,5 @@
 		"device",
 		"action"
 	],
-	"categories": [
-		"devices",
-		"actions"
-	]
+	"categories": ["devices", "actions"]
 }

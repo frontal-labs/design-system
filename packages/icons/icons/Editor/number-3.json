@@ -10,8 +10,5 @@
 		"text",
 		"symbol"
 	],
-	"categories": [
-		"numbers",
-		"math"
-	]
+	"categories": ["numbers", "math"]
 }

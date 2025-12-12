@@ -10,8 +10,5 @@
 		"done",
 		"multiple"
 	],
-	"categories": [
-		"status",
-		"actions"
-	]
+	"categories": ["status", "actions"]
 }

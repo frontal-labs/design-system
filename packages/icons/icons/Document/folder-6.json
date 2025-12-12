@@ -12,8 +12,5 @@
 		"folder-open",
 		"system"
 	],
-	"categories": [
-		"folders",
-		"documents"
-	]
+	"categories": ["folders", "documents"]
 }

@@ -10,8 +10,5 @@
 		"activity",
 		"spinner"
 	],
-	"categories": [
-		"system",
-		"indicators"
-	]
+	"categories": ["system", "indicators"]
 }

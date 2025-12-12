@@ -10,8 +10,5 @@
 		"icon",
 		"device"
 	],
-	"categories": [
-		"devices",
-		"data"
-	]
+	"categories": ["devices", "data"]
 }

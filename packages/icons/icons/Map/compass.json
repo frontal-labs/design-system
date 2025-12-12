@@ -10,8 +10,5 @@
 		"travel",
 		"orientation"
 	],
-	"categories": [
-		"navigation",
-		"maps"
-	]
+	"categories": ["navigation", "maps"]
 }

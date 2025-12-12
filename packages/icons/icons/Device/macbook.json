@@ -10,8 +10,5 @@
 		"portable",
 		"electronics"
 	],
-	"categories": [
-		"devices",
-		"technology"
-	]
+	"categories": ["devices", "technology"]
 }

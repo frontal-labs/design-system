@@ -10,7 +10,5 @@
 		"dwelling",
 		"real estate"
 	],
-	"categories": [
-		"buildings"
-	]
+	"categories": ["buildings"]
 }

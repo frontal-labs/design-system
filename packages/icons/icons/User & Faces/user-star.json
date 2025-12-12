@@ -10,8 +10,5 @@
 		"badge",
 		"icon"
 	],
-	"categories": [
-		"people",
-		"social"
-	]
+	"categories": ["people", "social"]
 }

@@ -9,8 +9,5 @@
 		"send",
 		"communication"
 	],
-	"categories": [
-		"communication",
-		"arrows"
-	]
+	"categories": ["communication", "arrows"]
 }

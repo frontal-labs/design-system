@@ -9,8 +9,5 @@
 		"bandage",
 		"medicine"
 	],
-	"categories": [
-		"health",
-		"medical"
-	]
+	"categories": ["health", "medical"]
 }

@@ -10,8 +10,5 @@
 		"network",
 		"rail"
 	],
-	"categories": [
-		"transport",
-		"network"
-	]
+	"categories": ["transport", "network"]
 }

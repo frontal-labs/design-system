@@ -12,8 +12,5 @@
 		"people",
 		"emoji"
 	],
-	"categories": [
-		"faces",
-		"people"
-	]
+	"categories": ["faces", "people"]
 }

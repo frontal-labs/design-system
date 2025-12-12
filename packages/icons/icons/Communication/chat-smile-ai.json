@@ -9,8 +9,5 @@
 		"emoji",
 		"ai"
 	],
-	"categories": [
-		"communications",
-		"emoticons"
-	]
+	"categories": ["communications", "emoticons"]
 }

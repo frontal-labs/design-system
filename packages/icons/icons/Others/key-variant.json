@@ -10,8 +10,5 @@
 		"door",
 		"keyhole"
 	],
-	"categories": [
-		"hardware",
-		"security"
-	]
+	"categories": ["hardware", "security"]
 }

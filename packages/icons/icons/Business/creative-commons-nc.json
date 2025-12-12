@@ -10,8 +10,5 @@
 		"text",
 		"business"
 	],
-	"categories": [
-		"design",
-		"business"
-	]
+	"categories": ["design", "business"]
 }

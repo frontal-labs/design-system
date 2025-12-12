@@ -9,8 +9,5 @@
 		"collaboration",
 		"social"
 	],
-	"categories": [
-		"faces",
-		"users"
-	]
+	"categories": ["faces", "users"]
 }

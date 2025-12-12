@@ -9,8 +9,5 @@
 		"icon",
 		"file-marked"
 	],
-	"categories": [
-		"design",
-		"documents"
-	]
+	"categories": ["design", "documents"]
 }

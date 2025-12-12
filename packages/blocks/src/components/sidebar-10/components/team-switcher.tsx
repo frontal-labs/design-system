@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowDropDownIcon, AddIcon } from "@frontal/icons";
+import { AddIcon, ArrowDropDownIcon } from "@frontal/icons";
 import * as React from "react";
 
 import {

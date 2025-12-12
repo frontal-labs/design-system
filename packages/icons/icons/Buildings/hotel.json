@@ -9,8 +9,5 @@
 		"structure",
 		"inn"
 	],
-	"categories": [
-		"buildings",
-		"design"
-	]
+	"categories": ["buildings", "design"]
 }

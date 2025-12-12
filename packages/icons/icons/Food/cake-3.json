@@ -9,8 +9,5 @@
 		"pastry",
 		"celebration"
 	],
-	"categories": [
-		"food",
-		"desserts"
-	]
+	"categories": ["food", "desserts"]
 }

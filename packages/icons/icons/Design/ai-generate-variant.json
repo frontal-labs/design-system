@@ -9,8 +9,5 @@
 		"circle",
 		"automation"
 	],
-	"categories": [
-		"design",
-		"arrows"
-	]
+	"categories": ["design", "arrows"]
 }

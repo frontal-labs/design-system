@@ -10,8 +10,5 @@
 		"transport",
 		"sign"
 	],
-	"categories": [
-		"navigation",
-		"map"
-	]
+	"categories": ["navigation", "map"]
 }

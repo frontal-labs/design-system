@@ -10,8 +10,5 @@
 		"emoji",
 		"circle"
 	],
-	"categories": [
-		"faces",
-		"users"
-	]
+	"categories": ["faces", "users"]
 }

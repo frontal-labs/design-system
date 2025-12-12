@@ -9,8 +9,5 @@
 		"direction",
 		"menu"
 	],
-	"categories": [
-		"arrows",
-		"navigation"
-	]
+	"categories": ["arrows", "navigation"]
 }

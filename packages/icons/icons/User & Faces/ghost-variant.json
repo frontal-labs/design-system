@@ -9,8 +9,5 @@
 		"emoji",
 		"silhouette"
 	],
-	"categories": [
-		"faces",
-		"characters"
-	]
+	"categories": ["faces", "characters"]
 }

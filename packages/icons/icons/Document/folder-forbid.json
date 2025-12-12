@@ -11,8 +11,5 @@
 		"file",
 		"lock"
 	],
-	"categories": [
-		"folders",
-		"design"
-	]
+	"categories": ["folders", "design"]
 }

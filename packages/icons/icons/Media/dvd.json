@@ -11,8 +11,5 @@
 		"play",
 		"file"
 	],
-	"categories": [
-		"media",
-		"devices"
-	]
+	"categories": ["media", "devices"]
 }

@@ -11,8 +11,5 @@
 		"web",
 		"developer tools"
 	],
-	"categories": [
-		"logos",
-		"software"
-	]
+	"categories": ["logos", "software"]
 }

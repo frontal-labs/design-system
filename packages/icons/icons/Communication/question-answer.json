@@ -11,8 +11,5 @@
 		"help",
 		"conversation"
 	],
-	"categories": [
-		"communications",
-		"dialogs"
-	]
+	"categories": ["communications", "dialogs"]
 }

@@ -10,8 +10,5 @@
 		"centered",
 		"symbol"
 	],
-	"categories": [
-		"statuses",
-		"systems"
-	]
+	"categories": ["statuses", "systems"]
 }

@@ -10,8 +10,5 @@
 		"editor",
 		"measurement"
 	],
-	"categories": [
-		"editor",
-		"typography"
-	]
+	"categories": ["editor", "typography"]
 }

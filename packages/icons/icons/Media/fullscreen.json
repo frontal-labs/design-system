@@ -9,8 +9,5 @@
 		"arrows",
 		"box"
 	],
-	"categories": [
-		"media",
-		"arrows"
-	]
+	"categories": ["media", "arrows"]
 }

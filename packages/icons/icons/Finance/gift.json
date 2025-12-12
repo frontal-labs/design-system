@@ -11,8 +11,5 @@
 		"christmas",
 		"finance"
 	],
-	"categories": [
-		"design",
-		"finance"
-	]
+	"categories": ["design", "finance"]
 }

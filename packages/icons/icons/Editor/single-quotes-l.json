@@ -10,8 +10,5 @@
 		"typography",
 		"symbol"
 	],
-	"categories": [
-		"typography",
-		"design"
-	]
+	"categories": ["typography", "design"]
 }

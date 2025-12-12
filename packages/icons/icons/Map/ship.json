@@ -10,8 +10,5 @@
 		"sea",
 		"sailing"
 	],
-	"categories": [
-		"map",
-		"navigation"
-	]
+	"categories": ["map", "navigation"]
 }

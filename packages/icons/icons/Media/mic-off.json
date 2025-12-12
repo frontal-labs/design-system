@@ -10,8 +10,5 @@
 		"disabled",
 		"slash"
 	],
-	"categories": [
-		"media",
-		"audio"
-	]
+	"categories": ["media", "audio"]
 }

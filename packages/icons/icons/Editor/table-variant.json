@@ -11,8 +11,5 @@
 		"ui",
 		"document"
 	],
-	"categories": [
-		"tables",
-		"editors"
-	]
+	"categories": ["tables", "editors"]
 }

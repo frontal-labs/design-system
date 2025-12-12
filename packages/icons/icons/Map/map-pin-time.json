@@ -12,8 +12,5 @@
 		"schedule",
 		"calendar"
 	],
-	"categories": [
-		"navigation",
-		"maps"
-	]
+	"categories": ["navigation", "maps"]
 }

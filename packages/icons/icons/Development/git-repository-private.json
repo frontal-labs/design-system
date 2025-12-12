@@ -11,8 +11,5 @@
 		"shield",
 		"version control"
 	],
-	"categories": [
-		"software",
-		"development"
-	]
+	"categories": ["software", "development"]
 }

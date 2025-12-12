@@ -10,8 +10,5 @@
 		"safe",
 		"archive"
 	],
-	"categories": [
-		"documents",
-		"security"
-	]
+	"categories": ["documents", "security"]
 }

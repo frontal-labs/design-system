@@ -10,8 +10,5 @@
 		"business",
 		"communication"
 	],
-	"categories": [
-		"mailboxes",
-		"businesses"
-	]
+	"categories": ["mailboxes", "businesses"]
 }

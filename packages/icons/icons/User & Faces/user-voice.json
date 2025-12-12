@@ -10,8 +10,5 @@
 		"profile",
 		"avatar"
 	],
-	"categories": [
-		"people",
-		"communication"
-	]
+	"categories": ["people", "communication"]
 }

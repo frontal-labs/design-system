@@ -10,8 +10,5 @@
 		"spreadsheet",
 		"matrix"
 	],
-	"categories": [
-		"design",
-		"layout"
-	]
+	"categories": ["design", "layout"]
 }

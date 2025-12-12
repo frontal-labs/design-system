@@ -11,8 +11,5 @@
 		"safety",
 		"finance"
 	],
-	"categories": [
-		"finance",
-		"security"
-	]
+	"categories": ["finance", "security"]
 }
