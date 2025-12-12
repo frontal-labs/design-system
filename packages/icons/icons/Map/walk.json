@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"walking",
+		"person",
+		"pedestrian",
+		"map",
+		"navigation",
+		"route",
+		"travel",
+		"step"
+	],
+	"categories": ["maps", "navigation"]
+}

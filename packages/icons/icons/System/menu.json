@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "menu",
+    "hamburger",
+    "navigation",
+    "list",
+    "ui",
+    "button",
+    "icon",
+    "three-lines"
+  ],
+  "categories": [
+    "navigation",
+    "buttons"
+  ]
+}

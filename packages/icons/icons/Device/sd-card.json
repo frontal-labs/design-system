@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"sd card",
+		"storage",
+		"memory card",
+		"device",
+		"portable storage",
+		"electronics",
+		"hardware"
+	],
+	"categories": ["devices", "storage"]
+}

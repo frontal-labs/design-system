@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"airplane",
+		"flight",
+		"land",
+		"runway",
+		"airport",
+		"travel",
+		"map",
+		"navigation"
+	],
+	"categories": ["transportation", "map"]
+}

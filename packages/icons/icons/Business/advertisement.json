@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"advertisement",
+		"ad",
+		"billboard",
+		"sign",
+		"marketing",
+		"commercial",
+		"promo",
+		"display"
+	],
+	"categories": ["businesses", "signs"]
+}

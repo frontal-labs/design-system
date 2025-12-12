@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"screenshot",
+		"monitor",
+		"camera",
+		"capture",
+		"screen",
+		"device",
+		"image"
+	],
+	"categories": ["design", "devices"]
+}

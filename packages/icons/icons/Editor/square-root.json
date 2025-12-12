@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"math",
+		"root",
+		"square root",
+		"symbol",
+		"operator",
+		"equation",
+		"math function"
+	],
+	"categories": ["symbols", "math"]
+}

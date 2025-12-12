@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"hospital",
+		"medical",
+		"building",
+		"cross",
+		"health",
+		"facility",
+		"emergency",
+		"symbol",
+		"icon"
+	],
+	"categories": ["buildings", "facilities"]
+}

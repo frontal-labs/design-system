@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"merge",
+		"cells",
+		"vertical",
+		"grid",
+		"table",
+		"spreadsheet",
+		"combine"
+	],
+	"categories": ["editors", "tables"]
+}

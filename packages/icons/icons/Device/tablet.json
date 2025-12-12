@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"tablet",
+		"device",
+		"screen",
+		"rectangular",
+		"outline",
+		"touchscreen",
+		"mobile"
+	],
+	"categories": ["devices", "hardware"]
+}

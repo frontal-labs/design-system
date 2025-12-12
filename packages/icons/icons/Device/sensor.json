@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"sensor",
+		"device",
+		"electronics",
+		"instrument",
+		"measurement",
+		"hardware",
+		"technology",
+		"monitor"
+	],
+	"categories": ["devices", "electronics"]
+}

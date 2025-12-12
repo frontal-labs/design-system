@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"home",
+		"house",
+		"building",
+		"roof",
+		"door",
+		"architecture",
+		"residential",
+		"real-estate"
+	],
+	"categories": ["design", "buildings"]
+}

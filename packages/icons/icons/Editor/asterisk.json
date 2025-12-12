@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"asterisk",
+		"symbol",
+		"bullet",
+		"text",
+		"editor",
+		"formatting",
+		"design"
+	],
+	"categories": ["symbols", "design"]
+}

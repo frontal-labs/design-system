@@ -1,0 +1,16 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"gate",
+		"ancient",
+		"building",
+		"entrance",
+		"door",
+		"architecture",
+		"stone",
+		"structure",
+		"historic",
+		"gatehouse"
+	],
+	"categories": ["buildings", "structures"]
+}

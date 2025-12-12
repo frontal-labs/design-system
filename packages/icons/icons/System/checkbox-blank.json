@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "checkbox",
+    "blank",
+    "square",
+    "outline",
+    "form",
+    "input",
+    "selection",
+    "ui"
+  ],
+  "categories": [
+    "forms",
+    "ui"
+  ]
+}

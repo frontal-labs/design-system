@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"dvd",
+		"disc",
+		"optical",
+		"media",
+		"storage",
+		"video",
+		"circle",
+		"play",
+		"file"
+	],
+	"categories": ["media", "devices"]
+}

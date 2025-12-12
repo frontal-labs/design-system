@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "box",
+    "container",
+    "cube",
+    "3d",
+    "perspective",
+    "package",
+    "shipping",
+    "warehouse",
+    "inventory"
+  ],
+  "categories": [
+    "design",
+    "objects"
+  ]
+}

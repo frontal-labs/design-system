@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"timeline",
+		"view",
+		"list",
+		"horizontal",
+		"bars",
+		"layout",
+		"editor"
+	],
+	"categories": ["editor", "layout"]
+}

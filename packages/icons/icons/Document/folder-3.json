@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"folder",
+		"document",
+		"file",
+		"directory",
+		"storage",
+		"icon",
+		"shape",
+		"flat",
+		"simple"
+	],
+	"categories": ["folders", "documents"]
+}

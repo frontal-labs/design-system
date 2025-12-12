@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"keyboard",
+		"box",
+		"device",
+		"computer",
+		"input",
+		"keys",
+		"hardware"
+	],
+	"categories": ["devices", "computers"]
+}

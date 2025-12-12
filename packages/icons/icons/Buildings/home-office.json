@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"home",
+		"office",
+		"building",
+		"skyscraper",
+		"window",
+		"door",
+		"architecture",
+		"workplace"
+	],
+	"categories": ["buildings", "offices"]
+}

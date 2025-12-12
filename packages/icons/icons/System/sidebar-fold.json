@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "sidebar",
+    "fold",
+    "collapse",
+    "arrow-right",
+    "navigation",
+    "panel",
+    "layout",
+    "interface"
+  ],
+  "categories": [
+    "navigation",
+    "design"
+  ]
+}

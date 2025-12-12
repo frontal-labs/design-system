@@ -1,0 +1,16 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"bank-card",
+		"credit-card",
+		"payment",
+		"finance",
+		"card",
+		"card-icon",
+		"payment-card",
+		"financial",
+		"banking",
+		"money"
+	],
+	"categories": ["finance", "payments"]
+}

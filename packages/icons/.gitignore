@@ -1,0 +1,26 @@
+# Build outputs
+dist/
+*.tsbuildinfo
+
+# Dependencies
+node_modules/
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+.vitest/
+
+# Turbo
+.turbo/
+
+# Cache
+.cache/
+.temp/
+
+# Logs
+*.log
+
+# Generated icon files (if any)
+*.generated.*
+

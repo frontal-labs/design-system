@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"trello",
+		"logo",
+		"card",
+		"board",
+		"project-management",
+		"collaboration",
+		"teamwork",
+		"software",
+		"list"
+	],
+	"categories": ["logos", "productivity"]
+}

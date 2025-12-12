@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"flip",
+		"horizontal",
+		"mirror",
+		"transform",
+		"image",
+		"duplicate",
+		"copy"
+	],
+	"categories": ["design", "transforms"]
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"restart",
+		"refresh",
+		"circular arrow",
+		"loop",
+		"reload",
+		"device",
+		"navigation",
+		"action"
+	],
+	"categories": ["arrows", "navigation"]
+}

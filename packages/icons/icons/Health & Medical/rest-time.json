@@ -1,0 +1,5 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": ["bed", "rest", "sleep", "pillow", "hospital", "patient", "medical"],
+	"categories": ["medical", "health"]
+}

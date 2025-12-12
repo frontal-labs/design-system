@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"file",
+		"music",
+		"note",
+		"audio",
+		"document",
+		"play",
+		"file-music",
+		"icon",
+		"media"
+	],
+	"categories": ["documents", "media"]
+}

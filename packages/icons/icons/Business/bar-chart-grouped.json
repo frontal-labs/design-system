@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"bar chart",
+		"grouped",
+		"statistics",
+		"data",
+		"visualization",
+		"business",
+		"analytics",
+		"dashboard"
+	],
+	"categories": ["charts", "business"]
+}

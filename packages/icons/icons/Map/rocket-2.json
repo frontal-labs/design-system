@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"rocket",
+		"space",
+		"launch",
+		"flight",
+		"vehicle",
+		"travel",
+		"navigation",
+		"symbol",
+		"icon"
+	],
+	"categories": ["vehicles", "navigation"]
+}

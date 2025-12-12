@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"database",
+		"storage",
+		"server",
+		"cylinder",
+		"data",
+		"information",
+		"grid"
+	],
+	"categories": ["devices", "storage"]
+}

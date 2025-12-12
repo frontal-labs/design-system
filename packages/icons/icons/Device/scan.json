@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"scan",
+		"scanner",
+		"search",
+		"magnify",
+		"document",
+		"barcode",
+		"qr-code",
+		"technology",
+		"device"
+	],
+	"categories": ["devices", "actions"]
+}

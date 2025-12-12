@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "thermometer",
+    "temperature",
+    "fahrenheit",
+    "weather",
+    "heat",
+    "cold",
+    "scale",
+    "measurement"
+  ],
+  "categories": [
+    "weather",
+    "thermometers"
+  ]
+}

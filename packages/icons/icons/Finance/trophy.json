@@ -1,0 +1,16 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"trophy",
+		"award",
+		"championship",
+		"victory",
+		"medal",
+		"celebration",
+		"achievement",
+		"sports",
+		"gold",
+		"prize"
+	],
+	"categories": ["objects", "sports"]
+}

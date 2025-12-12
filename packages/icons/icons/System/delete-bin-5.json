@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "trash",
+    "delete",
+    "bin",
+    "garbage",
+    "remove",
+    "discard",
+    "recycle bin",
+    "trash can"
+  ],
+  "categories": [
+    "systems",
+    "design"
+  ]
+}

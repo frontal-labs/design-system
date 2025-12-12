@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"file",
+		"document",
+		"damage",
+		"broken",
+		"alert",
+		"warning",
+		"cross",
+		"broken-file",
+		"file-icon"
+	],
+	"categories": ["documents", "alert"]
+}

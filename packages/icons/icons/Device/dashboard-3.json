@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"dashboard",
+		"gauge",
+		"needle",
+		"circle",
+		"indicator",
+		"monitor",
+		"display",
+		"speedometer"
+	],
+	"categories": ["devices", "indicators"]
+}

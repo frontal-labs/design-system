@@ -1,0 +1,16 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"chat",
+		"message",
+		"speech-bubble",
+		"plus",
+		"new",
+		"add",
+		"communication",
+		"messaging",
+		"bubble",
+		"create"
+	],
+	"categories": ["communications", "design"]
+}

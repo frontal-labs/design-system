@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "external",
+    "link",
+    "arrow",
+    "navigation",
+    "outbound",
+    "open",
+    "url",
+    "share"
+  ],
+  "categories": [
+    "navigation",
+    "arrows"
+  ]
+}

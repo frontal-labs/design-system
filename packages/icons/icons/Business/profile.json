@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"profile",
+		"card",
+		"business",
+		"list",
+		"grid",
+		"document",
+		"layout",
+		"rectangles"
+	],
+	"categories": ["businesses", "documents"]
+}

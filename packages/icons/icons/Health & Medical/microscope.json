@@ -1,0 +1,16 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"microscope",
+		"science",
+		"lab",
+		"research",
+		"medical",
+		"health",
+		"equipment",
+		"biology",
+		"laboratory",
+		"magnification"
+	],
+	"categories": ["health", "science"]
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "polaroid",
+    "photo",
+    "camera",
+    "image",
+    "frame",
+    "rectangle",
+    "circle"
+  ],
+  "categories": [
+    "media",
+    "design"
+  ]
+}

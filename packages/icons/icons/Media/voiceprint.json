@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "voiceprint",
+    "audio",
+    "waveform",
+    "bars",
+    "graph",
+    "sound",
+    "microphone",
+    "recording"
+  ],
+  "categories": [
+    "media",
+    "audio"
+  ]
+}

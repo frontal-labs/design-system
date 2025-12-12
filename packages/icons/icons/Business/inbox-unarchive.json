@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"inbox",
+		"unarchive",
+		"arrow-up",
+		"box",
+		"document",
+		"archive",
+		"return"
+	],
+	"categories": ["arrows", "business"]
+}

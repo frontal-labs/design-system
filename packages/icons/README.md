@@ -1,0 +1,35 @@
+# @frontal/icons
+
+Frontal's icon library package.
+
+## Overview
+
+This package provides a comprehensive collection of SVG icons for use across the Frontal platform.
+
+## Installation
+
+This package is part of the Frontal monorepo and is installed automatically as a workspace dependency.
+
+```bash
+pnpm install @frontal/icons
+```
+
+## Usage
+
+```tsx
+import { /* icon components */ } from '@frontal/icons';
+```
+
+## Development
+
+```bash
+# Build the package
+pnpm build
+
+# Run tests
+pnpm test
+
+# Lint
+pnpm lint
+```
+

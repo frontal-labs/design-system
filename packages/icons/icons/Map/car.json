@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"car",
+		"vehicle",
+		"transportation",
+		"map",
+		"road",
+		"travel",
+		"automobile",
+		"navigation"
+	],
+	"categories": ["vehicles", "maps"]
+}

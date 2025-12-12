@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"verified",
+		"badge",
+		"checkmark",
+		"circle",
+		"confirmation",
+		"approval",
+		"status",
+		"security"
+	],
+	"categories": ["design", "status"]
+}

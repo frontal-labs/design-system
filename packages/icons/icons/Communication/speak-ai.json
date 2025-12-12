@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"microphone",
+		"speech",
+		"ai",
+		"communication",
+		"voice",
+		"chat",
+		"speech-bubble",
+		"technology"
+	],
+	"categories": ["communication", "technology"]
+}

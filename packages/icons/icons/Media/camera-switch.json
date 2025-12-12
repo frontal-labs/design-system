@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"camera",
+		"switch",
+		"media",
+		"toggle",
+		"rotate",
+		"camera-switch",
+		"camera-toggle",
+		"camera-switch-icon"
+	],
+	"categories": ["media", "arrows"]
+}

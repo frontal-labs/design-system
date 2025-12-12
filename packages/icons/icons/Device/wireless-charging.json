@@ -1,0 +1,16 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"wireless",
+		"charging",
+		"battery",
+		"power",
+		"device",
+		"signal",
+		"cable",
+		"electrical",
+		"technology",
+		"icon"
+	],
+	"categories": ["devices", "power"]
+}

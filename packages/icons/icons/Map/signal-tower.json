@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"signal",
+		"tower",
+		"radio",
+		"broadcast",
+		"antenna",
+		"communication",
+		"map",
+		"navigation",
+		"location"
+	],
+	"categories": ["map", "navigation"]
+}

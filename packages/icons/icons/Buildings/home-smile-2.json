@@ -1,0 +1,16 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"home",
+		"house",
+		"smile",
+		"smiley",
+		"building",
+		"happy",
+		"smiling",
+		"face",
+		"roof",
+		"smile-icon"
+	],
+	"categories": ["buildings", "faces"]
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "apps",
+    "grid",
+    "four-circles",
+    "settings",
+    "gear",
+    "system",
+    "dashboard",
+    "multitouch"
+  ],
+  "categories": [
+    "apps",
+    "system"
+  ]
+}

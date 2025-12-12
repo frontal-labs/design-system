@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"pixelfed",
+		"logo",
+		"circle",
+		"camera",
+		"photography",
+		"social media",
+		"app",
+		"network"
+	],
+	"categories": ["logos", "social media"]
+}

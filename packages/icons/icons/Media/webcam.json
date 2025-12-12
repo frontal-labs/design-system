@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "webcam",
+    "camera",
+    "video",
+    "media",
+    "recording",
+    "lens",
+    "device",
+    "surveillance"
+  ],
+  "categories": [
+    "media",
+    "cameras"
+  ]
+}

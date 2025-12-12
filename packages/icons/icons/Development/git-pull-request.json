@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"git",
+		"pull-request",
+		"branch",
+		"commit",
+		"source-control",
+		"circle",
+		"connection",
+		"arrow"
+	],
+	"categories": ["development", "source-control"]
+}

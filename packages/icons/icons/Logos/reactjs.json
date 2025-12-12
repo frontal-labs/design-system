@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"react",
+		"logo",
+		"frontend",
+		"javascript",
+		"web",
+		"framework",
+		"library",
+		"reactjs"
+	],
+	"categories": ["logos", "technologies"]
+}

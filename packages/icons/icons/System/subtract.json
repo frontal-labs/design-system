@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "minus",
+    "subtract",
+    "remove",
+    "math",
+    "operation",
+    "symbol",
+    "horizontal"
+  ],
+  "categories": [
+    "symbols",
+    "math"
+  ]
+}

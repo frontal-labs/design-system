@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"brush",
+		"paint",
+		"art",
+		"creative",
+		"painting",
+		"tool",
+		"brushstroke"
+	],
+	"categories": ["designs", "tools"]
+}

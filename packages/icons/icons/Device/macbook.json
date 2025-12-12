@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"macbook",
+		"laptop",
+		"computer",
+		"device",
+		"technology",
+		"screen",
+		"portable",
+		"electronics"
+	],
+	"categories": ["devices", "technology"]
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"exchange",
+		"swap",
+		"money",
+		"currency",
+		"arrow",
+		"double-arrow",
+		"transaction",
+		"finance"
+	],
+	"categories": ["arrows", "finance"]
+}

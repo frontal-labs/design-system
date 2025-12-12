@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"euro",
+		"money",
+		"currency",
+		"finance",
+		"circle",
+		"symbol",
+		"monetary"
+	],
+	"categories": ["finance", "currencies"]
+}

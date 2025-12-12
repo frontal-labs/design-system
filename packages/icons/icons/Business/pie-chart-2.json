@@ -1,0 +1,16 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"pie",
+		"chart",
+		"statistics",
+		"data",
+		"business",
+		"analytics",
+		"visualization",
+		"graph",
+		"finance",
+		"report"
+	],
+	"categories": ["charts", "business"]
+}

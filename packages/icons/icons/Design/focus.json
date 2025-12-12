@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"focus",
+		"target",
+		"center",
+		"circle",
+		"lens",
+		"zoom",
+		"concentrate"
+	],
+	"categories": ["design", "symbols"]
+}

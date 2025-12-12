@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "shield",
+    "security",
+    "protection",
+    "armor",
+    "defense",
+    "system",
+    "badge"
+  ],
+  "categories": [
+    "systems",
+    "design"
+  ]
+}

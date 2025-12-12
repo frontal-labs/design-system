@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"brain",
+		"neural",
+		"health",
+		"medicine",
+		"anatomy",
+		"cognitive",
+		"head"
+	],
+	"categories": ["health", "medical"]
+}

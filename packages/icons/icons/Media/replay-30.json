@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "replay",
+    "loop",
+    "30",
+    "seconds",
+    "time",
+    "circle",
+    "arrow",
+    "media"
+  ],
+  "categories": [
+    "media",
+    "arrows"
+  ]
+}

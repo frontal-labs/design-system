@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"bread",
+		"loaf",
+		"food",
+		"baked",
+		"bakery",
+		"snack",
+		"cooking",
+		"meal"
+	],
+	"categories": ["food", "baked goods"]
+}

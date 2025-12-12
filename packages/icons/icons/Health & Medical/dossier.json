@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"folder",
+		"document",
+		"file",
+		"medical",
+		"health",
+		"dossier",
+		"paper"
+	],
+	"categories": ["folders", "documents"]
+}

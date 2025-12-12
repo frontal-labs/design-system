@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"mastercard",
+		"credit card",
+		"payment",
+		"finance",
+		"logo",
+		"brand",
+		"payment card"
+	],
+	"categories": ["logos", "brands"]
+}

@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"font",
+		"sans-serif",
+		"text",
+		"typography",
+		"typeface",
+		"editor",
+		"design"
+	],
+	"categories": ["design", "editor"]
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"keyboard",
+		"input",
+		"wubi",
+		"Chinese",
+		"text",
+		"typing",
+		"editor",
+		"language",
+		"key"
+	],
+	"categories": ["editors", "inputs"]
+}

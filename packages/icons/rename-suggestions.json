@@ -1,0 +1,30 @@
+{
+	"generatedAt": "2025-12-12T12:47:36.622Z",
+	"totalSuggestions": 4,
+	"suggestions": [
+		{
+			"currentName": "code-s-slash.svg",
+			"suggestedName": "code-brackets-slash.svg",
+			"category": "Development",
+			"reasoning": "The icon depicts two angle‑bracket‑like triangles (representing code brackets) with a forward slash inside, so \"code-brackets-slash\" accurately describes the visual content and fits the development theme."
+		},
+		{
+			"currentName": "battery-2-charge.svg",
+			"suggestedName": "battery-charge.svg",
+			"category": "Device",
+			"reasoning": "The icon depicts a battery with a lightning bolt inside, indicating charging. \"battery-charge\" directly describes this visual content and aligns with existing naming conventions in the Device category."
+		},
+		{
+			"currentName": "movie-2-ai.svg",
+			"suggestedName": "movie-camera.svg",
+			"category": "Media",
+			"reasoning": "The icon shows a circular film reel with four holes and a small circle resembling a camera lens, indicating a movie camera. \"movie-camera\" accurately describes the visual content and fits the media category better than the generic or numbered name."
+		},
+		{
+			"currentName": "apps-2-ai.svg",
+			"suggestedName": "apps-grid-star.svg",
+			"category": "System",
+			"reasoning": "The icon displays a small grid of app-like circles (representing a collection of apps) with a star shape overlay, indicating a featured or highlighted set of apps. The name 'apps-grid-star' clearly describes this visual content."
+		}
+	]
+}

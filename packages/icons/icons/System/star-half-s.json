@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "star",
+    "half",
+    "rating",
+    "favorite",
+    "symbol",
+    "shape",
+    "filled",
+    "icon"
+  ],
+  "categories": [
+    "symbols",
+    "rating"
+  ]
+}

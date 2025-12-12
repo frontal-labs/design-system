@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "cloud",
+    "rain",
+    "heavy",
+    "weather",
+    "precipitation",
+    "storm",
+    "cloudy",
+    "meteorology"
+  ],
+  "categories": [
+    "weather"
+  ]
+}

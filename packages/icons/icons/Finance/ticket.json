@@ -1,0 +1,16 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"ticket",
+		"finance",
+		"money",
+		"receipt",
+		"document",
+		"voucher",
+		"payment",
+		"badge",
+		"cash",
+		"ticketing"
+	],
+	"categories": ["finance", "documents"]
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"layout",
+		"grid",
+		"four-panel",
+		"dashboard",
+		"split-screen",
+		"window",
+		"design",
+		"interface"
+	],
+	"categories": ["design", "layouts"]
+}

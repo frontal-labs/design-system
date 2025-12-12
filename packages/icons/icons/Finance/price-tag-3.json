@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"price",
+		"tag",
+		"money",
+		"currency",
+		"sale",
+		"discount",
+		"label",
+		"shopping"
+	],
+	"categories": ["finance", "shopping"]
+}

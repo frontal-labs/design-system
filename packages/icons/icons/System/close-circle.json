@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "close",
+    "circle",
+    "delete",
+    "remove",
+    "cancel",
+    "x",
+    "dismiss",
+    "action"
+  ],
+  "categories": [
+    "actions",
+    "buttons"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"charging",
+		"electric",
+		"vehicle",
+		"pile",
+		"station",
+		"power",
+		"energy",
+		"transportation",
+		"maps"
+	],
+	"categories": ["maps", "transportation"]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"wrench",
+		"tool",
+		"repair",
+		"hardware",
+		"maintenance",
+		"construction"
+	],
+	"categories": ["design", "tools"]
+}

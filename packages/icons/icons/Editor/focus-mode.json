@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"focus",
+		"mode",
+		"grid",
+		"center",
+		"square",
+		"editor",
+		"design",
+		"icon"
+	],
+	"categories": ["editors", "design"]
+}

@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"coins",
+		"money",
+		"currency",
+		"finance",
+		"wealth",
+		"payment",
+		"investment"
+	],
+	"categories": ["finance"]
+}

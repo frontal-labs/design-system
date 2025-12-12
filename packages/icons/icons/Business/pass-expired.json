@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"pass",
+		"expired",
+		"card",
+		"cross",
+		"stop",
+		"prohibit",
+		"warning",
+		"business"
+	],
+	"categories": ["business", "statuses"]
+}

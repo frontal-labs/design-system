@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"document",
+		"todo",
+		"list",
+		"tasks",
+		"checklist",
+		"paper",
+		"bullet list",
+		"box"
+	],
+	"categories": ["documents", "lists"]
+}

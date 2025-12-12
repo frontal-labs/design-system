@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"ram",
+		"memory",
+		"computer",
+		"hardware",
+		"device",
+		"storage",
+		"module",
+		"processor"
+	],
+	"categories": ["devices", "hardware"]
+}

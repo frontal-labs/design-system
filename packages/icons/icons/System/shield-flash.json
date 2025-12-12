@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "shield",
+    "security",
+    "bolt",
+    "flash",
+    "alert",
+    "warning",
+    "danger",
+    "lightning"
+  ],
+  "categories": [
+    "security",
+    "status"
+  ]
+}

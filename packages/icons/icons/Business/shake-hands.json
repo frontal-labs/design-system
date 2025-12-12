@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"handshake",
+		"business",
+		"partnership",
+		"collaboration",
+		"people",
+		"greeting",
+		"agreement"
+	],
+	"categories": ["businesses", "people"]
+}

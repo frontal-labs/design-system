@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"calendar",
+		"event",
+		"date",
+		"schedule",
+		"appointment",
+		"meeting",
+		"business",
+		"calendar-page"
+	],
+	"categories": ["business", "design"]
+}

@@ -1,0 +1,5 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": ["sailboat", "boat", "water", "navigation", "map", "sea", "marine"],
+	"categories": ["navigation", "map"]
+}

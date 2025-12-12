@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "gear",
+    "settings",
+    "configuration",
+    "preferences",
+    "tools",
+    "adjust",
+    "cog",
+    "system",
+    "menu",
+    "icon"
+  ],
+  "categories": [
+    "systems",
+    "designs"
+  ]
+}

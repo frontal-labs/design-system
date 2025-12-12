@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "media",
+    "player",
+    "play",
+    "video",
+    "film",
+    "audio",
+    "icon",
+    "controls"
+  ],
+  "categories": [
+    "media",
+    "controls"
+  ]
+}

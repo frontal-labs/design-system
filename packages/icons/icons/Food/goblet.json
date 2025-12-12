@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"goblet",
+		"drinking",
+		"glass",
+		"wine",
+		"ceremony",
+		"beverage",
+		"cup",
+		"food",
+		"drink"
+	],
+	"categories": ["foods", "drinks"]
+}

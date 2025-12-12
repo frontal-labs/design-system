@@ -1,0 +1,5 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": ["arrow", "left", "skip", "media", "previous", "navigation"],
+	"categories": ["arrows", "navigation"]
+}

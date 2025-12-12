@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"map",
+		"pin",
+		"marker",
+		"location",
+		"navigation",
+		"point",
+		"geolocation",
+		"address"
+	],
+	"categories": ["maps", "navigation"]
+}

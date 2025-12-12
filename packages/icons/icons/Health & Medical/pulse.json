@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"pulse",
+		"heartbeat",
+		"waveform",
+		"health",
+		"medical",
+		"monitor",
+		"vital-sign",
+		"signal"
+	],
+	"categories": ["health", "medical"]
+}

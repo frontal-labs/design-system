@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "ping-pong",
+    "table-tennis",
+    "sport",
+    "ball",
+    "paddle",
+    "game",
+    "athletics"
+  ],
+  "categories": [
+    "sports",
+    "games"
+  ]
+}

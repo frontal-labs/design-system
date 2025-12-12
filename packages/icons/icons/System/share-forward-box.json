@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "share",
+    "forward",
+    "box",
+    "arrow",
+    "document",
+    "send",
+    "export",
+    "communication"
+  ],
+  "categories": [
+    "arrows",
+    "communication"
+  ]
+}

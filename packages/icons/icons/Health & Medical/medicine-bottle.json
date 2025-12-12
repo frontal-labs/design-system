@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"medicine",
+		"bottle",
+		"pharmacy",
+		"health",
+		"drug",
+		"prescription",
+		"tablet",
+		"medical"
+	],
+	"categories": ["medical", "health"]
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"usb",
+		"connector",
+		"device",
+		"data transfer",
+		"computer",
+		"hardware",
+		"plug",
+		"port"
+	],
+	"categories": ["devices", "electronics"]
+}

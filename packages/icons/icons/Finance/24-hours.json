@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"clock",
+		"time",
+		"24-hours",
+		"schedule",
+		"timer",
+		"hour",
+		"timekeeping",
+		"calendar"
+	],
+	"categories": ["clocks", "time"]
+}

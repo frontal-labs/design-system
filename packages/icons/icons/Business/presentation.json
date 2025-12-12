@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"projector",
+		"screen",
+		"presentation",
+		"slide",
+		"display",
+		"office",
+		"business",
+		"technology"
+	],
+	"categories": ["business", "technology"]
+}

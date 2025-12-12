@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"knife",
+		"cutting",
+		"food",
+		"kitchen",
+		"utensil",
+		"sharp",
+		"cooking"
+	],
+	"categories": ["foods", "utensils"]
+}

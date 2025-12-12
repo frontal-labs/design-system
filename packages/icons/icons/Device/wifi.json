@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"wifi",
+		"signal",
+		"wireless",
+		"network",
+		"connectivity",
+		"device",
+		"technology",
+		"signal strength",
+		"wireless network"
+	],
+	"categories": ["devices", "communication"]
+}

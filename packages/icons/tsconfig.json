@@ -1,0 +1,32 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"rootDir": ".",
+		"noEmit": true,
+		"esModuleInterop": true,
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "react-jsx",
+		"incremental": true,
+		"skipLibCheck": true,
+		"target": "ES2020",
+		"lib": ["ES2020", "DOM", "DOM.Iterable"],
+		"paths": {
+			"@/*": ["./src/*"],
+			"@components": ["./src/components"],
+			"@components/*": ["./src/components/*"],
+			"@frontal/*": [
+				"../../packages/*",
+				"../../internals/*",
+				"../../services/*",
+				"../../testing/*",
+				"../../pipelines/*"
+			],
+			"@frontal/icons/*": ["./src/*"]
+		}
+	},
+	"include": ["**/*.ts", "**/*.tsx"],
+	"exclude": ["node_modules", "dist"]
+}

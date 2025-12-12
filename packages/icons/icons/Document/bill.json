@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"document",
+		"bill",
+		"invoice",
+		"paper",
+		"text",
+		"lines",
+		"rectangle",
+		"file"
+	],
+	"categories": ["documents", "design"]
+}

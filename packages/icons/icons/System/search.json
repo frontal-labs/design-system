@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "search",
+    "magnifying-glass",
+    "find",
+    "zoom",
+    "lens",
+    "tool",
+    "system",
+    "navigation"
+  ],
+  "categories": [
+    "navigation",
+    "tools"
+  ]
+}

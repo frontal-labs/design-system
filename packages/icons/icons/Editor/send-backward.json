@@ -1,0 +1,16 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"send",
+		"backward",
+		"layer",
+		"stack",
+		"editor",
+		"document",
+		"arrow",
+		"graphics",
+		"object",
+		"position"
+	],
+	"categories": ["arrows", "editor"]
+}

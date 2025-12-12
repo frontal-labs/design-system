@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"customer-service",
+		"support",
+		"office",
+		"building",
+		"help",
+		"service-center",
+		"business",
+		"team"
+	],
+	"categories": ["businesses", "offices"]
+}

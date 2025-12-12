@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "speaker",
+    "volume",
+    "mute",
+    "off",
+    "vibrate",
+    "audio",
+    "sound",
+    "media"
+  ],
+  "categories": [
+    "media",
+    "audio"
+  ]
+}

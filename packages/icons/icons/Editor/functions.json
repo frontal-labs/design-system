@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"functions",
+		"math",
+		"f",
+		"letter",
+		"symbol",
+		"formula",
+		"equation",
+		"calculator"
+	],
+	"categories": ["editors", "maths"]
+}

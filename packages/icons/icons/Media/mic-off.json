@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"mic",
+		"microphone",
+		"off",
+		"mute",
+		"audio",
+		"sound",
+		"disabled",
+		"slash"
+	],
+	"categories": ["media", "audio"]
+}

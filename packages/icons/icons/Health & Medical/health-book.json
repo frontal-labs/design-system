@@ -1,0 +1,16 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"book",
+		"health",
+		"medical",
+		"document",
+		"file",
+		"open book",
+		"page",
+		"medical book",
+		"medicine",
+		"healthcare"
+	],
+	"categories": ["books", "health"]
+}

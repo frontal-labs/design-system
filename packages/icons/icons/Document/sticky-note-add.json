@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"sticky-note",
+		"note",
+		"add",
+		"plus",
+		"document",
+		"create",
+		"paper",
+		"annotation"
+	],
+	"categories": ["documents", "actions"]
+}

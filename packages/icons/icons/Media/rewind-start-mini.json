@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "rewind",
+    "left arrow",
+    "double arrow",
+    "media control",
+    "playback",
+    "navigation",
+    "icon",
+    "mini"
+  ],
+  "categories": [
+    "arrows",
+    "media"
+  ]
+}

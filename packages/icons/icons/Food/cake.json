@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"cake",
+		"food",
+		"dessert",
+		"birthday",
+		"sweet",
+		"celebration",
+		"baked goods"
+	],
+	"categories": ["food", "desserts"]
+}

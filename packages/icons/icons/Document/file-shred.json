@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"file",
+		"shred",
+		"document",
+		"paper",
+		"destroy",
+		"garbage",
+		"privacy"
+	],
+	"categories": ["documents", "security"]
+}

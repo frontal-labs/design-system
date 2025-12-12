@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"arrow",
+		"anticlockwise",
+		"rotate",
+		"refresh",
+		"undo",
+		"clock",
+		"navigation"
+	],
+	"categories": ["arrows", "navigation"]
+}

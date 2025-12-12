@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"scan",
+		"circle",
+		"document",
+		"search",
+		"scanner",
+		"scanning",
+		"device"
+	],
+	"categories": ["devices", "scanners"]
+}

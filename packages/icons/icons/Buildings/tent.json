@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"tent",
+		"camping",
+		"outdoor",
+		"structure",
+		"roof",
+		"shelter",
+		"pavilion",
+		"accommodation"
+	],
+	"categories": ["buildings", "outdoors"]
+}

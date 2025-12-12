@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"anchor",
+		"navigation",
+		"map",
+		"symbol",
+		"maritime",
+		"sea",
+		"ship",
+		"compass",
+		"direction"
+	],
+	"categories": ["navigation", "symbols"]
+}

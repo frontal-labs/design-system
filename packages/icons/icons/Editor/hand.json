@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"hand",
+		"gesture",
+		"pointer",
+		"finger",
+		"touch",
+		"selection",
+		"interaction",
+		"user",
+		"tool"
+	],
+	"categories": ["design", "editor"]
+}

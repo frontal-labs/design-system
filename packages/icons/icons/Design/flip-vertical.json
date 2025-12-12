@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"flip",
+		"vertical",
+		"mirror",
+		"rotate",
+		"transform",
+		"editor",
+		"design",
+		"arrows"
+	],
+	"categories": ["design", "transformations"]
+}

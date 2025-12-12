@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"pencil",
+		"write",
+		"edit",
+		"AI",
+		"artificial intelligence",
+		"design",
+		"illustration",
+		"sketch"
+	],
+	"categories": ["design", "tools"]
+}

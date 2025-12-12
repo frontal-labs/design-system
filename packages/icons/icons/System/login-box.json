@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "login",
+    "box",
+    "arrow",
+    "right",
+    "door",
+    "access",
+    "entry",
+    "system"
+  ],
+  "categories": [
+    "systems",
+    "arrows"
+  ]
+}

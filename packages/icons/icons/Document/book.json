@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"book",
+		"open-book",
+		"reading",
+		"pages",
+		"literature",
+		"document",
+		"library",
+		"education",
+		"text"
+	],
+	"categories": ["documents", "media"]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "video",
+    "play",
+    "camera",
+    "media",
+    "on",
+    "film",
+    "screen",
+    "recording",
+    "stream"
+  ],
+  "categories": [
+    "media",
+    "devices"
+  ]
+}

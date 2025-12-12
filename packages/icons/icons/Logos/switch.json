@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"switch",
+		"toggle",
+		"button",
+		"on",
+		"off",
+		"ui",
+		"control",
+		"device"
+	],
+	"categories": ["buttons", "controls"]
+}

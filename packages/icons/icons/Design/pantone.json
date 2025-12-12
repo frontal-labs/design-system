@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"color",
+		"swatch",
+		"palette",
+		"pantone",
+		"design",
+		"color-picker",
+		"color-sample",
+		"paint"
+	],
+	"categories": ["designs", "colors"]
+}

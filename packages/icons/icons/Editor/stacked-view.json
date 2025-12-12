@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"stacked",
+		"view",
+		"document",
+		"layers",
+		"editor",
+		"file",
+		"outline",
+		"two-layer"
+	],
+	"categories": ["editors", "design"]
+}

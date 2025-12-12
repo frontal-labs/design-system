@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"equalizer",
+		"audio",
+		"music",
+		"bars",
+		"volume",
+		"controls",
+		"signal",
+		"audio-level"
+	],
+	"categories": ["media", "audio"]
+}

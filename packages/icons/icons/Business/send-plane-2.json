@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"plane",
+		"send",
+		"mail",
+		"arrow",
+		"business",
+		"navigation",
+		"flight"
+	],
+	"categories": ["arrows", "business"]
+}

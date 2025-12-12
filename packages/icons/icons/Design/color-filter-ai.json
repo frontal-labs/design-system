@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"filter",
+		"color",
+		"funnel",
+		"palette",
+		"adjust",
+		"settings",
+		"design",
+		"tool"
+	],
+	"categories": ["filters", "designs"]
+}

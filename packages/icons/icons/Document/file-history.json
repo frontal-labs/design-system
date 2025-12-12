@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"file",
+		"history",
+		"clock",
+		"document",
+		"time",
+		"timeline",
+		"archive"
+	],
+	"categories": ["documents", "files"]
+}

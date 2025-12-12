@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"briefcase",
+		"business",
+		"office",
+		"work",
+		"container",
+		"file",
+		"storage",
+		"documents",
+		"laptop"
+	],
+	"categories": ["business", "design"]
+}

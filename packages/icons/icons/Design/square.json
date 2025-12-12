@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"square",
+		"box",
+		"frame",
+		"border",
+		"outline",
+		"geometry",
+		"rectangle"
+	],
+	"categories": ["design", "shapes"]
+}

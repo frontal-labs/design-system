@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"slideshow",
+		"slides",
+		"preview",
+		"layout",
+		"editor",
+		"presentation",
+		"grid"
+	],
+	"categories": ["editors", "designs"]
+}

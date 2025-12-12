@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"subway",
+		"train",
+		"transport",
+		"station",
+		"map",
+		"public transport",
+		"railway"
+	],
+	"categories": ["maps", "navigation"]
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"fingerprint",
+		"biometric",
+		"security",
+		"identity",
+		"scan",
+		"authentication",
+		"pattern",
+		"device"
+	],
+	"categories": ["devices", "security"]
+}

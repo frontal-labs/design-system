@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"jewelry",
+		"pendant",
+		"necklace",
+		"accessory",
+		"fashion",
+		"silhouette",
+		"icon",
+		"design",
+		"chain"
+	],
+	"categories": ["design", "accessories"]
+}

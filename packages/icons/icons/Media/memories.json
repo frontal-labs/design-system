@@ -1,0 +1,5 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": ["camera", "photo", "memory", "capture", "flash", "image", "icon"],
+	"categories": ["devices", "media"]
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"app store",
+		"apple",
+		"circle",
+		"logo",
+		"download",
+		"mobile",
+		"software",
+		"store"
+	],
+	"categories": ["logos", "apps"]
+}

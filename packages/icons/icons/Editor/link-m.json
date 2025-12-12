@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"link",
+		"chain",
+		"connect",
+		"interlock",
+		"edit",
+		"navigation",
+		"chain-link",
+		"editor"
+	],
+	"categories": ["design", "navigation"]
+}

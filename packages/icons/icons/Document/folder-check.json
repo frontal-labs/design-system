@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"folder",
+		"check",
+		"document",
+		"file",
+		"approval",
+		"verify",
+		"checked",
+		"save",
+		"folder-check"
+	],
+	"categories": ["folders", "documents"]
+}

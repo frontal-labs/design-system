@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "group",
+    "people",
+    "user",
+    "faces",
+    "multiple",
+    "team",
+    "avatar",
+    "profile"
+  ],
+  "categories": [
+    "people",
+    "avatars"
+  ]
+}

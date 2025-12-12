@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"syringe",
+		"medicine",
+		"health",
+		"medical",
+		"injection",
+		"vaccine",
+		"needle",
+		"dose",
+		"pharmacy"
+	],
+	"categories": ["medical", "health"]
+}

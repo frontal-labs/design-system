@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"mail",
+		"envelope",
+		"ai",
+		"business",
+		"communication",
+		"email",
+		"letter",
+		"message"
+	],
+	"categories": ["business", "communications"]
+}

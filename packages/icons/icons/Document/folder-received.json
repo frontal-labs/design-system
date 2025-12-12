@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"folder",
+		"download",
+		"arrow",
+		"received",
+		"document",
+		"inbox",
+		"file"
+	],
+	"categories": ["folders", "arrows"]
+}

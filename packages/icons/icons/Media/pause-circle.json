@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "pause",
+    "circle",
+    "media",
+    "pause symbol",
+    "media control",
+    "button",
+    "icon",
+    "pause button"
+  ],
+  "categories": [
+    "media",
+    "controls"
+  ]
+}

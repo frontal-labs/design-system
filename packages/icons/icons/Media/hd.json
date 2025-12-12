@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"hd",
+		"high-definition",
+		"video",
+		"media",
+		"screen",
+		"display",
+		"resolution",
+		"quality"
+	],
+	"categories": ["media", "display"]
+}

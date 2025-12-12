@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"arrow",
+		"right",
+		"up",
+		"document",
+		"translate",
+		"language",
+		"text",
+		"page"
+	],
+	"categories": ["arrows", "documents"]
+}

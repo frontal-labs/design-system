@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"globe",
+		"world",
+		"clock",
+		"time",
+		"timezone",
+		"location",
+		"map",
+		"navigation"
+	],
+	"categories": ["maps", "navigation"]
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "laugh",
+    "smile",
+    "happy",
+    "face",
+    "emotion",
+    "mouth",
+    "eyes",
+    "expression"
+  ],
+  "categories": [
+    "faces",
+    "emotions"
+  ]
+}

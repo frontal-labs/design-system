@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "pause",
+    "media",
+    "control",
+    "button",
+    "two bars",
+    "large"
+  ],
+  "categories": [
+    "media",
+    "controls"
+  ]
+}

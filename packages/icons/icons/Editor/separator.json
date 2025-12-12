@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"separator",
+		"horizontal",
+		"divider",
+		"editor",
+		"layout",
+		"design",
+		"line"
+	],
+	"categories": ["editor", "design"]
+}

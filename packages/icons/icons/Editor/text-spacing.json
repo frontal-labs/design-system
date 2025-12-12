@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"text",
+		"spacing",
+		"alignment",
+		"editor",
+		"formatting",
+		"document",
+		"layout",
+		"typography"
+	],
+	"categories": ["editors", "typographies"]
+}

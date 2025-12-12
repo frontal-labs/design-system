@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../../icon.schema.json",
+	"tags": [
+		"unsplash",
+		"logo",
+		"brand",
+		"photography",
+		"image",
+		"square",
+		"grid",
+		"media"
+	],
+	"categories": ["logos", "brands"]
+}

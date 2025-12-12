@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../icon.schema.json",
+  "tags": [
+    "shuffle",
+    "random",
+    "media",
+    "audio",
+    "control",
+    "playlist",
+    "mix",
+    "repeat"
+  ],
+  "categories": [
+    "media",
+    "controls"
+  ]
+}
