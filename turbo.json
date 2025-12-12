@@ -17,6 +17,9 @@
 		"test": {
 			"dependsOn": ["^test"]
 		},
+		"test:coverage": {
+			"dependsOn": ["^test"]
+		},
 		"analyze": {
 			"dependsOn": ["^analyze"]
 		},
