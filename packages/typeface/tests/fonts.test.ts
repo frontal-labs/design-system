@@ -1,22 +1,4 @@
-import { describe, expect, it, vi } from "vitest";
-
-// Mock next/font/local before importing the fonts
-vi.mock("next/font/local", () => {
-	return {
-		default: vi.fn((config) => {
-			const variable = config.variable || "--font-default";
-			return {
-				variable,
-				className: `font-${variable.replace("--font-", "").replace(/-/g, "_")}`,
-				style: {
-					fontFamily: variable,
-				},
-			};
-		}),
-	};
-});
-
-// Import after mocking
+import { describe, expect, it } from "bun:test";
 import { fonts, MaisonNeue, MaisonNeueMono } from "../src/index";
 
 /**
