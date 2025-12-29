@@ -26,9 +26,9 @@
 		"check:fix": "biome check --write",
 		"type-check": "tsc --noEmit",
 		"typecheck": "tsc --noEmit",
-		"test": "vitest",
-		"test:watch": "vitest --watch",
-		"test:coverage": "vitest --coverage",
+		"test": "bun test --preload ./tests/preload.ts",
+		"test:watch": "bun test --watch",
+		"test:coverage": "bun test --coverage",
 		"clean": "git clean -xdf -- node_modules .next .turbo .cache dist"
 	},
 	"files": [
@@ -53,7 +53,6 @@
 		"@rollup/plugin-typescript": "^12.0.0",
 		"@types/node": "^24.7.0",
 		"@types/react": "^19.2.1",
-		"@vitest/coverage-v8": "^3.1.4",
 		"@tailwindcss/typography": "^0.5.19",
 		"@tailwindcss/postcss": "^4.1.14",
 		"jsdom": "^25.0.0",
@@ -61,8 +60,7 @@
 		"tsx": "^4.7.1",
 		"typescript": "^5.9.3",
 		"postcss": "^8.5.6",
-		"puppeteer": "^24.26.1",
-		"vitest": "^3.1.4"
+		"puppeteer": "^24.26.1"
 	},
 	"keywords": [
 		"typeface",
@@ -70,7 +68,7 @@
 		"typography"
 	],
 	"engines": {
-		"node": ">=18.0.0",
-		"pnpm": ">=8.0.0"
+		"node": ">=20.0.0",
+		"bun": ">=1.1.0"
 	}
 }
