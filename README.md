@@ -4,7 +4,7 @@
     <img src="./assets/banner.png" alt="Frontal Banner">
 </picture>
 
-# @frontal/design-system
+# Frontal Design System
 
 Frontal's comprehensive design system package providing UI components, hooks, and utilities for building consistent user interfaces.
 
