@@ -125,16 +125,16 @@ See the `src/components/ui/` directory for the complete list.
 
 ```bash
 # Build
-pnpm build
+bun run build
 
 # Type check
-pnpm type-check
+bun run type-check
 
 # Lint
-pnpm lint
+bun run lint
 
 # Format
-pnpm format
+bun run format
 ```
 
 ## License
