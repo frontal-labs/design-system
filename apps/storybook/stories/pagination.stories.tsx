@@ -6,7 +6,7 @@ import {
 	PaginationLink,
 	PaginationNext,
 	PaginationPrevious,
-} from "@frontal/design-systempagination";
+} from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

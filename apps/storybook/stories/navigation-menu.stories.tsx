@@ -6,7 +6,7 @@ import {
 	NavigationMenuList,
 	NavigationMenuTrigger,
 	navigationMenuTriggerStyle,
-} from "@frontal/design-systemnavigation-menu";
+} from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

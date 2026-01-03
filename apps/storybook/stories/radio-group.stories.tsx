@@ -1,4 +1,4 @@
-import { RadioGroup, RadioGroupItem } from "@frontal/design-systemradio-group";
+import { RadioGroup, RadioGroupItem } from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

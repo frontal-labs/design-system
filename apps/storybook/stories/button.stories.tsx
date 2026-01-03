@@ -1,4 +1,4 @@
-import { Button } from "@frontal/design-systembutton";
+import { Button } from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 import { Loader2, Mail } from "lucide-react";
 

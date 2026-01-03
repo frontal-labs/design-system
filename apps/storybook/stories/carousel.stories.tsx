@@ -4,7 +4,7 @@ import {
 	CarouselItem,
 	CarouselNext,
 	CarouselPrevious,
-} from "@frontal/design-systemcarousel";
+} from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 const carouselItems = Array.from({ length: 5 }, (_, i) => ({

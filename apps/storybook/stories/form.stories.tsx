@@ -6,7 +6,7 @@ import {
 	FormItem,
 	FormLabel,
 	FormMessage,
-} from "@frontal/design-systemform";
+} from "@frontal/design-system";
 import { zodResolver } from "@hookform/resolvers/zod";
 import type { Meta, StoryObj } from "@storybook/react";
 import { useForm } from "react-hook-form";

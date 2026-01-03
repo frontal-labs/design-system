@@ -7,7 +7,7 @@ import {
 	SelectSeparator,
 	SelectTrigger,
 	SelectValue,
-} from "@frontal/design-systemselect";
+} from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

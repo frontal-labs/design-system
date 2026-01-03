@@ -1,4 +1,4 @@
-import { Label } from "@frontal/design-systemlabel";
+import { Label } from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

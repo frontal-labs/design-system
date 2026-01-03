@@ -1,4 +1,4 @@
-import { ScrollArea } from "@frontal/design-systemscroll-area";
+import { ScrollArea } from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

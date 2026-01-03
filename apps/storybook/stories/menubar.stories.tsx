@@ -14,7 +14,7 @@ import {
 	MenubarSubContent,
 	MenubarSubTrigger,
 	MenubarTrigger,
-} from "@frontal/design-systemmenubar";
+} from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

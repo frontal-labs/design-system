@@ -2,21 +2,15 @@ import {
 	Avatar,
 	AvatarFallback,
 	AvatarImage,
-} from "@frontal/design-systemavatar";
-import {
 	Breadcrumb,
 	BreadcrumbItem,
 	BreadcrumbLink,
 	BreadcrumbList,
 	BreadcrumbPage,
 	BreadcrumbSeparator,
-} from "@frontal/design-systembreadcrumb";
-import {
 	Collapsible,
 	CollapsibleContent,
 	CollapsibleTrigger,
-} from "@frontal/design-systemcollapsible";
-import {
 	DropdownMenu,
 	DropdownMenuContent,
 	DropdownMenuGroup,
@@ -25,9 +19,7 @@ import {
 	DropdownMenuSeparator,
 	DropdownMenuShortcut,
 	DropdownMenuTrigger,
-} from "@frontal/design-systemdropdown-menu";
-import { Separator } from "@frontal/design-systemseparator";
-import {
+	Separator,
 	Sidebar,
 	SidebarContent,
 	SidebarFooter,
@@ -45,7 +37,7 @@ import {
 	SidebarProvider,
 	SidebarRail,
 	SidebarTrigger,
-} from "@frontal/design-systemsidebar";
+} from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 import {
 	AudioWaveform,

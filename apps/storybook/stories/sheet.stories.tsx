@@ -7,7 +7,7 @@ import {
 	SheetHeader,
 	SheetTitle,
 	SheetTrigger,
-} from "@frontal/design-systemsheet";
+} from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

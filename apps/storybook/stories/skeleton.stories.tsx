@@ -1,4 +1,4 @@
-import { Skeleton } from "@frontal/design-systemskeleton";
+import { Skeleton } from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

@@ -1,4 +1,4 @@
-import { Checkbox } from "@frontal/design-systemcheckbox";
+import { Checkbox } from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

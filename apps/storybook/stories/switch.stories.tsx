@@ -1,4 +1,4 @@
-import { Switch } from "@frontal/design-systemswitch";
+import { Switch } from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

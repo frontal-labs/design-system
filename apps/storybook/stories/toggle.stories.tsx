@@ -1,4 +1,4 @@
-import { Toggle } from "@frontal/design-systemtoggle";
+import { Toggle } from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 import { Bold, Italic } from "lucide-react";
 

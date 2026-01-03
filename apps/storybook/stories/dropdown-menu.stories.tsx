@@ -14,7 +14,7 @@ import {
 	DropdownMenuSubContent,
 	DropdownMenuSubTrigger,
 	DropdownMenuTrigger,
-} from "@frontal/design-systemdropdown-menu";
+} from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 import { Mail, Plus, PlusCircle, Search, UserPlus } from "lucide-react";
 

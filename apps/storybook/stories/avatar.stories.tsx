@@ -1,8 +1,4 @@
-import {
-	Avatar,
-	AvatarFallback,
-	AvatarImage,
-} from "@frontal/design-systemavatar";
+import { Avatar, AvatarFallback, AvatarImage } from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

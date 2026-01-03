@@ -5,7 +5,7 @@ import {
 	BreadcrumbList,
 	BreadcrumbPage,
 	BreadcrumbSeparator,
-} from "@frontal/design-systembreadcrumb";
+} from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 import { ArrowRightSquare } from "lucide-react";
 

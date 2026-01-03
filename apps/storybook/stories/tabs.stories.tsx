@@ -3,7 +3,7 @@ import {
 	TabsContent,
 	TabsList,
 	TabsTrigger,
-} from "@frontal/design-systemtabs";
+} from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

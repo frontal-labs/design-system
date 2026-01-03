@@ -1,4 +1,4 @@
-import { Badge } from "@frontal/design-systembadge";
+import { Badge } from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

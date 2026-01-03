@@ -1,4 +1,4 @@
-import { Slider } from "@frontal/design-systemslider";
+import { Slider } from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

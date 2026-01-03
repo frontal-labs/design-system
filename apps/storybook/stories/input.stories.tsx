@@ -1,4 +1,4 @@
-import { Input } from "@frontal/design-systeminput";
+import { Input } from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

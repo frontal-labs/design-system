@@ -3,7 +3,7 @@ import {
 	ChartContainer,
 	ChartTooltip,
 	ChartTooltipContent,
-} from "@frontal/design-systemchart";
+} from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 import { useMemo } from "react";
 import {

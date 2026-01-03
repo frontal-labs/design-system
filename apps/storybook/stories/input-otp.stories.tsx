@@ -3,7 +3,7 @@ import {
 	InputOTPGroup,
 	InputOTPSeparator,
 	InputOTPSlot,
-} from "@frontal/design-systeminput-otp";
+} from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 import { REGEXP_ONLY_DIGITS_AND_CHARS } from "input-otp";
 

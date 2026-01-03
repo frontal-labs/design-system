@@ -1,4 +1,4 @@
-import { Separator } from "@frontal/design-systemseparator";
+import { Separator } from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

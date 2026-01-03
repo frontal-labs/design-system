@@ -6,7 +6,7 @@ import {
 	TableHead,
 	TableHeader,
 	TableRow,
-} from "@frontal/design-systemtable";
+} from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 const invoices = [

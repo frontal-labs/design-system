@@ -2,7 +2,7 @@ import {
 	Collapsible,
 	CollapsibleContent,
 	CollapsibleTrigger,
-} from "@frontal/design-systemcollapsible";
+} from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 import { Info } from "lucide-react";
 

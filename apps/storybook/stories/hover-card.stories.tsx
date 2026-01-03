@@ -2,7 +2,7 @@ import {
 	HoverCard,
 	HoverCardContent,
 	HoverCardTrigger,
-} from "@frontal/design-systemhover-card";
+} from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

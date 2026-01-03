@@ -12,7 +12,7 @@ import {
 	ContextMenuSubContent,
 	ContextMenuSubTrigger,
 	ContextMenuTrigger,
-} from "@frontal/design-systemcontext-menu";
+} from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

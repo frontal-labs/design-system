@@ -5,7 +5,7 @@ import {
 	CardFooter,
 	CardHeader,
 	CardTitle,
-} from "@frontal/design-systemcard";
+} from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 import { BellRing } from "lucide-react";
 

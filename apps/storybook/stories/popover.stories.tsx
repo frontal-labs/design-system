@@ -2,7 +2,7 @@ import {
 	Popover,
 	PopoverContent,
 	PopoverTrigger,
-} from "@frontal/design-systempopover";
+} from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**
