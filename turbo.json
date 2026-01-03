@@ -20,13 +20,21 @@
 			"outputs": ["dist/**"]
 		},
 		"test": {
-			"dependsOn": ["^build", "^test"]
+			"dependsOn": ["^test"]
 		},
 		"test:coverage": {
-			"dependsOn": ["^build", "^test"]
+			"dependsOn": ["^test"],
+			"outputs": ["coverage/**"]
 		},
 		"type-check": {
 			"dependsOn": ["^build"]
+		},
+		"typecheck": {
+			"dependsOn": ["^build"]
+		},
+		"check": {},
+		"check:fix": {
+			"cache": false
 		},
 		"lint": {},
 		"lint:fix": {
@@ -54,6 +62,15 @@
 			"cache": false
 		},
 		"//#clean": {
+			"cache": false
+		},
+		"generate": {
+			"cache": false
+		},
+		"remove-fill-icons": {
+			"cache": false
+		},
+		"remove-line-suffix": {
 			"cache": false
 		}
 	}
