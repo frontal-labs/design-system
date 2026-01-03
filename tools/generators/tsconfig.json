@@ -1,0 +1,15 @@
+{
+	"extends": "@frontal/typescript-config/bun.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"outDir": "./dist",
+		"allowImportingTsExtensions": true,
+		"types": ["bun"],
+		"paths": {
+			"@frontal/generators/*": ["./src/*"]
+		},
+		"typeRoots": ["./node_modules/@types", "../../node_modules/@types"]
+	},
+	"include": ["src/**/*", "tests/**/*.ts"],
+	"exclude": ["node_modules", "dist"]
+}

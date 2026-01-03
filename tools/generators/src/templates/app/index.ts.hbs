@@ -1,0 +1,33 @@
+{{#ifEquals type "api"}}/**
+ * {{packageName}}
+ * {{description}}
+ */
+
+import { Hono } from "hono";
+import { keys } from "./keys";
+import { registerRoutes } from "./routes";
+
+const app = new Hono();
+
+// Register routes
+registerRoutes(app);
+
+const PORT = {{port}};
+
+console.log(`🚀 {{name}} running on http://localhost:${PORT}`);
+
+export default {
+  port: PORT,
+  fetch: app.fetch,
+};
+{{else}}/**
+ * {{packageName}}
+ * {{description}}
+ */
+
+async function main() {
+  // TODO: Implement app worker logic
+}
+
+main().catch(console.error);
+{{/ifEquals}}

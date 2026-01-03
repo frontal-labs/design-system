@@ -1,0 +1,49 @@
+{
+	"name": "@frontal/design-system",
+	"description": "Frontal's centralized design system package - exports all design system packages",
+	"version": "0.0.1",
+	"private": true,
+	"type": "module",
+	"main": "./src/index.ts",
+	"module": "./src/index.ts",
+	"types": "./src/index.ts",
+	"exports": {
+		".": "./src/index.ts"
+	},
+	"scripts": {
+		"lint": "biome check",
+		"lint:fix": "biome check --write --unsafe",
+		"format": "biome format --write",
+		"check": "biome check",
+		"check:fix": "biome check --write",
+		"type-check": "tsc --noEmit",
+		"typecheck": "tsc --noEmit",
+		"clean": "git clean -xdf -- node_modules .next .cache"
+	},
+	"dependencies": {
+		"@frontal/blocks": "workspace:*",
+		"@frontal/charts": "workspace:*",
+		"@frontal/colors": "workspace:*",
+		"@frontal/components": "workspace:*",
+		"@frontal/icons": "workspace:*",
+		"@frontal/typeface": "workspace:*",
+		"@frontal/ui": "workspace:*"
+	},
+	"peerDependencies": {
+		"react": "^19.2.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.3.4",
+		"@types/node": "^24.7.0",
+		"@types/react": "^19.2.1",
+		"tsx": "^4.7.1",
+		"typescript": "^5.9.3"
+	},
+	"keywords": [
+		"design-system",
+		"frontal",
+		"ui",
+		"components",
+		"barrel"
+	]
+}
