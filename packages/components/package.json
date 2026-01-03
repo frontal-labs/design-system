@@ -11,6 +11,11 @@
 		".": "./src/index.ts",
 		"./styles.css": "./src/styles/styles.css"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/frontal-labs/design-system.git",
+		"directory": "packages/components"
+	},
 	"scripts": {
 		"lint": "biome check",
 		"lint:fix": "biome check --write --unsafe",
@@ -19,7 +24,7 @@
 		"check:fix": "biome check --write",
 		"type-check": "tsc --noEmit",
 		"typecheck": "tsc --noEmit",
-		"test": "bun test",
+		"test": "bun test tests/",
 		"clean": "git clean -xdf -- node_modules .next .cache"
 	},
 	"dependencies": {
