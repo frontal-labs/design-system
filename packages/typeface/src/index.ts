@@ -1,4 +1,4 @@
-import { cn } from "../utils";
+import { cn } from "./utils";
 import { MaisonNeue, MaisonNeueMono } from "./lib/fonts";
 
 export const fonts = cn(
