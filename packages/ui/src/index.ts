@@ -941,5 +941,8 @@ export {
 	type VideoProps,
 } from "./components/video";
 
+// Hooks
+export { useIsMobile } from "./hooks/use-is-mobile";
+
 // Utils
 export { cn } from "./utils";

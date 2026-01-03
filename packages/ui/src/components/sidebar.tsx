@@ -3,8 +3,6 @@
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
 import { SideBarIcon } from "@frontal/icons";
-import { useIsMobile } from "@frontal/react-media";
-import { cn } from "../utils";
 import { Slot } from "@radix-ui/react-slot";
 import { cva, type VariantProps } from "class-variance-authority";
 import {
@@ -18,6 +16,8 @@ import {
 	useMemo,
 	useState,
 } from "react";
+import { useIsMobile } from "../hooks/use-is-mobile";
+import { cn } from "../utils";
 import { Button } from "./button";
 import { Input } from "./input";
 import { Separator } from "./separator";
@@ -435,17 +435,20 @@ function SidebarGroupLabel({
 		"data-slot": "sidebar-group-label",
 	};
 
+	// Support render pattern (Base UI style) - must be called unconditionally
+	const renderResult = useRender({
+		defaultTagName: "div",
+		props: mergeProps(defaultProps, props),
+		render,
+	});
+
 	if (asChild) {
 		return (
 			<Slot {...mergeProps<"div">(defaultProps, props)}>{props.children}</Slot>
 		);
 	}
 
-	return useRender({
-		defaultTagName: "div",
-		props: mergeProps(defaultProps, props),
-		render,
-	});
+	return renderResult;
 }
 
 type SidebarGroupActionProps = useRender.ComponentProps<"button">;
@@ -566,14 +569,17 @@ function SidebarMenuButton({
 
 	const buttonProps = mergeProps<"button">(defaultProps, props);
 
+	// Support render pattern (Base UI style) - must be called unconditionally
+	const renderResult = useRender({
+		defaultTagName: "button",
+		props: buttonProps,
+		render,
+	});
+
 	const buttonElement = asChild ? (
 		<Slot {...buttonProps}>{props.children}</Slot>
 	) : (
-		useRender({
-			defaultTagName: "button",
-			props: buttonProps,
-			render,
-		})
+		renderResult
 	);
 
 	if (!tooltip) {
@@ -755,17 +761,20 @@ function SidebarMenuSubButton({
 		"data-slot": "sidebar-menu-sub-button",
 	};
 
+	// Support render pattern (Base UI style) - must be called unconditionally
+	const renderResult = useRender({
+		defaultTagName: "a",
+		props: mergeProps<"a">(defaultProps, props),
+		render,
+	});
+
 	if (asChild) {
 		return (
 			<Slot {...mergeProps<"a">(defaultProps, props)}>{props.children}</Slot>
 		);
 	}
 
-	return useRender({
-		defaultTagName: "a",
-		props: mergeProps<"a">(defaultProps, props),
-		render,
-	});
+	return renderResult;
 }
 
 export {
