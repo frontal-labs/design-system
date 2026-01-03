@@ -12,7 +12,6 @@
 		"jsx": "react-jsx",
 		"incremental": false,
 		"composite": false,
-		"types": ["bun-types"],
 		"lib": ["ES2022", "DOM", "DOM.Iterable"],
 		"paths": {
 			"@/*": ["./src/*"],

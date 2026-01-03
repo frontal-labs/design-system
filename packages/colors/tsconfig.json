@@ -10,7 +10,6 @@
 		"resolveJsonModule": true,
 		"isolatedModules": true,
 		"incremental": false,
-		"types": ["bun-types"],
 		"paths": {
 			"@/*": ["./src/*"],
 			"@frontal/*": ["../../*"],
