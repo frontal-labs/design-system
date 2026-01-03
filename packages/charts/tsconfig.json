@@ -1,5 +1,5 @@
 {
-	"extends": "@frontal/typescript-config/react.json",
+	"extends": "../../internal/typescript-config/react.json",
 	"compilerOptions": {
 		"baseUrl": ".",
 		"rootDir": ".",

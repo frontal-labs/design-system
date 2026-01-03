@@ -24,7 +24,6 @@
 		"clean": "git clean -xdf -- node_modules .next .cache"
 	},
 	"dependencies": {
-		"@frontal/shared": "workspace:*",
 		"next": "16.0.10"
 	},
 	"peerDependencies": {
@@ -32,7 +31,6 @@
 		"tailwindcss": ">=3.0.0 || insiders || >=4.0.0-alpha.20 || >=4.0.0-beta.1"
 	},
 	"devDependencies": {
-		"@frontal/typescript-config": "workspace:*",
 		"@biomejs/biome": "2.3.4",
 		"@types/node": "^24.7.0",
 		"@types/react": "^19.2.1",
