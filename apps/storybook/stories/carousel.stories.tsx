@@ -7,6 +7,11 @@ import {
 } from "@frontal/design-systemcarousel";
 import type { Meta, StoryObj } from "@storybook/react";
 
+const carouselItems = Array.from({ length: 5 }, (_, i) => ({
+	id: `item-${i + 1}`,
+	number: i + 1,
+}));
+
 /**
  * A carousel with motion and swipe built using Embla.
  */
@@ -21,10 +26,10 @@ const meta: Meta<typeof Carousel> = {
 	render: (args) => (
 		<Carousel {...args}>
 			<CarouselContent>
-				{Array.from({ length: 5 }).map((_, index) => (
-					<CarouselItem key={index}>
+				{carouselItems.map((item) => (
+					<CarouselItem key={item.id}>
 						<div className="flex aspect-square items-center justify-center rounded border bg-card p-6">
-							<span className="font-semibold text-4xl">{index + 1}</span>
+							<span className="font-semibold text-4xl">{item.number}</span>
 						</div>
 					</CarouselItem>
 				))}
@@ -50,14 +55,19 @@ export const Default: Story = {};
 /**
  * Use the `basis` utility class to change the size of the carousel.
  */
+const carouselSizeItems = Array.from({ length: 5 }, (_, i) => ({
+	id: `size-item-${i + 1}`,
+	number: i + 1,
+}));
+
 export const Size: Story = {
 	render: (args) => (
 		<Carousel {...args} className="mx-12 w-full max-w-xs">
 			<CarouselContent>
-				{Array.from({ length: 5 }).map((_, index) => (
-					<CarouselItem className="basis-1/3" key={index}>
+				{carouselSizeItems.map((item) => (
+					<CarouselItem className="basis-1/3" key={item.id}>
 						<div className="flex aspect-square items-center justify-center rounded border bg-card p-6">
-							<span className="font-semibold text-4xl">{index + 1}</span>
+							<span className="font-semibold text-4xl">{item.number}</span>
 						</div>
 					</CarouselItem>
 				))}
