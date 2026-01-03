@@ -1,6 +1,5 @@
 "use client";
 
-import { cn } from "../utils";
 import {
 	type ComponentProps,
 	type ComponentType,
@@ -12,6 +11,7 @@ import {
 	useMemo,
 } from "react";
 import * as RechartsPrimitive from "recharts";
+import { cn } from "../utils";
 
 // Format: { THEME_NAME: CSS_SELECTOR }
 const THEMES = { light: "", dark: ".dark" } as const;
@@ -88,6 +88,7 @@ const ChartStyle = ({ id, config }: { id: string; config: ChartConfig }) => {
 
 	return (
 		<style
+			// biome-ignore lint/security/noDangerouslySetInnerHtml: CSS variable injection for chart themes, content is sanitized
 			dangerouslySetInnerHTML={{
 				__html: Object.entries(THEMES)
 					.map(

@@ -2,8 +2,8 @@
 
 import { Menu as MenuPrimitive } from "@base-ui/react/menu";
 import { ArrowRightChevronIcon } from "@frontal/icons";
-import { cn } from "../utils";
 import type { ComponentProps } from "react";
+import { cn } from "../utils";
 
 const Menu = MenuPrimitive.Root;
 

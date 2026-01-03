@@ -1,8 +1,8 @@
 "use client";
 
 import { Input as InputPrimitive } from "@base-ui/react/input";
-import { cn } from "../utils";
 import type { RefAttributes } from "react";
+import { cn } from "../utils";
 
 type InputProps = Omit<
 	InputPrimitive.Props & RefAttributes<HTMLInputElement>,

@@ -2,7 +2,6 @@
 
 import { Combobox as ComboboxPrimitive } from "@base-ui/react/combobox";
 import { ArrowUpDownIcon, CloseIcon } from "@frontal/icons";
-import { cn } from "../utils";
 import {
 	createContext,
 	type ReactNode,
@@ -11,6 +10,7 @@ import {
 	useContext,
 	useRef,
 } from "react";
+import { cn } from "../utils";
 import { Input } from "./input";
 import { ScrollArea } from "./scroll-area";
 

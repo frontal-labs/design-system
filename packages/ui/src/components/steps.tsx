@@ -1,9 +1,9 @@
 "use client";
 
 import { CheckIcon } from "@frontal/icons";
-import { cn } from "../utils";
 import { cva, type VariantProps } from "class-variance-authority";
 import type { ComponentProps } from "react";
+import { cn } from "../utils";
 
 const stepsVariants = cva("flex", {
 	defaultVariants: {
@@ -17,7 +17,7 @@ const stepsVariants = cva("flex", {
 	},
 });
 
-type StepsProps = ComponentProps<"div"> & VariantProps<typeof stepsVariants>;
+type StepsProps = ComponentProps<"ol"> & VariantProps<typeof stepsVariants>;
 
 function Steps({
 	className,
@@ -25,10 +25,9 @@ function Steps({
 	...props
 }: StepsProps) {
 	return (
-		<div
+		<ol
 			className={cn(stepsVariants({ orientation }), className)}
 			data-slot="steps"
-			role="list"
 			{...props}
 		/>
 	);
@@ -52,7 +51,7 @@ const stepItemVariants = cva("flex items-center", {
 	},
 });
 
-type StepItemProps = ComponentProps<"div"> &
+type StepItemProps = ComponentProps<"li"> &
 	VariantProps<typeof stepItemVariants> & {
 		state?: "pending" | "active" | "completed";
 	};
@@ -64,11 +63,10 @@ function StepItem({
 	...props
 }: StepItemProps) {
 	return (
-		<div
+		<li
 			className={cn(stepItemVariants({ orientation, state }), className)}
 			data-slot="step-item"
 			data-state={state}
-			role="listitem"
 			{...props}
 		/>
 	);

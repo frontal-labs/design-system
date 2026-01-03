@@ -1,8 +1,8 @@
 "use client";
 
 import { AlertDialog as AlertDialogPrimitive } from "@base-ui/react/alert-dialog";
-import { cn } from "../utils";
 import type { ComponentProps } from "react";
+import { cn } from "../utils";
 
 const AlertDialog = AlertDialogPrimitive.Root;
 

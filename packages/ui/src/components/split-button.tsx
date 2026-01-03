@@ -1,8 +1,8 @@
 "use client";
 
 import { ArrowDownChevronIcon } from "@frontal/icons";
-import { cn } from "../utils";
 import type { ComponentProps, ReactNode } from "react";
+import { cn } from "../utils";
 import { Button, type ButtonProps } from "./button";
 import { Menu, MenuGroup, MenuItem, MenuPopup, MenuTrigger } from "./menu";
 
@@ -64,7 +64,7 @@ function SplitButton({
 					<MenuGroup>
 						{secondaryActions.map((action, index) => (
 							<MenuItem
-								key={index}
+								key={`${String(action.label)}-${index}`}
 								onClick={action.onClick}
 								variant={action.variant}
 							>

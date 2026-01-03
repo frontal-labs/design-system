@@ -1,7 +1,6 @@
 "use client";
 
 import { CloseIcon, UploadIcon } from "@frontal/icons";
-import { cn } from "../utils";
 import { cva, type VariantProps } from "class-variance-authority";
 import {
 	type ChangeEvent,
@@ -10,6 +9,7 @@ import {
 	useRef,
 	useState,
 } from "react";
+import { cn } from "../utils";
 import { Button } from "./button";
 import { Progress, ProgressIndicator, ProgressTrack } from "./progress";
 
@@ -247,7 +247,7 @@ function InputUpload({
 				<div className="flex flex-col gap-2" data-slot="input-upload-files">
 					{files.map((file, index) => (
 						<div
-							key={index}
+							key={`${file.name}-${file.size}-${index}`}
 							className="flex items-center justify-between gap-2 rounded-md border bg-background px-3 py-2"
 							data-slot="input-upload-file"
 						>

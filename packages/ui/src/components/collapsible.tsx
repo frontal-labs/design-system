@@ -1,9 +1,8 @@
 "use client";
 
 import { Collapsible as CollapsiblePrimitive } from "@base-ui/react/collapsible";
-import { cn } from "../utils";
-
 import { Slot } from "@radix-ui/react-slot";
+import { cn } from "../utils";
 
 type CollapsibleProps = Omit<CollapsiblePrimitive.Root.Props, "className"> & {
 	asChild?: boolean;

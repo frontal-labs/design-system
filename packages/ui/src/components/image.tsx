@@ -1,6 +1,5 @@
 "use client";
 
-import { cn } from "../utils";
 import {
 	type ComponentProps,
 	type ImgHTMLAttributes,
@@ -8,6 +7,7 @@ import {
 	type SyntheticEvent,
 	useState,
 } from "react";
+import { cn } from "../utils";
 import { Skeleton } from "./skeleton";
 
 type ImageProps = Omit<ImgHTMLAttributes<HTMLImageElement>, "loading"> &
@@ -63,6 +63,7 @@ function Image({
 					{fallback}
 				</div>
 			) : (
+				// biome-ignore lint/performance/noImgElement: Generic Image component for use outside Next.js contexts
 				<img
 					src={src}
 					alt={alt}

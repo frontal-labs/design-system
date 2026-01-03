@@ -2,7 +2,6 @@
 
 import { Dialog as CommandDialogPrimitive } from "@base-ui/react/dialog";
 import { SearchIcon } from "@frontal/icons";
-import { cn } from "../utils";
 import {
 	type ComponentProps,
 	createContext,
@@ -10,6 +9,7 @@ import {
 	useContext,
 	useRef,
 } from "react";
+import { cn } from "../utils";
 import {
 	Autocomplete,
 	AutocompleteCollection,

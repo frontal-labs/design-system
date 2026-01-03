@@ -2,8 +2,8 @@
 
 import { Dialog as SheetPrimitive } from "@base-ui/react/dialog";
 import { CloseIcon } from "@frontal/icons";
-import { cn } from "../utils";
 import type { ComponentProps } from "react";
+import { cn } from "../utils";
 import { Button } from "./button";
 import { ScrollArea } from "./scroll-area";
 

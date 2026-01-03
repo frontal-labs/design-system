@@ -1,6 +1,5 @@
 "use client";
 
-import { cn } from "../utils";
 import {
 	type ComponentProps,
 	type MouseEvent,
@@ -8,6 +7,7 @@ import {
 	useRef,
 	useState,
 } from "react";
+import { cn } from "../utils";
 import { Button } from "./button";
 
 type ImageCropperProps = ComponentProps<"div"> & {
@@ -208,6 +208,7 @@ function ImageCropper({
 				data-slot="image-cropper-container"
 			>
 				{imageSrc && (
+					// biome-ignore lint/performance/noImgElement: Canvas-based image cropper requires native img element
 					<img
 						src={imageSrc}
 						alt="Crop preview"
@@ -227,9 +228,10 @@ function ImageCropper({
 					data-slot="image-cropper-overlay"
 				>
 					<div className="absolute inset-0 grid grid-cols-3 grid-rows-3">
-						{Array.from({ length: 9 }).map((_, i) => (
+						{Array.from({ length: 9 }, (_, i) => (
 							<div
-								key={i}
+								// biome-ignore lint/suspicious/noArrayIndexKey: Static 3x3 grid, order never changes
+								key={`grid-cell-${i}`}
 								className="border border-primary/32"
 								data-slot="image-cropper-grid-cell"
 							/>

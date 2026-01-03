@@ -5,8 +5,8 @@ import {
 	ArrowRightChevronIcon,
 	MoreIcon,
 } from "@frontal/icons";
-import { cn } from "../utils";
 import type { ComponentProps } from "react";
+import { cn } from "../utils";
 import { type Button, buttonVariants } from "./button";
 
 type PaginationProps = ComponentProps<"nav">;

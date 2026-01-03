@@ -1,7 +1,7 @@
 "use client";
 
-import { cn } from "../utils";
 import { type SyntheticEvent, useState, type VideoHTMLAttributes } from "react";
+import { cn } from "../utils";
 import { Skeleton } from "./skeleton";
 
 type VideoProps = VideoHTMLAttributes<HTMLVideoElement> & {

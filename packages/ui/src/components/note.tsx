@@ -1,7 +1,7 @@
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
-import { cn } from "../utils";
 import { cva, type VariantProps } from "class-variance-authority";
+import { cn } from "../utils";
 
 const noteVariants = cva(
 	"relative flex w-full items-start gap-x-2 gap-y-1 rounded-lg border px-3.5 py-3 text-sm has-[>svg]:gap-x-2 [&>svg]:mt-0.5 [&>svg]:h-lh [&>svg]:w-4 [&>svg]:shrink-0",

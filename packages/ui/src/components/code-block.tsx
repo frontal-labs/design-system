@@ -3,9 +3,9 @@
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
 import { ClipboardIcon } from "@frontal/icons";
-import { cn } from "../utils";
 import { cva, type VariantProps } from "class-variance-authority";
 import { useState } from "react";
+import { cn } from "../utils";
 
 const codeBlockVariants = cva(
 	"relative w-full overflow-hidden rounded-lg border bg-muted font-mono text-sm",
@@ -139,14 +139,18 @@ function CodeBlockContent({
 							data-slot="code-block-line-numbers"
 						>
 							{lines.map((_, index) => (
-								<span key={index} className="block">
+								// biome-ignore lint/suspicious/noArrayIndexKey: Static code lines array, order never changes
+								<span key={`line-number-${index}`} className="block">
 									{String(index + 1).padStart(String(lineCount).length, " ")}
 								</span>
 							))}
 						</span>
 						<span className="flex-1">
 							{lines.map((line, index) => (
-								<span key={index} className="block">
+								<span
+									key={`line-content-${index}-${line?.slice(0, 20) || ""}-${line?.length || 0}`}
+									className="block"
+								>
 									{line || "\u00A0"}
 								</span>
 							))}

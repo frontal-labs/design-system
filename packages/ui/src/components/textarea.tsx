@@ -2,8 +2,8 @@
 
 import { Field as FieldPrimitive } from "@base-ui/react/field";
 import { mergeProps } from "@base-ui/react/merge-props";
-import { cn } from "../utils";
 import type { ComponentProps } from "react";
+import { cn } from "../utils";
 
 type TextareaProps = ComponentProps<"textarea"> & {
 	size?: "small" | "medium" | "large" | number;

@@ -1,8 +1,8 @@
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
-import { cn } from "../utils";
 import { cva, type VariantProps } from "class-variance-authority";
 import type { ComponentProps } from "react";
+import { cn } from "../utils";
 import { Separator } from "./separator";
 
 const groupVariants = cva(
@@ -22,19 +22,19 @@ const groupVariants = cva(
 	},
 );
 
-type GroupProps = ComponentProps<"div"> & VariantProps<typeof groupVariants>;
+type GroupProps = ComponentProps<"fieldset"> &
+	VariantProps<typeof groupVariants>;
 
 function Group({ className, orientation, children, ...props }: GroupProps) {
 	return (
-		<div
+		<fieldset
 			className={cn(groupVariants({ orientation }), className)}
 			data-orientation={orientation}
 			data-slot="group"
-			role="group"
 			{...props}
 		>
 			{children}
-		</div>
+		</fieldset>
 	);
 }
 

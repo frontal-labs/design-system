@@ -3,9 +3,9 @@
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
 import { ClipboardIcon } from "@frontal/icons";
-import { cn } from "../utils";
 import { cva, type VariantProps } from "class-variance-authority";
 import { useState } from "react";
+import { cn } from "../utils";
 
 const snippetVariants = cva(
 	"relative inline-flex items-center gap-2 rounded-md border bg-muted font-mono text-sm",

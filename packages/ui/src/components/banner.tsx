@@ -1,9 +1,9 @@
 "use client";
 
 import { CloseIcon } from "@frontal/icons";
-import { cn } from "../utils";
 import { cva, type VariantProps } from "class-variance-authority";
 import { type ComponentProps, useState } from "react";
+import { cn } from "../utils";
 import { Button } from "./button";
 
 const bannerVariants = cva(
@@ -52,10 +52,9 @@ function Banner({
 	}
 
 	return (
-		<div
+		<header
 			className={cn(bannerVariants({ variant }), className)}
 			data-slot="banner"
-			role="banner"
 			{...props}
 		>
 			{children}
@@ -71,7 +70,7 @@ function Banner({
 					<CloseIcon className="size-3.5" />
 				</Button>
 			)}
-		</div>
+		</header>
 	);
 }
 

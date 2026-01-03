@@ -1,8 +1,8 @@
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
-import { cn } from "../utils";
 import { cva, type VariantProps } from "class-variance-authority";
 import type { BlockquoteHTMLAttributes } from "react";
+import { cn } from "../utils";
 
 const blockquoteVariants = cva(
 	"relative border-l-2 pl-6 italic has-[>svg]:gap-x-2 [&>svg]:h-lh [&>svg]:w-4",

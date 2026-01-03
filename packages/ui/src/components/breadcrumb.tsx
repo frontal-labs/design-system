@@ -1,8 +1,8 @@
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
 import { ArrowRightChevronIcon, MoreIcon } from "@frontal/icons";
-import { cn } from "../utils";
 import type { ComponentProps } from "react";
+import { cn } from "../utils";
 
 type BreadcrumbProps = ComponentProps<"nav">;
 

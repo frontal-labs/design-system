@@ -1,7 +1,6 @@
 "use client";
 
 import { Form as FormPrimitive } from "@base-ui/react/form";
-import { cn } from "../utils";
 import {
 	Controller,
 	type ControllerProps,
@@ -10,6 +9,7 @@ import {
 	FormProvider,
 	useFormContext,
 } from "react-hook-form";
+import { cn } from "../utils";
 
 type FormProps = FormPrimitive.Props;
 
