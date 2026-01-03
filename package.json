@@ -5,17 +5,19 @@
 	"private": true,
 	"version": "5.2.2",
 	"type": "module",
-	"workspaces": [
-		"apps/*",
-		"example/*",
-		"internal/*",
-		"packages/*"
-	],
+	"engines": {
+		"bun": ">=1.1.0"
+	},
+	"packageManager": "bun@1.3.3",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/frontal-labs/design-system.git"
+	},
 	"scripts": {
 		"build": "bunx turbo build",
 		"bundle": "bunx turbo build:bundle",
-		"analyze": "build analyze",
-		"clean": "build clean",
+		"analyze": "bunx turbo analyze",
+		"clean": "bunx turbo clean",
 		"dev": "bunx turbo dev",
 		"lint": "bunx turbo lint",
 		"lint:fix": "bunx turbo lint --fix",
@@ -31,6 +33,7 @@
 		"postinstall": "bunx patch-package || true"
 	},
 	"devDependencies": {
+		"@frontal/typescript-config": "workspace:*",
 		"@auto-it/first-time-contributor": "^11.3.0",
 		"@biomejs/biome": "2.3.1",
 		"@changesets/cli": "^2.27.1",
@@ -46,18 +49,17 @@
 		"typescript": "^5.9.3",
 		"vitest": "^4.0.3"
 	},
-	"engines": {
-		"bun": ">=1.1.0"
-	},
-	"packageManager": "bun@1.3.3",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/frontal-labs/design-system.git"
-	},
 	"dependencies": {
 		"@clack/prompts": "^0.11.0",
 		"commander": "^14.0.2"
 	},
+	"workspaces": [
+		"apps/*",
+		"example/*",
+		"internal/*",
+		"packages/*",
+		"tools/*"
+	],
 	"keywords": [
 		"frontal",
 		"design",
