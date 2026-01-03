@@ -1,0 +1,12 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "Root",
+	"extends": "./base.json",
+	"compilerOptions": {
+		"lib": ["ESNext", "DOM"],
+		"forceConsistentCasingInFileNames": true,
+		"noEmit": true
+	},
+	"include": ["**/*"],
+	"exclude": ["node_modules", "dist", "build", ".turbo", "**/generated"]
+}
