@@ -1,0 +1,45 @@
+# Source files (keep only built dist)
+src/
+*.ts
+!*.d.ts
+
+# Development files
+node_modules/
+.turbo/
+*.tsbuildinfo
+tsconfig.json
+turbo.json
+icon.schema.json
+
+# Testing
+coverage/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+tests/
+
+# Documentation
+*.md
+!README.md
+
+# Git
+.git/
+.gitignore
+
+# Environment
+.env
+.env*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Icon source files
+icons/
+scripts/
+

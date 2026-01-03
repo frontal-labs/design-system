@@ -1,0 +1,41 @@
+# Source files (keep only built dist)
+src/
+*.ts
+!*.d.ts
+
+# Development files
+node_modules/
+.turbo/
+*.tsbuildinfo
+tsconfig.json
+turbo.json
+
+# Testing
+coverage/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+tests/
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Git
+.git/
+.gitignore
+
+# Environment
+.env
+.env*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
