@@ -4,6 +4,10 @@
 	"version": "0.0.1",
 	"private": true,
 	"type": "module",
+	"packageManager": "bun@1.3.3",
+	"engines": {
+		"bun": ">=1.1.0"
+	},
 	"main": "./dist/index.cjs",
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
@@ -18,6 +22,8 @@
 		"directory": "packages/colors"
 	},
 	"scripts": {
+		"build": "bunx @frontal/builder build -t colors",
+		"build:bundle": "bunx @frontal/builder bundle -t colors",
 		"lint": "biome check",
 		"lint:fix": "biome check --write --unsafe",
 		"format": "biome format --write",
@@ -44,8 +50,5 @@
 		"colors",
 		"design-tokens",
 		"theme"
-	],
-	"engines": {
-		"node": ">=18.0.0"
-	}
+	]
 }
