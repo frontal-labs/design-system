@@ -1,5 +1,5 @@
-import { cn } from "./utils";
 import { MaisonNeue, MaisonNeueMono } from "./lib/fonts";
+import { cn } from "./utils";
 
 export const fonts = cn(
 	MaisonNeue.variable,
