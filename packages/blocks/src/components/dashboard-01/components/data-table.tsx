@@ -19,7 +19,6 @@ import {
 	verticalListSortingStrategy,
 } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
-import { useIsMobile } from "@frontal/react-media";
 import {
 	Badge,
 	Button,
@@ -60,6 +59,7 @@ import {
 	TabsContent,
 	TabsList,
 	TabsTrigger,
+	useIsMobile,
 } from "@frontal/ui";
 import {
 	IconChevronDown,

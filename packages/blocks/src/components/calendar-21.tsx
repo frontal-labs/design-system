@@ -1,8 +1,9 @@
 "use client";
 
 import { Calendar } from "@frontal/ui";
+import type { ButtonHTMLAttributes } from "react";
 import * as React from "react";
-import type { DateRange } from "react-day-picker";
+import type { CalendarDay, DateRange, Modifiers } from "react-day-picker";
 
 function DayButton({
 	children,
@@ -10,11 +11,9 @@ function DayButton({
 	day,
 	...props
 }: {
-	children: React.ReactNode;
-	modifiers: { outside?: boolean };
-	day: { date: Date };
-	[key: string]: unknown;
-}) {
+	day: CalendarDay;
+	modifiers: Modifiers;
+} & ButtonHTMLAttributes<HTMLButtonElement>) {
 	const isWeekend = day.date.getDay() === 0 || day.date.getDay() === 6;
 
 	return (

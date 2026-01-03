@@ -1,4 +1,3 @@
-import { cn } from "@frontal/ui/utils";
 import {
 	Button,
 	Card,
@@ -6,6 +5,7 @@ import {
 	CardDescription,
 	CardHeader,
 	CardTitle,
+	cn,
 	Field,
 	FieldDescription,
 	FieldLabel,

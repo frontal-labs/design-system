@@ -1,6 +1,5 @@
 "use client";
 
-import { useIsMobile } from "@frontal/react-media";
 import {
 	Card,
 	CardAction,
@@ -19,6 +18,7 @@ import {
 	SelectValue,
 	ToggleGroup,
 	ToggleGroupItem,
+	useIsMobile,
 } from "@frontal/ui";
 import * as React from "react";
 import { Area, AreaChart, CartesianGrid, XAxis } from "recharts";

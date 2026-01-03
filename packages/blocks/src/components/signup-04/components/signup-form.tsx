@@ -1,8 +1,8 @@
-import { cn } from "@frontal/ui/utils";
 import {
 	Button,
 	Card,
 	CardContent,
+	cn,
 	Field,
 	FieldDescription,
 	FieldLabel,

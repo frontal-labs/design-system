@@ -1,6 +1,6 @@
-import { cn } from "@frontal/ui/utils";
 import {
 	Button,
+	cn,
 	Field,
 	FieldDescription,
 	FieldLabel,
