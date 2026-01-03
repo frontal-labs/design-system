@@ -28,7 +28,7 @@
 		"changeset": "changeset",
 		"version": "changeset version",
 		"release": "changeset publish",
-		"postinstall": "patch-package"
+		"postinstall": "bunx patch-package || true"
 	},
 	"devDependencies": {
 		"@auto-it/first-time-contributor": "^11.3.0",
