@@ -15,6 +15,10 @@
 				"dist/**"
 			]
 		},
+		"build:bundle": {
+			"dependsOn": ["^build"],
+			"outputs": ["dist/**"]
+		},
 		"test": {
 			"dependsOn": ["^build", "^test"]
 		},
@@ -25,6 +29,15 @@
 			"dependsOn": ["^build"]
 		},
 		"lint": {},
+		"lint:fix": {
+			"cache": false
+		},
+		"spell": {
+			"cache": false
+		},
+		"spell:fix": {
+			"cache": false
+		},
 		"format": {},
 		"analyze": {
 			"dependsOn": ["^analyze"]
