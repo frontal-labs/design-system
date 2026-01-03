@@ -1,7 +1,8 @@
+import { config } from "@frontal/next-config";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-	reactStrictMode: true,
+	...config,
 };
 
 export default nextConfig;
