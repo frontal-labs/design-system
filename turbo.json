@@ -21,6 +21,11 @@
 		"test:coverage": {
 			"dependsOn": ["^build", "^test"]
 		},
+		"type-check": {
+			"dependsOn": ["^build"]
+		},
+		"lint": {},
+		"format": {},
 		"analyze": {
 			"dependsOn": ["^analyze"]
 		},
