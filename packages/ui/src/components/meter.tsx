@@ -1,9 +1,11 @@
 "use client";
 
-import { MeterPrimitive } from "@frontal/primitives";
+import { Meter as MeterPrimitive } from "@base-ui/react/meter";
 import { cn } from "@frontal/shared";
 
-function Meter({ className, children, ...props }: MeterPrimitive.Root.Props) {
+type MeterProps = MeterPrimitive.Root.Props;
+
+function Meter({ className, children, ...props }: MeterProps) {
 	return (
 		<MeterPrimitive.Root
 			className={cn("flex w-full flex-col gap-2", className)}
@@ -20,7 +22,9 @@ function Meter({ className, children, ...props }: MeterPrimitive.Root.Props) {
 	);
 }
 
-function MeterLabel({ className, ...props }: MeterPrimitive.Label.Props) {
+type MeterLabelProps = MeterPrimitive.Label.Props;
+
+function MeterLabel({ className, ...props }: MeterLabelProps) {
 	return (
 		<MeterPrimitive.Label
 			className={cn("font-medium text-sm", className)}
@@ -30,7 +34,9 @@ function MeterLabel({ className, ...props }: MeterPrimitive.Label.Props) {
 	);
 }
 
-function MeterTrack({ className, ...props }: MeterPrimitive.Track.Props) {
+type MeterTrackProps = MeterPrimitive.Track.Props;
+
+function MeterTrack({ className, ...props }: MeterTrackProps) {
 	return (
 		<MeterPrimitive.Track
 			className={cn("block h-2 w-full overflow-hidden bg-input", className)}
@@ -40,10 +46,9 @@ function MeterTrack({ className, ...props }: MeterPrimitive.Track.Props) {
 	);
 }
 
-function MeterIndicator({
-	className,
-	...props
-}: MeterPrimitive.Indicator.Props) {
+type MeterIndicatorProps = MeterPrimitive.Indicator.Props;
+
+function MeterIndicator({ className, ...props }: MeterIndicatorProps) {
 	return (
 		<MeterPrimitive.Indicator
 			className={cn("bg-primary transition-all duration-500", className)}
@@ -53,7 +58,9 @@ function MeterIndicator({
 	);
 }
 
-function MeterValue({ className, ...props }: MeterPrimitive.Value.Props) {
+type MeterValueProps = MeterPrimitive.Value.Props;
+
+function MeterValue({ className, ...props }: MeterValueProps) {
 	return (
 		<MeterPrimitive.Value
 			className={cn("text-sm tabular-nums", className)}
@@ -63,4 +70,15 @@ function MeterValue({ className, ...props }: MeterPrimitive.Value.Props) {
 	);
 }
 
-export { Meter, MeterLabel, MeterTrack, MeterIndicator, MeterValue };
+export {
+	Meter,
+	MeterLabel,
+	MeterTrack,
+	MeterIndicator,
+	MeterValue,
+	type MeterProps,
+	type MeterLabelProps,
+	type MeterTrackProps,
+	type MeterIndicatorProps,
+	type MeterValueProps,
+};

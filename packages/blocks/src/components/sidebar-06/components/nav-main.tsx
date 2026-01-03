@@ -1,20 +1,17 @@
 "use client";
 
-import { type LucideIcon, MoreHorizontal } from "@frontal/icons";
-
+import { type IconComponent, MoreIcon } from "@frontal/icons";
 import {
 	DropdownMenu,
 	DropdownMenuContent,
 	DropdownMenuItem,
 	DropdownMenuTrigger,
-} from "@/registry/new-york-v4/ui/dropdown-menu";
-import {
 	SidebarGroup,
 	SidebarMenu,
 	SidebarMenuButton,
 	SidebarMenuItem,
 	useSidebar,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
 
 export function NavMain({
 	items,
@@ -40,7 +37,7 @@ export function NavMain({
 						<SidebarMenuItem>
 							<DropdownMenuTrigger asChild>
 								<SidebarMenuButton className="data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground">
-									{item.title} <MoreHorizontal className="ml-auto" />
+									{item.title} <MoreIcon className="ml-auto" />
 								</SidebarMenuButton>
 							</DropdownMenuTrigger>
 							{item.items?.length ? (

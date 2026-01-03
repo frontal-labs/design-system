@@ -9,7 +9,7 @@ The `@frontal/charts` package provides a comprehensive collection of chart and d
 This package is part of the Frontal monorepo and is available as a workspace dependency.
 
 ```bash
-pnpm install @frontal/charts
+bun install @frontal/charts
 ```
 
 ## Available Chart Types

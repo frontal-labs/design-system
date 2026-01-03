@@ -53,5 +53,5 @@ export function extractIconName(componentName: string): string {
  */
 export function extractCategory(path: string): string {
 	const parts = path.split("/");
-	return parts.length > 1 ? parts[0] : "Other";
+	return parts.length > 1 ? (parts[0] ?? "Other") : "Other";
 }

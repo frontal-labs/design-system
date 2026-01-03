@@ -1,13 +1,10 @@
 "use client";
 
-import { ChevronRight, type IconComponent } from "@frontal/icons";
-
+import { ArrowRightChevronIcon, type IconComponent } from "@frontal/icons";
 import {
 	Collapsible,
 	CollapsibleContent,
 	CollapsibleTrigger,
-} from "@/registry/new-york-v4/ui/collapsible";
-import {
 	SidebarGroup,
 	SidebarGroupLabel,
 	SidebarMenu,
@@ -16,7 +13,7 @@ import {
 	SidebarMenuSub,
 	SidebarMenuSubButton,
 	SidebarMenuSubItem,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
 
 export function NavMain({
 	items,
@@ -48,7 +45,7 @@ export function NavMain({
 								<SidebarMenuButton tooltip={item.title}>
 									{item.icon && <item.icon />}
 									<span>{item.title}</span>
-									<ChevronRight className="ml-auto transition-transform duration-200 group-data-[state=open]/collapsible:rotate-90" />
+									<ArrowRightChevronIcon className="ml-auto transition-transform duration-200 group-data-[state=open]/collapsible:rotate-90" />
 								</SidebarMenuButton>
 							</CollapsibleTrigger>
 							<CollapsibleContent>

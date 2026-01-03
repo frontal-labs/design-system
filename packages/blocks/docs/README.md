@@ -9,7 +9,7 @@ The `@frontal/blocks` package provides a comprehensive collection of pre-built U
 This package is part of the Frontal monorepo and is available as a workspace dependency.
 
 ```bash
-pnpm install @frontal/blocks
+bun install @frontal/blocks
 ```
 
 ## Available Blocks

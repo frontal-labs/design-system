@@ -1,17 +1,16 @@
 "use client";
 
-import * as React from "react";
-
-import { Button } from "@/registry/new-york-v4/ui/button";
-import { Calendar } from "@/registry/new-york-v4/ui/calendar";
 import {
+	Button,
+	Calendar,
 	Card,
 	CardAction,
 	CardContent,
 	CardDescription,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
+} from "@frontal/ui";
+import * as React from "react";
 
 export default function Calendar10() {
 	const [date, setDate] = React.useState<Date | undefined>(
@@ -26,7 +25,7 @@ export default function Calendar10() {
 				<CardDescription>Find a date</CardDescription>
 				<CardAction>
 					<Button
-						size="sm"
+						size="small"
 						variant="outline"
 						onClick={() => {
 							setMonth(new Date());

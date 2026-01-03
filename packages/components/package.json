@@ -1,0 +1,51 @@
+{
+	"name": "@frontal/components",
+	"description": "Frontal's UI components",
+	"version": "0.0.1",
+	"private": true,
+	"type": "module",
+	"main": "./src/index.ts",
+	"module": "./src/index.ts",
+	"types": "./src/index.ts",
+	"exports": {
+		".": "./src/index.ts",
+		"./styles.css": "./src/styles/styles.css"
+	},
+	"scripts": {
+		"lint": "biome check",
+		"lint:fix": "biome check --write --unsafe",
+		"format": "biome format --write",
+		"check": "biome check",
+		"check:fix": "biome check --write",
+		"type-check": "tsc --noEmit",
+		"typecheck": "tsc --noEmit",
+		"test": "bun test",
+		"clean": "git clean -xdf -- node_modules .next .cache"
+	},
+	"dependencies": {
+		"@frontal/icons": "workspace:*"
+	},
+	"peerDependencies": {
+		"react": "^19.2.0"
+	},
+	"devDependencies": {
+		"@frontal/typescript-config": "workspace:*",
+		"@biomejs/biome": "2.3.4",
+		"@tailwindcss/postcss": "^4.1.14",
+		"@types/node": "^24.7.0",
+		"@types/react": "^19.2.1",
+		"jsdom": "^25.0.0",
+		"tsx": "^4.7.1",
+		"tailwindcss": "^4.1.14",
+		"postcss": "^8.5.6",
+		"puppeteer": "^24.26.1",
+		"typescript": "^5.9.3"
+	},
+	"keywords": [
+		"components",
+		"ui"
+	],
+	"engines": {
+		"node": ">=18.0.0"
+	}
+}

@@ -1,17 +1,16 @@
 "use client";
 
-import { ChevronDownIcon } from "@frontal/icons";
-import * as React from "react";
-import type { DateRange } from "react-day-picker";
-
-import { Button } from "@/registry/new-york-v4/ui/button";
-import { Calendar } from "@/registry/new-york-v4/ui/calendar";
-import { Label } from "@/registry/new-york-v4/ui/label";
+import { ArrowDownChevronIcon } from "@frontal/icons";
 import {
+	Button,
+	Calendar,
+	Label,
 	Popover,
 	PopoverContent,
 	PopoverTrigger,
-} from "@/registry/new-york-v4/ui/popover";
+} from "@frontal/ui";
+import * as React from "react";
+import type { DateRange } from "react-day-picker";
 
 export default function Calendar23() {
 	const [range, setRange] = React.useState<DateRange | undefined>(undefined);
@@ -31,7 +30,7 @@ export default function Calendar23() {
 						{range?.from && range?.to
 							? `${range.from.toLocaleDateString()} - ${range.to.toLocaleDateString()}`
 							: "Select date"}
-						<ChevronDownIcon />
+						<ArrowDownChevronIcon />
 					</Button>
 				</PopoverTrigger>
 				<PopoverContent className="w-auto overflow-hidden p-0" align="start">

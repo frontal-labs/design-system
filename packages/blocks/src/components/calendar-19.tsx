@@ -1,11 +1,8 @@
 "use client";
 
+import { Button, Calendar, Card, CardContent, CardFooter } from "@frontal/ui";
 import { addDays } from "date-fns";
 import * as React from "react";
-
-import { Button } from "@/registry/new-york-v4/ui/button";
-import { Calendar } from "@/registry/new-york-v4/ui/calendar";
-import { Card, CardContent, CardFooter } from "@/registry/new-york-v4/ui/card";
 
 export default function Calendar19() {
 	const [date, setDate] = React.useState<Date | undefined>(
@@ -23,7 +20,7 @@ export default function Calendar19() {
 					className="bg-transparent p-0 [--cell-size:--spacing(9.5)]"
 				/>
 			</CardContent>
-			<CardFooter className="flex flex-wrap gap-2 border-t px-4 !pt-4">
+			<CardFooter className="!pt-4 flex flex-wrap gap-2 border-t px-4">
 				{[
 					{ label: "Today", value: 0 },
 					{ label: "Tomorrow", value: 1 },
@@ -34,7 +31,7 @@ export default function Calendar19() {
 					<Button
 						key={preset.value}
 						variant="outline"
-						size="sm"
+						size="small"
 						className="flex-1"
 						onClick={() => {
 							const newDate = addDays(new Date(), preset.value);

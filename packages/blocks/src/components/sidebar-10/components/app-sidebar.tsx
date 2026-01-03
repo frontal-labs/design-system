@@ -1,56 +1,55 @@
 "use client";
 
+import { NavFavorites } from "@frontal/blocks/sidebar-10/components/nav-favorites";
+import { NavMain } from "@frontal/blocks/sidebar-10/components/nav-main";
+import { NavSecondary } from "@frontal/blocks/sidebar-10/components/nav-secondary";
+import { NavWorkspaces } from "@frontal/blocks/sidebar-10/components/nav-workspaces";
+import { TeamSwitcher } from "@frontal/blocks/sidebar-10/components/team-switcher";
 import {
-	AudioWaveform,
-	Blocks,
-	Calendar,
-	Command,
-	Home,
-	Inbox,
-	MessageCircleQuestion,
-	Search,
-	Settings2,
-	Sparkles,
-	Trash2,
+	AudioLinesIcon,
+	AppsIcon as Blocks,
+	CalendarIcon as Calendar,
+	CommandIcon,
+	DeleteBinIcon,
+	HomeIcon,
+	InboxIcon,
+	QuestionAnswerIcon as MessageCircleQuestion,
+	SearchIcon,
+	SettingsIcon,
+	SparklingIcon as Sparkles,
 } from "@frontal/icons";
-import type * as React from "react";
-
-import { NavFavorites } from "@/registry/new-york-v4/blocks/sidebar-10/components/nav-favorites";
-import { NavMain } from "@/registry/new-york-v4/blocks/sidebar-10/components/nav-main";
-import { NavSecondary } from "@/registry/new-york-v4/blocks/sidebar-10/components/nav-secondary";
-import { NavWorkspaces } from "@/registry/new-york-v4/blocks/sidebar-10/components/nav-workspaces";
-import { TeamSwitcher } from "@/registry/new-york-v4/blocks/sidebar-10/components/team-switcher";
 import {
 	Sidebar,
 	SidebarContent,
 	SidebarHeader,
 	SidebarRail,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
+import type * as React from "react";
 
 // This is sample data.
 const data = {
 	teams: [
 		{
 			name: "Acme Inc",
-			logo: Command,
+			logo: CommandIcon,
 			plan: "Enterprise",
 		},
 		{
 			name: "Acme Corp.",
-			logo: AudioWaveform,
+			logo: AudioLinesIcon,
 			plan: "Startup",
 		},
 		{
 			name: "Evil Corp.",
-			logo: Command,
+			logo: CommandIcon,
 			plan: "Free",
 		},
 	],
 	navMain: [
 		{
-			title: "Search",
+			title: "SearchIcon",
 			url: "#",
-			icon: Search,
+			icon: SearchIcon,
 		},
 		{
 			title: "Ask AI",
@@ -58,15 +57,15 @@ const data = {
 			icon: Sparkles,
 		},
 		{
-			title: "Home",
+			title: "HomeIcon",
 			url: "#",
-			icon: Home,
+			icon: HomeIcon,
 			isActive: true,
 		},
 		{
-			title: "Inbox",
+			title: "InboxIcon",
 			url: "#",
-			icon: Inbox,
+			icon: InboxIcon,
 			badge: "10",
 		},
 	],
@@ -77,9 +76,9 @@ const data = {
 			icon: Calendar,
 		},
 		{
-			title: "Settings",
+			title: "SettingsIcon",
 			url: "#",
-			icon: Settings2,
+			icon: SettingsIcon,
 		},
 		{
 			title: "Templates",
@@ -89,7 +88,7 @@ const data = {
 		{
 			title: "Trash",
 			url: "#",
-			icon: Trash2,
+			icon: DeleteBinIcon,
 		},
 		{
 			title: "Help",
@@ -129,7 +128,7 @@ const data = {
 			emoji: "🗣️",
 		},
 		{
-			name: "Home Renovation Ideas & Budget Tracker",
+			name: "HomeIcon Renovation Ideas & Budget Tracker",
 			url: "#",
 			emoji: "🏠",
 		},
@@ -214,7 +213,7 @@ const data = {
 			],
 		},
 		{
-			name: "Home Management",
+			name: "HomeIcon Management",
 			emoji: "🏡",
 			pages: [
 				{
@@ -223,7 +222,7 @@ const data = {
 					emoji: "💰",
 				},
 				{
-					name: "Home Maintenance Schedule & Tasks",
+					name: "HomeIcon Maintenance Schedule & Tasks",
 					url: "#",
 					emoji: "🔧",
 				},

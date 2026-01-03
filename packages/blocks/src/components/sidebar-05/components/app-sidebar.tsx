@@ -1,13 +1,9 @@
-import { GalleryVerticalEnd, Minus, Plus } from "@frontal/icons";
-import type * as React from "react";
-
-import { SearchForm } from "@/registry/new-york-v4/blocks/sidebar-05/components/search-form";
+import { SearchForm } from "@frontal/blocks/sidebar-05/components/search-form";
+import { AddIcon, MoreVariantIcon, SubtractIcon } from "@frontal/icons";
 import {
 	Collapsible,
 	CollapsibleContent,
 	CollapsibleTrigger,
-} from "@/registry/new-york-v4/ui/collapsible";
-import {
 	Sidebar,
 	SidebarContent,
 	SidebarGroup,
@@ -19,7 +15,8 @@ import {
 	SidebarMenuSubButton,
 	SidebarMenuSubItem,
 	SidebarRail,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
+import type * as React from "react";
 
 // This is sample data.
 const data = {
@@ -102,7 +99,7 @@ const data = {
 					url: "#",
 				},
 				{
-					title: "File Conventions",
+					title: "FileIcon Conventions",
 					url: "#",
 				},
 				{
@@ -168,10 +165,10 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 			<SidebarHeader>
 				<SidebarMenu>
 					<SidebarMenuItem>
-						<SidebarMenuButton size="lg" asChild>
-							<a href="#">
-								<div className="bg-sidebar-primary text-sidebar-primary-foreground flex aspect-square size-8 items-center justify-center rounded-lg">
-									<GalleryVerticalEnd className="size-4" />
+						<SidebarMenuButton size="large" asChild>
+							<a href="/sign-in">
+								<div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
+									<MoreVariantIcon className="size-4" />
 								</div>
 								<div className="flex flex-col gap-0.5 leading-none">
 									<span className="font-medium">Documentation</span>
@@ -196,8 +193,8 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 									<CollapsibleTrigger asChild>
 										<SidebarMenuButton>
 											{item.title}{" "}
-											<Plus className="ml-auto group-data-[state=open]/collapsible:hidden" />
-											<Minus className="ml-auto group-data-[state=closed]/collapsible:hidden" />
+											<AddIcon className="ml-auto group-data-[state=open]/collapsible:hidden" />
+											<SubtractIcon className="ml-auto group-data-[state=closed]/collapsible:hidden" />
 										</SidebarMenuButton>
 									</CollapsibleTrigger>
 									{item.items?.length ? (

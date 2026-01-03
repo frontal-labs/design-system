@@ -1,7 +1,7 @@
-import { twMerge } from "tailwind-merge";
+import { cn } from "@frontal/shared";
 import { MaisonNeue, MaisonNeueMono } from "./lib/fonts";
 
-export const fonts = twMerge(
+export const fonts = cn(
 	MaisonNeue.variable,
 	MaisonNeueMono.variable,
 	"touch-manipulation font-sans leading-normal antialiased",

@@ -1,31 +1,26 @@
 "use client";
 
 import {
-	ArrowDown,
-	ArrowUp,
-	Bell,
-	Copy,
-	CornerUpLeft,
-	CornerUpRight,
-	FileText,
-	GalleryVerticalEnd,
-	LineChart,
-	Link,
-	MoreHorizontal,
-	Settings2,
-	Star,
-	Trash,
-	Trash2,
+	ArrowDownIcon,
+	ArrowUpIcon,
+	BellIcon,
+	CornerUpLeftIcon,
+	CornerUpRightIcon,
+	DeleteBinIcon,
+	FileCopyIcon,
+	FileTextIcon,
+	LineChartIcon,
+	LinkIcon,
+	MoreIcon,
+	MoreVariantIcon,
+	SettingsIcon,
+	StarIcon,
 } from "@frontal/icons";
-import * as React from "react";
-
-import { Button } from "@/registry/new-york-v4/ui/button";
 import {
+	Button,
 	Popover,
 	PopoverContent,
 	PopoverTrigger,
-} from "@/registry/new-york-v4/ui/popover";
-import {
 	Sidebar,
 	SidebarContent,
 	SidebarGroup,
@@ -33,67 +28,68 @@ import {
 	SidebarMenu,
 	SidebarMenuButton,
 	SidebarMenuItem,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
+import * as React from "react";
 
 const data = [
 	[
 		{
 			label: "Customize Page",
-			icon: Settings2,
+			icon: SettingsIcon,
 		},
 		{
 			label: "Turn into wiki",
-			icon: FileText,
+			icon: FileTextIcon,
 		},
 	],
 	[
 		{
-			label: "Copy Link",
-			icon: Link,
+			label: "FileCopyIcon LinkIcon",
+			icon: LinkIcon,
 		},
 		{
 			label: "Duplicate",
-			icon: Copy,
+			icon: FileCopyIcon,
 		},
 		{
 			label: "Move to",
-			icon: CornerUpRight,
+			icon: CornerUpRightIcon,
 		},
 		{
-			label: "Move to Trash",
-			icon: Trash2,
+			label: "Move to DeleteBinIcon",
+			icon: DeleteBinIcon,
 		},
 	],
 	[
 		{
 			label: "Undo",
-			icon: CornerUpLeft,
+			icon: CornerUpLeftIcon,
 		},
 		{
 			label: "View analytics",
-			icon: LineChart,
+			icon: LineChartIcon,
 		},
 		{
 			label: "Version History",
-			icon: GalleryVerticalEnd,
+			icon: MoreVariantIcon,
 		},
 		{
 			label: "Show delete pages",
-			icon: Trash,
+			icon: DeleteBinIcon,
 		},
 		{
 			label: "Notifications",
-			icon: Bell,
+			icon: BellIcon,
 		},
 	],
 	[
 		{
 			label: "Import",
-			icon: ArrowUp,
+			icon: ArrowUpIcon,
 		},
 		{
 			label: "Export",
-			icon: ArrowDown,
+			icon: ArrowDownIcon,
 		},
 	],
 ];
@@ -107,20 +103,20 @@ export function NavActions() {
 
 	return (
 		<div className="flex items-center gap-2 text-sm">
-			<div className="text-muted-foreground hidden font-medium md:inline-block">
+			<div className="hidden font-medium text-muted-foreground md:inline-block">
 				Edit Oct 08
 			</div>
 			<Button variant="ghost" size="icon" className="h-7 w-7">
-				<Star />
+				<StarIcon />
 			</Button>
 			<Popover open={isOpen} onOpenChange={setIsOpen}>
 				<PopoverTrigger asChild>
 					<Button
 						variant="ghost"
 						size="icon"
-						className="data-[state=open]:bg-accent h-7 w-7"
+						className="h-7 w-7 data-[state=open]:bg-accent"
 					>
-						<MoreHorizontal />
+						<MoreIcon />
 					</Button>
 				</PopoverTrigger>
 				<PopoverContent
@@ -129,21 +125,27 @@ export function NavActions() {
 				>
 					<Sidebar collapsible="none" className="bg-transparent">
 						<SidebarContent>
-							{data.map((group, index) => (
-								<SidebarGroup key={index} className="border-b last:border-none">
-									<SidebarGroupContent className="gap-0">
-										<SidebarMenu>
-											{group.map((item, index) => (
-												<SidebarMenuItem key={index}>
-													<SidebarMenuButton>
-														<item.icon /> <span>{item.label}</span>
-													</SidebarMenuButton>
-												</SidebarMenuItem>
-											))}
-										</SidebarMenu>
-									</SidebarGroupContent>
-								</SidebarGroup>
-							))}
+							{data.map((group) => {
+								const groupKey = group.map((item) => item.label).join("-");
+								return (
+									<SidebarGroup
+										key={groupKey}
+										className="border-b last:border-none"
+									>
+										<SidebarGroupContent className="gap-0">
+											<SidebarMenu>
+												{group.map((item) => (
+													<SidebarMenuItem key={item.label}>
+														<SidebarMenuButton>
+															<item.icon /> <span>{item.label}</span>
+														</SidebarMenuButton>
+													</SidebarMenuItem>
+												))}
+											</SidebarMenu>
+										</SidebarGroupContent>
+									</SidebarGroup>
+								);
+							})}
 						</SidebarContent>
 					</Sidebar>
 				</PopoverContent>

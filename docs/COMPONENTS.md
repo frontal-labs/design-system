@@ -200,7 +200,7 @@ Components can be styled using:
 
 ## See Also
 
-- [UI Package Documentation](./packages/ui.md)
-- [Getting Started Guide](./getting-started.md)
+- [UI Package Documentation](./packages/UI.md)
+- [Getting Started Guide](./GETTING-STARTED.md)
 - [Storybook](../storybook/) for interactive examples
 

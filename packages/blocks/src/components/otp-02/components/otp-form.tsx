@@ -1,26 +1,24 @@
-import { cn } from "@/registry/new-york-v4/lib/utils";
-import { Button } from "@/registry/new-york-v4/ui/button";
+import { cn } from "@frontal/shared";
 import {
+	Button,
 	Field,
 	FieldDescription,
-	FieldGroup,
 	FieldLabel,
-} from "@/registry/new-york-v4/ui/field";
-import {
+	Fieldset,
 	InputOTP,
 	InputOTPGroup,
 	InputOTPSeparator,
 	InputOTPSlot,
-} from "@/registry/new-york-v4/ui/input-otp";
+} from "@frontal/ui";
 
 export function OTPForm({ className, ...props }: React.ComponentProps<"div">) {
 	return (
 		<div className={cn("flex flex-col gap-6", className)} {...props}>
 			<form>
-				<FieldGroup>
+				<Fieldset>
 					<div className="flex flex-col items-center gap-1 text-center">
-						<h1 className="text-2xl font-bold">Enter verification code</h1>
-						<p className="text-muted-foreground text-sm text-balance">
+						<h1 className="font-bold text-2xl">Enter verification code</h1>
+						<p className="text-balance text-muted-foreground text-sm">
 							We sent a 6-digit code to your email.
 						</p>
 					</div>
@@ -50,9 +48,9 @@ export function OTPForm({ className, ...props }: React.ComponentProps<"div">) {
 					</Field>
 					<Button type="submit">Verify</Button>
 					<FieldDescription className="text-center">
-						Didn&apos;t receive the code? <a href="#">Resend</a>
+						Didn&apos;t receive the code? <a href="/sign-in">Resend</a>
 					</FieldDescription>
-				</FieldGroup>
+				</Fieldset>
 			</form>
 		</div>
 	);

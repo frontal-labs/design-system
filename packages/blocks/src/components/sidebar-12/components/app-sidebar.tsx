@@ -1,9 +1,7 @@
-import { Plus } from "@frontal/icons";
-import type * as React from "react";
-
-import { Calendars } from "@/registry/new-york-v4/blocks/sidebar-12/components/calendars";
-import { DatePicker } from "@/registry/new-york-v4/blocks/sidebar-12/components/date-picker";
-import { NavUser } from "@/registry/new-york-v4/blocks/sidebar-12/components/nav-user";
+import { Calendars } from "@frontal/blocks/sidebar-12/components/calendars";
+import { DatePicker } from "@frontal/blocks/sidebar-12/components/date-picker";
+import { NavUser } from "@frontal/blocks/sidebar-12/components/nav-user";
+import { AddIcon } from "@frontal/icons";
 import {
 	Sidebar,
 	SidebarContent,
@@ -14,7 +12,8 @@ import {
 	SidebarMenuItem,
 	SidebarRail,
 	SidebarSeparator,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
+import type * as React from "react";
 
 // This is sample data.
 const data = {
@@ -42,7 +41,7 @@ const data = {
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 	return (
 		<Sidebar {...props}>
-			<SidebarHeader className="border-sidebar-border h-16 border-b">
+			<SidebarHeader className="h-16 border-sidebar-border border-b">
 				<NavUser user={data.user} />
 			</SidebarHeader>
 			<SidebarContent>
@@ -54,7 +53,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 				<SidebarMenu>
 					<SidebarMenuItem>
 						<SidebarMenuButton>
-							<Plus />
+							<AddIcon />
 							<span>New Calendar</span>
 						</SidebarMenuButton>
 					</SidebarMenuItem>

@@ -1,21 +1,19 @@
 "use client";
 
 import {
-	Bell,
-	Check,
-	Globe,
-	Home,
-	Keyboard,
-	Link,
-	Lock,
-	Menu,
-	MessageCircle,
-	Paintbrush,
-	Settings,
-	Video,
+	BellIcon,
+	CheckIcon,
+	GlobeIcon,
+	HomeIcon,
+	KeyboardIcon,
+	LinkIcon,
+	LockIcon,
+	MenuIcon,
+	MessageIcon,
+	PaintBrushIcon,
+	SettingsIcon,
+	VideoIcon,
 } from "@frontal/icons";
-import * as React from "react";
-
 import {
 	Breadcrumb,
 	BreadcrumbItem,
@@ -23,16 +21,12 @@ import {
 	BreadcrumbList,
 	BreadcrumbPage,
 	BreadcrumbSeparator,
-} from "@/registry/new-york-v4/ui/breadcrumb";
-import { Button } from "@/registry/new-york-v4/ui/button";
-import {
+	Button,
 	Dialog,
 	DialogContent,
 	DialogDescription,
 	DialogTitle,
 	DialogTrigger,
-} from "@/registry/new-york-v4/ui/dialog";
-import {
 	Sidebar,
 	SidebarContent,
 	SidebarGroup,
@@ -41,22 +35,23 @@ import {
 	SidebarMenuButton,
 	SidebarMenuItem,
 	SidebarProvider,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
+import * as React from "react";
 
 const data = {
 	nav: [
-		{ name: "Notifications", icon: Bell },
-		{ name: "Navigation", icon: Menu },
-		{ name: "Home", icon: Home },
-		{ name: "Appearance", icon: Paintbrush },
-		{ name: "Messages & media", icon: MessageCircle },
-		{ name: "Language & region", icon: Globe },
-		{ name: "Accessibility", icon: Keyboard },
-		{ name: "Mark as read", icon: Check },
-		{ name: "Audio & video", icon: Video },
-		{ name: "Connected accounts", icon: Link },
-		{ name: "Privacy & visibility", icon: Lock },
-		{ name: "Advanced", icon: Settings },
+		{ name: "Notifications", icon: BellIcon },
+		{ name: "Navigation", icon: MenuIcon },
+		{ name: "HomeIcon", icon: HomeIcon },
+		{ name: "Appearance", icon: PaintBrushIcon },
+		{ name: "Messages & media", icon: MessageIcon },
+		{ name: "Language & region", icon: GlobeIcon },
+		{ name: "Accessibility", icon: KeyboardIcon },
+		{ name: "Mark as read", icon: CheckIcon },
+		{ name: "Audio & video", icon: VideoIcon },
+		{ name: "Connected accounts", icon: LinkIcon },
+		{ name: "Privacy & visibility", icon: LockIcon },
+		{ name: "Advanced", icon: SettingsIcon },
 	],
 };
 
@@ -66,10 +61,10 @@ export function SettingsDialog() {
 	return (
 		<Dialog open={open} onOpenChange={setOpen}>
 			<DialogTrigger asChild>
-				<Button size="sm">Open Dialog</Button>
+				<Button size="small">Open Dialog</Button>
 			</DialogTrigger>
 			<DialogContent className="overflow-hidden p-0 md:max-h-[500px] md:max-w-[700px] lg:max-w-[800px]">
-				<DialogTitle className="sr-only">Settings</DialogTitle>
+				<DialogTitle className="sr-only">SettingsIcon</DialogTitle>
 				<DialogDescription className="sr-only">
 					Customize your settings here.
 				</DialogDescription>
@@ -85,7 +80,7 @@ export function SettingsDialog() {
 													asChild
 													isActive={item.name === "Messages & media"}
 												>
-													<a href="#">
+													<a href="/sign-in">
 														<item.icon />
 														<span>{item.name}</span>
 													</a>
@@ -103,7 +98,9 @@ export function SettingsDialog() {
 								<Breadcrumb>
 									<BreadcrumbList>
 										<BreadcrumbItem className="hidden md:block">
-											<BreadcrumbLink href="#">Settings</BreadcrumbLink>
+											<BreadcrumbLink href="/sign-in">
+												SettingsIcon
+											</BreadcrumbLink>
 										</BreadcrumbItem>
 										<BreadcrumbSeparator className="hidden md:block" />
 										<BreadcrumbItem>
@@ -114,10 +111,10 @@ export function SettingsDialog() {
 							</div>
 						</header>
 						<div className="flex flex-1 flex-col gap-4 overflow-y-auto p-4 pt-0">
-							{Array.from({ length: 10 }).map((_, i) => (
+							{Array.from({ length: 10 }, () => (
 								<div
-									key={i}
-									className="bg-muted/50 aspect-video max-w-3xl rounded-xl"
+									key={crypto.randomUUID()}
+									className="aspect-video max-w-3xl rounded-xl bg-muted/50"
 								/>
 							))}
 						</div>

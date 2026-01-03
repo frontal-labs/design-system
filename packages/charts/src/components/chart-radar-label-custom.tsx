@@ -1,8 +1,6 @@
 "use client";
 
 import { ArrowUpIcon } from "@frontal/icons";
-import { PolarAngleAxis, PolarGrid, Radar, RadarChart } from "recharts";
-
 import {
 	Card,
 	CardContent,
@@ -10,13 +8,12 @@ import {
 	CardFooter,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	type ChartConfig,
 	ChartContainer,
 	ChartTooltip,
 	ChartTooltipContent,
-} from "@/registry/new-york-v4/ui/chart";
+} from "@frontal/ui";
+import { PolarAngleAxis, PolarGrid, Radar, RadarChart } from "recharts";
 
 export const description = "A radar chart with a custom label";
 
@@ -69,23 +66,34 @@ export function ChartRadarLabelCustom() {
 						/>
 						<PolarAngleAxis
 							dataKey="month"
-							tick={({ x, y, textAnchor, value, index, ...props }) => {
+							tick={(props: {
+								x?: number;
+								y?: number;
+								textAnchor?: "start" | "middle" | "end" | "inherit";
+								index?: number;
+							}) => {
+								const { x, y, textAnchor, index } = props;
+								if (index === undefined || !chartData[index]) {
+									return <text />;
+								}
 								const data = chartData[index];
+								const textX = x ?? 0;
+								const textY =
+									index === 0 && y !== undefined ? y - 10 : (y ?? 0);
 
 								return (
 									<text
-										x={x}
-										y={index === 0 ? y - 10 : y}
+										x={textX}
+										y={textY}
 										textAnchor={textAnchor}
 										fontSize={13}
 										fontWeight={500}
-										{...props}
 									>
 										<tspan>{data.desktop}</tspan>
 										<tspan className="fill-muted-foreground">/</tspan>
 										<tspan>{data.mobile}</tspan>
 										<tspan
-											x={x}
+											x={textX}
 											dy={"1rem"}
 											fontSize={12}
 											className="fill-muted-foreground"
@@ -108,10 +116,10 @@ export function ChartRadarLabelCustom() {
 				</ChartContainer>
 			</CardContent>
 			<CardFooter className="flex-col gap-2 text-sm">
-				<div className="flex items-center gap-2 leading-none font-medium">
+				<div className="flex items-center gap-2 font-medium leading-none">
 					Trending up by 5.2% this month <ArrowUpIcon className="h-4 w-4" />
 				</div>
-				<div className="text-muted-foreground flex items-center gap-2 leading-none">
+				<div className="flex items-center gap-2 text-muted-foreground leading-none">
 					January - June 2024
 				</div>
 			</CardFooter>

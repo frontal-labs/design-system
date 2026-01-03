@@ -1,8 +1,6 @@
 "use client";
 
 import { ArrowUpIcon } from "@frontal/icons";
-import { CartesianGrid, Line, LineChart, XAxis } from "recharts";
-
 import {
 	Card,
 	CardContent,
@@ -10,13 +8,12 @@ import {
 	CardFooter,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	type ChartConfig,
 	ChartContainer,
 	ChartTooltip,
 	ChartTooltipContent,
-} from "@/registry/new-york-v4/ui/chart";
+} from "@frontal/ui";
+import { CartesianGrid, Line, LineChart, XAxis } from "recharts";
 
 export const description = "A line chart with dots";
 
@@ -63,7 +60,9 @@ export function ChartLineDots() {
 							tickLine={false}
 							axisLine={false}
 							tickMargin={8}
-							tickFormatter={(value) => value.slice(0, 3)}
+							tickFormatter={(value: string | number) =>
+								String(value).slice(0, 3)
+							}
 						/>
 						<ChartTooltip
 							cursor={false}
@@ -85,7 +84,7 @@ export function ChartLineDots() {
 				</ChartContainer>
 			</CardContent>
 			<CardFooter className="flex-col items-start gap-2 text-sm">
-				<div className="flex gap-2 leading-none font-medium">
+				<div className="flex gap-2 font-medium leading-none">
 					Trending up by 5.2% this month <ArrowUpIcon className="h-4 w-4" />
 				</div>
 				<div className="text-muted-foreground leading-none">

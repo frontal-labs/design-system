@@ -1,13 +1,11 @@
 "use client";
 
-import { ProgressPrimitive } from "@frontal/primitives";
+import { Progress as ProgressPrimitive } from "@base-ui/react/progress";
 import { cn } from "@frontal/shared";
 
-function Progress({
-	className,
-	children,
-	...props
-}: ProgressPrimitive.Root.Props) {
+type ProgressProps = ProgressPrimitive.Root.Props;
+
+function Progress({ className, children, ...props }: ProgressProps) {
 	return (
 		<ProgressPrimitive.Root
 			className={cn("flex w-full flex-col gap-2", className)}
@@ -25,7 +23,9 @@ function Progress({
 	);
 }
 
-function ProgressLabel({ className, ...props }: ProgressPrimitive.Label.Props) {
+type ProgressLabelProps = ProgressPrimitive.Label.Props;
+
+function ProgressLabel({ className, ...props }: ProgressLabelProps) {
 	return (
 		<ProgressPrimitive.Label
 			className={cn("font-medium text-sm", className)}
@@ -35,7 +35,9 @@ function ProgressLabel({ className, ...props }: ProgressPrimitive.Label.Props) {
 	);
 }
 
-function ProgressTrack({ className, ...props }: ProgressPrimitive.Track.Props) {
+type ProgressTrackProps = ProgressPrimitive.Track.Props;
+
+function ProgressTrack({ className, ...props }: ProgressTrackProps) {
 	return (
 		<ProgressPrimitive.Track
 			className={cn(
@@ -48,10 +50,9 @@ function ProgressTrack({ className, ...props }: ProgressPrimitive.Track.Props) {
 	);
 }
 
-function ProgressIndicator({
-	className,
-	...props
-}: ProgressPrimitive.Indicator.Props) {
+type ProgressIndicatorProps = ProgressPrimitive.Indicator.Props;
+
+function ProgressIndicator({ className, ...props }: ProgressIndicatorProps) {
 	return (
 		<ProgressPrimitive.Indicator
 			className={cn("bg-primary transition-all duration-500", className)}
@@ -61,7 +62,9 @@ function ProgressIndicator({
 	);
 }
 
-function ProgressValue({ className, ...props }: ProgressPrimitive.Value.Props) {
+type ProgressValueProps = ProgressPrimitive.Value.Props;
+
+function ProgressValue({ className, ...props }: ProgressValueProps) {
 	return (
 		<ProgressPrimitive.Value
 			className={cn("text-sm tabular-nums", className)}
@@ -77,4 +80,9 @@ export {
 	ProgressTrack,
 	ProgressIndicator,
 	ProgressValue,
+	type ProgressProps,
+	type ProgressLabelProps,
+	type ProgressTrackProps,
+	type ProgressIndicatorProps,
+	type ProgressValueProps,
 };

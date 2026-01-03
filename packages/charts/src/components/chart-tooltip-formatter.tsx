@@ -1,20 +1,17 @@
 "use client";
 
-import { Bar, BarChart, XAxis } from "recharts";
-
 import {
 	Card,
 	CardContent,
 	CardDescription,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	type ChartConfig,
 	ChartContainer,
 	ChartTooltip,
 	ChartTooltipContent,
-} from "@/registry/new-york-v4/ui/chart";
+} from "@frontal/ui";
+import { Bar, BarChart, XAxis } from "recharts";
 
 export const description = "A stacked bar chart with a legend";
 
@@ -53,7 +50,7 @@ export function ChartTooltipFormatter() {
 							tickLine={false}
 							tickMargin={10}
 							axisLine={false}
-							tickFormatter={(value) => {
+							tickFormatter={(value: string | number) => {
 								return new Date(value).toLocaleDateString("en-US", {
 									weekday: "short",
 								});
@@ -75,13 +72,13 @@ export function ChartTooltipFormatter() {
 							content={
 								<ChartTooltipContent
 									hideLabel
-									formatter={(value, name) => (
-										<div className="text-muted-foreground flex min-w-[130px] items-center text-xs">
-											{chartConfig[name as keyof typeof chartConfig]?.label ||
-												name}
-											<div className="text-foreground ml-auto flex items-baseline gap-0.5 font-mono font-medium tabular-nums">
-												{value}
-												<span className="text-muted-foreground font-normal">
+									formatter={(value: unknown, name?: string | number) => (
+										<div className="flex min-w-[130px] items-center text-muted-foreground text-xs">
+											{chartConfig[String(name) as keyof typeof chartConfig]
+												?.label || String(name)}
+											<div className="ml-auto flex items-baseline gap-0.5 font-medium font-mono text-foreground tabular-nums">
+												{String(value)}
+												<span className="font-normal text-muted-foreground">
 													kcal
 												</span>
 											</div>

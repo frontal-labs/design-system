@@ -1,8 +1,6 @@
 "use client";
 
-import { ChevronDown, Plus } from "@frontal/icons";
-import * as React from "react";
-
+import { AddIcon, ArrowDownChevronIcon } from "@frontal/icons";
 import {
 	DropdownMenu,
 	DropdownMenuContent,
@@ -11,12 +9,11 @@ import {
 	DropdownMenuSeparator,
 	DropdownMenuShortcut,
 	DropdownMenuTrigger,
-} from "@/registry/new-york-v4/ui/dropdown-menu";
-import {
 	SidebarMenu,
 	SidebarMenuButton,
 	SidebarMenuItem,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
+import * as React from "react";
 
 export function TeamSwitcher({
 	teams,
@@ -39,11 +36,11 @@ export function TeamSwitcher({
 				<DropdownMenu>
 					<DropdownMenuTrigger asChild>
 						<SidebarMenuButton className="w-fit px-1.5">
-							<div className="bg-sidebar-primary text-sidebar-primary-foreground flex aspect-square size-5 items-center justify-center rounded-md">
+							<div className="flex aspect-square size-5 items-center justify-center rounded-md bg-sidebar-primary text-sidebar-primary-foreground">
 								<activeTeam.logo className="size-3" />
 							</div>
 							<span className="truncate font-medium">{activeTeam.name}</span>
-							<ChevronDown className="opacity-50" />
+							<ArrowDownChevronIcon className="opacity-50" />
 						</SidebarMenuButton>
 					</DropdownMenuTrigger>
 					<DropdownMenuContent
@@ -70,10 +67,10 @@ export function TeamSwitcher({
 						))}
 						<DropdownMenuSeparator />
 						<DropdownMenuItem className="gap-2 p-2">
-							<div className="bg-background flex size-6 items-center justify-center rounded-md border">
-								<Plus className="size-4" />
+							<div className="flex size-6 items-center justify-center rounded-md border bg-background">
+								<AddIcon className="size-4" />
 							</div>
-							<div className="text-muted-foreground font-medium">Add team</div>
+							<div className="font-medium text-muted-foreground">Add team</div>
 						</DropdownMenuItem>
 					</DropdownMenuContent>
 				</DropdownMenu>

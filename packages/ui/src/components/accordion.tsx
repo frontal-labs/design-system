@@ -1,14 +1,21 @@
 "use client";
 
-import { ChevronDownIcon } from "@frontal/icons";
-import { AccordionPrimitive } from "@frontal/primitives";
+import { Accordion as AccordionPrimitive } from "@base-ui/react/accordion";
+import { ArrowDownChevronIcon } from "@frontal/icons";
 import { cn } from "@frontal/shared";
 
-function Accordion(props: AccordionPrimitive.Root.Props) {
+type AccordionProps = AccordionPrimitive.Root.Props & {
+	collapsible?: boolean;
+	type?: "single" | "multiple";
+};
+
+function Accordion({ collapsible, type, ...props }: AccordionProps) {
 	return <AccordionPrimitive.Root data-slot="accordion" {...props} />;
 }
 
-function AccordionItem({ className, ...props }: AccordionPrimitive.Item.Props) {
+type AccordionItemProps = AccordionPrimitive.Item.Props;
+
+function AccordionItem({ className, ...props }: AccordionItemProps) {
 	return (
 		<AccordionPrimitive.Item
 			className={cn("border-b last:border-b-0", className)}
@@ -18,11 +25,13 @@ function AccordionItem({ className, ...props }: AccordionPrimitive.Item.Props) {
 	);
 }
 
+type AccordionTriggerProps = AccordionPrimitive.Trigger.Props;
+
 function AccordionTrigger({
 	className,
 	children,
 	...props
-}: AccordionPrimitive.Trigger.Props) {
+}: AccordionTriggerProps) {
 	return (
 		<AccordionPrimitive.Header className="flex">
 			<AccordionPrimitive.Trigger
@@ -34,17 +43,19 @@ function AccordionTrigger({
 				{...props}
 			>
 				{children}
-				<ChevronDownIcon className="pointer-events-none size-4 shrink-0 translate-y-0.5 opacity-72 transition-transform duration-200 ease-in-out" />
+				<ArrowDownChevronIcon className="pointer-events-none size-4 shrink-0 translate-y-0.5 opacity-80 transition-transform duration-200 ease-in-out" />
 			</AccordionPrimitive.Trigger>
 		</AccordionPrimitive.Header>
 	);
 }
 
+type AccordionContentProps = AccordionPrimitive.Panel.Props;
+
 function AccordionContent({
 	className,
 	children,
 	...props
-}: AccordionPrimitive.Panel.Props) {
+}: AccordionContentProps) {
 	return (
 		<AccordionPrimitive.Panel
 			className="h-(--accordion-panel-height) overflow-hidden text-muted-foreground text-sm transition-[height] duration-200 ease-in-out data-ending-style:h-0 data-starting-style:h-0"
@@ -56,4 +67,13 @@ function AccordionContent({
 	);
 }
 
-export { Accordion, AccordionItem, AccordionTrigger, AccordionContent };
+export {
+	Accordion,
+	AccordionItem,
+	AccordionTrigger,
+	AccordionContent,
+	type AccordionProps,
+	type AccordionItemProps,
+	type AccordionTriggerProps,
+	type AccordionContentProps,
+};

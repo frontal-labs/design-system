@@ -1,86 +1,39 @@
+import { mergeProps } from "@base-ui/react/merge-props";
+import { useRender } from "@base-ui/react/use-render";
 import { cn } from "@frontal/shared";
-import type { ComponentProps } from "react";
+import { cva, type VariantProps } from "class-variance-authority";
 
-// Try to import Next.js Link, but make it optional
-let NextLink: typeof import("next/link").default | null = null;
+const linkVariants = cva(
+	"text-primary underline-offset-4 transition-colors hover:text-primary/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-1 focus-visible:ring-offset-background",
+	{
+		defaultVariants: {
+			variant: "default",
+		},
+		variants: {
+			variant: {
+				default: "underline",
+				"no-underline": "",
+				button:
+					"inline-flex items-center justify-center rounded-lg border border-transparent bg-transparent px-4 py-2 font-medium text-base transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-1 focus-visible:ring-offset-background sm:text-sm",
+			},
+		},
+	},
+);
 
-try {
-	// Dynamic import for Next.js Link
-	// eslint-disable-next-line @typescript-eslint/no-require-imports
-	const nextLink = require("next/link");
-	NextLink = nextLink.default;
-} catch {
-	// Next.js is not available, will fallback to anchor tag
+type LinkProps = useRender.ComponentProps<"a"> &
+	VariantProps<typeof linkVariants>;
+
+function Link({ className, variant, render, ...props }: LinkProps) {
+	const defaultProps = {
+		className: cn(linkVariants({ variant }), className),
+		"data-slot": "link",
+	};
+
+	return useRender({
+		defaultTagName: "a",
+		props: mergeProps<"a">(defaultProps, props),
+		render,
+	});
 }
 
-interface LinkProps extends ComponentProps<"a"> {
-	href: string;
-	external?: boolean;
-	replace?: boolean;
-	scroll?: boolean;
-	shallow?: boolean;
-	prefetch?: boolean;
-	locale?: string;
-}
-
-function Link({
-	className,
-	href,
-	external,
-	replace,
-	scroll,
-	shallow,
-	prefetch,
-	locale,
-	children,
-	...props
-}: LinkProps) {
-	const isExternal =
-		external ||
-		href.startsWith("http://") ||
-		href.startsWith("https://") ||
-		href.startsWith("mailto:") ||
-		href.startsWith("tel:");
-
-	// Use anchor tag for external links or if Next.js is not available
-	if (isExternal || !NextLink) {
-		return (
-			<a
-				data-slot="link"
-				data-external={isExternal}
-				href={href}
-				className={cn(
-					"text-primary underline-offset-4 hover:underline",
-					className,
-				)}
-				{...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
-				{...props}
-			>
-				{children}
-			</a>
-		);
-	}
-
-	// Use Next.js Link for internal links
-	return (
-		<NextLink
-			data-slot="link"
-			href={href}
-			replace={replace}
-			scroll={scroll}
-			shallow={shallow}
-			prefetch={prefetch}
-			locale={locale}
-			className={cn(
-				"text-primary underline-offset-4 hover:underline",
-				className,
-			)}
-			{...props}
-		>
-			{children}
-		</NextLink>
-	);
-}
-
-export { Link };
-export type { LinkProps };
+export { Link, type LinkProps };

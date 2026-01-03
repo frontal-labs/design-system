@@ -1,13 +1,10 @@
 "use client";
 
-import { ChevronRight, type IconComponent } from "@frontal/icons";
-
+import { ArrowRightChevronIcon, type IconComponent } from "@frontal/icons";
 import {
 	Collapsible,
 	CollapsibleContent,
 	CollapsibleTrigger,
-} from "@/registry/new-york-v4/ui/collapsible";
-import {
 	SidebarGroup,
 	SidebarGroupLabel,
 	SidebarMenu,
@@ -17,7 +14,7 @@ import {
 	SidebarMenuSub,
 	SidebarMenuSubButton,
 	SidebarMenuSubItem,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
 
 export function NavMain({
 	items,
@@ -50,7 +47,7 @@ export function NavMain({
 								<>
 									<CollapsibleTrigger asChild>
 										<SidebarMenuAction className="data-[state=open]:rotate-90">
-											<ChevronRight />
+											<ArrowRightChevronIcon />
 											<span className="sr-only">Toggle</span>
 										</SidebarMenuAction>
 									</CollapsibleTrigger>

@@ -1,8 +1,6 @@
 "use client";
 
 import { ArrowUpIcon } from "@frontal/icons";
-import { Pie, PieChart } from "recharts";
-
 import {
 	Card,
 	CardContent,
@@ -10,13 +8,12 @@ import {
 	CardFooter,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	type ChartConfig,
 	ChartContainer,
 	ChartTooltip,
 	ChartTooltipContent,
-} from "@/registry/new-york-v4/ui/chart";
+} from "@frontal/ui";
+import { Pie, PieChart } from "recharts";
 
 export const description = "A pie chart with a label";
 
@@ -64,7 +61,7 @@ export function ChartPieLabel() {
 			<CardContent className="flex-1 pb-0">
 				<ChartContainer
 					config={chartConfig}
-					className="[&_.recharts-pie-label-text]:fill-foreground mx-auto aspect-square max-h-[250px] pb-0"
+					className="mx-auto aspect-square max-h-[250px] pb-0 [&_.recharts-pie-label-text]:fill-foreground"
 				>
 					<PieChart>
 						<ChartTooltip content={<ChartTooltipContent hideLabel />} />
@@ -73,7 +70,7 @@ export function ChartPieLabel() {
 				</ChartContainer>
 			</CardContent>
 			<CardFooter className="flex-col gap-2 text-sm">
-				<div className="flex items-center gap-2 leading-none font-medium">
+				<div className="flex items-center gap-2 font-medium leading-none">
 					Trending up by 5.2% this month <ArrowUpIcon className="h-4 w-4" />
 				</div>
 				<div className="text-muted-foreground leading-none">

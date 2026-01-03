@@ -1,11 +1,16 @@
 "use client";
 
-import { ArchiveX, Command, File, Inbox, Send, Trash2 } from "@frontal/icons";
-import * as React from "react";
-
-import { NavUser } from "@/registry/new-york-v4/blocks/sidebar-09/components/nav-user";
-import { Label } from "@/registry/new-york-v4/ui/label";
+import { NavUser } from "@frontal/blocks/sidebar-09/components/nav-user";
 import {
+	ArchiveIcon,
+	CommandIcon,
+	DeleteBinIcon,
+	FileIcon,
+	InboxIcon,
+	SendIcon,
+} from "@frontal/icons";
+import {
+	Label,
 	Sidebar,
 	SidebarContent,
 	SidebarFooter,
@@ -16,9 +21,10 @@ import {
 	SidebarMenu,
 	SidebarMenuButton,
 	SidebarMenuItem,
+	Switch,
 	useSidebar,
-} from "@/registry/new-york-v4/ui/sidebar";
-import { Switch } from "@/registry/new-york-v4/ui/switch";
+} from "@frontal/ui";
+import * as React from "react";
 
 // This is sample data
 const data = {
@@ -29,33 +35,33 @@ const data = {
 	},
 	navMain: [
 		{
-			title: "Inbox",
+			title: "InboxIcon",
 			url: "#",
-			icon: Inbox,
+			icon: InboxIcon,
 			isActive: true,
 		},
 		{
 			title: "Drafts",
 			url: "#",
-			icon: File,
+			icon: FileIcon,
 			isActive: false,
 		},
 		{
 			title: "Sent",
 			url: "#",
-			icon: Send,
+			icon: SendIcon,
 			isActive: false,
 		},
 		{
 			title: "Junk",
 			url: "#",
-			icon: ArchiveX,
+			icon: ArchiveIcon,
 			isActive: false,
 		},
 		{
 			title: "Trash",
 			url: "#",
-			icon: Trash2,
+			icon: DeleteBinIcon,
 			isActive: false,
 		},
 	],
@@ -166,10 +172,10 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 				<SidebarHeader>
 					<SidebarMenu>
 						<SidebarMenuItem>
-							<SidebarMenuButton size="lg" asChild className="md:h-8 md:p-0">
-								<a href="#">
-									<div className="bg-sidebar-primary text-sidebar-primary-foreground flex aspect-square size-8 items-center justify-center rounded-lg">
-										<Command className="size-4" />
+							<SidebarMenuButton size="large" asChild className="md:h-8 md:p-0">
+								<a href="/sign-in">
+									<div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
+										<CommandIcon className="size-4" />
 									</div>
 									<div className="grid flex-1 text-left text-sm leading-tight">
 										<span className="truncate font-medium">Acme Inc</span>
@@ -224,7 +230,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 			<Sidebar collapsible="none" className="hidden flex-1 md:flex">
 				<SidebarHeader className="gap-3.5 border-b p-4">
 					<div className="flex w-full items-center justify-between">
-						<div className="text-foreground text-base font-medium">
+						<div className="font-medium text-base text-foreground">
 							{activeItem?.title}
 						</div>
 						<Label className="flex items-center gap-2 text-sm">
@@ -239,16 +245,16 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 						<SidebarGroupContent>
 							{mails.map((mail) => (
 								<a
-									href="#"
+									href="/sign-in"
 									key={mail.email}
-									className="hover:bg-sidebar-accent hover:text-sidebar-accent-foreground flex flex-col items-start gap-2 border-b p-4 text-sm leading-tight whitespace-nowrap last:border-b-0"
+									className="flex flex-col items-start gap-2 whitespace-nowrap border-b p-4 text-sm leading-tight last:border-b-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground"
 								>
 									<div className="flex w-full items-center gap-2">
 										<span>{mail.name}</span>{" "}
 										<span className="ml-auto text-xs">{mail.date}</span>
 									</div>
 									<span className="font-medium">{mail.subject}</span>
-									<span className="line-clamp-2 w-[260px] text-xs whitespace-break-spaces">
+									<span className="line-clamp-2 w-[260px] whitespace-break-spaces text-xs">
 										{mail.teaser}
 									</span>
 								</a>

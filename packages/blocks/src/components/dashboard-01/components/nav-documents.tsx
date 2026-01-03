@@ -1,21 +1,11 @@
 "use client";
 
 import {
-	type Icon,
-	IconDots,
-	IconFolder,
-	IconShare3,
-	IconTrash,
-} from "@tabler/icons-react";
-
-import {
 	DropdownMenu,
 	DropdownMenuContent,
 	DropdownMenuItem,
 	DropdownMenuSeparator,
 	DropdownMenuTrigger,
-} from "@/registry/new-york-v4/ui/dropdown-menu";
-import {
 	SidebarGroup,
 	SidebarGroupLabel,
 	SidebarMenu,
@@ -23,7 +13,14 @@ import {
 	SidebarMenuButton,
 	SidebarMenuItem,
 	useSidebar,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
+import {
+	type Icon,
+	IconDots,
+	IconFolder,
+	IconShare3,
+	IconTrash,
+} from "@tabler/icons-react";
 
 export function NavDocuments({
 	items,
@@ -52,7 +49,7 @@ export function NavDocuments({
 							<DropdownMenuTrigger asChild>
 								<SidebarMenuAction
 									showOnHover
-									className="data-[state=open]:bg-accent rounded-sm"
+									className="rounded-sm data-[state=open]:bg-accent"
 								>
 									<IconDots />
 									<span className="sr-only">More</span>
@@ -69,7 +66,7 @@ export function NavDocuments({
 								</DropdownMenuItem>
 								<DropdownMenuItem>
 									<IconShare3 />
-									<span>Share</span>
+									<span>ShareIcon</span>
 								</DropdownMenuItem>
 								<DropdownMenuSeparator />
 								<DropdownMenuItem variant="destructive">

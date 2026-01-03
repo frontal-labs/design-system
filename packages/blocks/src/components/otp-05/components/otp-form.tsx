@@ -1,36 +1,34 @@
-import { GalleryVerticalEnd } from "@frontal/icons";
+import { MoreVariantIcon } from "@frontal/icons";
 
-import { cn } from "@/registry/new-york-v4/lib/utils";
-import { Button } from "@/registry/new-york-v4/ui/button";
+import { cn } from "@frontal/shared";
 import {
+	Button,
 	Field,
 	FieldDescription,
-	FieldGroup,
 	FieldLabel,
-} from "@/registry/new-york-v4/ui/field";
-import {
+	Fieldset,
 	InputOTP,
 	InputOTPGroup,
 	InputOTPSeparator,
 	InputOTPSlot,
-} from "@/registry/new-york-v4/ui/input-otp";
+} from "@frontal/ui";
 
 export function OTPForm({ className, ...props }: React.ComponentProps<"div">) {
 	return (
 		<div className={cn("flex flex-col gap-6", className)} {...props}>
 			<form>
-				<FieldGroup>
+				<Fieldset>
 					<div className="flex flex-col items-center gap-2 text-center">
 						<a
-							href="#"
+							href="/sign-in"
 							className="flex flex-col items-center gap-2 font-medium"
 						>
 							<div className="flex size-8 items-center justify-center rounded-md">
-								<GalleryVerticalEnd className="size-6" />
+								<MoreVariantIcon className="size-6" />
 							</div>
 							<span className="sr-only">Acme Inc.</span>
 						</a>
-						<h1 className="text-xl font-bold">Enter verification code</h1>
+						<h1 className="font-bold text-xl">Enter verification code</h1>
 						<FieldDescription>
 							We sent a 6-digit code to your email address
 						</FieldDescription>
@@ -58,17 +56,18 @@ export function OTPForm({ className, ...props }: React.ComponentProps<"div">) {
 							</InputOTPGroup>
 						</InputOTP>
 						<FieldDescription className="text-center">
-							Didn&apos;t receive the code? <a href="#">Resend</a>
+							Didn&apos;t receive the code? <a href="/sign-in">Resend</a>
 						</FieldDescription>
 					</Field>
 					<Field>
 						<Button type="submit">Verify</Button>
 					</Field>
-				</FieldGroup>
+				</Fieldset>
 			</form>
 			<FieldDescription className="px-6 text-center">
-				By clicking continue, you agree to our <a href="#">Terms of Service</a>{" "}
-				and <a href="#">Privacy Policy</a>.
+				By clicking continue, you agree to our{" "}
+				<a href="/sign-in">Terms of Service</a> and{" "}
+				<a href="/sign-in">Privacy Policy</a>.
 			</FieldDescription>
 		</div>
 	);

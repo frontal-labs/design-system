@@ -1,8 +1,7 @@
 "use client";
 
+import { Calendar } from "@frontal/ui";
 import * as React from "react";
-
-import { Calendar } from "@/registry/new-york-v4/ui/calendar";
 
 export default function Calendar18() {
 	const [date, setDate] = React.useState<Date | undefined>(
@@ -15,7 +14,6 @@ export default function Calendar18() {
 			selected={date}
 			onSelect={setDate}
 			className="rounded-lg border [--cell-size:--spacing(11)] md:[--cell-size:--spacing(12)]"
-			buttonVariant="ghost"
 		/>
 	);
 }

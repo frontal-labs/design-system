@@ -1,24 +1,61 @@
 "use client";
 
-import { XIcon } from "@frontal/icons";
-import { SheetPrimitive } from "@frontal/primitives";
+import { Dialog as SheetPrimitive } from "@base-ui/react/dialog";
+import { CloseIcon } from "@frontal/icons";
 import { cn } from "@frontal/shared";
 import type { ComponentProps } from "react";
+import { Button } from "./button";
 import { ScrollArea } from "./scroll-area";
 
 const Sheet = SheetPrimitive.Root;
 
 const SheetPortal = SheetPrimitive.Portal;
 
-function SheetTrigger(props: SheetPrimitive.Trigger.Props) {
-	return <SheetPrimitive.Trigger data-slot="sheet-trigger" {...props} />;
+type SheetTriggerProps = SheetPrimitive.Trigger.Props & {
+	asChild?: boolean;
+};
+
+function SheetTrigger({ asChild, children, ...props }: SheetTriggerProps) {
+	if (asChild) {
+		return (
+			<SheetPrimitive.Trigger
+				data-slot="sheet-trigger"
+				render={children as React.ReactElement}
+				{...props}
+			/>
+		);
+	}
+	return (
+		<SheetPrimitive.Trigger data-slot="sheet-trigger" {...props}>
+			{children}
+		</SheetPrimitive.Trigger>
+	);
 }
 
-function SheetClose(props: SheetPrimitive.Close.Props) {
-	return <SheetPrimitive.Close data-slot="sheet-close" {...props} />;
+type SheetCloseProps = SheetPrimitive.Close.Props & {
+	asChild?: boolean;
+};
+
+function SheetClose({ asChild, children, ...props }: SheetCloseProps) {
+	if (asChild) {
+		return (
+			<SheetPrimitive.Close
+				data-slot="sheet-close"
+				render={children as React.ReactElement}
+				{...props}
+			/>
+		);
+	}
+	return (
+		<SheetPrimitive.Close data-slot="sheet-close" {...props}>
+			{children}
+		</SheetPrimitive.Close>
+	);
 }
 
-function SheetBackdrop({ className, ...props }: SheetPrimitive.Backdrop.Props) {
+type SheetBackdropProps = SheetPrimitive.Backdrop.Props;
+
+function SheetBackdrop({ className, ...props }: SheetBackdropProps) {
 	return (
 		<SheetPrimitive.Backdrop
 			className={cn(
@@ -31,15 +68,17 @@ function SheetBackdrop({ className, ...props }: SheetPrimitive.Backdrop.Props) {
 	);
 }
 
+type SheetViewportProps = SheetPrimitive.Viewport.Props & {
+	side?: "right" | "left" | "top" | "bottom";
+	inset?: boolean;
+};
+
 function SheetViewport({
 	className,
 	side,
 	inset = false,
 	...props
-}: SheetPrimitive.Viewport.Props & {
-	side?: "right" | "left" | "top" | "bottom";
-	inset?: boolean;
-}) {
+}: SheetViewportProps) {
 	return (
 		<SheetPrimitive.Viewport
 			className={cn(
@@ -56,6 +95,12 @@ function SheetViewport({
 	);
 }
 
+type SheetPopupProps = SheetPrimitive.Popup.Props & {
+	showCloseButton?: boolean;
+	side?: "right" | "left" | "top" | "bottom";
+	inset?: boolean;
+};
+
 function SheetPopup({
 	className,
 	children,
@@ -63,11 +108,7 @@ function SheetPopup({
 	side = "right",
 	inset = false,
 	...props
-}: SheetPrimitive.Popup.Props & {
-	showCloseButton?: boolean;
-	side?: "right" | "left" | "top" | "bottom";
-	inset?: boolean;
-}) {
+}: SheetPopupProps) {
 	return (
 		<SheetPortal>
 			<SheetBackdrop />
@@ -80,11 +121,11 @@ function SheetPopup({
 						side === "top" &&
 							"data-ending-style:-translate-y-8 data-starting-style:-translate-y-8 border-b",
 						side === "left" &&
-							"data-ending-style:-translate-x-8 data-starting-style:-translate-x-8 w-[calc(100%-(--spacing(12)))] max-w-md border-e",
+							"data-ending-style:-translate-x-8 data-starting-style:-translate-x-8 w-[calc(100%-var(--spacing)*12)] max-w-md border-e",
 						side === "right" &&
-							"col-start-2 w-[calc(100%-(--spacing(12)))] max-w-md border-s data-ending-style:translate-x-8 data-starting-style:translate-x-8",
+							"col-start-2 w-[calc(100%-var(--spacing)*12)] max-w-md border-s data-ending-style:translate-x-8 data-starting-style:translate-x-8",
 						inset &&
-							"before:hidden sm:rounded-2xl sm:border sm:before:rounded-[calc(var(--radius-2xl)-1px)] sm:**:data-[slot=sheet-footer]:rounded-b-xl",
+							"before:hidden sm:rounded-2xl sm:border sm:before:rounded-[calc(var(--radius-2xl)-1px)] sm:**:data-[slot=sheet-footer]:rounded-b-[calc(var(--radius-2xl)-1px)]",
 						className,
 					)}
 					data-slot="sheet-popup"
@@ -92,9 +133,12 @@ function SheetPopup({
 				>
 					{children}
 					{showCloseButton && (
-						<SheetPrimitive.Close className="absolute end-2 top-2 inline-flex size-7 shrink-0 cursor-pointer items-center justify-center rounded-md border border-transparent opacity-72 outline-none transition-[color,background-color,box-shadow,opacity] pointer-coarse:after:absolute pointer-coarse:after:size-full pointer-coarse:after:min-h-11 pointer-coarse:after:min-w-11 hover:opacity-100 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-1 focus-visible:ring-offset-background [&_svg:not([class*='size-'])]:size-4 [&_svg]:pointer-events-none [&_svg]:shrink-0">
-							<XIcon />
-							<span className="sr-only">Close</span>
+						<SheetPrimitive.Close
+							aria-label="Close"
+							className="absolute end-2 top-2"
+							render={<Button size="icon" variant="ghost" />}
+						>
+							<CloseIcon />
 						</SheetPrimitive.Close>
 					)}
 				</SheetPrimitive.Popup>
@@ -103,7 +147,9 @@ function SheetPopup({
 	);
 }
 
-function SheetHeader({ className, ...props }: ComponentProps<"div">) {
+type SheetHeaderProps = ComponentProps<"div">;
+
+function SheetHeader({ className, ...props }: SheetHeaderProps) {
 	return (
 		<div
 			className={cn(
@@ -116,13 +162,15 @@ function SheetHeader({ className, ...props }: ComponentProps<"div">) {
 	);
 }
 
+type SheetFooterProps = ComponentProps<"div"> & {
+	variant?: "default" | "bare";
+};
+
 function SheetFooter({
 	className,
 	variant = "default",
 	...props
-}: ComponentProps<"div"> & {
-	variant?: "default" | "bare";
-}) {
+}: SheetFooterProps) {
 	return (
 		<div
 			className={cn(
@@ -138,7 +186,9 @@ function SheetFooter({
 	);
 }
 
-function SheetTitle({ className, ...props }: SheetPrimitive.Title.Props) {
+type SheetTitleProps = SheetPrimitive.Title.Props;
+
+function SheetTitle({ className, ...props }: SheetTitleProps) {
 	return (
 		<SheetPrimitive.Title
 			className={cn("font-heading text-xl leading-none", className)}
@@ -148,10 +198,9 @@ function SheetTitle({ className, ...props }: SheetPrimitive.Title.Props) {
 	);
 }
 
-function SheetDescription({
-	className,
-	...props
-}: SheetPrimitive.Description.Props) {
+type SheetDescriptionProps = SheetPrimitive.Description.Props;
+
+function SheetDescription({ className, ...props }: SheetDescriptionProps) {
 	return (
 		<SheetPrimitive.Description
 			className={cn("text-muted-foreground text-sm", className)}
@@ -161,11 +210,13 @@ function SheetDescription({
 	);
 }
 
+type SheetPanelProps = ComponentProps<"div"> & { scrollFade?: boolean };
+
 function SheetPanel({
 	className,
 	scrollFade = true,
 	...props
-}: ComponentProps<"div"> & { scrollFade?: boolean }) {
+}: SheetPanelProps) {
 	return (
 		<ScrollArea scrollFade={scrollFade}>
 			<div
@@ -194,4 +245,14 @@ export {
 	SheetTitle,
 	SheetDescription,
 	SheetPanel,
+	type SheetTriggerProps,
+	type SheetCloseProps,
+	type SheetBackdropProps,
+	type SheetViewportProps,
+	type SheetPopupProps,
+	type SheetHeaderProps,
+	type SheetFooterProps,
+	type SheetTitleProps,
+	type SheetDescriptionProps,
+	type SheetPanelProps,
 };

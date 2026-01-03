@@ -1,16 +1,15 @@
 "use client";
 
-import { ChevronDownIcon } from "@frontal/icons";
-import * as React from "react";
-
-import { Button } from "@/registry/new-york-v4/ui/button";
-import { Calendar } from "@/registry/new-york-v4/ui/calendar";
-import { Label } from "@/registry/new-york-v4/ui/label";
+import { ArrowDownChevronIcon } from "@frontal/icons";
 import {
+	Button,
+	Calendar,
+	Label,
 	Popover,
 	PopoverContent,
 	PopoverTrigger,
-} from "@/registry/new-york-v4/ui/popover";
+} from "@frontal/ui";
+import * as React from "react";
 
 export default function Calendar22() {
 	const [open, setOpen] = React.useState(false);
@@ -29,7 +28,7 @@ export default function Calendar22() {
 						className="w-48 justify-between font-normal"
 					>
 						{date ? date.toLocaleDateString() : "Select date"}
-						<ChevronDownIcon />
+						<ArrowDownChevronIcon />
 					</Button>
 				</PopoverTrigger>
 				<PopoverContent className="w-auto overflow-hidden p-0" align="start">

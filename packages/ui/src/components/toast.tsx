@@ -1,25 +1,25 @@
 "use client";
 
+import { Toast } from "@base-ui/react/toast";
 import {
-	CircleAlertIcon,
-	CircleCheckIcon,
-	InfoIcon,
-	LoaderCircleIcon,
-	TriangleAlertIcon,
+	AlertIcon,
+	CheckIcon,
+	ErrorWarningIcon,
+	InformationIcon,
+	LoaderIcon,
 } from "@frontal/icons";
-import { ToastPrimitive } from "@frontal/primitives";
 import { cn } from "@frontal/shared";
 import { buttonVariants } from "./button";
 
-const toastManager = ToastPrimitive.createToastManager();
-const anchoredToastManager = ToastPrimitive.createToastManager();
+const toastManager = Toast.createToastManager();
+const anchoredToastManager = Toast.createToastManager();
 
 const TOAST_ICONS = {
-	error: CircleAlertIcon,
-	info: InfoIcon,
-	loading: LoaderCircleIcon,
-	success: CircleCheckIcon,
-	warning: TriangleAlertIcon,
+	error: AlertIcon,
+	info: InformationIcon,
+	loading: LoaderIcon,
+	success: CheckIcon,
+	warning: ErrorWarningIcon,
 } as const;
 
 type ToastPosition =
@@ -30,7 +30,7 @@ type ToastPosition =
 	| "bottom-center"
 	| "bottom-right";
 
-interface ToastProviderProps extends ToastPrimitive.Provider.Props {
+interface ToastProviderProps extends Toast.Provider.Props {
 	position?: ToastPosition;
 }
 
@@ -40,20 +40,20 @@ function ToastProvider({
 	...props
 }: ToastProviderProps) {
 	return (
-		<ToastPrimitive.Provider toastManager={toastManager} {...props}>
+		<Toast.Provider toastManager={toastManager} {...props}>
 			{children}
 			<Toasts position={position} />
-		</ToastPrimitive.Provider>
+		</Toast.Provider>
 	);
 }
 
 function Toasts({ position = "bottom-right" }: { position: ToastPosition }) {
-	const { toasts } = ToastPrimitive.useToastManager();
+	const { toasts } = Toast.useToastManager();
 	const isTop = position.startsWith("top");
 
 	return (
-		<ToastPrimitive.Portal data-slot="toast-portal">
-			<ToastPrimitive.Viewport
+		<Toast.Portal data-slot="toast-portal">
+			<Toast.Viewport
 				className={cn(
 					"fixed z-50 mx-auto flex w-[calc(100%-var(--toast-inset)*2)] max-w-90 [--toast-inset:--spacing(4)] sm:[--toast-inset:--spacing(8)]",
 					// Vertical positioning
@@ -73,7 +73,7 @@ function Toasts({ position = "bottom-right" }: { position: ToastPosition }) {
 						: null;
 
 					return (
-						<ToastPrimitive.Root
+						<Toast.Root
 							className={cn(
 								"absolute z-[calc(9999-var(--toast-index))] h-(--toast-calc-height) w-full select-none rounded-lg border bg-popover bg-clip-padding text-popover-foreground shadow-lg [transition:transform_.5s_cubic-bezier(.22,1,.36,1),opacity_.5s,height_.15s] before:pointer-events-none before:absolute before:inset-0 before:rounded-[calc(var(--radius-lg)-1px)] before:shadow-[0_1px_--theme(--color-black/4%)] dark:bg-clip-border dark:before:shadow-[0_-1px_--theme(--color-white/8%)]",
 								// Base positioning using data-position
@@ -126,60 +126,60 @@ function Toasts({ position = "bottom-right" }: { position: ToastPosition }) {
 							}
 							toast={toast}
 						>
-							<ToastPrimitive.Content className="pointer-events-auto flex items-center justify-between gap-1.5 overflow-hidden px-3.5 py-3 text-sm transition-opacity duration-250 data-behind:pointer-events-none data-behind:opacity-0 data-expanded:opacity-100">
+							<Toast.Content className="pointer-events-auto flex items-center justify-between gap-1.5 overflow-hidden px-3.5 py-3 text-sm transition-opacity duration-250 data-behind:pointer-events-none data-behind:opacity-0 data-expanded:opacity-100">
 								<div className="flex gap-2">
 									{Icon && (
 										<div
 											className="[&>svg]:h-lh [&>svg]:w-4 [&_svg]:pointer-events-none [&_svg]:shrink-0"
 											data-slot="toast-icon"
 										>
-											<Icon className="in-data-[type=loading]:animate-spin in-data-[type=error]:text-destructive in-data-[type=info]:text-info in-data-[type=success]:text-success in-data-[type=warning]:text-warning in-data-[type=loading]:opacity-72" />
+											<Icon className="in-data-[type=loading]:animate-spin in-data-[type=error]:text-destructive in-data-[type=info]:text-info in-data-[type=success]:text-success in-data-[type=warning]:text-warning in-data-[type=loading]:opacity-80" />
 										</div>
 									)}
 
 									<div className="flex flex-col gap-0.5">
-										<ToastPrimitive.Title
+										<Toast.Title
 											className="font-medium"
 											data-slot="toast-title"
 										/>
-										<ToastPrimitive.Description
+										<Toast.Description
 											className="text-muted-foreground"
 											data-slot="toast-description"
 										/>
 									</div>
 								</div>
 								{toast.actionProps && (
-									<ToastPrimitive.Action
-										className={buttonVariants({ size: "xs" })}
+									<Toast.Action
+										className={buttonVariants({ size: "xsmall" })}
 										data-slot="toast-action"
 									>
 										{toast.actionProps.children}
-									</ToastPrimitive.Action>
+									</Toast.Action>
 								)}
-							</ToastPrimitive.Content>
-						</ToastPrimitive.Root>
+							</Toast.Content>
+						</Toast.Root>
 					);
 				})}
-			</ToastPrimitive.Viewport>
-		</ToastPrimitive.Portal>
+			</Toast.Viewport>
+		</Toast.Portal>
 	);
 }
 
 function AnchoredToastProvider({ children, ...props }: Toast.Provider.Props) {
 	return (
-		<ToastPrimitive.Provider toastManager={anchoredToastManager} {...props}>
+		<Toast.Provider toastManager={anchoredToastManager} {...props}>
 			{children}
 			<AnchoredToasts />
-		</ToastPrimitive.Provider>
+		</Toast.Provider>
 	);
 }
 
 function AnchoredToasts() {
-	const { toasts } = ToastPrimitive.useToastManager();
+	const { toasts } = Toast.useToastManager();
 
 	return (
-		<ToastPrimitive.Portal data-slot="toast-portal-anchored">
-			<ToastPrimitive.Viewport
+		<Toast.Portal data-slot="toast-portal-anchored">
+			<Toast.Viewport
 				className="outline-none"
 				data-slot="toast-viewport-anchored"
 			>
@@ -196,14 +196,14 @@ function AnchoredToasts() {
 					}
 
 					return (
-						<ToastPrimitive.Positioner
+						<Toast.Positioner
 							className="z-50 max-w-[min(--spacing(64),var(--available-width))]"
 							data-slot="toast-positioner"
 							key={toast.id}
 							sideOffset={positionerProps.sideOffset ?? 4}
 							toast={toast}
 						>
-							<ToastPrimitive.Root
+							<Toast.Root
 								className={cn(
 									"relative text-balance border bg-popover bg-clip-padding text-popover-foreground text-xs transition-[scale,opacity] before:pointer-events-none before:absolute before:inset-0 before:shadow-[0_1px_--theme(--color-black/4%)] data-ending-style:scale-98 data-starting-style:scale-98 data-ending-style:opacity-0 data-starting-style:opacity-0 dark:bg-clip-border dark:before:shadow-[0_-1px_--theme(--color-white/8%)]",
 									tooltipStyle
@@ -214,54 +214,55 @@ function AnchoredToasts() {
 								toast={toast}
 							>
 								{tooltipStyle ? (
-									<ToastPrimitive.Content className="pointer-events-auto px-2 py-1">
-										<ToastPrimitive.Title data-slot="toast-title" />
-									</ToastPrimitive.Content>
+									<Toast.Content className="pointer-events-auto px-2 py-1">
+										<Toast.Title data-slot="toast-title" />
+									</Toast.Content>
 								) : (
-									<ToastPrimitive.Content className="pointer-events-auto flex items-center justify-between gap-1.5 overflow-hidden px-3.5 py-3 text-sm">
+									<Toast.Content className="pointer-events-auto flex items-center justify-between gap-1.5 overflow-hidden px-3.5 py-3 text-sm">
 										<div className="flex gap-2">
 											{Icon && (
 												<div
 													className="[&>svg]:h-lh [&>svg]:w-4 [&_svg]:pointer-events-none [&_svg]:shrink-0"
 													data-slot="toast-icon"
 												>
-													<Icon className="in-data-[type=loading]:animate-spin in-data-[type=error]:text-destructive in-data-[type=info]:text-info in-data-[type=success]:text-success in-data-[type=warning]:text-warning in-data-[type=loading]:opacity-72" />
+													<Icon className="in-data-[type=loading]:animate-spin in-data-[type=error]:text-destructive in-data-[type=info]:text-info in-data-[type=success]:text-success in-data-[type=warning]:text-warning in-data-[type=loading]:opacity-80" />
 												</div>
 											)}
 
 											<div className="flex flex-col gap-0.5">
-												<ToastPrimitive.Title
+												<Toast.Title
 													className="font-medium"
 													data-slot="toast-title"
 												/>
-												<ToastPrimitive.Description
+												<Toast.Description
 													className="text-muted-foreground"
 													data-slot="toast-description"
 												/>
 											</div>
 										</div>
 										{toast.actionProps && (
-											<ToastPrimitive.Action
-												className={buttonVariants({ size: "xs" })}
+											<Toast.Action
+												className={buttonVariants({ size: "xsmall" })}
 												data-slot="toast-action"
 											>
 												{toast.actionProps.children}
-											</ToastPrimitive.Action>
+											</Toast.Action>
 										)}
-									</ToastPrimitive.Content>
+									</Toast.Content>
 								)}
-							</ToastPrimitive.Root>
-						</ToastPrimitive.Positioner>
+							</Toast.Root>
+						</Toast.Positioner>
 					);
 				})}
-			</ToastPrimitive.Viewport>
-		</ToastPrimitive.Portal>
+			</Toast.Viewport>
+		</Toast.Portal>
 	);
 }
 
 export {
 	ToastProvider,
 	type ToastPosition,
+	type ToastProviderProps,
 	toastManager,
 	AnchoredToastProvider,
 	anchoredToastManager,

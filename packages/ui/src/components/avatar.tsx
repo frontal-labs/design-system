@@ -1,9 +1,11 @@
 "use client";
 
-import { AvatarPrimitive } from "@frontal/primitives";
+import { Avatar as AvatarPrimitive } from "@base-ui/react/avatar";
 import { cn } from "@frontal/shared";
 
-function Avatar({ className, ...props }: AvatarPrimitive.Root.Props) {
+type AvatarProps = AvatarPrimitive.Root.Props;
+
+function Avatar({ className, ...props }: AvatarProps) {
 	return (
 		<AvatarPrimitive.Root
 			className={cn(
@@ -16,7 +18,9 @@ function Avatar({ className, ...props }: AvatarPrimitive.Root.Props) {
 	);
 }
 
-function AvatarImage({ className, ...props }: AvatarPrimitive.Image.Props) {
+type AvatarImageProps = AvatarPrimitive.Image.Props;
+
+function AvatarImage({ className, ...props }: AvatarImageProps) {
 	return (
 		<AvatarPrimitive.Image
 			className={cn("size-full object-cover", className)}
@@ -26,10 +30,9 @@ function AvatarImage({ className, ...props }: AvatarPrimitive.Image.Props) {
 	);
 }
 
-function AvatarFallback({
-	className,
-	...props
-}: AvatarPrimitive.Fallback.Props) {
+type AvatarFallbackProps = AvatarPrimitive.Fallback.Props;
+
+function AvatarFallback({ className, ...props }: AvatarFallbackProps) {
 	return (
 		<AvatarPrimitive.Fallback
 			className={cn(
@@ -42,4 +45,11 @@ function AvatarFallback({
 	);
 }
 
-export { Avatar, AvatarImage, AvatarFallback };
+export {
+	Avatar,
+	AvatarImage,
+	AvatarFallback,
+	type AvatarProps,
+	type AvatarImageProps,
+	type AvatarFallbackProps,
+};

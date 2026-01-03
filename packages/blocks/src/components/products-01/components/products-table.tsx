@@ -1,20 +1,12 @@
+import { AddIcon, ArrowUpDownIcon, FilterIcon, MoreIcon } from "@frontal/icons";
 import {
-	ArrowUpDownIcon,
-	EllipsisVerticalIcon,
-	ListFilterIcon,
-	PlusIcon,
-} from "@frontal/icons";
-
-import { Badge } from "@/registry/new-york-v4/ui/badge";
-import { Button } from "@/registry/new-york-v4/ui/button";
-import { Checkbox } from "@/registry/new-york-v4/ui/checkbox";
-import {
+	Badge,
+	Button,
+	Checkbox,
 	DropdownMenu,
 	DropdownMenuContent,
 	DropdownMenuItem,
 	DropdownMenuTrigger,
-} from "@/registry/new-york-v4/ui/dropdown-menu";
-import {
 	Pagination,
 	PaginationContent,
 	PaginationEllipsis,
@@ -22,23 +14,21 @@ import {
 	PaginationLink,
 	PaginationNext,
 	PaginationPrevious,
-} from "@/registry/new-york-v4/ui/pagination";
-import {
 	Select,
 	SelectContent,
 	SelectItem,
 	SelectTrigger,
 	SelectValue,
-} from "@/registry/new-york-v4/ui/select";
-import {
 	Table,
 	TableBody,
 	TableCell,
 	TableHead,
 	TableHeader,
 	TableRow,
-} from "@/registry/new-york-v4/ui/table";
-import { Tabs, TabsList, TabsTrigger } from "@/registry/new-york-v4/ui/tabs";
+	Tabs,
+	TabsList,
+	TabsTrigger,
+} from "@frontal/ui";
 
 export function ProductsTable({
 	products,
@@ -62,8 +52,8 @@ export function ProductsTable({
 						<TabsTrigger value="low-stock">Low Stock</TabsTrigger>
 						<TabsTrigger value="archived">Archived</TabsTrigger>
 						<TabsTrigger value="add-product" asChild>
-							<button>
-								<PlusIcon />
+							<button type="button">
+								<AddIcon />
 							</button>
 						</TabsTrigger>
 					</TabsList>
@@ -106,7 +96,7 @@ export function ProductsTable({
 						</SelectContent>
 					</Select>
 					<Button variant="outline" size="icon">
-						<ListFilterIcon />
+						<FilterIcon />
 					</Button>
 					<Button variant="outline" size="icon">
 						<ArrowUpDownIcon />
@@ -162,7 +152,7 @@ export function ProductsTable({
 									<DropdownMenu>
 										<DropdownMenuTrigger asChild>
 											<Button variant="ghost" size="icon" className="size-6">
-												<EllipsisVerticalIcon />
+												<MoreIcon />
 											</Button>
 										</DropdownMenuTrigger>
 										<DropdownMenuContent align="end">
@@ -182,24 +172,24 @@ export function ProductsTable({
 				<Pagination>
 					<PaginationContent>
 						<PaginationItem>
-							<PaginationPrevious href="#" />
+							<PaginationPrevious href="/sign-in" />
 						</PaginationItem>
 						<PaginationItem>
-							<PaginationLink href="#">1</PaginationLink>
+							<PaginationLink href="/sign-in">1</PaginationLink>
 						</PaginationItem>
 						<PaginationItem>
-							<PaginationLink href="#" isActive>
+							<PaginationLink href="/sign-in" isActive>
 								2
 							</PaginationLink>
 						</PaginationItem>
 						<PaginationItem>
-							<PaginationLink href="#">3</PaginationLink>
+							<PaginationLink href="/sign-in">3</PaginationLink>
 						</PaginationItem>
 						<PaginationItem>
 							<PaginationEllipsis />
 						</PaginationItem>
 						<PaginationItem>
-							<PaginationNext href="#" />
+							<PaginationNext href="/sign-in" />
 						</PaginationItem>
 					</PaginationContent>
 				</Pagination>

@@ -1,4 +1,4 @@
-import { ProductsTable } from "@/registry/new-york-v4/blocks/products-01/components/products-table";
+import { ProductsTable } from "@frontal/blocks/products-01/components/products-table";
 
 // Load from database.
 const products = [
@@ -20,7 +20,7 @@ const products = [
 	},
 	{
 		id: "3",
-		name: "MALM Bed Frame",
+		name: "MALM Bed FrameIcon",
 		price: 399.99,
 		stock: 15,
 		dateAdded: "2023-08-05",
@@ -148,7 +148,7 @@ const products = [
 	},
 	{
 		id: "19",
-		name: "RIBBA Picture Frame Set",
+		name: "RIBBA Picture FrameIcon Set",
 		price: 49.99,
 		stock: 36,
 		dateAdded: "2024-04-09",

@@ -1,100 +1,99 @@
 "use client";
 
+import { NavFavorites } from "@frontal/blocks/sidebar-15/components/nav-favorites";
+import { NavMain } from "@frontal/blocks/sidebar-15/components/nav-main";
+import { NavSecondary } from "@frontal/blocks/sidebar-15/components/nav-secondary";
+import { NavWorkspaces } from "@frontal/blocks/sidebar-15/components/nav-workspaces";
+import { TeamSwitcher } from "@frontal/blocks/sidebar-15/components/team-switcher";
 import {
-	AudioWaveform,
-	Blocks,
-	Calendar,
-	Command,
-	Home,
-	Inbox,
-	MessageCircleQuestion,
-	Search,
-	Settings2,
-	Sparkles,
-	Trash2,
+	AudioLinesIcon,
+	CalendarIcon,
+	CommandIcon,
+	DeleteBinIcon,
+	HomeIcon,
+	InboxIcon,
+	LayoutGridIcon,
+	QuestionAnswerIcon,
+	SearchIcon,
+	SettingsIcon,
+	SparklingIcon,
 } from "@frontal/icons";
-import type * as React from "react";
-
-import { NavFavorites } from "@/registry/new-york-v4/blocks/sidebar-15/components/nav-favorites";
-import { NavMain } from "@/registry/new-york-v4/blocks/sidebar-15/components/nav-main";
-import { NavSecondary } from "@/registry/new-york-v4/blocks/sidebar-15/components/nav-secondary";
-import { NavWorkspaces } from "@/registry/new-york-v4/blocks/sidebar-15/components/nav-workspaces";
-import { TeamSwitcher } from "@/registry/new-york-v4/blocks/sidebar-15/components/team-switcher";
 import {
 	Sidebar,
 	SidebarContent,
 	SidebarHeader,
 	SidebarRail,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
+import type * as React from "react";
 
 // This is sample data.
 const data = {
 	teams: [
 		{
 			name: "Acme Inc",
-			logo: Command,
+			logo: CommandIcon,
 			plan: "Enterprise",
 		},
 		{
 			name: "Acme Corp.",
-			logo: AudioWaveform,
+			logo: AudioLinesIcon,
 			plan: "Startup",
 		},
 		{
 			name: "Evil Corp.",
-			logo: Command,
+			logo: CommandIcon,
 			plan: "Free",
 		},
 	],
 	navMain: [
 		{
-			title: "Search",
+			title: "SearchIcon",
 			url: "#",
-			icon: Search,
+			icon: SearchIcon,
 		},
 		{
 			title: "Ask AI",
 			url: "#",
-			icon: Sparkles,
+			icon: SparklingIcon,
 		},
 		{
-			title: "Home",
+			title: "HomeIcon",
 			url: "#",
-			icon: Home,
+			icon: HomeIcon,
 			isActive: true,
 		},
 		{
-			title: "Inbox",
+			title: "InboxIcon",
 			url: "#",
-			icon: Inbox,
+			icon: InboxIcon,
 			badge: "10",
 		},
 	],
 	navSecondary: [
 		{
-			title: "Calendar",
+			title: "CalendarIcon",
 			url: "#",
-			icon: Calendar,
+			icon: CalendarIcon,
 		},
 		{
-			title: "Settings",
+			title: "SettingsIcon",
 			url: "#",
-			icon: Settings2,
+			icon: SettingsIcon,
 		},
 		{
 			title: "Templates",
 			url: "#",
-			icon: Blocks,
+			icon: LayoutGridIcon,
 		},
 		{
 			title: "Trash",
 			url: "#",
-			icon: Trash2,
+			icon: DeleteBinIcon,
 		},
 		{
 			title: "Help",
 			url: "#",
-			icon: MessageCircleQuestion,
+			icon: QuestionAnswerIcon,
 		},
 	],
 	favorites: [
@@ -129,7 +128,7 @@ const data = {
 			emoji: "🗣️",
 		},
 		{
-			name: "Home Renovation Ideas & Budget Tracker",
+			name: "HomeIcon Renovation Ideas & Budget Tracker",
 			url: "#",
 			emoji: "🏠",
 		},
@@ -214,7 +213,7 @@ const data = {
 			],
 		},
 		{
-			name: "Home Management",
+			name: "HomeIcon Management",
 			emoji: "🏡",
 			pages: [
 				{
@@ -223,12 +222,12 @@ const data = {
 					emoji: "💰",
 				},
 				{
-					name: "Home Maintenance Schedule & Tasks",
+					name: "HomeIcon Maintenance Schedule & Tasks",
 					url: "#",
 					emoji: "🔧",
 				},
 				{
-					name: "Family Calendar & Event Planning",
+					name: "Family CalendarIcon & Event Planning",
 					url: "#",
 					emoji: "📅",
 				},

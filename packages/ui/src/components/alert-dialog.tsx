@@ -1,6 +1,6 @@
 "use client";
 
-import { AlertDialogPrimitive } from "@frontal/primitives";
+import { AlertDialog as AlertDialogPrimitive } from "@base-ui/react/alert-dialog";
 import { cn } from "@frontal/shared";
 import type { ComponentProps } from "react";
 
@@ -8,16 +8,17 @@ const AlertDialog = AlertDialogPrimitive.Root;
 
 const AlertDialogPortal = AlertDialogPrimitive.Portal;
 
-function AlertDialogTrigger(props: AlertDialogPrimitive.Trigger.Props) {
+type AlertDialogTriggerProps = AlertDialogPrimitive.Trigger.Props;
+
+function AlertDialogTrigger(props: AlertDialogTriggerProps) {
 	return (
 		<AlertDialogPrimitive.Trigger data-slot="alert-dialog-trigger" {...props} />
 	);
 }
 
-function AlertDialogOverlay({
-	className,
-	...props
-}: AlertDialogPrimitive.Backdrop.Props) {
+type AlertDialogOverlayProps = AlertDialogPrimitive.Backdrop.Props;
+
+function AlertDialogOverlay({ className, ...props }: AlertDialogOverlayProps) {
 	return (
 		<AlertDialogPrimitive.Backdrop
 			className={cn(
@@ -30,10 +31,12 @@ function AlertDialogOverlay({
 	);
 }
 
+type AlertDialogViewportProps = AlertDialogPrimitive.Viewport.Props;
+
 function AlertDialogViewport({
 	className,
 	...props
-}: AlertDialogPrimitive.Viewport.Props) {
+}: AlertDialogViewportProps) {
 	return (
 		<AlertDialogPrimitive.Viewport
 			className={cn(
@@ -46,10 +49,9 @@ function AlertDialogViewport({
 	);
 }
 
-function AlertDialogContent({
-	className,
-	...props
-}: AlertDialogPrimitive.Popup.Props) {
+type AlertDialogContentProps = AlertDialogPrimitive.Popup.Props;
+
+function AlertDialogContent({ className, ...props }: AlertDialogContentProps) {
 	return (
 		<AlertDialogPortal>
 			<AlertDialogOverlay />
@@ -67,7 +69,9 @@ function AlertDialogContent({
 	);
 }
 
-function AlertDialogHeader({ className, ...props }: ComponentProps<"div">) {
+type AlertDialogHeaderProps = ComponentProps<"div">;
+
+function AlertDialogHeader({ className, ...props }: AlertDialogHeaderProps) {
 	return (
 		<div
 			className={cn(
@@ -80,17 +84,19 @@ function AlertDialogHeader({ className, ...props }: ComponentProps<"div">) {
 	);
 }
 
+type AlertDialogFooterProps = ComponentProps<"div"> & {
+	variant?: "default" | "bare";
+};
+
 function AlertDialogFooter({
 	className,
 	variant = "default",
 	...props
-}: ComponentProps<"div"> & {
-	variant?: "default" | "bare";
-}) {
+}: AlertDialogFooterProps) {
 	return (
 		<div
 			className={cn(
-				"flex flex-col-reverse gap-2 px-6 sm:flex-row sm:justify-end sm:rounded-b-xl",
+				"flex flex-col-reverse gap-2 px-6 sm:flex-row sm:justify-end sm:rounded-b-[calc(var(--radius-2xl)-1px)]",
 				variant === "default" && "border-t bg-muted/50 py-4",
 				variant === "bare" && "pt-4 pb-6",
 				className,
@@ -101,10 +107,9 @@ function AlertDialogFooter({
 	);
 }
 
-function AlertDialogTitle({
-	className,
-	...props
-}: AlertDialogPrimitive.Title.Props) {
+type AlertDialogTitleProps = AlertDialogPrimitive.Title.Props;
+
+function AlertDialogTitle({ className, ...props }: AlertDialogTitleProps) {
 	return (
 		<AlertDialogPrimitive.Title
 			className={cn("font-heading text-xl leading-none", className)}
@@ -114,10 +119,12 @@ function AlertDialogTitle({
 	);
 }
 
+type AlertDialogDescriptionProps = AlertDialogPrimitive.Description.Props;
+
 function AlertDialogDescription({
 	className,
 	...props
-}: AlertDialogPrimitive.Description.Props) {
+}: AlertDialogDescriptionProps) {
 	return (
 		<AlertDialogPrimitive.Description
 			className={cn("text-muted-foreground text-sm", className)}
@@ -127,7 +134,9 @@ function AlertDialogDescription({
 	);
 }
 
-function AlertDialogClose(props: AlertDialogPrimitive.Close.Props) {
+type AlertDialogCloseProps = AlertDialogPrimitive.Close.Props;
+
+function AlertDialogClose(props: AlertDialogCloseProps) {
 	return (
 		<AlertDialogPrimitive.Close data-slot="alert-dialog-close" {...props} />
 	);
@@ -145,4 +154,13 @@ export {
 	AlertDialogDescription,
 	AlertDialogClose,
 	AlertDialogViewport,
+	type AlertDialogTriggerProps,
+	type AlertDialogOverlayProps,
+	type AlertDialogViewportProps,
+	type AlertDialogContentProps,
+	type AlertDialogHeaderProps,
+	type AlertDialogFooterProps,
+	type AlertDialogTitleProps,
+	type AlertDialogDescriptionProps,
+	type AlertDialogCloseProps,
 };

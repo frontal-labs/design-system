@@ -1,20 +1,17 @@
 "use client";
 
-import { Pie, PieChart } from "recharts";
-
 import {
 	Card,
 	CardContent,
 	CardDescription,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	type ChartConfig,
 	ChartContainer,
 	ChartLegend,
 	ChartLegendContent,
-} from "@/registry/new-york-v4/ui/chart";
+} from "@frontal/ui";
+import { Pie, PieChart } from "recharts";
 
 export const description = "A pie chart with a legend";
 

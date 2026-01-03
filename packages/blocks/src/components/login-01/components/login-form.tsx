@@ -1,19 +1,17 @@
-import { cn } from "@/registry/new-york-v4/lib/utils";
-import { Button } from "@/registry/new-york-v4/ui/button";
+import { cn } from "@frontal/shared";
 import {
+	Button,
 	Card,
 	CardContent,
 	CardDescription,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	Field,
 	FieldDescription,
-	FieldGroup,
 	FieldLabel,
-} from "@/registry/new-york-v4/ui/field";
-import { Input } from "@/registry/new-york-v4/ui/input";
+	Fieldset,
+	Input,
+} from "@frontal/ui";
 
 export function LoginForm({
 	className,
@@ -30,7 +28,7 @@ export function LoginForm({
 				</CardHeader>
 				<CardContent>
 					<form>
-						<FieldGroup>
+						<Fieldset>
 							<Field>
 								<FieldLabel htmlFor="email">Email</FieldLabel>
 								<Input
@@ -44,7 +42,7 @@ export function LoginForm({
 								<div className="flex items-center">
 									<FieldLabel htmlFor="password">Password</FieldLabel>
 									<a
-										href="#"
+										href="/forgot-password"
 										className="ml-auto inline-block text-sm underline-offset-4 hover:underline"
 									>
 										Forgot your password?
@@ -58,10 +56,10 @@ export function LoginForm({
 									Login with Google
 								</Button>
 								<FieldDescription className="text-center">
-									Don&apos;t have an account? <a href="#">Sign up</a>
+									Don&apos;t have an account? <a href="/sign-up">Sign up</a>
 								</FieldDescription>
 							</Field>
-						</FieldGroup>
+						</Fieldset>
 					</form>
 				</CardContent>
 			</Card>

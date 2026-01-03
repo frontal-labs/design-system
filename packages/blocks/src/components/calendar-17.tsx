@@ -1,11 +1,14 @@
 "use client";
 
+import {
+	Calendar,
+	Card,
+	CardContent,
+	CardFooter,
+	Input,
+	Label,
+} from "@frontal/ui";
 import * as React from "react";
-
-import { Calendar } from "@/registry/new-york-v4/ui/calendar";
-import { Card, CardContent, CardFooter } from "@/registry/new-york-v4/ui/card";
-import { Input } from "@/registry/new-york-v4/ui/input";
-import { Label } from "@/registry/new-york-v4/ui/label";
 
 export default function Calendar17() {
 	const [date, setDate] = React.useState<Date | undefined>(
@@ -22,7 +25,7 @@ export default function Calendar17() {
 					className="bg-transparent p-0 [--cell-size:--spacing(10.5)]"
 				/>
 			</CardContent>
-			<CardFooter className="flex gap-2 border-t px-4 !pt-4 *:[div]:w-full">
+			<CardFooter className="!pt-4 flex gap-2 border-t px-4 *:[div]:w-full">
 				<div>
 					<Label htmlFor="time-from" className="sr-only">
 						Start Time

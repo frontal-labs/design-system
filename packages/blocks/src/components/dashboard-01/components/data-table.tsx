@@ -19,6 +19,48 @@ import {
 	verticalListSortingStrategy,
 } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
+import { useIsMobile } from "@frontal/react-media";
+import {
+	Badge,
+	Button,
+	type ChartConfig,
+	ChartContainer,
+	ChartTooltip,
+	ChartTooltipContent,
+	Checkbox,
+	Drawer,
+	DrawerClose,
+	DrawerContent,
+	DrawerDescription,
+	DrawerFooter,
+	DrawerHeader,
+	DrawerTitle,
+	DrawerTrigger,
+	DropdownMenu,
+	DropdownMenuCheckboxItem,
+	DropdownMenuContent,
+	DropdownMenuItem,
+	DropdownMenuSeparator,
+	DropdownMenuTrigger,
+	Input,
+	Label,
+	Select,
+	SelectContent,
+	SelectItem,
+	SelectTrigger,
+	SelectValue,
+	Separator,
+	Table,
+	TableBody,
+	TableCell,
+	TableHead,
+	TableHeader,
+	TableRow,
+	Tabs,
+	TabsContent,
+	TabsList,
+	TabsTrigger,
+} from "@frontal/ui";
 import {
 	IconChevronDown,
 	IconChevronLeft,
@@ -34,6 +76,8 @@ import {
 	IconTrendingUp,
 } from "@tabler/icons-react";
 import {
+	type Cell,
+	type Column,
 	type ColumnDef,
 	type ColumnFiltersState,
 	flexRender,
@@ -43,6 +87,9 @@ import {
 	getFilteredRowModel,
 	getPaginationRowModel,
 	getSortedRowModel,
+	type Header,
+	type HeaderGroup,
+	type Table as ReactTableType,
 	type Row,
 	type SortingState,
 	useReactTable,
@@ -52,59 +99,6 @@ import * as React from "react";
 import { Area, AreaChart, CartesianGrid, XAxis } from "recharts";
 import { toast } from "sonner";
 import { z } from "zod";
-
-import { useIsMobile } from "@/registry/new-york-v4/hooks/use-mobile";
-import { Badge } from "@/registry/new-york-v4/ui/badge";
-import { Button } from "@/registry/new-york-v4/ui/button";
-import {
-	type ChartConfig,
-	ChartContainer,
-	ChartTooltip,
-	ChartTooltipContent,
-} from "@/registry/new-york-v4/ui/chart";
-import { Checkbox } from "@/registry/new-york-v4/ui/checkbox";
-import {
-	Drawer,
-	DrawerClose,
-	DrawerContent,
-	DrawerDescription,
-	DrawerFooter,
-	DrawerHeader,
-	DrawerTitle,
-	DrawerTrigger,
-} from "@/registry/new-york-v4/ui/drawer";
-import {
-	DropdownMenu,
-	DropdownMenuCheckboxItem,
-	DropdownMenuContent,
-	DropdownMenuItem,
-	DropdownMenuSeparator,
-	DropdownMenuTrigger,
-} from "@/registry/new-york-v4/ui/dropdown-menu";
-import { Input } from "@/registry/new-york-v4/ui/input";
-import { Label } from "@/registry/new-york-v4/ui/label";
-import {
-	Select,
-	SelectContent,
-	SelectItem,
-	SelectTrigger,
-	SelectValue,
-} from "@/registry/new-york-v4/ui/select";
-import { Separator } from "@/registry/new-york-v4/ui/separator";
-import {
-	Table,
-	TableBody,
-	TableCell,
-	TableHead,
-	TableHeader,
-	TableRow,
-} from "@/registry/new-york-v4/ui/table";
-import {
-	Tabs,
-	TabsContent,
-	TabsList,
-	TabsTrigger,
-} from "@/registry/new-york-v4/ui/tabs";
 
 export const schema = z.object({
 	id: z.number(),
@@ -128,9 +122,9 @@ function DragHandle({ id }: { id: number }) {
 			{...listeners}
 			variant="ghost"
 			size="icon"
-			className="text-muted-foreground size-7 hover:bg-transparent"
+			className="size-7 text-muted-foreground hover:bg-transparent"
 		>
-			<IconGripVertical className="text-muted-foreground size-3" />
+			<IconGripVertical className="size-3 text-muted-foreground" />
 			<span className="sr-only">Drag to reorder</span>
 		</Button>
 	);
@@ -140,23 +134,26 @@ const columns: ColumnDef<z.infer<typeof schema>>[] = [
 	{
 		id: "drag",
 		header: () => null,
-		cell: ({ row }) => <DragHandle id={row.original.id} />,
+		cell: ({ row }: { row: Row<z.infer<typeof schema>> }) => (
+			<DragHandle id={row.original.id} />
+		),
 	},
 	{
 		id: "select",
-		header: ({ table }) => (
+		header: ({ table }: { table: ReactTableType<z.infer<typeof schema>> }) => (
 			<div className="flex items-center justify-center">
 				<Checkbox
-					checked={
-						table.getIsAllPageRowsSelected() ||
-						(table.getIsSomePageRowsSelected() && "indeterminate")
+					checked={table.getIsAllPageRowsSelected()}
+					indeterminate={
+						table.getIsSomePageRowsSelected() &&
+						!table.getIsAllPageRowsSelected()
 					}
 					onCheckedChange={(value) => table.toggleAllPageRowsSelected(!!value)}
 					aria-label="Select all"
 				/>
 			</div>
 		),
-		cell: ({ row }) => (
+		cell: ({ row }: { row: Row<z.infer<typeof schema>> }) => (
 			<div className="flex items-center justify-center">
 				<Checkbox
 					checked={row.getIsSelected()}
@@ -171,7 +168,7 @@ const columns: ColumnDef<z.infer<typeof schema>>[] = [
 	{
 		accessorKey: "header",
 		header: "Header",
-		cell: ({ row }) => {
+		cell: ({ row }: { row: Row<z.infer<typeof schema>> }) => {
 			return <TableCellViewer item={row.original} />;
 		},
 		enableHiding: false,
@@ -179,9 +176,9 @@ const columns: ColumnDef<z.infer<typeof schema>>[] = [
 	{
 		accessorKey: "type",
 		header: "Section Type",
-		cell: ({ row }) => (
+		cell: ({ row }: { row: Row<z.infer<typeof schema>> }) => (
 			<div className="w-32">
-				<Badge variant="outline" className="text-muted-foreground px-1.5">
+				<Badge variant="outline" className="px-1.5 text-muted-foreground">
 					{row.original.type}
 				</Badge>
 			</div>
@@ -190,8 +187,8 @@ const columns: ColumnDef<z.infer<typeof schema>>[] = [
 	{
 		accessorKey: "status",
 		header: "Status",
-		cell: ({ row }) => (
-			<Badge variant="outline" className="text-muted-foreground px-1.5">
+		cell: ({ row }: { row: Row<z.infer<typeof schema>> }) => (
+			<Badge variant="outline" className="px-1.5 text-muted-foreground">
 				{row.original.status === "Done" ? (
 					<IconCircleCheckFilled className="fill-green-500 dark:fill-green-400" />
 				) : (
@@ -204,7 +201,7 @@ const columns: ColumnDef<z.infer<typeof schema>>[] = [
 	{
 		accessorKey: "target",
 		header: () => <div className="w-full text-right">Target</div>,
-		cell: ({ row }) => (
+		cell: ({ row }: { row: Row<z.infer<typeof schema>> }) => (
 			<form
 				onSubmit={(e) => {
 					e.preventDefault();
@@ -219,7 +216,7 @@ const columns: ColumnDef<z.infer<typeof schema>>[] = [
 					Target
 				</Label>
 				<Input
-					className="hover:bg-input/30 focus-visible:bg-background dark:hover:bg-input/30 dark:focus-visible:bg-input/30 h-8 w-16 border-transparent bg-transparent text-right shadow-none focus-visible:border dark:bg-transparent"
+					className="h-8 w-16 border-transparent bg-transparent text-right shadow-none hover:bg-input/30 focus-visible:border focus-visible:bg-background dark:bg-transparent dark:focus-visible:bg-input/30 dark:hover:bg-input/30"
 					defaultValue={row.original.target}
 					id={`${row.original.id}-target`}
 				/>
@@ -229,7 +226,7 @@ const columns: ColumnDef<z.infer<typeof schema>>[] = [
 	{
 		accessorKey: "limit",
 		header: () => <div className="w-full text-right">Limit</div>,
-		cell: ({ row }) => (
+		cell: ({ row }: { row: Row<z.infer<typeof schema>> }) => (
 			<form
 				onSubmit={(e) => {
 					e.preventDefault();
@@ -244,7 +241,7 @@ const columns: ColumnDef<z.infer<typeof schema>>[] = [
 					Limit
 				</Label>
 				<Input
-					className="hover:bg-input/30 focus-visible:bg-background dark:hover:bg-input/30 dark:focus-visible:bg-input/30 h-8 w-16 border-transparent bg-transparent text-right shadow-none focus-visible:border dark:bg-transparent"
+					className="h-8 w-16 border-transparent bg-transparent text-right shadow-none hover:bg-input/30 focus-visible:border focus-visible:bg-background dark:bg-transparent dark:focus-visible:bg-input/30 dark:hover:bg-input/30"
 					defaultValue={row.original.limit}
 					id={`${row.original.id}-limit`}
 				/>
@@ -254,7 +251,7 @@ const columns: ColumnDef<z.infer<typeof schema>>[] = [
 	{
 		accessorKey: "reviewer",
 		header: "Reviewer",
-		cell: ({ row }) => {
+		cell: ({ row }: { row: Row<z.infer<typeof schema>> }) => {
 			const isAssigned = row.original.reviewer !== "Assign reviewer";
 
 			if (isAssigned) {
@@ -269,7 +266,7 @@ const columns: ColumnDef<z.infer<typeof schema>>[] = [
 					<Select>
 						<SelectTrigger
 							className="w-38 **:data-[slot=select-value]:block **:data-[slot=select-value]:truncate"
-							size="sm"
+							size="small"
 							id={`${row.original.id}-reviewer`}
 						>
 							<SelectValue placeholder="Assign reviewer" />
@@ -292,7 +289,7 @@ const columns: ColumnDef<z.infer<typeof schema>>[] = [
 				<DropdownMenuTrigger asChild>
 					<Button
 						variant="ghost"
-						className="data-[state=open]:bg-muted text-muted-foreground flex size-8"
+						className="flex size-8 text-muted-foreground data-[state=open]:bg-muted"
 						size="icon"
 					>
 						<IconDotsVertical />
@@ -327,11 +324,13 @@ function DraggableRow({ row }: { row: Row<z.infer<typeof schema>> }) {
 				transition: transition,
 			}}
 		>
-			{row.getVisibleCells().map((cell) => (
-				<TableCell key={cell.id}>
-					{flexRender(cell.column.columnDef.cell, cell.getContext())}
-				</TableCell>
-			))}
+			{row
+				.getVisibleCells()
+				.map((cell: Cell<z.infer<typeof schema>, unknown>) => (
+					<TableCell key={cell.id}>
+						{flexRender(cell.column.columnDef.cell, cell.getContext())}
+					</TableCell>
+				))}
 		</TableRow>
 	);
 }
@@ -375,7 +374,7 @@ export function DataTable({
 			columnFilters,
 			pagination,
 		},
-		getRowId: (row) => row.id.toString(),
+		getRowId: (row: z.infer<typeof schema>) => row.id.toString(),
 		enableRowSelection: true,
 		onRowSelectionChange: setRowSelection,
 		onSortingChange: setSorting,
@@ -412,8 +411,8 @@ export function DataTable({
 				</Label>
 				<Select defaultValue="outline">
 					<SelectTrigger
-						className="flex w-fit @4xl/main:hidden"
-						size="sm"
+						className="flex @4xl/main:hidden w-fit"
+						size="small"
 						id="view-selector"
 					>
 						<SelectValue placeholder="Select a view" />
@@ -425,7 +424,7 @@ export function DataTable({
 						<SelectItem value="focus-documents">Focus Documents</SelectItem>
 					</SelectContent>
 				</Select>
-				<TabsList className="**:data-[slot=badge]:bg-muted-foreground/30 hidden **:data-[slot=badge]:size-5 **:data-[slot=badge]:rounded-full **:data-[slot=badge]:px-1 @4xl/main:flex">
+				<TabsList className="@4xl/main:flex hidden **:data-[slot=badge]:size-5 **:data-[slot=badge]:rounded-full **:data-[slot=badge]:bg-muted-foreground/30 **:data-[slot=badge]:px-1">
 					<TabsTrigger value="outline">Outline</TabsTrigger>
 					<TabsTrigger value="past-performance">
 						Past Performance <Badge variant="secondary">3</Badge>
@@ -438,7 +437,7 @@ export function DataTable({
 				<div className="flex items-center gap-2">
 					<DropdownMenu>
 						<DropdownMenuTrigger asChild>
-							<Button variant="outline" size="sm">
+							<Button variant="outline" size="small">
 								<IconLayoutColumns />
 								<span className="hidden lg:inline">Customize Columns</span>
 								<span className="lg:hidden">Columns</span>
@@ -449,11 +448,11 @@ export function DataTable({
 							{table
 								.getAllColumns()
 								.filter(
-									(column) =>
+									(column: Column<z.infer<typeof schema>, unknown>) =>
 										typeof column.accessorFn !== "undefined" &&
 										column.getCanHide(),
 								)
-								.map((column) => {
+								.map((column: Column<z.infer<typeof schema>, unknown>) => {
 									return (
 										<DropdownMenuCheckboxItem
 											key={column.id}
@@ -469,7 +468,7 @@ export function DataTable({
 								})}
 						</DropdownMenuContent>
 					</DropdownMenu>
-					<Button variant="outline" size="sm">
+					<Button variant="outline" size="small">
 						<IconPlus />
 						<span className="hidden lg:inline">Add Section</span>
 					</Button>
@@ -488,23 +487,27 @@ export function DataTable({
 						id={sortableId}
 					>
 						<Table>
-							<TableHeader className="bg-muted sticky top-0 z-10">
-								{table.getHeaderGroups().map((headerGroup) => (
-									<TableRow key={headerGroup.id}>
-										{headerGroup.headers.map((header) => {
-											return (
-												<TableHead key={header.id} colSpan={header.colSpan}>
-													{header.isPlaceholder
-														? null
-														: flexRender(
-																header.column.columnDef.header,
-																header.getContext(),
-															)}
-												</TableHead>
-											);
-										})}
-									</TableRow>
-								))}
+							<TableHeader className="sticky top-0 z-10 bg-muted">
+								{table
+									.getHeaderGroups()
+									.map((headerGroup: HeaderGroup<z.infer<typeof schema>>) => (
+										<TableRow key={headerGroup.id}>
+											{headerGroup.headers.map(
+												(header: Header<z.infer<typeof schema>, unknown>) => {
+													return (
+														<TableHead key={header.id} colSpan={header.colSpan}>
+															{header.isPlaceholder
+																? null
+																: flexRender(
+																		header.column.columnDef.header,
+																		header.getContext(),
+																	)}
+														</TableHead>
+													);
+												},
+											)}
+										</TableRow>
+									))}
 							</TableHeader>
 							<TableBody className="**:data-[slot=table-cell]:first:w-8">
 								{table.getRowModel().rows?.length ? (
@@ -512,9 +515,11 @@ export function DataTable({
 										items={dataIds}
 										strategy={verticalListSortingStrategy}
 									>
-										{table.getRowModel().rows.map((row) => (
-											<DraggableRow key={row.id} row={row} />
-										))}
+										{table
+											.getRowModel()
+											.rows.map((row: Row<z.infer<typeof schema>>) => (
+												<DraggableRow key={row.id} row={row} />
+											))}
 									</SortableContext>
 								) : (
 									<TableRow>
@@ -531,13 +536,13 @@ export function DataTable({
 					</DndContext>
 				</div>
 				<div className="flex items-center justify-between px-4">
-					<div className="text-muted-foreground hidden flex-1 text-sm lg:flex">
+					<div className="hidden flex-1 text-muted-foreground text-sm lg:flex">
 						{table.getFilteredSelectedRowModel().rows.length} of{" "}
 						{table.getFilteredRowModel().rows.length} row(s) selected.
 					</div>
 					<div className="flex w-full items-center gap-8 lg:w-fit">
 						<div className="hidden items-center gap-2 lg:flex">
-							<Label htmlFor="rows-per-page" className="text-sm font-medium">
+							<Label htmlFor="rows-per-page" className="font-medium text-sm">
 								Rows per page
 							</Label>
 							<Select
@@ -546,9 +551,9 @@ export function DataTable({
 									table.setPageSize(Number(value));
 								}}
 							>
-								<SelectTrigger size="sm" className="w-20" id="rows-per-page">
+								<SelectTrigger size="small" className="w-20" id="rows-per-page">
 									<SelectValue
-										placeholder={table.getState().pagination.pageSize}
+										placeholder={String(table.getState().pagination.pageSize)}
 									/>
 								</SelectTrigger>
 								<SelectContent side="top">
@@ -560,7 +565,7 @@ export function DataTable({
 								</SelectContent>
 							</Select>
 						</div>
-						<div className="flex w-fit items-center justify-center text-sm font-medium">
+						<div className="flex w-fit items-center justify-center font-medium text-sm">
 							Page {table.getState().pagination.pageIndex + 1} of{" "}
 							{table.getPageCount()}
 						</div>
@@ -612,16 +617,16 @@ export function DataTable({
 				value="past-performance"
 				className="flex flex-col px-4 lg:px-6"
 			>
-				<div className="aspect-video w-full flex-1 rounded-lg border border-dashed"></div>
+				<div className="aspect-video w-full flex-1 rounded-lg border border-dashed" />
 			</TabsContent>
 			<TabsContent value="key-personnel" className="flex flex-col px-4 lg:px-6">
-				<div className="aspect-video w-full flex-1 rounded-lg border border-dashed"></div>
+				<div className="aspect-video w-full flex-1 rounded-lg border border-dashed" />
 			</TabsContent>
 			<TabsContent
 				value="focus-documents"
 				className="flex flex-col px-4 lg:px-6"
 			>
-				<div className="aspect-video w-full flex-1 rounded-lg border border-dashed"></div>
+				<div className="aspect-video w-full flex-1 rounded-lg border border-dashed" />
 			</TabsContent>
 		</Tabs>
 	);
@@ -653,7 +658,7 @@ function TableCellViewer({ item }: { item: z.infer<typeof schema> }) {
 	return (
 		<Drawer direction={isMobile ? "bottom" : "right"}>
 			<DrawerTrigger asChild>
-				<Button variant="link" className="text-foreground w-fit px-0 text-left">
+				<Button variant="link" className="w-fit px-0 text-left text-foreground">
 					{item.header}
 				</Button>
 			</DrawerTrigger>
@@ -709,7 +714,7 @@ function TableCellViewer({ item }: { item: z.infer<typeof schema> }) {
 							</ChartContainer>
 							<Separator />
 							<div className="grid gap-2">
-								<div className="flex gap-2 leading-none font-medium">
+								<div className="flex gap-2 font-medium leading-none">
 									Trending up by 5.2% this month{" "}
 									<IconTrendingUp className="size-4" />
 								</div>

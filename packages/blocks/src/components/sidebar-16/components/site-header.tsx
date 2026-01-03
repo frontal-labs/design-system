@@ -1,8 +1,7 @@
 "use client";
 
-import { SidebarIcon } from "@frontal/icons";
-
-import { SearchForm } from "@/registry/new-york-v4/blocks/sidebar-16/components/search-form";
+import { SearchForm } from "@frontal/blocks/sidebar-16/components/search-form";
+import { SideBarIcon } from "@frontal/icons";
 import {
 	Breadcrumb,
 	BreadcrumbItem,
@@ -10,16 +9,16 @@ import {
 	BreadcrumbList,
 	BreadcrumbPage,
 	BreadcrumbSeparator,
-} from "@/registry/new-york-v4/ui/breadcrumb";
-import { Button } from "@/registry/new-york-v4/ui/button";
-import { Separator } from "@/registry/new-york-v4/ui/separator";
-import { useSidebar } from "@/registry/new-york-v4/ui/sidebar";
+	Button,
+	Separator,
+	useSidebar,
+} from "@frontal/ui";
 
 export function SiteHeader() {
 	const { toggleSidebar } = useSidebar();
 
 	return (
-		<header className="bg-background sticky top-0 z-50 flex w-full items-center border-b">
+		<header className="sticky top-0 z-50 flex w-full items-center border-b bg-background">
 			<div className="flex h-(--header-height) w-full items-center gap-2 px-4">
 				<Button
 					className="h-8 w-8"
@@ -27,13 +26,13 @@ export function SiteHeader() {
 					size="icon"
 					onClick={toggleSidebar}
 				>
-					<SidebarIcon />
+					<SideBarIcon />
 				</Button>
 				<Separator orientation="vertical" className="mr-2 h-4" />
 				<Breadcrumb className="hidden sm:block">
 					<BreadcrumbList>
 						<BreadcrumbItem>
-							<BreadcrumbLink href="#">
+							<BreadcrumbLink href="/sign-in">
 								Building Your Application
 							</BreadcrumbLink>
 						</BreadcrumbItem>

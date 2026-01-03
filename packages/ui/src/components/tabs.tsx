@@ -1,11 +1,13 @@
 "use client";
 
-import { TabsPrimitive } from "@frontal/primitives";
+import { Tabs as TabsPrimitive } from "@base-ui/react/tabs";
 import { cn } from "@frontal/shared";
 
 type TabsVariant = "default" | "underline";
 
-function Tabs({ className, ...props }: TabsPrimitive.Root.Props) {
+type TabsProps = TabsPrimitive.Root.Props;
+
+function Tabs({ className, ...props }: TabsProps) {
 	return (
 		<TabsPrimitive.Root
 			className={cn(
@@ -18,14 +20,16 @@ function Tabs({ className, ...props }: TabsPrimitive.Root.Props) {
 	);
 }
 
+type TabsListProps = TabsPrimitive.List.Props & {
+	variant?: TabsVariant;
+};
+
 function TabsList({
 	variant = "default",
 	className,
 	children,
 	...props
-}: TabsPrimitive.List.Props & {
-	variant?: TabsVariant;
-}) {
+}: TabsListProps) {
 	return (
 		<TabsPrimitive.List
 			className={cn(
@@ -53,13 +57,17 @@ function TabsList({
 	);
 }
 
-function TabsTab({ className, ...props }: TabsPrimitive.Tab.Props) {
+type TabsTabProps = TabsPrimitive.Tab.Props & {
+	asChild?: boolean;
+};
+
+function TabsTab({ className, asChild, ...props }: TabsTabProps) {
 	return (
 		<TabsPrimitive.Tab
 			className={cn(
-				"flex flex-1 shrink-0 cursor-pointer items-center justify-center whitespace-nowrap rounded-md border border-transparent font-medium text-sm outline-none transition-[color,background-color,box-shadow] focus-visible:ring-2 focus-visible:ring-ring data-disabled:pointer-events-none data-disabled:opacity-64 [&_svg:not([class*='size-'])]:size-4 [&_svg]:pointer-events-none [&_svg]:shrink-0",
+				"[&_svg]:-mx-0.5 flex shrink-0 grow cursor-pointer items-center justify-center whitespace-nowrap rounded-md border border-transparent font-medium text-base outline-none transition-[color,background-color,box-shadow] focus-visible:ring-2 focus-visible:ring-ring data-disabled:pointer-events-none data-disabled:opacity-64 sm:text-sm [&_svg:not([class*='size-'])]:size-4.5 sm:[&_svg:not([class*='size-'])]:size-4 [&_svg]:pointer-events-none [&_svg]:shrink-0",
 				"hover:text-muted-foreground data-active:text-foreground",
-				"gap-1.5 px-[calc(--spacing(2.5)-1px)] py-[calc(--spacing(1.5)-1px)]",
+				"h-9 gap-1.5 px-[calc(var(--spacing)*2.5-1px)] sm:h-8",
 				"data-[orientation=vertical]:w-full data-[orientation=vertical]:justify-start",
 				className,
 			)}
@@ -69,7 +77,9 @@ function TabsTab({ className, ...props }: TabsPrimitive.Tab.Props) {
 	);
 }
 
-function TabsContent({ className, ...props }: TabsPrimitive.Panel.Props) {
+type TabsPanelProps = TabsPrimitive.Panel.Props;
+
+function TabsPanel({ className, ...props }: TabsPanelProps) {
 	return (
 		<TabsPrimitive.Panel
 			className={cn("flex-1 outline-none", className)}
@@ -79,4 +89,15 @@ function TabsContent({ className, ...props }: TabsPrimitive.Panel.Props) {
 	);
 }
 
-export { Tabs, TabsList, TabsTab, TabsContent };
+export {
+	Tabs,
+	TabsList,
+	TabsTab,
+	TabsTab as TabsTrigger,
+	TabsPanel,
+	TabsPanel as TabsContent,
+	type TabsProps,
+	type TabsListProps,
+	type TabsTabProps,
+	type TabsPanelProps,
+};

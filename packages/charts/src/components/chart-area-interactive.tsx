@@ -1,30 +1,25 @@
 "use client";
 
-import * as React from "react";
-import { Area, AreaChart, CartesianGrid, XAxis } from "recharts";
-
 import {
 	Card,
 	CardContent,
 	CardDescription,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	type ChartConfig,
 	ChartContainer,
 	ChartLegend,
 	ChartLegendContent,
 	ChartTooltip,
 	ChartTooltipContent,
-} from "@/registry/new-york-v4/ui/chart";
-import {
 	Select,
 	SelectContent,
 	SelectItem,
 	SelectTrigger,
 	SelectValue,
-} from "@/registry/new-york-v4/ui/select";
+} from "@frontal/ui";
+import * as React from "react";
+import { Area, AreaChart, CartesianGrid, XAxis } from "recharts";
 
 export const description = "An interactive area chart";
 
@@ -162,7 +157,10 @@ export function ChartAreaInteractive() {
 						Showing total visitors for the last 3 months
 					</CardDescription>
 				</div>
-				<Select value={timeRange} onValueChange={setTimeRange}>
+				<Select
+					value={timeRange}
+					onValueChange={(value) => setTimeRange(value ?? "90d")}
+				>
 					<SelectTrigger
 						className="hidden w-[160px] rounded-lg sm:ml-auto sm:flex"
 						aria-label="Select a value"
@@ -221,7 +219,7 @@ export function ChartAreaInteractive() {
 							axisLine={false}
 							tickMargin={8}
 							minTickGap={32}
-							tickFormatter={(value) => {
+							tickFormatter={(value: string | number) => {
 								const date = new Date(value);
 								return date.toLocaleDateString("en-US", {
 									month: "short",
@@ -233,7 +231,7 @@ export function ChartAreaInteractive() {
 							cursor={false}
 							content={
 								<ChartTooltipContent
-									labelFormatter={(value) => {
+									labelFormatter={(value: string | number) => {
 										return new Date(value).toLocaleDateString("en-US", {
 											month: "short",
 											day: "numeric",

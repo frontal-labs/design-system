@@ -1,23 +1,21 @@
-import { AppSidebar } from "@/registry/new-york-v4/blocks/sidebar-12/components/app-sidebar";
+import { AppSidebar } from "@frontal/blocks/sidebar-12/components/app-sidebar";
 import {
 	Breadcrumb,
 	BreadcrumbItem,
 	BreadcrumbList,
 	BreadcrumbPage,
-} from "@/registry/new-york-v4/ui/breadcrumb";
-import { Separator } from "@/registry/new-york-v4/ui/separator";
-import {
+	Separator,
 	SidebarInset,
 	SidebarProvider,
 	SidebarTrigger,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
 
 export default function Page() {
 	return (
 		<SidebarProvider>
 			<AppSidebar />
 			<SidebarInset>
-				<header className="bg-background sticky top-0 flex h-16 shrink-0 items-center gap-2 border-b px-4">
+				<header className="sticky top-0 flex h-16 shrink-0 items-center gap-2 border-b bg-background px-4">
 					<SidebarTrigger className="-ml-1" />
 					<Separator
 						orientation="vertical"
@@ -33,8 +31,11 @@ export default function Page() {
 				</header>
 				<div className="flex flex-1 flex-col gap-4 p-4">
 					<div className="grid auto-rows-min gap-4 md:grid-cols-5">
-						{Array.from({ length: 20 }).map((_, i) => (
-							<div key={i} className="bg-muted/50 aspect-square rounded-xl" />
+						{Array.from({ length: 20 }, () => (
+							<div
+								key={crypto.randomUUID()}
+								className="aspect-square rounded-xl bg-muted/50"
+							/>
 						))}
 					</div>
 				</div>

@@ -11,7 +11,7 @@ This package provides a comprehensive collection of SVG icons for use across the
 This package is part of the Frontal monorepo and is installed automatically as a workspace dependency.
 
 ```bash
-pnpm install @frontal/icons
+bun install @frontal/icons
 ```
 
 ## Usage

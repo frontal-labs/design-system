@@ -1,9 +1,8 @@
 "use client";
 
+import { Calendar } from "@frontal/ui";
 import * as React from "react";
 import type { DateRange } from "react-day-picker";
-
-import { Calendar } from "@/registry/new-york-v4/ui/calendar";
 
 export default function Calendar06() {
 	const [dateRange, setDateRange] = React.useState<DateRange | undefined>({
@@ -22,7 +21,7 @@ export default function Calendar06() {
 				min={5}
 				className="rounded-lg border shadow-sm"
 			/>
-			<div className="text-muted-foreground text-center text-xs">
+			<div className="text-center text-muted-foreground text-xs">
 				A minimum of 5 days is required
 			</div>
 		</div>

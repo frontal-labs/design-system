@@ -1,4 +1,5 @@
 {
+	"extends": "@frontal/typescript-config/react.json",
 	"compilerOptions": {
 		"baseUrl": ".",
 		"rootDir": ".",
@@ -9,15 +10,14 @@
 		"resolveJsonModule": true,
 		"isolatedModules": true,
 		"jsx": "react-jsx",
-		"incremental": true,
+		"incremental": false,
 		"skipLibCheck": true,
 		"target": "ES2020",
 		"lib": ["ES2020", "DOM", "DOM.Iterable"],
+		"types": ["bun-types"],
 		"paths": {
 			"@/*": ["./src/*"],
-			"@components": ["./src/components"],
-			"@components/*": ["./src/components/*"],
-			"@frontal/*": ["../../packages/*"],
+			"@frontal/*": ["../../*"],
 			"@frontal/icons/*": ["./src/*"]
 		}
 	},

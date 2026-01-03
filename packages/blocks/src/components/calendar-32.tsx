@@ -1,19 +1,18 @@
 "use client";
 
-import { CalendarPlusIcon } from "@frontal/icons";
-import * as React from "react";
-
-import { Button } from "@/registry/new-york-v4/ui/button";
-import { Calendar } from "@/registry/new-york-v4/ui/calendar";
+import { CalendarIcon } from "@frontal/icons";
 import {
+	Button,
+	Calendar,
 	Drawer,
 	DrawerContent,
 	DrawerDescription,
 	DrawerHeader,
 	DrawerTitle,
 	DrawerTrigger,
-} from "@/registry/new-york-v4/ui/drawer";
-import { Label } from "@/registry/new-york-v4/ui/label";
+	Label,
+} from "@frontal/ui";
+import * as React from "react";
 
 export default function Calendar32() {
 	const [open, setOpen] = React.useState(false);
@@ -32,7 +31,7 @@ export default function Calendar32() {
 						className="w-48 justify-between font-normal"
 					>
 						{date ? date.toLocaleDateString() : "Select date"}
-						<CalendarPlusIcon />
+						<CalendarIcon />
 					</Button>
 				</DrawerTrigger>
 				<DrawerContent className="w-auto overflow-hidden p-0">
@@ -52,7 +51,7 @@ export default function Calendar32() {
 					/>
 				</DrawerContent>
 			</Drawer>
-			<div className="text-muted-foreground px-1 text-sm">
+			<div className="px-1 text-muted-foreground text-sm">
 				This example works best on mobile.
 			</div>
 		</div>

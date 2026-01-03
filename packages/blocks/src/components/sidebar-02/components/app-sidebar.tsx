@@ -1,14 +1,10 @@
-import { ChevronRight } from "@frontal/icons";
-import type * as React from "react";
-
-import { SearchForm } from "@/registry/new-york-v4/blocks/sidebar-02/components/search-form";
-import { VersionSwitcher } from "@/registry/new-york-v4/blocks/sidebar-02/components/version-switcher";
+import { SearchForm } from "@frontal/blocks/sidebar-02/components/search-form";
+import { VersionSwitcher } from "@frontal/blocks/sidebar-02/components/version-switcher";
+import { ArrowRightChevronIcon } from "@frontal/icons";
 import {
 	Collapsible,
 	CollapsibleContent,
 	CollapsibleTrigger,
-} from "@/registry/new-york-v4/ui/collapsible";
-import {
 	Sidebar,
 	SidebarContent,
 	SidebarGroup,
@@ -19,7 +15,8 @@ import {
 	SidebarMenuButton,
 	SidebarMenuItem,
 	SidebarRail,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
+import type * as React from "react";
 
 // This is sample data.
 const data = {
@@ -103,7 +100,7 @@ const data = {
 					url: "#",
 				},
 				{
-					title: "File Conventions",
+					title: "FileIcon Conventions",
 					url: "#",
 				},
 				{
@@ -185,11 +182,11 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 						<SidebarGroup>
 							<SidebarGroupLabel
 								asChild
-								className="group/label text-sidebar-foreground hover:bg-sidebar-accent hover:text-sidebar-accent-foreground text-sm"
+								className="group/label text-sidebar-foreground text-sm hover:bg-sidebar-accent hover:text-sidebar-accent-foreground"
 							>
 								<CollapsibleTrigger>
 									{item.title}{" "}
-									<ChevronRight className="ml-auto transition-transform group-data-[state=open]/collapsible:rotate-90" />
+									<ArrowRightChevronIcon className="ml-auto transition-transform group-data-[state=open]/collapsible:rotate-90" />
 								</CollapsibleTrigger>
 							</SidebarGroupLabel>
 							<CollapsibleContent>

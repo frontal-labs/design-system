@@ -1,19 +1,16 @@
 "use client";
 
-import { Check, ChevronsUpDown, GalleryVerticalEnd } from "@frontal/icons";
-import * as React from "react";
-
+import { ArrowUpDownIcon, CheckIcon, MoreVariantIcon } from "@frontal/icons";
 import {
 	DropdownMenu,
 	DropdownMenuContent,
 	DropdownMenuItem,
 	DropdownMenuTrigger,
-} from "@/registry/new-york-v4/ui/dropdown-menu";
-import {
 	SidebarMenu,
 	SidebarMenuButton,
 	SidebarMenuItem,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
+import * as React from "react";
 
 export function VersionSwitcher({
 	versions,
@@ -30,17 +27,17 @@ export function VersionSwitcher({
 				<DropdownMenu>
 					<DropdownMenuTrigger asChild>
 						<SidebarMenuButton
-							size="lg"
+							size="large"
 							className="data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground"
 						>
-							<div className="bg-sidebar-primary text-sidebar-primary-foreground flex aspect-square size-8 items-center justify-center rounded-lg">
-								<GalleryVerticalEnd className="size-4" />
+							<div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
+								<MoreVariantIcon className="size-4" />
 							</div>
 							<div className="flex flex-col gap-0.5 leading-none">
 								<span className="font-medium">Documentation</span>
 								<span className="">v{selectedVersion}</span>
 							</div>
-							<ChevronsUpDown className="ml-auto" />
+							<ArrowUpDownIcon className="ml-auto" />
 						</SidebarMenuButton>
 					</DropdownMenuTrigger>
 					<DropdownMenuContent
@@ -53,7 +50,9 @@ export function VersionSwitcher({
 								onSelect={() => setSelectedVersion(version)}
 							>
 								v{version}{" "}
-								{version === selectedVersion && <Check className="ml-auto" />}
+								{version === selectedVersion && (
+									<CheckIcon className="ml-auto" />
+								)}
 							</DropdownMenuItem>
 						))}
 					</DropdownMenuContent>

@@ -2,6 +2,18 @@
 
 import { ArrowUpIcon } from "@frontal/icons";
 import {
+	Card,
+	CardContent,
+	CardDescription,
+	CardFooter,
+	CardHeader,
+	CardTitle,
+	type ChartConfig,
+	ChartContainer,
+	ChartTooltip,
+	ChartTooltipContent,
+} from "@frontal/ui";
+import {
 	Bar,
 	BarChart,
 	CartesianGrid,
@@ -9,21 +21,6 @@ import {
 	XAxis,
 	YAxis,
 } from "recharts";
-
-import {
-	Card,
-	CardContent,
-	CardDescription,
-	CardFooter,
-	CardHeader,
-	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
-	type ChartConfig,
-	ChartContainer,
-	ChartTooltip,
-	ChartTooltipContent,
-} from "@/registry/new-york-v4/ui/chart";
 
 export const description = "A bar chart with a custom label";
 
@@ -74,7 +71,9 @@ export function ChartBarLabelCustom() {
 							tickLine={false}
 							tickMargin={10}
 							axisLine={false}
-							tickFormatter={(value) => value.slice(0, 3)}
+							tickFormatter={(value: string | number) =>
+								String(value).slice(0, 3)
+							}
 							hide
 						/>
 						<XAxis dataKey="desktop" type="number" hide />
@@ -107,7 +106,7 @@ export function ChartBarLabelCustom() {
 				</ChartContainer>
 			</CardContent>
 			<CardFooter className="flex-col items-start gap-2 text-sm">
-				<div className="flex gap-2 leading-none font-medium">
+				<div className="flex gap-2 font-medium leading-none">
 					Trending up by 5.2% this month <ArrowUpIcon className="h-4 w-4" />
 				</div>
 				<div className="text-muted-foreground leading-none">

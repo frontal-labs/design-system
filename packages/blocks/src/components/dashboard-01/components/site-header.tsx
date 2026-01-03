@@ -1,6 +1,4 @@
-import { Button } from "@/registry/new-york-v4/ui/button";
-import { Separator } from "@/registry/new-york-v4/ui/separator";
-import { SidebarTrigger } from "@/registry/new-york-v4/ui/sidebar";
+import { Button, Separator, SidebarTrigger } from "@frontal/ui";
 
 export function SiteHeader() {
 	return (
@@ -11,9 +9,14 @@ export function SiteHeader() {
 					orientation="vertical"
 					className="mx-2 data-[orientation=vertical]:h-4"
 				/>
-				<h1 className="text-base font-medium">Documents</h1>
+				<h1 className="font-medium text-base">Documents</h1>
 				<div className="ml-auto flex items-center gap-2">
-					<Button variant="ghost" asChild size="sm" className="hidden sm:flex">
+					<Button
+						variant="ghost"
+						asChild
+						size="small"
+						className="hidden sm:flex"
+					>
 						<a
 							href="https://github.com/shadcn-ui/ui/tree/main/apps/v4/app/(examples)/dashboard"
 							rel="noopener noreferrer"

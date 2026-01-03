@@ -1,12 +1,8 @@
 import { ArrowRightIcon, FileIcon, FolderIcon } from "@frontal/icons";
-import type * as React from "react";
-
 import {
 	Collapsible,
 	CollapsibleContent,
 	CollapsibleTrigger,
-} from "@/registry/new-york-v4/ui/collapsible";
-import {
 	Sidebar,
 	SidebarContent,
 	SidebarGroup,
@@ -18,7 +14,8 @@ import {
 	SidebarMenuItem,
 	SidebarMenuSub,
 	SidebarRail,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
+import type * as React from "react";
 
 // This is sample data.
 const data = {
@@ -72,8 +69,8 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 					<SidebarGroupLabel>Changes</SidebarGroupLabel>
 					<SidebarGroupContent>
 						<SidebarMenu>
-							{data.changes.map((item, index) => (
-								<SidebarMenuItem key={index}>
+							{data.changes.map((item) => (
+								<SidebarMenuItem key={item.file}>
 									<SidebarMenuButton>
 										<FileIcon />
 										{item.file}
@@ -88,9 +85,10 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 					<SidebarGroupLabel>Files</SidebarGroupLabel>
 					<SidebarGroupContent>
 						<SidebarMenu>
-							{data.tree.map((item, index) => (
-								<Tree key={index} item={item} />
-							))}
+							{data.tree.map((item, index) => {
+								const name = Array.isArray(item) ? item[0] : item;
+								return <Tree key={`tree-${index}-${name}`} item={item} />;
+							})}
 						</SidebarMenu>
 					</SidebarGroupContent>
 				</SidebarGroup>
@@ -111,7 +109,7 @@ function Tree({ item }: { item: TreeItem }) {
 				isActive={name === "button.tsx"}
 				className="data-[active=true]:bg-transparent"
 			>
-				<File />
+				<FileIcon />
 				{name}
 			</SidebarMenuButton>
 		);
@@ -132,9 +130,12 @@ function Tree({ item }: { item: TreeItem }) {
 				</CollapsibleTrigger>
 				<CollapsibleContent>
 					<SidebarMenuSub>
-						{items.map((subItem, index) => (
-							<Tree key={index} item={subItem} />
-						))}
+						{items.map((subItem, index) => {
+							const subName = Array.isArray(subItem) ? subItem[0] : subItem;
+							return (
+								<Tree key={`${name}-${index}-${subName}`} item={subItem} />
+							);
+						})}
 					</SidebarMenuSub>
 				</CollapsibleContent>
 			</Collapsible>

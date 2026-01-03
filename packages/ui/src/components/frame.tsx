@@ -1,11 +1,9 @@
 import { cn } from "@frontal/shared";
 import type { ComponentProps } from "react";
 
-function Frame({
-	className,
-	stackedPanels = false,
-	...props
-}: ComponentProps<"div"> & { stackedPanels?: boolean }) {
+type FrameProps = ComponentProps<"div"> & { stackedPanels?: boolean };
+
+function Frame({ className, stackedPanels = false, ...props }: FrameProps) {
 	return (
 		<div
 			className={cn(
@@ -21,7 +19,9 @@ function Frame({
 	);
 }
 
-function FramePanel({ className, ...props }: ComponentProps<"div">) {
+type FramePanelProps = ComponentProps<"div">;
+
+function FramePanel({ className, ...props }: FramePanelProps) {
 	return (
 		<div
 			className={cn(
@@ -34,7 +34,9 @@ function FramePanel({ className, ...props }: ComponentProps<"div">) {
 	);
 }
 
-function FrameHeader({ className, ...props }: ComponentProps<"header">) {
+type FrameHeaderProps = ComponentProps<"header">;
+
+function FrameHeader({ className, ...props }: FrameHeaderProps) {
 	return (
 		<header
 			className={cn("flex flex-col px-5 py-4", className)}
@@ -44,7 +46,9 @@ function FrameHeader({ className, ...props }: ComponentProps<"header">) {
 	);
 }
 
-function FrameTitle({ className, ...props }: ComponentProps<"div">) {
+type FrameTitleProps = ComponentProps<"div">;
+
+function FrameTitle({ className, ...props }: FrameTitleProps) {
 	return (
 		<div
 			className={cn("font-semibold text-sm", className)}
@@ -54,7 +58,9 @@ function FrameTitle({ className, ...props }: ComponentProps<"div">) {
 	);
 }
 
-function FrameDescription({ className, ...props }: ComponentProps<"div">) {
+type FrameDescriptionProps = ComponentProps<"div">;
+
+function FrameDescription({ className, ...props }: FrameDescriptionProps) {
 	return (
 		<div
 			className={cn("text-muted-foreground text-sm", className)}
@@ -64,7 +70,9 @@ function FrameDescription({ className, ...props }: ComponentProps<"div">) {
 	);
 }
 
-function FrameFooter({ className, ...props }: ComponentProps<"footer">) {
+type FrameFooterProps = ComponentProps<"footer">;
+
+function FrameFooter({ className, ...props }: FrameFooterProps) {
 	return (
 		<footer
 			className={cn("flex flex-col gap-1 px-5 py-4", className)}
@@ -81,4 +89,10 @@ export {
 	FrameTitle,
 	FrameDescription,
 	FrameFooter,
+	type FrameProps,
+	type FramePanelProps,
+	type FrameHeaderProps,
+	type FrameTitleProps,
+	type FrameDescriptionProps,
+	type FrameFooterProps,
 };

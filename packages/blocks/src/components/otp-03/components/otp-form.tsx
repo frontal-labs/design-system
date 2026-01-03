@@ -1,22 +1,18 @@
-import { Button } from "@/registry/new-york-v4/ui/button";
 import {
+	Button,
 	Card,
 	CardContent,
 	CardDescription,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	Field,
 	FieldDescription,
-	FieldGroup,
 	FieldLabel,
-} from "@/registry/new-york-v4/ui/field";
-import {
+	Fieldset,
 	InputOTP,
 	InputOTPGroup,
 	InputOTPSlot,
-} from "@/registry/new-york-v4/ui/input-otp";
+} from "@frontal/ui";
 
 export function OTPForm({ ...props }: React.ComponentProps<typeof Card>) {
 	return (
@@ -27,7 +23,7 @@ export function OTPForm({ ...props }: React.ComponentProps<typeof Card>) {
 			</CardHeader>
 			<CardContent>
 				<form>
-					<FieldGroup>
+					<Fieldset>
 						<Field>
 							<FieldLabel htmlFor="otp" className="sr-only">
 								Verification code
@@ -48,9 +44,9 @@ export function OTPForm({ ...props }: React.ComponentProps<typeof Card>) {
 						</Field>
 						<Button type="submit">Verify</Button>
 						<FieldDescription className="text-center">
-							Didn&apos;t receive the code? <a href="#">Resend</a>
+							Didn&apos;t receive the code? <a href="/sign-in">Resend</a>
 						</FieldDescription>
-					</FieldGroup>
+					</Fieldset>
 				</form>
 			</CardContent>
 		</Card>

@@ -11,7 +11,7 @@ This package provides reusable UI blocks and components for building consistent 
 This package is part of the Frontal monorepo and is installed automatically as a workspace dependency.
 
 ```bash
-pnpm install @frontal/blocks
+bun install @frontal/blocks
 ```
 
 ## Usage

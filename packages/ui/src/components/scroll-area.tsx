@@ -1,7 +1,12 @@
 "use client";
 
-import { ScrollAreaPrimitive } from "@frontal/primitives";
+import { ScrollArea as ScrollAreaPrimitive } from "@base-ui/react/scroll-area";
 import { cn } from "@frontal/shared";
+
+type ScrollAreaProps = ScrollAreaPrimitive.Root.Props & {
+	scrollFade?: boolean;
+	scrollbarGutter?: boolean;
+};
 
 function ScrollArea({
 	className,
@@ -9,10 +14,7 @@ function ScrollArea({
 	scrollFade = false,
 	scrollbarGutter = false,
 	...props
-}: ScrollAreaPrimitive.Root.Props & {
-	scrollFade?: boolean;
-	scrollbarGutter?: boolean;
-}) {
+}: ScrollAreaProps) {
 	return (
 		<ScrollAreaPrimitive.Root
 			className={cn("size-full min-h-0", className)}
@@ -37,11 +39,13 @@ function ScrollArea({
 	);
 }
 
+type ScrollBarProps = ScrollAreaPrimitive.Scrollbar.Props;
+
 function ScrollBar({
 	className,
 	orientation = "vertical",
 	...props
-}: ScrollAreaPrimitive.Scrollbar.Props) {
+}: ScrollBarProps) {
 	return (
 		<ScrollAreaPrimitive.Scrollbar
 			className={cn(
@@ -60,4 +64,4 @@ function ScrollBar({
 	);
 }
 
-export { ScrollArea, ScrollBar };
+export { ScrollArea, ScrollBar, type ScrollAreaProps, type ScrollBarProps };

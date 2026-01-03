@@ -1,8 +1,7 @@
 "use client";
 
+import { Calendar } from "@frontal/ui";
 import * as React from "react";
-
-import { Calendar } from "@/registry/new-york-v4/ui/calendar";
 
 export default function Calendar02() {
 	const [date, setDate] = React.useState<Date | undefined>(

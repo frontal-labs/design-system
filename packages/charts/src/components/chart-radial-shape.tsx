@@ -2,25 +2,23 @@
 
 import { ArrowUpIcon } from "@frontal/icons";
 import {
-	Label,
-	PolarGrid,
-	PolarRadiusAxis,
-	RadialBar,
-	RadialBarChart,
-} from "recharts";
-
-import {
 	Card,
 	CardContent,
 	CardDescription,
 	CardFooter,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	type ChartConfig,
 	ChartContainer,
-} from "@/registry/new-york-v4/ui/chart";
+} from "@frontal/ui";
+import {
+	Label,
+	PolarGrid,
+	PolarRadiusAxis,
+	RadialBar,
+	RadialBarChart,
+} from "recharts";
+import type { Props as LabelProps } from "recharts/types/component/Label";
 
 export const description = "A radial chart with a custom shape";
 
@@ -66,7 +64,8 @@ export function ChartRadialShape() {
 						<RadialBar dataKey="visitors" background />
 						<PolarRadiusAxis tick={false} tickLine={false} axisLine={false}>
 							<Label
-								content={({ viewBox }) => {
+								content={(props: LabelProps) => {
+									const viewBox = props.viewBox;
 									if (viewBox && "cx" in viewBox && "cy" in viewBox) {
 										return (
 											<text
@@ -78,7 +77,7 @@ export function ChartRadialShape() {
 												<tspan
 													x={viewBox.cx}
 													y={viewBox.cy}
-													className="fill-foreground text-4xl font-bold"
+													className="fill-foreground font-bold text-4xl"
 												>
 													{chartData[0].visitors.toLocaleString()}
 												</tspan>
@@ -92,6 +91,7 @@ export function ChartRadialShape() {
 											</text>
 										);
 									}
+									return null;
 								}}
 							/>
 						</PolarRadiusAxis>
@@ -99,7 +99,7 @@ export function ChartRadialShape() {
 				</ChartContainer>
 			</CardContent>
 			<CardFooter className="flex-col gap-2 text-sm">
-				<div className="flex items-center gap-2 leading-none font-medium">
+				<div className="flex items-center gap-2 font-medium leading-none">
 					Trending up by 5.2% this month <ArrowUpIcon className="h-4 w-4" />
 				</div>
 				<div className="text-muted-foreground leading-none">

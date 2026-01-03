@@ -1,17 +1,16 @@
 "use client";
 
-import { ChevronDownIcon } from "@frontal/icons";
-import * as React from "react";
-
-import { Button } from "@/registry/new-york-v4/ui/button";
-import { Calendar } from "@/registry/new-york-v4/ui/calendar";
-import { Input } from "@/registry/new-york-v4/ui/input";
-import { Label } from "@/registry/new-york-v4/ui/label";
+import { ArrowDownChevronIcon } from "@frontal/icons";
 import {
+	Button,
+	Calendar,
+	Input,
+	Label,
 	Popover,
 	PopoverContent,
 	PopoverTrigger,
-} from "@/registry/new-york-v4/ui/popover";
+} from "@frontal/ui";
+import * as React from "react";
 
 export default function Calendar26() {
 	const [openFrom, setOpenFrom] = React.useState(false);
@@ -24,11 +23,11 @@ export default function Calendar26() {
 	);
 
 	return (
-		<div className="flex w-full max-w-64 min-w-0 flex-col gap-6">
+		<div className="flex w-full min-w-0 max-w-64 flex-col gap-6">
 			<div className="flex gap-4">
 				<div className="flex flex-1 flex-col gap-3">
 					<Label htmlFor="date-from" className="px-1">
-						Check-in
+						CheckIcon-in
 					</Label>
 					<Popover open={openFrom} onOpenChange={setOpenFrom}>
 						<PopoverTrigger asChild>
@@ -44,7 +43,7 @@ export default function Calendar26() {
 											year: "numeric",
 										})
 									: "Select date"}
-								<ChevronDownIcon />
+								<ArrowDownChevronIcon />
 							</Button>
 						</PopoverTrigger>
 						<PopoverContent
@@ -72,14 +71,14 @@ export default function Calendar26() {
 						id="time-from"
 						step="1"
 						defaultValue="10:30:00"
-						className="bg-background appearance-none [&::-webkit-calendar-picker-indicator]:hidden [&::-webkit-calendar-picker-indicator]:appearance-none"
+						className="appearance-none bg-background [&::-webkit-calendar-picker-indicator]:hidden [&::-webkit-calendar-picker-indicator]:appearance-none"
 					/>
 				</div>
 			</div>
 			<div className="flex gap-4">
 				<div className="flex flex-1 flex-col gap-3">
 					<Label htmlFor="date-to" className="px-1">
-						Check-out
+						CheckIcon-out
 					</Label>
 					<Popover open={openTo} onOpenChange={setOpenTo}>
 						<PopoverTrigger asChild>
@@ -95,7 +94,7 @@ export default function Calendar26() {
 											year: "numeric",
 										})
 									: "Select date"}
-								<ChevronDownIcon />
+								<ArrowDownChevronIcon />
 							</Button>
 						</PopoverTrigger>
 						<PopoverContent
@@ -124,7 +123,7 @@ export default function Calendar26() {
 						id="time-to"
 						step="1"
 						defaultValue="12:30:00"
-						className="bg-background appearance-none [&::-webkit-calendar-picker-indicator]:hidden [&::-webkit-calendar-picker-indicator]:appearance-none"
+						className="appearance-none bg-background [&::-webkit-calendar-picker-indicator]:hidden [&::-webkit-calendar-picker-indicator]:appearance-none"
 					/>
 				</div>
 			</div>

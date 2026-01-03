@@ -1,23 +1,20 @@
 "use client";
 
+import { NavMain } from "@frontal/blocks/sidebar-08/components/nav-main";
+import { NavProjects } from "@frontal/blocks/sidebar-08/components/nav-projects";
+import { NavSecondary } from "@frontal/blocks/sidebar-08/components/nav-secondary";
+import { NavUser } from "@frontal/blocks/sidebar-08/components/nav-user";
 import {
-	BookOpen,
-	Bot,
-	Command,
-	Frame,
-	LifeBuoy,
-	Map,
-	PieChart,
-	Send,
-	Settings2,
-	SquareTerminal,
+	ArtboardIcon,
+	BookOpenIcon,
+	CommandIcon,
+	LifebuoyIcon,
+	MapIcon,
+	PieChartIcon,
+	SendPlaneIcon as SendIcon,
+	SettingsIcon,
+	TerminalBoxIcon,
 } from "@frontal/icons";
-import type * as React from "react";
-
-import { NavMain } from "@/registry/new-york-v4/blocks/sidebar-08/components/nav-main";
-import { NavProjects } from "@/registry/new-york-v4/blocks/sidebar-08/components/nav-projects";
-import { NavSecondary } from "@/registry/new-york-v4/blocks/sidebar-08/components/nav-secondary";
-import { NavUser } from "@/registry/new-york-v4/blocks/sidebar-08/components/nav-user";
 import {
 	Sidebar,
 	SidebarContent,
@@ -26,7 +23,8 @@ import {
 	SidebarMenu,
 	SidebarMenuButton,
 	SidebarMenuItem,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
+import type * as React from "react";
 
 const data = {
 	user: {
@@ -38,7 +36,7 @@ const data = {
 		{
 			title: "Playground",
 			url: "#",
-			icon: SquareTerminal,
+			icon: TerminalBoxIcon,
 			isActive: true,
 			items: [
 				{
@@ -50,7 +48,7 @@ const data = {
 					url: "#",
 				},
 				{
-					title: "Settings",
+					title: "SettingsIcon",
 					url: "#",
 				},
 			],
@@ -58,7 +56,7 @@ const data = {
 		{
 			title: "Models",
 			url: "#",
-			icon: Bot,
+			icon: CommandIcon,
 			items: [
 				{
 					title: "Genesis",
@@ -77,7 +75,7 @@ const data = {
 		{
 			title: "Documentation",
 			url: "#",
-			icon: BookOpen,
+			icon: BookOpenIcon,
 			items: [
 				{
 					title: "Introduction",
@@ -98,9 +96,9 @@ const data = {
 			],
 		},
 		{
-			title: "Settings",
+			title: "SettingsIcon",
 			url: "#",
-			icon: Settings2,
+			icon: SettingsIcon,
 			items: [
 				{
 					title: "General",
@@ -125,29 +123,29 @@ const data = {
 		{
 			title: "Support",
 			url: "#",
-			icon: LifeBuoy,
+			icon: LifebuoyIcon,
 		},
 		{
 			title: "Feedback",
 			url: "#",
-			icon: Send,
+			icon: SendIcon,
 		},
 	],
 	projects: [
 		{
 			name: "Design Engineering",
 			url: "#",
-			icon: Frame,
+			icon: ArtboardIcon,
 		},
 		{
 			name: "Sales & Marketing",
 			url: "#",
-			icon: PieChart,
+			icon: PieChartIcon,
 		},
 		{
 			name: "Travel",
 			url: "#",
-			icon: Map,
+			icon: MapIcon,
 		},
 	],
 };
@@ -158,10 +156,10 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 			<SidebarHeader>
 				<SidebarMenu>
 					<SidebarMenuItem>
-						<SidebarMenuButton size="lg" asChild>
-							<a href="#">
-								<div className="bg-sidebar-primary text-sidebar-primary-foreground flex aspect-square size-8 items-center justify-center rounded-lg">
-									<Command className="size-4" />
+						<SidebarMenuButton size="large" asChild>
+							<a href="/sign-in">
+								<div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
+									<CommandIcon className="size-4" />
 								</div>
 								<div className="grid flex-1 text-left text-sm leading-tight">
 									<span className="truncate font-medium">Acme Inc</span>

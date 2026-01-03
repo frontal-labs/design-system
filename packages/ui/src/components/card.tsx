@@ -1,7 +1,9 @@
 import { cn } from "@frontal/shared";
 import type { ComponentProps } from "react";
 
-function Card({ className, ...props }: ComponentProps<"div">) {
+type CardProps = ComponentProps<"div">;
+
+function Card({ className, ...props }: CardProps) {
 	return (
 		<div
 			className={cn(
@@ -14,7 +16,9 @@ function Card({ className, ...props }: ComponentProps<"div">) {
 	);
 }
 
-function CardHeader({ className, ...props }: ComponentProps<"div">) {
+type CardHeaderProps = ComponentProps<"div">;
+
+function CardHeader({ className, ...props }: CardHeaderProps) {
 	return (
 		<div
 			className={cn(
@@ -27,7 +31,9 @@ function CardHeader({ className, ...props }: ComponentProps<"div">) {
 	);
 }
 
-function CardTitle({ className, ...props }: ComponentProps<"div">) {
+type CardTitleProps = ComponentProps<"div">;
+
+function CardTitle({ className, ...props }: CardTitleProps) {
 	return (
 		<div
 			className={cn("font-semibold text-lg leading-none", className)}
@@ -37,7 +43,9 @@ function CardTitle({ className, ...props }: ComponentProps<"div">) {
 	);
 }
 
-function CardDescription({ className, ...props }: ComponentProps<"div">) {
+type CardDescriptionProps = ComponentProps<"div">;
+
+function CardDescription({ className, ...props }: CardDescriptionProps) {
 	return (
 		<div
 			className={cn("text-muted-foreground text-sm", className)}
@@ -47,7 +55,9 @@ function CardDescription({ className, ...props }: ComponentProps<"div">) {
 	);
 }
 
-function CardAction({ className, ...props }: ComponentProps<"div">) {
+type CardActionProps = ComponentProps<"div">;
+
+function CardAction({ className, ...props }: CardActionProps) {
 	return (
 		<div
 			className={cn(
@@ -60,7 +70,9 @@ function CardAction({ className, ...props }: ComponentProps<"div">) {
 	);
 }
 
-function CardContent({ className, ...props }: ComponentProps<"div">) {
+type CardPanelProps = ComponentProps<"div">;
+
+function CardPanel({ className, ...props }: CardPanelProps) {
 	return (
 		<div
 			className={cn("px-6", className)}
@@ -70,7 +82,9 @@ function CardContent({ className, ...props }: ComponentProps<"div">) {
 	);
 }
 
-function CardFooter({ className, ...props }: ComponentProps<"div">) {
+type CardFooterProps = ComponentProps<"div">;
+
+function CardFooter({ className, ...props }: CardFooterProps) {
 	return (
 		<div
 			className={cn("flex items-center px-6 [.border-t]:pt-6", className)}
@@ -87,5 +101,13 @@ export {
 	CardTitle,
 	CardAction,
 	CardDescription,
-	CardContent,
+	CardPanel,
+	CardPanel as CardContent,
+	type CardProps,
+	type CardHeaderProps,
+	type CardTitleProps,
+	type CardDescriptionProps,
+	type CardActionProps,
+	type CardPanelProps,
+	type CardFooterProps,
 };

@@ -1,11 +1,8 @@
 import { AddIcon, ArrowRightIcon, MoreIcon } from "@frontal/icons";
-
 import {
 	Collapsible,
 	CollapsibleContent,
 	CollapsibleTrigger,
-} from "@/registry/new-york-v4/ui/collapsible";
-import {
 	SidebarGroup,
 	SidebarGroupContent,
 	SidebarGroupLabel,
@@ -16,7 +13,7 @@ import {
 	SidebarMenuSub,
 	SidebarMenuSubButton,
 	SidebarMenuSubItem,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
 
 export function NavWorkspaces({
 	workspaces,
@@ -39,14 +36,14 @@ export function NavWorkspaces({
 						<Collapsible key={workspace.name}>
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
-									<a href="#">
+									<a href="/sign-in">
 										<span>{workspace.emoji}</span>
 										<span>{workspace.name}</span>
 									</a>
 								</SidebarMenuButton>
 								<CollapsibleTrigger asChild>
 									<SidebarMenuAction
-										className="bg-sidebar-accent text-sidebar-accent-foreground left-2 data-[state=open]:rotate-90"
+										className="left-2 bg-sidebar-accent text-sidebar-accent-foreground data-[state=open]:rotate-90"
 										showOnHover
 									>
 										<ArrowRightIcon />
@@ -60,7 +57,7 @@ export function NavWorkspaces({
 										{workspace.pages.map((page) => (
 											<SidebarMenuSubItem key={page.name}>
 												<SidebarMenuSubButton asChild>
-													<a href="#">
+													<a href="/sign-in">
 														<span>{page.emoji}</span>
 														<span>{page.name}</span>
 													</a>

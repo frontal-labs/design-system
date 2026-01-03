@@ -1,12 +1,15 @@
 "use client";
 
-import { Clock2Icon } from "@frontal/icons";
+import { ClockIcon } from "@frontal/icons";
+import {
+	Calendar,
+	Card,
+	CardContent,
+	CardFooter,
+	Input,
+	Label,
+} from "@frontal/ui";
 import * as React from "react";
-
-import { Calendar } from "@/registry/new-york-v4/ui/calendar";
-import { Card, CardContent, CardFooter } from "@/registry/new-york-v4/ui/card";
-import { Input } from "@/registry/new-york-v4/ui/input";
-import { Label } from "@/registry/new-york-v4/ui/label";
 
 export default function Calendar16() {
 	const [date, setDate] = React.useState<Date | undefined>(
@@ -23,11 +26,11 @@ export default function Calendar16() {
 					className="bg-transparent p-0"
 				/>
 			</CardContent>
-			<CardFooter className="flex flex-col gap-6 border-t px-4 !pt-4">
+			<CardFooter className="!pt-4 flex flex-col gap-6 border-t px-4">
 				<div className="flex w-full flex-col gap-3">
 					<Label htmlFor="time-from">Start Time</Label>
 					<div className="relative flex w-full items-center gap-2">
-						<Clock2Icon className="text-muted-foreground pointer-events-none absolute left-2.5 size-4 select-none" />
+						<ClockIcon className="pointer-events-none absolute left-2.5 size-4 select-none text-muted-foreground" />
 						<Input
 							id="time-from"
 							type="time"
@@ -40,7 +43,7 @@ export default function Calendar16() {
 				<div className="flex w-full flex-col gap-3">
 					<Label htmlFor="time-to">End Time</Label>
 					<div className="relative flex w-full items-center gap-2">
-						<Clock2Icon className="text-muted-foreground pointer-events-none absolute left-2.5 size-4 select-none" />
+						<ClockIcon className="pointer-events-none absolute left-2.5 size-4 select-none text-muted-foreground" />
 						<Input
 							id="time-to"
 							type="time"

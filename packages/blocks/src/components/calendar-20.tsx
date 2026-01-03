@@ -1,10 +1,7 @@
 "use client";
 
+import { Button, Calendar, Card, CardContent, CardFooter } from "@frontal/ui";
 import * as React from "react";
-
-import { Button } from "@/registry/new-york-v4/ui/button";
-import { Calendar } from "@/registry/new-york-v4/ui/calendar";
-import { Card, CardContent, CardFooter } from "@/registry/new-york-v4/ui/card";
 
 export default function Calendar20() {
 	const [date, setDate] = React.useState<Date | undefined>(
@@ -55,7 +52,7 @@ export default function Calendar20() {
 						{timeSlots.map((time) => (
 							<Button
 								key={time}
-								variant={selectedTime === time ? "default" : "outline"}
+								variant={selectedTime === time ? "primary" : "outline"}
 								onClick={() => setSelectedTime(time)}
 								className="w-full shadow-none"
 							>
@@ -65,7 +62,7 @@ export default function Calendar20() {
 					</div>
 				</div>
 			</CardContent>
-			<CardFooter className="flex flex-col gap-4 border-t px-6 !py-5 md:flex-row">
+			<CardFooter className="!py-5 flex flex-col gap-4 border-t px-6 md:flex-row">
 				<div className="text-sm">
 					{date && selectedTime ? (
 						<>
@@ -85,7 +82,7 @@ export default function Calendar20() {
 					)}
 				</div>
 				<Button
-					disabled={!date || !selectedTime}
+					disabled={!(date && selectedTime)}
 					className="w-full md:ml-auto md:w-auto"
 					variant="outline"
 				>

@@ -240,7 +240,7 @@ function ThemeToggle() {
 
 ## See Also
 
-- [Colors Package](./packages/colors.md)
-- [Design System Package](./packages/design-system.md)
-- [Getting Started Guide](./getting-started.md)
+- [Colors Package](./packages/COLORS.md)
+- [Design System Package](./packages/DESIGN-SYSTEM.md)
+- [Getting Started Guide](./GETTING-STARTED.md)
 

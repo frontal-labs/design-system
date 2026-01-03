@@ -1,60 +1,58 @@
+import { mergeProps } from "@base-ui/react/merge-props";
+import { useRender } from "@base-ui/react/use-render";
 import { cn } from "@frontal/shared";
 import { cva, type VariantProps } from "class-variance-authority";
-import type { ComponentProps } from "react";
 
 const boxVariants = cva("", {
+	defaultVariants: {
+		padding: "none",
+		background: "none",
+		border: "none",
+	},
 	variants: {
-		variant: {
-			default: "",
-			elevated: "rounded-lg border bg-card shadow-xs",
-			outlined: "rounded-lg border border-border",
-			filled: "rounded-lg bg-muted/50",
-			ghost: "rounded-lg",
-		},
 		padding: {
 			none: "",
-			xs: "p-2",
-			sm: "p-3",
-			default: "p-4",
-			md: "p-5",
+			xs: "p-1",
+			sm: "p-2",
+			md: "p-4",
 			lg: "p-6",
 			xl: "p-8",
 		},
-		rounded: {
-			none: "rounded-none",
-			sm: "rounded-sm",
-			default: "rounded-md",
-			md: "rounded-lg",
-			lg: "rounded-xl",
-			xl: "rounded-2xl",
-			full: "rounded-full",
+		background: {
+			none: "",
+			default: "bg-background",
+			muted: "bg-muted",
+			card: "bg-card",
 		},
-	},
-	defaultVariants: {
-		variant: "default",
-		padding: "none",
-		rounded: "default",
+		border: {
+			none: "",
+			default: "border border-border",
+			rounded: "rounded-lg border border-border",
+		},
 	},
 });
 
-interface BoxProps extends ComponentProps<"div"> {
-	variant?: VariantProps<typeof boxVariants>["variant"];
-	padding?: VariantProps<typeof boxVariants>["padding"];
-	rounded?: VariantProps<typeof boxVariants>["rounded"];
+type BoxProps = useRender.ComponentProps<"div"> &
+	VariantProps<typeof boxVariants>;
+
+function Box({
+	className,
+	padding,
+	background,
+	border,
+	render,
+	...props
+}: BoxProps) {
+	const defaultProps = {
+		className: cn(boxVariants({ padding, background, border }), className),
+		"data-slot": "box",
+	};
+
+	return useRender({
+		defaultTagName: "div",
+		props: mergeProps<"div">(defaultProps, props),
+		render,
+	});
 }
 
-function Box({ className, variant, padding, rounded, ...props }: BoxProps) {
-	return (
-		<div
-			data-slot="box"
-			data-variant={variant}
-			data-padding={padding}
-			data-rounded={rounded}
-			className={cn(boxVariants({ variant, padding, rounded }), className)}
-			{...props}
-		/>
-	);
-}
-
-export { Box, boxVariants };
-export type { BoxProps };
+export { Box, boxVariants, type BoxProps };

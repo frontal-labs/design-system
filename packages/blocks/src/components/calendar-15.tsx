@@ -1,9 +1,8 @@
 "use client";
 
+import { Calendar } from "@frontal/ui";
 import * as React from "react";
 import type { DateRange } from "react-day-picker";
-
-import { Calendar } from "@/registry/new-york-v4/ui/calendar";
 
 export default function Calendar15() {
 	const [dateRange, setDateRange] = React.useState<DateRange | undefined>({

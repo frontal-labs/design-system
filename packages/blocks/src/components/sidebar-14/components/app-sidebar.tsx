@@ -1,5 +1,3 @@
-import type * as React from "react";
-
 import {
 	Sidebar,
 	SidebarContent,
@@ -13,7 +11,8 @@ import {
 	SidebarMenuSubButton,
 	SidebarMenuSubItem,
 	SidebarRail,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
+import type * as React from "react";
 
 // This is sample data.
 const data = {
@@ -96,7 +95,7 @@ const data = {
 					url: "#",
 				},
 				{
-					title: "File Conventions",
+					title: "FileIcon Conventions",
 					url: "#",
 				},
 				{

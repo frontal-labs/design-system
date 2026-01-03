@@ -1,67 +1,46 @@
+import { mergeProps } from "@base-ui/react/merge-props";
+import { useRender } from "@base-ui/react/use-render";
 import { cn } from "@frontal/shared";
 import { cva, type VariantProps } from "class-variance-authority";
-import type { ComponentProps } from "react";
 
-const textVariants = cva("text-foreground", {
+const textVariants = cva("font-sans", {
 	variants: {
-		variant: {
-			default: "text-copy-16",
-			lead: "text-copy-20",
-			body: "text-copy-18",
-			small: "text-copy-14",
+		size: {
+			"24": "text-copy-24",
+			"20": "text-copy-20",
+			"18": "text-copy-18",
+			"16": "text-copy-16",
+			"14": "text-copy-14",
+			"13": "text-copy-13",
+		},
+		weight: {
+			light: "font-light",
+			normal: "font-normal",
+			medium: "font-medium",
+			semibold: "font-semibold",
+			bold: "font-bold",
 		},
 	},
 	defaultVariants: {
-		variant: "default",
+		size: "16",
+		weight: "normal",
 	},
 });
 
-type TextProps = ComponentProps<"p"> &
-	VariantProps<typeof textVariants> & {
-		as?: "p" | "span" | "div";
+type TextProps = useRender.ComponentProps<"p"> &
+	VariantProps<typeof textVariants>;
+
+function Text({ className, size, weight, render, ...props }: TextProps) {
+	const defaultProps = {
+		className: cn(textVariants({ size, weight }), className),
+		"data-slot": "text",
 	};
 
-function Text({
-	className,
-	variant = "default",
-	as = "p",
-	...props
-}: TextProps) {
-	const Component = as;
-	return (
-		<Component
-			data-slot="text"
-			data-variant={variant}
-			className={cn(textVariants({ variant, className }))}
-			{...props}
-		/>
-	);
+	return useRender({
+		defaultTagName: "p",
+		props: mergeProps<"p">(defaultProps, props),
+		render,
+	});
 }
 
-function Lead({ className, ...props }: ComponentProps<"p">) {
-	return (
-		<p
-			data-slot="lead"
-			className={cn("text-copy-24 text-muted-foreground", className)}
-			{...props}
-		/>
-	);
-}
-
-function Body({ className, ...props }: ComponentProps<"p">) {
-	return (
-		<p data-slot="body" className={cn("text-copy-18", className)} {...props} />
-	);
-}
-
-function Small({ className, ...props }: ComponentProps<"small">) {
-	return (
-		<small
-			data-slot="small"
-			className={cn("text-copy-14 text-muted-foreground", className)}
-			{...props}
-		/>
-	);
-}
-
-export { Text, Lead, Body, Small };
+export { Text, type TextProps };

@@ -1,20 +1,17 @@
 "use client";
 
-import { Bar, BarChart, XAxis } from "recharts";
-
 import {
 	Card,
 	CardContent,
 	CardDescription,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	type ChartConfig,
 	ChartContainer,
 	ChartTooltip,
 	ChartTooltipContent,
-} from "@/registry/new-york-v4/ui/chart";
+} from "@frontal/ui";
+import { Bar, BarChart, XAxis } from "recharts";
 
 export const description = "A stacked bar chart with a legend";
 
@@ -55,7 +52,7 @@ export function ChartTooltipAdvanced() {
 							tickLine={false}
 							tickMargin={10}
 							axisLine={false}
-							tickFormatter={(value) => {
+							tickFormatter={(value: string | number) => {
 								return new Date(value).toLocaleDateString("en-US", {
 									weekday: "short",
 								});
@@ -78,38 +75,49 @@ export function ChartTooltipAdvanced() {
 								<ChartTooltipContent
 									hideLabel
 									className="w-[180px]"
-									formatter={(value, name, item, index) => (
-										<>
-											<div
-												className="h-2.5 w-2.5 shrink-0 rounded-[2px] bg-(--color-bg)"
-												style={
-													{
-														"--color-bg": `var(--color-${name})`,
-													} as React.CSSProperties
-												}
-											/>
-											{chartConfig[name as keyof typeof chartConfig]?.label ||
-												name}
-											<div className="text-foreground ml-auto flex items-baseline gap-0.5 font-mono font-medium tabular-nums">
-												{value}
-												<span className="text-muted-foreground font-normal">
-													kcal
-												</span>
-											</div>
-											{/* Add this after the last item */}
-											{index === 1 && (
-												<div className="text-foreground mt-1.5 flex basis-full items-center border-t pt-1.5 text-xs font-medium">
-													Total
-													<div className="text-foreground ml-auto flex items-baseline gap-0.5 font-mono font-medium tabular-nums">
-														{item.payload.running + item.payload.swimming}
-														<span className="text-muted-foreground font-normal">
-															kcal
-														</span>
-													</div>
+									formatter={(
+										value: unknown,
+										name?: string | number,
+										item?: unknown,
+										index?: number,
+									) => {
+										const typedItem = item as
+											| { payload?: { running?: number; swimming?: number } }
+											| undefined;
+										return (
+											<>
+												<div
+													className="h-2.5 w-2.5 shrink-0 rounded-[2px] bg-(--color-bg)"
+													style={
+														{
+															"--color-bg": `var(--color-${name})`,
+														} as React.CSSProperties
+													}
+												/>
+												{chartConfig[String(name) as keyof typeof chartConfig]
+													?.label || String(name)}
+												<div className="ml-auto flex items-baseline gap-0.5 font-medium font-mono text-foreground tabular-nums">
+													{String(value)}
+													<span className="font-normal text-muted-foreground">
+														kcal
+													</span>
 												</div>
-											)}
-										</>
-									)}
+												{/* Add this after the last item */}
+												{index === 1 && typedItem?.payload && (
+													<div className="mt-1.5 flex basis-full items-center border-t pt-1.5 font-medium text-foreground text-xs">
+														Total
+														<div className="ml-auto flex items-baseline gap-0.5 font-medium font-mono text-foreground tabular-nums">
+															{(typedItem.payload.running ?? 0) +
+																(typedItem.payload.swimming ?? 0)}
+															<span className="font-normal text-muted-foreground">
+																kcal
+															</span>
+														</div>
+													</div>
+												)}
+											</>
+										);
+									}}
 								/>
 							}
 							cursor={false}

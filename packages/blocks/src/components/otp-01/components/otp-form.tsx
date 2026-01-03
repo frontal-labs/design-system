@@ -1,22 +1,18 @@
-import { Button } from "@/registry/new-york-v4/ui/button";
 import {
+	Button,
 	Card,
 	CardContent,
 	CardDescription,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	Field,
 	FieldDescription,
-	FieldGroup,
 	FieldLabel,
-} from "@/registry/new-york-v4/ui/field";
-import {
+	Fieldset,
 	InputOTP,
 	InputOTPGroup,
 	InputOTPSlot,
-} from "@/registry/new-york-v4/ui/input-otp";
+} from "@frontal/ui";
 
 export function OTPForm({ ...props }: React.ComponentProps<typeof Card>) {
 	return (
@@ -27,7 +23,7 @@ export function OTPForm({ ...props }: React.ComponentProps<typeof Card>) {
 			</CardHeader>
 			<CardContent>
 				<form>
-					<FieldGroup>
+					<Fieldset>
 						<Field>
 							<FieldLabel htmlFor="otp">Verification code</FieldLabel>
 							<InputOTP maxLength={6} id="otp" required>
@@ -44,13 +40,13 @@ export function OTPForm({ ...props }: React.ComponentProps<typeof Card>) {
 								Enter the 6-digit code sent to your email.
 							</FieldDescription>
 						</Field>
-						<FieldGroup>
+						<Fieldset>
 							<Button type="submit">Verify</Button>
 							<FieldDescription className="text-center">
-								Didn&apos;t receive the code? <a href="#">Resend</a>
+								Didn&apos;t receive the code? <a href="/resend-code">Resend</a>
 							</FieldDescription>
-						</FieldGroup>
-					</FieldGroup>
+						</Fieldset>
+					</Fieldset>
 				</form>
 			</CardContent>
 		</Card>

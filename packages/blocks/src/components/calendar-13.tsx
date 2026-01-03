@@ -1,16 +1,15 @@
 "use client";
 
-import * as React from "react";
-
-import { Calendar } from "@/registry/new-york-v4/ui/calendar";
-import { Label } from "@/registry/new-york-v4/ui/label";
 import {
+	Calendar,
+	Label,
 	Select,
 	SelectContent,
 	SelectItem,
 	SelectTrigger,
 	SelectValue,
-} from "@/registry/new-york-v4/ui/select";
+} from "@frontal/ui";
+import * as React from "react";
 
 export default function Calendar13() {
 	const [dropdown, setDropdown] =
@@ -45,8 +44,8 @@ export default function Calendar13() {
 				>
 					<SelectTrigger
 						id="dropdown"
-						size="sm"
-						className="bg-background w-full"
+						size="small"
+						className="w-full bg-background"
 					>
 						<SelectValue placeholder="Dropdown" />
 					</SelectTrigger>

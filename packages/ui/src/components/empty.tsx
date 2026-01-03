@@ -2,7 +2,9 @@ import { cn } from "@frontal/shared";
 import { cva, type VariantProps } from "class-variance-authority";
 import type { ComponentProps } from "react";
 
-function Empty({ className, ...props }: ComponentProps<"div">) {
+type EmptyProps = ComponentProps<"div">;
+
+function Empty({ className, ...props }: EmptyProps) {
 	return (
 		<div
 			className={cn(
@@ -15,7 +17,9 @@ function Empty({ className, ...props }: ComponentProps<"div">) {
 	);
 }
 
-function EmptyHeader({ className, ...props }: ComponentProps<"div">) {
+type EmptyHeaderProps = ComponentProps<"div">;
+
+function EmptyHeader({ className, ...props }: EmptyHeaderProps) {
 	return (
 		<div
 			className={cn(
@@ -84,7 +88,9 @@ function EmptyMedia({
 	);
 }
 
-function EmptyTitle({ className, ...props }: ComponentProps<"div">) {
+type EmptyTitleProps = ComponentProps<"div">;
+
+function EmptyTitle({ className, ...props }: EmptyTitleProps) {
 	return (
 		<div
 			className={cn("font-heading text-xl leading-none", className)}
@@ -94,7 +100,9 @@ function EmptyTitle({ className, ...props }: ComponentProps<"div">) {
 	);
 }
 
-function EmptyDescription({ className, ...props }: ComponentProps<"p">) {
+type EmptyDescriptionProps = ComponentProps<"p">;
+
+function EmptyDescription({ className, ...props }: EmptyDescriptionProps) {
 	return (
 		<div
 			className={cn(
@@ -107,7 +115,9 @@ function EmptyDescription({ className, ...props }: ComponentProps<"p">) {
 	);
 }
 
-function EmptyContent({ className, ...props }: ComponentProps<"div">) {
+type EmptyContentProps = ComponentProps<"div">;
+
+function EmptyContent({ className, ...props }: EmptyContentProps) {
 	return (
 		<div
 			className={cn(
@@ -127,4 +137,10 @@ export {
 	EmptyDescription,
 	EmptyContent,
 	EmptyMedia,
+	type EmptyProps,
+	type EmptyHeaderProps,
+	type EmptyTitleProps,
+	type EmptyDescriptionProps,
+	type EmptyContentProps,
+	type EmptyMediaProps,
 };

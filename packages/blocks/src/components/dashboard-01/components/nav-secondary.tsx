@@ -1,15 +1,14 @@
 "use client";
 
-import type { Icon } from "@tabler/icons-react";
-import type * as React from "react";
-
 import {
 	SidebarGroup,
 	SidebarGroupContent,
 	SidebarMenu,
 	SidebarMenuButton,
 	SidebarMenuItem,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
+import type { Icon } from "@tabler/icons-react";
+import type * as React from "react";
 
 export function NavSecondary({
 	items,

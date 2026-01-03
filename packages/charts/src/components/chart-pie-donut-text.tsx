@@ -1,9 +1,6 @@
 "use client";
 
 import { ArrowUpIcon } from "@frontal/icons";
-import * as React from "react";
-import { Label, Pie, PieChart } from "recharts";
-
 import {
 	Card,
 	CardContent,
@@ -11,13 +8,14 @@ import {
 	CardFooter,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	type ChartConfig,
 	ChartContainer,
 	ChartTooltip,
 	ChartTooltipContent,
-} from "@/registry/new-york-v4/ui/chart";
+} from "@frontal/ui";
+import * as React from "react";
+import { Label, Pie, PieChart } from "recharts";
+import type { Props as LabelProps } from "recharts/types/component/Label";
 
 export const description = "A donut chart with text";
 
@@ -84,7 +82,8 @@ export function ChartPieDonutText() {
 							strokeWidth={5}
 						>
 							<Label
-								content={({ viewBox }) => {
+								content={(props: LabelProps) => {
+									const viewBox = props.viewBox;
 									if (viewBox && "cx" in viewBox && "cy" in viewBox) {
 										return (
 											<text
@@ -96,7 +95,7 @@ export function ChartPieDonutText() {
 												<tspan
 													x={viewBox.cx}
 													y={viewBox.cy}
-													className="fill-foreground text-3xl font-bold"
+													className="fill-foreground font-bold text-3xl"
 												>
 													{totalVisitors.toLocaleString()}
 												</tspan>
@@ -110,6 +109,7 @@ export function ChartPieDonutText() {
 											</text>
 										);
 									}
+									return null;
 								}}
 							/>
 						</Pie>
@@ -117,7 +117,7 @@ export function ChartPieDonutText() {
 				</ChartContainer>
 			</CardContent>
 			<CardFooter className="flex-col gap-2 text-sm">
-				<div className="flex items-center gap-2 leading-none font-medium">
+				<div className="flex items-center gap-2 font-medium leading-none">
 					Trending up by 5.2% this month <ArrowUpIcon className="h-4 w-4" />
 				</div>
 				<div className="text-muted-foreground leading-none">

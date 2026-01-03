@@ -1,18 +1,17 @@
-import { cn } from "@/registry/new-york-v4/lib/utils";
-import { Button } from "@/registry/new-york-v4/ui/button";
-import { Card, CardContent } from "@/registry/new-york-v4/ui/card";
+import { cn } from "@frontal/shared";
 import {
+	Button,
+	Card,
+	CardContent,
 	Field,
 	FieldDescription,
-	FieldGroup,
 	FieldLabel,
-} from "@/registry/new-york-v4/ui/field";
-import {
+	Fieldset,
 	InputOTP,
 	InputOTPGroup,
 	InputOTPSeparator,
 	InputOTPSlot,
-} from "@/registry/new-york-v4/ui/input-otp";
+} from "@frontal/ui";
 
 export function OTPForm({ className, ...props }: React.ComponentProps<"div">) {
 	return (
@@ -23,10 +22,10 @@ export function OTPForm({ className, ...props }: React.ComponentProps<"div">) {
 			<Card className="flex-1 overflow-hidden p-0">
 				<CardContent className="grid flex-1 p-0 md:grid-cols-2">
 					<form className="flex flex-col items-center justify-center p-6 md:p-8">
-						<FieldGroup>
+						<Fieldset>
 							<Field className="items-center text-center">
-								<h1 className="text-2xl font-bold">Enter verification code</h1>
-								<p className="text-muted-foreground text-sm text-balance">
+								<h1 className="font-bold text-2xl">Enter verification code</h1>
+								<p className="text-balance text-muted-foreground text-sm">
 									We sent a 6-digit code to your email
 								</p>
 							</Field>
@@ -59,23 +58,25 @@ export function OTPForm({ className, ...props }: React.ComponentProps<"div">) {
 							<Field>
 								<Button type="submit">Verify</Button>
 								<FieldDescription className="text-center">
-									Didn&apos;t receive the code? <a href="#">Resend</a>
+									Didn&apos;t receive the code?{" "}
+									<a href="/resend-code">Resend</a>
 								</FieldDescription>
 							</Field>
-						</FieldGroup>
+						</Fieldset>
 					</form>
-					<div className="bg-muted relative hidden md:block">
+					<div className="relative hidden bg-muted md:block">
 						<img
 							src="/placeholder.svg"
-							alt="Image"
+							alt=""
 							className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
 						/>
 					</div>
 				</CardContent>
 			</Card>
 			<FieldDescription className="text-center">
-				By clicking continue, you agree to our <a href="#">Terms of Service</a>{" "}
-				and <a href="#">Privacy Policy</a>.
+				By clicking continue, you agree to our{" "}
+				<a href="/terms">Terms of Service</a> and{" "}
+				<a href="/privacy">Privacy Policy</a>.
 			</FieldDescription>
 		</div>
 	);

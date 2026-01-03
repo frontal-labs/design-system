@@ -4,20 +4,14 @@
 	"version": "0.0.1",
 	"private": true,
 	"type": "module",
-	"main": "./dist/index.cjs",
-	"module": "./dist/index.js",
-	"types": "./dist/index.d.ts",
+	"main": "./src/index.ts",
+	"module": "./src/index.ts",
+	"types": "./src/index.ts",
 	"exports": {
-		".": {
-			"types": "./dist/index.d.ts",
-			"import": "./dist/index.js",
-			"require": "./dist/index.cjs",
-			"default": "./dist/index.js"
-		},
-		"./styles/components.css": "./src/styles/components.css"
+		".": "./src/index.ts",
+		"./styles.css": "./src/styles/styles.css"
 	},
 	"scripts": {
-		"build": "rollup -c",
 		"lint": "biome check",
 		"lint:fix": "biome check --write --unsafe",
 		"format": "biome format --write",
@@ -25,36 +19,35 @@
 		"check:fix": "biome check --write",
 		"type-check": "tsc --noEmit",
 		"typecheck": "tsc --noEmit",
-		"test": "bun test",
-		"test:watch": "bun test --watch",
-		"test:coverage": "bun test --coverage",
-		"clean": "git clean -xdf -- node_modules .next .turbo .cache dist"
+		"clean": "git clean -xdf -- node_modules .next .cache",
+		"test": "bun test"
 	},
-	"files": [
-		"dist",
-		"README.md",
-		"LICENSE.md",
-		"CONTRIBUTING.md"
-	],
 	"dependencies": {
-		"@frontal/primitives": "workspace:*",
+		"@base-ui/react": "^1.0.0",
 		"@frontal/icons": "workspace:*",
+		"@frontal/react-media": "workspace:*",
 		"@frontal/shared": "workspace:*",
+		"@radix-ui/react-slot": "^1.2.4",
+		"@tailwindcss/postcss": "^4.1.14",
 		"class-variance-authority": "^0.7.1",
-		"react-day-picker": "^9.11.0",
+		"clsx": "^2.1.1",
+		"cmdk": "^1.1.1",
 		"embla-carousel-autoplay": "^8.0.0",
 		"embla-carousel-react": "^8.6.0",
-		"react-resizable-panels": "^3.0.6",
-		"cmdk": "^1.1.1",
-		"clsx": "^2.1.1",
-		"recharts": "^2.15.4",
 		"input-otp": "^1.4.2",
+		"lucide-react": "^0.562.0",
+		"postcss": "^8.5.6",
+		"react-day-picker": "^9.11.0",
+		"react-hook-form": "^7.64.0",
+		"react-resizable-panels": "^3.0.6",
+		"recharts": "^2.15.4",
 		"tailwind-merge": "^2.5.4",
+		"tailwindcss": "^4.1.14",
 		"vaul": "^1.1.2"
 	},
 	"peerDependencies": {
-		"react": "^19.2.0",
-		"next": "^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0"
+		"next": "^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0",
+		"react": "^19.2.0"
 	},
 	"peerDependenciesMeta": {
 		"next": {
@@ -63,20 +56,15 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.3.4",
-		"@rollup/plugin-alias": "^5.1.1",
-		"@rollup/plugin-commonjs": "^27.0.0",
-		"@rollup/plugin-node-resolve": "^15.0.0",
-		"@rollup/plugin-swc": "^0.4.0",
-		"@rollup/plugin-typescript": "^12.0.0",
+		"@frontal/typescript-config": "workspace:*",
 		"@types/node": "^24.7.0",
 		"@types/react": "^19.2.1",
 		"jsdom": "^25.0.0",
-		"react": "^19.2.0",
-		"rollup": "^4.0.0",
-		"tsx": "^4.7.1",
-		"typescript": "^5.9.3",
 		"postcss": "^8.5.6",
-		"puppeteer": "^24.26.1"
+		"puppeteer": "^24.26.1",
+		"react": "^19.2.0",
+		"tsx": "^4.7.1",
+		"typescript": "^5.9.3"
 	},
 	"keywords": [
 		"ui",
@@ -84,7 +72,6 @@
 		"react"
 	],
 	"engines": {
-		"node": ">=20.0.0",
-		"bun": ">=1.1.0"
+		"node": ">=18.0.0"
 	}
 }

@@ -1,17 +1,15 @@
-import { AppSidebar } from "@/registry/new-york-v4/blocks/sidebar-10/components/app-sidebar";
-import { NavActions } from "@/registry/new-york-v4/blocks/sidebar-10/components/nav-actions";
+import { AppSidebar } from "@frontal/blocks/sidebar-10/components/app-sidebar";
+import { NavActions } from "@frontal/blocks/sidebar-10/components/nav-actions";
 import {
 	Breadcrumb,
 	BreadcrumbItem,
 	BreadcrumbList,
 	BreadcrumbPage,
-} from "@/registry/new-york-v4/ui/breadcrumb";
-import { Separator } from "@/registry/new-york-v4/ui/separator";
-import {
+	Separator,
 	SidebarInset,
 	SidebarProvider,
 	SidebarTrigger,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
 
 export default function Page() {
 	return (
@@ -40,8 +38,8 @@ export default function Page() {
 					</div>
 				</header>
 				<div className="flex flex-1 flex-col gap-4 px-4 py-10">
-					<div className="bg-muted/50 mx-auto h-24 w-full max-w-3xl rounded-xl" />
-					<div className="bg-muted/50 mx-auto h-full w-full max-w-3xl rounded-xl" />
+					<div className="mx-auto h-24 w-full max-w-3xl rounded-xl bg-muted/50" />
+					<div className="mx-auto h-full w-full max-w-3xl rounded-xl bg-muted/50" />
 				</div>
 			</SidebarInset>
 		</SidebarProvider>

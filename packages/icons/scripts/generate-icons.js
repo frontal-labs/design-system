@@ -15,7 +15,7 @@ if (!fs.existsSync(outDir)) {
 function findSvgFiles(dir, fileList = []) {
 	const files = fs.readdirSync(dir);
 
-	files.forEach((file) => {
+	for (const file of files) {
 		const filePath = path.join(dir, file);
 		const stat = fs.statSync(filePath);
 
@@ -24,7 +24,7 @@ function findSvgFiles(dir, fileList = []) {
 		} else if (file.endsWith(".svg")) {
 			fileList.push(filePath);
 		}
-	});
+	}
 
 	return fileList;
 }
@@ -130,12 +130,17 @@ export default ${componentName};
 `;
 };
 
-svgFiles.forEach((filePath) => {
+for (const filePath of svgFiles) {
 	const svgContent = fs.readFileSync(filePath, "utf-8");
 
 	// Get relative path from icons/ directory
 	const relativePath = path.relative(iconsDir, filePath);
-	const dirName = path.dirname(relativePath);
+	// Force lowercase and convert spaces/special chars to kebab-case for directory names
+	const dirName = path
+		.dirname(relativePath)
+		.toLowerCase()
+		.replace(/\s*&\s*/g, "-")
+		.replace(/\s+/g, "-");
 	const baseName = path.basename(filePath, ".svg");
 
 	// Read JSON file if it exists
@@ -262,8 +267,8 @@ export default ${componentName};
 	// Export line for main index.ts (use @components path alias with kebab-case filename)
 	const exportPath =
 		dirName === "."
-			? `@components/${fileName}`
-			: `@components/${dirName}/${fileName}`;
+			? `./components/${fileName}`
+			: `./components/${dirName}/${fileName}`;
 	exports.push(`export { default as ${componentName} } from '${exportPath}';`);
 
 	// Export line for components/index.ts (relative path with kebab-case filename)
@@ -272,7 +277,7 @@ export default ${componentName};
 	componentExports.push(
 		`export { default as ${componentName} } from '${componentExportPath}';`,
 	);
-});
+}
 
 // Generate index.ts that re-exports all icons
 const indexPath = path.resolve(process.cwd(), "src", "index.ts");
@@ -308,4 +313,4 @@ ${componentExports.join("\n")}
 fs.writeFileSync(componentsIndexPath, componentsIndexContent);
 
 console.log(`✅ Generated ${svgFiles.length} icon components`);
-console.log(`✅ Generated components/index.ts`);
+console.log("✅ Generated components/index.ts");

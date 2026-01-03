@@ -1,49 +1,38 @@
+import { mergeProps } from "@base-ui/react/merge-props";
+import { useRender } from "@base-ui/react/use-render";
 import { cn } from "@frontal/shared";
 import { cva, type VariantProps } from "class-variance-authority";
-import type { ComponentProps } from "react";
 
-const containerVariants = cva("w-full mx-auto", {
+const containerVariants = cva("mx-auto w-full", {
 	variants: {
 		size: {
-			xs: "max-w-screen-xs px-4",
-			sm: "max-w-screen-sm px-4",
-			default: "max-w-screen-md px-4",
-			md: "max-w-screen-md px-6",
-			lg: "max-w-screen-lg px-6",
-			xl: "max-w-screen-xl px-8",
-			"2xl": "max-w-screen-2xl px-8",
+			sm: "max-w-screen-sm",
+			md: "max-w-screen-md",
+			lg: "max-w-screen-lg",
+			xl: "max-w-screen-xl",
+			"2xl": "max-w-screen-2xl",
 			full: "max-w-full",
-		},
-		padding: {
-			none: "px-0",
-			xs: "px-2",
-			sm: "px-4",
-			default: "px-4",
-			md: "px-6",
-			lg: "px-8",
-			xl: "px-12",
 		},
 	},
 	defaultVariants: {
-		size: "default",
-		padding: undefined,
+		size: "md",
 	},
 });
 
-type ContainerProps = ComponentProps<"div"> &
+type ContainerProps = useRender.ComponentProps<"div"> &
 	VariantProps<typeof containerVariants>;
 
-function Container({ className, size, padding, ...props }: ContainerProps) {
-	return (
-		<div
-			data-slot="container"
-			data-size={size}
-			data-padding={padding}
-			className={cn(containerVariants({ size, padding }), className)}
-			{...props}
-		/>
-	);
+function Container({ className, size, render, ...props }: ContainerProps) {
+	const defaultProps = {
+		className: cn(containerVariants({ size }), className),
+		"data-slot": "container",
+	};
+
+	return useRender({
+		defaultTagName: "div",
+		props: mergeProps<"div">(defaultProps, props),
+		render,
+	});
 }
 
-export { Container, containerVariants };
-export type { ContainerProps };
+export { Container, containerVariants, type ContainerProps };

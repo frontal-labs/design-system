@@ -1,8 +1,6 @@
 "use client";
 
 import { ArrowUpIcon } from "@frontal/icons";
-import { Pie, PieChart } from "recharts";
-
 import {
 	Card,
 	CardContent,
@@ -10,13 +8,12 @@ import {
 	CardFooter,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	type ChartConfig,
 	ChartContainer,
 	ChartTooltip,
 	ChartTooltipContent,
-} from "@/registry/new-york-v4/ui/chart";
+} from "@frontal/ui";
+import { Pie, PieChart } from "recharts";
 
 export const description = "A pie chart with a custom label";
 
@@ -74,7 +71,20 @@ export function ChartPieLabelCustom() {
 							data={chartData}
 							dataKey="visitors"
 							labelLine={false}
-							label={({ payload, ...props }) => {
+							label={({
+								payload,
+								...props
+							}: {
+								payload?: (typeof chartData)[number];
+								cx?: number;
+								cy?: number;
+								x?: number;
+								y?: number;
+								textAnchor?: "start" | "middle" | "end" | "inherit";
+							}) => {
+								if (!payload) {
+									return null;
+								}
 								return (
 									<text
 										cx={props.cx}
@@ -82,7 +92,6 @@ export function ChartPieLabelCustom() {
 										x={props.x}
 										y={props.y}
 										textAnchor={props.textAnchor}
-										dominantBaseline={props.dominantBaseline}
 										fill="hsla(var(--foreground))"
 									>
 										{payload.visitors}
@@ -95,7 +104,7 @@ export function ChartPieLabelCustom() {
 				</ChartContainer>
 			</CardContent>
 			<CardFooter className="flex-col gap-2 text-sm">
-				<div className="flex items-center gap-2 leading-none font-medium">
+				<div className="flex items-center gap-2 font-medium leading-none">
 					Trending up by 5.2% this month <ArrowUpIcon className="h-4 w-4" />
 				</div>
 				<div className="text-muted-foreground leading-none">

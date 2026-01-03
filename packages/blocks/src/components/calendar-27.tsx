@@ -1,13 +1,9 @@
 "use client";
 
 import { CalendarIcon } from "@frontal/icons";
-import * as React from "react";
-import type { DateRange } from "react-day-picker";
-import { Bar, BarChart, CartesianGrid, XAxis } from "recharts";
-
-import { Button } from "@/registry/new-york-v4/ui/button";
-import { Calendar } from "@/registry/new-york-v4/ui/calendar";
 import {
+	Button,
+	Calendar,
 	Card,
 	CardAction,
 	CardContent,
@@ -15,18 +11,17 @@ import {
 	CardFooter,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	type ChartConfig,
 	ChartContainer,
 	ChartTooltip,
 	ChartTooltipContent,
-} from "@/registry/new-york-v4/ui/chart";
-import {
 	Popover,
 	PopoverContent,
 	PopoverTrigger,
-} from "@/registry/new-york-v4/ui/popover";
+} from "@frontal/ui";
+import * as React from "react";
+import type { DateRange } from "react-day-picker";
+import { Bar, BarChart, CartesianGrid, XAxis } from "recharts";
 
 const chartData = [
 	{ date: "2025-06-01", visitors: 178 },
@@ -76,24 +71,24 @@ export default function Calendar27() {
 		to: new Date(2025, 5, 20),
 	});
 	const filteredData = React.useMemo(() => {
-		if (!range?.from || !range?.to) {
+		if (!(range?.from || range?.to)) {
 			return chartData;
 		}
 
 		return chartData.filter((item) => {
 			const date = new Date(item.date);
-			return date >= range.from && date <= range.to;
+			return range.from && range.to && date >= range.from && date <= range.to;
 		});
 	}, [range]);
 
 	return (
 		<Card className="@container/card w-full max-w-xl">
-			<CardHeader className="flex flex-col border-b @md/card:grid">
+			<CardHeader className="flex @md/card:grid flex-col border-b">
 				<CardTitle>Web Analytics</CardTitle>
 				<CardDescription>
 					Showing total visitors for this month.
 				</CardDescription>
-				<CardAction className="mt-2 @md/card:mt-0">
+				<CardAction className="@md/card:mt-0 mt-2">
 					<Popover>
 						<PopoverTrigger asChild>
 							<Button variant="outline">
@@ -164,7 +159,7 @@ export default function Calendar27() {
 								/>
 							}
 						/>
-						<Bar dataKey="visitors" fill={`var(--color-visitors)`} radius={4} />
+						<Bar dataKey="visitors" fill="var(--color-visitors)" radius={4} />
 					</BarChart>
 				</ChartContainer>
 			</CardContent>

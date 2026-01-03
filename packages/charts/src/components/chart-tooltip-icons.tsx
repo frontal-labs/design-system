@@ -1,21 +1,18 @@
 "use client";
 
 import { FootprintIcon, WaterFlashIcon } from "@frontal/icons";
-import { Bar, BarChart, XAxis } from "recharts";
-
 import {
 	Card,
 	CardContent,
 	CardDescription,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	type ChartConfig,
 	ChartContainer,
 	ChartTooltip,
 	ChartTooltipContent,
-} from "@/registry/new-york-v4/ui/chart";
+} from "@frontal/ui";
+import { Bar, BarChart, XAxis } from "recharts";
 
 export const description = "A stacked bar chart with a legend";
 
@@ -56,7 +53,7 @@ export function ChartTooltipIcons() {
 							tickLine={false}
 							tickMargin={10}
 							axisLine={false}
-							tickFormatter={(value) => {
+							tickFormatter={(value: string | number) => {
 								return new Date(value).toLocaleDateString("en-US", {
 									weekday: "short",
 								});

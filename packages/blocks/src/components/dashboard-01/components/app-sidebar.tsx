@@ -1,5 +1,18 @@
 "use client";
 
+import { NavDocuments } from "@frontal/blocks/dashboard-01/components/nav-documents";
+import { NavMain } from "@frontal/blocks/dashboard-01/components/nav-main";
+import { NavSecondary } from "@frontal/blocks/dashboard-01/components/nav-secondary";
+import { NavUser } from "@frontal/blocks/dashboard-01/components/nav-user";
+import {
+	Sidebar,
+	SidebarContent,
+	SidebarFooter,
+	SidebarHeader,
+	SidebarMenu,
+	SidebarMenuButton,
+	SidebarMenuItem,
+} from "@frontal/ui";
 import {
 	IconCamera,
 	IconChartBar,
@@ -18,20 +31,6 @@ import {
 	IconUsers,
 } from "@tabler/icons-react";
 import type * as React from "react";
-
-import { NavDocuments } from "@/registry/new-york-v4/blocks/dashboard-01/components/nav-documents";
-import { NavMain } from "@/registry/new-york-v4/blocks/dashboard-01/components/nav-main";
-import { NavSecondary } from "@/registry/new-york-v4/blocks/dashboard-01/components/nav-secondary";
-import { NavUser } from "@/registry/new-york-v4/blocks/dashboard-01/components/nav-user";
-import {
-	Sidebar,
-	SidebarContent,
-	SidebarFooter,
-	SidebarHeader,
-	SidebarMenu,
-	SidebarMenuButton,
-	SidebarMenuItem,
-} from "@/registry/new-york-v4/ui/sidebar";
 
 const data = {
 	user: {
@@ -116,7 +115,7 @@ const data = {
 	],
 	navSecondary: [
 		{
-			title: "Settings",
+			title: "SettingsIcon",
 			url: "#",
 			icon: IconSettings,
 		},
@@ -126,7 +125,7 @@ const data = {
 			icon: IconHelp,
 		},
 		{
-			title: "Search",
+			title: "SearchIcon",
 			url: "#",
 			icon: IconSearch,
 		},
@@ -160,10 +159,10 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 							asChild
 							className="data-[slot=sidebar-menu-button]:!p-1.5"
 						>
-							<a href="#">
+							<button type="button" className="flex items-center gap-2">
 								<IconInnerShadowTop className="!size-5" />
-								<span className="text-base font-semibold">Acme Inc.</span>
-							</a>
+								<span className="font-semibold text-base">Acme Inc.</span>
+							</button>
 						</SidebarMenuButton>
 					</SidebarMenuItem>
 				</SidebarMenu>

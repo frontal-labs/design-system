@@ -2,11 +2,7 @@
 
 import type { IconComponent } from "@frontal/icons";
 
-import {
-	SidebarMenu,
-	SidebarMenuButton,
-	SidebarMenuItem,
-} from "@/registry/new-york-v4/ui/sidebar";
+import { SidebarMenu, SidebarMenuButton, SidebarMenuItem } from "@frontal/ui";
 
 export function NavMain({
 	items,

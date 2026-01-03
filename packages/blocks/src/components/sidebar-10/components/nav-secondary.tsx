@@ -1,6 +1,4 @@
 import type { IconComponent } from "@frontal/icons";
-import type React from "react";
-
 import {
 	SidebarGroup,
 	SidebarGroupContent,
@@ -8,7 +6,8 @@ import {
 	SidebarMenuBadge,
 	SidebarMenuButton,
 	SidebarMenuItem,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
+import type React from "react";
 
 export function NavSecondary({
 	items,

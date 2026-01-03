@@ -1,15 +1,17 @@
-"use client";
-
+import { mergeProps } from "@base-ui/react/merge-props";
+import { useRender } from "@base-ui/react/use-render";
 import {
-	ChevronLeftIcon,
-	ChevronRightIcon,
-	MoreHorizontalIcon,
+	ArrowLeftChevronIcon,
+	ArrowRightChevronIcon,
+	MoreIcon,
 } from "@frontal/icons";
-import { cn, mergeProps, useRender } from "@frontal/shared";
+import { cn } from "@frontal/shared";
 import type { ComponentProps } from "react";
 import { type Button, buttonVariants } from "./button";
 
-function Pagination({ className, ...props }: ComponentProps<"nav">) {
+type PaginationProps = ComponentProps<"nav">;
+
+function Pagination({ className, ...props }: PaginationProps) {
 	return (
 		<nav
 			aria-label="pagination"
@@ -20,7 +22,9 @@ function Pagination({ className, ...props }: ComponentProps<"nav">) {
 	);
 }
 
-function PaginationContent({ className, ...props }: ComponentProps<"ul">) {
+type PaginationContentProps = ComponentProps<"ul">;
+
+function PaginationContent({ className, ...props }: PaginationContentProps) {
 	return (
 		<ul
 			className={cn("flex flex-row items-center gap-1", className)}
@@ -30,7 +34,9 @@ function PaginationContent({ className, ...props }: ComponentProps<"ul">) {
 	);
 }
 
-function PaginationItem({ ...props }: ComponentProps<"li">) {
+type PaginationItemProps = ComponentProps<"li">;
+
+function PaginationItem({ ...props }: PaginationItemProps) {
 	return <li data-slot="pagination-item" {...props} />;
 }
 
@@ -68,41 +74,41 @@ function PaginationLink({
 	});
 }
 
-function PaginationPrevious({
-	className,
-	...props
-}: ComponentProps<typeof PaginationLink>) {
+type PaginationPreviousProps = ComponentProps<typeof PaginationLink>;
+
+function PaginationPrevious({ className, ...props }: PaginationPreviousProps) {
 	return (
 		<PaginationLink
 			aria-label="Go to previous page"
 			className={cn("max-sm:aspect-square max-sm:p-0", className)}
-			size="default"
+			size="medium"
 			{...props}
 		>
-			<ChevronLeftIcon className="sm:-ms-1" />
+			<ArrowLeftChevronIcon className="sm:-ms-1" />
 			<span className="max-sm:hidden">Previous</span>
 		</PaginationLink>
 	);
 }
 
-function PaginationNext({
-	className,
-	...props
-}: ComponentProps<typeof PaginationLink>) {
+type PaginationNextProps = ComponentProps<typeof PaginationLink>;
+
+function PaginationNext({ className, ...props }: PaginationNextProps) {
 	return (
 		<PaginationLink
 			aria-label="Go to next page"
 			className={cn("max-sm:aspect-square max-sm:p-0", className)}
-			size="default"
+			size="medium"
 			{...props}
 		>
 			<span className="max-sm:hidden">Next</span>
-			<ChevronRightIcon className="sm:-me-1" />
+			<ArrowRightChevronIcon className="sm:-me-1" />
 		</PaginationLink>
 	);
 }
 
-function PaginationEllipsis({ className, ...props }: ComponentProps<"span">) {
+type PaginationEllipsisProps = ComponentProps<"span">;
+
+function PaginationEllipsis({ className, ...props }: PaginationEllipsisProps) {
 	return (
 		<span
 			aria-hidden
@@ -110,7 +116,7 @@ function PaginationEllipsis({ className, ...props }: ComponentProps<"span">) {
 			data-slot="pagination-ellipsis"
 			{...props}
 		>
-			<MoreHorizontalIcon className="size-4" />
+			<MoreIcon className="size-5 sm:size-4" />
 			<span className="sr-only">More pages</span>
 		</span>
 	);
@@ -124,4 +130,11 @@ export {
 	PaginationPrevious,
 	PaginationNext,
 	PaginationEllipsis,
+	type PaginationProps,
+	type PaginationContentProps,
+	type PaginationItemProps,
+	type PaginationLinkProps,
+	type PaginationPreviousProps,
+	type PaginationNextProps,
+	type PaginationEllipsisProps,
 };

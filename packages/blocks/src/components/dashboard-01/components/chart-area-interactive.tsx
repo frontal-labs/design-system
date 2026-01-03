@@ -1,9 +1,6 @@
 "use client";
 
-import * as React from "react";
-import { Area, AreaChart, CartesianGrid, XAxis } from "recharts";
-
-import { useIsMobile } from "@/registry/new-york-v4/hooks/use-mobile";
+import { useIsMobile } from "@frontal/react-media";
 import {
 	Card,
 	CardAction,
@@ -11,24 +8,20 @@ import {
 	CardDescription,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	type ChartConfig,
 	ChartContainer,
 	ChartTooltip,
 	ChartTooltipContent,
-} from "@/registry/new-york-v4/ui/chart";
-import {
 	Select,
 	SelectContent,
 	SelectItem,
 	SelectTrigger,
 	SelectValue,
-} from "@/registry/new-york-v4/ui/select";
-import {
 	ToggleGroup,
 	ToggleGroupItem,
-} from "@/registry/new-york-v4/ui/toggle-group";
+} from "@frontal/ui";
+import * as React from "react";
+import { Area, AreaChart, CartesianGrid, XAxis } from "recharts";
 
 export const description = "An interactive area chart";
 
@@ -169,7 +162,7 @@ export function ChartAreaInteractive() {
 			<CardHeader>
 				<CardTitle>Total Visitors</CardTitle>
 				<CardDescription>
-					<span className="hidden @[540px]/card:block">
+					<span className="@[540px]/card:block hidden">
 						Total for the last 3 months
 					</span>
 					<span className="@[540px]/card:hidden">Last 3 months</span>
@@ -177,19 +170,27 @@ export function ChartAreaInteractive() {
 				<CardAction>
 					<ToggleGroup
 						type="single"
+						// @ts-expect-error - ToggleGroup value type issue with type="single"
 						value={timeRange}
-						onValueChange={setTimeRange}
+						onValueChange={(value) => {
+							if (typeof value === "string") {
+								setTimeRange(value);
+							}
+						}}
 						variant="outline"
-						className="hidden *:data-[slot=toggle-group-item]:!px-4 @[767px]/card:flex"
+						className="*:data-[slot=toggle-group-item]:!px-4 @[767px]/card:flex hidden"
 					>
 						<ToggleGroupItem value="90d">Last 3 months</ToggleGroupItem>
 						<ToggleGroupItem value="30d">Last 30 days</ToggleGroupItem>
 						<ToggleGroupItem value="7d">Last 7 days</ToggleGroupItem>
 					</ToggleGroup>
-					<Select value={timeRange} onValueChange={setTimeRange}>
+					<Select
+						value={timeRange}
+						onValueChange={(value) => value && setTimeRange(value)}
+					>
 						<SelectTrigger
-							className="flex w-40 **:data-[slot=select-value]:block **:data-[slot=select-value]:truncate @[767px]/card:hidden"
-							size="sm"
+							className="flex @[767px]/card:hidden w-40 **:data-[slot=select-value]:block **:data-[slot=select-value]:truncate"
+							size="small"
 							aria-label="Select a value"
 						>
 							<SelectValue placeholder="Last 3 months" />

@@ -1,21 +1,18 @@
 "use client";
 
 import {
-	Folder,
-	type LucideIcon,
-	MoreHorizontal,
-	Share,
-	Trash2,
+	DeleteBinIcon,
+	FolderIcon,
+	type IconComponent,
+	MoreIcon,
+	ShareIcon,
 } from "@frontal/icons";
-
 import {
 	DropdownMenu,
 	DropdownMenuContent,
 	DropdownMenuItem,
 	DropdownMenuSeparator,
 	DropdownMenuTrigger,
-} from "@/registry/new-york-v4/ui/dropdown-menu";
-import {
 	SidebarGroup,
 	SidebarGroupLabel,
 	SidebarMenu,
@@ -23,7 +20,7 @@ import {
 	SidebarMenuButton,
 	SidebarMenuItem,
 	useSidebar,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
 
 export function NavProjects({
 	projects,
@@ -51,7 +48,7 @@ export function NavProjects({
 						<DropdownMenu>
 							<DropdownMenuTrigger asChild>
 								<SidebarMenuAction showOnHover>
-									<MoreHorizontal />
+									<MoreIcon />
 									<span className="sr-only">More</span>
 								</SidebarMenuAction>
 							</DropdownMenuTrigger>
@@ -61,16 +58,16 @@ export function NavProjects({
 								align={isMobile ? "end" : "start"}
 							>
 								<DropdownMenuItem>
-									<Folder className="text-muted-foreground" />
+									<FolderIcon className="text-muted-foreground" />
 									<span>View Project</span>
 								</DropdownMenuItem>
 								<DropdownMenuItem>
-									<Share className="text-muted-foreground" />
-									<span>Share Project</span>
+									<ShareIcon className="text-muted-foreground" />
+									<span>ShareIcon Project</span>
 								</DropdownMenuItem>
 								<DropdownMenuSeparator />
 								<DropdownMenuItem>
-									<Trash2 className="text-muted-foreground" />
+									<DeleteBinIcon className="text-muted-foreground" />
 									<span>Delete Project</span>
 								</DropdownMenuItem>
 							</DropdownMenuContent>
@@ -79,7 +76,7 @@ export function NavProjects({
 				))}
 				<SidebarMenuItem>
 					<SidebarMenuButton>
-						<MoreHorizontal />
+						<MoreIcon />
 						<span>More</span>
 					</SidebarMenuButton>
 				</SidebarMenuItem>

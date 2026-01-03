@@ -1,0 +1,47 @@
+{
+	"name": "@frontal/example",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev -p 3001",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"typecheck": "tsc --noEmit",
+		"analyze": "cross-env ANALYZE=true next build"
+	},
+	"dependencies": {
+		"@frontal/ui": "workspace:*",
+		"@frontal/icons": "workspace:*",
+		"@frontal/colors": "workspace:*",
+		"@hookform/resolvers": "^5.2.2",
+		"@radix-ui/react-slot": "^1.2.4",
+		"class-variance-authority": "^0.7.1",
+		"clsx": "^2.1.1",
+		"cmdk": "^1.1.1",
+		"date-fns": "^4.1.0",
+		"input-otp": "^1.4.2",
+		"lucide-react": "^0.556.0",
+		"next": "16.0.10",
+		"next-themes": "^0.4.4",
+		"react": "19.2.1",
+		"react-dom": "19.2.1",
+		"react-hook-form": "^7.68.0",
+		"recharts": "^2.15.4",
+		"sonner": "^2.0.7",
+		"tailwind-merge": "^2.5.4",
+		"zod": "^4.1.13"
+	},
+	"devDependencies": {
+		"@next/bundle-analyzer": "^15.1.6",
+		"@repo/typescript-config": "workspace:*",
+		"@tailwindcss/postcss": "^4.1.14",
+		"@types/node": "^24",
+		"@types/react": "19.2.7",
+		"@types/react-dom": "19.2.3",
+		"cross-env": "^7.0.3",
+		"tailwindcss": "^4.1.14",
+		"postcss": "^8.5.6",
+		"typescript": "^5.9.3"
+	}
+}

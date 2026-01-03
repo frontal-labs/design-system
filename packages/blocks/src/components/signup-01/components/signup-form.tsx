@@ -1,18 +1,16 @@
-import { Button } from "@/registry/new-york-v4/ui/button";
 import {
+	Button,
 	Card,
 	CardContent,
 	CardDescription,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	Field,
 	FieldDescription,
-	FieldGroup,
 	FieldLabel,
-} from "@/registry/new-york-v4/ui/field";
-import { Input } from "@/registry/new-york-v4/ui/input";
+	Fieldset,
+	Input,
+} from "@frontal/ui";
 
 export function SignupForm({ ...props }: React.ComponentProps<typeof Card>) {
 	return (
@@ -25,7 +23,7 @@ export function SignupForm({ ...props }: React.ComponentProps<typeof Card>) {
 			</CardHeader>
 			<CardContent>
 				<form>
-					<FieldGroup>
+					<Fieldset>
 						<Field>
 							<FieldLabel htmlFor="name">Full Name</FieldLabel>
 							<Input id="name" type="text" placeholder="John Doe" required />
@@ -57,18 +55,18 @@ export function SignupForm({ ...props }: React.ComponentProps<typeof Card>) {
 							<Input id="confirm-password" type="password" required />
 							<FieldDescription>Please confirm your password.</FieldDescription>
 						</Field>
-						<FieldGroup>
+						<Fieldset>
 							<Field>
 								<Button type="submit">Create Account</Button>
 								<Button variant="outline" type="button">
 									Sign up with Google
 								</Button>
 								<FieldDescription className="px-6 text-center">
-									Already have an account? <a href="#">Sign in</a>
+									Already have an account? <a href="/sign-in">Sign in</a>
 								</FieldDescription>
 							</Field>
-						</FieldGroup>
-					</FieldGroup>
+						</Fieldset>
+					</Fieldset>
 				</form>
 			</CardContent>
 		</Card>

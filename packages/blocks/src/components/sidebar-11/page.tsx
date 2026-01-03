@@ -1,4 +1,4 @@
-import { AppSidebar } from "@/registry/new-york-v4/blocks/sidebar-11/components/app-sidebar";
+import { AppSidebar } from "@frontal/blocks/sidebar-11/components/app-sidebar";
 import {
 	Breadcrumb,
 	BreadcrumbItem,
@@ -6,13 +6,11 @@ import {
 	BreadcrumbList,
 	BreadcrumbPage,
 	BreadcrumbSeparator,
-} from "@/registry/new-york-v4/ui/breadcrumb";
-import { Separator } from "@/registry/new-york-v4/ui/separator";
-import {
+	Separator,
 	SidebarInset,
 	SidebarProvider,
 	SidebarTrigger,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
 
 export default function Page() {
 	return (
@@ -28,11 +26,11 @@ export default function Page() {
 					<Breadcrumb>
 						<BreadcrumbList>
 							<BreadcrumbItem className="hidden md:block">
-								<BreadcrumbLink href="#">components</BreadcrumbLink>
+								<BreadcrumbLink href="/sign-in">components</BreadcrumbLink>
 							</BreadcrumbItem>
 							<BreadcrumbSeparator className="hidden md:block" />
 							<BreadcrumbItem className="hidden md:block">
-								<BreadcrumbLink href="#">ui</BreadcrumbLink>
+								<BreadcrumbLink href="/sign-in">ui</BreadcrumbLink>
 							</BreadcrumbItem>
 							<BreadcrumbSeparator className="hidden md:block" />
 							<BreadcrumbItem>
@@ -43,11 +41,11 @@ export default function Page() {
 				</header>
 				<div className="flex flex-1 flex-col gap-4 p-4">
 					<div className="grid auto-rows-min gap-4 md:grid-cols-3">
-						<div className="bg-muted/50 aspect-video rounded-xl" />
-						<div className="bg-muted/50 aspect-video rounded-xl" />
-						<div className="bg-muted/50 aspect-video rounded-xl" />
+						<div className="aspect-video rounded-xl bg-muted/50" />
+						<div className="aspect-video rounded-xl bg-muted/50" />
+						<div className="aspect-video rounded-xl bg-muted/50" />
 					</div>
-					<div className="bg-muted/50 min-h-[100vh] flex-1 rounded-xl md:min-h-min" />
+					<div className="min-h-[100vh] flex-1 rounded-xl bg-muted/50 md:min-h-min" />
 				</div>
 			</SidebarInset>
 		</SidebarProvider>

@@ -1,20 +1,17 @@
 "use client";
 
 import {
-	BadgeCheck,
-	Bell,
-	ChevronsUpDown,
-	CreditCard,
-	LogOut,
-	Sparkles,
+	ArrowUpDownIcon,
+	BellIcon,
+	LogoutBoxIcon,
+	NoCreditCardIcon,
+	ShieldCheckIcon,
+	SparklingIcon,
 } from "@frontal/icons";
-
 import {
 	Avatar,
 	AvatarFallback,
 	AvatarImage,
-} from "@/registry/new-york-v4/ui/avatar";
-import {
 	DropdownMenu,
 	DropdownMenuContent,
 	DropdownMenuGroup,
@@ -22,13 +19,11 @@ import {
 	DropdownMenuLabel,
 	DropdownMenuSeparator,
 	DropdownMenuTrigger,
-} from "@/registry/new-york-v4/ui/dropdown-menu";
-import {
 	SidebarMenu,
 	SidebarMenuButton,
 	SidebarMenuItem,
 	useSidebar,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
 
 export function NavUser({
 	user,
@@ -47,7 +42,7 @@ export function NavUser({
 				<DropdownMenu>
 					<DropdownMenuTrigger asChild>
 						<SidebarMenuButton
-							size="lg"
+							size="large"
 							className="data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground"
 						>
 							<Avatar className="h-8 w-8 rounded-lg">
@@ -58,7 +53,7 @@ export function NavUser({
 								<span className="truncate font-medium">{user.name}</span>
 								<span className="truncate text-xs">{user.email}</span>
 							</div>
-							<ChevronsUpDown className="ml-auto size-4" />
+							<ArrowUpDownIcon className="ml-auto size-4" />
 						</SidebarMenuButton>
 					</DropdownMenuTrigger>
 					<DropdownMenuContent
@@ -82,28 +77,28 @@ export function NavUser({
 						<DropdownMenuSeparator />
 						<DropdownMenuGroup>
 							<DropdownMenuItem>
-								<Sparkles />
+								<SparklingIcon />
 								Upgrade to Pro
 							</DropdownMenuItem>
 						</DropdownMenuGroup>
 						<DropdownMenuSeparator />
 						<DropdownMenuGroup>
 							<DropdownMenuItem>
-								<BadgeCheck />
+								<ShieldCheckIcon />
 								Account
 							</DropdownMenuItem>
 							<DropdownMenuItem>
-								<CreditCard />
+								<NoCreditCardIcon />
 								Billing
 							</DropdownMenuItem>
 							<DropdownMenuItem>
-								<Bell />
+								<BellIcon />
 								Notifications
 							</DropdownMenuItem>
 						</DropdownMenuGroup>
 						<DropdownMenuSeparator />
 						<DropdownMenuItem>
-							<LogOut />
+							<LogoutBoxIcon />
 							Log out
 						</DropdownMenuItem>
 					</DropdownMenuContent>

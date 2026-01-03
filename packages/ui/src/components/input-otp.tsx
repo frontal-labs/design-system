@@ -1,57 +1,49 @@
 "use client";
 
-import { MinusIcon } from "@frontal/icons";
 import { cn } from "@frontal/shared";
 import { OTPInput, OTPInputContext } from "input-otp";
-import type { ComponentProps } from "react";
-import { useContext } from "react";
+import * as React from "react";
 
-function InputOTP({
-	className,
-	containerClassName,
-	...props
-}: ComponentProps<typeof OTPInput> & {
-	containerClassName?: string;
-}) {
-	return (
-		<OTPInput
-			data-slot="input-otp"
-			containerClassName={cn(
-				"flex items-center gap-2 has-disabled:opacity-50",
-				containerClassName,
-			)}
-			className={cn("disabled:cursor-not-allowed", className)}
-			{...props}
-		/>
-	);
-}
+const InputOTP = React.forwardRef<
+	React.ElementRef<typeof OTPInput>,
+	React.ComponentPropsWithoutRef<typeof OTPInput>
+>(({ className, containerClassName, ...props }, ref) => (
+	<OTPInput
+		ref={ref}
+		containerClassName={cn(
+			"flex items-center has-[:disabled]:opacity-50",
+			containerClassName,
+		)}
+		className={cn("disabled:cursor-not-allowed", className)}
+		{...props}
+	/>
+));
+InputOTP.displayName = "InputOTP";
 
-function InputOTPGroup({ className, ...props }: ComponentProps<"div">) {
-	return (
-		<div
-			data-slot="input-otp-group"
-			className={cn("flex items-center", className)}
-			{...props}
-		/>
-	);
-}
+const InputOTPGroup = React.forwardRef<
+	React.ElementRef<"div">,
+	React.ComponentPropsWithoutRef<"div">
+>(({ className, ...props }, ref) => (
+	<div ref={ref} className={cn("flex items-center", className)} {...props} />
+));
+InputOTPGroup.displayName = "InputOTPGroup";
 
-function InputOTPSlot({
-	index,
-	className,
-	...props
-}: ComponentProps<"div"> & {
-	index: number;
-}) {
-	const inputOTPContext = useContext(OTPInputContext);
-	const { char, hasFakeCaret, isActive } = inputOTPContext?.slots[index] ?? {};
+const InputOTPSlot = React.forwardRef<
+	React.ElementRef<"div">,
+	{ index: number } & React.ComponentPropsWithoutRef<"div">
+>(({ index, className, ...props }, ref) => {
+	const inputOTPContext = React.useContext(OTPInputContext);
+	const slot = inputOTPContext.slots[index];
+	const char = slot?.char;
+	const hasFakeCaret = slot?.hasFakeCaret;
+	const isActive = slot?.isActive;
 
 	return (
 		<div
-			data-slot="input-otp-slot"
-			data-active={isActive}
+			ref={ref}
 			className={cn(
-				"data-[active=true]:border-ring data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:ring-destructive/20 dark:data-[active=true]:aria-invalid:ring-destructive/40 aria-invalid:border-destructive data-[active=true]:aria-invalid:border-destructive dark:bg-input/30 border-input relative flex h-9 w-9 items-center justify-center border-y border-r text-sm shadow-xs transition-all outline-none first:rounded-l-md first:border-l last:rounded-r-md data-[active=true]:z-10 data-[active=true]:ring-[3px]",
+				"relative flex h-10 w-10 items-center justify-center border-input border-y border-r text-sm transition-all first:rounded-l-md first:border-l last:rounded-r-md",
+				isActive && "z-10 ring-2 ring-ring ring-offset-background",
 				className,
 			)}
 			{...props}
@@ -59,23 +51,36 @@ function InputOTPSlot({
 			{char}
 			{hasFakeCaret && (
 				<div className="pointer-events-none absolute inset-0 flex items-center justify-center">
-					<div className="animate-caret-blink bg-foreground h-4 w-px duration-1000" />
+					<div className="h-4 w-px animate-caret-blink bg-foreground duration-1000" />
 				</div>
 			)}
 		</div>
 	);
-}
+});
+InputOTPSlot.displayName = "InputOTPSlot";
 
-function InputOTPSeparator({ className, ...props }: ComponentProps<"hr">) {
-	return (
-		<span
-			className={cn("flex items-center", className)}
-			data-slot="input-otp-separator"
+const InputOTPSeparator = React.forwardRef<
+	React.ElementRef<"div">,
+	React.ComponentPropsWithoutRef<"div">
+>(({ ...props }, ref) => (
+	<div ref={ref} role="presentation" {...props}>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width="24"
+			height="24"
+			viewBox="0 0 24 24"
+			fill="none"
+			stroke="currentColor"
+			strokeWidth="2"
+			strokeLinecap="round"
+			strokeLinejoin="round"
+			className="h-4 w-4"
+			aria-hidden="true"
 		>
-			<hr className="sr-only" {...props} />
-			<MinusIcon aria-hidden="true" />
-		</span>
-	);
-}
+			<circle cx="12.1" cy="12.1" r="1" />
+		</svg>
+	</div>
+));
+InputOTPSeparator.displayName = "InputOTPSeparator";
 
 export { InputOTP, InputOTPGroup, InputOTPSlot, InputOTPSeparator };

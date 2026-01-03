@@ -15,7 +15,7 @@ This package provides:
 This package is part of the Frontal monorepo and is installed automatically as a workspace dependency.
 
 ```bash
-pnpm install @frontal/typeface
+bun install @frontal/typeface
 ```
 
 ## Quick Start

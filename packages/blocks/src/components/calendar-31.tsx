@@ -1,12 +1,9 @@
 "use client";
 
-import { PlusIcon } from "@frontal/icons";
+import { AddIcon } from "@frontal/icons";
+import { Button, Calendar, Card, CardContent, CardFooter } from "@frontal/ui";
 import { formatDateRange } from "little-date";
 import * as React from "react";
-
-import { Button } from "@/registry/new-york-v4/ui/button";
-import { Calendar } from "@/registry/new-york-v4/ui/calendar";
-import { Card, CardContent, CardFooter } from "@/registry/new-york-v4/ui/card";
 
 const events = [
 	{
@@ -42,9 +39,9 @@ export default function Calendar31() {
 					required
 				/>
 			</CardContent>
-			<CardFooter className="flex flex-col items-start gap-3 border-t px-4 !pt-4">
+			<CardFooter className="!pt-4 flex flex-col items-start gap-3 border-t px-4">
 				<div className="flex w-full items-center justify-between px-1">
-					<div className="text-sm font-medium">
+					<div className="font-medium text-sm">
 						{date?.toLocaleDateString("en-US", {
 							day: "numeric",
 							month: "long",
@@ -57,7 +54,7 @@ export default function Calendar31() {
 						className="size-6"
 						title="Add Event"
 					>
-						<PlusIcon />
+						<AddIcon />
 						<span className="sr-only">Add Event</span>
 					</Button>
 				</div>
@@ -65,7 +62,7 @@ export default function Calendar31() {
 					{events.map((event) => (
 						<div
 							key={event.title}
-							className="bg-muted after:bg-primary/70 relative rounded-md p-2 pl-6 text-sm after:absolute after:inset-y-2 after:left-2 after:w-1 after:rounded-full"
+							className="relative rounded-md bg-muted p-2 pl-6 text-sm after:absolute after:inset-y-2 after:left-2 after:w-1 after:rounded-full after:bg-primary/70"
 						>
 							<div className="font-medium">{event.title}</div>
 							<div className="text-muted-foreground text-xs">

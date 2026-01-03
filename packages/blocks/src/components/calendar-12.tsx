@@ -1,25 +1,22 @@
 "use client";
 
-import * as React from "react";
-import type { DateRange } from "react-day-picker";
-import { enUS, es } from "react-day-picker/locale";
-
-import { Calendar } from "@/registry/new-york-v4/ui/calendar";
 import {
+	Calendar,
 	Card,
 	CardAction,
 	CardContent,
 	CardDescription,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	Select,
 	SelectContent,
 	SelectItem,
 	SelectTrigger,
 	SelectValue,
-} from "@/registry/new-york-v4/ui/select";
+} from "@frontal/ui";
+import * as React from "react";
+import type { DateRange } from "react-day-picker";
+import { enUS, es } from "react-day-picker/locale";
 
 const localizedStrings = {
 	en: {
@@ -73,7 +70,6 @@ export default function Calendar12() {
 					numberOfMonths={2}
 					locale={locale === "es" ? es : enUS}
 					className="bg-transparent p-0"
-					buttonVariant="outline"
 				/>
 			</CardContent>
 		</Card>

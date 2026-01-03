@@ -7,8 +7,9 @@ export function getIconMetadata(
 	componentName: string,
 	path: string,
 ): IconMetadata {
-	const category = path.includes("/") ? path.split("/")[0] : "Other";
-	const filename = path.split("/").pop() ?? componentName;
+	const parts = path.split("/");
+	const category = parts.length > 1 ? (parts[0] ?? "Other") : "Other";
+	const filename = parts[parts.length - 1] ?? componentName;
 
 	return {
 		name: componentName,
@@ -25,10 +26,14 @@ export function groupIconsByCategory(
 ): Record<string, IconMetadata[]> {
 	return icons.reduce(
 		(acc, icon) => {
-			if (!acc[icon.category]) {
-				acc[icon.category] = [];
+			const category = icon.category;
+			if (!acc[category]) {
+				acc[category] = [];
 			}
-			acc[icon.category].push(icon);
+			const categoryArray = acc[category];
+			if (categoryArray) {
+				categoryArray.push(icon);
+			}
 			return acc;
 		},
 		{} as Record<string, IconMetadata[]>,

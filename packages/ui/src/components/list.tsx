@@ -1,95 +1,108 @@
+import { mergeProps } from "@base-ui/react/merge-props";
+import { useRender } from "@base-ui/react/use-render";
 import { cn } from "@frontal/shared";
 import { cva, type VariantProps } from "class-variance-authority";
 import type { ComponentProps } from "react";
 
-const listVariants = cva("", {
+const listVariants = cva("relative flex flex-col gap-2", {
+	defaultVariants: {
+		variant: "default",
+		type: "unordered",
+	},
 	variants: {
 		variant: {
 			default: "list-disc",
-			ordered: "list-decimal",
-			none: "list-none",
+			unstyled: "list-none",
+			inline: "flex list-none flex-wrap gap-2",
 		},
-	},
-	defaultVariants: {
-		variant: "default",
+		type: {
+			unordered: "",
+			ordered: "list-decimal",
+		},
 	},
 });
 
-type ListProps = ComponentProps<"ul"> &
-	VariantProps<typeof listVariants> & {
-		as?: "ul" | "ol";
+type ListProps = useRender.ComponentProps<"ul" | "ol"> &
+	VariantProps<typeof listVariants>;
+
+function List({ className, variant, type, render, ...props }: ListProps) {
+	const defaultTagName = type === "ordered" ? "ol" : "ul";
+	const defaultProps = {
+		className: cn(
+			listVariants({ variant, type }),
+			variant !== "inline" && "space-y-2",
+			className,
+		),
+		"data-slot": "list",
 	};
 
-function List({ className, variant = "default", as, ...props }: ListProps) {
-	const Component = as || (variant === "ordered" ? "ol" : "ul");
+	return useRender({
+		defaultTagName,
+		props: mergeProps<"ul" | "ol">(defaultProps, props),
+		render,
+	});
+}
+
+type ListItemProps = ComponentProps<"li">;
+
+function ListItem({ className, ...props }: ListItemProps) {
+	return <li className={cn("", className)} data-slot="list-item" {...props} />;
+}
+
+type ListItemTextProps = ComponentProps<"span">;
+
+function ListItemText({ className, ...props }: ListItemTextProps) {
 	return (
-		<Component
-			data-slot="list"
-			data-variant={variant}
-			className={cn(listVariants({ variant }), "space-y-2 pl-6", className)}
-			{...props}
-		/>
+		<span className={cn("", className)} data-slot="list-item-text" {...props} />
 	);
 }
 
-function ListItem({ className, ...props }: ComponentProps<"li">) {
-	return (
-		<li
-			data-slot="list-item"
-			className={cn("text-copy-16", className)}
-			{...props}
-		/>
-	);
-}
+type ListItemIconProps = ComponentProps<"span">;
 
-function ListItemIcon({ className, ...props }: ComponentProps<"span">) {
+function ListItemIcon({ className, ...props }: ListItemIconProps) {
 	return (
 		<span
+			className={cn("inline-flex items-center", className)}
 			data-slot="list-item-icon"
-			className={cn("flex shrink-0 items-center justify-center", className)}
 			{...props}
 		/>
 	);
 }
 
-function ListItemText({ className, ...props }: ComponentProps<"span">) {
+type ListItemActionProps = ComponentProps<"div">;
+
+function ListItemAction({ className, ...props }: ListItemActionProps) {
 	return (
-		<span
-			data-slot="list-item-text"
-			className={cn("flex-1", className)}
+		<div
+			className={cn("ml-auto", className)}
+			data-slot="list-item-action"
 			{...props}
 		/>
 	);
 }
+
+type ListItemActionIconProps = ComponentProps<"span">;
+
+function ListItemActionIcon({ className, ...props }: ListItemActionIconProps) {
+	return (
+		<span
+			className={cn("inline-flex cursor-pointer items-center", className)}
+			data-slot="list-item-action-icon"
+			{...props}
+		/>
+	);
+}
+
+type ListItemSecondaryActionProps = ComponentProps<"div">;
 
 function ListItemSecondaryAction({
 	className,
 	...props
-}: ComponentProps<"div">) {
+}: ListItemSecondaryActionProps) {
 	return (
 		<div
+			className={cn("text-muted-foreground text-sm", className)}
 			data-slot="list-item-secondary-action"
-			className={cn("flex items-center gap-2", className)}
-			{...props}
-		/>
-	);
-}
-
-function ListItemAction({ className, ...props }: ComponentProps<"div">) {
-	return (
-		<div
-			data-slot="list-item-action"
-			className={cn("flex items-center gap-2", className)}
-			{...props}
-		/>
-	);
-}
-
-function ListItemActionIcon({ className, ...props }: ComponentProps<"span">) {
-	return (
-		<span
-			data-slot="list-item-action-icon"
-			className={cn("flex shrink-0 items-center justify-center", className)}
 			{...props}
 		/>
 	);
@@ -98,9 +111,16 @@ function ListItemActionIcon({ className, ...props }: ComponentProps<"span">) {
 export {
 	List,
 	ListItem,
-	ListItemIcon,
-	ListItemText,
-	ListItemSecondaryAction,
 	ListItemAction,
 	ListItemActionIcon,
+	ListItemIcon,
+	ListItemSecondaryAction,
+	ListItemText,
+	type ListItemActionIconProps,
+	type ListItemActionProps,
+	type ListItemIconProps,
+	type ListItemProps,
+	type ListItemSecondaryActionProps,
+	type ListItemTextProps,
+	type ListProps,
 };

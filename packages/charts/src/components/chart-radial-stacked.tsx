@@ -1,8 +1,6 @@
 "use client";
 
 import { ArrowUpIcon } from "@frontal/icons";
-import { Label, PolarRadiusAxis, RadialBar, RadialBarChart } from "recharts";
-
 import {
 	Card,
 	CardContent,
@@ -10,13 +8,13 @@ import {
 	CardFooter,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	type ChartConfig,
 	ChartContainer,
 	ChartTooltip,
 	ChartTooltipContent,
-} from "@/registry/new-york-v4/ui/chart";
+} from "@frontal/ui";
+import { Label, PolarRadiusAxis, RadialBar, RadialBarChart } from "recharts";
+import type { Props as LabelProps } from "recharts/types/component/Label";
 
 export const description = "A radial chart with stacked sections";
 
@@ -59,14 +57,15 @@ export function ChartRadialStacked() {
 						/>
 						<PolarRadiusAxis tick={false} tickLine={false} axisLine={false}>
 							<Label
-								content={({ viewBox }) => {
+								content={(props: LabelProps) => {
+									const viewBox = props.viewBox;
 									if (viewBox && "cx" in viewBox && "cy" in viewBox) {
 										return (
 											<text x={viewBox.cx} y={viewBox.cy} textAnchor="middle">
 												<tspan
 													x={viewBox.cx}
 													y={(viewBox.cy || 0) - 16}
-													className="fill-foreground text-2xl font-bold"
+													className="fill-foreground font-bold text-2xl"
 												>
 													{totalVisitors.toLocaleString()}
 												</tspan>
@@ -80,6 +79,7 @@ export function ChartRadialStacked() {
 											</text>
 										);
 									}
+									return null;
 								}}
 							/>
 						</PolarRadiusAxis>
@@ -88,20 +88,20 @@ export function ChartRadialStacked() {
 							stackId="a"
 							cornerRadius={5}
 							fill="var(--color-desktop)"
-							className="stroke-transparent stroke-2"
+							className="stroke-2 stroke-transparent"
 						/>
 						<RadialBar
 							dataKey="mobile"
 							fill="var(--color-mobile)"
 							stackId="a"
 							cornerRadius={5}
-							className="stroke-transparent stroke-2"
+							className="stroke-2 stroke-transparent"
 						/>
 					</RadialBarChart>
 				</ChartContainer>
 			</CardContent>
 			<CardFooter className="flex-col gap-2 text-sm">
-				<div className="flex items-center gap-2 leading-none font-medium">
+				<div className="flex items-center gap-2 font-medium leading-none">
 					Trending up by 5.2% this month <ArrowUpIcon className="h-4 w-4" />
 				</div>
 				<div className="text-muted-foreground leading-none">

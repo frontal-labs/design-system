@@ -1,26 +1,47 @@
 "use client";
 
-import { PreviewCardPrimitive } from "@frontal/primitives";
+import { PreviewCard as PreviewCardPrimitive } from "@base-ui/react/preview-card";
 import { cn } from "@frontal/shared";
 
 const PreviewCard = PreviewCardPrimitive.Root;
 
-function PreviewCardTrigger({ ...props }: PreviewCardPrimitive.Trigger.Props) {
+type PreviewCardTriggerProps = PreviewCardPrimitive.Trigger.Props & {
+	asChild?: boolean;
+};
+
+function PreviewCardTrigger({
+	asChild,
+	children,
+	...props
+}: PreviewCardTriggerProps) {
+	if (asChild) {
+		return (
+			<PreviewCardPrimitive.Trigger
+				data-slot="preview-card-trigger"
+				render={children as React.ReactElement}
+				{...props}
+			/>
+		);
+	}
 	return (
-		<PreviewCardPrimitive.Trigger data-slot="preview-card-trigger" {...props} />
+		<PreviewCardPrimitive.Trigger data-slot="preview-card-trigger" {...props}>
+			{children}
+		</PreviewCardPrimitive.Trigger>
 	);
 }
 
-function PreviewCardPopup({
+type PreviewCardContentProps = PreviewCardPrimitive.Popup.Props & {
+	align?: PreviewCardPrimitive.Positioner.Props["align"];
+	sideOffset?: PreviewCardPrimitive.Positioner.Props["sideOffset"];
+};
+
+function PreviewCardContent({
 	className,
 	children,
 	align = "center",
 	sideOffset = 4,
 	...props
-}: PreviewCardPrimitive.Popup.Props & {
-	align?: PreviewCardPrimitive.Positioner.Props["align"];
-	sideOffset?: PreviewCardPrimitive.Positioner.Props["sideOffset"];
-}) {
+}: PreviewCardContentProps) {
 	return (
 		<PreviewCardPrimitive.Portal>
 			<PreviewCardPrimitive.Positioner
@@ -49,6 +70,8 @@ export {
 	PreviewCard as HoverCard,
 	PreviewCardTrigger,
 	PreviewCardTrigger as HoverCardTrigger,
-	PreviewCardPopup,
-	PreviewCardPopup as HoverCardContent,
+	PreviewCardContent,
+	PreviewCardContent as HoverCardContent,
+	type PreviewCardTriggerProps,
+	type PreviewCardContentProps,
 };

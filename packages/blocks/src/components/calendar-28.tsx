@@ -1,17 +1,16 @@
 "use client";
 
 import { CalendarIcon } from "@frontal/icons";
-import * as React from "react";
-
-import { Button } from "@/registry/new-york-v4/ui/button";
-import { Calendar } from "@/registry/new-york-v4/ui/calendar";
-import { Input } from "@/registry/new-york-v4/ui/input";
-import { Label } from "@/registry/new-york-v4/ui/label";
 import {
+	Button,
+	Calendar,
+	Input,
+	Label,
 	Popover,
 	PopoverContent,
 	PopoverTrigger,
-} from "@/registry/new-york-v4/ui/popover";
+} from "@frontal/ui";
+import * as React from "react";
 
 function formatDate(date: Date | undefined) {
 	if (!date) {
@@ -71,7 +70,7 @@ export default function Calendar28() {
 						<Button
 							id="date-picker"
 							variant="ghost"
-							className="absolute top-1/2 right-2 size-6 -translate-y-1/2"
+							className="-translate-y-1/2 absolute top-1/2 right-2 size-6"
 						>
 							<CalendarIcon className="size-3.5" />
 							<span className="sr-only">Select date</span>

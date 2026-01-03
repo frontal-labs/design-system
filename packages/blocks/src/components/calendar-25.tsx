@@ -1,17 +1,16 @@
 "use client";
 
-import { ChevronDownIcon } from "@frontal/icons";
-import * as React from "react";
-
-import { Button } from "@/registry/new-york-v4/ui/button";
-import { Calendar } from "@/registry/new-york-v4/ui/calendar";
-import { Input } from "@/registry/new-york-v4/ui/input";
-import { Label } from "@/registry/new-york-v4/ui/label";
+import { ArrowDownChevronIcon } from "@frontal/icons";
 import {
+	Button,
+	Calendar,
+	Input,
+	Label,
 	Popover,
 	PopoverContent,
 	PopoverTrigger,
-} from "@/registry/new-york-v4/ui/popover";
+} from "@frontal/ui";
+import * as React from "react";
 
 export default function Calendar25() {
 	const [open, setOpen] = React.useState(false);
@@ -31,7 +30,7 @@ export default function Calendar25() {
 							className="w-full justify-between font-normal"
 						>
 							{date ? date.toLocaleDateString() : "Select date"}
-							<ChevronDownIcon />
+							<ArrowDownChevronIcon />
 						</Button>
 					</PopoverTrigger>
 					<PopoverContent className="w-auto overflow-hidden p-0" align="start">
@@ -57,7 +56,7 @@ export default function Calendar25() {
 						id="time-from"
 						step="1"
 						defaultValue="10:30:00"
-						className="bg-background appearance-none [&::-webkit-calendar-picker-indicator]:hidden [&::-webkit-calendar-picker-indicator]:appearance-none"
+						className="appearance-none bg-background [&::-webkit-calendar-picker-indicator]:hidden [&::-webkit-calendar-picker-indicator]:appearance-none"
 					/>
 				</div>
 				<div className="flex flex-col gap-3">
@@ -69,7 +68,7 @@ export default function Calendar25() {
 						id="time-to"
 						step="1"
 						defaultValue="12:30:00"
-						className="bg-background appearance-none [&::-webkit-calendar-picker-indicator]:hidden [&::-webkit-calendar-picker-indicator]:appearance-none"
+						className="appearance-none bg-background [&::-webkit-calendar-picker-indicator]:hidden [&::-webkit-calendar-picker-indicator]:appearance-none"
 					/>
 				</div>
 			</div>

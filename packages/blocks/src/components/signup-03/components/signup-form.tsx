@@ -1,19 +1,17 @@
-import { cn } from "@/registry/new-york-v4/lib/utils";
-import { Button } from "@/registry/new-york-v4/ui/button";
+import { cn } from "@frontal/shared";
 import {
+	Button,
 	Card,
 	CardContent,
 	CardDescription,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	Field,
 	FieldDescription,
-	FieldGroup,
 	FieldLabel,
-} from "@/registry/new-york-v4/ui/field";
-import { Input } from "@/registry/new-york-v4/ui/input";
+	Fieldset,
+	Input,
+} from "@frontal/ui";
 
 export function SignupForm({
 	className,
@@ -30,7 +28,7 @@ export function SignupForm({
 				</CardHeader>
 				<CardContent>
 					<form>
-						<FieldGroup>
+						<Fieldset>
 							<Field>
 								<FieldLabel htmlFor="name">Full Name</FieldLabel>
 								<Input id="name" type="text" placeholder="John Doe" required />
@@ -64,16 +62,17 @@ export function SignupForm({
 							<Field>
 								<Button type="submit">Create Account</Button>
 								<FieldDescription className="text-center">
-									Already have an account? <a href="#">Sign in</a>
+									Already have an account? <a href="/sign-in">Sign in</a>
 								</FieldDescription>
 							</Field>
-						</FieldGroup>
+						</Fieldset>
 					</form>
 				</CardContent>
 			</Card>
 			<FieldDescription className="px-6 text-center">
-				By clicking continue, you agree to our <a href="#">Terms of Service</a>{" "}
-				and <a href="#">Privacy Policy</a>.
+				By clicking continue, you agree to our{" "}
+				<a href="/terms">Terms of Service</a> and{" "}
+				<a href="/privacy">Privacy Policy</a>.
 			</FieldDescription>
 		</div>
 	);

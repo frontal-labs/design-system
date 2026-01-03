@@ -1,11 +1,10 @@
 "use client";
 
-import type { TogglePrimitive } from "@frontal/primitives";
-import { ToggleGroupPrimitive } from "@frontal/primitives";
+import type { Toggle as TogglePrimitive } from "@base-ui/react/toggle";
+import { ToggleGroup as ToggleGroupPrimitive } from "@base-ui/react/toggle-group";
 import { cn } from "@frontal/shared";
 import type { VariantProps } from "class-variance-authority";
-import type { ComponentProps } from "react";
-import { createContext, useContext } from "react";
+import { type ComponentProps, createContext, useContext } from "react";
 import { Separator } from "./separator";
 import { Toggle as ToggleComponent, type toggleVariants } from "./toggle";
 
@@ -52,9 +51,16 @@ function ToggleGroup({
 	);
 }
 
-type ToggleProps = TogglePrimitive.Props & VariantProps<typeof toggleVariants>;
+type ToggleGroupToggleProps = TogglePrimitive.Props &
+	VariantProps<typeof toggleVariants>;
 
-function Toggle({ className, children, variant, size, ...props }: ToggleProps) {
+function Toggle({
+	className,
+	children,
+	variant,
+	size,
+	...props
+}: ToggleGroupToggleProps) {
 	const context = useContext(ToggleGroupContext);
 
 	const resolvedVariant = context.variant || variant;
@@ -74,16 +80,26 @@ function Toggle({ className, children, variant, size, ...props }: ToggleProps) {
 	);
 }
 
+type ToggleGroupSeparatorProps = {
+	className?: string;
+} & ComponentProps<typeof Separator>;
+
 function ToggleGroupSeparator({
 	className,
 	orientation = "vertical",
 	...props
-}: {
-	className?: string;
-} & ComponentProps<typeof Separator>) {
+}: ToggleGroupSeparatorProps) {
 	return (
 		<Separator className={className} orientation={orientation} {...props} />
 	);
 }
 
-export { ToggleGroup, Toggle, ToggleGroupSeparator };
+export {
+	ToggleGroup,
+	Toggle,
+	Toggle as ToggleGroupItem,
+	ToggleGroupSeparator,
+	type ToggleGroupProps,
+	type ToggleGroupToggleProps,
+	type ToggleGroupSeparatorProps,
+};

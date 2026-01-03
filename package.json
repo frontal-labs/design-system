@@ -1,20 +1,21 @@
 {
-	"name": "frontal-design-system",
+	"name": "design-system",
 	"description": "Frontal's Design System",
-	"author": "Frontal Labs, Inc.",
 	"homepage": "https://frontal.dev",
 	"private": true,
 	"version": "5.2.2",
 	"type": "module",
 	"bin": {
-		"frontal-design-system": "dist/index.js"
+		"design-system": "dist/index.js"
 	},
 	"files": [
 		"dist/index.js"
 	],
 	"workspaces": [
-		"packages/*",
-		"apps/storybook"
+		"apps/*",
+		"example/*",
+		"internal/*",
+		"packages/*"
 	],
 	"scripts": {
 		"build": "turbo build",

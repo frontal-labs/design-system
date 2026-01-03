@@ -1,15 +1,14 @@
 "use client";
 
-import { type Icon, IconCirclePlusFilled, IconMail } from "@tabler/icons-react";
-
-import { Button } from "@/registry/new-york-v4/ui/button";
 import {
+	Button,
 	SidebarGroup,
 	SidebarGroupContent,
 	SidebarMenu,
 	SidebarMenuButton,
 	SidebarMenuItem,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
+import { type Icon, IconCirclePlusFilled, IconMail } from "@tabler/icons-react";
 
 export function NavMain({
 	items,
@@ -27,7 +26,7 @@ export function NavMain({
 					<SidebarMenuItem className="flex items-center gap-2">
 						<SidebarMenuButton
 							tooltip="Quick Create"
-							className="bg-primary text-primary-foreground hover:bg-primary/90 hover:text-primary-foreground active:bg-primary/90 active:text-primary-foreground min-w-8 duration-200 ease-linear"
+							className="min-w-8 bg-primary text-primary-foreground duration-200 ease-linear hover:bg-primary/90 hover:text-primary-foreground active:bg-primary/90 active:text-primary-foreground"
 						>
 							<IconCirclePlusFilled />
 							<span>Quick Create</span>
@@ -38,7 +37,7 @@ export function NavMain({
 							variant="outline"
 						>
 							<IconMail />
-							<span className="sr-only">Inbox</span>
+							<span className="sr-only">InboxIcon</span>
 						</Button>
 					</SidebarMenuItem>
 				</SidebarMenu>

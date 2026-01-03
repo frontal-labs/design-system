@@ -1,15 +1,40 @@
 "use client";
 
-import { PopoverPrimitive } from "@frontal/primitives";
+import { Popover as PopoverPrimitive } from "@base-ui/react/popover";
 import { cn } from "@frontal/shared";
 
 const PopoverCreateHandle = PopoverPrimitive.createHandle;
 
 const Popover = PopoverPrimitive.Root;
 
-function PopoverTrigger(props: PopoverPrimitive.Trigger.Props) {
-	return <PopoverPrimitive.Trigger data-slot="popover-trigger" {...props} />;
+type PopoverTriggerProps = PopoverPrimitive.Trigger.Props & {
+	asChild?: boolean;
+};
+
+function PopoverTrigger({ asChild, children, ...props }: PopoverTriggerProps) {
+	if (asChild) {
+		return (
+			<PopoverPrimitive.Trigger
+				data-slot="popover-trigger"
+				render={children as React.ReactElement}
+				{...props}
+			/>
+		);
+	}
+	return (
+		<PopoverPrimitive.Trigger data-slot="popover-trigger" {...props}>
+			{children}
+		</PopoverPrimitive.Trigger>
+	);
 }
+
+type PopoverContentProps = PopoverPrimitive.Popup.Props & {
+	side?: PopoverPrimitive.Positioner.Props["side"];
+	align?: PopoverPrimitive.Positioner.Props["align"];
+	sideOffset?: PopoverPrimitive.Positioner.Props["sideOffset"];
+	alignOffset?: PopoverPrimitive.Positioner.Props["alignOffset"];
+	tooltipStyle?: boolean;
+};
 
 function PopoverContent({
 	children,
@@ -20,13 +45,7 @@ function PopoverContent({
 	alignOffset = 0,
 	tooltipStyle = false,
 	...props
-}: PopoverPrimitive.Popup.Props & {
-	side?: PopoverPrimitive.Positioner.Props["side"];
-	align?: PopoverPrimitive.Positioner.Props["align"];
-	sideOffset?: PopoverPrimitive.Positioner.Props["sideOffset"];
-	alignOffset?: PopoverPrimitive.Positioner.Props["alignOffset"];
-	tooltipStyle?: boolean;
-}) {
+}: PopoverContentProps) {
 	return (
 		<PopoverPrimitive.Portal>
 			<PopoverPrimitive.Positioner
@@ -51,7 +70,7 @@ function PopoverContent({
 						className={cn(
 							"relative size-full max-h-(--available-height) overflow-clip px-(--viewport-inline-padding) py-4 outline-none [--viewport-inline-padding:--spacing(4)] data-instant:transition-none **:data-current:data-ending-style:opacity-0 **:data-current:data-starting-style:opacity-0 **:data-previous:data-ending-style:opacity-0 **:data-previous:data-starting-style:opacity-0 **:data-current:w-[calc(var(--popup-width)-2*var(--viewport-inline-padding)-2px)] **:data-previous:w-[calc(var(--popup-width)-2*var(--viewport-inline-padding)-2px)] **:data-current:opacity-100 **:data-previous:opacity-100 **:data-current:transition-opacity **:data-previous:transition-opacity",
 							tooltipStyle
-								? "py-1 [--viewport-inline-padding:--spacing(2)]"
+								? "py-1 [--viewport-inline-padding:calc(var(--spacing)*2)]"
 								: "not-data-transitioning:overflow-y-auto",
 						)}
 						data-slot="popover-viewport"
@@ -64,11 +83,15 @@ function PopoverContent({
 	);
 }
 
-function PopoverClose({ ...props }: PopoverPrimitive.Close.Props) {
+type PopoverCloseProps = PopoverPrimitive.Close.Props;
+
+function PopoverClose({ ...props }: PopoverCloseProps) {
 	return <PopoverPrimitive.Close data-slot="popover-close" {...props} />;
 }
 
-function PopoverTitle({ className, ...props }: PopoverPrimitive.Title.Props) {
+type PopoverTitleProps = PopoverPrimitive.Title.Props;
+
+function PopoverTitle({ className, ...props }: PopoverTitleProps) {
 	return (
 		<PopoverPrimitive.Title
 			className={cn("font-semibold text-lg leading-none", className)}
@@ -78,10 +101,9 @@ function PopoverTitle({ className, ...props }: PopoverPrimitive.Title.Props) {
 	);
 }
 
-function PopoverDescription({
-	className,
-	...props
-}: PopoverPrimitive.Description.Props) {
+type PopoverDescriptionProps = PopoverPrimitive.Description.Props;
+
+function PopoverDescription({ className, ...props }: PopoverDescriptionProps) {
 	return (
 		<PopoverPrimitive.Description
 			className={cn("text-muted-foreground text-sm", className)}
@@ -99,4 +121,9 @@ export {
 	PopoverTitle,
 	PopoverDescription,
 	PopoverClose,
+	type PopoverTriggerProps,
+	type PopoverContentProps,
+	type PopoverCloseProps,
+	type PopoverTitleProps,
+	type PopoverDescriptionProps,
 };

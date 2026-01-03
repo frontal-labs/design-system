@@ -1,8 +1,6 @@
 "use client";
 
 import { ArrowUpIcon } from "@frontal/icons";
-import { Bar, BarChart, CartesianGrid, XAxis } from "recharts";
-
 import {
 	Card,
 	CardContent,
@@ -10,13 +8,12 @@ import {
 	CardFooter,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	type ChartConfig,
 	ChartContainer,
 	ChartTooltip,
 	ChartTooltipContent,
-} from "@/registry/new-york-v4/ui/chart";
+} from "@frontal/ui";
+import { Bar, BarChart, CartesianGrid, XAxis } from "recharts";
 
 export const description = "A multiple bar chart";
 
@@ -56,7 +53,9 @@ export function ChartBarMultiple() {
 							tickLine={false}
 							tickMargin={10}
 							axisLine={false}
-							tickFormatter={(value) => value.slice(0, 3)}
+							tickFormatter={(value: string | number) =>
+								String(value).slice(0, 3)
+							}
 						/>
 						<ChartTooltip
 							cursor={false}
@@ -68,7 +67,7 @@ export function ChartBarMultiple() {
 				</ChartContainer>
 			</CardContent>
 			<CardFooter className="flex-col items-start gap-2 text-sm">
-				<div className="flex gap-2 leading-none font-medium">
+				<div className="flex gap-2 font-medium leading-none">
 					Trending up by 5.2% this month <ArrowUpIcon className="h-4 w-4" />
 				</div>
 				<div className="text-muted-foreground leading-none">

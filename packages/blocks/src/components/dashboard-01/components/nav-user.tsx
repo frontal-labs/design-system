@@ -1,19 +1,9 @@
 "use client";
 
 import {
-	IconCreditCard,
-	IconDotsVertical,
-	IconLogout,
-	IconNotification,
-	IconUserCircle,
-} from "@tabler/icons-react";
-
-import {
 	Avatar,
 	AvatarFallback,
 	AvatarImage,
-} from "@/registry/new-york-v4/ui/avatar";
-import {
 	DropdownMenu,
 	DropdownMenuContent,
 	DropdownMenuGroup,
@@ -21,13 +11,18 @@ import {
 	DropdownMenuLabel,
 	DropdownMenuSeparator,
 	DropdownMenuTrigger,
-} from "@/registry/new-york-v4/ui/dropdown-menu";
-import {
 	SidebarMenu,
 	SidebarMenuButton,
 	SidebarMenuItem,
 	useSidebar,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
+import {
+	IconCreditCard,
+	IconDotsVertical,
+	IconLogout,
+	IconNotification,
+	IconUserCircle,
+} from "@tabler/icons-react";
 
 export function NavUser({
 	user,
@@ -46,7 +41,7 @@ export function NavUser({
 				<DropdownMenu>
 					<DropdownMenuTrigger asChild>
 						<SidebarMenuButton
-							size="lg"
+							size="large"
 							className="data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground"
 						>
 							<Avatar className="h-8 w-8 rounded-lg grayscale">
@@ -55,7 +50,7 @@ export function NavUser({
 							</Avatar>
 							<div className="grid flex-1 text-left text-sm leading-tight">
 								<span className="truncate font-medium">{user.name}</span>
-								<span className="text-muted-foreground truncate text-xs">
+								<span className="truncate text-muted-foreground text-xs">
 									{user.email}
 								</span>
 							</div>
@@ -76,7 +71,7 @@ export function NavUser({
 								</Avatar>
 								<div className="grid flex-1 text-left text-sm leading-tight">
 									<span className="truncate font-medium">{user.name}</span>
-									<span className="text-muted-foreground truncate text-xs">
+									<span className="truncate text-muted-foreground text-xs">
 										{user.email}
 									</span>
 								</div>

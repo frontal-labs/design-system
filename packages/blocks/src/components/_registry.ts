@@ -1,4 +1,4 @@
-import type { Registry } from "shadcn/schema";
+import type { Registry } from "../types/shadcn-schema";
 
 export const blocks: Registry["items"] = [
 	{

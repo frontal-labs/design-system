@@ -1,7 +1,9 @@
 import { cn } from "@frontal/shared";
 import type { ComponentProps } from "react";
 
-function Skeleton({ className, ...props }: ComponentProps<"div">) {
+type SkeletonProps = ComponentProps<"div">;
+
+function Skeleton({ className, ...props }: SkeletonProps) {
 	return (
 		<div
 			className={cn(
@@ -14,4 +16,4 @@ function Skeleton({ className, ...props }: ComponentProps<"div">) {
 	);
 }
 
-export { Skeleton };
+export { Skeleton, type SkeletonProps };

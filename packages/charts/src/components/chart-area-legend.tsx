@@ -1,8 +1,6 @@
 "use client";
 
 import { ArrowUpIcon } from "@frontal/icons";
-import { Area, AreaChart, CartesianGrid, XAxis } from "recharts";
-
 import {
 	Card,
 	CardContent,
@@ -10,15 +8,14 @@ import {
 	CardFooter,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	type ChartConfig,
 	ChartContainer,
 	ChartLegend,
 	ChartLegendContent,
 	ChartTooltip,
 	ChartTooltipContent,
-} from "@/registry/new-york-v4/ui/chart";
+} from "@frontal/ui";
+import { Area, AreaChart, CartesianGrid, XAxis } from "recharts";
 
 export const description = "An area chart with a legend";
 
@@ -67,7 +64,9 @@ export function ChartAreaLegend() {
 							tickLine={false}
 							axisLine={false}
 							tickMargin={8}
-							tickFormatter={(value) => value.slice(0, 3)}
+							tickFormatter={(value: string | number) =>
+								String(value).slice(0, 3)
+							}
 						/>
 						<ChartTooltip
 							cursor={false}
@@ -96,10 +95,10 @@ export function ChartAreaLegend() {
 			<CardFooter>
 				<div className="flex w-full items-start gap-2 text-sm">
 					<div className="grid gap-2">
-						<div className="flex items-center gap-2 leading-none font-medium">
+						<div className="flex items-center gap-2 font-medium leading-none">
 							Trending up by 5.2% this month <ArrowUpIcon className="h-4 w-4" />
 						</div>
-						<div className="text-muted-foreground flex items-center gap-2 leading-none">
+						<div className="flex items-center gap-2 text-muted-foreground leading-none">
 							January - June 2024
 						</div>
 					</div>

@@ -11,7 +11,7 @@ This package provides chart and data visualization components for building analy
 This package is part of the Frontal monorepo and is installed automatically as a workspace dependency.
 
 ```bash
-pnpm install @frontal/charts
+bun install @frontal/charts
 ```
 
 ## Usage

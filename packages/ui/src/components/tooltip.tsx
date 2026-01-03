@@ -1,6 +1,6 @@
 "use client";
 
-import { TooltipPrimitive } from "@frontal/primitives";
+import { Tooltip as TooltipPrimitive } from "@base-ui/react/tooltip";
 import { cn } from "@frontal/shared";
 
 const TooltipCreateHandle = TooltipPrimitive.createHandle;
@@ -9,22 +9,41 @@ const TooltipProvider = TooltipPrimitive.Provider;
 
 const Tooltip = TooltipPrimitive.Root;
 
-function TooltipTrigger(props: TooltipPrimitive.Trigger.Props) {
-	return <TooltipPrimitive.Trigger data-slot="tooltip-trigger" {...props} />;
+type TooltipTriggerProps = TooltipPrimitive.Trigger.Props & {
+	asChild?: boolean;
+};
+
+function TooltipTrigger({ asChild, children, ...props }: TooltipTriggerProps) {
+	if (asChild) {
+		return (
+			<TooltipPrimitive.Trigger
+				data-slot="tooltip-trigger"
+				render={children as React.ReactElement}
+				{...props}
+			/>
+		);
+	}
+	return (
+		<TooltipPrimitive.Trigger data-slot="tooltip-trigger" {...props}>
+			{children}
+		</TooltipPrimitive.Trigger>
+	);
 }
 
-function TooltipContent({
+type TooltipPopupProps = TooltipPrimitive.Popup.Props & {
+	align?: TooltipPrimitive.Positioner.Props["align"];
+	side?: TooltipPrimitive.Positioner.Props["side"];
+	sideOffset?: TooltipPrimitive.Positioner.Props["sideOffset"];
+};
+
+function TooltipPopup({
 	className,
 	align = "center",
 	sideOffset = 4,
 	side = "top",
 	children,
 	...props
-}: TooltipPrimitive.Popup.Props & {
-	align?: TooltipPrimitive.Positioner.Props["align"];
-	side?: TooltipPrimitive.Positioner.Props["side"];
-	sideOffset?: TooltipPrimitive.Positioner.Props["sideOffset"];
-}) {
+}: TooltipPopupProps) {
 	return (
 		<TooltipPrimitive.Portal>
 			<TooltipPrimitive.Positioner
@@ -59,5 +78,8 @@ export {
 	TooltipProvider,
 	Tooltip,
 	TooltipTrigger,
-	TooltipContent,
+	TooltipPopup,
+	TooltipPopup as TooltipContent,
+	type TooltipTriggerProps,
+	type TooltipPopupProps,
 };

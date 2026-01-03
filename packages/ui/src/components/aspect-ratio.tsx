@@ -1,34 +1,28 @@
+"use client";
+
 import { cn } from "@frontal/shared";
 import type { ComponentProps } from "react";
 
-interface AspectRatioProps extends ComponentProps<"div"> {
-	ratio?: number | string;
-}
+type AspectRatioProps = ComponentProps<"div"> & {
+	ratio?: number;
+};
 
 function AspectRatio({
 	className,
 	ratio = 16 / 9,
 	children,
-	style,
 	...props
 }: AspectRatioProps) {
-	const aspectRatioValue = typeof ratio === "number" ? `${ratio}` : ratio;
-
 	return (
 		<div
-			data-slot="aspect-ratio"
-			data-ratio={ratio}
 			className={cn("relative w-full", className)}
-			style={{
-				aspectRatio: aspectRatioValue,
-				...style,
-			}}
+			data-slot="aspect-ratio"
+			style={{ aspectRatio: ratio.toString() }}
 			{...props}
 		>
-			{children}
+			<div className="absolute inset-0">{children}</div>
 		</div>
 	);
 }
 
-export { AspectRatio };
-export type { AspectRatioProps };
+export { AspectRatio, type AspectRatioProps };

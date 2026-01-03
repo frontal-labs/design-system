@@ -1,11 +1,13 @@
-import { SeparatorPrimitive } from "@frontal/primitives";
+import { Separator as SeparatorPrimitive } from "@base-ui/react/separator";
 import { cn } from "@frontal/shared";
+
+type SeparatorProps = SeparatorPrimitive.Props;
 
 function Separator({
 	className,
 	orientation = "horizontal",
 	...props
-}: SeparatorPrimitive.Props) {
+}: SeparatorProps) {
 	return (
 		<SeparatorPrimitive
 			className={cn(
@@ -19,4 +21,4 @@ function Separator({
 	);
 }
 
-export { Separator };
+export { Separator, type SeparatorProps };

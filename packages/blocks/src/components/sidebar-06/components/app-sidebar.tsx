@@ -1,8 +1,6 @@
-import { GalleryVerticalEnd } from "@frontal/icons";
-import type * as React from "react";
-
-import { NavMain } from "@/registry/new-york-v4/blocks/sidebar-06/components/nav-main";
-import { SidebarOptInForm } from "@/registry/new-york-v4/blocks/sidebar-06/components/sidebar-opt-in-form";
+import { NavMain } from "@frontal/blocks/sidebar-06/components/nav-main";
+import { SidebarOptInForm } from "@frontal/blocks/sidebar-06/components/sidebar-opt-in-form";
+import { MoreVariantIcon } from "@frontal/icons";
 import {
 	Sidebar,
 	SidebarContent,
@@ -12,7 +10,8 @@ import {
 	SidebarMenuButton,
 	SidebarMenuItem,
 	SidebarRail,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
+import type * as React from "react";
 
 // This is sample data.
 const data = {
@@ -95,7 +94,7 @@ const data = {
 					url: "#",
 				},
 				{
-					title: "File Conventions",
+					title: "FileIcon Conventions",
 					url: "#",
 				},
 				{
@@ -151,10 +150,10 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 			<SidebarHeader>
 				<SidebarMenu>
 					<SidebarMenuItem>
-						<SidebarMenuButton size="lg" asChild>
-							<a href="#">
-								<div className="bg-sidebar-primary text-sidebar-primary-foreground flex aspect-square size-8 items-center justify-center rounded-lg">
-									<GalleryVerticalEnd className="size-4" />
+						<SidebarMenuButton size="large" asChild>
+							<a href="/sign-in">
+								<div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
+									<MoreVariantIcon className="size-4" />
 								</div>
 								<div className="flex flex-col gap-0.5 leading-none">
 									<span className="font-medium">Documentation</span>

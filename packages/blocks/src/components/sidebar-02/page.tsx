@@ -1,4 +1,4 @@
-import { AppSidebar } from "@/registry/new-york-v4/blocks/sidebar-02/components/app-sidebar";
+import { AppSidebar } from "@frontal/blocks/sidebar-02/components/app-sidebar";
 import {
 	Breadcrumb,
 	BreadcrumbItem,
@@ -6,26 +6,24 @@ import {
 	BreadcrumbList,
 	BreadcrumbPage,
 	BreadcrumbSeparator,
-} from "@/registry/new-york-v4/ui/breadcrumb";
-import { Separator } from "@/registry/new-york-v4/ui/separator";
-import {
+	Separator,
 	SidebarInset,
 	SidebarProvider,
 	SidebarTrigger,
-} from "@/registry/new-york-v4/ui/sidebar";
+} from "@frontal/ui";
 
 export default function Page() {
 	return (
 		<SidebarProvider>
 			<AppSidebar />
 			<SidebarInset>
-				<header className="bg-background sticky top-0 flex h-16 shrink-0 items-center gap-2 border-b px-4">
+				<header className="sticky top-0 flex h-16 shrink-0 items-center gap-2 border-b bg-background px-4">
 					<SidebarTrigger className="-ml-1" />
 					<Separator orientation="vertical" className="mr-2 h-4" />
 					<Breadcrumb>
 						<BreadcrumbList>
 							<BreadcrumbItem className="hidden md:block">
-								<BreadcrumbLink href="#">
+								<BreadcrumbLink href="/sign-in">
 									Building Your Application
 								</BreadcrumbLink>
 							</BreadcrumbItem>
@@ -37,10 +35,10 @@ export default function Page() {
 					</Breadcrumb>
 				</header>
 				<div className="flex flex-1 flex-col gap-4 p-4">
-					{Array.from({ length: 24 }).map((_, index) => (
+					{Array.from({ length: 24 }, () => (
 						<div
-							key={index}
-							className="bg-muted/50 aspect-video h-12 w-full rounded-lg"
+							key={crypto.randomUUID()}
+							className="aspect-video h-12 w-full rounded-lg bg-muted/50"
 						/>
 					))}
 				</div>

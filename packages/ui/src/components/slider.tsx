@@ -1,8 +1,10 @@
 "use client";
 
-import { SliderPrimitive } from "@frontal/primitives";
+import { Slider as SliderPrimitive } from "@base-ui/react/slider";
 import { cn } from "@frontal/shared";
 import { useMemo } from "react";
+
+type SliderProps = SliderPrimitive.Root.Props;
 
 function Slider({
 	className,
@@ -12,7 +14,7 @@ function Slider({
 	min = 0,
 	max = 100,
 	...props
-}: SliderPrimitive.Root.Props) {
+}: SliderProps) {
 	const _values = useMemo(() => {
 		if (value !== undefined) {
 			return Array.isArray(value) ? value : [value];
@@ -51,7 +53,7 @@ function Slider({
 					/>
 					{Array.from({ length: _values.length }, (_, index) => (
 						<SliderPrimitive.Thumb
-							className="block size-4 shrink-0 select-none rounded-full border border-input bg-white bg-clip-padding shadow-xs outline-none transition-shadow before:absolute before:inset-0 before:rounded-full before:shadow-[0_1px_--theme(--color-black/4%)] focus-visible:ring-[3px] focus-visible:ring-ring/24 has-focus-visible:ring-[3px] has-focus-visible:ring-ring/24 data-dragging:ring-[3px] data-dragging:ring-ring/24 dark:border-background dark:bg-clip-border dark:data-dragging:ring-ring/48 dark:focus-visible:ring-ring/48 [:focus-visible,[data-dragging]]:shadow-none"
+							className="block size-5 shrink-0 select-none rounded-full border border-input bg-white bg-clip-padding shadow-xs outline-none transition-shadow before:absolute before:inset-0 before:rounded-full before:shadow-[0_1px_--theme(--color-black/4%)] focus-visible:ring-[3px] focus-visible:ring-ring/24 has-focus-visible:ring-[3px] has-focus-visible:ring-ring/24 data-dragging:ring-[3px] data-dragging:ring-ring/24 sm:size-4 dark:border-background dark:bg-clip-border dark:data-dragging:ring-ring/48 dark:focus-visible:ring-ring/48 [:focus-visible,[data-dragging]]:shadow-none"
 							data-slot="slider-thumb"
 							key={String(index)}
 						/>
@@ -62,7 +64,9 @@ function Slider({
 	);
 }
 
-function SliderValue({ className, ...props }: SliderPrimitive.Value.Props) {
+type SliderValueProps = SliderPrimitive.Value.Props;
+
+function SliderValue({ className, ...props }: SliderValueProps) {
 	return (
 		<SliderPrimitive.Value
 			className={cn("flex justify-end text-sm", className)}
@@ -72,4 +76,4 @@ function SliderValue({ className, ...props }: SliderPrimitive.Value.Props) {
 	);
 }
 
-export { Slider, SliderValue };
+export { Slider, SliderValue, type SliderProps, type SliderValueProps };

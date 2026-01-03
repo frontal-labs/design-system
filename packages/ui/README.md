@@ -11,7 +11,7 @@ This package provides a comprehensive collection of UI components for building m
 This package is part of the Frontal monorepo and is installed automatically as a workspace dependency.
 
 ```bash
-pnpm install @frontal/ui
+bun install @frontal/ui
 ```
 
 ## Usage

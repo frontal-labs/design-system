@@ -1,30 +1,26 @@
 "use client";
 
-import * as React from "react";
-import { Label, Pie, PieChart, Sector } from "recharts";
-import type { PieSectorDataItem } from "recharts/types/polar/Pie";
-
 import {
 	Card,
 	CardContent,
 	CardDescription,
 	CardHeader,
 	CardTitle,
-} from "@/registry/new-york-v4/ui/card";
-import {
 	type ChartConfig,
 	ChartContainer,
 	ChartStyle,
 	ChartTooltip,
 	ChartTooltipContent,
-} from "@/registry/new-york-v4/ui/chart";
-import {
 	Select,
 	SelectContent,
 	SelectItem,
 	SelectTrigger,
 	SelectValue,
-} from "@/registry/new-york-v4/ui/select";
+} from "@frontal/ui";
+import * as React from "react";
+import { Label, Pie, PieChart, Sector } from "recharts";
+import type { Props as LabelProps } from "recharts/types/component/Label";
+import type { PieSectorDataItem } from "recharts/types/polar/Pie";
 
 export const description = "An interactive pie chart";
 
@@ -86,7 +82,12 @@ export function ChartPieInteractive() {
 					<CardTitle>Pie Chart - Interactive</CardTitle>
 					<CardDescription>January - June 2024</CardDescription>
 				</div>
-				<Select value={activeMonth} onValueChange={setActiveMonth}>
+				<Select
+					value={activeMonth}
+					onValueChange={(value) =>
+						setActiveMonth(value ?? desktopData[0].month)
+					}
+				>
 					<SelectTrigger
 						className="ml-auto h-7 w-[130px] rounded-lg pl-2.5"
 						aria-label="Select a value"
@@ -155,7 +156,8 @@ export function ChartPieInteractive() {
 							)}
 						>
 							<Label
-								content={({ viewBox }) => {
+								content={(props: LabelProps) => {
+									const viewBox = props.viewBox;
 									if (viewBox && "cx" in viewBox && "cy" in viewBox) {
 										return (
 											<text
@@ -167,7 +169,7 @@ export function ChartPieInteractive() {
 												<tspan
 													x={viewBox.cx}
 													y={viewBox.cy}
-													className="fill-foreground text-3xl font-bold"
+													className="fill-foreground font-bold text-3xl"
 												>
 													{desktopData[activeIndex].desktop.toLocaleString()}
 												</tspan>
@@ -181,6 +183,7 @@ export function ChartPieInteractive() {
 											</text>
 										);
 									}
+									return null;
 								}}
 							/>
 						</Pie>

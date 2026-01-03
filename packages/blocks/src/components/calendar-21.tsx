@@ -1,12 +1,29 @@
 "use client";
 
+import { Calendar } from "@frontal/ui";
 import * as React from "react";
 import type { DateRange } from "react-day-picker";
 
-import {
-	Calendar,
-	CalendarDayButton,
-} from "@/registry/new-york-v4/ui/calendar";
+function DayButton({
+	children,
+	modifiers,
+	day,
+	...props
+}: {
+	children: React.ReactNode;
+	modifiers: { outside?: boolean };
+	day: { date: Date };
+	[key: string]: unknown;
+}) {
+	const isWeekend = day.date.getDay() === 0 || day.date.getDay() === 6;
+
+	return (
+		<button {...props}>
+			{children}
+			{!modifiers.outside && <span>{isWeekend ? "$220" : "$100"}</span>}
+		</button>
+	);
+}
 
 export default function Calendar21() {
 	const [range, setRange] = React.useState<DateRange | undefined>({
@@ -29,16 +46,7 @@ export default function Calendar21() {
 				},
 			}}
 			components={{
-				DayButton: ({ children, modifiers, day, ...props }) => {
-					const isWeekend = day.date.getDay() === 0 || day.date.getDay() === 6;
-
-					return (
-						<CalendarDayButton day={day} modifiers={modifiers} {...props}>
-							{children}
-							{!modifiers.outside && <span>{isWeekend ? "$220" : "$100"}</span>}
-						</CalendarDayButton>
-					);
-				},
+				DayButton,
 			}}
 		/>
 	);

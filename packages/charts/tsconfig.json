@@ -1,4 +1,5 @@
 {
+	"extends": "@frontal/typescript-config/react.json",
 	"compilerOptions": {
 		"baseUrl": ".",
 		"rootDir": ".",
@@ -9,13 +10,20 @@
 		"resolveJsonModule": true,
 		"isolatedModules": true,
 		"jsx": "react-jsx",
-		"incremental": true,
+		"incremental": false,
+		"types": ["bun-types"],
+		"skipLibCheck": true,
 		"paths": {
 			"@/*": ["./src/*"],
-			"@frontal/*": ["../../packages/*"],
+			"@frontal/*": [
+				"../../*",
+				"../../../internals/*",
+				"../../services/*",
+				"../../testing/*"
+			],
 			"@frontal/charts/*": ["./src/*"]
 		}
 	},
-	"include": ["**/*.ts", "**/*.tsx"],
-	"exclude": ["node_modules", "dist"]
+	"include": ["src/**/*.ts", "src/**/*.tsx"],
+	"exclude": ["node_modules", "dist", "tests", "vitest.config.ts"]
 }
