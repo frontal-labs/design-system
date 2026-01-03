@@ -1,0 +1,17 @@
+{
+	"extends": "@frontal/typescript-config/next.json",
+	"compilerOptions": {
+		"baseUrl": "src",
+		"rootDir": "src",
+		"outDir": "dist",
+		"noEmit": false,
+		"declaration": true,
+		"incremental": false,
+		"paths": {
+			"@frontal/*": ["../../*"],
+			"@frontal/next-config/*": ["./src/*"]
+		}
+	},
+	"include": ["src/**/*.ts"],
+	"exclude": ["node_modules"]
+}
