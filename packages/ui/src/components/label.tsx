@@ -1,6 +1,6 @@
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 
 type LabelProps = useRender.ComponentProps<"label">;
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import { cva, type VariantProps } from "class-variance-authority";
 import type { ComponentProps } from "react";
 import { Input, type InputProps } from "./input";

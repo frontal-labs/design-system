@@ -2,7 +2,7 @@
 
 import type { Toggle as TogglePrimitive } from "@base-ui/react/toggle";
 import { ToggleGroup as ToggleGroupPrimitive } from "@base-ui/react/toggle-group";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import type { VariantProps } from "class-variance-authority";
 import { type ComponentProps, createContext, useContext } from "react";
 import { Separator } from "./separator";

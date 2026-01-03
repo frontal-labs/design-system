@@ -2,7 +2,7 @@
 
 import { Dialog as CommandDialogPrimitive } from "@base-ui/react/dialog";
 import { SearchIcon } from "@frontal/icons";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import {
 	type ComponentProps,
 	createContext,

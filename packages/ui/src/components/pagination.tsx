@@ -5,7 +5,7 @@ import {
 	ArrowRightChevronIcon,
 	MoreIcon,
 } from "@frontal/icons";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import type { ComponentProps } from "react";
 import { type Button, buttonVariants } from "./button";
 

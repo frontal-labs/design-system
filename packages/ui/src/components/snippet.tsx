@@ -3,7 +3,7 @@
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
 import { ClipboardIcon } from "@frontal/icons";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import { cva, type VariantProps } from "class-variance-authority";
 import { useState } from "react";
 

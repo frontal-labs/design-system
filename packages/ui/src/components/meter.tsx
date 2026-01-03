@@ -1,7 +1,7 @@
 "use client";
 
 import { Meter as MeterPrimitive } from "@base-ui/react/meter";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 
 type MeterProps = MeterPrimitive.Root.Props;
 

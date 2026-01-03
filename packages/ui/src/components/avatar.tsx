@@ -1,7 +1,7 @@
 "use client";
 
 import { Avatar as AvatarPrimitive } from "@base-ui/react/avatar";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 
 type AvatarProps = AvatarPrimitive.Root.Props;
 

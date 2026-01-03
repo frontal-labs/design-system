@@ -1,7 +1,7 @@
 "use client";
 
 import { ScrollArea as ScrollAreaPrimitive } from "@base-ui/react/scroll-area";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 
 type ScrollAreaProps = ScrollAreaPrimitive.Root.Props & {
 	scrollFade?: boolean;

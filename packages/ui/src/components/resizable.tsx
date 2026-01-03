@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import { GripVerticalIcon } from "lucide-react";
 import type { ComponentProps } from "react";
 import * as ResizablePrimitive from "react-resizable-panels";

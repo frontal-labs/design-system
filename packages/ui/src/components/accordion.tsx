@@ -2,7 +2,7 @@
 
 import { Accordion as AccordionPrimitive } from "@base-ui/react/accordion";
 import { ArrowDownChevronIcon } from "@frontal/icons";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 
 type AccordionProps = AccordionPrimitive.Root.Props & {
 	collapsible?: boolean;

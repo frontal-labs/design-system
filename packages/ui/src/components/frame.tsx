@@ -1,4 +1,4 @@
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import type { ComponentProps } from "react";
 
 type FrameProps = ComponentProps<"div"> & { stackedPanels?: boolean };

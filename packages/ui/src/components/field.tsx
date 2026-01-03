@@ -1,7 +1,7 @@
 "use client";
 
 import { Field as FieldPrimitive } from "@base-ui/react/field";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import React from "react";
 
 type FieldProps = FieldPrimitive.Root.Props;

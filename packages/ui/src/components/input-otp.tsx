@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import { OTPInput, OTPInputContext } from "input-otp";
 import * as React from "react";
 

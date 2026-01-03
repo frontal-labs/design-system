@@ -1,5 +1,5 @@
 import { LoaderIcon } from "@frontal/icons";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import type { ComponentProps } from "react";
 
 type SpinnerProps = ComponentProps<typeof LoaderIcon>;

@@ -1,7 +1,7 @@
 "use client";
 
 import { Collapsible as CollapsiblePrimitive } from "@base-ui/react/collapsible";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 
 import { Slot } from "@radix-ui/react-slot";
 

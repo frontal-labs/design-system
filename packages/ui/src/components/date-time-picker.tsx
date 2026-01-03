@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import { type ComponentProps, useState } from "react";
 import { DatePicker } from "./date-picker";
 import { TimePicker } from "./time-picker";

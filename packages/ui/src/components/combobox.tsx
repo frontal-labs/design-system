@@ -2,7 +2,7 @@
 
 import { Combobox as ComboboxPrimitive } from "@base-ui/react/combobox";
 import { ArrowUpDownIcon, CloseIcon } from "@frontal/icons";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import {
 	createContext,
 	type ReactNode,

@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import {
 	type ComponentProps,
 	type ImgHTMLAttributes,

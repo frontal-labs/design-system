@@ -1,6 +1,6 @@
 import { MoreVariantIcon } from "@frontal/icons";
 
-import { cn } from "@frontal/shared";
+import { cn } from "@frontal/ui/utils";
 import {
 	Button,
 	Field,

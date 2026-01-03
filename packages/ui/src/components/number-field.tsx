@@ -2,7 +2,7 @@
 
 import { NumberField as NumberFieldPrimitive } from "@base-ui/react/number-field";
 import { AddIcon, SubtractIcon } from "@frontal/icons";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import { type ComponentProps, createContext, useContext, useId } from "react";
 import { Label } from "./label";
 

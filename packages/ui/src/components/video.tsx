@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import { type SyntheticEvent, useState, type VideoHTMLAttributes } from "react";
 import { Skeleton } from "./skeleton";
 

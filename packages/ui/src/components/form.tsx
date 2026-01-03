@@ -1,7 +1,7 @@
 "use client";
 
 import { Form as FormPrimitive } from "@base-ui/react/form";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import {
 	Controller,
 	type ControllerProps,

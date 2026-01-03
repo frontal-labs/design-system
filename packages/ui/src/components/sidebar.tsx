@@ -4,7 +4,7 @@ import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
 import { SideBarIcon } from "@frontal/icons";
 import { useIsMobile } from "@frontal/react-media";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import { Slot } from "@radix-ui/react-slot";
 import { cva, type VariantProps } from "class-variance-authority";
 import {

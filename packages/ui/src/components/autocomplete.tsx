@@ -2,7 +2,7 @@
 
 import { Autocomplete as AutocompletePrimitive } from "@base-ui/react/autocomplete";
 import { ArrowUpDownIcon, CloseIcon } from "@frontal/icons";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import type { ReactNode, Ref } from "react";
 import { Input } from "./input";
 import { ScrollArea } from "./scroll-area";

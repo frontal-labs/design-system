@@ -940,3 +940,6 @@ export {
 	Video,
 	type VideoProps,
 } from "./components/video";
+
+// Utils
+export { cn } from "./utils";

@@ -1,5 +1,5 @@
 import { Separator as SeparatorPrimitive } from "@base-ui/react/separator";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 
 type SeparatorProps = SeparatorPrimitive.Props;
 

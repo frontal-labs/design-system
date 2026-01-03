@@ -1,7 +1,7 @@
 "use client";
 
 import { Switch as SwitchPrimitive } from "@base-ui/react/switch";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 
 type SwitchProps = SwitchPrimitive.Root.Props;
 

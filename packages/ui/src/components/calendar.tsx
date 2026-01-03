@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import { DayPicker, type DayPickerProps } from "react-day-picker";
 
 type CalendarProps = DayPickerProps & {

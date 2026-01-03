@@ -8,7 +8,7 @@ import {
 	InformationIcon,
 	LoaderIcon,
 } from "@frontal/icons";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import { buttonVariants } from "./button";
 
 const toastManager = Toast.createToastManager();

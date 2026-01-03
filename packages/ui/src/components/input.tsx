@@ -1,7 +1,7 @@
 "use client";
 
 import { Input as InputPrimitive } from "@base-ui/react/input";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import type { RefAttributes } from "react";
 
 type InputProps = Omit<

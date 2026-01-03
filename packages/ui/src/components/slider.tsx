@@ -1,7 +1,7 @@
 "use client";
 
 import { Slider as SliderPrimitive } from "@base-ui/react/slider";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import { useMemo } from "react";
 
 type SliderProps = SliderPrimitive.Root.Props;

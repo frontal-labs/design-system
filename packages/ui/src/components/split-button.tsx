@@ -1,7 +1,7 @@
 "use client";
 
 import { ArrowDownChevronIcon } from "@frontal/icons";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import type { ComponentProps, ReactNode } from "react";
 import { Button, type ButtonProps } from "./button";
 import { Menu, MenuGroup, MenuItem, MenuPopup, MenuTrigger } from "./menu";

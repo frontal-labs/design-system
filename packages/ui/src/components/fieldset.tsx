@@ -1,7 +1,7 @@
 "use client";
 
 import { Fieldset as FieldsetPrimitive } from "@base-ui/react/fieldset";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 
 type FieldsetProps = FieldsetPrimitive.Root.Props;
 

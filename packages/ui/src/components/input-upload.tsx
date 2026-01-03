@@ -1,7 +1,7 @@
 "use client";
 
 import { CloseIcon, UploadIcon } from "@frontal/icons";
-import { cn } from "@frontal/shared";
+import { cn } from "../utils";
 import { cva, type VariantProps } from "class-variance-authority";
 import {
 	type ChangeEvent,
