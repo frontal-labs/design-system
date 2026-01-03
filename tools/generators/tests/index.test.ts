@@ -17,19 +17,11 @@ describe("@frontal/generators", () => {
 		expect(existsSync(resolve(import.meta.dir, "../src/cli.ts"))).toBe(true);
 	});
 
-	test("exported types are defined", async () => {
-		try {
-			const mod = await import("../src/index.ts");
-			expect(mod).toBeDefined();
-		} catch (error) {
-			// Skip if dependencies aren't available (e.g., in CI without full install)
-			if (
-				error instanceof Error &&
-				error.message.includes("Cannot find package")
-			) {
-				return; // Skip test silently
-			}
-			throw error;
-		}
+	test.skipIf(
+		// Skip test if dependencies might not be available in CI
+		process.env.CI === "true",
+	)("exported types are defined", async () => {
+		const mod = await import("../src/index.ts");
+		expect(mod).toBeDefined();
 	});
 });
