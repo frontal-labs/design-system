@@ -1,0 +1,25 @@
+[install]
+# Use production dependencies by default
+production = false
+
+# Auto-install peer dependencies
+peer = true
+
+# Don't save exact versions
+exact = false
+
+# Use lockfile
+lockfile = true
+
+[install.scopes]
+# Scope-specific configurations
+"@frontal" = { token = "" }
+
+[test]
+# Test configuration
+preload = ["./test/setup.ts"]
+
+[run]
+# Run configuration
+bun = "1.3.3"
+

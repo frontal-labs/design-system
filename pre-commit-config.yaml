@@ -1,0 +1,58 @@
+# Pre-commit hooks configuration
+# See https://pre-commit.com for more information
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-json
+      - id: check-toml
+      - id: check-added-large-files
+        args: ['--maxkb=1000']
+      - id: check-merge-conflict
+      - id: check-case-conflict
+      - id: mixed-line-ending
+        args: ['--fix=lf']
+
+  - repo: https://github.com/biomejs/pre-commit
+    rev: v1.8.3
+    hooks:
+      - id: biome-check
+        args: ['--write', '--unsafe']
+
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: v3.13.0
+    hooks:
+      - id: commitizen
+        stages: [commit-msg]
+
+  - repo: local
+    hooks:
+      - id: type-check
+        name: Type Check
+        entry: bun run type-check
+        language: system
+        types: [file]
+        pass_filenames: false
+        always_run: true
+
+      - id: lint
+        name: Lint
+        entry: bun run lint
+        language: system
+        types: [file]
+        pass_filenames: false
+        always_run: true
+
+      - id: test
+        name: Test
+        entry: bun run test
+        language: system
+        types: [file]
+        pass_filenames: false
+        always_run: false
+        stages: [pre-push]
+
