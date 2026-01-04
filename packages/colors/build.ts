@@ -11,6 +11,11 @@ const minify =
 	process.argv.includes("--minify") || process.argv.includes("--bundle");
 
 async function build() {
+	const { existsSync, mkdirSync } = await import("node:fs");
+	if (!existsSync("./dist")) {
+		mkdirSync("./dist", { recursive: true });
+	}
+
 	console.log(`Building @frontal/colors${minify ? " (minified)" : ""}...`);
 
 	// Build ESM format
@@ -52,22 +57,8 @@ async function build() {
 	}
 
 	// Generate TypeScript declarations
-	// Use skipLibCheck to avoid errors from missing dependency declarations
-	// Set rootDir to src to only include files from this package
 	const tscProcess = Bun.spawn(
-		[
-			"tsc",
-			"--project",
-			"tsconfig.json",
-			"--emitDeclarationOnly",
-			"--outDir",
-			"dist",
-			"--rootDir",
-			"src",
-			"--skipLibCheck",
-			"--declaration",
-			"--declarationMap",
-		],
+		["tsc", "--project", "tsconfig.declaration.json"],
 		{
 			stdout: "inherit",
 			stderr: "inherit",
@@ -76,11 +67,8 @@ async function build() {
 
 	const tscExitCode = await tscProcess.exited;
 	if (tscExitCode !== 0) {
-		console.warn(
-			"TypeScript declaration generation had errors (this may be expected if dependencies aren't built yet)",
-		);
-		// Don't exit on tsc errors - declarations may still be generated
-		// The build itself succeeded, which is what matters for the bundler
+		console.error("TypeScript declaration generation failed");
+		process.exit(1);
 	}
 
 	console.log("✓ Build completed successfully");

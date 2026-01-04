@@ -11,7 +11,7 @@ build/
 out/
 *.tsbuildinfo
 *.d.ts.map
-tsconfig.declaration.json
+# tsconfig.declaration.json is required for package builds
 
 # Turbo
 .turbo/
