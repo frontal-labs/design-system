@@ -42,15 +42,11 @@ jobs:
       - name: Install dependencies
         run: bun install --frozen-lockfile
 
-      - name: Build dependencies
+      - name: Build @frontal/design-system and dependencies
         run: |
-          # Build all @frontal/* packages that design-system depends on
-          # These need to be built so their source is available for bundling
-          bunx turbo build --filter=@frontal/colors --filter=@frontal/icons --filter=@frontal/typeface --filter=@frontal/ui --filter=@frontal/blocks --filter=@frontal/charts --filter=@frontal/components
-      
-      - name: Build @frontal/design-system
-        run: |
-          # Build @frontal/design-system which bundles all dependencies
+          # Build all dependencies first, then design-system
+          # The ... syntax builds dependencies, but we need to ensure they're built
+          bunx turbo build --filter=@frontal/design-system^...
           bunx turbo build --filter=@frontal/design-system
 
       - name: Configure npm for GitHub Packages
