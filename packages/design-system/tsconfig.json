@@ -13,7 +13,11 @@
 		"composite": false,
 		"lib": ["ES2022", "DOM", "DOM.Iterable"],
 		"paths": {
-			"@/*": ["./src/*"]
+			"@/*": ["./src/*"],
+			"@frontal/blocks": ["../blocks/src/index.ts"],
+			"@frontal/blocks/*": ["../blocks/src/*"],
+			"@frontal/ui": ["../ui/src/index.ts"],
+			"@frontal/ui/*": ["../ui/src/*"]
 		}
 	},
 	"include": ["src/**/*.ts", "src/**/*.tsx"],
