@@ -20,13 +20,15 @@
 			"outputs": ["dist/**"]
 		},
 		"test": {
-			"dependsOn": ["^test"]
+			"dependsOn": ["^build", "^test"]
 		},
 		"test:coverage": {
-			"dependsOn": ["^test"],
+			"dependsOn": ["^build", "^test"],
 			"outputs": ["coverage/**"]
 		},
-		"type-check": {},
+		"type-check": {
+			"dependsOn": ["^build"]
+		},
 		"check": {},
 		"check:fix": {
 			"cache": false
