@@ -3,7 +3,7 @@ import {
 	SelectContent,
 	SelectGroup,
 	SelectItem,
-	SelectLabel,
+	SelectGroupLabel,
 	SelectSeparator,
 	SelectTrigger,
 	SelectValue,
@@ -25,7 +25,7 @@ const meta: Meta<typeof Select> = {
 			</SelectTrigger>
 			<SelectContent>
 				<SelectGroup>
-					<SelectLabel>Fruits</SelectLabel>
+					<SelectGroupLabel>Fruits</SelectGroupLabel>
 					<SelectItem value="apple">Apple</SelectItem>
 					<SelectItem value="banana">Banana</SelectItem>
 					<SelectItem value="blueberry">Blueberry</SelectItem>
@@ -34,7 +34,7 @@ const meta: Meta<typeof Select> = {
 				</SelectGroup>
 				<SelectSeparator />
 				<SelectGroup>
-					<SelectLabel>Vegetables</SelectLabel>
+					<SelectGroupLabel>Vegetables</SelectGroupLabel>
 					<SelectItem value="aubergine">Aubergine</SelectItem>
 					<SelectItem value="broccoli">Broccoli</SelectItem>
 					<SelectItem disabled value="carrot">
@@ -45,7 +45,7 @@ const meta: Meta<typeof Select> = {
 				</SelectGroup>
 				<SelectSeparator />
 				<SelectGroup>
-					<SelectLabel>Meat</SelectLabel>
+					<SelectGroupLabel>Meat</SelectGroupLabel>
 					<SelectItem value="beef">Beef</SelectItem>
 					<SelectItem value="chicken">Chicken</SelectItem>
 					<SelectItem value="lamb">Lamb</SelectItem>

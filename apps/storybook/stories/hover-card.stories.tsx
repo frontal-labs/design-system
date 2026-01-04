@@ -41,8 +41,5 @@ export const Default: Story = {};
  * hover card opens and closes.
  */
 export const Instant: Story = {
-	args: {
-		openDelay: 0,
-		closeDelay: 0,
-	},
+	args: {},
 };

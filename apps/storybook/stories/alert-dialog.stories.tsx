@@ -1,7 +1,6 @@
 import {
 	AlertDialog,
-	AlertDialogAction,
-	AlertDialogCancel,
+	AlertDialogClose,
 	AlertDialogContent,
 	AlertDialogDescription,
 	AlertDialogFooter,
@@ -32,8 +31,8 @@ const meta = {
 					</AlertDialogDescription>
 				</AlertDialogHeader>
 				<AlertDialogFooter>
-					<AlertDialogCancel>Cancel</AlertDialogCancel>
-					<AlertDialogAction>Continue</AlertDialogAction>
+					<AlertDialogClose>Cancel</AlertDialogClose>
+					<AlertDialogClose>Continue</AlertDialogClose>
 				</AlertDialogFooter>
 			</AlertDialogContent>
 		</AlertDialog>

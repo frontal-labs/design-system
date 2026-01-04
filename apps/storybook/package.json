@@ -11,7 +11,12 @@
 		"build": "storybook build",
 		"chromatic": "chromatic --exit-zero-on-changes",
 		"clean": "git clean -xdf .cache .turbo dist node_modules",
-		"typecheck": "tsc --noEmit --emitDeclarationOnly false"
+		"type-check": "tsc --noEmit",
+		"check": "bunx biome check",
+		"check:fix": "bunx biome check --write",
+		"format": "bunx biome format --write",
+		"spell": "bunx cspell lint \"**/*.{ts,tsx,js,json,md}\"",
+		"spell:fix": "bunx cspell lint \"**/*.{ts,tsx,js,json,md}\" --fix"
 	},
 	"dependencies": {
 		"@frontal/next-config": "workspace:*",
@@ -24,7 +29,7 @@
 		"next": "16.0.10",
 		"react": "19.2.1",
 		"react-dom": "19.2.1",
-		"react-hook-form": "^7.68.0",
+		"react-hook-form": "^7.64.0",
 		"recharts": "^2.15.4",
 		"sonner": "^2.0.7",
 		"zod": "^4.1.13"

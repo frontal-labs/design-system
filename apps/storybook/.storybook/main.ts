@@ -1,8 +1,10 @@
 import { createRequire } from "node:module";
-import { dirname, join } from "node:path";
+import { dirname, join, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 import type { StorybookConfig } from "@storybook/nextjs";
 
 const require = createRequire(import.meta.url);
+const currentDir = dirname(fileURLToPath(import.meta.url));
 
 /**
  * This function is used to resolve the absolute path of a package.
@@ -26,6 +28,42 @@ const config: StorybookConfig = {
 		options: {},
 	},
 	staticDirs: ["../public"],
+	webpackFinal: async (config) => {
+		const packagesDir = resolve(currentDir, "../../../packages");
+
+		config.resolve = config.resolve || {};
+		config.resolve.alias = {
+			...config.resolve.alias,
+			// Main package entries
+			"@frontal/design-system": resolve(packagesDir, "design-system/src"),
+			"@frontal/ui": resolve(packagesDir, "ui/src"),
+			"@frontal/icons": resolve(packagesDir, "icons/src"),
+			"@frontal/blocks": resolve(packagesDir, "blocks/src"),
+			"@frontal/charts": resolve(packagesDir, "charts/src"),
+			"@frontal/colors": resolve(packagesDir, "colors/src"),
+			"@frontal/components": resolve(packagesDir, "components/src"),
+			"@frontal/typeface": resolve(packagesDir, "typeface/src"),
+			// CSS subpath exports
+			"@frontal/colors/styles.css": resolve(
+				packagesDir,
+				"colors/src/styles/styles.css",
+			),
+			"@frontal/colors/theme.css": resolve(
+				packagesDir,
+				"colors/src/styles/theme.css",
+			),
+			"@frontal/blocks/styles.css": resolve(
+				packagesDir,
+				"blocks/src/styles/styles.css",
+			),
+			"@frontal/design-system/styles/globals.css": resolve(
+				packagesDir,
+				"design-system/src/styles/globals.css",
+			),
+		};
+
+		return config;
+	},
 };
 
 export default config;

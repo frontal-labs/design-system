@@ -11,7 +11,7 @@ const meta = {
 	tags: ["autodocs"],
 	argTypes: {
 		variant: {
-			options: ["default", "destructive"],
+			options: ["default", "error"],
 			control: { type: "radio" },
 		},
 	},
@@ -50,6 +50,6 @@ export const Destructive: Story = {
 		</Alert>
 	),
 	args: {
-		variant: "destructive",
+		variant: "error",
 	},
 };

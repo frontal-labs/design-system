@@ -219,7 +219,7 @@ export const Base: Story = {
 									<DropdownMenuTrigger asChild>
 										<SidebarMenuButton
 											className="data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground"
-											size="lg"
+											size="large"
 										>
 											<div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
 												<activeTeam.logo className="size-4" />
@@ -366,7 +366,7 @@ export const Base: Story = {
 									<DropdownMenuTrigger asChild>
 										<SidebarMenuButton
 											className="data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground"
-											size="lg"
+											size="large"
 										>
 											<Avatar className="h-8 w-8 rounded-lg">
 												<AvatarImage

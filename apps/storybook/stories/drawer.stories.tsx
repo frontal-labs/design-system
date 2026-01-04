@@ -54,4 +54,8 @@ type Story = StoryObj<typeof meta>;
 /**
  * The default form of the drawer.
  */
-export const Default: Story = {};
+
+export const Default: Story = {
+	// @ts-expect-error - Issue with Storybook arg types inference
+	args: {},
+};

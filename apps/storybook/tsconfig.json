@@ -1,7 +1,12 @@
 {
 	"extends": "@frontal/typescript-config/nextjs.json",
 	"compilerOptions": {
-		"baseUrl": "."
+		"baseUrl": ".",
+		"paths": {
+			"@frontal/*": ["../../packages/*/src/index.ts"],
+			"@frontal/next-config": ["../../internal/next-config/src/index.ts"],
+			"@frontal/next-config/*": ["../../internal/next-config/src/*"]
+		}
 	},
 	"include": [
 		"next-env.d.ts",

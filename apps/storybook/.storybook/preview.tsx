@@ -3,7 +3,10 @@ import { withThemeByClassName } from "@storybook/addon-themes";
 import type { Preview } from "@storybook/react";
 import { Toaster } from "sonner";
 
-import "@frontal/design-system/styles/globals.css";
+// Import CSS directly from source to avoid CSS @import resolution issues
+import "../../../packages/colors/src/styles/styles.css";
+import "../../../packages/colors/src/styles/theme.css";
+import "../../../packages/typeface/src/styles/styles.css";
 
 const preview: Preview = {
 	parameters: {

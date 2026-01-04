@@ -18,8 +18,8 @@ const meta = {
 		layout: "centered",
 	},
 	args: {
-		variant: "default",
-		size: "default",
+		variant: "primary",
+		size: "medium",
 		children: "Button",
 	},
 } satisfies Meta<typeof Button>;
@@ -121,7 +121,7 @@ export const WithIcon: Story = {
  */
 export const Small: Story = {
 	args: {
-		size: "sm",
+		size: "small",
 	},
 };
 
@@ -131,7 +131,7 @@ export const Small: Story = {
  */
 export const Large: Story = {
 	args: {
-		size: "lg",
+		size: "large",
 	},
 };
 

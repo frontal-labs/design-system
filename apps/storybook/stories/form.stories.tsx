@@ -48,7 +48,7 @@ const ProfileForm = (args: Story["args"]) => {
 		<Form {...args} {...form}>
 			<form className="space-y-8" onSubmit={form.handleSubmit(onSubmit)}>
 				<FormField
-					control={form.control}
+					control={form.control as any}
 					name="username"
 					render={({ field }) => (
 						<FormItem>
