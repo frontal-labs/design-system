@@ -53,6 +53,15 @@
 		"@types/react": "^19.2.1",
 		"typescript": "^5.9.3"
 	},
+	"dependencies": {
+		"@frontal/blocks": "workspace:*",
+		"@frontal/charts": "workspace:*",
+		"@frontal/colors": "workspace:*",
+		"@frontal/components": "workspace:*",
+		"@frontal/icons": "workspace:*",
+		"@frontal/typeface": "workspace:*",
+		"@frontal/ui": "workspace:*"
+	},
 	"keywords": [
 		"design-system",
 		"frontal",
