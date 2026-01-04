@@ -34,6 +34,12 @@ async function build() {
 		process.exit(1);
 	}
 
+	// Ensure ESM file is written
+	if (esmResult.outputs.length > 0) {
+		const esmOutput = esmResult.outputs[0];
+		await Bun.write("./dist/index.js", esmOutput);
+	}
+
 	// Build CJS format
 	const cjsResult = await Bun.build({
 		entrypoints: [entrypoint],
@@ -51,6 +57,12 @@ async function build() {
 			console.error(log);
 		}
 		process.exit(1);
+	}
+
+	// Ensure CJS file is written
+	if (cjsResult.outputs.length > 0) {
+		const cjsOutput = cjsResult.outputs[0];
+		await Bun.write("./dist/index.cjs", cjsOutput);
 	}
 
 	// Copy CSS files to dist
