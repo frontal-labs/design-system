@@ -30,4 +30,9 @@ export default [
 		path: "packages/typeface/dist/index.js",
 		limit: "30 KB",
 	},
+	{
+		name: "@frontal/design-system",
+		path: "packages/design-system/dist/index.js",
+		limit: "1 MB",
+	},
 ];

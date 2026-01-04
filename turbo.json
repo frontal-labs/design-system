@@ -26,12 +26,7 @@
 			"dependsOn": ["^test"],
 			"outputs": ["coverage/**"]
 		},
-		"type-check": {
-			"dependsOn": ["^build"]
-		},
-		"typecheck": {
-			"dependsOn": ["^build"]
-		},
+		"type-check": {},
 		"check": {},
 		"check:fix": {
 			"cache": false

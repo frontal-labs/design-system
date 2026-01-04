@@ -25,8 +25,8 @@
 		"directory": "packages/icons"
 	},
 	"scripts": {
-		"build": "bunx @frontal/builder build -t icons",
-		"build:bundle": "bunx @frontal/builder bundle -t icons",
+		"build": "bun run build.ts",
+		"build:bundle": "bun run build.ts --minify",
 		"generate": "node scripts/generate-icons.js",
 		"lint": "biome check",
 		"lint:fix": "biome check --write --unsafe",
@@ -36,20 +36,16 @@
 		"type-check": "tsc --noEmit",
 		"typecheck": "tsc --noEmit",
 		"clean": "git clean -xdf -- node_modules .next .turbo .cache",
-		"remove-fill-icons": "node scripts/remove-fill-icons.js",
-		"remove-line-suffix": "node scripts/remove-line-suffix.js",
 		"test": "bun test tests/"
 	},
 	"peerDependencies": {
 		"react": "^19.2.0"
 	},
 	"devDependencies": {
+		"@frontal/typescript-config": "workspace:*",
 		"@biomejs/biome": "2.3.4",
 		"@svgr/core": "^8.1.0",
-		"@types/node": "^24.7.0",
 		"@types/react": "^19.2.1",
-		"jsdom": "^25.0.0",
-		"tsx": "^4.7.1",
 		"typescript": "^5.9.3"
 	},
 	"keywords": [

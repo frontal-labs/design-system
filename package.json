@@ -1,9 +1,9 @@
 {
 	"name": "design-system",
-	"description": "Frontal's Design System",
-	"homepage": "https://frontal.dev",
+	"description": "A modular design system for consistent, scalable, high-quality UI across Frontal platforms.",
+	"author": "Frontal Labs",
 	"private": true,
-	"version": "5.2.2",
+	"version": "0.0.1",
 	"type": "module",
 	"engines": {
 		"bun": ">=1.1.0"
@@ -11,11 +11,12 @@
 	"packageManager": "bun@1.3.3",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/frontal-labs/design-system.git"
+		"url": "git+https://github.com/frontal-labs/design-system.git",
+		"directory": "packages/design-system"
 	},
 	"scripts": {
 		"build": "bunx turbo build",
-		"bundle": "bunx turbo build:bundle",
+		"build:bundle": "bunx turbo build:bundle",
 		"analyze": "bunx turbo analyze",
 		"clean": "bunx turbo clean",
 		"dev": "bunx turbo dev",
@@ -25,6 +26,7 @@
 		"spell:fix": "bunx cspell lint \"**/*.{ts,tsx,js,json,md}\" --fix",
 		"format": "bunx turbo format",
 		"test": "bunx turbo test",
+		"test:coverage": "bunx turbo test:coverage",
 		"type-check": "bunx turbo type-check",
 		"prepare": "husky",
 		"changeset": "changeset",

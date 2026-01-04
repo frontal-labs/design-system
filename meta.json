@@ -1,16 +1,20 @@
 {
-	"name": "frontal-design-system",
-	"version": "5.2.2",
-	"description": "Frontal's Design System - A unified platform for building modern applications, agents, and internal tools",
+	"name": "design-system",
+	"author": "Frontal Labs",
+	"version": "0.0.1",
+	"description": "A modular design system for consistent, scalable, high-quality UI across Frontal platforms.",
 	"keywords": [
-		"design",
 		"frontal",
-		"design-system",
-		"typescript",
+		"design",
+		"system",
 		"ui",
 		"components",
+		"react",
+		"tailwind",
+		"css",
+		"javascript",
+		"typescript",
 		"hooks",
-		"utilities",
-		"helpers"
+		"utilities"
 	]
 }

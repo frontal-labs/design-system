@@ -221,7 +221,15 @@
 		"uage",
 		"blinenums",
 		"nosort",
-		"dont"
+		"dont",
+		"scrollers",
+		"targetable",
+		"codemod",
+		"subcomponents",
+		"behaviour",
+		"livescript",
+		"stringifier",
+		"jsxs"
 	],
 	"ignoreWords": [
 		"cbranch",
@@ -243,7 +251,8 @@
 		"**/package-lock.json",
 		"**/yarn.lock",
 		"**/pnpm-lock.yaml",
-		"packages/components/coverage/**"
+		"packages/components/coverage/**",
+		"**/storybook-static/**"
 	],
 	"dictionaries": ["typescript", "node", "npm", "html", "css", "bash"]
 }
