@@ -1,5 +1,5 @@
 {
-	"extends": "@frontal/typescript-config/next.json",
+	"extends": "@frontal/typescript-config/nextjs.json",
 	"compilerOptions": {
 		"baseUrl": "src",
 		"rootDir": "src",

@@ -1,5 +1,5 @@
 {
-	"extends": "../../internal/typescript-config/react.json",
+	"extends": "@frontal/typescript-config/react.json",
 	"compilerOptions": {
 		"baseUrl": ".",
 		"noEmit": true,
@@ -14,9 +14,16 @@
 		"lib": ["ES2022", "DOM", "DOM.Iterable"],
 		"paths": {
 			"@/*": ["./src/*"],
-			"@frontal/*": ["../../*", "../../*/src"]
+			"@frontal/blocks": ["../blocks/src/index.ts"],
+			"@frontal/charts": ["../charts/src/index.ts"],
+			"@frontal/colors": ["../colors/src/index.ts"],
+			"@frontal/components": ["../components/src/index.ts"],
+			"@frontal/icons": ["../icons/src/index.ts"],
+			"@frontal/typeface": ["../typeface/src/index.ts"],
+			"@frontal/ui": ["../ui/src/index.ts"],
+			"@frontal/*": ["../../*/src", "../../*"]
 		}
 	},
-	"include": ["**/*.ts", "**/*.tsx"],
-	"exclude": ["node_modules", "dist"]
+	"include": ["src/**/*.ts", "src/**/*.tsx"],
+	"exclude": ["node_modules", "dist", "build.ts", "tests"]
 }

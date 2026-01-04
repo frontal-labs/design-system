@@ -1,8 +1,7 @@
 {
-	"extends": "../../internal/typescript-config/react.json",
+	"extends": "@frontal/typescript-config/react.json",
 	"compilerOptions": {
 		"baseUrl": ".",
-		"rootDir": ".",
 		"noEmit": true,
 		"esModuleInterop": true,
 		"module": "esnext",
@@ -20,6 +19,6 @@
 			"@frontal/icons/*": ["./src/*"]
 		}
 	},
-	"include": ["**/*.ts", "**/*.tsx"],
-	"exclude": ["node_modules", "dist"]
+	"include": ["src/**/*.ts", "src/**/*.tsx"],
+	"exclude": ["node_modules", "dist", "build.ts"]
 }

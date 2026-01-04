@@ -1,8 +1,7 @@
 {
-	"extends": "../../internal/typescript-config/react.json",
+	"extends": "@frontal/typescript-config/react.json",
 	"compilerOptions": {
 		"baseUrl": ".",
-		"rootDir": ".",
 		"noEmit": true,
 		"esModuleInterop": true,
 		"module": "esnext",
@@ -14,7 +13,10 @@
 		"skipLibCheck": true,
 		"paths": {
 			"@/*": ["./src/*"],
+			"@frontal/icons": ["../icons/src/index.ts"],
+			"@frontal/ui": ["../ui/src/index.ts"],
 			"@frontal/*": [
+				"../../*/src",
 				"../../*",
 				"../../../internals/*",
 				"../../services/*",
@@ -24,5 +26,5 @@
 		}
 	},
 	"include": ["src/**/*.ts", "src/**/*.tsx"],
-	"exclude": ["node_modules", "dist", "tests", "vitest.config.ts"]
+	"exclude": ["node_modules", "dist", "tests", "vitest.config.ts", "build.ts"]
 }

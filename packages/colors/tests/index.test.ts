@@ -24,10 +24,12 @@ describe("@frontal/colors", () => {
 	});
 
 	test("getColor throws for invalid scale", () => {
+		// biome-ignore lint/suspicious/noExplicitAny: explicit any for testing invalid input
 		expect(() => getColor("invalid" as any, 500)).toThrow();
 	});
 
 	test("getColor throws for invalid shade", () => {
+		// biome-ignore lint/suspicious/noExplicitAny: explicit any for testing invalid input
 		expect(() => getColor("gray", 999 as any)).toThrow();
 	});
 

@@ -1,28 +1,28 @@
-import { describe, expect, test } from "bun:test";
+import { describe, expect, mock, test } from "bun:test";
+
+// Mock next/font/local
+mock.module("next/font/local", () => ({
+	default: () => ({
+		className: "mock-font-class",
+		variable: "--mock-font-variable",
+		style: { fontFamily: "Mock Font" },
+	}),
+}));
 
 describe("@frontal/typeface", () => {
-	test.skipIf(
-		// Skip test if Next.js font modules are not available in test environment
-		true,
-	)("package can be imported", async () => {
+	test("package can be imported", async () => {
 		const mod = await import("../src/index");
 		expect(mod).toBeDefined();
 	});
 
-	test.skipIf(
-		// Skip test if Next.js font modules are not available in test environment
-		true,
-	)("fonts are exported", async () => {
+	test("fonts are exported", async () => {
 		const mod = await import("../src/index");
 		expect(mod).toHaveProperty("fonts");
 		expect(mod).toHaveProperty("MaisonNeue");
 		expect(mod).toHaveProperty("MaisonNeueMono");
 	});
 
-	test.skipIf(
-		// Skip test if Next.js font modules are not available in test environment
-		true,
-	)("fonts are defined", async () => {
+	test("fonts are defined", async () => {
 		const mod = await import("../src/index");
 		expect(mod.fonts).toBeDefined();
 		expect(mod.MaisonNeue).toBeDefined();
