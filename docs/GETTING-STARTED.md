@@ -6,17 +6,28 @@ This guide will help you get started with the Frontal Design System.
 
 Before you begin, ensure you have the following installed:
 
-- **Node.js** >= 18.0.0
-- **pnpm** >= 8.0.0
+- **Bun** >= 1.1.0 (recommended: 1.3.3)
+- **Node.js** >= 18.0.0 (optional, if not using Bun)
 
-### Installing pnpm
+### Installing Bun
 
-If you don't have pnpm installed:
+If you don't have Bun installed:
 
 ```bash
-npm install -g pnpm
-# or
-brew install pnpm
+# macOS/Linux
+curl -fsSL https://bun.sh/install | bash
+
+# Windows (PowerShell)
+powershell -c "irm bun.sh/install.ps1 | iex"
+
+# Or using npm
+npm install -g bun
+```
+
+Verify installation:
+
+```bash
+bun --version
 ```
 
 ## Installation
@@ -29,10 +40,10 @@ git clone https://github.com/frontal-labs/design-system.git
 cd design-system
 
 # Install dependencies
-pnpm install
+bun install
 
 # Build all packages
-pnpm build
+bun run build
 ```
 
 ### For Usage (In Your Project)

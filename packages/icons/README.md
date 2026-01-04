@@ -24,12 +24,12 @@ import { /* icon components */ } from '@frontal/icons';
 
 ```bash
 # Build the package
-pnpm build
+bun run build
 
 # Run tests
-pnpm test
+bun test
 
 # Lint
-pnpm lint
+bun run lint
 ```
 

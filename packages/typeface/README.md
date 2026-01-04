@@ -86,8 +86,8 @@ See [USAGE.md](./USAGE.md) for detailed usage examples.
 
 - `src/index.ts` - Main exports
 - `src/lib/fonts.ts` - Font configuration
-- `src/styles/fonts.css` - Font-face declarations
-- `src/styles/globals.css` - Typography utility classes
+- `src/styles/fonts.css` - Font-face declarations (built to `dist/styles/fonts.css`)
+- `src/styles/styles.css` - Typography utility classes (built to `dist/styles/styles.css`)
 - `fonts/` - WOFF2 font files
 
 ## Related Documentation

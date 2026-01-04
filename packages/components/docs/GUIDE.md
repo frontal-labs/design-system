@@ -96,6 +96,8 @@ import { ArrowUpIcon } from '@frontal/icons';
 bun run build
 ```
 
+The build process compiles TypeScript files to `dist/` and copies CSS files to `dist/styles/`.
+
 ### Type Checking
 
 ```bash

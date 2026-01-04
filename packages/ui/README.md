@@ -18,13 +18,28 @@ bun install @frontal/ui
 
 ```tsx
 import { /* UI components */ } from '@frontal/ui';
+import '@frontal/ui/styles.css';
+```
+
+## Styles
+
+Import the UI component styles:
+
+```tsx
+import '@frontal/ui/styles.css';
+```
+
+Or use the consolidated design system styles:
+
+```tsx
+import '@frontal/design-system/styles/globals.css';
 ```
 
 ## Development
 
 ```bash
 # Build the package
-pnpm build
+bun run build
 
 # Run tests
 pnpm test

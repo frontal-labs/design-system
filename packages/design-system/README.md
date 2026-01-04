@@ -34,3 +34,18 @@ This package re-exports all exports from:
 - `@frontal/typeface` - Typeface and fonts
 - `@frontal/ui` - UI component library
 
+## Styles
+
+Import the consolidated global styles:
+
+```tsx
+import '@frontal/design-system/styles/globals.css';
+```
+
+This includes all styles from the design system packages:
+
+- Color system CSS variables
+- Typography styles
+- UI component styles
+- Chart styles
+- Block styles

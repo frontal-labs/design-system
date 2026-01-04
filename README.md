@@ -99,10 +99,9 @@ The Frontal design system is organized into multiple packages:
 - **@frontal/charts**: Chart and data visualization components
 - **@frontal/icons**: Icon library
 - **@frontal/ui**: Base UI components
-- **@frontal/primitives**: Low-level primitives
 - **@frontal/colors**: Color system
 - **@frontal/typeface**: Typography and fonts
-- **@frontal/shared**: Shared utilities and hooks
+- **@frontal/components**: Additional component utilities and shared hooks
 
 ## Available Components
 

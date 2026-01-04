@@ -32,13 +32,13 @@ The license prohibits users from redistributing, commercializing, or modifying t
    ```
 
 3. **Make your changes**  
-   * Keep the code style consistent (see `.editorconfig` / `.prettierrc` / `make lint`).  
+   * Keep the code style consistent (see `.editorconfig` / `bun run lint`).  
    * Add unit tests if you touch the logic.  
    * Update documentation if you add a feature or change an existing one.
 
 4. **Run the test suite**  
    ```bash
-   make test
+   bun run test
    ```
 
 5. **Commit & push**  
@@ -77,9 +77,9 @@ If you wish to sign a formal Contributor License Agreement (CLA) for added clari
 
 | Tool | Purpose |
 |------|---------|
-| `make test` | Runs unit tests. |
-| `make lint` | Checks coding style. |
-| `make docs` | Builds documentation. |
+| `bun run test` | Runs unit tests. |
+| `bun run lint` | Checks coding style. |
+| `bun run build` | Builds all packages. |
 
 Make sure all checks pass before opening a PR.  
 If your change introduces new tests, ensure they all succeed locally.

@@ -18,13 +18,33 @@ bun install @frontal/colors
 
 ```tsx
 import { /* color utilities */ } from '@frontal/colors';
+import '@frontal/colors/styles.css';
+import '@frontal/colors/theme.css';
+```
+
+## Styles
+
+Import the color system styles:
+
+```tsx
+// Base color styles
+import '@frontal/colors/styles.css';
+
+// Theme CSS variables
+import '@frontal/colors/theme.css';
+```
+
+Or use the consolidated design system styles:
+
+```tsx
+import '@frontal/design-system/styles/globals.css';
 ```
 
 ## Development
 
 ```bash
 # Build the package
-pnpm build
+bun run build
 
 # Run tests
 pnpm test

@@ -30,9 +30,10 @@ bun lint
 When adding new components:
 
 1. Create components in `src/components/`
-2. Export from `src/index.ts`
-3. Add documentation to `README.md`
-4. Update `CHANGELOG.md` with your changes
+2. Export from `src/index.ts` (files are built to `dist/` during build)
+3. Add styles to `src/styles/` if needed (CSS files are automatically copied to `dist/styles/` during build)
+4. Add documentation to `README.md`
+5. Update `CHANGELOG.md` with your changes
 
 ### Testing
 

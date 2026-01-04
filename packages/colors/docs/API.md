@@ -287,13 +287,15 @@ type SemanticDarkColors = typeof semanticDark;
 
 ## CSS Exports
 
+CSS files are built to `dist/styles/` during the build process and exported via package.json.
+
 ### `styles.css`
 
-CSS file containing color scale custom properties.
+CSS file containing color scale custom properties, built to `dist/styles/styles.css`.
 
 **Usage:**
 ```tsx
-import '@frontal/colors/styles/styles.css';
+import '@frontal/colors/styles.css';
 ```
 
 **Exports CSS variables:**
@@ -303,11 +305,11 @@ import '@frontal/colors/styles/styles.css';
 
 ### `theme.css`
 
-CSS file containing semantic color tokens.
+CSS file containing semantic color tokens, built to `dist/styles/theme.css`.
 
 **Usage:**
 ```tsx
-import '@frontal/colors/styles/theme.css';
+import '@frontal/colors/theme.css';
 ```
 
 **Exports CSS variables:**

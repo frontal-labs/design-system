@@ -194,21 +194,22 @@ All charts use icons from `@frontal/icons`:
 ### Building
 
 ```bash
-pnpm build
+bun run build
 ```
+
+The build process compiles TypeScript files to `dist/` and copies CSS files to `dist/styles/`.
 
 ### Testing
 
 ```bash
-pnpm test
-pnpm test:watch
-pnpm test:coverage
+bun test
+bun test --watch
 ```
 
 ### Type Checking
 
 ```bash
-pnpm type-check
+bun run type-check
 ```
 
 ### Linting

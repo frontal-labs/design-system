@@ -17,14 +17,29 @@ bun install @frontal/blocks
 ## Usage
 
 ```tsx
-import { /* components */ } from '@frontal/blocks';
+import { /* components */ } from '@frontal/components';
+import '@frontal/components/styles.css';
+```
+
+## Styles
+
+Import the component styles:
+
+```tsx
+import '@frontal/components/styles.css';
+```
+
+Or use the consolidated design system styles:
+
+```tsx
+import '@frontal/design-system/styles/globals.css';
 ```
 
 ## Development
 
 ```bash
 # Build the package
-pnpm build
+bun run build
 
 # Run tests
 pnpm test

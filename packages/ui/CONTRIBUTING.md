@@ -31,7 +31,7 @@ When adding new UI components:
 
 1. Create components in `src/components/`
 2. Export from `src/index.ts`
-3. Add styles to `src/styles/` if needed
+3. Add styles to `src/styles/` if needed (CSS files are automatically copied to `dist/styles/` during build)
 4. Add documentation to `README.md`
 5. Update `CHANGELOG.md` with your changes
 

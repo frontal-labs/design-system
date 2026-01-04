@@ -18,13 +18,28 @@ bun install @frontal/charts
 
 ```tsx
 import { /* chart components */ } from '@frontal/charts';
+import '@frontal/charts/styles.css';
+```
+
+## Styles
+
+Import the chart styles:
+
+```tsx
+import '@frontal/charts/styles.css';
+```
+
+Or use the consolidated design system styles:
+
+```tsx
+import '@frontal/design-system/styles/globals.css';
 ```
 
 ## Development
 
 ```bash
 # Build the package
-pnpm build
+bun run build
 
 # Run tests
 pnpm test

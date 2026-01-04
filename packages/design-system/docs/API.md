@@ -253,16 +253,20 @@ export * from '@frontal/ui';
 
 ### Style Export
 
-```typescript
-// styles/globals.css
-@import '@frontal/colors/styles/styles.css';
-@import '@frontal/colors/styles/theme.css';
-@import '@frontal/typeface/styles/fonts.css';
-@import '@frontal/typeface/styles/styles.css';
-@import '@frontal/ui/styles/styles.css';
-@import '@frontal/charts/styles/styles.css';
-@import '@frontal/blocks/styles/styles.css';
+The `styles/globals.css` file is built to `dist/styles/globals.css` and consolidates styles from all design system packages:
+
+```css
+/* dist/styles/globals.css */
+@import '@frontal/colors/styles.css';
+@import '@frontal/colors/theme.css';
+@import '@frontal/typeface/styles.css';
+@import '@frontal/typeface/fonts.css';
+@import '@frontal/ui/styles.css';
+@import '@frontal/charts/styles.css';
+@import '@frontal/blocks/styles.css';
 ```
+
+**Note:** CSS files are automatically copied to `dist/styles/` during the build process.
 
 ## Type Exports
 

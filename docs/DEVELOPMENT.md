@@ -6,9 +6,9 @@ This guide covers development workflows, best practices, and tooling for the Fro
 
 ### Prerequisites
 
-- Node.js >= 18
-- pnpm >= 8.0.0
-- Git
+- **Bun** >= 1.1.0 (recommended: 1.3.3)
+- **Node.js** >= 18 (optional, if not using Bun)
+- **Git**
 
 ### Initial Setup
 
@@ -18,10 +18,10 @@ git clone https://github.com/frontal-labs/design-system.git
 cd design-system
 
 # Install dependencies
-pnpm install
+bun install
 
 # Build all packages
-pnpm build
+bun run build
 ```
 
 ## Development Workflow
@@ -48,60 +48,65 @@ packages/
 
 ```bash
 # Watch mode for all packages
-pnpm dev
+bun run dev
 
 # Or for a specific package
 cd packages/ui
-pnpm dev
+bun run dev
 ```
 
 ### 4. Test Your Changes
 
 ```bash
 # Run all tests
-pnpm test
+bun run test
 
 # Run tests for a specific package
 cd packages/ui
-pnpm test
+bun run test
 
-# Watch mode
-pnpm test:watch
+# Watch mode (if available)
+cd packages/ui
+bun test --watch
 ```
 
 ### 5. Type Check
 
 ```bash
 # Type check all packages
-pnpm type-check
+bun run type-check
 
 # Type check specific package
 cd packages/ui
-pnpm type-check
+bun run type-check
 ```
 
 ### 6. Lint and Format
 
 ```bash
 # Check for issues
-pnpm check
+bun run lint
 
 # Auto-fix issues
-pnpm fix
+bun run lint:fix
 
 # Format code
-pnpm format
+bun run format
+
+# Spell check
+bun run spell
+bun run spell:fix
 ```
 
 ### 7. Build
 
 ```bash
 # Build all packages
-pnpm build
+bun run build
 
 # Build specific package
 cd packages/ui
-pnpm build
+bun run build
 ```
 
 ### 8. Commit Changes
@@ -140,7 +145,7 @@ Create a pull request on GitHub.
 
 2. **Write component**:
    ```tsx
-   import { cn } from "@frontal/shared";
+   import { cn } from "@frontal/ui/lib/utils";
    
    export function MyComponent({ className, ...props }) {
      return (
@@ -168,8 +173,8 @@ Create a pull request on GitHub.
 
 5. **Build and test**:
    ```bash
-   pnpm build
-   pnpm test
+   bun run build
+   bun run test
    ```
 
 ### Adding a New Package
@@ -182,7 +187,7 @@ Create a pull request on GitHub.
 
 2. **Initialize package**:
    ```bash
-   pnpm init
+   bun init
    ```
 
 3. **Set up structure**:
@@ -231,7 +236,7 @@ describe("Button", () => {
 
 ```bash
 # Generate coverage report
-pnpm test:coverage
+bun run test:coverage
 
 # View coverage
 open coverage/index.html
@@ -245,24 +250,24 @@ We use **Biome** for linting:
 
 ```bash
 # Check for issues
-pnpm check
+bun run check
 
 # Auto-fix
-pnpm fix
+bun run check:fix
 ```
 
 ### Type Checking
 
 ```bash
 # Type check
-pnpm type-check
+bun run type-check
 ```
 
 ### Formatting
 
 ```bash
 # Format code
-pnpm format
+bun run format
 ```
 
 ## Storybook
@@ -270,8 +275,8 @@ pnpm format
 ### Running Storybook
 
 ```bash
-cd storybook
-pnpm dev
+cd apps/storybook
+bun run dev
 ```
 
 ### Writing Stories
@@ -297,21 +302,20 @@ export const Default: Story = {
 
 ## Build System
 
-### Rollup Configuration
+### tsup Configuration
 
-Each package has a `rollup.config.js`:
+Each package uses `tsup` for bundling (configured in `package.json` or `tsup.config.ts`):
 
-```js
-import typescript from "@rollup/plugin-typescript";
+```ts
+import { defineConfig } from "tsup";
 
-export default {
-  input: "src/index.ts",
-  output: [
-    { file: "dist/index.js", format: "es" },
-    { file: "dist/index.cjs", format: "cjs" },
-  ],
-  plugins: [typescript()],
-};
+export default defineConfig({
+  entry: ["src/index.ts"],
+  format: ["esm", "cjs"],
+  dts: true,
+  sourcemap: true,
+  clean: true,
+});
 ```
 
 ### Build Output
@@ -321,7 +325,7 @@ dist/
 ├── index.js        # ESM bundle
 ├── index.cjs       # CJS bundle
 ├── index.d.ts      # TypeScript definitions
-└── ...
+└── index.js.map    # Source maps
 ```
 
 ## Debugging
@@ -355,28 +359,35 @@ node --inspect-brk node_modules/.bin/vitest
 ```bash
 # Add to specific package
 cd packages/ui
-pnpm add package-name
+bun add package-name
 
 # Add dev dependency
-pnpm add -D package-name
+cd packages/ui
+bun add -d package-name
+
+# Add to root (workspace-wide)
+bun add -d package-name
 ```
 
 ### Updating Dependencies
 
 ```bash
 # Update all dependencies
-pnpm bump-deps
+bun update
+
+# Update specific package
+bun update package-name
 ```
 
 ### Cleaning Build Artifacts
 
 ```bash
 # Clean all
-pnpm clean
+bun run clean
 
 # Clean specific package
 cd packages/ui
-pnpm clean
+bun run clean
 ```
 
 ## Best Practices
@@ -396,18 +407,20 @@ pnpm clean
 
 ```bash
 # Clean and rebuild
-pnpm clean
-pnpm install
-pnpm build
+bun run clean
+bun install
+bun run build
 ```
 
 ### Type Errors
 
 ```bash
 # Regenerate types
-pnpm type-check
+bun run type-check
 
 # Clear TypeScript cache
+find . -name "tsconfig.tsbuildinfo" -delete
+# or
 rm -rf **/tsconfig.tsbuildinfo
 ```
 
@@ -416,7 +429,18 @@ rm -rf **/tsconfig.tsbuildinfo
 ```bash
 # Clear test cache
 rm -rf node_modules/.cache
-pnpm test
+bun run test
+```
+
+### Module Resolution Issues
+
+```bash
+# Reinstall dependencies
+bun install
+
+# Clear Bun cache
+rm -rf node_modules/.bun
+bun install
 ```
 
 ## Resources

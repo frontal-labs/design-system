@@ -15,19 +15,19 @@ This directory contains example applications demonstrating the Frontal Design Sy
 
 ## Features
 
-### 🎨 Enhanced UI/UX
+### Enhanced UI/UX
 - **Theme Switching**: Dark/light mode with system preference detection
 - **Responsive Design**: Mobile-first approach with breakpoints
 - **Smooth Transitions**: Hover effects, animations, and micro-interactions
 - **Modern Layout**: Sticky navigation, hero sections, and card-based design
 
-### 📊 Interactive Dashboard
+### Interactive Dashboard
 - **Real-time Charts**: Line charts, bar charts with Recharts
 - **Data Tables**: Sortable and filterable tables with status badges
 - **Performance Metrics**: Progress bars and analytics displays
 - **Activity Feeds**: Recent activity tracking with timestamps
 
-### 🛠 Advanced Components
+### Advanced Components
 - **Form Validation**: React Hook Form + Zod integration
 - **Navigation System**: Responsive sidebar with user profile
 - **Toast Notifications**: Sonner integration for user feedback

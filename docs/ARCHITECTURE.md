@@ -4,21 +4,34 @@ This document describes the architecture and design decisions of the Frontal Des
 
 ## Monorepo Structure
 
-The design system is organized as a monorepo using **Turborepo** and **pnpm workspaces**. This allows us to:
+The design system is organized as a monorepo using **Turborepo** and **Bun workspaces**. This allows us to:
 
 - Share code between packages efficiently
 - Maintain consistent versions across packages
 - Build packages in parallel
 - Manage dependencies centrally
+- Fast package installation and execution
 
 ### Workspace Configuration
 
-```yaml
-# pnpm-workspace.yaml
-packages:
-  - "packages/*"
-  - "storybook"
+```json
+{
+  "workspaces": [
+    "apps/*",
+    "example/*",
+    "internal/*",
+    "packages/*",
+    "tools/*"
+  ]
+}
 ```
+
+Workspaces are configured in `package.json` and include:
+- `apps/*` - Applications (Storybook)
+- `packages/*` - Design system packages
+- `internal/*` - Internal tooling packages
+- `tools/*` - Development tools
+- `example/*` - Example applications
 
 ## Package Architecture
 
@@ -27,17 +40,15 @@ packages:
 ```
 @frontal/design-system (core)
   ├── @frontal/ui
-  │   ├── @frontal/primitives
   │   ├── @frontal/icons
-  │   └── @frontal/shared
+  │   └── @frontal/components
   ├── @frontal/blocks
   │   └── @frontal/icons
   ├── @frontal/charts
   │   └── @frontal/icons
   ├── @frontal/colors
   ├── @frontal/typeface
-  ├── @frontal/primitives
-  └── @frontal/shared
+  └── @frontal/components
 ```
 
 ### Package Responsibilities
@@ -51,7 +62,7 @@ packages:
 #### @frontal/ui
 - **Purpose**: Base UI components
 - **Components**: 70+ components (Button, Card, Input, etc.)
-- **Dependencies**: Primitives, Icons, Shared
+- **Dependencies**: Icons, Components
 - **Usage**: Individual component imports
 
 #### @frontal/blocks
@@ -89,37 +100,48 @@ packages:
 - **Dependencies**: None
 - **Usage**: Building blocks for UI components
 
-#### @frontal/shared
-- **Purpose**: Shared utilities and hooks
+#### @frontal/components
+- **Purpose**: Shared component utilities and hooks
 - **Exports**: Utilities, hooks, helpers
-- **Dependencies**: None
+- **Dependencies**: Icons
 - **Usage**: Shared functionality
 
 ## Build System
 
-### Rollup Configuration
+### Build Tools
 
-Each package uses **Rollup** for bundling:
+The monorepo uses **Turborepo** for task orchestration and **tsup** for bundling:
 
-- **Input**: TypeScript source files
-- **Output**: ESM and CJS formats
-- **Plugins**:
-  - TypeScript compilation
-  - SWC for fast compilation
-  - CommonJS support
-  - Node resolution
+- **Turborepo**: Manages parallel builds, caching, and task dependencies
+- **tsup**: Fast TypeScript bundler based on esbuild
+- **TypeScript**: Type checking and compilation
+- **Bun**: Package manager and runtime
 
 ### Build Pipeline
 
 ```
 Source (TypeScript)
   ↓
-TypeScript Compilation
+TypeScript Type Checking
   ↓
-Rollup Bundling
+tsup Bundling (esbuild)
   ↓
-Output (ESM + CJS)
+Output (ESM + CJS + Types)
 ```
+
+### Build Configuration
+
+Each package uses `tsup` for bundling:
+
+- **Input**: TypeScript source files (`src/index.ts`)
+- **Output**: 
+  - ESM format (`dist/index.js`)
+  - CJS format (`dist/index.cjs`)
+  - TypeScript definitions (`dist/index.d.ts`)
+- **Features**:
+  - Tree-shaking enabled
+  - Minification in production
+  - Source maps for debugging
 
 ## Styling Architecture
 
@@ -192,9 +214,10 @@ tests/
 ### Quality Checks
 
 ```bash
-pnpm check      # Lint and type check
-pnpm fix        # Auto-fix issues
-pnpm format     # Format code
+bun run check      # Lint and type check
+bun run lint:fix   # Auto-fix linting issues
+bun run format     # Format code
+bun run spell      # Spell check
 ```
 
 ## Development Tools
