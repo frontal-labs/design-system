@@ -12,7 +12,6 @@
 		"incremental": false,
 		"paths": {
 			"@/*": ["./src/*"],
-			"@frontal/*": ["../../*"],
 			"@frontal/typeface/*": ["./src/*"]
 		}
 	},

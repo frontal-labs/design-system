@@ -12,9 +12,8 @@
 		"incremental": false,
 		"paths": {
 			"@/*": ["./src/*"],
-			"@frontal/icons": ["../icons/src/index.ts"],
-			"@frontal/*": ["../../*/src", "../../*"],
-			"@frontal/components/*": ["./src/*"]
+			"@frontal/components/*": ["./src/*"],
+			"@frontal/icons": ["../icons/src/index.ts"]
 		}
 	},
 	"include": ["src/**/*.ts", "src/**/*.tsx"],

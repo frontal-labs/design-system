@@ -14,20 +14,8 @@
 		"lib": ["ES2022", "DOM", "DOM.Iterable"],
 		"paths": {
 			"@/*": ["./src/*"],
-			"@frontal/*": [
-				"../../*",
-				"../../*/src",
-				"../../../internals/*",
-				"../../../internals/*/src",
-				"../../services/*",
-				"../../services/*/src",
-				"../../testing/*",
-				"../../testing/*/src",
-				"../../pipelines/*",
-				"../../pipelines/*/src"
-			],
 			"@frontal/ui/*": ["./src/*"],
-			"@frontal/ui/components/*": ["./src/components/*"]
+			"@frontal/icons": ["../icons/src/index.ts"]
 		}
 	},
 	"include": ["src/**/*.ts", "src/**/*.tsx"],

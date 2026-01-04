@@ -13,15 +13,7 @@
 		"composite": false,
 		"lib": ["ES2022", "DOM", "DOM.Iterable"],
 		"paths": {
-			"@/*": ["./src/*"],
-			"@frontal/blocks": ["../blocks/src/index.ts"],
-			"@frontal/charts": ["../charts/src/index.ts"],
-			"@frontal/colors": ["../colors/src/index.ts"],
-			"@frontal/components": ["../components/src/index.ts"],
-			"@frontal/icons": ["../icons/src/index.ts"],
-			"@frontal/typeface": ["../typeface/src/index.ts"],
-			"@frontal/ui": ["../ui/src/index.ts"],
-			"@frontal/*": ["../../*/src", "../../*"]
+			"@/*": ["./src/*"]
 		}
 	},
 	"include": ["src/**/*.ts", "src/**/*.tsx"],

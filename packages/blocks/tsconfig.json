@@ -12,17 +12,9 @@
 		"incremental": false,
 		"paths": {
 			"@/*": ["./src/*"],
+			"@frontal/blocks/*": ["./src/components/*"],
 			"@frontal/icons": ["../icons/src/index.ts"],
-			"@frontal/ui": ["../ui/src/index.ts"],
-			"@frontal/*": [
-				"../../*/src",
-				"../../*",
-				"../../../internals/*",
-				"../../services/*",
-				"../../testing/*",
-				"../../pipelines/*"
-			],
-			"@frontal/blocks/*": ["./src/components/*"]
+			"@frontal/ui": ["../ui/src/index.ts"]
 		}
 	},
 	"include": ["src/**/*.ts", "src/**/*.tsx"],
