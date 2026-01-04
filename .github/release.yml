@@ -1,0 +1,57 @@
+changelog:
+  exclude:
+    labels:
+      - ignore-for-release
+    authors:
+      - dependabot
+      - renovate
+  categories:
+    - title: Breaking Changes 🚨
+      labels:
+        - Semver-Major
+        - breaking-change
+    - title: Features 🎉
+      labels:
+        - enhancement
+        - feature
+        - Semver-Minor
+    - title: Bug Fixes 🐛
+      labels:
+        - bug
+        - Semver-Patch
+    - title: Performance Improvements ⚡
+      labels:
+        - performance
+    - title: Documentation 📚
+      labels:
+        - documentation
+        - docs
+    - title: Infrastructure 🔧
+      labels:
+        - infrastructure
+        - terraform
+        - helm
+        - kubernetes
+    - title: Dependencies 📦
+      labels:
+        - dependencies
+        - dependabot
+        - renovate
+    - title: Security 🔒
+      labels:
+        - security
+    - title: Compliance ✅
+      labels:
+        - compliance
+        - gdpr
+        - pci
+        - iso27001
+        - soc2
+    - title: Testing 🧪
+      labels:
+        - testing
+        - test
+    - title: Other Changes
+      labels:
+        - "*"
+

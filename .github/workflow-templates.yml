@@ -1,0 +1,97 @@
+# GitHub Actions Workflow Templates
+# This file documents common workflow patterns for reference
+
+# =============================================================================
+# Basic Workflow Template
+# =============================================================================
+# name: Workflow Name
+# 
+# on:
+#   push:
+#     branches: [main, develop]
+#   pull_request:
+#     branches: [main, develop]
+#   workflow_dispatch:
+# 
+# jobs:
+#   job-name:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v5
+#       - uses: oven-sh/setup-bun@v2
+#       - run: bun install
+#       - run: bun run lint
+#       - run: bun run test
+#       - run: bun run build
+
+# =============================================================================
+# Matrix Strategy Template
+# =============================================================================
+# jobs:
+#   test:
+#     runs-on: ubuntu-latest
+#     strategy:
+#       fail-fast: false
+#       matrix:
+#         node-version: [18, 20, 22]
+#         os: [ubuntu-latest, windows-latest, macos-latest]
+#     steps:
+#       - uses: actions/checkout@v5
+#       - uses: actions/setup-node@v5
+#         with:
+#           node-version: ${{ matrix.node-version }}
+
+# =============================================================================
+# Conditional Execution Template
+# =============================================================================
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
+#     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+#     steps:
+#       - name: Deploy
+#         run: echo "Deploying..."
+
+# =============================================================================
+# Caching Template
+# =============================================================================
+# - name: Cache dependencies
+#   uses: actions/cache@v4
+#   with:
+#     path: |
+#       node_modules
+#       ~/.bun/install/cache
+#     key: ${{ runner.os }}-deps-${{ hashFiles('**/bun.lock') }}
+#     restore-keys: |
+#       ${{ runner.os }}-deps-
+
+# =============================================================================
+# Artifact Upload Template
+# =============================================================================
+# - name: Upload artifacts
+#   uses: actions/upload-artifact@v4
+#   with:
+#     name: build-artifacts
+#     path: dist/
+#     retention-days: 7
+
+# =============================================================================
+# Secret Usage Template
+# =============================================================================
+# - name: Use secret
+#   env:
+#     SECRET_VALUE: ${{ secrets.SECRET_NAME }}
+#   run: echo "Using secret..."
+
+# =============================================================================
+# Environment Protection Template
+# =============================================================================
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
+#     environment:
+#       name: production
+#     steps:
+#       - name: Deploy
+#         run: echo "Deploying to production..."
+

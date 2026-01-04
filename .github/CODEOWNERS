@@ -1,0 +1,27 @@
+# Code ownership rules for the monorepo
+# See: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Root configuration files
+/package.json
+/biome.jsonc
+/turbo.json
+/tsconfig.json
+
+# Documentation
+/docs/ @docs-team @platform-team
+
+# CI/CD
+/.github/ @platform-team @devops-team
+
+# Internal libraries
+/internal/ @platform-team @devops-team
+
+# Tools and generators
+/tools/ @platform-team @devops-team
+
+# Applications
+/apps/ @platform-team @devops-team
+
+# Packages
+/packages/ @platform-team @devops-team
+

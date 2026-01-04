@@ -1,0 +1,131 @@
+# GitHub Labels configuration
+# This file defines labels for the repository
+
+- name: bug
+  color: d73a4a
+  description: Something isn't working
+
+- name: enhancement
+  color: a2eeef
+  description: New feature or request
+
+- name: documentation
+  color: 0075ca
+  description: Improvements or additions to documentation
+
+- name: question
+  color: d876e3
+  description: Further information is requested
+
+- name: performance
+  color: fbca04
+  description: Performance improvements
+
+- name: security
+  color: ee0701
+  description: Security vulnerability or fix
+
+- name: breaking-change
+  color: b60205
+  description: Breaking change that requires migration
+
+- name: dependencies
+  color: 0366d6
+  description: Dependency updates
+
+- name: automated
+  color: 1d76db
+  description: Automated changes (Dependabot, etc.)
+
+- name: github-actions
+  color: 2088ff
+  description: GitHub Actions updates
+
+- name: python
+  color: 3776ab
+  description: Python-related changes
+
+- name: go
+  color: 00add8
+  description: Go-related changes
+
+- name: rust
+  color: ce412b
+  description: Rust-related changes
+
+- name: typescript
+  color: 3178c6
+  description: TypeScript/JavaScript changes
+
+- name: services
+  color: 0e8a16
+  description: Service-related changes
+
+- name: apps
+  color: 0e8a16
+  description: Application-related changes
+
+- name: packages
+  color: 0e8a16
+  description: Package-related changes
+
+- name: core
+  color: 5319e7
+  description: Core SDK changes
+
+- name: internals
+  color: 5319e7
+  description: Internal library changes
+
+- name: tools
+  color: f9d0c4
+  description: Tooling and generator changes
+
+- name: infrastructure
+  color: f9d0c4
+  description: Infrastructure changes
+
+- name: ci
+  color: f9d0c4
+  description: CI/CD changes
+
+- name: testing
+  color: f9d0c4
+  description: Testing changes
+
+- name: stale
+  color: 93c5fd
+  description: Stale issue or PR
+
+- name: work-in-progress
+  color: fbca04
+  description: Work in progress
+
+- name: needs-review
+  color: 0e8a16
+  description: Ready for review
+
+- name: blocked
+  color: b60205
+  description: Blocked by another issue
+
+- name: good-first-issue
+  color: 7057ff
+  description: Good for newcomers
+
+- name: help-wanted
+  color: 008672
+  description: Extra attention is needed
+
+- name: priority-high
+  color: b60205
+  description: High priority
+
+- name: priority-medium
+  color: fbca04
+  description: Medium priority
+
+- name: priority-low
+  color: 0e8a16
+  description: Low priority
+

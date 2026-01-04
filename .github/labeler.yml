@@ -1,0 +1,98 @@
+# Labeler configuration for auto-labeling PRs and issues based on changed files
+
+# Services
+services:
+  - services/**/*
+
+# Applications
+apps:
+  - apps/**/*
+
+# Packages
+packages:
+  - packages/**/*
+
+# Core SDKs
+core:
+  - core/**/*
+
+# Internal libraries
+internals:
+  - internals/**/*
+
+# Tools
+tools:
+  - tools/**/*
+
+# Infrastructure
+infrastructure:
+  - infra/**/*
+
+# Documentation
+documentation:
+  - docs/**/*
+  - '*.md'
+  - '**/*.md'
+
+# CI/CD
+ci:
+  - '.github/**/*'
+  - 'ci/**/*'
+
+# Testing
+testing:
+  - testing/**/*
+
+# Security
+security:
+  - security/**/*
+
+# Compliance
+compliance:
+  - compliance/**/*
+
+# TypeScript/JavaScript
+typescript:
+  - '**/*.ts'
+  - '**/*.tsx'
+  - '**/*.js'
+  - '**/*.jsx'
+
+# Python
+python:
+  - '**/*.py'
+  - '**/pyproject.toml'
+  - '**/poetry.lock'
+
+# Go
+go:
+  - '**/*.go'
+  - '**/go.mod'
+  - '**/go.sum'
+
+# Rust
+rust:
+  - '**/*.rs'
+  - '**/Cargo.toml'
+  - '**/Cargo.lock'
+
+# Configuration
+config:
+  - '**/*.json'
+  - '**/*.jsonc'
+  - '**/*.yml'
+  - '**/*.yaml'
+  - '**/*.toml'
+  - '**/.editorconfig'
+  - '**/.gitignore'
+  - '**/.npmrc'
+  - '**/package.json'
+  - '**/pnpm-workspace.yaml'
+  - '**/nx.json'
+  - '**/tsconfig*.json'
+  - '**/biome.jsonc'
+
+# Breaking changes
+breaking:
+  - Any change to core SDKs or public APIs
+
