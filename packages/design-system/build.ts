@@ -16,13 +16,15 @@ async function build() {
 	);
 
 	// Build ESM format
+	// Bundle @frontal/* packages but keep React and other runtime deps external
 	const esmResult = await Bun.build({
 		entrypoints: [entrypoint],
 		outfile: "./dist/index.js",
 		format: "esm",
 		target: "bun",
 		sourcemap: "linked",
-		packages: "external",
+		packages: "bundle", // Bundle all @frontal/* dependencies
+		external: ["react", "react-dom", "react/jsx-runtime"], // Keep React external (peer dependency)
 		minify,
 	});
 
@@ -41,13 +43,15 @@ async function build() {
 	}
 
 	// Build CJS format
+	// Bundle @frontal/* packages but keep React and other runtime deps external
 	const cjsResult = await Bun.build({
 		entrypoints: [entrypoint],
 		outfile: "./dist/index.cjs",
 		format: "cjs",
 		target: "bun",
 		sourcemap: "linked",
-		packages: "external",
+		packages: "bundle", // Bundle all @frontal/* dependencies
+		external: ["react", "react-dom", "react/jsx-runtime"], // Keep React external (peer dependency)
 		minify,
 	});
 
