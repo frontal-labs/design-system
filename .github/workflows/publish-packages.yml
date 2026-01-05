@@ -103,8 +103,8 @@ jobs:
           echo "@frontal:registry=https://npm.pkg.github.com" > .npmrc
           npm config set //npm.pkg.github.com/:_authToken $NODE_AUTH_TOKEN
           
-          # Publish
-          npm publish --registry=https://npm.pkg.github.com
+          # Publish (skip scripts since package is already built)
+          npm publish --registry=https://npm.pkg.github.com --ignore-scripts
 
       - name: Verify publication
         run: |
