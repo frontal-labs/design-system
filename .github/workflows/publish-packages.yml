@@ -85,17 +85,26 @@ jobs:
 
       - name: Publish to GitHub Packages
         if: steps.check-version.outputs.exists != 'true'
-        working-directory: packages/design-system
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ -n "${{ github.event.inputs.version }}" ]; then
+            cd packages/design-system
             npm version ${{ github.event.inputs.version }} --no-git-tag-version
           fi
-          # Configure npm to use the token
+          
+          # Publish from a temporary directory to avoid workspace detection
+          TEMP_DIR=$(mktemp -d)
+          cp packages/design-system/package.json "$TEMP_DIR/"
+          cp -r packages/design-system/dist "$TEMP_DIR/"
+          cd "$TEMP_DIR"
+          
+          # Configure npm for GitHub Packages
+          echo "@frontal:registry=https://npm.pkg.github.com" > .npmrc
           npm config set //npm.pkg.github.com/:_authToken $NODE_AUTH_TOKEN
-          # Use --no-workspaces to avoid workspace detection issues
-          npm publish --registry=https://npm.pkg.github.com --no-workspaces
+          
+          # Publish
+          npm publish --registry=https://npm.pkg.github.com
 
       - name: Verify publication
         run: |
