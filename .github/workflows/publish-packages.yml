@@ -94,7 +94,8 @@ jobs:
           fi
           # Configure npm to use the token
           npm config set //npm.pkg.github.com/:_authToken $NODE_AUTH_TOKEN
-          npm publish --registry=https://npm.pkg.github.com
+          # Use --no-workspaces to avoid workspace detection issues
+          npm publish --registry=https://npm.pkg.github.com --no-workspaces
 
       - name: Verify publication
         run: |
