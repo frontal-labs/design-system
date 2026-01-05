@@ -99,6 +99,18 @@ jobs:
           cp -r packages/design-system/dist "$TEMP_DIR/"
           cd "$TEMP_DIR"
           
+          # Ensure package.json has publishConfig with registry
+          # GitHub Packages will publish under the organization that owns the repository
+          node -e "
+            const fs = require('fs');
+            const pkg = JSON.parse(fs.readFileSync('package.json', 'utf8'));
+            pkg.publishConfig = {
+              registry: 'https://npm.pkg.github.com',
+              '@frontal:registry': 'https://npm.pkg.github.com'
+            };
+            fs.writeFileSync('package.json', JSON.stringify(pkg, null, 2));
+          "
+          
           # Configure npm for GitHub Packages
           echo "@frontal:registry=https://npm.pkg.github.com" > .npmrc
           npm config set //npm.pkg.github.com/:_authToken $NODE_AUTH_TOKEN
