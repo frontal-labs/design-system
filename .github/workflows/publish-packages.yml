@@ -106,16 +106,15 @@ jobs:
             const fs = require('fs');
             const pkg = JSON.parse(fs.readFileSync('package.json', 'utf8'));
             pkg.publishConfig = {
-              registry: 'https://npm.pkg.github.com'
+              registry: 'https://npm.pkg.github.com',
+              '@frontal:registry': 'https://npm.pkg.github.com'
             };
-            // Ensure repository field is set correctly
-            if (!pkg.repository) {
-              pkg.repository = {
-                type: 'git',
-                url: 'git+https://github.com/frontal-labs/design-system.git',
-                directory: 'packages/design-system'
-              };
-            }
+            // Ensure repository field is set correctly - this links the package to the repo
+            pkg.repository = {
+              type: 'git',
+              url: 'git+https://github.com/frontal-labs/design-system.git',
+              directory: 'packages/design-system'
+            };
             fs.writeFileSync('package.json', JSON.stringify(pkg, null, 2));
           "
           
@@ -123,14 +122,8 @@ jobs:
           echo "@frontal:registry=https://npm.pkg.github.com" > .npmrc
           npm config set //npm.pkg.github.com/:_authToken $NODE_AUTH_TOKEN
           
-          # Try to create package via API first (if it doesn't exist)
-          # This helps ensure the package installation exists
-          curl -X POST \
-            -H "Authorization: token $GITHUB_TOKEN" \
-            -H "Accept: application/vnd.github.v3+json" \
-            "https://api.github.com/orgs/frontal-labs/packages/npm/@frontal/design-system" \
-            -d '{"visibility":"private"}' \
-            2>/dev/null || echo "Package may already exist or creation not needed"
+          # Note: GitHub Packages creates packages automatically on first publish
+          # The repository field in package.json links the package to the repository
           
           # Publish (skip scripts since package is already built)
           npm publish --registry=https://npm.pkg.github.com --ignore-scripts
