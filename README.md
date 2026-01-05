@@ -101,7 +101,6 @@ The Frontal design system is organized into multiple packages:
 - **@frontal/ui**: Base UI components
 - **@frontal/colors**: Color system
 - **@frontal/typeface**: Typography and fonts
-- **@frontal/components**: Additional component utilities and shared hooks
 
 ## Available Components
 

@@ -15,8 +15,7 @@ The design system is organized into multiple focused packages, each serving a sp
   ├── @frontal/charts
   │   └── @frontal/icons
   ├── @frontal/colors
-  ├── @frontal/typeface
-  └── @frontal/components
+  └── @frontal/typeface
 ```
 
 ## Core Packages
@@ -242,25 +241,6 @@ import "@frontal/design-system/styles/globals.css"; // includes typeface
 
 ---
 
-### @frontal/components
-
-**Purpose**: Additional component utilities
-
-**Description**: Provides additional component utilities and helpers.
-
-**Usage**:
-
-```tsx
-import { ... } from "@frontal/components";
-```
-
-**Dependencies**: Various
-
-**Location**: `packages/components/`
-
-**Documentation**: See `packages/components/docs/README.md`
-
-
 ## Internal Packages
 
 ### @frontal/next-config
@@ -316,8 +296,7 @@ import { config } from "@frontal/next-config";
   ├── @frontal/charts
   │   └── @frontal/icons
   ├── @frontal/colors
-  ├── @frontal/typeface
-  └── @frontal/components
+  └── @frontal/typeface
 ```
 
 ### Workspace Dependencies

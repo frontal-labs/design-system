@@ -9,7 +9,6 @@ The `@frontal/design-system` package is a centralized barrel package that re-exp
 - `@frontal/blocks`
 - `@frontal/charts`
 - `@frontal/colors`
-- `@frontal/components`
 - `@frontal/icons`
 - `@frontal/typeface`
 - `@frontal/ui`
@@ -77,14 +76,6 @@ export type {
 
 // Utilities
 export { getColor, getScale, getAllScales, toCSSVar } from '@frontal/colors';
-```
-
-### @frontal/components
-
-Components and hooks (currently minimal exports):
-
-```typescript
-// Components and hooks available when exported
 ```
 
 ### @frontal/icons
@@ -340,7 +331,6 @@ import { Button, gray } from '@frontal/design-system';
     "@frontal/blocks": "workspace:*",
     "@frontal/charts": "workspace:*",
     "@frontal/colors": "workspace:*",
-    "@frontal/components": "workspace:*",
     "@frontal/icons": "workspace:*",
     "@frontal/typeface": "workspace:*",
     "@frontal/ui": "workspace:*"

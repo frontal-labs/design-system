@@ -62,7 +62,6 @@ The `@frontal/design-system` package is a barrel package that re-exports from:
 - `@frontal/blocks` - Pre-built UI blocks
 - `@frontal/charts` - Chart components
 - `@frontal/colors` - Color system
-- `@frontal/components` - UI components
 - `@frontal/icons` - Icon library
 - `@frontal/typeface` - Typography
 - `@frontal/ui` - UI component library

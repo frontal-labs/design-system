@@ -133,8 +133,6 @@ export {
 	toCSSVar,
 };
 
-// Export components
-// Components package has no exports currently
 
 // Export icons
 // Since icons has 1600+ exports, we import everything and re-export via namespace

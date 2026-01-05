@@ -92,8 +92,7 @@ design-system/
 │   ├── charts/             # Chart and data visualization components
 │   ├── icons/              # Icon library (1800+ icons)
 │   ├── colors/             # Color system and design tokens
-│   ├── typeface/           # Typography and font system
-│   └── components/         # Additional components and utilities
+│   └── typeface/           # Typography and font system
 ├── internal/               # Internal tooling packages
 │   ├── next-config/        # Next.js configuration utilities
 │   └── typescript-config/  # TypeScript configuration presets
@@ -118,7 +117,6 @@ design-system/
 
 - **[@frontal/colors](./PACKAGES.md#frontalcolors)** - Color system and design tokens
 - **[@frontal/typeface](./PACKAGES.md#frontaltypeface)** - Typography and font system
-- **[@frontal/components](./PACKAGES.md#frontalcomponents)** - Additional component utilities and shared hooks
 
 See [Packages Documentation](./PACKAGES.md) for detailed information about each package.
 

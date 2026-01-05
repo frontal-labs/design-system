@@ -251,7 +251,6 @@
 		"**/package-lock.json",
 		"**/yarn.lock",
 		"**/pnpm-lock.yaml",
-		"packages/components/coverage/**",
 		"**/storybook-static/**"
 	],
 	"dictionaries": ["typescript", "node", "npm", "html", "css", "bash"]

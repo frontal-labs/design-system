@@ -40,15 +40,13 @@ Workspaces are configured in `package.json` and include:
 ```
 @frontal/design-system (core)
   ├── @frontal/ui
-  │   ├── @frontal/icons
-  │   └── @frontal/components
+  │   └── @frontal/icons
   ├── @frontal/blocks
   │   └── @frontal/icons
   ├── @frontal/charts
   │   └── @frontal/icons
   ├── @frontal/colors
-  ├── @frontal/typeface
-  └── @frontal/components
+  └── @frontal/typeface
 ```
 
 ### Package Responsibilities
@@ -100,11 +98,6 @@ Workspaces are configured in `package.json` and include:
 - **Dependencies**: None
 - **Usage**: Building blocks for UI components
 
-#### @frontal/components
-- **Purpose**: Shared component utilities and hooks
-- **Exports**: Utilities, hooks, helpers
-- **Dependencies**: Icons
-- **Usage**: Shared functionality
 
 ## Build System
 

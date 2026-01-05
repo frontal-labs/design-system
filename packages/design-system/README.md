@@ -29,7 +29,6 @@ This package re-exports all exports from:
 - `@frontal/blocks` - UI blocks and components
 - `@frontal/charts` - Chart and visualization components
 - `@frontal/colors` - Color system and utilities
-- `@frontal/components` - UI components
 - `@frontal/icons` - Icon library
 - `@frontal/typeface` - Typeface and fonts
 - `@frontal/ui` - UI component library
