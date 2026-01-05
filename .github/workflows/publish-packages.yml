@@ -99,15 +99,22 @@ jobs:
           cp -r packages/design-system/dist "$TEMP_DIR/"
           cd "$TEMP_DIR"
           
-          # Ensure package.json has publishConfig with registry
+          # Ensure package.json has correct publishConfig and repository
           # GitHub Packages will publish under the organization that owns the repository
           node -e "
             const fs = require('fs');
             const pkg = JSON.parse(fs.readFileSync('package.json', 'utf8'));
             pkg.publishConfig = {
-              registry: 'https://npm.pkg.github.com',
-              '@frontal:registry': 'https://npm.pkg.github.com'
+              registry: 'https://npm.pkg.github.com'
             };
+            // Ensure repository field is set correctly
+            if (!pkg.repository) {
+              pkg.repository = {
+                type: 'git',
+                url: 'git+https://github.com/frontal-labs/design-system.git',
+                directory: 'packages/design-system'
+              };
+            }
             fs.writeFileSync('package.json', JSON.stringify(pkg, null, 2));
           "
           
