@@ -87,6 +87,7 @@ jobs:
         if: steps.check-version.outputs.exists != 'true'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ -n "${{ github.event.inputs.version }}" ]; then
             cd packages/design-system
@@ -121,6 +122,15 @@ jobs:
           # Configure npm for GitHub Packages
           echo "@frontal:registry=https://npm.pkg.github.com" > .npmrc
           npm config set //npm.pkg.github.com/:_authToken $NODE_AUTH_TOKEN
+          
+          # Try to create package via API first (if it doesn't exist)
+          # This helps ensure the package installation exists
+          curl -X POST \
+            -H "Authorization: token $GITHUB_TOKEN" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/orgs/frontal-labs/packages/npm/@frontal/design-system" \
+            -d '{"visibility":"private"}' \
+            2>/dev/null || echo "Package may already exist or creation not needed"
           
           # Publish (skip scripts since package is already built)
           npm publish --registry=https://npm.pkg.github.com --ignore-scripts
