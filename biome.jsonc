@@ -1,6 +1,6 @@
 {
 	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-	"extends": ["@frontal/style-guide/react.json"],
+	"extends": ["@frontal/style-guide/core.json"],
 	"files": {
 		"includes": ["**/*"]
 	},
@@ -21,6 +21,16 @@
 				"rules": {
 					"suspicious": {
 						"noDuplicateCustomProperties": "off"
+					}
+				}
+			}
+		},
+		{
+			"includes": ["**/scripts/**/*.js"],
+			"linter": {
+				"rules": {
+					"performance": {
+						"useTopLevelRegex": "off"
 					}
 				}
 			}

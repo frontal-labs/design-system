@@ -229,7 +229,9 @@
 		"behaviour",
 		"livescript",
 		"stringifier",
-		"jsxs"
+		"jsxs",
+		"fumadocs",
+		"Fumadocs"
 	],
 	"ignoreWords": [
 		"cbranch",
