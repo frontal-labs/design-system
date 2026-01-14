@@ -1,9 +1,0 @@
-import type { Hono } from "hono";
-import { healthRoutes } from "./health";
-
-export function registerRoutes(app: Hono): void {
-  // Health check
-  app.route("/health", healthRoutes);
-
-  // TODO: Add more routes here
-}

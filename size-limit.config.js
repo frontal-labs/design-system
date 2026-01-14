@@ -1,32 +1,32 @@
 /** @type {import('size-limit').Config} */
 export default [
 	{
-		name: "@frontal/ui",
+		name: "@frontal-ds/ui",
 		path: "packages/ui/dist/index.js",
 		limit: "150 KB",
 	},
 	{
-		name: "@frontal/blocks",
+		name: "@frontal-ds/blocks",
 		path: "packages/blocks/dist/index.js",
 		limit: "200 KB",
 	},
 	{
-		name: "@frontal/charts",
+		name: "@frontal-ds/charts",
 		path: "packages/charts/dist/index.js",
 		limit: "100 KB",
 	},
 	{
-		name: "@frontal/icons",
+		name: "@frontal-ds/icons",
 		path: "packages/icons/dist/index.js",
 		limit: "500 KB",
 	},
 	{
-		name: "@frontal/colors",
+		name: "@frontal-ds/colors",
 		path: "packages/colors/dist/index.js",
 		limit: "50 KB",
 	},
 	{
-		name: "@frontal/typeface",
+		name: "@frontal-ds/typeface",
 		path: "packages/typeface/dist/index.js",
 		limit: "30 KB",
 	},
