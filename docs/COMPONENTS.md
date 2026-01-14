@@ -10,23 +10,23 @@ Form components for user input and data collection.
 
 | Component | Description | Package |
 |-----------|-------------|---------|
-| `Input` | Text input field | `@frontal/ui` |
-| `Textarea` | Multi-line text input | `@frontal/ui` |
-| `Select` | Dropdown select | `@frontal/ui` |
-| `Checkbox` | Checkbox input | `@frontal/ui` |
-| `RadioGroup` | Radio button group | `@frontal/ui` |
-| `Switch` | Toggle switch | `@frontal/ui` |
-| `Slider` | Range slider | `@frontal/ui` |
-| `NumberField` | Number input | `@frontal/ui` |
-| `InputGroup` | Input with addons | `@frontal/ui` |
-| `InputOTP` | OTP input | `@frontal/ui` |
-| `MultiSelect` | Multi-select dropdown | `@frontal/ui` |
-| `Autocomplete` | Autocomplete input | `@frontal/ui` |
-| `Combobox` | Combobox input | `@frontal/ui` |
-| `Form` | Form wrapper | `@frontal/ui` |
-| `Field` | Form field | `@frontal/ui` |
-| `Fieldset` | Fieldset wrapper | `@frontal/ui` |
-| `Label` | Form label | `@frontal/ui` |
+| `Input` | Text input field | `@frontal-ds/ui` |
+| `Textarea` | Multi-line text input | `@frontal-ds/ui` |
+| `Select` | Dropdown select | `@frontal-ds/ui` |
+| `Checkbox` | Checkbox input | `@frontal-ds/ui` |
+| `RadioGroup` | Radio button group | `@frontal-ds/ui` |
+| `Switch` | Toggle switch | `@frontal-ds/ui` |
+| `Slider` | Range slider | `@frontal-ds/ui` |
+| `NumberField` | Number input | `@frontal-ds/ui` |
+| `InputGroup` | Input with addons | `@frontal-ds/ui` |
+| `InputOTP` | OTP input | `@frontal-ds/ui` |
+| `MultiSelect` | Multi-select dropdown | `@frontal-ds/ui` |
+| `Autocomplete` | Autocomplete input | `@frontal-ds/ui` |
+| `Combobox` | Combobox input | `@frontal-ds/ui` |
+| `Form` | Form wrapper | `@frontal-ds/ui` |
+| `Field` | Form field | `@frontal-ds/ui` |
+| `Fieldset` | Fieldset wrapper | `@frontal-ds/ui` |
+| `Label` | Form label | `@frontal-ds/ui` |
 
 ### Layout Components
 
@@ -34,17 +34,17 @@ Components for structuring and organizing content.
 
 | Component | Description | Package |
 |-----------|-------------|---------|
-| `Card` | Card container | `@frontal/ui` |
-| `Container` | Container wrapper | `@frontal/ui` |
-| `Box` | Generic box component | `@frontal/ui` |
-| `Flex` | Flexbox container | `@frontal/ui` |
-| `Grid` | Grid container | `@frontal/ui` |
-| `Stack` | Stack layout | `@frontal/ui` |
-| `Section` | Section wrapper | `@frontal/ui` |
-| `Frame` | Frame container | `@frontal/ui` |
-| `Spacer` | Spacing component | `@frontal/ui` |
-| `Separator` | Divider/separator | `@frontal/ui` |
-| `AspectRatio` | Aspect ratio container | `@frontal/ui` |
+| `Card` | Card container | `@frontal-ds/ui` |
+| `Container` | Container wrapper | `@frontal-ds/ui` |
+| `Box` | Generic box component | `@frontal-ds/ui` |
+| `Flex` | Flexbox container | `@frontal-ds/ui` |
+| `Grid` | Grid container | `@frontal-ds/ui` |
+| `Stack` | Stack layout | `@frontal-ds/ui` |
+| `Section` | Section wrapper | `@frontal-ds/ui` |
+| `Frame` | Frame container | `@frontal-ds/ui` |
+| `Spacer` | Spacing component | `@frontal-ds/ui` |
+| `Separator` | Divider/separator | `@frontal-ds/ui` |
+| `AspectRatio` | Aspect ratio container | `@frontal-ds/ui` |
 
 ### Navigation Components
 
@@ -52,12 +52,12 @@ Components for navigation and wayfinding.
 
 | Component | Description | Package |
 |-----------|-------------|---------|
-| `Tabs` | Tab navigation | `@frontal/ui` |
-| `Sidebar` | Sidebar navigation | `@frontal/ui` |
-| `Breadcrumb` | Breadcrumb navigation | `@frontal/ui` |
-| `Menu` | Dropdown menu | `@frontal/ui` |
-| `Pagination` | Pagination controls | `@frontal/ui` |
-| `Command` | Command palette | `@frontal/ui` |
+| `Tabs` | Tab navigation | `@frontal-ds/ui` |
+| `Sidebar` | Sidebar navigation | `@frontal-ds/ui` |
+| `Breadcrumb` | Breadcrumb navigation | `@frontal-ds/ui` |
+| `Menu` | Dropdown menu | `@frontal-ds/ui` |
+| `Pagination` | Pagination controls | `@frontal-ds/ui` |
+| `Command` | Command palette | `@frontal-ds/ui` |
 
 ### Data Display Components
 
@@ -65,13 +65,13 @@ Components for displaying data and information.
 
 | Component | Description | Package |
 |-----------|-------------|---------|
-| `Table` | Data table | `@frontal/ui` |
-| `Avatar` | User avatar | `@frontal/ui` |
-| `Badge` | Badge/label | `@frontal/ui` |
-| `StatusDot` | Status indicator | `@frontal/ui` |
-| `Skeleton` | Loading skeleton | `@frontal/ui` |
-| `Empty` | Empty state | `@frontal/ui` |
-| `Chart` | Chart wrapper | `@frontal/ui` |
+| `Table` | Data table | `@frontal-ds/ui` |
+| `Avatar` | User avatar | `@frontal-ds/ui` |
+| `Badge` | Badge/label | `@frontal-ds/ui` |
+| `StatusDot` | Status indicator | `@frontal-ds/ui` |
+| `Skeleton` | Loading skeleton | `@frontal-ds/ui` |
+| `Empty` | Empty state | `@frontal-ds/ui` |
+| `Chart` | Chart wrapper | `@frontal-ds/ui` |
 
 ### Feedback Components
 
@@ -79,13 +79,13 @@ Components for providing feedback to users.
 
 | Component | Description | Package |
 |-----------|-------------|---------|
-| `Alert` | Alert message | `@frontal/ui` |
-| `AlertDialog` | Alert dialog | `@frontal/ui` |
-| `Toast` | Toast notification | `@frontal/ui` |
-| `Progress` | Progress bar | `@frontal/ui` |
-| `Meter` | Meter/progress | `@frontal/ui` |
-| `Spinner` | Loading spinner | `@frontal/ui` |
-| `Note` | Note/notice | `@frontal/ui` |
+| `Alert` | Alert message | `@frontal-ds/ui` |
+| `AlertDialog` | Alert dialog | `@frontal-ds/ui` |
+| `Toast` | Toast notification | `@frontal-ds/ui` |
+| `Progress` | Progress bar | `@frontal-ds/ui` |
+| `Meter` | Meter/progress | `@frontal-ds/ui` |
+| `Spinner` | Loading spinner | `@frontal-ds/ui` |
+| `Note` | Note/notice | `@frontal-ds/ui` |
 
 ### Overlay Components
 
@@ -93,12 +93,12 @@ Components that appear above other content.
 
 | Component | Description | Package |
 |-----------|-------------|---------|
-| `Dialog` | Modal dialog | `@frontal/ui` |
-| `Drawer` | Drawer/sheet | `@frontal/ui` |
-| `Sheet` | Side sheet | `@frontal/ui` |
-| `Popover` | Popover | `@frontal/ui` |
-| `Tooltip` | Tooltip | `@frontal/ui` |
-| `Toolbar` | Toolbar | `@frontal/ui` |
+| `Dialog` | Modal dialog | `@frontal-ds/ui` |
+| `Drawer` | Drawer/sheet | `@frontal-ds/ui` |
+| `Sheet` | Side sheet | `@frontal-ds/ui` |
+| `Popover` | Popover | `@frontal-ds/ui` |
+| `Tooltip` | Tooltip | `@frontal-ds/ui` |
+| `Toolbar` | Toolbar | `@frontal-ds/ui` |
 
 ### Interactive Components
 
@@ -106,16 +106,16 @@ Components for user interaction.
 
 | Component | Description | Package |
 |-----------|-------------|---------|
-| `Button` | Button | `@frontal/ui` |
-| `Toggle` | Toggle button | `@frontal/ui` |
-| `ToggleGroup` | Toggle group | `@frontal/ui` |
-| `Collapsible` | Collapsible content | `@frontal/ui` |
-| `Accordion` | Accordion | `@frontal/ui` |
-| `Resizable` | Resizable panels | `@frontal/ui` |
-| `Carousel` | Carousel/slider | `@frontal/ui` |
-| `Calendar` | Calendar picker | `@frontal/ui` |
-| `Choicebox` | Choice box | `@frontal/ui` |
-| `CheckboxGroup` | Checkbox group | `@frontal/ui` |
+| `Button` | Button | `@frontal-ds/ui` |
+| `Toggle` | Toggle button | `@frontal-ds/ui` |
+| `ToggleGroup` | Toggle group | `@frontal-ds/ui` |
+| `Collapsible` | Collapsible content | `@frontal-ds/ui` |
+| `Accordion` | Accordion | `@frontal-ds/ui` |
+| `Resizable` | Resizable panels | `@frontal-ds/ui` |
+| `Carousel` | Carousel/slider | `@frontal-ds/ui` |
+| `Calendar` | Calendar picker | `@frontal-ds/ui` |
+| `Choicebox` | Choice box | `@frontal-ds/ui` |
+| `CheckboxGroup` | Checkbox group | `@frontal-ds/ui` |
 
 ### Typography Components
 
@@ -123,14 +123,14 @@ Components for text and typography.
 
 | Component | Description | Package |
 |-----------|-------------|---------|
-| `Heading` | Heading component | `@frontal/ui` |
-| `Text` | Text component | `@frontal/ui` |
-| `Code` | Code block | `@frontal/ui` |
-| `Blockquote` | Blockquote | `@frontal/ui` |
-| `Kbd` | Keyboard key | `@frontal/ui` |
-| `Link` | Link component | `@frontal/ui` |
-| `List` | List component | `@frontal/ui` |
-| `Item` | List item | `@frontal/ui` |
+| `Heading` | Heading component | `@frontal-ds/ui` |
+| `Text` | Text component | `@frontal-ds/ui` |
+| `Code` | Code block | `@frontal-ds/ui` |
+| `Blockquote` | Blockquote | `@frontal-ds/ui` |
+| `Kbd` | Keyboard key | `@frontal-ds/ui` |
+| `Link` | Link component | `@frontal-ds/ui` |
+| `List` | List component | `@frontal-ds/ui` |
+| `Item` | List item | `@frontal-ds/ui` |
 
 ## Component Usage Patterns
 

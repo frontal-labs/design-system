@@ -108,15 +108,15 @@ design-system/
 ### Core Packages
 
 - **[@frontal/design-system](./PACKAGES.md#frontaldesign-system)** - Main entry point, re-exports all packages
-- **[@frontal/ui](./PACKAGES.md#frontalui)** - Base UI components (Button, Card, Input, etc.)
-- **[@frontal/blocks](./PACKAGES.md#frontalblocks)** - Pre-built UI blocks and patterns
-- **[@frontal/charts](./PACKAGES.md#frontalcharts)** - Chart and data visualization components
-- **[@frontal/icons](./PACKAGES.md#frontalicons)** - Icon library with 1800+ icons
+- **[@frontal-ds/ui](./PACKAGES.md#frontalui)** - Base UI components (Button, Card, Input, etc.)
+- **[@frontal-ds/blocks](./PACKAGES.md#frontalblocks)** - Pre-built UI blocks and patterns
+- **[@frontal-ds/charts](./PACKAGES.md#frontalcharts)** - Chart and data visualization components
+- **[@frontal-ds/icons](./PACKAGES.md#frontalicons)** - Icon library with 1800+ icons
 
 ### Foundation Packages
 
-- **[@frontal/colors](./PACKAGES.md#frontalcolors)** - Color system and design tokens
-- **[@frontal/typeface](./PACKAGES.md#frontaltypeface)** - Typography and font system
+- **[@frontal-ds/colors](./PACKAGES.md#frontalcolors)** - Color system and design tokens
+- **[@frontal-ds/typeface](./PACKAGES.md#frontaltypeface)** - Typography and font system
 
 See [Packages Documentation](./PACKAGES.md) for detailed information about each package.
 

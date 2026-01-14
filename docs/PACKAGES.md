@@ -8,14 +8,14 @@ The design system is organized into multiple focused packages, each serving a sp
 
 ```
 @frontal/design-system (core)
-  ├── @frontal/ui
-  │   └── @frontal/icons
-  ├── @frontal/blocks
-  │   └── @frontal/icons
-  ├── @frontal/charts
-  │   └── @frontal/icons
-  ├── @frontal/colors
-  └── @frontal/typeface
+  ├── @frontal-ds/ui
+  │   └── @frontal-ds/icons
+  ├── @frontal-ds/blocks
+  │   └── @frontal-ds/icons
+  ├── @frontal-ds/charts
+  │   └── @frontal-ds/icons
+  ├── @frontal-ds/colors
+  └── @frontal-ds/typeface
 ```
 
 ## Core Packages
@@ -27,10 +27,10 @@ The design system is organized into multiple focused packages, each serving a sp
 **Description**: This is the core package that re-exports all other packages, providing a single import point for consumers.
 
 **Exports**:
-- All components from `@frontal/ui`
-- All icons from `@frontal/icons`
-- All blocks from `@frontal/blocks`
-- All charts from `@frontal/charts`
+- All components from `@frontal-ds/ui`
+- All icons from `@frontal-ds/icons`
+- All blocks from `@frontal-ds/blocks`
+- All charts from `@frontal-ds/charts`
 - Styles and utilities
 
 **Usage**:
@@ -48,7 +48,7 @@ import "@frontal/design-system/styles/globals.css";
 
 ---
 
-### @frontal/ui
+### @frontal-ds/ui
 
 **Purpose**: Base UI components library
 
@@ -66,13 +66,13 @@ import "@frontal/design-system/styles/globals.css";
 **Usage**:
 
 ```tsx
-import { Button, Card, Input } from "@frontal/ui";
+import { Button, Card, Input } from "@frontal-ds/ui";
 // or
 import { Button } from "@frontal/design-system/ui/button";
 ```
 
 **Dependencies**:
-- `@frontal/icons` - Icon components
+- `@frontal-ds/icons` - Icon components
 
 **Location**: `packages/ui/`
 
@@ -80,7 +80,7 @@ import { Button } from "@frontal/design-system/ui/button";
 
 ---
 
-### @frontal/blocks
+### @frontal-ds/blocks
 
 **Purpose**: Pre-built UI blocks and patterns
 
@@ -97,12 +97,12 @@ import { Button } from "@frontal/design-system/ui/button";
 **Usage**:
 
 ```tsx
-import { Login01 } from "@frontal/blocks/components/login-01";
-import { Sidebar01 } from "@frontal/blocks/components/sidebar-01";
+import { Login01 } from "@frontal-ds/blocks/components/login-01";
+import { Sidebar01 } from "@frontal-ds/blocks/components/sidebar-01";
 ```
 
 **Dependencies**:
-- `@frontal/icons` - Icon components
+- `@frontal-ds/icons` - Icon components
 
 **Location**: `packages/blocks/`
 
@@ -110,7 +110,7 @@ import { Sidebar01 } from "@frontal/blocks/components/sidebar-01";
 
 ---
 
-### @frontal/charts
+### @frontal-ds/charts
 
 **Purpose**: Data visualization components
 
@@ -126,12 +126,12 @@ import { Sidebar01 } from "@frontal/blocks/components/sidebar-01";
 **Usage**:
 
 ```tsx
-import { ChartAreaDefault } from "@frontal/charts/components/chart-area-default";
-import { ChartBarDefault } from "@frontal/charts/components/chart-bar-default";
+import { ChartAreaDefault } from "@frontal-ds/charts/components/chart-area-default";
+import { ChartBarDefault } from "@frontal-ds/charts/components/chart-bar-default";
 ```
 
 **Dependencies**:
-- `@frontal/icons` - Icon components
+- `@frontal-ds/icons` - Icon components
 - `recharts` - Charting library
 
 **Location**: `packages/charts/`
@@ -140,7 +140,7 @@ import { ChartBarDefault } from "@frontal/charts/components/chart-bar-default";
 
 ---
 
-### @frontal/icons
+### @frontal-ds/icons
 
 **Purpose**: Icon library
 
@@ -170,7 +170,7 @@ import { ChartBarDefault } from "@frontal/charts/components/chart-bar-default";
 **Usage**:
 
 ```tsx
-import { ArrowUpIcon, AddIcon, SearchIcon } from "@frontal/icons";
+import { ArrowUpIcon, AddIcon, SearchIcon } from "@frontal-ds/icons";
 // or
 import { ArrowUpIcon } from "@frontal/design-system";
 ```
@@ -185,7 +185,7 @@ import { ArrowUpIcon } from "@frontal/design-system";
 
 ## Foundation Packages
 
-### @frontal/colors
+### @frontal-ds/colors
 
 **Purpose**: Color system and design tokens
 
@@ -200,7 +200,7 @@ import { ArrowUpIcon } from "@frontal/design-system";
 **Usage**:
 
 ```tsx
-import { colors } from "@frontal/colors";
+import { colors } from "@frontal-ds/colors";
 // or use CSS variables
 <div className="bg-primary text-primary-foreground">...</div>
 ```
@@ -213,7 +213,7 @@ import { colors } from "@frontal/colors";
 
 ---
 
-### @frontal/typeface
+### @frontal-ds/typeface
 
 **Purpose**: Typography and font system
 
@@ -228,7 +228,7 @@ import { colors } from "@frontal/colors";
 **Usage**:
 
 ```tsx
-import "@frontal/typeface/styles/fonts.css";
+import "@frontal-ds/typeface/styles/fonts.css";
 // or
 import "@frontal/design-system/styles/globals.css"; // includes typeface
 ```
@@ -289,14 +289,14 @@ import { config } from "@frontal/next-config";
 
 ```
 @frontal/design-system
-  ├── @frontal/ui
-  │   └── @frontal/icons
-  ├── @frontal/blocks
-  │   └── @frontal/icons
-  ├── @frontal/charts
-  │   └── @frontal/icons
-  ├── @frontal/colors
-  └── @frontal/typeface
+  ├── @frontal-ds/ui
+  │   └── @frontal-ds/icons
+  ├── @frontal-ds/blocks
+  │   └── @frontal-ds/icons
+  ├── @frontal-ds/charts
+  │   └── @frontal-ds/icons
+  ├── @frontal-ds/colors
+  └── @frontal-ds/typeface
 ```
 
 ### Workspace Dependencies
@@ -306,7 +306,7 @@ All packages use workspace protocol (`workspace:*`) for internal dependencies:
 ```json
 {
   "dependencies": {
-    "@frontal/icons": "workspace:*"
+    "@frontal-ds/icons": "workspace:*"
   }
 }
 ```
@@ -376,7 +376,7 @@ import { Button, Card } from "@frontal/design-system";
 ### Direct Package Import
 
 ```tsx
-import { Button } from "@frontal/ui";
+import { Button } from "@frontal-ds/ui";
 ```
 
 ### Sub-path Imports

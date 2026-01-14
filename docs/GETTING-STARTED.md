@@ -127,19 +127,19 @@ import {
 ### Blocks
 
 ```tsx
-import { Login01 } from "@frontal/blocks/components/login-01";
+import { Login01 } from "@frontal-ds/blocks/components/login-01";
 ```
 
 ### Charts
 
 ```tsx
-import { ChartAreaDefault } from "@frontal/charts/components/chart-area-default";
+import { ChartAreaDefault } from "@frontal-ds/charts/components/chart-area-default";
 ```
 
 ### Colors
 
 ```tsx
-import { colors } from "@frontal/colors";
+import { colors } from "@frontal-ds/colors";
 // or use CSS variables
 <div className="bg-primary text-primary-foreground">...</div>
 ```

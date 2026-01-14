@@ -145,7 +145,7 @@ Create a pull request on GitHub.
 
 2. **Write component**:
    ```tsx
-   import { cn } from "@frontal/ui/lib/utils";
+   import { cn } from "@frontal-ds/ui/lib/utils";
    
    export function MyComponent({ className, ...props }) {
      return (
@@ -284,7 +284,7 @@ bun run dev
 ```tsx
 // storybook/stories/button.stories.tsx
 import type { Meta, StoryObj } from "@storybook/react";
-import { Button } from "@frontal/ui";
+import { Button } from "@frontal-ds/ui";
 
 const meta: Meta<typeof Button> = {
   component: Button,

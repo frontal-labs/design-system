@@ -39,14 +39,14 @@ Workspaces are configured in `package.json` and include:
 
 ```
 @frontal/design-system (core)
-  ├── @frontal/ui
-  │   └── @frontal/icons
-  ├── @frontal/blocks
-  │   └── @frontal/icons
-  ├── @frontal/charts
-  │   └── @frontal/icons
-  ├── @frontal/colors
-  └── @frontal/typeface
+  ├── @frontal-ds/ui
+  │   └── @frontal-ds/icons
+  ├── @frontal-ds/blocks
+  │   └── @frontal-ds/icons
+  ├── @frontal-ds/charts
+  │   └── @frontal-ds/icons
+  ├── @frontal-ds/colors
+  └── @frontal-ds/typeface
 ```
 
 ### Package Responsibilities
@@ -57,37 +57,37 @@ Workspaces are configured in `package.json` and include:
 - **Dependencies**: All other packages
 - **Usage**: Primary import for consumers
 
-#### @frontal/ui
+#### @frontal-ds/ui
 - **Purpose**: Base UI components
 - **Components**: 70+ components (Button, Card, Input, etc.)
 - **Dependencies**: Icons, Components
 - **Usage**: Individual component imports
 
-#### @frontal/blocks
+#### @frontal-ds/blocks
 - **Purpose**: Pre-built UI blocks and patterns
 - **Components**: Login forms, sidebars, dashboards, calendars
 - **Dependencies**: Icons
 - **Usage**: Complete UI patterns
 
-#### @frontal/charts
+#### @frontal-ds/charts
 - **Purpose**: Data visualization components
 - **Components**: Area charts, bar charts, line charts
 - **Dependencies**: Icons
 - **Usage**: Chart components
 
-#### @frontal/icons
+#### @frontal-ds/icons
 - **Purpose**: Icon library
 - **Icons**: 1800+ SVG icons
 - **Dependencies**: None
 - **Usage**: Icon components
 
-#### @frontal/colors
+#### @frontal-ds/colors
 - **Purpose**: Color system and design tokens
 - **Exports**: Color scales, semantic colors, utilities
 - **Dependencies**: None
 - **Usage**: Color tokens and utilities
 
-#### @frontal/typeface
+#### @frontal-ds/typeface
 - **Purpose**: Typography system
 - **Exports**: Font definitions, CSS variables
 - **Dependencies**: None
