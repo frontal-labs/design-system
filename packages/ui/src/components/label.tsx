@@ -5,19 +5,19 @@ import { cn } from "../utils";
 type LabelProps = useRender.ComponentProps<"label">;
 
 function Label({ className, render, ...props }: LabelProps) {
-	const defaultProps = {
-		className: cn(
-			"inline-flex items-center gap-2 font-medium text-base/4.5 sm:text-sm/4",
-			className,
-		),
-		"data-slot": "label",
-	};
+  const defaultProps = {
+    className: cn(
+      "inline-flex items-center gap-2 font-medium text-base/4.5 sm:text-sm/4",
+      className
+    ),
+    "data-slot": "label",
+  };
 
-	return useRender({
-		defaultTagName: "label",
-		props: mergeProps<"label">(defaultProps, props),
-		render,
-	});
+  return useRender({
+    defaultTagName: "label",
+    props: mergeProps<"label">(defaultProps, props),
+    render,
+  });
 }
 
 export { Label, type LabelProps };

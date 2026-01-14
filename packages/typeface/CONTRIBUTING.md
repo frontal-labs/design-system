@@ -1,6 +1,6 @@
-# Contributing to @frontal/typeface
+# Contributing to @frontal-ds/typeface
 
-Thank you for your interest in contributing to `@frontal/typeface`!
+Thank you for your interest in contributing to `@frontal-ds/typeface`!
 
 This package is part of the Frontal Design System monorepo. For general contribution guidelines, please refer to the [root CONTRIBUTING.md](../../CONTRIBUTING.md).
 

@@ -1,6 +1,6 @@
-# Contributing to @frontal/icons
+# Contributing to @frontal-ds/icons
 
-Thank you for your interest in contributing to `@frontal/icons`!
+Thank you for your interest in contributing to `@frontal-ds/icons`!
 
 This package is part of the Frontal Design System monorepo. For general contribution guidelines, please refer to the [root CONTRIBUTING.md](../../CONTRIBUTING.md).
 

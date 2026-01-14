@@ -1,6 +1,7 @@
-// @frontal/icons - Components index
+// @frontal-ds/icons - Components index
 // Auto-generated file - do not edit manually
 
+// biome-ignore lint/performance/noBarrelFile: Auto-generated barrel file for icon exports
 export { default as ArrowDownBoxIcon } from "./arrows/arrow-down-box-icon";
 export { default as ArrowDownChevronIcon } from "./arrows/arrow-down-chevron-icon";
 export { default as ArrowDownCircleIcon } from "./arrows/arrow-down-circle-icon";
@@ -26,8 +27,8 @@ export { default as ArrowLeftLongIcon } from "./arrows/arrow-left-long-icon";
 export { default as ArrowLeftRightIcon } from "./arrows/arrow-left-right-icon";
 export { default as ArrowLeftUpBoxIcon } from "./arrows/arrow-left-up-box-icon";
 export {
-	ArrowLeftUpIcon as ArrowUpLeftIcon,
-	default as ArrowLeftUpIcon,
+  ArrowLeftUpIcon as ArrowUpLeftIcon,
+  default as ArrowLeftUpIcon,
 } from "./arrows/arrow-left-up-icon";
 export { default as ArrowLeftUpLongIcon } from "./arrows/arrow-left-up-long-icon";
 export { default as ArrowLeftWideIcon } from "./arrows/arrow-left-wide-icon";
@@ -43,8 +44,8 @@ export { default as ArrowRightLongIcon } from "./arrows/arrow-right-long-icon";
 export { default as ArrowRightUpBoxIcon } from "./arrows/arrow-right-up-box-icon";
 // Arrow aliases
 export {
-	ArrowRightUpIcon as ArrowUpRightIcon,
-	default as ArrowRightUpIcon,
+  ArrowRightUpIcon as ArrowUpRightIcon,
+  default as ArrowRightUpIcon,
 } from "./arrows/arrow-right-up-icon";
 export { default as ArrowRightUpLongIcon } from "./arrows/arrow-right-up-long-icon";
 export { default as ArrowRightWideIcon } from "./arrows/arrow-right-wide-icon";
@@ -195,8 +196,8 @@ export { default as MailIcon } from "./business/mail-icon";
 export { default as MailLockIcon } from "./business/mail-lock-icon";
 export { default as MailOpenIcon } from "./business/mail-open-icon";
 export {
-	default as MailSendIcon,
-	MailSendIcon as SendIcon,
+  default as MailSendIcon,
+  MailSendIcon as SendIcon,
 } from "./business/mail-send-icon";
 export { default as MailSettingsIcon } from "./business/mail-settings-icon";
 export { default as MailStarIcon } from "./business/mail-star-icon";
@@ -410,8 +411,8 @@ export { default as CodeSmallIcon } from "./development/code-small-icon";
 export { default as CommandIcon } from "./development/command-icon";
 export { default as Css3Icon } from "./development/css3-icon";
 export {
-	CursorIcon as LogoCursor,
-	default as CursorIcon,
+  CursorIcon as LogoCursor,
+  default as CursorIcon,
 } from "./development/cursor-icon";
 export { default as GitBranchIcon } from "./development/git-branch-icon";
 export { default as GitClosePullRequestIcon } from "./development/git-close-pull-request-icon";
@@ -431,8 +432,8 @@ export { default as PuzzleIcon } from "./development/puzzle-icon";
 export { default as PuzzleVariantIcon } from "./development/puzzle-variant-icon";
 export { default as TerminalBoxIcon } from "./development/terminal-box-icon";
 export {
-	default as TerminalIcon,
-	TerminalIcon as IconTerminal,
+  default as TerminalIcon,
+  TerminalIcon as IconTerminal,
 } from "./development/terminal-icon";
 export { default as TerminalWindowIcon } from "./development/terminal-window-icon";
 export { default as AirplayIcon } from "./device/airplay-icon";
@@ -550,8 +551,8 @@ export { default as FileCloseIcon } from "./document/file-close-icon";
 export { default as FileCloudIcon } from "./document/file-cloud-icon";
 export { default as FileCodeIcon } from "./document/file-code-icon";
 export {
-	default as FileCopyIcon,
-	FileCopyIcon as IconCopy,
+  default as FileCopyIcon,
+  FileCopyIcon as IconCopy,
 } from "./document/file-copy-icon";
 export { default as FileCopyVariantIcon } from "./document/file-copy-variant-icon";
 export { default as FileDamageIcon } from "./document/file-damage-icon";
@@ -950,15 +951,15 @@ export { default as BilibiliIcon } from "./logos/bilibili-icon";
 export { default as BlenderIcon } from "./logos/blender-icon";
 export { default as BloggerIcon } from "./logos/blogger-icon";
 export {
-	BlueskyIcon as LogoBluesky,
-	default as BlueskyIcon,
+  BlueskyIcon as LogoBluesky,
+  default as BlueskyIcon,
 } from "./logos/bluesky-icon";
 export { default as BootstrapIcon } from "./logos/bootstrap-icon";
 export { default as CentosIcon } from "./logos/centos-icon";
 export { default as ChromeIcon } from "./logos/chrome-icon";
 export {
-	ClaudeIcon as LogoClaude,
-	default as ClaudeIcon,
+  ClaudeIcon as LogoClaude,
+  default as ClaudeIcon,
 } from "./logos/claude-icon";
 export { default as CodepenIcon } from "./logos/codepen-icon";
 export { default as CopilotIcon } from "./logos/copilot-icon";
@@ -979,8 +980,8 @@ export { default as FacebookCircleIcon } from "./logos/facebook-circle-icon";
 export { default as FacebookIcon } from "./logos/facebook-icon";
 export { default as FediverseIcon } from "./logos/fediverse-icon";
 export {
-	default as FigmaIcon,
-	FigmaIcon as LogoFigma,
+  default as FigmaIcon,
+  FigmaIcon as LogoFigma,
 } from "./logos/figma-icon";
 export { default as FinderIcon } from "./logos/finder-icon";
 export { default as FirebaseIcon } from "./logos/firebase-icon";
@@ -991,13 +992,13 @@ export { default as FlutterIcon } from "./logos/flutter-icon";
 export { default as FriendicaIcon } from "./logos/friendica-icon";
 export { default as GatsbyIcon } from "./logos/gatsby-icon";
 export {
-	default as GeminiIcon,
-	GeminiIcon as LogoGemini,
+  default as GeminiIcon,
+  GeminiIcon as LogoGemini,
 } from "./logos/gemini-icon";
 // Logo aliases
 export {
-	default as GithubIcon,
-	GithubIcon as LogoGithub,
+  default as GithubIcon,
+  GithubIcon as LogoGithub,
 } from "./logos/github-icon";
 export { default as GitlabIcon } from "./logos/gitlab-icon";
 export { default as GoogleIcon } from "./logos/google-icon";
@@ -1012,8 +1013,8 @@ export { default as KickIcon } from "./logos/kick-icon";
 export { default as LineIcon } from "./logos/line-icon";
 export { default as LinkedinBoxIcon } from "./logos/linkedin-box-icon";
 export {
-	default as LinkedinIcon,
-	LinkedinIcon as LogoLinkedin,
+  default as LinkedinIcon,
+  LinkedinIcon as LogoLinkedin,
 } from "./logos/linkedin-icon";
 export { default as MastercardIcon } from "./logos/mastercard-icon";
 export { default as MastodonIcon } from "./logos/mastodon-icon";
@@ -1024,22 +1025,22 @@ export { default as MicrosoftIcon } from "./logos/microsoft-icon";
 export { default as MicrosoftLoopIcon } from "./logos/microsoft-loop-icon";
 export { default as MiniProgramIcon } from "./logos/mini-program-icon";
 export {
-	default as MixtralIcon,
-	MixtralIcon as LogoMistral,
+  default as MixtralIcon,
+  MixtralIcon as LogoMistral,
 } from "./logos/mixtral-icon";
 export { default as NeteaseCloudMusicIcon } from "./logos/netease-cloud-music-icon";
 export { default as NetflixIcon } from "./logos/netflix-icon";
 export { default as NextjsIcon } from "./logos/nextjs-icon";
 export { default as NodejsIcon } from "./logos/nodejs-icon";
 export {
-	default as NotionIcon,
-	NotionIcon as LogoNotion,
+  default as NotionIcon,
+  NotionIcon as LogoNotion,
 } from "./logos/notion-icon";
 export { default as NpmjsIcon } from "./logos/npmjs-icon";
 export { default as OpenSourceIcon } from "./logos/open-source-icon";
 export {
-	default as OpenaiIcon,
-	OpenaiIcon as LogoOpenAI,
+  default as OpenaiIcon,
+  OpenaiIcon as LogoOpenAI,
 } from "./logos/openai-icon";
 export { default as OpenbaseIcon } from "./logos/openbase-icon";
 export { default as OperaIcon } from "./logos/opera-icon";
@@ -1059,8 +1060,8 @@ export { default as RemixiconIcon } from "./logos/remixicon-icon";
 export { default as SafariIcon } from "./logos/safari-icon";
 export { default as SkypeIcon } from "./logos/skype-icon";
 export {
-	default as SlackIcon,
-	SlackIcon as LogoSlack,
+  default as SlackIcon,
+  SlackIcon as LogoSlack,
 } from "./logos/slack-icon";
 export { default as SnapchatIcon } from "./logos/snapchat-icon";
 export { default as SoundcloudIcon } from "./logos/soundcloud-icon";
@@ -1082,8 +1083,8 @@ export { default as TrelloIcon } from "./logos/trello-icon";
 export { default as TumblrIcon } from "./logos/tumblr-icon";
 export { default as TwitchIcon } from "./logos/twitch-icon";
 export {
-	default as TwitterIcon,
-	TwitterIcon as LogoTwitter,
+  default as TwitterIcon,
+  TwitterIcon as LogoTwitter,
 } from "./logos/twitter-icon";
 export { default as TwitterXIcon } from "./logos/twitter-x-icon";
 export { default as UbuntuIcon } from "./logos/ubuntu-icon";
@@ -1228,13 +1229,13 @@ export { default as Forward_30Icon } from "./media/forward-30-icon";
 export { default as ForwardEndIcon } from "./media/forward-end-icon";
 export { default as ForwardEndMiniIcon } from "./media/forward-end-mini-icon";
 export {
-	default as FullscreenExitIcon,
-	FullscreenExitIcon as MinimizeIcon,
-	FullscreenExitIcon as Minimize,
+  default as FullscreenExitIcon,
+  FullscreenExitIcon as MinimizeIcon,
+  FullscreenExitIcon as Minimize,
 } from "./media/fullscreen-exit-icon";
 export {
-	default as FullscreenIcon,
-	FullscreenIcon as Maximize,
+  default as FullscreenIcon,
+  FullscreenIcon as Maximize,
 } from "./media/fullscreen-icon";
 export { default as GalleryIcon } from "./media/gallery-icon";
 export { default as GalleryUploadIcon } from "./media/gallery-upload-icon";
@@ -1255,12 +1256,12 @@ export { default as MemoriesIcon } from "./media/memories-icon";
 export { default as Mic_2AiIcon } from "./media/mic-2-ai-icon";
 export { default as MicAiIcon } from "./media/mic-ai-icon";
 export {
-	default as MicIcon,
-	MicIcon as AudioLinesIcon,
+  default as MicIcon,
+  MicIcon as AudioLinesIcon,
 } from "./media/mic-icon";
 export {
-	default as MicOffIcon,
-	MicOffIcon as VolumeX,
+  default as MicOffIcon,
+  MicOffIcon as VolumeX,
 } from "./media/mic-off-icon";
 export { default as MicVariantIcon } from "./media/mic-variant-icon";
 export { default as Movie_2AiIcon } from "./media/movie-2-ai-icon";
@@ -1324,8 +1325,8 @@ export { default as SlowDownIcon } from "./media/slow-down-icon";
 export { default as SoundModuleIcon } from "./media/sound-module-icon";
 export { default as Speaker_3Icon } from "./media/speaker-3-icon";
 export {
-	default as SpeakerIcon,
-	SpeakerIcon as Volume2,
+  default as SpeakerIcon,
+  SpeakerIcon as Volume2,
 } from "./media/speaker-icon";
 export { default as SpeakerVariantIcon } from "./media/speaker-variant-icon";
 export { default as SpeedIcon } from "./media/speed-icon";
@@ -1450,8 +1451,8 @@ export { default as AppsVariantIcon } from "./system/apps-variant-icon";
 export { default as CheckDoubleIcon } from "./system/check-double-icon";
 // Code icon aliases
 export {
-	CheckIcon as IconCheck,
-	default as CheckIcon,
+  CheckIcon as IconCheck,
+  default as CheckIcon,
 } from "./system/check-icon";
 export { default as CheckboxBlankCircleIcon } from "./system/checkbox-blank-circle-icon";
 export { default as CheckboxBlankIcon } from "./system/checkbox-blank-icon";
@@ -1511,8 +1512,8 @@ export { default as Loader_4Icon } from "./system/loader-4-icon";
 export { default as Loader_5Icon } from "./system/loader-5-icon";
 // Media icon aliases
 export {
-	default as LoaderIcon,
-	LoaderIcon as Loader2,
+  default as LoaderIcon,
+  LoaderIcon as Loader2,
 } from "./system/loader-icon";
 export { default as LoaderVariantIcon } from "./system/loader-variant-icon";
 export { default as LockIcon } from "./system/lock-icon";
@@ -1546,8 +1547,8 @@ export { default as MenuUnfoldIcon } from "./system/menu-unfold-icon";
 export { default as MenuUnfoldVariantIcon } from "./system/menu-unfold-variant-icon";
 export { default as MenuVariantIcon } from "./system/menu-variant-icon";
 export {
-	default as MoreIcon,
-	MoreIcon as EllipsisIcon,
+  default as MoreIcon,
+  MoreIcon as EllipsisIcon,
 } from "./system/more-icon";
 export { default as MoreVariantIcon } from "./system/more-variant-icon";
 export { default as NotificationBadgeIcon } from "./system/notification-badge-icon";
@@ -1678,8 +1679,8 @@ export { default as UserSettingsIcon } from "./user-faces/user-settings-icon";
 export { default as UserSharedIcon } from "./user-faces/user-shared-icon";
 export { default as UserSharedVariantIcon } from "./user-faces/user-shared-variant-icon";
 export {
-	default as UserSmileIcon,
-	UserSmileIcon as SmileIcon,
+  default as UserSmileIcon,
+  UserSmileIcon as SmileIcon,
 } from "./user-faces/user-smile-icon";
 export { default as UserStarIcon } from "./user-faces/user-star-icon";
 export { default as UserUnfollowIcon } from "./user-faces/user-unfollow-icon";

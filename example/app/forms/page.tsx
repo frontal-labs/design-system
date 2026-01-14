@@ -22,7 +22,7 @@ import {
 	SelectTrigger,
 	Spinner,
 	Textarea,
-} from "@frontal/ui";
+} from "@frontal-ds/ui";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useState } from "react";
 import { useForm } from "react-hook-form";

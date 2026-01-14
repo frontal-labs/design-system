@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@frontal/ui";
+import { Button } from "@frontal-ds/ui";
 import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 

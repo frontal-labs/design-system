@@ -1,4 +1,4 @@
-import { Container } from "@frontal/ui";
+import { Container } from "@frontal-ds/ui";
 import Link from "next/link";
 import { ThemeToggle } from "./theme-toggle";
 

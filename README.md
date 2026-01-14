@@ -37,10 +37,10 @@ import "@frontal/design-system/styles/globals.css";
 
 This single import includes:
 - Tailwind CSS base styles
-- Color system from `@frontal/colors`
-- Typography from `@frontal/typeface`
-- UI component styles from `@frontal/ui`
-- Chart styles from `@frontal/charts`
+- Color system from `@frontal-ds/colors`
+- Typography from `@frontal-ds/typeface`
+- UI component styles from `@frontal-ds/ui`
+- Chart styles from `@frontal-ds/charts`
 
 ### Importing Components
 
@@ -51,7 +51,7 @@ import { Card } from "@frontal/design-system/ui/card";
 
 ### Importing Icons
 
-All icons are available from `@frontal/icons`:
+All icons are available from `@frontal-ds/icons`:
 
 ```tsx
 import { 
@@ -60,8 +60,8 @@ import {
   SearchIcon, 
   CalendarIcon 
 } from "@frontal/design-system";
-// or directly from @frontal/icons
-import { ArrowUpIcon } from "@frontal/icons";
+// or directly from @frontal-ds/icons
+import { ArrowUpIcon } from "@frontal-ds/icons";
 ```
 
 ### Importing Blocks
@@ -69,13 +69,13 @@ import { ArrowUpIcon } from "@frontal/icons";
 ```tsx
 import { blocks } from "@frontal/design-system";
 // or
-import { blocks } from "@frontal/blocks";
+import { blocks } from "@frontal-ds/blocks";
 ```
 
 ### Importing Charts
 
 ```tsx
-import { ChartAreaDefault } from "@frontal/charts/components/chart-area-default";
+import { ChartAreaDefault } from "@frontal-ds/charts/components/chart-area-default";
 ```
 
 ### Importing Hooks
@@ -95,12 +95,12 @@ import { cn } from "@frontal/design-system/lib/utils";
 The Frontal design system is organized into multiple packages:
 
 - **@frontal/design-system**: Core design system package (re-exports all packages)
-- **@frontal/blocks**: Pre-built UI blocks and components
-- **@frontal/charts**: Chart and data visualization components
-- **@frontal/icons**: Icon library
-- **@frontal/ui**: Base UI components
-- **@frontal/colors**: Color system
-- **@frontal/typeface**: Typography and fonts
+- **@frontal-ds/blocks**: Pre-built UI blocks and components
+- **@frontal-ds/charts**: Chart and data visualization components
+- **@frontal-ds/icons**: Icon library
+- **@frontal-ds/ui**: Base UI components
+- **@frontal-ds/colors**: Color system
+- **@frontal-ds/typeface**: Typography and fonts
 
 ## Available Components
 
@@ -117,7 +117,7 @@ See the `src/components/ui/` directory for the complete list.
 
 - [Blocks Documentation](./packages/blocks/docs/README.md) - Pre-built UI blocks
 - [Charts Documentation](./packages/charts/docs/README.md) - Chart components
-- [Icon Mapping](./ICON_MAPPING.md) - Lucide React to @frontal/icons mapping
+- [Icon Mapping](./ICON_MAPPING.md) - Lucide React to @frontal-ds/icons mapping
 
 ## Development
 

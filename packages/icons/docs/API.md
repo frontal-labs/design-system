@@ -1,6 +1,6 @@
 # Icons API Reference
 
-Complete API documentation for `@frontal/icons`.
+Complete API documentation for `@frontal-ds/icons`.
 
 ## Icon Component API
 
@@ -70,7 +70,7 @@ Icons follow PascalCase naming with "Icon" suffix:
 
 ```typescript
 // Individual imports
-import { ArrowUpIcon, SearchIcon, CalendarIcon } from '@frontal/icons';
+import { ArrowUpIcon, SearchIcon, CalendarIcon } from '@frontal-ds/icons';
 
 // Via namespace (from @frontal/design-system)
 import { Icons } from '@frontal/design-system';
@@ -98,7 +98,7 @@ interface IconMetadata {
 
 **Example:**
 ```typescript
-import { getIconMetadata } from '@frontal/icons';
+import { getIconMetadata } from '@frontal-ds/icons';
 
 const metadata = getIconMetadata('ArrowUpIcon', 'Arrows/arrow-up');
 // Returns: { name: 'ArrowUpIcon', category: 'Arrows', filename: 'arrow-up' }
@@ -115,7 +115,7 @@ Group icons by category.
 
 **Example:**
 ```typescript
-import { groupIconsByCategory } from '@frontal/icons';
+import { groupIconsByCategory } from '@frontal-ds/icons';
 
 const grouped = groupIconsByCategory(iconMetadataArray);
 // Returns: { 'Arrows': [...], 'Business': [...], ... }
@@ -133,7 +133,7 @@ Search icons by name, category, or filename.
 
 **Example:**
 ```typescript
-import { searchIcons } from '@frontal/icons';
+import { searchIcons } from '@frontal-ds/icons';
 
 const results = searchIcons(iconMetadataArray, 'arrow');
 // Returns icons matching 'arrow' in name, category, or filename
@@ -150,7 +150,7 @@ Get all unique categories from icons.
 
 **Example:**
 ```typescript
-import { getCategories } from '@frontal/icons';
+import { getCategories } from '@frontal-ds/icons';
 
 const categories = getCategories(iconMetadataArray);
 // Returns: ['Arrows', 'Business', 'Communication', ...]
@@ -167,7 +167,7 @@ Extract icon name from component name.
 
 **Example:**
 ```typescript
-import { extractIconName } from '@frontal/icons';
+import { extractIconName } from '@frontal-ds/icons';
 
 const name = extractIconName('ExpandDiagonalSIcon');
 // Returns: 'expand-diagonal-s'
@@ -184,7 +184,7 @@ Extract category from file path.
 
 **Example:**
 ```typescript
-import { extractCategory } from '@frontal/icons';
+import { extractCategory } from '@frontal-ds/icons';
 
 const category = extractCategory('Arrows/expand-diagonal-s');
 // Returns: 'Arrows'
@@ -201,7 +201,7 @@ Normalize size value to a number or string.
 
 **Example:**
 ```typescript
-import { normalizeSize } from '@frontal/icons';
+import { normalizeSize } from '@frontal-ds/icons';
 
 normalizeSize(undefined)  // Returns: 24
 normalizeSize(16)         // Returns: 16
@@ -219,7 +219,7 @@ Normalize color value.
 
 **Example:**
 ```typescript
-import { normalizeColor } from '@frontal/icons';
+import { normalizeColor } from '@frontal-ds/icons';
 
 normalizeColor(undefined)  // Returns: 'currentColor'
 normalizeColor('#ff0000')  // Returns: '#ff0000'
@@ -237,7 +237,7 @@ Get icon props with defaults applied.
 
 **Example:**
 ```typescript
-import { getIconProps } from '@frontal/icons';
+import { getIconProps } from '@frontal-ds/icons';
 
 const props = getIconProps({ size: 16, color: 'blue' });
 // Returns: { size: 16, color: 'blue', ... }

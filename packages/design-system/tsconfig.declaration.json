@@ -1,13 +1,13 @@
 {
-	"extends": "./tsconfig.json",
-	"compilerOptions": {
-		"skipLibCheck": true,
-		"declaration": true,
-		"declarationMap": true,
-		"emitDeclarationOnly": true,
-		"noEmit": false,
-		"outDir": "dist"
-	},
-	"include": ["src/**/*.ts", "src/**/*.tsx"],
-	"exclude": ["node_modules", "dist", "build.ts", "tests"]
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "noEmit": false,
+    "outDir": "dist"
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules", "dist", "build.ts", "tests"]
 }

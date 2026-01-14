@@ -1,26 +1,26 @@
 import type { SVGProps } from "react";
 
 export function ArrowUpChevronIcon({
-	width = 24,
-	height = 24,
-	color = "currentColor",
-	...props
+  width = 24,
+  height = 24,
+  color = "currentColor",
+  ...props
 }: SVGProps<SVGSVGElement>) {
-	return (
-		<svg
-			xmlns="http://www.w3.org/2000/svg"
-			viewBox="0 0 24 24"
-			width={width}
-			height={height}
-			fill={color}
-			aria-label="Arrow Up Direction"
-			aria-labelledby="Arrow Up Direction"
-			aria-hidden={true}
-			{...props}
-		>
-			<path d="M11.9999 10.8284L7.0502 15.7782L5.63599 14.364L11.9999 8L18.3639 14.364L16.9497 15.7782L11.9999 10.8284Z" />
-		</svg>
-	);
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width={width}
+      height={height}
+      fill={color}
+      aria-label="Arrow Up Direction"
+      aria-labelledby="Arrow Up Direction"
+      aria-hidden={true}
+      {...props}
+    >
+      <path d="M11.9999 10.8284L7.0502 15.7782L5.63599 14.364L11.9999 8L18.3639 14.364L16.9497 15.7782L11.9999 10.8284Z" />
+    </svg>
+  );
 }
 
 ArrowUpChevronIcon.displayName = "ArrowUpChevronIcon";

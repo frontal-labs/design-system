@@ -1,26 +1,26 @@
 import type { SVGProps } from "react";
 
 export function Building_3Icon({
-	width = 24,
-	height = 24,
-	color = "currentColor",
-	...props
+  width = 24,
+  height = 24,
+  color = "currentColor",
+  ...props
 }: SVGProps<SVGSVGElement>) {
-	return (
-		<svg
-			xmlns="http://www.w3.org/2000/svg"
-			viewBox="0 0 24 24"
-			width={width}
-			height={height}
-			fill={color}
-			aria-label="Building_3"
-			aria-labelledby="Building_3"
-			aria-hidden={true}
-			{...props}
-		>
-			<path d="M10 10.1111V1L21 7V21H3V7L10 10.1111ZM12 4.36908V13.1886L5 10.0775V19H19V8.18727L12 4.36908Z" />
-		</svg>
-	);
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width={width}
+      height={height}
+      fill={color}
+      aria-label="Building_3"
+      aria-labelledby="Building_3"
+      aria-hidden={true}
+      {...props}
+    >
+      <path d="M10 10.1111V1L21 7V21H3V7L10 10.1111ZM12 4.36908V13.1886L5 10.0775V19H19V8.18727L12 4.36908Z" />
+    </svg>
+  );
 }
 
 Building_3Icon.displayName = "Building_3Icon";

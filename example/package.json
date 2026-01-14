@@ -15,9 +15,9 @@
 		"analyze": "cross-env ANALYZE=true next build"
 	},
 	"dependencies": {
-		"@frontal/ui": "workspace:*",
-		"@frontal/icons": "workspace:*",
-		"@frontal/colors": "workspace:*",
+		"@frontal-ds/ui": "workspace:*",
+		"@frontal-ds/icons": "workspace:*",
+		"@frontal-ds/colors": "workspace:*",
 		"@hookform/resolvers": "^5.2.2",
 		"@radix-ui/react-slot": "^1.2.4",
 		"class-variance-authority": "^0.7.1",

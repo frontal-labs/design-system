@@ -1,23 +1,23 @@
 {
-	"extends": "@frontal/typescript-config/react.json",
-	"compilerOptions": {
-		"baseUrl": ".",
-		"noEmit": true,
-		"esModuleInterop": true,
-		"module": "esnext",
-		"moduleResolution": "bundler",
-		"resolveJsonModule": true,
-		"isolatedModules": true,
-		"jsx": "react-jsx",
-		"incremental": false,
-		"skipLibCheck": true,
-		"target": "ES2020",
-		"lib": ["ES2020", "DOM", "DOM.Iterable"],
-		"paths": {
-			"@/*": ["./src/*"],
-			"@frontal/icons/*": ["./src/*"]
-		}
-	},
-	"include": ["src/**/*.ts", "src/**/*.tsx"],
-	"exclude": ["node_modules", "dist", "build.ts"]
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "noEmit": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "incremental": false,
+    "paths": {
+      "@/*": ["./src/*"],
+      "@frontal-ds/icons/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules", "dist", "build.ts"]
 }

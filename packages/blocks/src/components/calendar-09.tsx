@@ -1,25 +1,25 @@
 "use client";
 
-import { Calendar } from "@frontal/ui";
+import { Calendar } from "@frontal-ds/ui";
 import * as React from "react";
 import type { DateRange } from "react-day-picker";
 
 export default function Calendar09() {
-	const [dateRange, setDateRange] = React.useState<DateRange | undefined>({
-		from: new Date(2025, 5, 17),
-		to: new Date(2025, 5, 20),
-	});
+  const [dateRange, setDateRange] = React.useState<DateRange | undefined>({
+    from: new Date(2025, 5, 17),
+    to: new Date(2025, 5, 20),
+  });
 
-	return (
-		<Calendar
-			mode="range"
-			defaultMonth={dateRange?.from}
-			selected={dateRange}
-			onSelect={setDateRange}
-			numberOfMonths={2}
-			disabled={{ dayOfWeek: [0, 6] }}
-			className="rounded-lg border shadow-sm"
-			excludeDisabled
-		/>
-	);
+  return (
+    <Calendar
+      mode="range"
+      defaultMonth={dateRange?.from}
+      selected={dateRange}
+      onSelect={setDateRange}
+      numberOfMonths={2}
+      disabled={{ dayOfWeek: [0, 6] }}
+      className="rounded-lg border shadow-sm"
+      excludeDisabled
+    />
+  );
 }

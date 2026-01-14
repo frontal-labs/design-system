@@ -1,26 +1,26 @@
 import type { SVGProps } from "react";
 
 export function LineHeightIcon({
-	width = 24,
-	height = 24,
-	color = "currentColor",
-	...props
+  width = 24,
+  height = 24,
+  color = "currentColor",
+  ...props
 }: SVGProps<SVGSVGElement>) {
-	return (
-		<svg
-			xmlns="http://www.w3.org/2000/svg"
-			viewBox="0 0 24 24"
-			width={width}
-			height={height}
-			fill={color}
-			aria-label="Horizontal Lines Vertical Line Text"
-			aria-labelledby="Horizontal Lines Vertical Line Text"
-			aria-hidden={true}
-			{...props}
-		>
-			<path d="M11 4H21V6H11V4ZM6 7V11H4V7H1L5 3L9 7H6ZM6 17H9L5 21L1 17H4V13H6V17ZM11 18H21V20H11V18ZM9 11H21V13H9V11Z" />
-		</svg>
-	);
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width={width}
+      height={height}
+      fill={color}
+      aria-label="Horizontal Lines Vertical Line Text"
+      aria-labelledby="Horizontal Lines Vertical Line Text"
+      aria-hidden={true}
+      {...props}
+    >
+      <path d="M11 4H21V6H11V4ZM6 7V11H4V7H1L5 3L9 7H6ZM6 17H9L5 21L1 17H4V13H6V17ZM11 18H21V20H11V18ZM9 11H21V13H9V11Z" />
+    </svg>
+  );
 }
 
 LineHeightIcon.displayName = "LineHeightIcon";

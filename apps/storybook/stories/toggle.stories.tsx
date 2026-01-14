@@ -6,21 +6,60 @@ import { Bold, Italic } from "lucide-react";
  * A two-state button that can be either on or off.
  */
 const meta: Meta<typeof Toggle> = {
-	title: "ui/Toggle",
-	component: Toggle,
-	tags: ["autodocs"],
-	argTypes: {
-		children: {
-			control: { disable: true },
-		},
-	},
-	args: {
-		children: <Bold className="h-4 w-4" />,
-		"aria-label": "Toggle bold",
-	},
-	parameters: {
-		layout: "centered",
-	},
+  title: "ui/Toggle",
+  component: Toggle,
+  tags: ["autodocs"],
+  argTypes: {
+    children: {
+      control: { disable: true },
+      description: "Toggle content",
+    },
+    variant: {
+      options: ["default", "outline"],
+      control: { type: "select" },
+      description: "Visual style variant",
+    },
+    size: {
+      options: ["default", "sm", "lg"],
+      control: { type: "select" },
+      description: "Toggle size",
+    },
+    pressed: {
+      control: { type: "boolean" },
+      description: "Controlled pressed state",
+    },
+    defaultPressed: {
+      control: { type: "boolean" },
+      description: "Default pressed state",
+    },
+    disabled: {
+      control: { type: "boolean" },
+      description: "Whether the toggle is disabled",
+    },
+    onPressedChange: {
+      action: "pressedChanged",
+      description: "Callback when pressed state changes",
+    },
+    "aria-label": {
+      control: { type: "text" },
+      description: "Accessibility label",
+    },
+    className: {
+      control: { type: "text" },
+      description: "Additional CSS classes",
+    },
+  },
+  args: {
+    children: <Bold className="h-4 w-4" />,
+    "aria-label": "Toggle bold",
+    variant: "default",
+    size: "default",
+    disabled: false,
+    defaultPressed: false,
+  },
+  parameters: {
+    layout: "centered",
+  },
 };
 export default meta;
 
@@ -36,24 +75,24 @@ export const Default: Story = {};
  * of the selection circle for clearer visibility
  */
 export const Outline: Story = {
-	args: {
-		variant: "outline",
-		children: <Italic className="h-4 w-4" />,
-		"aria-label": "Toggle italic",
-	},
+  args: {
+    variant: "outline",
+    children: <Italic className="h-4 w-4" />,
+    "aria-label": "Toggle italic",
+  },
 };
 
 /**
  * Use the text element to add a label to the toggle.
  */
 export const WithText: Story = {
-	render: (args) => (
-		<Toggle {...args}>
-			<Italic className="mr-2 h-4 w-4" />
-			Italic
-		</Toggle>
-	),
-	args: { ...Outline.args },
+  render: (args) => (
+    <Toggle {...args}>
+      <Italic className="mr-2 h-4 w-4" />
+      Italic
+    </Toggle>
+  ),
+  args: { ...Outline.args },
 };
 
 /**
@@ -61,9 +100,9 @@ export const WithText: Story = {
  * compact elements without sacrificing usability.
  */
 export const Small: Story = {
-	args: {
-		size: "sm",
-	},
+  args: {
+    size: "sm",
+  },
 };
 
 /**
@@ -71,16 +110,16 @@ export const Small: Story = {
  * easier interaction for users.
  */
 export const Large: Story = {
-	args: {
-		size: "lg",
-	},
+  args: {
+    size: "lg",
+  },
 };
 
 /**
  * Add the `disabled` prop to prevent interactions with the toggle.
  */
 export const Disabled: Story = {
-	args: {
-		disabled: true,
-	},
+  args: {
+    disabled: true,
+  },
 };

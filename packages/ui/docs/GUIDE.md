@@ -1,11 +1,11 @@
 # UI Components Usage Guide
 
-Comprehensive guide for using `@frontal/ui` components in your applications.
+Comprehensive guide for using `@frontal-ds/ui` components in your applications.
 
 ## Installation
 
 ```bash
-bun install @frontal/ui
+bun install @frontal-ds/ui
 ```
 
 ## Quick Start
@@ -14,18 +14,18 @@ bun install @frontal/ui
 
 ```tsx
 // Import styles
-import '@frontal/ui/styles/styles.css';
+import '@frontal-ds/ui/styles/styles.css';
 // Or use consolidated styles
 import '@frontal/design-system/styles/globals.css';
 
 // Import components
-import { Button, Card, Input } from '@frontal/ui';
+import { Button, Card, Input } from '@frontal-ds/ui';
 ```
 
 ### First Component
 
 ```tsx
-import { Button } from '@frontal/ui';
+import { Button } from '@frontal-ds/ui';
 
 export function MyComponent() {
   return <Button>Click me</Button>;
@@ -37,7 +37,7 @@ export function MyComponent() {
 ### Input Fields
 
 ```tsx
-import { Input, Label } from '@frontal/ui';
+import { Input, Label } from '@frontal-ds/ui';
 
 function FormExample() {
   return (
@@ -58,7 +58,7 @@ function FormExample() {
 ### Form with Validation
 
 ```tsx
-import { Form, FormField, FormItem, FormLabel, FormControl, Input, Button } from '@frontal/ui';
+import { Form, FormField, FormItem, FormLabel, FormControl, Input, Button } from '@frontal-ds/ui';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
@@ -120,7 +120,7 @@ function LoginForm() {
 ### Select Dropdown
 
 ```tsx
-import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from '@frontal/ui';
+import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from '@frontal-ds/ui';
 
 function SelectExample() {
   return (
@@ -141,7 +141,7 @@ function SelectExample() {
 ### Checkbox and Radio
 
 ```tsx
-import { Checkbox, RadioGroup, Radio } from '@frontal/ui';
+import { Checkbox, RadioGroup, Radio } from '@frontal-ds/ui';
 
 function SelectionExample() {
   return (
@@ -171,7 +171,7 @@ function SelectionExample() {
 ### Card
 
 ```tsx
-import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from '@frontal/ui';
+import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from '@frontal-ds/ui';
 
 function CardExample() {
   return (
@@ -194,7 +194,7 @@ function CardExample() {
 ### Grid Layout
 
 ```tsx
-import { Grid, GridItem } from '@frontal/ui';
+import { Grid, GridItem } from '@frontal-ds/ui';
 
 function GridExample() {
   return (
@@ -210,7 +210,7 @@ function GridExample() {
 ### Flex Layout
 
 ```tsx
-import { Flex } from '@frontal/ui';
+import { Flex } from '@frontal-ds/ui';
 
 function FlexExample() {
   return (
@@ -236,7 +236,7 @@ import {
   SidebarMenuItem,
   SidebarMenuButton,
   SidebarTrigger
-} from '@frontal/ui';
+} from '@frontal-ds/ui';
 
 function SidebarExample() {
   return (
@@ -268,7 +268,7 @@ function SidebarExample() {
 ### Tabs
 
 ```tsx
-import { Tabs, TabsList, TabsTrigger, TabsContent } from '@frontal/ui';
+import { Tabs, TabsList, TabsTrigger, TabsContent } from '@frontal-ds/ui';
 
 function TabsExample() {
   return (
@@ -289,7 +289,7 @@ function TabsExample() {
 ### Breadcrumb
 
 ```tsx
-import { Breadcrumb, BreadcrumbList, BreadcrumbItem, BreadcrumbLink, BreadcrumbPage } from '@frontal/ui';
+import { Breadcrumb, BreadcrumbList, BreadcrumbItem, BreadcrumbLink, BreadcrumbPage } from '@frontal-ds/ui';
 
 function BreadcrumbExample() {
   return (
@@ -315,7 +315,7 @@ function BreadcrumbExample() {
 ### Dialog
 
 ```tsx
-import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter, Button } from '@frontal/ui';
+import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter, Button } from '@frontal-ds/ui';
 
 function DialogExample() {
   return (
@@ -342,7 +342,7 @@ function DialogExample() {
 ### Alert Dialog
 
 ```tsx
-import { AlertDialog, AlertDialogTrigger, AlertDialogContent, AlertDialogHeader, AlertDialogTitle, AlertDialogDescription, AlertDialogFooter, AlertDialogCancel, AlertDialogAction, Button } from '@frontal/ui';
+import { AlertDialog, AlertDialogTrigger, AlertDialogContent, AlertDialogHeader, AlertDialogTitle, AlertDialogDescription, AlertDialogFooter, AlertDialogCancel, AlertDialogAction, Button } from '@frontal-ds/ui';
 
 function AlertDialogExample() {
   return (
@@ -370,7 +370,7 @@ function AlertDialogExample() {
 ### Popover
 
 ```tsx
-import { Popover, PopoverTrigger, PopoverContent, Button } from '@frontal/ui';
+import { Popover, PopoverTrigger, PopoverContent, Button } from '@frontal-ds/ui';
 
 function PopoverExample() {
   return (
@@ -391,7 +391,7 @@ function PopoverExample() {
 ### Alert
 
 ```tsx
-import { Alert, AlertTitle, AlertDescription } from '@frontal/ui';
+import { Alert, AlertTitle, AlertDescription } from '@frontal-ds/ui';
 
 function AlertExample() {
   return (
@@ -406,7 +406,7 @@ function AlertExample() {
 ### Toast
 
 ```tsx
-import { ToastProvider, toastManager, Button } from '@frontal/ui';
+import { ToastProvider, toastManager, Button } from '@frontal-ds/ui';
 
 function ToastExample() {
   return (
@@ -425,7 +425,7 @@ function ToastExample() {
 ### Progress
 
 ```tsx
-import { Progress } from '@frontal/ui';
+import { Progress } from '@frontal-ds/ui';
 
 function ProgressExample() {
   return (
@@ -441,7 +441,7 @@ function ProgressExample() {
 ### Skeleton
 
 ```tsx
-import { Skeleton } from '@frontal/ui';
+import { Skeleton } from '@frontal-ds/ui';
 
 function SkeletonExample() {
   return (
@@ -459,7 +459,7 @@ function SkeletonExample() {
 ### Table
 
 ```tsx
-import { Table, TableHeader, TableBody, TableRow, TableHead, TableCell } from '@frontal/ui';
+import { Table, TableHeader, TableBody, TableRow, TableHead, TableCell } from '@frontal-ds/ui';
 
 function TableExample() {
   return (
@@ -491,7 +491,7 @@ function TableExample() {
 ### Avatar
 
 ```tsx
-import { Avatar, AvatarImage, AvatarFallback } from '@frontal/ui';
+import { Avatar, AvatarImage, AvatarFallback } from '@frontal-ds/ui';
 
 function AvatarExample() {
   return (
@@ -511,7 +511,7 @@ function AvatarExample() {
 ### Badge
 
 ```tsx
-import { Badge } from '@frontal/ui';
+import { Badge } from '@frontal-ds/ui';
 
 function BadgeExample() {
   return (
@@ -530,7 +530,7 @@ function BadgeExample() {
 ### Composing Components
 
 ```tsx
-import { Card, CardHeader, CardTitle, CardContent, Table, TableHeader, TableBody, TableRow, TableHead, TableCell } from '@frontal/ui';
+import { Card, CardHeader, CardTitle, CardContent, Table, TableHeader, TableBody, TableRow, TableHead, TableCell } from '@frontal-ds/ui';
 
 function DashboardCard() {
   return (
@@ -562,7 +562,7 @@ function DashboardCard() {
 ### Custom Styling
 
 ```tsx
-import { Button, cn } from '@frontal/ui';
+import { Button, cn } from '@frontal-ds/ui';
 
 function CustomButton({ className, ...props }) {
   return (
@@ -577,7 +577,7 @@ function CustomButton({ className, ...props }) {
 ### Controlled Components
 
 ```tsx
-import { Dialog, DialogContent, DialogHeader, DialogTitle, Button } from '@frontal/ui';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, Button } from '@frontal-ds/ui';
 import { useState } from 'react';
 
 function ControlledDialog() {
@@ -661,7 +661,7 @@ function ControlledDialog() {
 ### 5. Handle Loading States
 
 ```tsx
-import { Button, Skeleton } from '@frontal/ui';
+import { Button, Skeleton } from '@frontal-ds/ui';
 
 function DataComponent({ isLoading, data }) {
   if (isLoading) {
@@ -677,7 +677,7 @@ function DataComponent({ isLoading, data }) {
 All components are fully typed:
 
 ```tsx
-import type { ButtonProps, CardProps } from '@frontal/ui';
+import type { ButtonProps, CardProps } from '@frontal-ds/ui';
 
 function MyComponent(props: ButtonProps) {
   // Fully typed props

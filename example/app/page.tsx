@@ -5,7 +5,7 @@ import {
 	CardPanel,
 	CardTitle,
 	Container,
-} from "@frontal/ui";
+} from "@frontal-ds/ui";
 import Link from "next/link";
 import { Hero } from "./components/hero";
 import { Navigation } from "./components/navigation";

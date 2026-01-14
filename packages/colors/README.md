@@ -1,4 +1,4 @@
-# @frontal/colors
+# @frontal-ds/colors
 
 Frontal's color system and utilities package.
 
@@ -11,15 +11,15 @@ This package provides the color palette, design tokens, and color utilities for 
 This package is part of the Frontal monorepo and is installed automatically as a workspace dependency.
 
 ```bash
-bun install @frontal/colors
+bun install @frontal-ds/colors
 ```
 
 ## Usage
 
 ```tsx
-import { /* color utilities */ } from '@frontal/colors';
-import '@frontal/colors/styles.css';
-import '@frontal/colors/theme.css';
+import { /* color utilities */ } from '@frontal-ds/colors';
+import '@frontal-ds/colors/styles.css';
+import '@frontal-ds/colors/theme.css';
 ```
 
 ## Styles
@@ -28,10 +28,10 @@ Import the color system styles:
 
 ```tsx
 // Base color styles
-import '@frontal/colors/styles.css';
+import '@frontal-ds/colors/styles.css';
 
 // Theme CSS variables
-import '@frontal/colors/theme.css';
+import '@frontal-ds/colors/theme.css';
 ```
 
 Or use the consolidated design system styles:

@@ -1,11 +1,11 @@
 # Colors Usage Guide
 
-Comprehensive guide for using `@frontal/colors` in your applications.
+Comprehensive guide for using `@frontal-ds/colors` in your applications.
 
 ## Installation
 
 ```bash
-bun install @frontal/colors
+bun install @frontal-ds/colors
 ```
 
 ## Quick Start
@@ -13,7 +13,7 @@ bun install @frontal/colors
 ### Basic Usage
 
 ```tsx
-import { gray, blue, semantic } from '@frontal/colors';
+import { gray, blue, semantic } from '@frontal-ds/colors';
 
 // Use color scales
 const primaryColor = gray[500];
@@ -28,10 +28,10 @@ const textColor = semantic.foreground;
 
 ```tsx
 // Import color scale CSS variables
-import '@frontal/colors/styles/styles.css';
+import '@frontal-ds/colors/styles/styles.css';
 
 // Import semantic color CSS variables
-import '@frontal/colors/styles/theme.css';
+import '@frontal-ds/colors/styles/theme.css';
 
 // Or import both via design-system
 import '@frontal/design-system/styles/globals.css';
@@ -42,7 +42,7 @@ import '@frontal/design-system/styles/globals.css';
 ### Using Color Scales Directly
 
 ```tsx
-import { gray, blue, green } from '@frontal/colors';
+import { gray, blue, green } from '@frontal-ds/colors';
 
 function MyComponent() {
   return (
@@ -57,7 +57,7 @@ function MyComponent() {
 ### Using Utility Functions
 
 ```tsx
-import { getColor, getScale } from '@frontal/colors';
+import { getColor, getScale } from '@frontal-ds/colors';
 
 // Get specific color
 const primaryColor = getColor('blue', 500);
@@ -71,7 +71,7 @@ const blueDarkScale = getScale('blue', true);
 ### Dynamic Color Selection
 
 ```tsx
-import { getColor, type ColorScaleName, type ColorShade } from '@frontal/colors';
+import { getColor, type ColorScaleName, type ColorShade } from '@frontal-ds/colors';
 
 function ColorSwatch({ 
   scale, 
@@ -97,7 +97,7 @@ function ColorSwatch({
 Semantic colors provide theme-aware tokens that automatically adapt to light/dark mode:
 
 ```tsx
-import { semantic, semanticDark } from '@frontal/colors';
+import { semantic, semanticDark } from '@frontal-ds/colors';
 
 function ThemedComponent({ isDark }: { isDark: boolean }) {
   const colors = isDark ? semanticDark : semantic;
@@ -121,7 +121,7 @@ function ThemedComponent({ isDark }: { isDark: boolean }) {
 ### CSS Variables with Semantic Colors
 
 ```tsx
-import '@frontal/colors/styles/theme.css';
+import '@frontal-ds/colors/styles/theme.css';
 
 function Component() {
   return (
@@ -140,7 +140,7 @@ function Component() {
 
 ```js
 // tailwind.config.js
-import { gray, blue, semantic } from '@frontal/colors';
+import { gray, blue, semantic } from '@frontal-ds/colors';
 
 module.exports = {
   theme: {
@@ -204,7 +204,7 @@ Then use in components:
 ### Creating Color Picker Component
 
 ```tsx
-import { getAllScales, type ColorScaleName } from '@frontal/colors';
+import { getAllScales, type ColorScaleName } from '@frontal-ds/colors';
 import { useState } from 'react';
 
 function ColorPicker() {
@@ -237,7 +237,7 @@ function ColorPicker() {
 ### Theme-Aware Component
 
 ```tsx
-import { semantic, semanticDark } from '@frontal/colors';
+import { semantic, semanticDark } from '@frontal-ds/colors';
 import { useTheme } from 'next-themes';
 
 function ThemedCard() {
@@ -262,7 +262,7 @@ function ThemedCard() {
 
 ```tsx
 import styled from 'styled-components';
-import { gray, semantic } from '@frontal/colors';
+import { gray, semantic } from '@frontal-ds/colors';
 
 const Button = styled.button`
   background-color: ${semantic.primary};
@@ -279,7 +279,7 @@ const Button = styled.button`
 
 ```tsx
 import { css } from '@emotion/react';
-import { blue, semantic } from '@frontal/colors';
+import { blue, semantic } from '@frontal-ds/colors';
 
 const buttonStyle = css`
   background-color: ${semantic.primary};
@@ -298,7 +298,7 @@ const buttonStyle = css`
 Always ensure sufficient color contrast:
 
 ```tsx
-import { getColor } from '@frontal/colors';
+import { getColor } from '@frontal-ds/colors';
 
 // Use darker shades for text on light backgrounds
 const textColor = getColor('gray', 900); // High contrast
@@ -325,7 +325,7 @@ function getContrastColor(backgroundColor: string): string {
 ### Conditional Color Selection
 
 ```tsx
-import { getColor, type ColorScaleName, type ColorShade } from '@frontal/colors';
+import { getColor, type ColorScaleName, type ColorShade } from '@frontal-ds/colors';
 
 function useThemeColor(scale: ColorScaleName, shade: ColorShade, isDark: boolean) {
   return getColor(scale, shade, isDark);
@@ -416,7 +416,7 @@ Always verify color contrast meets WCAG AA standards (4.5:1 for normal text, 3:1
 ### Gradient Generation
 
 ```tsx
-import { getColor, type ColorScaleName } from '@frontal/colors';
+import { getColor, type ColorScaleName } from '@frontal-ds/colors';
 
 function createGradient(scale: ColorScaleName, start: number, end: number) {
   const colors = [];
@@ -430,7 +430,7 @@ function createGradient(scale: ColorScaleName, start: number, end: number) {
 ### Color Palette Generator
 
 ```tsx
-import { getAllScales } from '@frontal/colors';
+import { getAllScales } from '@frontal-ds/colors';
 
 function generatePalette() {
   const scales = getAllScales();
@@ -448,7 +448,7 @@ function generatePalette() {
 
 ### Colors Not Rendering
 
-- Ensure CSS files are imported: `import '@frontal/colors/styles/styles.css'`
+- Ensure CSS files are imported: `import '@frontal-ds/colors/styles/styles.css'`
 - Check that CSS variables are defined in your stylesheet
 - Verify Tailwind config includes color variables
 
@@ -460,7 +460,7 @@ function generatePalette() {
 
 ### Type Errors
 
-- Import types explicitly: `import type { ColorScaleName } from '@frontal/colors'`
+- Import types explicitly: `import type { ColorScaleName } from '@frontal-ds/colors'`
 - Use type assertions when necessary: `scale as ColorScaleName`
 - Check that you're using valid shade values (50-900)
 

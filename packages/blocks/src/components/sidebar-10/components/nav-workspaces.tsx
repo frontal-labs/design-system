@@ -1,82 +1,82 @@
-import { AddIcon, ArrowRightIcon, MoreIcon } from "@frontal/icons";
+import { AddIcon, ArrowRightIcon, MoreIcon } from "@frontal-ds/icons";
 import {
-	Collapsible,
-	CollapsibleContent,
-	CollapsibleTrigger,
-	SidebarGroup,
-	SidebarGroupContent,
-	SidebarGroupLabel,
-	SidebarMenu,
-	SidebarMenuAction,
-	SidebarMenuButton,
-	SidebarMenuItem,
-	SidebarMenuSub,
-	SidebarMenuSubButton,
-	SidebarMenuSubItem,
-} from "@frontal/ui";
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+  SidebarGroup,
+  SidebarGroupContent,
+  SidebarGroupLabel,
+  SidebarMenu,
+  SidebarMenuAction,
+  SidebarMenuButton,
+  SidebarMenuItem,
+  SidebarMenuSub,
+  SidebarMenuSubButton,
+  SidebarMenuSubItem,
+} from "@frontal-ds/ui";
 
 export function NavWorkspaces({
-	workspaces,
+  workspaces,
 }: {
-	workspaces: {
-		name: string;
-		emoji: React.ReactNode;
-		pages: {
-			name: string;
-			emoji: React.ReactNode;
-		}[];
-	}[];
+  workspaces: {
+    name: string;
+    emoji: React.ReactNode;
+    pages: {
+      name: string;
+      emoji: React.ReactNode;
+    }[];
+  }[];
 }) {
-	return (
-		<SidebarGroup>
-			<SidebarGroupLabel>Workspaces</SidebarGroupLabel>
-			<SidebarGroupContent>
-				<SidebarMenu>
-					{workspaces.map((workspace) => (
-						<Collapsible key={workspace.name}>
-							<SidebarMenuItem>
-								<SidebarMenuButton asChild>
-									<a href="/sign-in">
-										<span>{workspace.emoji}</span>
-										<span>{workspace.name}</span>
-									</a>
-								</SidebarMenuButton>
-								<CollapsibleTrigger asChild>
-									<SidebarMenuAction
-										className="left-2 bg-sidebar-accent text-sidebar-accent-foreground data-[state=open]:rotate-90"
-										showOnHover
-									>
-										<ArrowRightIcon />
-									</SidebarMenuAction>
-								</CollapsibleTrigger>
-								<SidebarMenuAction showOnHover>
-									<AddIcon />
-								</SidebarMenuAction>
-								<CollapsibleContent>
-									<SidebarMenuSub>
-										{workspace.pages.map((page) => (
-											<SidebarMenuSubItem key={page.name}>
-												<SidebarMenuSubButton asChild>
-													<a href="/sign-in">
-														<span>{page.emoji}</span>
-														<span>{page.name}</span>
-													</a>
-												</SidebarMenuSubButton>
-											</SidebarMenuSubItem>
-										))}
-									</SidebarMenuSub>
-								</CollapsibleContent>
-							</SidebarMenuItem>
-						</Collapsible>
-					))}
-					<SidebarMenuItem>
-						<SidebarMenuButton className="text-sidebar-foreground/70">
-							<MoreIcon />
-							<span>More</span>
-						</SidebarMenuButton>
-					</SidebarMenuItem>
-				</SidebarMenu>
-			</SidebarGroupContent>
-		</SidebarGroup>
-	);
+  return (
+    <SidebarGroup>
+      <SidebarGroupLabel>Workspaces</SidebarGroupLabel>
+      <SidebarGroupContent>
+        <SidebarMenu>
+          {workspaces.map((workspace) => (
+            <Collapsible key={workspace.name}>
+              <SidebarMenuItem>
+                <SidebarMenuButton asChild>
+                  <a href="/sign-in">
+                    <span>{workspace.emoji}</span>
+                    <span>{workspace.name}</span>
+                  </a>
+                </SidebarMenuButton>
+                <CollapsibleTrigger asChild>
+                  <SidebarMenuAction
+                    className="left-2 bg-sidebar-accent text-sidebar-accent-foreground data-[state=open]:rotate-90"
+                    showOnHover
+                  >
+                    <ArrowRightIcon />
+                  </SidebarMenuAction>
+                </CollapsibleTrigger>
+                <SidebarMenuAction showOnHover>
+                  <AddIcon />
+                </SidebarMenuAction>
+                <CollapsibleContent>
+                  <SidebarMenuSub>
+                    {workspace.pages.map((page) => (
+                      <SidebarMenuSubItem key={page.name}>
+                        <SidebarMenuSubButton asChild>
+                          <a href="/sign-in">
+                            <span>{page.emoji}</span>
+                            <span>{page.name}</span>
+                          </a>
+                        </SidebarMenuSubButton>
+                      </SidebarMenuSubItem>
+                    ))}
+                  </SidebarMenuSub>
+                </CollapsibleContent>
+              </SidebarMenuItem>
+            </Collapsible>
+          ))}
+          <SidebarMenuItem>
+            <SidebarMenuButton className="text-sidebar-foreground/70">
+              <MoreIcon />
+              <span>More</span>
+            </SidebarMenuButton>
+          </SidebarMenuItem>
+        </SidebarMenu>
+      </SidebarGroupContent>
+    </SidebarGroup>
+  );
 }

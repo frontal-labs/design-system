@@ -1,71 +1,73 @@
 {
-	"name": "@frontal/design-system",
-	"description": "Frontal's centralized design system.",
-	"version": "0.0.2",
-	"type": "module",
-	"packageManager": "bun@1.3.3",
-	"engines": {
-		"bun": ">=1.1.0"
-	},
-	"main": "./dist/index.js",
-	"module": "./dist/index.js",
-	"types": "./dist/index.d.ts",
-	"files": [
-		"dist"
-	],
-	"exports": {
-		".": {
-			"types": "./dist/index.d.ts",
-			"import": "./dist/index.js",
-			"require": "./dist/index.cjs",
-			"default": "./dist/index.js"
-		},
-		"./styles/globals.css": "./dist/styles/globals.css"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/frontal-labs/design-system.git",
-		"directory": "packages/design-system"
-	},
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com"
-	},
-	"scripts": {
-		"build": "bun run build.ts",
-		"build:bundle": "bun run build.ts --minify",
-		"prepublishOnly": "bun run build",
-		"lint": "biome check",
-		"lint:fix": "biome check --write --unsafe",
-		"format": "biome format --write",
-		"check": "biome check",
-		"check:fix": "biome check --write",
-		"type-check": "tsc",
-		"test": "bun test tests/",
-		"clean": "git clean -xdf -- node_modules .next .cache"
-	},
-	"peerDependencies": {
-		"react": "^19.2.0"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "2.3.4",
-		"@frontal/typescript-config": "workspace:*",
-		"@types/bun": "^1.3.5",
-		"@types/react": "^19.2.1",
-		"typescript": "^5.9.3"
-	},
-	"dependencies": {
-		"@frontal/blocks": "workspace:*",
-		"@frontal/charts": "workspace:*",
-		"@frontal/colors": "workspace:*",
-		"@frontal/icons": "workspace:*",
-		"@frontal/typeface": "workspace:*",
-		"@frontal/ui": "workspace:*"
-	},
-	"keywords": [
-		"design-system",
-		"frontal",
-		"ui",
-		"components",
-		"barrel"
-	]
+  "name": "@frontal-ds/design-system",
+  "description": "Frontal's centralized design system.",
+  "version": "0.0.2",
+  "type": "module",
+  "packageManager": "bun@1.3.3",
+  "engines": {
+    "bun": ">=1.1.0"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.js"
+    },
+    "./styles/globals.css": "./dist/styles/globals.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontal-labs/design-system.git",
+    "directory": "packages/design-system"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "@frontal:registry": "https://npm.pkg.github.com",
+    "access": "public"
+  },
+  "scripts": {
+    "build": "bun run build.ts",
+    "build:bundle": "bun run build.ts --minify",
+    "prepublishOnly": "bun run build",
+    "lint": "biome check",
+    "lint:fix": "biome check --write --unsafe",
+    "format": "biome format --write",
+    "check": "biome check",
+    "check:fix": "biome check --write",
+    "type-check": "tsc",
+    "test": "bun test tests/",
+    "clean": "git clean -xdf -- node_modules .next .cache"
+  },
+  "peerDependencies": {
+    "react": "^19.2.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.3.4",
+    "@frontal/style-guide": "github:frontal-labs/style-guide",
+    "@types/bun": "^1.3.5",
+    "@types/react": "^19.2.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@frontal-ds/blocks": "workspace:*",
+    "@frontal-ds/charts": "workspace:*",
+    "@frontal-ds/colors": "workspace:*",
+    "@frontal-ds/icons": "workspace:*",
+    "@frontal-ds/typeface": "workspace:*",
+    "@frontal-ds/ui": "workspace:*"
+  },
+  "keywords": [
+    "design-system",
+    "frontal",
+    "ui",
+    "components",
+    "barrel"
+  ]
 }

@@ -1,25 +1,27 @@
 {
-	"extends": "@frontal/typescript-config/react.json",
-	"compilerOptions": {
-		"baseUrl": ".",
-		"noEmit": true,
-		"esModuleInterop": true,
-		"module": "esnext",
-		"moduleResolution": "bundler",
-		"resolveJsonModule": true,
-		"isolatedModules": true,
-		"jsx": "react-jsx",
-		"incremental": false,
-		"composite": false,
-		"lib": ["ES2022", "DOM", "DOM.Iterable"],
-		"paths": {
-			"@/*": ["./src/*"],
-			"@frontal/blocks": ["../blocks/src/index.ts"],
-			"@frontal/blocks/*": ["../blocks/src/*"],
-			"@frontal/ui": ["../ui/src/index.ts"],
-			"@frontal/ui/*": ["../ui/src/*"]
-		}
-	},
-	"include": ["src/**/*.ts", "src/**/*.tsx"],
-	"exclude": ["node_modules", "dist", "build.ts", "tests"]
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "noEmit": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "incremental": false,
+    "composite": false,
+    "paths": {
+      "@/*": ["./src/*"],
+      "@frontal-ds/blocks": ["../blocks/src/index.ts"],
+      "@frontal-ds/blocks/*": ["../blocks/src/*"],
+      "@frontal-ds/ui": ["../ui/src/index.ts"],
+      "@frontal-ds/ui/*": ["../ui/src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules", "dist", "build.ts", "tests"]
 }

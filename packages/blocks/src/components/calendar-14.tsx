@@ -1,31 +1,31 @@
 "use client";
 
-import { Calendar } from "@frontal/ui";
+import { Calendar } from "@frontal-ds/ui";
 import * as React from "react";
 
 export default function Calendar14() {
-	const [date, setDate] = React.useState<Date | undefined>(
-		new Date(2025, 5, 12),
-	);
-	const bookedDates = Array.from(
-		{ length: 12 },
-		(_, i) => new Date(2025, 5, 15 + i),
-	);
+  const [date, setDate] = React.useState<Date | undefined>(
+    new Date(2025, 5, 12)
+  );
+  const bookedDates = Array.from(
+    { length: 12 },
+    (_, i) => new Date(2025, 5, 15 + i)
+  );
 
-	return (
-		<Calendar
-			mode="single"
-			defaultMonth={date}
-			selected={date}
-			onSelect={setDate}
-			disabled={bookedDates}
-			modifiers={{
-				booked: bookedDates,
-			}}
-			modifiersClassNames={{
-				booked: "[&>button]:line-through opacity-100",
-			}}
-			className="rounded-lg border shadow-sm"
-		/>
-	);
+  return (
+    <Calendar
+      mode="single"
+      defaultMonth={date}
+      selected={date}
+      onSelect={setDate}
+      disabled={bookedDates}
+      modifiers={{
+        booked: bookedDates,
+      }}
+      modifiersClassNames={{
+        booked: "[&>button]:line-through opacity-100",
+      }}
+      className="rounded-lg border shadow-sm"
+    />
+  );
 }

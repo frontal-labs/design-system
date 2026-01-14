@@ -6,13 +6,13 @@ For non-Next.js environments, you can use the CSS fallback instead of the Next.j
 
 ```tsx
 // In your main CSS file or root component
-import '@frontal/typeface/styles/fonts.css';
+import '@frontal-ds/typeface/styles/fonts.css';
 ```
 
 Or in a CSS file:
 
 ```css
-@import '@frontal/typeface/styles/fonts.css';
+@import '@frontal-ds/typeface/styles/fonts.css';
 ```
 
 ## Using the Fonts
@@ -47,4 +47,4 @@ After importing the CSS, use the fonts directly:
 - The CSS fallback uses `font-display: swap` for better performance
 - Font files are referenced from the `fonts/` directory relative to the CSS file
 - Only WOFF2 format is used (modern browsers)
-- For Next.js projects, prefer using the `fonts` export from `@frontal/typeface` which provides automatic optimization
+- For Next.js projects, prefer using the `fonts` export from `@frontal-ds/typeface` which provides automatic optimization

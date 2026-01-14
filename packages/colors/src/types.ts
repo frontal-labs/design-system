@@ -1,19 +1,19 @@
-// @frontal/colors - Type definitions
+// @frontal-ds/colors - Type definitions
 
 /**
  * Color shade levels (50-900)
  */
 export type ColorShade =
-	| 50
-	| 100
-	| 200
-	| 300
-	| 400
-	| 500
-	| 600
-	| 700
-	| 800
-	| 900;
+  | 50
+  | 100
+  | 200
+  | 300
+  | 400
+  | 500
+  | 600
+  | 700
+  | 800
+  | 900;
 
 /**
  * Extended color shade levels (includes 1000 for dark mode)
@@ -24,17 +24,17 @@ export type ExtendedColorShade = ColorShade | 1000;
  * Color scale names
  */
 export type ColorScaleName =
-	| "gray"
-	| "blue"
-	| "cyan"
-	| "yellow"
-	| "brown"
-	| "green"
-	| "teal"
-	| "pink"
-	| "purple"
-	| "orange"
-	| "red";
+  | "gray"
+  | "blue"
+  | "cyan"
+  | "yellow"
+  | "brown"
+  | "green"
+  | "teal"
+  | "pink"
+  | "purple"
+  | "orange"
+  | "red";
 
 /**
  * OKLCH color value

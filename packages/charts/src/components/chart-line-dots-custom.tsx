@@ -1,112 +1,112 @@
 "use client";
 
-import { ArrowUpIcon, GitCommitIcon } from "@frontal/icons";
+import { ArrowUpIcon, GitCommitIcon } from "@frontal-ds/icons";
 import {
-	Card,
-	CardContent,
-	CardDescription,
-	CardFooter,
-	CardHeader,
-	CardTitle,
-	type ChartConfig,
-	ChartContainer,
-	ChartTooltip,
-	ChartTooltipContent,
-} from "@frontal/ui";
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+  type ChartConfig,
+  ChartContainer,
+  ChartTooltip,
+  ChartTooltipContent,
+} from "@frontal-ds/ui";
 import { CartesianGrid, Line, LineChart, XAxis } from "recharts";
 
 export const description = "A line chart with custom dots";
 
 const chartData = [
-	{ month: "January", desktop: 186, mobile: 80 },
-	{ month: "February", desktop: 305, mobile: 200 },
-	{ month: "March", desktop: 237, mobile: 120 },
-	{ month: "April", desktop: 73, mobile: 190 },
-	{ month: "May", desktop: 209, mobile: 130 },
-	{ month: "June", desktop: 214, mobile: 140 },
+  { month: "January", desktop: 186, mobile: 80 },
+  { month: "February", desktop: 305, mobile: 200 },
+  { month: "March", desktop: 237, mobile: 120 },
+  { month: "April", desktop: 73, mobile: 190 },
+  { month: "May", desktop: 209, mobile: 130 },
+  { month: "June", desktop: 214, mobile: 140 },
 ];
 
 const chartConfig = {
-	desktop: {
-		label: "Desktop",
-		color: "var(--chart-1)",
-	},
-	mobile: {
-		label: "Mobile",
-		color: "var(--chart-2)",
-	},
+  desktop: {
+    label: "Desktop",
+    color: "var(--chart-1)",
+  },
+  mobile: {
+    label: "Mobile",
+    color: "var(--chart-2)",
+  },
 } satisfies ChartConfig;
 
 export function ChartLineDotsCustom() {
-	return (
-		<Card>
-			<CardHeader>
-				<CardTitle>Line Chart - Custom Dots</CardTitle>
-				<CardDescription>January - June 2024</CardDescription>
-			</CardHeader>
-			<CardContent>
-				<ChartContainer config={chartConfig}>
-					<LineChart
-						accessibilityLayer
-						data={chartData}
-						margin={{
-							left: 12,
-							right: 12,
-						}}
-					>
-						<CartesianGrid vertical={false} />
-						<XAxis
-							dataKey="month"
-							tickLine={false}
-							axisLine={false}
-							tickMargin={8}
-							tickFormatter={(value: string | number) =>
-								String(value).slice(0, 3)
-							}
-						/>
-						<ChartTooltip
-							cursor={false}
-							content={<ChartTooltipContent hideLabel />}
-						/>
-						<Line
-							dataKey="desktop"
-							type="natural"
-							stroke="var(--color-desktop)"
-							strokeWidth={2}
-							dot={({
-								cx,
-								cy,
-								payload,
-							}: {
-								cx?: number;
-								cy?: number;
-								payload: (typeof chartData)[number];
-							}) => {
-								const r = 24;
-								return (
-									<GitCommitIcon
-										key={payload.month}
-										x={(cx ?? 0) - r / 2}
-										y={(cy ?? 0) - r / 2}
-										width={r}
-										height={r}
-										fill="hsl(var(--background))"
-										stroke="var(--color-desktop)"
-									/>
-								);
-							}}
-						/>
-					</LineChart>
-				</ChartContainer>
-			</CardContent>
-			<CardFooter className="flex-col items-start gap-2 text-sm">
-				<div className="flex gap-2 font-medium leading-none">
-					Trending up by 5.2% this month <ArrowUpIcon className="h-4 w-4" />
-				</div>
-				<div className="text-muted-foreground leading-none">
-					Showing total visitors for the last 6 months
-				</div>
-			</CardFooter>
-		</Card>
-	);
+  return (
+    <Card>
+      <CardHeader>
+        <CardTitle>Line Chart - Custom Dots</CardTitle>
+        <CardDescription>January - June 2024</CardDescription>
+      </CardHeader>
+      <CardContent>
+        <ChartContainer config={chartConfig}>
+          <LineChart
+            accessibilityLayer
+            data={chartData}
+            margin={{
+              left: 12,
+              right: 12,
+            }}
+          >
+            <CartesianGrid vertical={false} />
+            <XAxis
+              dataKey="month"
+              tickLine={false}
+              axisLine={false}
+              tickMargin={8}
+              tickFormatter={(value: string | number) =>
+                String(value).slice(0, 3)
+              }
+            />
+            <ChartTooltip
+              cursor={false}
+              content={<ChartTooltipContent hideLabel />}
+            />
+            <Line
+              dataKey="desktop"
+              type="natural"
+              stroke="var(--color-desktop)"
+              strokeWidth={2}
+              dot={({
+                cx,
+                cy,
+                payload,
+              }: {
+                cx?: number;
+                cy?: number;
+                payload: (typeof chartData)[number];
+              }) => {
+                const r = 24;
+                return (
+                  <GitCommitIcon
+                    key={payload.month}
+                    x={(cx ?? 0) - r / 2}
+                    y={(cy ?? 0) - r / 2}
+                    width={r}
+                    height={r}
+                    fill="hsl(var(--background))"
+                    stroke="var(--color-desktop)"
+                  />
+                );
+              }}
+            />
+          </LineChart>
+        </ChartContainer>
+      </CardContent>
+      <CardFooter className="flex-col items-start gap-2 text-sm">
+        <div className="flex gap-2 font-medium leading-none">
+          Trending up by 5.2% this month <ArrowUpIcon className="h-4 w-4" />
+        </div>
+        <div className="text-muted-foreground leading-none">
+          Showing total visitors for the last 6 months
+        </div>
+      </CardFooter>
+    </Card>
+  );
 }

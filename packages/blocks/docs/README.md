@@ -1,15 +1,15 @@
-# @frontal/blocks Documentation
+# @frontal-ds/blocks Documentation
 
 ## Overview
 
-The `@frontal/blocks` package provides a comprehensive collection of pre-built UI blocks and components for the Frontal design system. These blocks are ready-to-use implementations of common UI patterns including dashboards, sidebars, calendars, authentication forms, and more.
+The `@frontal-ds/blocks` package provides a comprehensive collection of pre-built UI blocks and components for the Frontal design system. These blocks are ready-to-use implementations of common UI patterns including dashboards, sidebars, calendars, authentication forms, and more.
 
 ## Installation
 
 This package is part of the Frontal monorepo and is available as a workspace dependency.
 
 ```bash
-bun install @frontal/blocks
+bun install @frontal-ds/blocks
 ```
 
 ## Available Blocks
@@ -39,7 +39,7 @@ The package includes 16 different sidebar variations:
 Blocks are available through the blocks registry:
 
 ```tsx
-import { blocks } from '@frontal/blocks';
+import { blocks } from '@frontal-ds/blocks';
 
 // Access a specific block
 const dashboardBlock = blocks.find(block => block.name === 'dashboard-01');
@@ -51,8 +51,8 @@ Blocks are example implementations that can be imported directly:
 
 ```tsx
 // Import a specific block component
-import Dashboard01 from '@frontal/blocks/components/dashboard-01/page';
-import Sidebar01 from '@frontal/blocks/components/sidebar-01/page';
+import Dashboard01 from '@frontal-ds/blocks/components/dashboard-01/page';
+import Sidebar01 from '@frontal-ds/blocks/components/sidebar-01/page';
 ```
 
 ### Block Registry Structure
@@ -77,7 +77,7 @@ Blocks may require additional dependencies:
 
 ## Icons
 
-All blocks use icons from `@frontal/icons` package. The package has been migrated from `lucide-react` to use the Frontal icon library.
+All blocks use icons from `@frontal-ds/icons` package. The package has been migrated from `lucide-react` to use the Frontal icon library.
 
 ## Styling
 
@@ -132,7 +132,7 @@ When adding new blocks:
 1. Create the block components in `src/components/`
 2. Add the block definition to `src/components/_registry.ts`
 3. Include all necessary dependencies
-4. Use `@frontal/icons` for all icons
+4. Use `@frontal-ds/icons` for all icons
 5. Follow the existing block structure and naming conventions
 6. Add appropriate tests
 

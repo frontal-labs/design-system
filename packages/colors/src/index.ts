@@ -1,7 +1,8 @@
-// @frontal/colors
+// @frontal-ds/colors
 // Color system and utilities for the Frontal design system
 
 // Export all color scales
+// biome-ignore lint/performance/noBarrelFile: This package intentionally uses barrel exports
 export * from "./scales";
 
 // Export semantic colors

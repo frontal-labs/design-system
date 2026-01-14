@@ -1,4 +1,4 @@
-import { Button, Container, Heading, Text } from "@frontal/ui";
+import { Button, Container, Heading, Text } from "@frontal-ds/ui";
 import Link from "next/link";
 
 export function Hero() {

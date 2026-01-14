@@ -1,12 +1,12 @@
 import {
-	AlertDialog,
-	AlertDialogClose,
-	AlertDialogContent,
-	AlertDialogDescription,
-	AlertDialogFooter,
-	AlertDialogHeader,
-	AlertDialogTitle,
-	AlertDialogTrigger,
+  AlertDialog,
+  AlertDialogClose,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
 } from "@frontal/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
@@ -15,31 +15,53 @@ import type { Meta, StoryObj } from "@storybook/react";
  * a response.
  */
 const meta = {
-	title: "ui/AlertDialog",
-	component: AlertDialog,
-	tags: ["autodocs"],
-	argTypes: {},
-	render: (args) => (
-		<AlertDialog {...args}>
-			<AlertDialogTrigger>Open</AlertDialogTrigger>
-			<AlertDialogContent>
-				<AlertDialogHeader>
-					<AlertDialogTitle>Are you sure absolutely sure?</AlertDialogTitle>
-					<AlertDialogDescription>
-						This action cannot be undone. This will permanently delete your
-						account and remove your data from our servers.
-					</AlertDialogDescription>
-				</AlertDialogHeader>
-				<AlertDialogFooter>
-					<AlertDialogClose>Cancel</AlertDialogClose>
-					<AlertDialogClose>Continue</AlertDialogClose>
-				</AlertDialogFooter>
-			</AlertDialogContent>
-		</AlertDialog>
-	),
-	parameters: {
-		layout: "centered",
-	},
+  title: "ui/AlertDialog",
+  component: AlertDialog,
+  tags: ["autodocs"],
+  argTypes: {
+    open: {
+      control: { type: "boolean" },
+      description: "Controlled open state",
+    },
+    defaultOpen: {
+      control: { type: "boolean" },
+      description: "Default open state",
+    },
+    onOpenChange: {
+      action: "openChanged",
+      description: "Callback when open state changes",
+    },
+    // @ts-expect-error - Storybook type system doesn't recognize modal prop
+    modal: {
+      control: { type: "boolean" },
+      description: "Whether the dialog is modal",
+    },
+  },
+  args: {
+    // @ts-expect-error - Storybook type system doesn't recognize modal prop
+    modal: true,
+  },
+  render: (args) => (
+    <AlertDialog {...args}>
+      <AlertDialogTrigger>Open</AlertDialogTrigger>
+      <AlertDialogContent>
+        <AlertDialogHeader>
+          <AlertDialogTitle>Are you sure absolutely sure?</AlertDialogTitle>
+          <AlertDialogDescription>
+            This action cannot be undone. This will permanently delete your
+            account and remove your data from our servers.
+          </AlertDialogDescription>
+        </AlertDialogHeader>
+        <AlertDialogFooter>
+          <AlertDialogClose>Cancel</AlertDialogClose>
+          <AlertDialogClose>Continue</AlertDialogClose>
+        </AlertDialogFooter>
+      </AlertDialogContent>
+    </AlertDialog>
+  ),
+  parameters: {
+    layout: "centered",
+  },
 } satisfies Meta<typeof AlertDialog>;
 
 export default meta;

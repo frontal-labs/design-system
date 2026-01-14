@@ -1,4 +1,4 @@
-# @frontal/typeface
+# @frontal-ds/typeface
 
 Frontal's custom typeface package providing Maison Neue and Maison Neue Mono fonts for use across the Frontal platform.
 
@@ -15,7 +15,7 @@ This package provides:
 This package is part of the Frontal monorepo and is installed automatically as a workspace dependency.
 
 ```bash
-bun install @frontal/typeface
+bun install @frontal-ds/typeface
 ```
 
 ## Quick Start
@@ -23,7 +23,7 @@ bun install @frontal/typeface
 ### Basic Usage
 
 ```tsx
-import { fonts } from '@frontal/typeface';
+import { fonts } from '@frontal-ds/typeface';
 
 export default function RootLayout({ children }) {
   return (
@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
 ### Individual Font Exports
 
 ```tsx
-import { MaisonNeue, MaisonNeueMono } from '@frontal/typeface';
+import { MaisonNeue, MaisonNeueMono } from '@frontal-ds/typeface';
 
 export default function Layout({ children }) {
   return (
@@ -97,7 +97,7 @@ See [USAGE.md](./USAGE.md) for detailed usage examples.
 For non-Next.js environments, you can use the CSS fallback:
 
 ```tsx
-import '@frontal/typeface/styles/fonts.css';
+import '@frontal-ds/typeface/styles/fonts.css';
 ```
 
 See [FALLBACK.md](./FALLBACK.md) for detailed CSS fallback usage.

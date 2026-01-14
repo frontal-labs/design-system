@@ -1,20 +1,20 @@
 "use client";
 
-import { Calendar } from "@frontal/ui";
+import { Calendar } from "@frontal-ds/ui";
 import * as React from "react";
 
 export default function Calendar01() {
-	const [date, setDate] = React.useState<Date | undefined>(
-		new Date(2025, 5, 12),
-	);
+  const [date, setDate] = React.useState<Date | undefined>(
+    new Date(2025, 5, 12)
+  );
 
-	return (
-		<Calendar
-			mode="single"
-			defaultMonth={date}
-			selected={date}
-			onSelect={setDate}
-			className="rounded-lg border shadow-sm"
-		/>
-	);
+  return (
+    <Calendar
+      mode="single"
+      defaultMonth={date}
+      selected={date}
+      onSelect={setDate}
+      className="rounded-lg border shadow-sm"
+    />
+  );
 }

@@ -1,6 +1,6 @@
 # Usage Guide
 
-Detailed usage examples and patterns for `@frontal/typeface`.
+Detailed usage examples and patterns for `@frontal-ds/typeface`.
 
 ## Next.js App Router Setup
 
@@ -10,7 +10,7 @@ Apply fonts to your root layout:
 
 ```tsx
 // app/layout.tsx
-import { fonts } from '@frontal/typeface';
+import { fonts } from '@frontal-ds/typeface';
 
 export default function RootLayout({
   children,
@@ -31,7 +31,7 @@ Use individual fonts when you need more control:
 
 ```tsx
 // app/layout.tsx
-import { MaisonNeue, MaisonNeueMono } from '@frontal/typeface';
+import { MaisonNeue, MaisonNeueMono } from '@frontal-ds/typeface';
 
 export default function RootLayout({
   children,
@@ -168,7 +168,7 @@ module.exports = {
 ### Custom Styling
 
 ```tsx
-import { MaisonNeue } from '@frontal/typeface';
+import { MaisonNeue } from '@frontal-ds/typeface';
 
 <div 
   className={MaisonNeue.variable}
@@ -188,7 +188,7 @@ Fonts work seamlessly with Next.js Server Components:
 
 ```tsx
 // app/page.tsx (Server Component)
-import { fonts } from '@frontal/typeface';
+import { fonts } from '@frontal-ds/typeface';
 
 export default function HomePage() {
   return (
@@ -207,7 +207,7 @@ Fonts also work in Client Components:
 ```tsx
 'use client';
 
-import { MaisonNeue } from '@frontal/typeface';
+import { MaisonNeue } from '@frontal-ds/typeface';
 import { useState } from 'react';
 
 export function InteractiveComponent() {

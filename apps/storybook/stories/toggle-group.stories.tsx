@@ -6,31 +6,70 @@ import { Bold, Italic, Underline } from "lucide-react";
  * A set of two-state buttons that can be toggled on or off.
  */
 const meta = {
-	title: "ui/ToggleGroup",
-	component: ToggleGroup,
-	tags: ["autodocs"],
-	argTypes: {},
-	args: {
-		variant: "default",
-		size: "default",
-		disabled: false,
-	},
-	render: (args) => (
-		<ToggleGroup {...args}>
-			<ToggleGroupItem aria-label="Toggle bold" value="bold">
-				<Bold className="h-4 w-4" />
-			</ToggleGroupItem>
-			<ToggleGroupItem aria-label="Toggle italic" value="italic">
-				<Italic className="h-4 w-4" />
-			</ToggleGroupItem>
-			<ToggleGroupItem aria-label="Toggle underline" value="underline">
-				<Underline className="h-4 w-4" />
-			</ToggleGroupItem>
-		</ToggleGroup>
-	),
-	parameters: {
-		layout: "centered",
-	},
+  title: "ui/ToggleGroup",
+  component: ToggleGroup,
+  tags: ["autodocs"],
+  argTypes: {
+    // @ts-expect-error - Storybook type system doesn't recognize type prop
+    type: {
+      options: ["single", "multiple"],
+      control: { type: "radio" },
+      description: "Toggle group type",
+    },
+    value: {
+      control: { type: "text" },
+      description: "Controlled value (single) or array (multiple)",
+    },
+    defaultValue: {
+      control: { type: "text" },
+      description: "Default value",
+    },
+    onValueChange: {
+      action: "valueChanged",
+      description: "Callback when value changes",
+    },
+    variant: {
+      options: ["default", "outline"],
+      control: { type: "select" },
+      description: "Visual style variant",
+    },
+    size: {
+      options: ["default", "sm", "lg"],
+      control: { type: "select" },
+      description: "Toggle group size",
+    },
+    disabled: {
+      control: { type: "boolean" },
+      description: "Whether the toggle group is disabled",
+    },
+    className: {
+      control: { type: "text" },
+      description: "Additional CSS classes",
+    },
+  },
+  args: {
+    // @ts-expect-error - Storybook type system doesn't recognize type prop
+    type: "single",
+    variant: "default",
+    size: "default",
+    disabled: false,
+  },
+  render: (args) => (
+    <ToggleGroup {...args}>
+      <ToggleGroupItem aria-label="Toggle bold" value="bold">
+        <Bold className="h-4 w-4" />
+      </ToggleGroupItem>
+      <ToggleGroupItem aria-label="Toggle italic" value="italic">
+        <Italic className="h-4 w-4" />
+      </ToggleGroupItem>
+      <ToggleGroupItem aria-label="Toggle underline" value="underline">
+        <Underline className="h-4 w-4" />
+      </ToggleGroupItem>
+    </ToggleGroup>
+  ),
+  parameters: {
+    layout: "centered",
+  },
 } satisfies Meta<typeof ToggleGroup>;
 
 export default meta;
@@ -47,9 +86,9 @@ export const Default: Story = {};
  * while keeping them visually cohesive.
  */
 export const Outline: Story = {
-	args: {
-		variant: "outline",
-	},
+  args: {
+    variant: "outline",
+  },
 };
 
 /**
@@ -57,9 +96,9 @@ export const Outline: Story = {
  * smaller buttons for spaces with limited real estate.
  */
 export const Small: Story = {
-	args: {
-		size: "sm",
-	},
+  args: {
+    size: "sm",
+  },
 };
 
 /**
@@ -67,16 +106,16 @@ export const Small: Story = {
  * larger buttons for emphasis.
  */
 export const Large: Story = {
-	args: {
-		size: "lg",
-	},
+  args: {
+    size: "lg",
+  },
 };
 
 /**
  * Add the `disabled` prop to a button to prevent interactions.
  */
 export const Disabled: Story = {
-	args: {
-		disabled: true,
-	},
+  args: {
+    disabled: true,
+  },
 };

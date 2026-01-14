@@ -1,4 +1,4 @@
-// @frontal/charts
+// @frontal-ds/charts
 // Chart and visualization components for the Frontal design system
 
 // Chart components are available as example implementations

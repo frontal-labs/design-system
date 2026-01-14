@@ -1,6 +1,6 @@
-# Contributing to @frontal/blocks
+# Contributing to @frontal-ds/blocks
 
-Thank you for your interest in contributing to `@frontal/blocks`!
+Thank you for your interest in contributing to `@frontal-ds/blocks`!
 
 This package is part of the Frontal Design System monorepo. For general contribution guidelines, please refer to the [root CONTRIBUTING.md](../../CONTRIBUTING.md).
 

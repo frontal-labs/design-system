@@ -1,92 +1,99 @@
 #!/usr/bin/env bun
 /// <reference types="bun-types" />
 /**
- * Build script for @frontal/blocks
+ * Build script for @frontal-ds/blocks
  * Uses Bun's native bundler API
  * @see https://bun.com/docs/bundler
  */
 
 const entrypoint = "./src/index.ts";
 const minify =
-	process.argv.includes("--minify") || process.argv.includes("--bundle");
+  process.argv.includes("--minify") || process.argv.includes("--bundle");
 
 async function build() {
-	const { existsSync, mkdirSync } = await import("node:fs");
-	if (!existsSync("./dist")) {
-		mkdirSync("./dist", { recursive: true });
-	}
+  const { existsSync, mkdirSync } = await import("node:fs");
+  if (!existsSync("./dist")) {
+    mkdirSync("./dist", { recursive: true });
+  }
 
-	console.log(`Building @frontal/blocks${minify ? " (minified)" : ""}...`);
+  // Build ESM format
+  // biome-ignore lint/correctness/noUndeclaredVariables: Bun is a global in Bun runtime
+  const esmResult = await Bun.build({
+    entrypoints: [entrypoint],
+    outfile: "./dist/index.js",
+    format: "esm",
+    target: "bun",
+    sourcemap: "linked",
+    packages: "external",
+    minify,
+  });
 
-	// Build ESM format
-	const esmResult = await Bun.build({
-		entrypoints: [entrypoint],
-		outfile: "./dist/index.js",
-		format: "esm",
-		target: "bun",
-		sourcemap: "linked",
-		packages: "external",
-		minify,
-	});
+  if (!esmResult.success) {
+    // Logs are handled by stderr: "inherit" in spawn calls
+    process.exit(1);
+  }
 
-	if (!esmResult.success) {
-		console.error("ESM build failed:");
-		for (const log of esmResult.logs) {
-			console.error(log);
-		}
-		process.exit(1);
-	}
+  // Ensure ESM file is written
+  if (esmResult.outputs.length > 0) {
+    const esmOutput = esmResult.outputs[0];
+    let esmContent = await esmOutput.text();
 
-	// Ensure ESM file is written
-	if (esmResult.outputs.length > 0) {
-		const esmOutput = esmResult.outputs[0];
-		await Bun.write("./dist/index.js", esmOutput);
-	}
+    // Remove existing "use client" directives to prevent them from appearing in the middle of the bundle
+    esmContent = esmContent.replace(/^["']use client["'];?\s*$/gm, "");
 
-	// Build CJS format
-	const cjsResult = await Bun.build({
-		entrypoints: [entrypoint],
-		outfile: "./dist/index.cjs",
-		format: "cjs",
-		target: "bun",
-		sourcemap: "linked",
-		packages: "external",
-		minify,
-	});
+    // Prepend "use client" directive since the bundle contains React client components
+    const esmWithDirective = `"use client";\n${esmContent}`;
+    // biome-ignore lint/correctness/noUndeclaredVariables: Bun is a global in Bun runtime
+    await Bun.write("./dist/index.js", esmWithDirective);
+  }
 
-	if (!cjsResult.success) {
-		console.error("CJS build failed:");
-		for (const log of cjsResult.logs) {
-			console.error(log);
-		}
-		process.exit(1);
-	}
+  // Build CJS format
+  // biome-ignore lint/correctness/noUndeclaredVariables: Bun is a global in Bun runtime
+  const cjsResult = await Bun.build({
+    entrypoints: [entrypoint],
+    outfile: "./dist/index.cjs",
+    format: "cjs",
+    target: "bun",
+    sourcemap: "linked",
+    packages: "external",
+    minify,
+  });
 
-	// Ensure CJS file is written
-	if (cjsResult.outputs.length > 0) {
-		const cjsOutput = cjsResult.outputs[0];
-		await Bun.write("./dist/index.cjs", cjsOutput);
-	}
+  if (!cjsResult.success) {
+    // Logs are handled by stderr: "inherit" in spawn calls
+    process.exit(1);
+  }
 
-	// Generate TypeScript declarations
-	const tscProcess = Bun.spawn(
-		["tsc", "--project", "tsconfig.declaration.json"],
-		{
-			stdout: "inherit",
-			stderr: "inherit",
-		},
-	);
+  // Ensure CJS file is written
+  if (cjsResult.outputs.length > 0) {
+    const cjsOutput = cjsResult.outputs[0];
+    // biome-ignore lint/correctness/noUndeclaredVariables: Bun is a global in Bun runtime
+    await Bun.write("./dist/index.cjs", cjsOutput);
+  }
 
-	const tscExitCode = await tscProcess.exited;
-	if (tscExitCode !== 0) {
-		console.error("TypeScript declaration generation failed");
-		process.exit(1);
-	}
+  // Generate TypeScript declarations
+  // biome-ignore lint/correctness/noUndeclaredVariables: Bun is a global in Bun runtime
+  const tscProcess = Bun.spawn(
+    ["tsc", "--project", "tsconfig.declaration.json"],
+    {
+      stdout: "inherit",
+      stderr: "inherit",
+    }
+  );
 
-	console.log("✓ Build completed successfully");
+  const tscExitCode = await tscProcess.exited;
+  if (tscExitCode !== 0) {
+    process.exit(1);
+  }
+
+  // Copy CSS files to dist/styles
+  const { cpSync } = await import("node:fs");
+  if (!existsSync("./dist/styles")) {
+    mkdirSync("./dist/styles", { recursive: true });
+  }
+  cpSync("./src/styles/styles.css", "./dist/styles/styles.css");
 }
 
-build().catch((error) => {
-	console.error("Build error:", error);
-	process.exit(1);
+build().catch((_error) => {
+  process.exit(1);
 });

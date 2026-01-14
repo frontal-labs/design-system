@@ -1,4 +1,4 @@
-// @frontal/colors - Utility functions
+// @frontal-ds/colors - Utility functions
 
 import * as scales from "./scales";
 import type { ColorScale, ColorScaleName, ColorShade } from "./types";
@@ -11,25 +11,25 @@ import type { ColorScale, ColorScaleName, ColorShade } from "./types";
  * @returns Color value in OKLCH format
  */
 export function getColor(
-	scaleName: ColorScaleName,
-	shade: ColorShade,
-	dark = false,
+  scaleName: ColorScaleName,
+  shade: ColorShade,
+  dark = false
 ): string {
-	const scaleKey = dark ? `${scaleName}Dark` : scaleName;
-	const scale = (scales as Record<string, ColorScale | undefined>)[scaleKey];
+  const scaleKey = dark ? `${scaleName}Dark` : scaleName;
+  const scale = (scales as Record<string, ColorScale | undefined>)[scaleKey];
 
-	if (!scale) {
-		throw new Error(`Color scale "${scaleName}" not found`);
-	}
+  if (!scale) {
+    throw new Error(`Color scale "${scaleName}" not found`);
+  }
 
-	const key = `${scaleName}${shade}`;
-	const color = scale[key];
+  const key = `${scaleName}${shade}`;
+  const color = scale[key];
 
-	if (!color) {
-		throw new Error(`Color shade "${key}" not found in scale "${scaleName}"`);
-	}
+  if (!color) {
+    throw new Error(`Color shade "${key}" not found in scale "${scaleName}"`);
+  }
 
-	return color;
+  return color;
 }
 
 /**
@@ -39,14 +39,14 @@ export function getColor(
  * @returns Color scale object
  */
 export function getScale(scaleName: ColorScaleName, dark = false): ColorScale {
-	const scaleKey = dark ? `${scaleName}Dark` : scaleName;
-	const scale = (scales as Record<string, ColorScale | undefined>)[scaleKey];
+  const scaleKey = dark ? `${scaleName}Dark` : scaleName;
+  const scale = (scales as Record<string, ColorScale | undefined>)[scaleKey];
 
-	if (!scale) {
-		throw new Error(`Color scale "${scaleName}" not found`);
-	}
+  if (!scale) {
+    throw new Error(`Color scale "${scaleName}" not found`);
+  }
 
-	return scale;
+  return scale;
 }
 
 /**
@@ -55,23 +55,23 @@ export function getScale(scaleName: ColorScaleName, dark = false): ColorScale {
  * @returns Object containing all color scales
  */
 export function getAllScales(dark = false): Record<string, ColorScale> {
-	const scaleNames: ColorScaleName[] = [
-		"gray",
-		"blue",
-		"cyan",
-		"yellow",
-		"brown",
-		"green",
-		"teal",
-		"pink",
-		"purple",
-		"orange",
-		"red",
-	];
+  const scaleNames: ColorScaleName[] = [
+    "gray",
+    "blue",
+    "cyan",
+    "yellow",
+    "brown",
+    "green",
+    "teal",
+    "pink",
+    "purple",
+    "orange",
+    "red",
+  ];
 
-	return Object.fromEntries(
-		scaleNames.map((name) => [name, getScale(name, dark)]),
-	);
+  return Object.fromEntries(
+    scaleNames.map((name) => [name, getScale(name, dark)])
+  );
 }
 
 /**
@@ -81,8 +81,8 @@ export function getAllScales(dark = false): Record<string, ColorScale> {
  * @returns CSS var() reference
  */
 export function toCSSVar(
-	_colorValue: string,
-	customPropertyName: string,
+  _colorValue: string,
+  customPropertyName: string
 ): string {
-	return `var(--${customPropertyName})`;
+  return `var(--${customPropertyName})`;
 }

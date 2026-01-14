@@ -1,4 +1,4 @@
-# @frontal/icons
+# @frontal-ds/icons
 
 Frontal's icon library package.
 
@@ -11,13 +11,13 @@ This package provides a comprehensive collection of SVG icons for use across the
 This package is part of the Frontal monorepo and is installed automatically as a workspace dependency.
 
 ```bash
-bun install @frontal/icons
+bun install @frontal-ds/icons
 ```
 
 ## Usage
 
 ```tsx
-import { /* icon components */ } from '@frontal/icons';
+import { /* icon components */ } from '@frontal-ds/icons';
 ```
 
 ## Development

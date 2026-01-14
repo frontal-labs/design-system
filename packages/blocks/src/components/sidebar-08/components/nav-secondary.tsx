@@ -1,39 +1,39 @@
-import type { IconComponent } from "@frontal/icons";
+import type { IconComponent } from "@frontal-ds/icons";
 import {
-	SidebarGroup,
-	SidebarGroupContent,
-	SidebarMenu,
-	SidebarMenuButton,
-	SidebarMenuItem,
-} from "@frontal/ui";
+  SidebarGroup,
+  SidebarGroupContent,
+  SidebarMenu,
+  SidebarMenuButton,
+  SidebarMenuItem,
+} from "@frontal-ds/ui";
 import type * as React from "react";
 
 export function NavSecondary({
-	items,
-	...props
+  items,
+  ...props
 }: {
-	items: {
-		title: string;
-		url: string;
-		icon: IconComponent;
-	}[];
+  items: {
+    title: string;
+    url: string;
+    icon: IconComponent;
+  }[];
 } & React.ComponentPropsWithoutRef<typeof SidebarGroup>) {
-	return (
-		<SidebarGroup {...props}>
-			<SidebarGroupContent>
-				<SidebarMenu>
-					{items.map((item) => (
-						<SidebarMenuItem key={item.title}>
-							<SidebarMenuButton asChild size="small">
-								<a href={item.url}>
-									<item.icon />
-									<span>{item.title}</span>
-								</a>
-							</SidebarMenuButton>
-						</SidebarMenuItem>
-					))}
-				</SidebarMenu>
-			</SidebarGroupContent>
-		</SidebarGroup>
-	);
+  return (
+    <SidebarGroup {...props}>
+      <SidebarGroupContent>
+        <SidebarMenu>
+          {items.map((item) => (
+            <SidebarMenuItem key={item.title}>
+              <SidebarMenuButton asChild size="small">
+                <a href={item.url}>
+                  <item.icon />
+                  <span>{item.title}</span>
+                </a>
+              </SidebarMenuButton>
+            </SidebarMenuItem>
+          ))}
+        </SidebarMenu>
+      </SidebarGroupContent>
+    </SidebarGroup>
+  );
 }

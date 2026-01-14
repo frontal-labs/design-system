@@ -1,77 +1,77 @@
 "use client";
 
-import { ArrowDownChevronIcon } from "@frontal/icons";
+import { ArrowDownChevronIcon } from "@frontal-ds/icons";
 import {
-	Button,
-	Calendar,
-	Input,
-	Label,
-	Popover,
-	PopoverContent,
-	PopoverTrigger,
-} from "@frontal/ui";
+  Button,
+  Calendar,
+  Input,
+  Label,
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@frontal-ds/ui";
 import * as React from "react";
 
 export default function Calendar25() {
-	const [open, setOpen] = React.useState(false);
-	const [date, setDate] = React.useState<Date | undefined>(undefined);
+  const [open, setOpen] = React.useState(false);
+  const [date, setDate] = React.useState<Date | undefined>(undefined);
 
-	return (
-		<div className="flex flex-col gap-6">
-			<div className="flex flex-col gap-3">
-				<Label htmlFor="date" className="px-1">
-					Date
-				</Label>
-				<Popover open={open} onOpenChange={setOpen}>
-					<PopoverTrigger asChild>
-						<Button
-							variant="outline"
-							id="date"
-							className="w-full justify-between font-normal"
-						>
-							{date ? date.toLocaleDateString() : "Select date"}
-							<ArrowDownChevronIcon />
-						</Button>
-					</PopoverTrigger>
-					<PopoverContent className="w-auto overflow-hidden p-0" align="start">
-						<Calendar
-							mode="single"
-							selected={date}
-							captionLayout="dropdown"
-							onSelect={(date) => {
-								setDate(date);
-								setOpen(false);
-							}}
-						/>
-					</PopoverContent>
-				</Popover>
-			</div>
-			<div className="flex gap-4">
-				<div className="flex flex-col gap-3">
-					<Label htmlFor="time-from" className="px-1">
-						From
-					</Label>
-					<Input
-						type="time"
-						id="time-from"
-						step="1"
-						defaultValue="10:30:00"
-						className="appearance-none bg-background [&::-webkit-calendar-picker-indicator]:hidden [&::-webkit-calendar-picker-indicator]:appearance-none"
-					/>
-				</div>
-				<div className="flex flex-col gap-3">
-					<Label htmlFor="time-to" className="px-1">
-						To
-					</Label>
-					<Input
-						type="time"
-						id="time-to"
-						step="1"
-						defaultValue="12:30:00"
-						className="appearance-none bg-background [&::-webkit-calendar-picker-indicator]:hidden [&::-webkit-calendar-picker-indicator]:appearance-none"
-					/>
-				</div>
-			</div>
-		</div>
-	);
+  return (
+    <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-3">
+        <Label htmlFor="date" className="px-1">
+          Date
+        </Label>
+        <Popover open={open} onOpenChange={setOpen}>
+          <PopoverTrigger asChild>
+            <Button
+              variant="outline"
+              id="date"
+              className="w-full justify-between font-normal"
+            >
+              {date ? date.toLocaleDateString() : "Select date"}
+              <ArrowDownChevronIcon />
+            </Button>
+          </PopoverTrigger>
+          <PopoverContent className="w-auto overflow-hidden p-0" align="start">
+            <Calendar
+              mode="single"
+              selected={date}
+              captionLayout="dropdown"
+              onSelect={(date) => {
+                setDate(date);
+                setOpen(false);
+              }}
+            />
+          </PopoverContent>
+        </Popover>
+      </div>
+      <div className="flex gap-4">
+        <div className="flex flex-col gap-3">
+          <Label htmlFor="time-from" className="px-1">
+            From
+          </Label>
+          <Input
+            type="time"
+            id="time-from"
+            step="1"
+            defaultValue="10:30:00"
+            className="appearance-none bg-background [&::-webkit-calendar-picker-indicator]:hidden [&::-webkit-calendar-picker-indicator]:appearance-none"
+          />
+        </div>
+        <div className="flex flex-col gap-3">
+          <Label htmlFor="time-to" className="px-1">
+            To
+          </Label>
+          <Input
+            type="time"
+            id="time-to"
+            step="1"
+            defaultValue="12:30:00"
+            className="appearance-none bg-background [&::-webkit-calendar-picker-indicator]:hidden [&::-webkit-calendar-picker-indicator]:appearance-none"
+          />
+        </div>
+      </div>
+    </div>
+  );
 }

@@ -1,48 +1,48 @@
 "use client";
 
-import { ArrowDownChevronIcon } from "@frontal/icons";
+import { ArrowDownChevronIcon } from "@frontal-ds/icons";
 import {
-	Button,
-	Calendar,
-	Label,
-	Popover,
-	PopoverContent,
-	PopoverTrigger,
-} from "@frontal/ui";
+  Button,
+  Calendar,
+  Label,
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@frontal-ds/ui";
 import * as React from "react";
 
 export default function Calendar22() {
-	const [open, setOpen] = React.useState(false);
-	const [date, setDate] = React.useState<Date | undefined>(undefined);
+  const [open, setOpen] = React.useState(false);
+  const [date, setDate] = React.useState<Date | undefined>(undefined);
 
-	return (
-		<div className="flex flex-col gap-3">
-			<Label htmlFor="date" className="px-1">
-				Date of birth
-			</Label>
-			<Popover open={open} onOpenChange={setOpen}>
-				<PopoverTrigger asChild>
-					<Button
-						variant="outline"
-						id="date"
-						className="w-48 justify-between font-normal"
-					>
-						{date ? date.toLocaleDateString() : "Select date"}
-						<ArrowDownChevronIcon />
-					</Button>
-				</PopoverTrigger>
-				<PopoverContent className="w-auto overflow-hidden p-0" align="start">
-					<Calendar
-						mode="single"
-						selected={date}
-						captionLayout="dropdown"
-						onSelect={(date) => {
-							setDate(date);
-							setOpen(false);
-						}}
-					/>
-				</PopoverContent>
-			</Popover>
-		</div>
-	);
+  return (
+    <div className="flex flex-col gap-3">
+      <Label htmlFor="date" className="px-1">
+        Date of birth
+      </Label>
+      <Popover open={open} onOpenChange={setOpen}>
+        <PopoverTrigger asChild>
+          <Button
+            variant="outline"
+            id="date"
+            className="w-48 justify-between font-normal"
+          >
+            {date ? date.toLocaleDateString() : "Select date"}
+            <ArrowDownChevronIcon />
+          </Button>
+        </PopoverTrigger>
+        <PopoverContent className="w-auto overflow-hidden p-0" align="start">
+          <Calendar
+            mode="single"
+            selected={date}
+            captionLayout="dropdown"
+            onSelect={(date) => {
+              setDate(date);
+              setOpen(false);
+            }}
+          />
+        </PopoverContent>
+      </Popover>
+    </div>
+  );
 }

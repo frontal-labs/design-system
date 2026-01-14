@@ -1,52 +1,52 @@
 {
-	"name": "@frontal/colors",
-	"description": "Frontal's color system and utilities",
-	"version": "0.0.1",
-	"private": true,
-	"type": "module",
-	"packageManager": "bun@1.3.3",
-	"engines": {
-		"bun": ">=1.1.0"
-	},
-	"main": "./dist/index.cjs",
-	"module": "./dist/index.js",
-	"types": "./dist/index.d.ts",
-	"exports": {
-		".": "./src/index.ts",
-		"./styles.css": "./dist/styles/styles.css",
-		"./theme.css": "./dist/styles/theme.css"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/frontal-labs/design-system.git",
-		"directory": "packages/colors"
-	},
-	"scripts": {
-		"build": "bun run build.ts",
-		"build:bundle": "bun run build.ts --minify",
-		"lint": "biome check",
-		"lint:fix": "biome check --write --unsafe",
-		"format": "biome format --write",
-		"check": "biome check",
-		"check:fix": "biome check --write",
-		"type-check": "tsc --noEmit",
-		"test": "bun test tests/",
-		"clean": "git clean -xdf -- node_modules .next .cache"
-	},
-	"dependencies": {
-		"@tailwindcss/postcss": "^4.1.14",
-		"postcss": "^8.5.6",
-		"tailwindcss": "^4.1.14"
-	},
-	"devDependencies": {
-		"@frontal/typescript-config": "workspace:*",
-		"@biomejs/biome": "2.3.4",
-		"typescript": "^5.9.3",
-		"puppeteer": "^24.26.1"
-	},
-	"keywords": [
-		"colors",
-		"design-tokens",
-		"theme"
-	]
+  "name": "@frontal-ds/colors",
+  "description": "Frontal's color system and utilities",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "packageManager": "bun@1.3.3",
+  "engines": {
+    "bun": ">=1.1.0"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./styles.css": "./dist/styles/styles.css",
+    "./theme.css": "./dist/styles/theme.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontal-labs/design-system.git",
+    "directory": "packages/colors"
+  },
+  "scripts": {
+    "build": "bun run build.ts",
+    "build:bundle": "bun run build.ts --minify",
+    "lint": "biome check",
+    "lint:fix": "biome check --write --unsafe",
+    "format": "biome format --write",
+    "check": "biome check",
+    "check:fix": "biome check --write",
+    "type-check": "tsc --noEmit",
+    "test": "bun test tests/",
+    "clean": "git clean -xdf -- node_modules .next .cache"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.14",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.14"
+  },
+  "devDependencies": {
+    "@frontal/style-guide": "github:frontal-labs/style-guide",
+    "@biomejs/biome": "2.3.4",
+    "typescript": "^5.9.3",
+    "puppeteer": "^24.26.1"
+  },
+  "keywords": [
+    "colors",
+    "design-tokens",
+    "theme"
+  ]
 }
