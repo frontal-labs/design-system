@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"disc",
-		"disk",
-		"optical media",
-		"storage",
-		"save",
-		"file",
-		"circle",
-		"round"
-	],
-	"categories": ["media", "storage"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "disc",
+    "disk",
+    "optical media",
+    "storage",
+    "save",
+    "file",
+    "circle",
+    "round"
+  ],
+  "categories": ["media", "storage"]
 }

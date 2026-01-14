@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"plane",
-		"airplane",
-		"flight",
-		"travel",
-		"map",
-		"transport",
-		"navigation"
-	],
-	"categories": ["transportation", "map"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "plane",
+    "airplane",
+    "flight",
+    "travel",
+    "map",
+    "transport",
+    "navigation"
+  ],
+  "categories": ["transportation", "map"]
 }

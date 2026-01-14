@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"electric bike",
-		"bike",
-		"bicycle",
-		"transportation",
-		"vehicle",
-		"cycling",
-		"electric",
-		"road"
-	],
-	"categories": ["transportation", "vehicles"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "electric bike",
+    "bike",
+    "bicycle",
+    "transportation",
+    "vehicle",
+    "cycling",
+    "electric",
+    "road"
+  ],
+  "categories": ["transportation", "vehicles"]
 }

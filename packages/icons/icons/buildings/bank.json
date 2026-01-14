@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"bank",
-		"building",
-		"finance",
-		"money",
-		"institution",
-		"door",
-		"window",
-		"roof",
-		"symbol"
-	],
-	"categories": ["buildings", "finance"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "bank",
+    "building",
+    "finance",
+    "money",
+    "institution",
+    "door",
+    "window",
+    "roof",
+    "symbol"
+  ],
+  "categories": ["buildings", "finance"]
 }

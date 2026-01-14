@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"target",
-		"crosshair",
-		"bullseye",
-		"aim",
-		"precision",
-		"archery",
-		"focus",
-		"pointer",
-		"shoot"
-	],
-	"categories": ["design", "symbols"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "target",
+    "crosshair",
+    "bullseye",
+    "aim",
+    "precision",
+    "archery",
+    "focus",
+    "pointer",
+    "shoot"
+  ],
+  "categories": ["design", "symbols"]
 }

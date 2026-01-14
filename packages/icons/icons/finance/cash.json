@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"cash",
-		"money",
-		"currency",
-		"finance",
-		"dollar",
-		"envelope",
-		"banknote",
-		"wallet"
-	],
-	"categories": ["finance", "money"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "cash",
+    "money",
+    "currency",
+    "finance",
+    "dollar",
+    "envelope",
+    "banknote",
+    "wallet"
+  ],
+  "categories": ["finance", "money"]
 }

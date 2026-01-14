@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"heart",
-		"empathy",
-		"love",
-		"care",
-		"support",
-		"health",
-		"medical",
-		"sympathy"
-	],
-	"categories": ["health", "emotions"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "heart",
+    "empathy",
+    "love",
+    "care",
+    "support",
+    "health",
+    "medical",
+    "sympathy"
+  ],
+  "categories": ["health", "emotions"]
 }

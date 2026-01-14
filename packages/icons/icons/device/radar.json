@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"radar",
-		"device",
-		"signal",
-		"sweep",
-		"antenna",
-		"navigation",
-		"electronics",
-		"monitoring"
-	],
-	"categories": ["devices", "navigation"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "radar",
+    "device",
+    "signal",
+    "sweep",
+    "antenna",
+    "navigation",
+    "electronics",
+    "monitoring"
+  ],
+  "categories": ["devices", "navigation"]
 }

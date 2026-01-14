@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"baidu",
-		"search",
-		"logo",
-		"technology",
-		"internet",
-		"brand",
-		"Chinese",
-		"search engine"
-	],
-	"categories": ["logos", "brands"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "baidu",
+    "search",
+    "logo",
+    "technology",
+    "internet",
+    "brand",
+    "Chinese",
+    "search engine"
+  ],
+  "categories": ["logos", "brands"]
 }

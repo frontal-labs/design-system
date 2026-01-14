@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"youtube",
-		"video",
-		"play",
-		"media",
-		"social media",
-		"brand",
-		"logo"
-	],
-	"categories": ["logos", "social media"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "youtube",
+    "video",
+    "play",
+    "media",
+    "social media",
+    "brand",
+    "logo"
+  ],
+  "categories": ["logos", "social media"]
 }

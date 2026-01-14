@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"lightbulb",
-		"idea",
-		"AI",
-		"technology",
-		"innovation",
-		"bulb",
-		"electric",
-		"brain"
-	],
-	"categories": ["design", "technology"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "lightbulb",
+    "idea",
+    "AI",
+    "technology",
+    "innovation",
+    "bulb",
+    "electric",
+    "brain"
+  ],
+  "categories": ["design", "technology"]
 }

@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"menu",
-		"fold",
-		"collapse",
-		"arrow-left",
-		"horizontal",
-		"navigation",
-		"system",
-		"sidebar"
-	],
-	"categories": ["navigation", "system"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "menu",
+    "fold",
+    "collapse",
+    "arrow-left",
+    "horizontal",
+    "navigation",
+    "system",
+    "sidebar"
+  ],
+  "categories": ["navigation", "system"]
 }

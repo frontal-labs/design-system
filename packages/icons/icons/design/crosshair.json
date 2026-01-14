@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"crosshair",
-		"target",
-		"aim",
-		"focus",
-		"center",
-		"pointer",
-		"selection",
-		"precision"
-	],
-	"categories": ["design", "navigation"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "crosshair",
+    "target",
+    "aim",
+    "focus",
+    "center",
+    "pointer",
+    "selection",
+    "precision"
+  ],
+  "categories": ["design", "navigation"]
 }

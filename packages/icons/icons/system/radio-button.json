@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"radio",
-		"button",
-		"circle",
-		"selection",
-		"form",
-		"ui",
-		"control",
-		"toggle",
-		"option"
-	],
-	"categories": ["controls", "form-elements"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "radio",
+    "button",
+    "circle",
+    "selection",
+    "form",
+    "ui",
+    "control",
+    "toggle",
+    "option"
+  ],
+  "categories": ["controls", "form-elements"]
 }

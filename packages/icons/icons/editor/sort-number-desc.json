@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"sort",
-		"number",
-		"descending",
-		"arrow",
-		"numeric",
-		"list",
-		"data",
-		"direction"
-	],
-	"categories": ["arrows", "editors"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "sort",
+    "number",
+    "descending",
+    "arrow",
+    "numeric",
+    "list",
+    "data",
+    "direction"
+  ],
+  "categories": ["arrows", "editors"]
 }

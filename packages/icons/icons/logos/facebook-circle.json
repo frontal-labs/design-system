@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"facebook",
-		"social",
-		"circle",
-		"logo",
-		"brand",
-		"network",
-		"social media"
-	],
-	"categories": ["logos", "social media"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "facebook",
+    "social",
+    "circle",
+    "logo",
+    "brand",
+    "network",
+    "social media"
+  ],
+  "categories": ["logos", "social media"]
 }

@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"lock",
-		"rotate",
-		"circular",
-		"security",
-		"device",
-		"refresh",
-		"arrow",
-		"circular arrow"
-	],
-	"categories": ["devices", "locks"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "lock",
+    "rotate",
+    "circular",
+    "security",
+    "device",
+    "refresh",
+    "arrow",
+    "circular arrow"
+  ],
+  "categories": ["devices", "locks"]
 }

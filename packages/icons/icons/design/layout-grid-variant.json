@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"grid",
-		"layout",
-		"design",
-		"square",
-		"box",
-		"interface",
-		"2x2-grid"
-	],
-	"categories": ["design", "layouts"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "grid",
+    "layout",
+    "design",
+    "square",
+    "box",
+    "interface",
+    "2x2-grid"
+  ],
+  "categories": ["design", "layouts"]
 }

@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"gamepad",
-		"controller",
-		"gaming",
-		"joystick",
-		"button",
-		"video game",
-		"console"
-	],
-	"categories": ["devices", "gaming"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "gamepad",
+    "controller",
+    "gaming",
+    "joystick",
+    "button",
+    "video game",
+    "console"
+  ],
+  "categories": ["devices", "gaming"]
 }

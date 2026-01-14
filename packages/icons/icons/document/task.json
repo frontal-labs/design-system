@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"task",
-		"checkmark",
-		"document",
-		"file",
-		"list",
-		"completed",
-		"task-list"
-	],
-	"categories": ["documents", "tasks"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "task",
+    "checkmark",
+    "document",
+    "file",
+    "list",
+    "completed",
+    "task-list"
+  ],
+  "categories": ["documents", "tasks"]
 }

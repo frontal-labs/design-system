@@ -1,5 +1,5 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": ["progress", "circular", "loading", "spinner", "status", "indicator"],
-	"categories": ["systems"]
+  "$schema": "../../icon.schema.json",
+  "tags": ["progress", "circular", "loading", "spinner", "status", "indicator"],
+  "categories": ["systems"]
 }

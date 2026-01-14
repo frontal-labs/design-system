@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"double-quote",
-		"quotes",
-		"quotation-mark",
-		"text",
-		"editor",
-		"typography",
-		"formatting",
-		"language"
-	],
-	"categories": ["editors", "symbols"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "double-quote",
+    "quotes",
+    "quotation-mark",
+    "text",
+    "editor",
+    "typography",
+    "formatting",
+    "language"
+  ],
+  "categories": ["editors", "symbols"]
 }

@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"tree",
-		"nature",
-		"plant",
-		"forest",
-		"leaf",
-		"branch",
-		"growth",
-		"environment",
-		"outdoors"
-	],
-	"categories": ["nature", "plants"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "tree",
+    "nature",
+    "plant",
+    "forest",
+    "leaf",
+    "branch",
+    "growth",
+    "environment",
+    "outdoors"
+  ],
+  "categories": ["nature", "plants"]
 }

@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"save",
-		"disk",
-		"floppy-disk",
-		"storage",
-		"file",
-		"download",
-		"upload",
-		"device",
-		"action"
-	],
-	"categories": ["devices", "actions"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "save",
+    "disk",
+    "floppy-disk",
+    "storage",
+    "file",
+    "download",
+    "upload",
+    "device",
+    "action"
+  ],
+  "categories": ["devices", "actions"]
 }

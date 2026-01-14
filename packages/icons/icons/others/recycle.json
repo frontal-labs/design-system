@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"recycle",
-		"recycling",
-		"refresh",
-		"environment",
-		"sustainability",
-		"reuse",
-		"circular"
-	],
-	"categories": ["design", "others"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "recycle",
+    "recycling",
+    "refresh",
+    "environment",
+    "sustainability",
+    "reuse",
+    "circular"
+  ],
+  "categories": ["design", "others"]
 }

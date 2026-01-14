@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"box",
-		"package",
-		"shipping",
-		"delivery",
-		"container",
-		"3d",
-		"storage",
-		"inventory"
-	],
-	"categories": ["design", "others"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "box",
+    "package",
+    "shipping",
+    "delivery",
+    "container",
+    "3d",
+    "storage",
+    "inventory"
+  ],
+  "categories": ["design", "others"]
 }

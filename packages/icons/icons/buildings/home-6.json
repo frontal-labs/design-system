@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"home",
-		"house",
-		"building",
-		"roof",
-		"door",
-		"architecture",
-		"residence",
-		"structure",
-		"real estate"
-	],
-	"categories": ["buildings", "navigation"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "home",
+    "house",
+    "building",
+    "roof",
+    "door",
+    "architecture",
+    "residence",
+    "structure",
+    "real estate"
+  ],
+  "categories": ["buildings", "navigation"]
 }

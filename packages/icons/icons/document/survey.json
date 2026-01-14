@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"document",
-		"survey",
-		"form",
-		"text",
-		"lines",
-		"paper",
-		"file",
-		"header"
-	],
-	"categories": ["documents", "forms"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "document",
+    "survey",
+    "form",
+    "text",
+    "lines",
+    "paper",
+    "file",
+    "header"
+  ],
+  "categories": ["documents", "forms"]
 }

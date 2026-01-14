@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"map pin",
-		"user",
-		"location",
-		"profile",
-		"navigation",
-		"person",
-		"marker"
-	],
-	"categories": ["navigation", "people"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "map pin",
+    "user",
+    "location",
+    "profile",
+    "navigation",
+    "person",
+    "marker"
+  ],
+  "categories": ["navigation", "people"]
 }

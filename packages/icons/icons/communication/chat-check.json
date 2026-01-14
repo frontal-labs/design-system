@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"chat",
-		"message",
-		"conversation",
-		"check",
-		"approval",
-		"verified",
-		"communication",
-		"bubble"
-	],
-	"categories": ["communication", "status"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "chat",
+    "message",
+    "conversation",
+    "check",
+    "approval",
+    "verified",
+    "communication",
+    "bubble"
+  ],
+  "categories": ["communication", "status"]
 }

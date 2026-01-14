@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"newspaper",
-		"document",
-		"article",
-		"news",
-		"paper",
-		"print",
-		"layout"
-	],
-	"categories": ["documents", "media"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "newspaper",
+    "document",
+    "article",
+    "news",
+    "paper",
+    "print",
+    "layout"
+  ],
+  "categories": ["documents", "media"]
 }

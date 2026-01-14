@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"reddit",
-		"social media",
-		"logo",
-		"brand",
-		"community",
-		"internet",
-		"icon"
-	],
-	"categories": ["logos", "social media"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "reddit",
+    "social media",
+    "logo",
+    "brand",
+    "community",
+    "internet",
+    "icon"
+  ],
+  "categories": ["logos", "social media"]
 }

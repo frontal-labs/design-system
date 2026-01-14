@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"qr",
-		"code",
-		"barcode",
-		"scanning",
-		"data",
-		"machine-readable",
-		"matrix",
-		"square",
-		"icon"
-	],
-	"categories": ["devices", "barcodes"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "qr",
+    "code",
+    "barcode",
+    "scanning",
+    "data",
+    "machine-readable",
+    "matrix",
+    "square",
+    "icon"
+  ],
+  "categories": ["devices", "barcodes"]
 }

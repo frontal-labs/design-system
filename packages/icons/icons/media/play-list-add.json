@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"list",
-		"plus",
-		"add",
-		"playlist",
-		"media",
-		"horizontal-lines",
-		"add-to-list",
-		"playlist-add"
-	],
-	"categories": ["media", "lists"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "list",
+    "plus",
+    "add",
+    "playlist",
+    "media",
+    "horizontal-lines",
+    "add-to-list",
+    "playlist-add"
+  ],
+  "categories": ["media", "lists"]
 }

@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"delete",
-		"row",
-		"table",
-		"remove",
-		"trash",
-		"editor",
-		"layout",
-		"action",
-		"command"
-	],
-	"categories": ["editors", "tables"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "delete",
+    "row",
+    "table",
+    "remove",
+    "trash",
+    "editor",
+    "layout",
+    "action",
+    "command"
+  ],
+  "categories": ["editors", "tables"]
 }

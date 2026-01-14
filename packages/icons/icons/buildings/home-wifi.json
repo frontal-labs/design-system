@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"home",
-		"wifi",
-		"signal",
-		"building",
-		"network",
-		"house",
-		"internet",
-		"connectivity"
-	],
-	"categories": ["buildings", "networks"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "home",
+    "wifi",
+    "signal",
+    "building",
+    "network",
+    "house",
+    "internet",
+    "connectivity"
+  ],
+  "categories": ["buildings", "networks"]
 }

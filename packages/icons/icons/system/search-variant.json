@@ -1,5 +1,5 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": ["search", "magnifying glass", "find", "zoom", "icon"],
-	"categories": ["navigation", "utility"]
+  "$schema": "../../icon.schema.json",
+  "tags": ["search", "magnifying glass", "find", "zoom", "icon"],
+  "categories": ["navigation", "utility"]
 }

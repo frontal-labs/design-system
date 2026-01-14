@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"stairs",
-		"step",
-		"building",
-		"architecture",
-		"indoor",
-		"floor",
-		"accessibility"
-	],
-	"categories": ["navigation", "buildings"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "stairs",
+    "step",
+    "building",
+    "architecture",
+    "indoor",
+    "floor",
+    "accessibility"
+  ],
+  "categories": ["navigation", "buildings"]
 }

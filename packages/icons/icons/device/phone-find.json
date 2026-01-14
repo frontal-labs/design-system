@@ -1,16 +1,16 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"phone",
-		"search",
-		"find",
-		"mobile",
-		"device",
-		"magnifying-glass",
-		"location",
-		"call",
-		"telephony",
-		"find-phone"
-	],
-	"categories": ["devices", "search"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "phone",
+    "search",
+    "find",
+    "mobile",
+    "device",
+    "magnifying-glass",
+    "location",
+    "call",
+    "telephony",
+    "find-phone"
+  ],
+  "categories": ["devices", "search"]
 }

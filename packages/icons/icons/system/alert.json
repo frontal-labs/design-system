@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"alert",
-		"warning",
-		"exclamation",
-		"triangle",
-		"notification",
-		"system",
-		"danger",
-		"error",
-		"icon"
-	],
-	"categories": ["system", "alerts"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "alert",
+    "warning",
+    "exclamation",
+    "triangle",
+    "notification",
+    "system",
+    "danger",
+    "error",
+    "icon"
+  ],
+  "categories": ["system", "alerts"]
 }

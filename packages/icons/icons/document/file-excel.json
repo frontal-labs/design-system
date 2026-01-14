@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"file",
-		"excel",
-		"document",
-		"spreadsheet",
-		"office",
-		"xls",
-		"workbook",
-		"file icon"
-	],
-	"categories": ["documents", "office"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "file",
+    "excel",
+    "document",
+    "spreadsheet",
+    "office",
+    "xls",
+    "workbook",
+    "file icon"
+  ],
+  "categories": ["documents", "office"]
 }

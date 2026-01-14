@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"codepen",
-		"logo",
-		"developer",
-		"web",
-		"pen",
-		"code",
-		"technology",
-		"brand"
-	],
-	"categories": ["logos"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "codepen",
+    "logo",
+    "developer",
+    "web",
+    "pen",
+    "code",
+    "technology",
+    "brand"
+  ],
+  "categories": ["logos"]
 }

@@ -1,16 +1,16 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"puzzle",
-		"jigsaw",
-		"piece",
-		"interlocking",
-		"block",
-		"game",
-		"design",
-		"icon",
-		"development",
-		"shape"
-	],
-	"categories": ["design", "development"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "puzzle",
+    "jigsaw",
+    "piece",
+    "interlocking",
+    "block",
+    "game",
+    "design",
+    "icon",
+    "development",
+    "shape"
+  ],
+  "categories": ["design", "development"]
 }

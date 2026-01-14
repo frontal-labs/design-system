@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"list",
-		"ordered list",
-		"numbered",
-		"text",
-		"document",
-		"editor",
-		"formatting"
-	],
-	"categories": ["editors", "lists"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "list",
+    "ordered list",
+    "numbered",
+    "text",
+    "document",
+    "editor",
+    "formatting"
+  ],
+  "categories": ["editors", "lists"]
 }

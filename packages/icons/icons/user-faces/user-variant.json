@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"user",
-		"person",
-		"avatar",
-		"profile",
-		"head",
-		"circle",
-		"human",
-		"face"
-	],
-	"categories": ["faces", "people"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "user",
+    "person",
+    "avatar",
+    "profile",
+    "head",
+    "circle",
+    "human",
+    "face"
+  ],
+  "categories": ["faces", "people"]
 }

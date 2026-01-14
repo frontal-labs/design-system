@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"battery",
-		"low",
-		"power",
-		"device",
-		"electronics",
-		"charging",
-		"status",
-		"icon"
-	],
-	"categories": ["devices", "status"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "battery",
+    "low",
+    "power",
+    "device",
+    "electronics",
+    "charging",
+    "status",
+    "icon"
+  ],
+  "categories": ["devices", "status"]
 }

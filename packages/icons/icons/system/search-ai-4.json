@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"search",
-		"magnifying-glass",
-		"zoom",
-		"finder",
-		"AI",
-		"technology",
-		"circle"
-	],
-	"categories": ["navigation", "design"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "search",
+    "magnifying-glass",
+    "zoom",
+    "finder",
+    "AI",
+    "technology",
+    "circle"
+  ],
+  "categories": ["navigation", "design"]
 }

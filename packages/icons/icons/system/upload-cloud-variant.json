@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"cloud",
-		"upload",
-		"arrow",
-		"data transfer",
-		"file",
-		"send",
-		"network"
-	],
-	"categories": ["arrows", "system"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "cloud",
+    "upload",
+    "arrow",
+    "data transfer",
+    "file",
+    "send",
+    "network"
+  ],
+  "categories": ["arrows", "system"]
 }

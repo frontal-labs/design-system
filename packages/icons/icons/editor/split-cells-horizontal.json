@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"split",
-		"cells",
-		"horizontal",
-		"grid",
-		"table",
-		"divider",
-		"layout",
-		"editor"
-	],
-	"categories": ["editor", "design"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "split",
+    "cells",
+    "horizontal",
+    "grid",
+    "table",
+    "divider",
+    "layout",
+    "editor"
+  ],
+  "categories": ["editor", "design"]
 }

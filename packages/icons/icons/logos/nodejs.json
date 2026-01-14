@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"nodejs",
-		"javascript",
-		"logo",
-		"technology",
-		"programming",
-		"web development",
-		"open source"
-	],
-	"categories": ["logos", "technology"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "nodejs",
+    "javascript",
+    "logo",
+    "technology",
+    "programming",
+    "web development",
+    "open source"
+  ],
+  "categories": ["logos", "technology"]
 }

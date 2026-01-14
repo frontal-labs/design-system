@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"arrow",
-		"corner",
-		"double",
-		"up-left",
-		"navigation",
-		"direction",
-		"pointer"
-	],
-	"categories": ["arrows", "navigation"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "arrow",
+    "corner",
+    "double",
+    "up-left",
+    "navigation",
+    "direction",
+    "pointer"
+  ],
+  "categories": ["arrows", "navigation"]
 }

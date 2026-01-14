@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"user",
-		"person",
-		"unfollow",
-		"remove",
-		"delete",
-		"cancel",
-		"cross",
-		"x",
-		"icon"
-	],
-	"categories": ["faces", "actions"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "user",
+    "person",
+    "unfollow",
+    "remove",
+    "delete",
+    "cancel",
+    "cross",
+    "x",
+    "icon"
+  ],
+  "categories": ["faces", "actions"]
 }

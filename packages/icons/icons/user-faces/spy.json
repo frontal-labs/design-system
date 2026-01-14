@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"spy",
-		"detective",
-		"hat",
-		"glasses",
-		"face",
-		"silhouette",
-		"person",
-		"eyes"
-	],
-	"categories": ["users", "faces"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "spy",
+    "detective",
+    "hat",
+    "glasses",
+    "face",
+    "silhouette",
+    "person",
+    "eyes"
+  ],
+  "categories": ["users", "faces"]
 }

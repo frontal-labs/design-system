@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"slice",
-		"cut",
-		"knife",
-		"design",
-		"tool",
-		"wedge",
-		"polygon",
-		"geometry"
-	],
-	"categories": ["design", "tools"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "slice",
+    "cut",
+    "knife",
+    "design",
+    "tool",
+    "wedge",
+    "polygon",
+    "geometry"
+  ],
+  "categories": ["design", "tools"]
 }

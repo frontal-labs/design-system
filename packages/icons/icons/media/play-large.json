@@ -1,5 +1,5 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": ["play", "media", "audio", "video", "triangle", "forward", "button"],
-	"categories": ["media", "buttons"]
+  "$schema": "../../icon.schema.json",
+  "tags": ["play", "media", "audio", "video", "triangle", "forward", "button"],
+  "categories": ["media", "buttons"]
 }

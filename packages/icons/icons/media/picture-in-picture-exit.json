@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"picture-in-picture",
-		"exit",
-		"video",
-		"fullscreen",
-		"arrow",
-		"overlay",
-		"window",
-		"media"
-	],
-	"categories": ["media", "navigation"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "picture-in-picture",
+    "exit",
+    "video",
+    "fullscreen",
+    "arrow",
+    "overlay",
+    "window",
+    "media"
+  ],
+  "categories": ["media", "navigation"]
 }

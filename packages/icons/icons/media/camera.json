@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"camera",
-		"photo",
-		"photography",
-		"lens",
-		"shutter",
-		"image",
-		"device",
-		"icon"
-	],
-	"categories": ["media", "devices"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "camera",
+    "photo",
+    "photography",
+    "lens",
+    "shutter",
+    "image",
+    "device",
+    "icon"
+  ],
+  "categories": ["media", "devices"]
 }

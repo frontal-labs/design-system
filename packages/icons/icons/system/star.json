@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"star",
-		"rating",
-		"favorite",
-		"bookmark",
-		"highlight",
-		"symbol",
-		"shape",
-		"system"
-	],
-	"categories": ["design", "ratings"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "star",
+    "rating",
+    "favorite",
+    "bookmark",
+    "highlight",
+    "symbol",
+    "shape",
+    "system"
+  ],
+  "categories": ["design", "ratings"]
 }

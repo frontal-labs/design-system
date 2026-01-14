@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"shield",
-		"keyhole",
-		"security",
-		"lock",
-		"protection",
-		"safe",
-		"privacy",
-		"authentication"
-	],
-	"categories": ["systems", "security"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "shield",
+    "keyhole",
+    "security",
+    "lock",
+    "protection",
+    "safe",
+    "privacy",
+    "authentication"
+  ],
+  "categories": ["systems", "security"]
 }

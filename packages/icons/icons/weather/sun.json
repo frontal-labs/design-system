@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"sun",
-		"weather",
-		"daytime",
-		"brightness",
-		"radiant",
-		"circle",
-		"light",
-		"solar"
-	],
-	"categories": ["weather", "suns"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "sun",
+    "weather",
+    "daytime",
+    "brightness",
+    "radiant",
+    "circle",
+    "light",
+    "solar"
+  ],
+  "categories": ["weather", "suns"]
 }

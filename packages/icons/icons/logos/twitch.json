@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"twitch",
-		"streaming",
-		"video games",
-		"live streaming",
-		"social media",
-		"brand",
-		"logo",
-		"digital"
-	],
-	"categories": ["logos", "brands"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "twitch",
+    "streaming",
+    "video games",
+    "live streaming",
+    "social media",
+    "brand",
+    "logo",
+    "digital"
+  ],
+  "categories": ["logos", "brands"]
 }

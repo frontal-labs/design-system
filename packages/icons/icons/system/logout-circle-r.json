@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"logout",
-		"circle",
-		"arrow",
-		"right",
-		"exit",
-		"navigation",
-		"system",
-		"user"
-	],
-	"categories": ["system", "navigation"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "logout",
+    "circle",
+    "arrow",
+    "right",
+    "exit",
+    "navigation",
+    "system",
+    "user"
+  ],
+  "categories": ["system", "navigation"]
 }

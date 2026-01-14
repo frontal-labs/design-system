@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"loader",
-		"loading",
-		"spinner",
-		"dots",
-		"arrows",
-		"progress",
-		"animation",
-		"indicator",
-		"system"
-	],
-	"categories": ["systems", "design"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "loader",
+    "loading",
+    "spinner",
+    "dots",
+    "arrows",
+    "progress",
+    "animation",
+    "indicator",
+    "system"
+  ],
+  "categories": ["systems", "design"]
 }

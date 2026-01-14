@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"radio",
-		"audio",
-		"speaker",
-		"broadcast",
-		"device",
-		"media",
-		"antenna",
-		"tower"
-	],
-	"categories": ["media", "devices"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "radio",
+    "audio",
+    "speaker",
+    "broadcast",
+    "device",
+    "media",
+    "antenna",
+    "tower"
+  ],
+  "categories": ["media", "devices"]
 }

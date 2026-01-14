@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"mail",
-		"envelope",
-		"unread",
-		"notification",
-		"email",
-		"message",
-		"badge"
-	],
-	"categories": ["mails", "notifications"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "mail",
+    "envelope",
+    "unread",
+    "notification",
+    "email",
+    "message",
+    "badge"
+  ],
+  "categories": ["mails", "notifications"]
 }

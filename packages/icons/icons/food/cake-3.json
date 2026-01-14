@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"cake",
-		"dessert",
-		"birthday",
-		"sweet",
-		"frosting",
-		"pastry",
-		"celebration"
-	],
-	"categories": ["food", "desserts"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "cake",
+    "dessert",
+    "birthday",
+    "sweet",
+    "frosting",
+    "pastry",
+    "celebration"
+  ],
+  "categories": ["food", "desserts"]
 }

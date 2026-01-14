@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"rupee",
-		"currency",
-		"money",
-		"circle",
-		"finance",
-		"symbol",
-		"indian",
-		"currency sign"
-	],
-	"categories": ["finance", "currency"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "rupee",
+    "currency",
+    "money",
+    "circle",
+    "finance",
+    "symbol",
+    "indian",
+    "currency sign"
+  ],
+  "categories": ["finance", "currency"]
 }

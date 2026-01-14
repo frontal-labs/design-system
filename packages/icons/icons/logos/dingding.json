@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"logo",
-		"dingding",
-		"circle",
-		"abstract",
-		"technology",
-		"app",
-		"communication"
-	],
-	"categories": ["logos", "social"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "logo",
+    "dingding",
+    "circle",
+    "abstract",
+    "technology",
+    "app",
+    "communication"
+  ],
+  "categories": ["logos", "social"]
 }

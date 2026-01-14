@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"gemini",
-		"zodiac",
-		"astrology",
-		"twins",
-		"symbol",
-		"double circle",
-		"constellation"
-	],
-	"categories": ["logos", "symbols"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "gemini",
+    "zodiac",
+    "astrology",
+    "twins",
+    "symbol",
+    "double circle",
+    "constellation"
+  ],
+  "categories": ["logos", "symbols"]
 }

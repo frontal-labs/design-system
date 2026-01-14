@@ -1,16 +1,16 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"traffic-light",
-		"road-sign",
-		"traffic",
-		"signal",
-		"navigation",
-		"transportation",
-		"stop",
-		"go",
-		"map",
-		"vehicle"
-	],
-	"categories": ["navigation", "design"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "traffic-light",
+    "road-sign",
+    "traffic",
+    "signal",
+    "navigation",
+    "transportation",
+    "stop",
+    "go",
+    "map",
+    "vehicle"
+  ],
+  "categories": ["navigation", "design"]
 }

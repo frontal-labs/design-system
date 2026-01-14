@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"reset",
-		"arrow",
-		"right",
-		"circular",
-		"refresh",
-		"system",
-		"direction",
-		"circle"
-	],
-	"categories": ["arrows", "system"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "reset",
+    "arrow",
+    "right",
+    "circular",
+    "refresh",
+    "system",
+    "direction",
+    "circle"
+  ],
+  "categories": ["arrows", "system"]
 }

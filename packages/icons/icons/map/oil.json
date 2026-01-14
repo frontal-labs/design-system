@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"oil",
-		"barrel",
-		"fuel",
-		"energy",
-		"industrial",
-		"storage",
-		"map",
-		"marker"
-	],
-	"categories": ["maps", "design"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "oil",
+    "barrel",
+    "fuel",
+    "energy",
+    "industrial",
+    "storage",
+    "map",
+    "marker"
+  ],
+  "categories": ["maps", "design"]
 }

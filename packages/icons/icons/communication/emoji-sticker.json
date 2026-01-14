@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"emoji",
-		"sticker",
-		"smiley",
-		"face",
-		"communication",
-		"chat",
-		"message",
-		"design"
-	],
-	"categories": ["communication", "design"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "emoji",
+    "sticker",
+    "smiley",
+    "face",
+    "communication",
+    "chat",
+    "message",
+    "design"
+  ],
+  "categories": ["communication", "design"]
 }

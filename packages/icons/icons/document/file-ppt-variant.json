@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"file",
-		"document",
-		"ppt",
-		"powerpoint",
-		"presentation",
-		"office",
-		"file-type"
-	],
-	"categories": ["documents", "file-types"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "file",
+    "document",
+    "ppt",
+    "powerpoint",
+    "presentation",
+    "office",
+    "file-type"
+  ],
+  "categories": ["documents", "file-types"]
 }

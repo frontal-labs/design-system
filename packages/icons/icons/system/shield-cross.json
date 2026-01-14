@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"shield",
-		"cross",
-		"health",
-		"first-aid",
-		"emergency",
-		"security",
-		"protection"
-	],
-	"categories": ["shields", "health"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "shield",
+    "cross",
+    "health",
+    "first-aid",
+    "emergency",
+    "security",
+    "protection"
+  ],
+  "categories": ["shields", "health"]
 }

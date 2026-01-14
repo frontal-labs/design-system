@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"map-pin",
-		"location",
-		"marker",
-		"navigation",
-		"pointer",
-		"map",
-		"direction",
-		"geolocation"
-	],
-	"categories": ["navigation", "map"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "map-pin",
+    "location",
+    "marker",
+    "navigation",
+    "pointer",
+    "map",
+    "direction",
+    "geolocation"
+  ],
+  "categories": ["navigation", "map"]
 }

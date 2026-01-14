@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"4k",
-		"video",
-		"resolution",
-		"media",
-		"display",
-		"high-definition",
-		"screen",
-		"HD"
-	],
-	"categories": ["media", "video"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "4k",
+    "video",
+    "resolution",
+    "media",
+    "display",
+    "high-definition",
+    "screen",
+    "HD"
+  ],
+  "categories": ["media", "video"]
 }

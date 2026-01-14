@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"terminal",
-		"box",
-		"console",
-		"command",
-		"code",
-		"ui",
-		"interface",
-		"text"
-	],
-	"categories": ["development", "interfaces"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "terminal",
+    "box",
+    "console",
+    "command",
+    "code",
+    "ui",
+    "interface",
+    "text"
+  ],
+  "categories": ["development", "interfaces"]
 }

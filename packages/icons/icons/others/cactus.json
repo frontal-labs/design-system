@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"cactus",
-		"plant",
-		"nature",
-		"botanical",
-		"desert",
-		"green",
-		"outdoors",
-		"flora",
-		"vegetation"
-	],
-	"categories": ["plants", "nature"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "cactus",
+    "plant",
+    "nature",
+    "botanical",
+    "desert",
+    "green",
+    "outdoors",
+    "flora",
+    "vegetation"
+  ],
+  "categories": ["plants", "nature"]
 }

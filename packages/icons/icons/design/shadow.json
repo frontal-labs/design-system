@@ -1,16 +1,16 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"shadow",
-		"box",
-		"rectangle",
-		"design",
-		"overlay",
-		"graphics",
-		"ui",
-		"window",
-		"panel",
-		"frame"
-	],
-	"categories": ["design", "ui"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "shadow",
+    "box",
+    "rectangle",
+    "design",
+    "overlay",
+    "graphics",
+    "ui",
+    "window",
+    "panel",
+    "frame"
+  ],
+  "categories": ["design", "ui"]
 }

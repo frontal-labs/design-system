@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"cloud",
-		"haze",
-		"fog",
-		"weather",
-		"cloudy",
-		"cloud-cover",
-		"sky",
-		"weather-forecast",
-		"weather-condition"
-	],
-	"categories": ["weather", "clouds"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "cloud",
+    "haze",
+    "fog",
+    "weather",
+    "cloudy",
+    "cloud-cover",
+    "sky",
+    "weather-forecast",
+    "weather-condition"
+  ],
+  "categories": ["weather", "clouds"]
 }

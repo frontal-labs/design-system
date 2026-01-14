@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"git",
-		"repository",
-		"commits",
-		"code",
-		"file",
-		"folder",
-		"branch",
-		"document"
-	],
-	"categories": ["development", "source-control"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "git",
+    "repository",
+    "commits",
+    "code",
+    "file",
+    "folder",
+    "branch",
+    "document"
+  ],
+  "categories": ["development", "source-control"]
 }

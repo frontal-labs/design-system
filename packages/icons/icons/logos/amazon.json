@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"amazon",
-		"ecommerce",
-		"shopping",
-		"retail",
-		"online",
-		"logo",
-		"brand"
-	],
-	"categories": ["logos", "brand"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "amazon",
+    "ecommerce",
+    "shopping",
+    "retail",
+    "online",
+    "logo",
+    "brand"
+  ],
+  "categories": ["logos", "brand"]
 }

@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"arrow",
-		"down",
-		"skip",
-		"navigation",
-		"media",
-		"control",
-		"play",
-		"skip-forward"
-	],
-	"categories": ["arrows", "navigation"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "arrow",
+    "down",
+    "skip",
+    "navigation",
+    "media",
+    "control",
+    "play",
+    "skip-forward"
+  ],
+  "categories": ["arrows", "navigation"]
 }

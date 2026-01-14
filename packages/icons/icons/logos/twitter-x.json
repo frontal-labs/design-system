@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"twitter",
-		"bird",
-		"social media",
-		"logo",
-		"brand",
-		"x",
-		"cross",
-		"network"
-	],
-	"categories": ["logos", "brands"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "twitter",
+    "bird",
+    "social media",
+    "logo",
+    "brand",
+    "x",
+    "cross",
+    "network"
+  ],
+  "categories": ["logos", "brands"]
 }

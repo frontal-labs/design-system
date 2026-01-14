@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"bluetooth",
-		"wireless",
-		"connectivity",
-		"technology",
-		"device",
-		"signal",
-		"communication",
-		"symbol"
-	],
-	"categories": ["devices", "technology"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "bluetooth",
+    "wireless",
+    "connectivity",
+    "technology",
+    "device",
+    "signal",
+    "communication",
+    "symbol"
+  ],
+  "categories": ["devices", "technology"]
 }

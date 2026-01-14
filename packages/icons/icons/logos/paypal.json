@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"paypal",
-		"payment",
-		"finance",
-		"logo",
-		"e-commerce",
-		"money",
-		"credit-card"
-	],
-	"categories": ["logos", "payments"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "paypal",
+    "payment",
+    "finance",
+    "logo",
+    "e-commerce",
+    "money",
+    "credit-card"
+  ],
+  "categories": ["logos", "payments"]
 }

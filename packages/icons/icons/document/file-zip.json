@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"file",
-		"zip",
-		"archive",
-		"folder",
-		"document",
-		"compression",
-		"data",
-		"storage"
-	],
-	"categories": ["documents", "files"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "file",
+    "zip",
+    "archive",
+    "folder",
+    "document",
+    "compression",
+    "data",
+    "storage"
+  ],
+  "categories": ["documents", "files"]
 }

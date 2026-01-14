@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"reply",
-		"arrow",
-		"left",
-		"communication",
-		"message",
-		"email",
-		"navigation",
-		"back"
-	],
-	"categories": ["arrows", "communication"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "reply",
+    "arrow",
+    "left",
+    "communication",
+    "message",
+    "email",
+    "navigation",
+    "back"
+  ],
+  "categories": ["arrows", "communication"]
 }

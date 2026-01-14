@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"notification",
-		"bell",
-		"off",
-		"disabled",
-		"alert",
-		"mute",
-		"status"
-	],
-	"categories": ["media", "notifications"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "notification",
+    "bell",
+    "off",
+    "disabled",
+    "alert",
+    "mute",
+    "status"
+  ],
+  "categories": ["media", "notifications"]
 }

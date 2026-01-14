@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"align",
-		"top",
-		"vertical",
-		"horizontal",
-		"bars",
-		"layout",
-		"grid",
-		"design"
-	],
-	"categories": ["design", "layout"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "align",
+    "top",
+    "vertical",
+    "horizontal",
+    "bars",
+    "layout",
+    "grid",
+    "design"
+  ],
+  "categories": ["design", "layout"]
 }

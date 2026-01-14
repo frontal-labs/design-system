@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"clipboard",
-		"document",
-		"copy",
-		"file",
-		"paper",
-		"text",
-		"office",
-		"note"
-	],
-	"categories": ["documents", "office"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "clipboard",
+    "document",
+    "copy",
+    "file",
+    "paper",
+    "text",
+    "office",
+    "note"
+  ],
+  "categories": ["documents", "office"]
 }

@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"creative commons",
-		"non-commercial",
-		"license",
-		"copyright",
-		"symbol",
-		"circle",
-		"text",
-		"business"
-	],
-	"categories": ["design", "business"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "creative commons",
+    "non-commercial",
+    "license",
+    "copyright",
+    "symbol",
+    "circle",
+    "text",
+    "business"
+  ],
+  "categories": ["design", "business"]
 }

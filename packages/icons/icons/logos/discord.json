@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"discord",
-		"logo",
-		"chat",
-		"communication",
-		"gaming",
-		"messenger",
-		"headset",
-		"speech-bubble"
-	],
-	"categories": ["logos", "communication"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "discord",
+    "logo",
+    "chat",
+    "communication",
+    "gaming",
+    "messenger",
+    "headset",
+    "speech-bubble"
+  ],
+  "categories": ["logos", "communication"]
 }

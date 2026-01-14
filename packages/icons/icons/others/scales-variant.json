@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"balance",
-		"scales",
-		"justice",
-		"law",
-		"measurement",
-		"weighing",
-		"scale"
-	],
-	"categories": ["symbols", "design"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "balance",
+    "scales",
+    "justice",
+    "law",
+    "measurement",
+    "weighing",
+    "scale"
+  ],
+  "categories": ["symbols", "design"]
 }

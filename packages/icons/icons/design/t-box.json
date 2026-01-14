@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"box",
-		"t shape",
-		"container",
-		"document",
-		"file",
-		"placeholder",
-		"layout"
-	],
-	"categories": ["design", "ui"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "box",
+    "t shape",
+    "container",
+    "document",
+    "file",
+    "placeholder",
+    "layout"
+  ],
+  "categories": ["design", "ui"]
 }

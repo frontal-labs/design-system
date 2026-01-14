@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"home",
-		"building",
-		"house",
-		"gear",
-		"settings",
-		"cog",
-		"control",
-		"tools"
-	],
-	"categories": ["buildings", "design"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "home",
+    "building",
+    "house",
+    "gear",
+    "settings",
+    "cog",
+    "control",
+    "tools"
+  ],
+  "categories": ["buildings", "design"]
 }

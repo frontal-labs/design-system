@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"find",
-		"replace",
-		"search",
-		"magnifying-glass",
-		"swap",
-		"edit",
-		"two-circles",
-		"arrow"
-	],
-	"categories": ["systems", "edits"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "find",
+    "replace",
+    "search",
+    "magnifying-glass",
+    "swap",
+    "edit",
+    "two-circles",
+    "arrow"
+  ],
+  "categories": ["systems", "edits"]
 }

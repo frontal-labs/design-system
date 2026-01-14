@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"quote",
-		"quotation",
-		"text",
-		"editor",
-		"typography",
-		"blockquote",
-		"symbol"
-	],
-	"categories": ["editor", "design"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "quote",
+    "quotation",
+    "text",
+    "editor",
+    "typography",
+    "blockquote",
+    "symbol"
+  ],
+  "categories": ["editor", "design"]
 }

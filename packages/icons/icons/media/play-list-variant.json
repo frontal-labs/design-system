@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"play",
-		"list",
-		"media",
-		"audio",
-		"playlist",
-		"controls",
-		"navigation"
-	],
-	"categories": ["media", "navigation"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "play",
+    "list",
+    "media",
+    "audio",
+    "playlist",
+    "controls",
+    "navigation"
+  ],
+  "categories": ["media", "navigation"]
 }

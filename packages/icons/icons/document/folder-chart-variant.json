@@ -1,5 +1,5 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": ["folder", "chart", "bar chart", "document", "analytics", "file"],
-	"categories": ["folders", "charts"]
+  "$schema": "../../icon.schema.json",
+  "tags": ["folder", "chart", "bar chart", "document", "analytics", "file"],
+  "categories": ["folders", "charts"]
 }

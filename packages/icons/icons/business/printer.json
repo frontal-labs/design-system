@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"printer",
-		"print",
-		"business",
-		"office",
-		"hardware",
-		"paper",
-		"device",
-		"machine"
-	],
-	"categories": ["business", "office"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "printer",
+    "print",
+    "business",
+    "office",
+    "hardware",
+    "paper",
+    "device",
+    "machine"
+  ],
+  "categories": ["business", "office"]
 }

@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"question",
-		"mark",
-		"help",
-		"query",
-		"symbol",
-		"information",
-		"unknown",
-		"icon"
-	],
-	"categories": ["design", "symbols"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "question",
+    "mark",
+    "help",
+    "query",
+    "symbol",
+    "information",
+    "unknown",
+    "icon"
+  ],
+  "categories": ["design", "symbols"]
 }

@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"ancient",
-		"pavilion",
-		"building",
-		"architecture",
-		"structure",
-		"roof",
-		"silhouette",
-		"historical"
-	],
-	"categories": ["buildings", "structures"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "ancient",
+    "pavilion",
+    "building",
+    "architecture",
+    "structure",
+    "roof",
+    "silhouette",
+    "historical"
+  ],
+  "categories": ["buildings", "structures"]
 }

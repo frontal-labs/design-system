@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"video",
-		"chat",
-		"camera",
-		"speech-bubble",
-		"communication",
-		"video-call",
-		"multimedia",
-		"screen",
-		"conversation"
-	],
-	"categories": ["communications", "media"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "video",
+    "chat",
+    "camera",
+    "speech-bubble",
+    "communication",
+    "video-call",
+    "multimedia",
+    "screen",
+    "conversation"
+  ],
+  "categories": ["communications", "media"]
 }

@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"layout",
-		"columns",
-		"grid",
-		"split",
-		"structure",
-		"panel",
-		"design"
-	],
-	"categories": ["design", "layout"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "layout",
+    "columns",
+    "grid",
+    "split",
+    "structure",
+    "panel",
+    "design"
+  ],
+  "categories": ["design", "layout"]
 }

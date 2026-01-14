@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"flutter",
-		"logo",
-		"technology",
-		"mobile",
-		"app",
-		"dart",
-		"cross-platform",
-		"open-source"
-	],
-	"categories": ["logos", "technologies"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "flutter",
+    "logo",
+    "technology",
+    "mobile",
+    "app",
+    "dart",
+    "cross-platform",
+    "open-source"
+  ],
+  "categories": ["logos", "technologies"]
 }

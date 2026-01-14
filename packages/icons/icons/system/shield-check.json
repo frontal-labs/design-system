@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"shield",
-		"check",
-		"security",
-		"verified",
-		"approved",
-		"badge",
-		"protection"
-	],
-	"categories": ["shields", "system"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "shield",
+    "check",
+    "security",
+    "verified",
+    "approved",
+    "badge",
+    "protection"
+  ],
+  "categories": ["shields", "system"]
 }

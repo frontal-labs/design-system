@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"snapchat",
-		"social media",
-		"logo",
-		"messaging",
-		"app",
-		"chat",
-		"brand"
-	],
-	"categories": ["logos", "social-media"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "snapchat",
+    "social media",
+    "logo",
+    "messaging",
+    "app",
+    "chat",
+    "brand"
+  ],
+  "categories": ["logos", "social-media"]
 }

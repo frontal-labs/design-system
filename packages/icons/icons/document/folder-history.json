@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"folder",
-		"history",
-		"clock",
-		"document",
-		"time",
-		"archive",
-		"file",
-		"storage",
-		"file icon"
-	],
-	"categories": ["folders", "documents"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "folder",
+    "history",
+    "clock",
+    "document",
+    "time",
+    "archive",
+    "file",
+    "storage",
+    "file icon"
+  ],
+  "categories": ["folders", "documents"]
 }

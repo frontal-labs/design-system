@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"eject",
-		"media",
-		"arrow-up",
-		"transport",
-		"control",
-		"audio",
-		"video",
-		"icon",
-		"device"
-	],
-	"categories": ["media", "transport"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "eject",
+    "media",
+    "arrow-up",
+    "transport",
+    "control",
+    "audio",
+    "video",
+    "icon",
+    "device"
+  ],
+  "categories": ["media", "transport"]
 }

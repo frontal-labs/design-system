@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"drag",
-		"handle",
-		"grid",
-		"list",
-		"editor",
-		"ui",
-		"controls",
-		"symbol"
-	],
-	"categories": ["editors", "controls"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "drag",
+    "handle",
+    "grid",
+    "list",
+    "editor",
+    "ui",
+    "controls",
+    "symbol"
+  ],
+  "categories": ["editors", "controls"]
 }

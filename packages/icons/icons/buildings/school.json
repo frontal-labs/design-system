@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"school",
-		"building",
-		"education",
-		"institution",
-		"structure",
-		"roof",
-		"door",
-		"classroom",
-		"architecture"
-	],
-	"categories": ["buildings", "education"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "school",
+    "building",
+    "education",
+    "institution",
+    "structure",
+    "roof",
+    "door",
+    "classroom",
+    "architecture"
+  ],
+  "categories": ["buildings", "education"]
 }

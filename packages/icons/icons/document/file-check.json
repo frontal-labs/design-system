@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"file",
-		"document",
-		"check",
-		"verified",
-		"approve",
-		"status",
-		"accept",
-		"confirmation"
-	],
-	"categories": ["documents", "status"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "file",
+    "document",
+    "check",
+    "verified",
+    "approve",
+    "status",
+    "accept",
+    "confirmation"
+  ],
+  "categories": ["documents", "status"]
 }

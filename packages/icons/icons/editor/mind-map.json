@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"mind map",
-		"diagram",
-		"network",
-		"nodes",
-		"graph",
-		"brainstorming",
-		"concept map",
-		"visualization"
-	],
-	"categories": ["design", "editors"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "mind map",
+    "diagram",
+    "network",
+    "nodes",
+    "graph",
+    "brainstorming",
+    "concept map",
+    "visualization"
+  ],
+  "categories": ["design", "editors"]
 }

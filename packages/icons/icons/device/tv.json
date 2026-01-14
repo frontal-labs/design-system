@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"tv",
-		"television",
-		"screen",
-		"device",
-		"electronics",
-		"home entertainment",
-		"media",
-		"display"
-	],
-	"categories": ["devices", "electronics"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "tv",
+    "television",
+    "screen",
+    "device",
+    "electronics",
+    "home entertainment",
+    "media",
+    "display"
+  ],
+  "categories": ["devices", "electronics"]
 }

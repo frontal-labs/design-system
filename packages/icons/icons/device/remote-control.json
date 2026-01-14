@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"remote",
-		"control",
-		"device",
-		"electronics",
-		"tv",
-		"wireless",
-		"button",
-		"interface"
-	],
-	"categories": ["devices", "electronics"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "remote",
+    "control",
+    "device",
+    "electronics",
+    "tv",
+    "wireless",
+    "button",
+    "interface"
+  ],
+  "categories": ["devices", "electronics"]
 }

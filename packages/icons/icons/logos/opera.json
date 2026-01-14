@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"opera",
-		"browser",
-		"logo",
-		"circle",
-		"brand",
-		"technology",
-		"internet",
-		"web"
-	],
-	"categories": ["logos", "brands"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "opera",
+    "browser",
+    "logo",
+    "circle",
+    "brand",
+    "technology",
+    "internet",
+    "web"
+  ],
+  "categories": ["logos", "brands"]
 }

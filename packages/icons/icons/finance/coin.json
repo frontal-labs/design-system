@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"coin",
-		"currency",
-		"money",
-		"finance",
-		"circular",
-		"round",
-		"icon",
-		"symbol"
-	],
-	"categories": ["finance", "currency"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "coin",
+    "currency",
+    "money",
+    "finance",
+    "circular",
+    "round",
+    "icon",
+    "symbol"
+  ],
+  "categories": ["finance", "currency"]
 }

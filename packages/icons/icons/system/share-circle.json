@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"share",
-		"circle",
-		"arrow",
-		"outbound",
-		"social",
-		"communication",
-		"network"
-	],
-	"categories": ["navigation", "social"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "share",
+    "circle",
+    "arrow",
+    "outbound",
+    "social",
+    "communication",
+    "network"
+  ],
+  "categories": ["navigation", "social"]
 }

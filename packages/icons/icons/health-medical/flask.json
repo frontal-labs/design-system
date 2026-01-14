@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"flask",
-		"lab",
-		"science",
-		"medical",
-		"health",
-		"experiment",
-		"beaker"
-	],
-	"categories": ["health", "medical"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "flask",
+    "lab",
+    "science",
+    "medical",
+    "health",
+    "experiment",
+    "beaker"
+  ],
+  "categories": ["health", "medical"]
 }

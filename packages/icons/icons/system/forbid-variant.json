@@ -1,5 +1,5 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": ["forbidden", "prohibited", "no", "circle", "slash", "stop", "alert"],
-	"categories": ["systems", "design"]
+  "$schema": "../../icon.schema.json",
+  "tags": ["forbidden", "prohibited", "no", "circle", "slash", "stop", "alert"],
+  "categories": ["systems", "design"]
 }

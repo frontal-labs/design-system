@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"shopping",
-		"bag",
-		"retail",
-		"store",
-		"commerce",
-		"finance",
-		"currency",
-		"shopping-bag"
-	],
-	"categories": ["finance", "shopping"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "shopping",
+    "bag",
+    "retail",
+    "store",
+    "commerce",
+    "finance",
+    "currency",
+    "shopping-bag"
+  ],
+  "categories": ["finance", "shopping"]
 }

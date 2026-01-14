@@ -1,5 +1,5 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": ["alarm", "clock", "add", "notification", "time", "plus", "alert"],
-	"categories": ["system", "clocks"]
+  "$schema": "../../icon.schema.json",
+  "tags": ["alarm", "clock", "add", "notification", "time", "plus", "alert"],
+  "categories": ["system", "clocks"]
 }

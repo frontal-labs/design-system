@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"file",
-		"cloud",
-		"document",
-		"upload",
-		"download",
-		"storage",
-		"folder"
-	],
-	"categories": ["documents", "clouds"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "file",
+    "cloud",
+    "document",
+    "upload",
+    "download",
+    "storage",
+    "folder"
+  ],
+  "categories": ["documents", "clouds"]
 }

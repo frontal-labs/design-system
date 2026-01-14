@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"horizontal-lines",
-		"vertical-line",
-		"text",
-		"typography",
-		"spacing",
-		"layout",
-		"editor",
-		"measurement"
-	],
-	"categories": ["editor", "typography"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "horizontal-lines",
+    "vertical-line",
+    "text",
+    "typography",
+    "spacing",
+    "layout",
+    "editor",
+    "measurement"
+  ],
+  "categories": ["editor", "typography"]
 }

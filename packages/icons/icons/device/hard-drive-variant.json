@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"hard drive",
-		"storage",
-		"device",
-		"computer",
-		"disk",
-		"hardware",
-		"file"
-	],
-	"categories": ["devices", "hardware"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "hard drive",
+    "storage",
+    "device",
+    "computer",
+    "disk",
+    "hardware",
+    "file"
+  ],
+  "categories": ["devices", "hardware"]
 }

@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"speaker",
-		"audio",
-		"volume",
-		"sound",
-		"media",
-		"play",
-		"sound waves",
-		"audio control",
-		"speaker icon"
-	],
-	"categories": ["media", "controls"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "speaker",
+    "audio",
+    "volume",
+    "sound",
+    "media",
+    "play",
+    "sound waves",
+    "audio control",
+    "speaker icon"
+  ],
+  "categories": ["media", "controls"]
 }

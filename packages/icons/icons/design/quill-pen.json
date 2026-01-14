@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"quill",
-		"pen",
-		"writing",
-		"ink",
-		"nib",
-		"design",
-		"creative",
-		"tool"
-	],
-	"categories": ["design", "writing"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "quill",
+    "pen",
+    "writing",
+    "ink",
+    "nib",
+    "design",
+    "creative",
+    "tool"
+  ],
+  "categories": ["design", "writing"]
 }

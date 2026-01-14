@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"camera",
-		"lens",
-		"photo",
-		"image",
-		"photography",
-		"viewfinder",
-		"camera lens",
-		"camera icon",
-		"camera view"
-	],
-	"categories": ["media", "devices"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "camera",
+    "lens",
+    "photo",
+    "image",
+    "photography",
+    "viewfinder",
+    "camera lens",
+    "camera icon",
+    "camera view"
+  ],
+  "categories": ["media", "devices"]
 }

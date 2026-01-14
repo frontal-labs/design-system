@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"table",
-		"grid",
-		"layout",
-		"cells",
-		"data",
-		"organize",
-		"spreadsheet",
-		"matrix"
-	],
-	"categories": ["design", "layout"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "table",
+    "grid",
+    "layout",
+    "cells",
+    "data",
+    "organize",
+    "spreadsheet",
+    "matrix"
+  ],
+  "categories": ["design", "layout"]
 }

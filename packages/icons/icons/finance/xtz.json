@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"cryptocurrency",
-		"tezos",
-		"finance",
-		"token",
-		"blockchain",
-		"digital currency",
-		"currency symbol",
-		"finance icon"
-	],
-	"categories": ["finance", "logos"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "cryptocurrency",
+    "tezos",
+    "finance",
+    "token",
+    "blockchain",
+    "digital currency",
+    "currency symbol",
+    "finance icon"
+  ],
+  "categories": ["finance", "logos"]
 }

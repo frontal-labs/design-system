@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"italic",
-		"text",
-		"format",
-		"font",
-		"editor",
-		"writing",
-		"typeface",
-		"style"
-	],
-	"categories": ["design", "editor"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "italic",
+    "text",
+    "format",
+    "font",
+    "editor",
+    "writing",
+    "typeface",
+    "style"
+  ],
+  "categories": ["design", "editor"]
 }

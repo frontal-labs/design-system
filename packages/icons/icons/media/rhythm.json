@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"audio",
-		"equalizer",
-		"bars",
-		"volume",
-		"level",
-		"visualization",
-		"rhythm"
-	],
-	"categories": ["media", "audio"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "audio",
+    "equalizer",
+    "bars",
+    "volume",
+    "level",
+    "visualization",
+    "rhythm"
+  ],
+  "categories": ["media", "audio"]
 }

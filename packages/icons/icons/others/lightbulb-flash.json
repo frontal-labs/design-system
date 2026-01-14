@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"lightbulb",
-		"flash",
-		"idea",
-		"innovation",
-		"electricity",
-		"light",
-		"technology",
-		"symbol"
-	],
-	"categories": ["lightbulbs", "symbols"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "lightbulb",
+    "flash",
+    "idea",
+    "innovation",
+    "electricity",
+    "light",
+    "technology",
+    "symbol"
+  ],
+  "categories": ["lightbulbs", "symbols"]
 }

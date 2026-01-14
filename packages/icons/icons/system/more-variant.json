@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"ellipsis",
-		"vertical",
-		"more",
-		"options",
-		"menu",
-		"dots",
-		"navigation"
-	],
-	"categories": ["navigation", "design"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "ellipsis",
+    "vertical",
+    "more",
+    "options",
+    "menu",
+    "dots",
+    "navigation"
+  ],
+  "categories": ["navigation", "design"]
 }

@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"snowflake",
-		"weather",
-		"winter",
-		"cold",
-		"flake",
-		"ice",
-		"snow",
-		"nature"
-	],
-	"categories": ["weather", "nature"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "snowflake",
+    "weather",
+    "winter",
+    "cold",
+    "flake",
+    "ice",
+    "snow",
+    "nature"
+  ],
+  "categories": ["weather", "nature"]
 }

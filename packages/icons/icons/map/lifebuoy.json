@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"lifebuoy",
-		"ring",
-		"safety",
-		"emergency",
-		"help",
-		"circle",
-		"navigation"
-	],
-	"categories": ["design", "navigation"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "lifebuoy",
+    "ring",
+    "safety",
+    "emergency",
+    "help",
+    "circle",
+    "navigation"
+  ],
+  "categories": ["design", "navigation"]
 }

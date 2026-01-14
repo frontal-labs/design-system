@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"hotel",
-		"building",
-		"accommodation",
-		"lodging",
-		"room",
-		"structure",
-		"inn"
-	],
-	"categories": ["buildings", "design"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "hotel",
+    "building",
+    "accommodation",
+    "lodging",
+    "room",
+    "structure",
+    "inn"
+  ],
+  "categories": ["buildings", "design"]
 }

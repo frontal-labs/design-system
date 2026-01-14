@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"blogger",
-		"blog",
-		"logo",
-		"brand",
-		"social media",
-		"internet",
-		"digital",
-		"technology"
-	],
-	"categories": ["logos", "brands"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "blogger",
+    "blog",
+    "logo",
+    "brand",
+    "social media",
+    "internet",
+    "digital",
+    "technology"
+  ],
+  "categories": ["logos", "brands"]
 }

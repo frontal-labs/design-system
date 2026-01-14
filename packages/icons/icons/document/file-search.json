@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"file",
-		"document",
-		"search",
-		"magnifying-glass",
-		"folder",
-		"find",
-		"query"
-	],
-	"categories": ["documents", "search"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "file",
+    "document",
+    "search",
+    "magnifying-glass",
+    "folder",
+    "find",
+    "query"
+  ],
+  "categories": ["documents", "search"]
 }

@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"trophy",
-		"award",
-		"medal",
-		"prize",
-		"recognition",
-		"achievement",
-		"honor",
-		"celebration",
-		"badge"
-	],
-	"categories": ["business", "awards"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "trophy",
+    "award",
+    "medal",
+    "prize",
+    "recognition",
+    "achievement",
+    "honor",
+    "celebration",
+    "badge"
+  ],
+  "categories": ["business", "awards"]
 }

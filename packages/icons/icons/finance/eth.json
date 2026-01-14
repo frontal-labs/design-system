@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"ethereum",
-		"crypto",
-		"blockchain",
-		"hexagon",
-		"triangle",
-		"currency",
-		"finance",
-		"digital currency"
-	],
-	"categories": ["finance", "design"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "ethereum",
+    "crypto",
+    "blockchain",
+    "hexagon",
+    "triangle",
+    "currency",
+    "finance",
+    "digital currency"
+  ],
+  "categories": ["finance", "design"]
 }

@@ -1,16 +1,16 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"record",
-		"circle",
-		"media",
-		"audio",
-		"stop",
-		"button",
-		"play",
-		"interface",
-		"icon",
-		"control"
-	],
-	"categories": ["media", "controls"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "record",
+    "circle",
+    "media",
+    "audio",
+    "stop",
+    "button",
+    "play",
+    "interface",
+    "icon",
+    "control"
+  ],
+  "categories": ["media", "controls"]
 }

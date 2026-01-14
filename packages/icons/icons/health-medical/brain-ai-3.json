@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"brain",
-		"ai",
-		"neural-network",
-		"health",
-		"medicine",
-		"cognitive",
-		"neuroscience",
-		"technology"
-	],
-	"categories": ["design", "health"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "brain",
+    "ai",
+    "neural-network",
+    "health",
+    "medicine",
+    "cognitive",
+    "neuroscience",
+    "technology"
+  ],
+  "categories": ["design", "health"]
 }

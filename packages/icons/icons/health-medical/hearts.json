@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"heart",
-		"hearts",
-		"love",
-		"medical",
-		"symbol",
-		"health",
-		"emoticon",
-		"symptom"
-	],
-	"categories": ["health", "symbols"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "heart",
+    "hearts",
+    "love",
+    "medical",
+    "symbol",
+    "health",
+    "emoticon",
+    "symptom"
+  ],
+  "categories": ["health", "symbols"]
 }

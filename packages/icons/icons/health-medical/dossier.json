@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"folder",
-		"document",
-		"file",
-		"medical",
-		"health",
-		"dossier",
-		"paper"
-	],
-	"categories": ["folders", "documents"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "folder",
+    "document",
+    "file",
+    "medical",
+    "health",
+    "dossier",
+    "paper"
+  ],
+  "categories": ["folders", "documents"]
 }

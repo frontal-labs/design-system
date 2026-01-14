@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"wechat",
-		"messaging",
-		"chat",
-		"social media",
-		"logo",
-		"chat bubble",
-		"communication",
-		"app",
-		"messenger"
-	],
-	"categories": ["logos", "social media"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "wechat",
+    "messaging",
+    "chat",
+    "social media",
+    "logo",
+    "chat bubble",
+    "communication",
+    "app",
+    "messenger"
+  ],
+  "categories": ["logos", "social media"]
 }

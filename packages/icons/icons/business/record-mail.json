@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"record",
-		"mail",
-		"envelope",
-		"circle",
-		"communication",
-		"business",
-		"notification"
-	],
-	"categories": ["business", "communication"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "record",
+    "mail",
+    "envelope",
+    "circle",
+    "communication",
+    "business",
+    "notification"
+  ],
+  "categories": ["business", "communication"]
 }

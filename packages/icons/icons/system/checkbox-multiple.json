@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"checkbox",
-		"multiple",
-		"selection",
-		"checkmark",
-		"form",
-		"ui",
-		"list"
-	],
-	"categories": ["forms", "controls"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "checkbox",
+    "multiple",
+    "selection",
+    "checkmark",
+    "form",
+    "ui",
+    "list"
+  ],
+  "categories": ["forms", "controls"]
 }

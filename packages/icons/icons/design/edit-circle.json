@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"edit",
-		"pencil",
-		"write",
-		"pen",
-		"circle",
-		"modify",
-		"action",
-		"document"
-	],
-	"categories": ["designs", "actions"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "edit",
+    "pencil",
+    "write",
+    "pen",
+    "circle",
+    "modify",
+    "action",
+    "document"
+  ],
+  "categories": ["designs", "actions"]
 }

@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"play",
-		"media",
-		"audio",
-		"video",
-		"forward",
-		"triangle",
-		"button",
-		"control"
-	],
-	"categories": ["media", "controls"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "play",
+    "media",
+    "audio",
+    "video",
+    "forward",
+    "triangle",
+    "button",
+    "control"
+  ],
+  "categories": ["media", "controls"]
 }

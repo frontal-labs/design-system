@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"play",
-		"reverse",
-		"arrow",
-		"left",
-		"media",
-		"navigation",
-		"backward"
-	],
-	"categories": ["arrows", "media"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "play",
+    "reverse",
+    "arrow",
+    "left",
+    "media",
+    "navigation",
+    "backward"
+  ],
+  "categories": ["arrows", "media"]
 }

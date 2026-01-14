@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"headphone",
-		"audio",
-		"music",
-		"sound",
-		"earphones",
-		"media",
-		"listening"
-	],
-	"categories": ["media", "audio"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "headphone",
+    "audio",
+    "music",
+    "sound",
+    "earphones",
+    "media",
+    "listening"
+  ],
+  "categories": ["media", "audio"]
 }

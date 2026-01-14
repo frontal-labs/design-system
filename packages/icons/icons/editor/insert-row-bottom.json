@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"insert",
-		"row",
-		"bottom",
-		"table",
-		"add",
-		"plus",
-		"icon",
-		"editing"
-	],
-	"categories": ["editing", "tables"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "insert",
+    "row",
+    "bottom",
+    "table",
+    "add",
+    "plus",
+    "icon",
+    "editing"
+  ],
+  "categories": ["editing", "tables"]
 }

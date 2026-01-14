@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"glasses",
-		"eyeglasses",
-		"spectacles",
-		"vision",
-		"eye",
-		"fashion",
-		"accessory",
-		"optical"
-	],
-	"categories": ["accessories", "fashion"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "glasses",
+    "eyeglasses",
+    "spectacles",
+    "vision",
+    "eye",
+    "fashion",
+    "accessory",
+    "optical"
+  ],
+  "categories": ["accessories", "fashion"]
 }

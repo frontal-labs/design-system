@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"calendar",
-		"close",
-		"x",
-		"delete",
-		"remove",
-		"event",
-		"date",
-		"schedule",
-		"time"
-	],
-	"categories": ["businesses", "actions"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "calendar",
+    "close",
+    "x",
+    "delete",
+    "remove",
+    "event",
+    "date",
+    "schedule",
+    "time"
+  ],
+  "categories": ["businesses", "actions"]
 }

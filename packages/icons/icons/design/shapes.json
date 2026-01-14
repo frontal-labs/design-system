@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"triangle",
-		"circle",
-		"square",
-		"shapes",
-		"geometric",
-		"icon",
-		"design",
-		"multishape"
-	],
-	"categories": ["design", "shapes"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "triangle",
+    "circle",
+    "square",
+    "shapes",
+    "geometric",
+    "icon",
+    "design",
+    "multishape"
+  ],
+  "categories": ["design", "shapes"]
 }

@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"file",
-		"document",
-		"marked",
-		"stamp",
-		"paper",
-		"icon",
-		"file-marked"
-	],
-	"categories": ["design", "documents"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "file",
+    "document",
+    "marked",
+    "stamp",
+    "paper",
+    "icon",
+    "file-marked"
+  ],
+  "categories": ["design", "documents"]
 }

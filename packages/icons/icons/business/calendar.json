@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"calendar",
-		"date",
-		"schedule",
-		"events",
-		"office",
-		"business",
-		"time",
-		"paper"
-	],
-	"categories": ["businesses", "schedules"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "calendar",
+    "date",
+    "schedule",
+    "events",
+    "office",
+    "business",
+    "time",
+    "paper"
+  ],
+  "categories": ["businesses", "schedules"]
 }

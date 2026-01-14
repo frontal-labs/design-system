@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"fullscreen",
-		"expand",
-		"screen",
-		"view",
-		"maximize",
-		"arrows",
-		"box"
-	],
-	"categories": ["media", "arrows"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "fullscreen",
+    "expand",
+    "screen",
+    "view",
+    "maximize",
+    "arrows",
+    "box"
+  ],
+  "categories": ["media", "arrows"]
 }

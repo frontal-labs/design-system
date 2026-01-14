@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"wheelchair",
-		"accessibility",
-		"disability",
-		"medical",
-		"transport",
-		"symbol",
-		"universal",
-		"assistive"
-	],
-	"categories": ["design", "accessibility"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "wheelchair",
+    "accessibility",
+    "disability",
+    "medical",
+    "transport",
+    "symbol",
+    "universal",
+    "assistive"
+  ],
+  "categories": ["design", "accessibility"]
 }

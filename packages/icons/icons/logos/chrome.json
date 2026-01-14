@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"chrome",
-		"browser",
-		"logo",
-		"internet",
-		"technology",
-		"google",
-		"browser-icon"
-	],
-	"categories": ["logos", "software"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "chrome",
+    "browser",
+    "logo",
+    "internet",
+    "technology",
+    "google",
+    "browser-icon"
+  ],
+  "categories": ["logos", "software"]
 }

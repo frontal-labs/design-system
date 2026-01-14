@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"math",
-		"formula",
-		"symbol",
-		"summation",
-		"calculator",
-		"equation",
-		"math notation"
-	],
-	"categories": ["editor", "design"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "math",
+    "formula",
+    "symbol",
+    "summation",
+    "calculator",
+    "equation",
+    "math notation"
+  ],
+  "categories": ["editor", "design"]
 }

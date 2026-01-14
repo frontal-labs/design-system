@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"more",
-		"ellipsis",
-		"vertical",
-		"options",
-		"menu",
-		"dots",
-		"overflow",
-		"settings"
-	],
-	"categories": ["systems", "navigation"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "more",
+    "ellipsis",
+    "vertical",
+    "options",
+    "menu",
+    "dots",
+    "overflow",
+    "settings"
+  ],
+  "categories": ["systems", "navigation"]
 }

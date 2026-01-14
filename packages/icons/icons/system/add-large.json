@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"add",
-		"plus",
-		"large",
-		"square",
-		"button",
-		"create",
-		"insert",
-		"new"
-	],
-	"categories": ["systems", "actions"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "add",
+    "plus",
+    "large",
+    "square",
+    "button",
+    "create",
+    "insert",
+    "new"
+  ],
+  "categories": ["systems", "actions"]
 }

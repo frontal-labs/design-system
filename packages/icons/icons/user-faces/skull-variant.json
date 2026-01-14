@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"skull",
-		"face",
-		"death",
-		"horror",
-		"undead",
-		"skeleton",
-		"symbol",
-		"gore"
-	],
-	"categories": ["faces", "symbols"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "skull",
+    "face",
+    "death",
+    "horror",
+    "undead",
+    "skeleton",
+    "symbol",
+    "gore"
+  ],
+  "categories": ["faces", "symbols"]
 }

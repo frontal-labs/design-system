@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"message",
-		"speech bubble",
-		"chat",
-		"communication",
-		"email",
-		"notification",
-		"icon"
-	],
-	"categories": ["communications", "messages"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "message",
+    "speech bubble",
+    "chat",
+    "communication",
+    "email",
+    "notification",
+    "icon"
+  ],
+  "categories": ["communications", "messages"]
 }

@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"highlight",
-		"pen",
-		"text",
-		"emphasis",
-		"underline",
-		"annotation",
-		"note"
-	],
-	"categories": ["design", "editor"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "highlight",
+    "pen",
+    "text",
+    "emphasis",
+    "underline",
+    "annotation",
+    "note"
+  ],
+  "categories": ["design", "editor"]
 }

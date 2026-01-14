@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"nft",
-		"digital asset",
-		"token",
-		"crypto",
-		"blockchain",
-		"finance",
-		"symbol"
-	],
-	"categories": ["finance", "cryptocurrencies"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "nft",
+    "digital asset",
+    "token",
+    "crypto",
+    "blockchain",
+    "finance",
+    "symbol"
+  ],
+  "categories": ["finance", "cryptocurrencies"]
 }

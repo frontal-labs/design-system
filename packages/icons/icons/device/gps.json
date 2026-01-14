@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"gps",
-		"navigation",
-		"compass",
-		"location",
-		"arrow",
-		"map",
-		"direction",
-		"world"
-	],
-	"categories": ["navigation", "devices"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "gps",
+    "navigation",
+    "compass",
+    "location",
+    "arrow",
+    "map",
+    "direction",
+    "world"
+  ],
+  "categories": ["navigation", "devices"]
 }

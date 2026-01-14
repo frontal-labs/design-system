@@ -1,16 +1,16 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"sad",
-		"face",
-		"emotion",
-		"expression",
-		"mouth",
-		"eyes",
-		"emoji",
-		"facial",
-		"smile",
-		"downward"
-	],
-	"categories": ["faces", "emoticons"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "sad",
+    "face",
+    "emotion",
+    "expression",
+    "mouth",
+    "eyes",
+    "emoji",
+    "facial",
+    "smile",
+    "downward"
+  ],
+  "categories": ["faces", "emoticons"]
 }

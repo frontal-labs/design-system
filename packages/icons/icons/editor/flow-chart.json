@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"flowchart",
-		"diagram",
-		"process",
-		"arrow",
-		"box",
-		"connect",
-		"chart",
-		"workflow"
-	],
-	"categories": ["editors", "designs"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "flowchart",
+    "diagram",
+    "process",
+    "arrow",
+    "box",
+    "connect",
+    "chart",
+    "workflow"
+  ],
+  "categories": ["editors", "designs"]
 }

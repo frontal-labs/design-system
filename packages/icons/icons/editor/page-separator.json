@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"page",
-		"separator",
-		"arrow",
-		"horizontal",
-		"document",
-		"layout",
-		"divider",
-		"split"
-	],
-	"categories": ["arrows", "editors"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "page",
+    "separator",
+    "arrow",
+    "horizontal",
+    "document",
+    "layout",
+    "divider",
+    "split"
+  ],
+  "categories": ["arrows", "editors"]
 }

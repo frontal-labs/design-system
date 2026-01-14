@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"goggles",
-		"safety",
-		"eye protection",
-		"sports",
-		"gear",
-		"equipment",
-		"vision",
-		"protective eyewear"
-	],
-	"categories": ["gear", "equipment"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "goggles",
+    "safety",
+    "eye protection",
+    "sports",
+    "gear",
+    "equipment",
+    "vision",
+    "protective eyewear"
+  ],
+  "categories": ["gear", "equipment"]
 }

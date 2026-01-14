@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"speaker",
-		"audio",
-		"volume",
-		"media",
-		"sound",
-		"headphones",
-		"control",
-		"icon"
-	],
-	"categories": ["media", "audio"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "speaker",
+    "audio",
+    "volume",
+    "media",
+    "sound",
+    "headphones",
+    "control",
+    "icon"
+  ],
+  "categories": ["media", "audio"]
 }

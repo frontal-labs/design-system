@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"compass",
-		"navigation",
-		"direction",
-		"pointer",
-		"symbol",
-		"travel",
-		"orientation"
-	],
-	"categories": ["navigation", "design"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "compass",
+    "navigation",
+    "direction",
+    "pointer",
+    "symbol",
+    "travel",
+    "orientation"
+  ],
+  "categories": ["navigation", "design"]
 }

@@ -1,5 +1,5 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": ["wordpress", "logo", "cms", "web", "technology", "brand", "social"],
-	"categories": ["logos", "brands"]
+  "$schema": "../../icon.schema.json",
+  "tags": ["wordpress", "logo", "cms", "web", "technology", "brand", "social"],
+  "categories": ["logos", "brands"]
 }

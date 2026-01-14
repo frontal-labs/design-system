@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"thumb",
-		"down",
-		"dislike",
-		"negative",
-		"feedback",
-		"hand",
-		"gesture",
-		"rating",
-		"social"
-	],
-	"categories": ["social", "hand"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "thumb",
+    "down",
+    "dislike",
+    "negative",
+    "feedback",
+    "hand",
+    "gesture",
+    "rating",
+    "social"
+  ],
+  "categories": ["social", "hand"]
 }

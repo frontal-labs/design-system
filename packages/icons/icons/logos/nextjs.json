@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"nextjs",
-		"logo",
-		"javascript",
-		"react",
-		"framework",
-		"web",
-		"nodejs",
-		"typescript"
-	],
-	"categories": ["logos", "frameworks"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "nextjs",
+    "logo",
+    "javascript",
+    "react",
+    "framework",
+    "web",
+    "nodejs",
+    "typescript"
+  ],
+  "categories": ["logos", "frameworks"]
 }

@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"bookshelf",
-		"books",
-		"shelf",
-		"library",
-		"storage",
-		"office",
-		"furniture",
-		"home"
-	],
-	"categories": ["furniture", "office"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "bookshelf",
+    "books",
+    "shelf",
+    "library",
+    "storage",
+    "office",
+    "furniture",
+    "home"
+  ],
+  "categories": ["furniture", "office"]
 }

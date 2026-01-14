@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"slideshow",
-		"presentation",
-		"screen",
-		"play",
-		"arrow",
-		"media",
-		"video"
-	],
-	"categories": ["businesses", "media"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "slideshow",
+    "presentation",
+    "screen",
+    "play",
+    "arrow",
+    "media",
+    "video"
+  ],
+  "categories": ["businesses", "media"]
 }

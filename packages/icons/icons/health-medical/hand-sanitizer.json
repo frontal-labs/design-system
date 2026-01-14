@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"hand sanitizer",
-		"hand wash",
-		"hygiene",
-		"disinfect",
-		"health",
-		"medical",
-		"soap",
-		"cleaning"
-	],
-	"categories": ["health", "hygiene"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "hand sanitizer",
+    "hand wash",
+    "hygiene",
+    "disinfect",
+    "health",
+    "medical",
+    "soap",
+    "cleaning"
+  ],
+  "categories": ["health", "hygiene"]
 }

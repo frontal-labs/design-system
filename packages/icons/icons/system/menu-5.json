@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"menu",
-		"hamburger",
-		"bars",
-		"navigation",
-		"toggle",
-		"list",
-		"options",
-		"ui"
-	],
-	"categories": ["navigation", "design"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "menu",
+    "hamburger",
+    "bars",
+    "navigation",
+    "toggle",
+    "list",
+    "options",
+    "ui"
+  ],
+  "categories": ["navigation", "design"]
 }

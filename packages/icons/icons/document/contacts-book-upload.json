@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"contacts",
-		"book",
-		"upload",
-		"file",
-		"document",
-		"arrow",
-		"data transfer",
-		"library",
-		"import"
-	],
-	"categories": ["documents", "arrows"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "contacts",
+    "book",
+    "upload",
+    "file",
+    "document",
+    "arrow",
+    "data transfer",
+    "library",
+    "import"
+  ],
+  "categories": ["documents", "arrows"]
 }

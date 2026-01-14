@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"edit",
-		"pencil",
-		"folder",
-		"file",
-		"document",
-		"write",
-		"icon",
-		"editor"
-	],
-	"categories": ["editors", "documents"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "edit",
+    "pencil",
+    "folder",
+    "file",
+    "document",
+    "write",
+    "icon",
+    "editor"
+  ],
+  "categories": ["editors", "documents"]
 }

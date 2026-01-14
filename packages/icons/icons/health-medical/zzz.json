@@ -1,5 +1,5 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": ["sleep", "zzz", "doze", "night", "rest", "silence", "bedtime"],
-	"categories": ["design", "health"]
+  "$schema": "../../icon.schema.json",
+  "tags": ["sleep", "zzz", "doze", "night", "rest", "silence", "bedtime"],
+  "categories": ["design", "health"]
 }

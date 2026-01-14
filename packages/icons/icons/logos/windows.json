@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"windows",
-		"logo",
-		"brand",
-		"technology",
-		"computer",
-		"operating-system",
-		"software",
-		"icon"
-	],
-	"categories": ["logos", "brands"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "windows",
+    "logo",
+    "brand",
+    "technology",
+    "computer",
+    "operating-system",
+    "software",
+    "icon"
+  ],
+  "categories": ["logos", "brands"]
 }

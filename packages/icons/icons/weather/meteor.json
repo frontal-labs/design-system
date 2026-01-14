@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"meteor",
-		"weather",
-		"storm",
-		"cloud",
-		"celestial",
-		"sky",
-		"falling",
-		"space"
-	],
-	"categories": ["weather", "celestial"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "meteor",
+    "weather",
+    "storm",
+    "cloud",
+    "celestial",
+    "sky",
+    "falling",
+    "space"
+  ],
+  "categories": ["weather", "celestial"]
 }

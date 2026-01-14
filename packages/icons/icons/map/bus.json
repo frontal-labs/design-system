@@ -1,16 +1,16 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"bus",
-		"vehicle",
-		"public transport",
-		"transportation",
-		"map",
-		"travel",
-		"road",
-		"commute",
-		"city",
-		"travel"
-	],
-	"categories": ["transportation", "maps"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "bus",
+    "vehicle",
+    "public transport",
+    "transportation",
+    "map",
+    "travel",
+    "road",
+    "commute",
+    "city",
+    "travel"
+  ],
+  "categories": ["transportation", "maps"]
 }

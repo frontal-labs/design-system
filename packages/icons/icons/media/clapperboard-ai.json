@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"clapperboard",
-		"film",
-		"movie",
-		"video",
-		"camera",
-		"ai",
-		"artificial intelligence",
-		"media",
-		"clip"
-	],
-	"categories": ["media", "films"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "clapperboard",
+    "film",
+    "movie",
+    "video",
+    "camera",
+    "ai",
+    "artificial intelligence",
+    "media",
+    "clip"
+  ],
+  "categories": ["media", "films"]
 }

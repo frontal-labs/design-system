@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"omega",
-		"greek",
-		"symbol",
-		"math",
-		"letter",
-		"alphabet",
-		"omega-symbol",
-		"math-symbol"
-	],
-	"categories": ["symbols", "math"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "omega",
+    "greek",
+    "symbol",
+    "math",
+    "letter",
+    "alphabet",
+    "omega-symbol",
+    "math-symbol"
+  ],
+  "categories": ["symbols", "math"]
 }

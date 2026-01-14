@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"number",
-		"three",
-		"digit",
-		"numeric",
-		"math",
-		"calculator",
-		"text",
-		"symbol"
-	],
-	"categories": ["numbers", "math"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "number",
+    "three",
+    "digit",
+    "numeric",
+    "math",
+    "calculator",
+    "text",
+    "symbol"
+  ],
+  "categories": ["numbers", "math"]
 }

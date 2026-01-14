@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"first-aid",
-		"health",
-		"medical",
-		"kit",
-		"safety",
-		"bandage",
-		"medicine"
-	],
-	"categories": ["health", "medical"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "first-aid",
+    "health",
+    "medical",
+    "kit",
+    "safety",
+    "bandage",
+    "medicine"
+  ],
+  "categories": ["health", "medical"]
 }

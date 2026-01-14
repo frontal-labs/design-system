@@ -1,5 +1,5 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": ["bear", "smile", "face", "animal", "happy", "cute", "mammal"],
-	"categories": ["faces", "animals"]
+  "$schema": "../../icon.schema.json",
+  "tags": ["bear", "smile", "face", "animal", "happy", "cute", "mammal"],
+  "categories": ["faces", "animals"]
 }

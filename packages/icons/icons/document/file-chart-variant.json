@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"file",
-		"document",
-		"chart",
-		"bar",
-		"statistics",
-		"data",
-		"report",
-		"graph",
-		"analytics"
-	],
-	"categories": ["documents", "charts"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "file",
+    "document",
+    "chart",
+    "bar",
+    "statistics",
+    "data",
+    "report",
+    "graph",
+    "analytics"
+  ],
+  "categories": ["documents", "charts"]
 }

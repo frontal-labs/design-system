@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"number",
-		"one",
-		"numeric",
-		"digit",
-		"typography",
-		"editor",
-		"font",
-		"symbol",
-		"text"
-	],
-	"categories": ["text", "design"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "number",
+    "one",
+    "numeric",
+    "digit",
+    "typography",
+    "editor",
+    "font",
+    "symbol",
+    "text"
+  ],
+  "categories": ["text", "design"]
 }

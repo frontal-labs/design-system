@@ -1,5 +1,5 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": ["movie", "film", "screen", "cinema", "reel", "play", "media"],
-	"categories": ["media", "videos"]
+  "$schema": "../../icon.schema.json",
+  "tags": ["movie", "film", "screen", "cinema", "reel", "play", "media"],
+  "categories": ["media", "videos"]
 }

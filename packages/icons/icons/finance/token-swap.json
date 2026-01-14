@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"swap",
-		"exchange",
-		"arrows",
-		"finance",
-		"token",
-		"transaction",
-		"cycle",
-		"two-way",
-		"refresh"
-	],
-	"categories": ["arrows", "finance"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "swap",
+    "exchange",
+    "arrows",
+    "finance",
+    "token",
+    "transaction",
+    "cycle",
+    "two-way",
+    "refresh"
+  ],
+  "categories": ["arrows", "finance"]
 }

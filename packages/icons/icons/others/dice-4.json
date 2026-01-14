@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"dice",
-		"four",
-		"number",
-		"gaming",
-		"probability",
-		"random",
-		"board-game",
-		"dice-4"
-	],
-	"categories": ["objects", "gaming"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "dice",
+    "four",
+    "number",
+    "gaming",
+    "probability",
+    "random",
+    "board-game",
+    "dice-4"
+  ],
+  "categories": ["objects", "gaming"]
 }

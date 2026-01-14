@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"dice",
-		"die",
-		"gaming",
-		"boardgame",
-		"probability",
-		"number two",
-		"pips",
-		"square",
-		"random"
-	],
-	"categories": ["games", "dice"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "dice",
+    "die",
+    "gaming",
+    "boardgame",
+    "probability",
+    "number two",
+    "pips",
+    "square",
+    "random"
+  ],
+  "categories": ["games", "dice"]
 }

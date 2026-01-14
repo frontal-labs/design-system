@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"aspect-ratio",
-		"ratio",
-		"screen",
-		"display",
-		"media",
-		"dimensions",
-		"frame",
-		"resolution"
-	],
-	"categories": ["media", "design"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "aspect-ratio",
+    "ratio",
+    "screen",
+    "display",
+    "media",
+    "dimensions",
+    "frame",
+    "resolution"
+  ],
+  "categories": ["media", "design"]
 }

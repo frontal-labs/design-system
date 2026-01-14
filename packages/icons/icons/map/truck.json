@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"truck",
-		"vehicle",
-		"delivery",
-		"transportation",
-		"road",
-		"map",
-		"logistics",
-		"shipping"
-	],
-	"categories": ["vehicles", "transportation"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "truck",
+    "vehicle",
+    "delivery",
+    "transportation",
+    "road",
+    "map",
+    "logistics",
+    "shipping"
+  ],
+  "categories": ["vehicles", "transportation"]
 }

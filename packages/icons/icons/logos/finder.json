@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"folder",
-		"finder",
-		"macos",
-		"file",
-		"storage",
-		"navigation",
-		"document",
-		"app",
-		"icon"
-	],
-	"categories": ["folders", "navigation"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "folder",
+    "finder",
+    "macos",
+    "file",
+    "storage",
+    "navigation",
+    "document",
+    "app",
+    "icon"
+  ],
+  "categories": ["folders", "navigation"]
 }

@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"alphabet",
-		"letter-a",
-		"letter-b",
-		"text",
-		"editor",
-		"typing",
-		"font",
-		"document"
-	],
-	"categories": ["editors", "typography"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "alphabet",
+    "letter-a",
+    "letter-b",
+    "text",
+    "editor",
+    "typing",
+    "font",
+    "document"
+  ],
+  "categories": ["editors", "typography"]
 }

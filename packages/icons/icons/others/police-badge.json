@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"badge",
-		"police",
-		"law enforcement",
-		"security",
-		"star",
-		"shield",
-		"crown"
-	],
-	"categories": ["designs", "others"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "badge",
+    "police",
+    "law enforcement",
+    "security",
+    "star",
+    "shield",
+    "crown"
+  ],
+  "categories": ["designs", "others"]
 }

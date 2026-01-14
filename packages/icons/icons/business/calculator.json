@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"calculator",
-		"finance",
-		"business",
-		"tool",
-		"numeric",
-		"keypad",
-		"math",
-		"office"
-	],
-	"categories": ["business", "tools"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "calculator",
+    "finance",
+    "business",
+    "tool",
+    "numeric",
+    "keypad",
+    "math",
+    "office"
+  ],
+  "categories": ["business", "tools"]
 }

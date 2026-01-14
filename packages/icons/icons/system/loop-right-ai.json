@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"loop",
-		"right",
-		"arrow",
-		"circular",
-		"navigation",
-		"repeat",
-		"refresh",
-		"redo"
-	],
-	"categories": ["arrows", "navigation"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "loop",
+    "right",
+    "arrow",
+    "circular",
+    "navigation",
+    "repeat",
+    "refresh",
+    "redo"
+  ],
+  "categories": ["arrows", "navigation"]
 }

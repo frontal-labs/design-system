@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"earth",
-		"globe",
-		"world",
-		"map",
-		"planet",
-		"geography",
-		"navigation"
-	],
-	"categories": ["maps", "navigation"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "earth",
+    "globe",
+    "world",
+    "map",
+    "planet",
+    "geography",
+    "navigation"
+  ],
+  "categories": ["maps", "navigation"]
 }

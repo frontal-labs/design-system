@@ -1,16 +1,16 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"dual sim",
-		"sim card",
-		"mobile device",
-		"communication",
-		"technology",
-		"phone",
-		"network",
-		"hardware",
-		"card",
-		"telecom"
-	],
-	"categories": ["devices", "communication"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "dual sim",
+    "sim card",
+    "mobile device",
+    "communication",
+    "technology",
+    "phone",
+    "network",
+    "hardware",
+    "card",
+    "telecom"
+  ],
+  "categories": ["devices", "communication"]
 }

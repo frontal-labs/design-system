@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"sim",
-		"card",
-		"device",
-		"mobile",
-		"technology",
-		"phone",
-		"electronics"
-	],
-	"categories": ["devices", "technology"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "sim",
+    "card",
+    "device",
+    "mobile",
+    "technology",
+    "phone",
+    "electronics"
+  ],
+  "categories": ["devices", "technology"]
 }

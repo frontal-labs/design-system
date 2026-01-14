@@ -1,16 +1,16 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"rocket",
-		"space",
-		"launch",
-		"vehicle",
-		"transport",
-		"navigation",
-		"science",
-		"flight",
-		"propulsion",
-		"travel"
-	],
-	"categories": ["transport", "vehicles"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "rocket",
+    "space",
+    "launch",
+    "vehicle",
+    "transport",
+    "navigation",
+    "science",
+    "flight",
+    "propulsion",
+    "travel"
+  ],
+  "categories": ["transport", "vehicles"]
 }

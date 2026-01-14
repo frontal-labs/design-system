@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"percent",
-		"ratio",
-		"percentage",
-		"finance",
-		"arithmetic",
-		"symbol",
-		"division",
-		"currency"
-	],
-	"categories": ["symbols", "finance"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "percent",
+    "ratio",
+    "percentage",
+    "finance",
+    "arithmetic",
+    "symbol",
+    "division",
+    "currency"
+  ],
+  "categories": ["symbols", "finance"]
 }

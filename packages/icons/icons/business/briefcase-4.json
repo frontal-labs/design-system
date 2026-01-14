@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"briefcase",
-		"business",
-		"bag",
-		"office",
-		"container",
-		"travel",
-		"file"
-	],
-	"categories": ["business", "office"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "briefcase",
+    "business",
+    "bag",
+    "office",
+    "container",
+    "travel",
+    "file"
+  ],
+  "categories": ["business", "office"]
 }

@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"file",
-		"copy",
-		"document",
-		"duplicate",
-		"overlay",
-		"clipboard",
-		"icon",
-		"multilayer"
-	],
-	"categories": ["documents", "copy"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "file",
+    "copy",
+    "document",
+    "duplicate",
+    "overlay",
+    "clipboard",
+    "icon",
+    "multilayer"
+  ],
+  "categories": ["documents", "copy"]
 }

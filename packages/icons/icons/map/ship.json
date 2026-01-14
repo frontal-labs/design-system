@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"ship",
-		"boat",
-		"vessel",
-		"maritime",
-		"navigation",
-		"map",
-		"sea",
-		"sailing"
-	],
-	"categories": ["map", "navigation"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "ship",
+    "boat",
+    "vessel",
+    "maritime",
+    "navigation",
+    "map",
+    "sea",
+    "sailing"
+  ],
+  "categories": ["map", "navigation"]
 }

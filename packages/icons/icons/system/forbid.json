@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"forbidden",
-		"no",
-		"prohibition",
-		"circle",
-		"slash",
-		"stop",
-		"exclusion"
-	],
-	"categories": ["system", "design"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "forbidden",
+    "no",
+    "prohibition",
+    "circle",
+    "slash",
+    "stop",
+    "exclusion"
+  ],
+  "categories": ["system", "design"]
 }

@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"weight",
-		"scale",
-		"balance",
-		"measurement",
-		"fitness",
-		"health",
-		"bodyweight"
-	],
-	"categories": ["others"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "weight",
+    "scale",
+    "balance",
+    "measurement",
+    "fitness",
+    "health",
+    "bodyweight"
+  ],
+  "categories": ["others"]
 }

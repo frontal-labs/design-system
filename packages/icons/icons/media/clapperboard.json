@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"clapperboard",
-		"film",
-		"movie",
-		"video",
-		"camera",
-		"production",
-		"editing",
-		"media"
-	],
-	"categories": ["media", "film"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "clapperboard",
+    "film",
+    "movie",
+    "video",
+    "camera",
+    "production",
+    "editing",
+    "media"
+  ],
+  "categories": ["media", "film"]
 }

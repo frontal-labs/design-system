@@ -1,16 +1,16 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"logo",
-		"anthropic",
-		"claude",
-		"ai",
-		"artificial-intelligence",
-		"technology",
-		"brand",
-		"letter-c",
-		"stylized",
-		"circle"
-	],
-	"categories": ["logos", "brands"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "logo",
+    "anthropic",
+    "claude",
+    "ai",
+    "artificial-intelligence",
+    "technology",
+    "brand",
+    "letter-c",
+    "stylized",
+    "circle"
+  ],
+  "categories": ["logos", "brands"]
 }

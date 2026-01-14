@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"landscape",
-		"mountain",
-		"nature",
-		"outdoors",
-		"scenery",
-		"tree",
-		"sun",
-		"environment",
-		"forest"
-	],
-	"categories": ["media", "nature"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "landscape",
+    "mountain",
+    "nature",
+    "outdoors",
+    "scenery",
+    "tree",
+    "sun",
+    "environment",
+    "forest"
+  ],
+  "categories": ["media", "nature"]
 }

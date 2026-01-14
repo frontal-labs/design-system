@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"credit card",
-		"no",
-		"crossed",
-		"prohibit",
-		"finance",
-		"payment",
-		"block",
-		"card"
-	],
-	"categories": ["finance", "symbols"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "credit card",
+    "no",
+    "crossed",
+    "prohibit",
+    "finance",
+    "payment",
+    "block",
+    "card"
+  ],
+  "categories": ["finance", "symbols"]
 }

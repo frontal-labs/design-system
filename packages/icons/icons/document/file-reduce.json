@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"file",
-		"reduce",
-		"collapse",
-		"document",
-		"edit",
-		"minimize",
-		"action"
-	],
-	"categories": ["documents", "actions"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "file",
+    "reduce",
+    "collapse",
+    "document",
+    "edit",
+    "minimize",
+    "action"
+  ],
+  "categories": ["documents", "actions"]
 }

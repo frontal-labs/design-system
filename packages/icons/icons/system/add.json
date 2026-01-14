@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"add",
-		"plus",
-		"create",
-		"insert",
-		"new",
-		"positive",
-		"math",
-		"operation",
-		"symbol"
-	],
-	"categories": ["actions", "operations"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "add",
+    "plus",
+    "create",
+    "insert",
+    "new",
+    "positive",
+    "math",
+    "operation",
+    "symbol"
+  ],
+  "categories": ["actions", "operations"]
 }

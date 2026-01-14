@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"heading",
-		"h4",
-		"text",
-		"editor",
-		"markdown",
-		"formatting",
-		"document"
-	],
-	"categories": ["editor", "typography"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "heading",
+    "h4",
+    "text",
+    "editor",
+    "markdown",
+    "formatting",
+    "document"
+  ],
+  "categories": ["editor", "typography"]
 }

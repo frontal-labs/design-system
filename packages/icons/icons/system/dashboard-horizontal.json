@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"dashboard",
-		"horizontal",
-		"system",
-		"panel",
-		"layout",
-		"monitor",
-		"interface"
-	],
-	"categories": ["systems", "dashboards"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "dashboard",
+    "horizontal",
+    "system",
+    "panel",
+    "layout",
+    "monitor",
+    "interface"
+  ],
+  "categories": ["systems", "dashboards"]
 }

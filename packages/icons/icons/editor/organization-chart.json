@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"organization",
-		"chart",
-		"hierarchy",
-		"structure",
-		"business",
-		"management",
-		"group",
-		"diagram"
-	],
-	"categories": ["design", "business"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "organization",
+    "chart",
+    "hierarchy",
+    "structure",
+    "business",
+    "management",
+    "group",
+    "diagram"
+  ],
+  "categories": ["design", "business"]
 }

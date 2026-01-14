@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"barcode",
-		"scanner",
-		"product",
-		"code",
-		"inventory",
-		"e-commerce",
-		"retail"
-	],
-	"categories": ["devices", "barcodes"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "barcode",
+    "scanner",
+    "product",
+    "code",
+    "inventory",
+    "e-commerce",
+    "retail"
+  ],
+  "categories": ["devices", "barcodes"]
 }

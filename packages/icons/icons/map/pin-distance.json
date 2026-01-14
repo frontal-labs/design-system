@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"pin",
-		"distance",
-		"map",
-		"location",
-		"navigation",
-		"measurement",
-		"two-pins",
-		"range"
-	],
-	"categories": ["maps", "navigation"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "pin",
+    "distance",
+    "map",
+    "location",
+    "navigation",
+    "measurement",
+    "two-pins",
+    "range"
+  ],
+  "categories": ["maps", "navigation"]
 }

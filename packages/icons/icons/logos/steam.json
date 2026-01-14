@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"steam",
-		"gaming",
-		"logo",
-		"video games",
-		"digital distribution",
-		"platform",
-		"social"
-	],
-	"categories": ["logos", "gaming"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "steam",
+    "gaming",
+    "logo",
+    "video games",
+    "digital distribution",
+    "platform",
+    "social"
+  ],
+  "categories": ["logos", "gaming"]
 }

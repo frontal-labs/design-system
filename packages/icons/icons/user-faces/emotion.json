@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"emotion",
-		"face",
-		"smiley",
-		"neutral",
-		"expression",
-		"eyes",
-		"mouth",
-		"simple"
-	],
-	"categories": ["faces", "emotions"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "emotion",
+    "face",
+    "smiley",
+    "neutral",
+    "expression",
+    "eyes",
+    "mouth",
+    "simple"
+  ],
+  "categories": ["faces", "emotions"]
 }

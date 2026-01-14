@@ -1,16 +1,16 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"pencil",
-		"ruler",
-		"drafting",
-		"measurement",
-		"drawing",
-		"edit",
-		"tool",
-		"sketch",
-		"geometry",
-		"design"
-	],
-	"categories": ["design", "tools"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "pencil",
+    "ruler",
+    "drafting",
+    "measurement",
+    "drawing",
+    "edit",
+    "tool",
+    "sketch",
+    "geometry",
+    "design"
+  ],
+  "categories": ["design", "tools"]
 }

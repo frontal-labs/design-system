@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"folder",
-		"keyhole",
-		"lock",
-		"security",
-		"document",
-		"file",
-		"access",
-		"protected"
-	],
-	"categories": ["folders", "security"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "folder",
+    "keyhole",
+    "lock",
+    "security",
+    "document",
+    "file",
+    "access",
+    "protected"
+  ],
+  "categories": ["folders", "security"]
 }

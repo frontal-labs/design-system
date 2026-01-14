@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"shower",
-		"rain",
-		"weather",
-		"storm",
-		"water",
-		"cloud",
-		"weather icon"
-	],
-	"categories": ["weather", "icons"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "shower",
+    "rain",
+    "weather",
+    "storm",
+    "water",
+    "cloud",
+    "weather icon"
+  ],
+  "categories": ["weather", "icons"]
 }

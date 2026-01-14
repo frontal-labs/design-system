@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"carousel",
-		"view",
-		"columns",
-		"layout",
-		"editor",
-		"list",
-		"rectangles",
-		"dashboard"
-	],
-	"categories": ["editor", "layout"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "carousel",
+    "view",
+    "columns",
+    "layout",
+    "editor",
+    "list",
+    "rectangles",
+    "dashboard"
+  ],
+  "categories": ["editor", "layout"]
 }

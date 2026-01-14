@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"single-quote",
-		"quote",
-		"punctuation",
-		"text",
-		"editor",
-		"symbol",
-		"typing",
-		"character"
-	],
-	"categories": ["editors", "symbols"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "single-quote",
+    "quote",
+    "punctuation",
+    "text",
+    "editor",
+    "symbol",
+    "typing",
+    "character"
+  ],
+  "categories": ["editors", "symbols"]
 }

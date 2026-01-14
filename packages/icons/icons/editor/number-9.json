@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"number",
-		"9",
-		"digit",
-		"numeric",
-		"text",
-		"calculator",
-		"editor",
-		"math",
-		"input"
-	],
-	"categories": ["numbers", "editor"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "number",
+    "9",
+    "digit",
+    "numeric",
+    "text",
+    "calculator",
+    "editor",
+    "math",
+    "input"
+  ],
+  "categories": ["numbers", "editor"]
 }

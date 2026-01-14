@@ -1,5 +1,5 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": ["pdf", "file", "document", "red", "paper", "text", "illustration"],
-	"categories": ["documents", "file-illustrations"]
+  "$schema": "../../icon.schema.json",
+  "tags": ["pdf", "file", "document", "red", "paper", "text", "illustration"],
+  "categories": ["documents", "file-illustrations"]
 }

@@ -1,5 +1,5 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": ["folder", "add", "plus", "document", "new", "create"],
-	"categories": ["folders", "documents"]
+  "$schema": "../../icon.schema.json",
+  "tags": ["folder", "add", "plus", "document", "new", "create"],
+  "categories": ["folders", "documents"]
 }

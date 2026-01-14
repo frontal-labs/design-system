@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"artboard",
-		"grid",
-		"square",
-		"design",
-		"layout",
-		"frame",
-		"canvas",
-		"border"
-	],
-	"categories": ["design", "layout"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "artboard",
+    "grid",
+    "square",
+    "design",
+    "layout",
+    "frame",
+    "canvas",
+    "border"
+  ],
+  "categories": ["design", "layout"]
 }

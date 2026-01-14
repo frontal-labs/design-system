@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"equal",
-		"math",
-		"comparison",
-		"horizontal",
-		"lines",
-		"balance",
-		"symbol"
-	],
-	"categories": ["system", "math"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "equal",
+    "math",
+    "comparison",
+    "horizontal",
+    "lines",
+    "balance",
+    "symbol"
+  ],
+  "categories": ["system", "math"]
 }

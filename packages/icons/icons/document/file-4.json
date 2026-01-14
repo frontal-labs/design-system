@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"file",
-		"document",
-		"paper",
-		"folder",
-		"document icon",
-		"file icon",
-		"document shape",
-		"paper icon"
-	],
-	"categories": ["documents", "files"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "file",
+    "document",
+    "paper",
+    "folder",
+    "document icon",
+    "file icon",
+    "document shape",
+    "paper icon"
+  ],
+  "categories": ["documents", "files"]
 }

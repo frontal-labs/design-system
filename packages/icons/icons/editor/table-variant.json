@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"table",
-		"grid",
-		"spreadsheet",
-		"rows",
-		"columns",
-		"layout",
-		"data",
-		"ui",
-		"document"
-	],
-	"categories": ["tables", "editors"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "table",
+    "grid",
+    "spreadsheet",
+    "rows",
+    "columns",
+    "layout",
+    "data",
+    "ui",
+    "document"
+  ],
+  "categories": ["tables", "editors"]
 }

@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"folder",
-		"upload",
-		"arrow-up",
-		"document",
-		"file",
-		"cloud",
-		"transfer",
-		"send"
-	],
-	"categories": ["documents", "arrows"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "folder",
+    "upload",
+    "arrow-up",
+    "document",
+    "file",
+    "cloud",
+    "transfer",
+    "send"
+  ],
+  "categories": ["documents", "arrows"]
 }

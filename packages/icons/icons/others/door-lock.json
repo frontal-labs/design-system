@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"door",
-		"lock",
-		"security",
-		"access",
-		"home",
-		"entry",
-		"closed",
-		"key"
-	],
-	"categories": ["objects", "security"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "door",
+    "lock",
+    "security",
+    "access",
+    "home",
+    "entry",
+    "closed",
+    "key"
+  ],
+  "categories": ["objects", "security"]
 }

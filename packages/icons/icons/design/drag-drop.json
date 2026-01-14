@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"drag",
-		"drop",
-		"handle",
-		"grid",
-		"layout",
-		"interface",
-		"ui",
-		"file",
-		"folder"
-	],
-	"categories": ["design", "ui"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "drag",
+    "drop",
+    "handle",
+    "grid",
+    "layout",
+    "interface",
+    "ui",
+    "file",
+    "folder"
+  ],
+  "categories": ["design", "ui"]
 }

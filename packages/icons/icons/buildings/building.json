@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"building",
-		"structure",
-		"office",
-		"windows",
-		"architecture",
-		"urban",
-		"city"
-	],
-	"categories": ["buildings", "architecture"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "building",
+    "structure",
+    "office",
+    "windows",
+    "architecture",
+    "urban",
+    "city"
+  ],
+  "categories": ["buildings", "architecture"]
 }

@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"chat",
-		"smile",
-		"speech-bubble",
-		"conversation",
-		"face",
-		"emoji",
-		"ai"
-	],
-	"categories": ["communications", "emoticons"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "chat",
+    "smile",
+    "speech-bubble",
+    "conversation",
+    "face",
+    "emoji",
+    "ai"
+  ],
+  "categories": ["communications", "emoticons"]
 }

@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"rfid",
-		"wireless",
-		"signal",
-		"frequency",
-		"identification",
-		"chip",
-		"circuit",
-		"electronic"
-	],
-	"categories": ["devices", "electronics"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "rfid",
+    "wireless",
+    "signal",
+    "frequency",
+    "identification",
+    "chip",
+    "circuit",
+    "electronic"
+  ],
+  "categories": ["devices", "electronics"]
 }

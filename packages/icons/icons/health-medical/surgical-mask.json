@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"mask",
-		"surgical mask",
-		"health",
-		"medical",
-		"protective equipment",
-		"face covering",
-		"COVID-19"
-	],
-	"categories": ["medical", "equipment"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "mask",
+    "surgical mask",
+    "health",
+    "medical",
+    "protective equipment",
+    "face covering",
+    "COVID-19"
+  ],
+  "categories": ["medical", "equipment"]
 }

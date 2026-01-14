@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"exchange",
-		"currency",
-		"arrows",
-		"loop",
-		"swap",
-		"finance",
-		"circular",
-		"double-arrow"
-	],
-	"categories": ["arrows", "finance"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "exchange",
+    "currency",
+    "arrows",
+    "loop",
+    "swap",
+    "finance",
+    "circular",
+    "double-arrow"
+  ],
+  "categories": ["arrows", "finance"]
 }

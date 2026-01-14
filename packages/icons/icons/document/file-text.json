@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"file",
-		"document",
-		"text",
-		"page",
-		"document icon",
-		"file icon",
-		"document with lines"
-	],
-	"categories": ["documents", "files"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "file",
+    "document",
+    "text",
+    "page",
+    "document icon",
+    "file icon",
+    "document with lines"
+  ],
+  "categories": ["documents", "files"]
 }

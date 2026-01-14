@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"user",
-		"person",
-		"search",
-		"magnifying-glass",
-		"find",
-		"profile",
-		"avatar",
-		"inspection"
-	],
-	"categories": ["users", "search"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "user",
+    "person",
+    "search",
+    "magnifying-glass",
+    "find",
+    "profile",
+    "avatar",
+    "inspection"
+  ],
+  "categories": ["users", "search"]
 }

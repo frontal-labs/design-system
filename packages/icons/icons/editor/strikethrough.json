@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"text",
-		"strikethrough",
-		"editor",
-		"formatting",
-		"typography",
-		"delete",
-		"crossed-out",
-		"font"
-	],
-	"categories": ["editor", "typography"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "text",
+    "strikethrough",
+    "editor",
+    "formatting",
+    "typography",
+    "delete",
+    "crossed-out",
+    "font"
+  ],
+  "categories": ["editor", "typography"]
 }

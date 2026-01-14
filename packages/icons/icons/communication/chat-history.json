@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"chat",
-		"history",
-		"bubble",
-		"message",
-		"conversation",
-		"timeline",
-		"document",
-		"archive"
-	],
-	"categories": ["communications", "designs"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "chat",
+    "history",
+    "bubble",
+    "message",
+    "conversation",
+    "timeline",
+    "document",
+    "archive"
+  ],
+  "categories": ["communications", "designs"]
 }

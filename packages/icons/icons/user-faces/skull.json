@@ -1,5 +1,5 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": ["skull", "face", "death", "horror", "macabre", "symbol", "monster"],
-	"categories": ["faces", "symbols"]
+  "$schema": "../../icon.schema.json",
+  "tags": ["skull", "face", "death", "horror", "macabre", "symbol", "monster"],
+  "categories": ["faces", "symbols"]
 }

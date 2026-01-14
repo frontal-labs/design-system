@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"logo",
-		"pix",
-		"payment",
-		"square",
-		"diamond",
-		"stylized",
-		"currency",
-		"financial"
-	],
-	"categories": ["logos", "payments"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "logo",
+    "pix",
+    "payment",
+    "square",
+    "diamond",
+    "stylized",
+    "currency",
+    "financial"
+  ],
+  "categories": ["logos", "payments"]
 }

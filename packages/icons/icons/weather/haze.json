@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"haze",
-		"fog",
-		"weather",
-		"cloud",
-		"overcast",
-		"smog",
-		"sky",
-		"meteorology"
-	],
-	"categories": ["weather"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "haze",
+    "fog",
+    "weather",
+    "cloud",
+    "overcast",
+    "smog",
+    "sky",
+    "meteorology"
+  ],
+  "categories": ["weather"]
 }

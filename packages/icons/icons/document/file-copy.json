@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"copy",
-		"file",
-		"document",
-		"duplicate",
-		"stacked",
-		"paper",
-		"duplicate file"
-	],
-	"categories": ["documents", "files"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "copy",
+    "file",
+    "document",
+    "duplicate",
+    "stacked",
+    "paper",
+    "duplicate file"
+  ],
+  "categories": ["documents", "files"]
 }

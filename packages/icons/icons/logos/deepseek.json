@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"logo",
-		"deepseek",
-		"technology",
-		"abstract",
-		"symbol",
-		"company",
-		"modern",
-		"brand"
-	],
-	"categories": ["logos", "branding"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "logo",
+    "deepseek",
+    "technology",
+    "abstract",
+    "symbol",
+    "company",
+    "modern",
+    "brand"
+  ],
+  "categories": ["logos", "branding"]
 }

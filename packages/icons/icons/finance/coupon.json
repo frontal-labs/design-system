@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"coupon",
-		"voucher",
-		"discount",
-		"finance",
-		"money",
-		"price",
-		"savings",
-		"receipt"
-	],
-	"categories": ["finance", "business"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "coupon",
+    "voucher",
+    "discount",
+    "finance",
+    "money",
+    "price",
+    "savings",
+    "receipt"
+  ],
+  "categories": ["finance", "business"]
 }

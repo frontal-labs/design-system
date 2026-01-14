@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"scissors",
-		"cut",
-		"editing",
-		"paper",
-		"tool",
-		"pair",
-		"design",
-		"utility"
-	],
-	"categories": ["design", "tools"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "scissors",
+    "cut",
+    "editing",
+    "paper",
+    "tool",
+    "pair",
+    "design",
+    "utility"
+  ],
+  "categories": ["design", "tools"]
 }

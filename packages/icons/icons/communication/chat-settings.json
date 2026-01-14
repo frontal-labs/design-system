@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"chat",
-		"settings",
-		"gear",
-		"speech bubble",
-		"communication",
-		"configuration",
-		"gear icon",
-		"chat bubble"
-	],
-	"categories": ["communication", "settings"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "chat",
+    "settings",
+    "gear",
+    "speech bubble",
+    "communication",
+    "configuration",
+    "gear icon",
+    "chat bubble"
+  ],
+  "categories": ["communication", "settings"]
 }

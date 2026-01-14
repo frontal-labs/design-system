@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"stop",
-		"circle",
-		"media",
-		"control",
-		"button",
-		"pause",
-		"media control"
-	],
-	"categories": ["media", "controls"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "stop",
+    "circle",
+    "media",
+    "control",
+    "button",
+    "pause",
+    "media control"
+  ],
+  "categories": ["media", "controls"]
 }

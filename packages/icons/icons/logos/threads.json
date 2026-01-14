@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"threads",
-		"logo",
-		"social media",
-		"messaging",
-		"app",
-		"communication",
-		"network",
-		"brand"
-	],
-	"categories": ["logos", "social media"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "threads",
+    "logo",
+    "social media",
+    "messaging",
+    "app",
+    "communication",
+    "network",
+    "brand"
+  ],
+  "categories": ["logos", "social media"]
 }

@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"fingerprint",
-		"biometrics",
-		"security",
-		"authentication",
-		"device",
-		"hardware",
-		"privacy",
-		"scan",
-		"touch"
-	],
-	"categories": ["devices", "security"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "fingerprint",
+    "biometrics",
+    "security",
+    "authentication",
+    "device",
+    "hardware",
+    "privacy",
+    "scan",
+    "touch"
+  ],
+  "categories": ["devices", "security"]
 }

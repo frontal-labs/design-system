@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"eraser",
-		"tool",
-		"delete",
-		"design",
-		"drawing",
-		"office",
-		"editing",
-		"remove"
-	],
-	"categories": ["designs", "tools"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "eraser",
+    "tool",
+    "delete",
+    "design",
+    "drawing",
+    "office",
+    "editing",
+    "remove"
+  ],
+  "categories": ["designs", "tools"]
 }

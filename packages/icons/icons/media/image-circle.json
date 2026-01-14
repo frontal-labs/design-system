@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"image",
-		"circle",
-		"photo",
-		"media",
-		"picture",
-		"visual",
-		"icon",
-		"camera"
-	],
-	"categories": ["media", "icons"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "image",
+    "circle",
+    "photo",
+    "media",
+    "picture",
+    "visual",
+    "icon",
+    "camera"
+  ],
+  "categories": ["media", "icons"]
 }

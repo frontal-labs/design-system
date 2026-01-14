@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"speaker",
-		"audio",
-		"volume",
-		"sound waves",
-		"media",
-		"communication",
-		"notification"
-	],
-	"categories": ["media", "communication"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "speaker",
+    "audio",
+    "volume",
+    "sound waves",
+    "media",
+    "communication",
+    "notification"
+  ],
+  "categories": ["media", "communication"]
 }

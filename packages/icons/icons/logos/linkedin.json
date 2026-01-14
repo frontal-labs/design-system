@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"linkedin",
-		"logo",
-		"social media",
-		"networking",
-		"professional",
-		"brand",
-		"company",
-		"icon"
-	],
-	"categories": ["logos", "social media"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "linkedin",
+    "logo",
+    "social media",
+    "networking",
+    "professional",
+    "brand",
+    "company",
+    "icon"
+  ],
+  "categories": ["logos", "social media"]
 }

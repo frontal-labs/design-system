@@ -1,5 +1,5 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": ["footprint", "step", "tracking", "location", "map", "path", "shoe"],
-	"categories": ["map", "navigation"]
+  "$schema": "../../icon.schema.json",
+  "tags": ["footprint", "step", "tracking", "location", "map", "path", "shoe"],
+  "categories": ["map", "navigation"]
 }

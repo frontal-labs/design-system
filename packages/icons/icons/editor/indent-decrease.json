@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"indent",
-		"decrease",
-		"left arrow",
-		"text",
-		"formatting",
-		"editor",
-		"list",
-		"document"
-	],
-	"categories": ["arrows", "editor"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "indent",
+    "decrease",
+    "left arrow",
+    "text",
+    "formatting",
+    "editor",
+    "list",
+    "document"
+  ],
+  "categories": ["arrows", "editor"]
 }

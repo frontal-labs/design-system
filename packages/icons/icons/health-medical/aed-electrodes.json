@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"aed",
-		"electrodes",
-		"medical device",
-		"defibrillator",
-		"cardiac",
-		"electric shock",
-		"hospital",
-		"health"
-	],
-	"categories": ["devices", "medical"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "aed",
+    "electrodes",
+    "medical device",
+    "defibrillator",
+    "cardiac",
+    "electric shock",
+    "hospital",
+    "health"
+  ],
+  "categories": ["devices", "medical"]
 }

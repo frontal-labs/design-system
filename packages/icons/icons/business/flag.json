@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"flag",
-		"banner",
-		"symbol",
-		"business",
-		"document",
-		"identification",
-		"politics",
-		"country"
-	],
-	"categories": ["businesses", "symbols"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "flag",
+    "banner",
+    "symbol",
+    "business",
+    "document",
+    "identification",
+    "politics",
+    "country"
+  ],
+  "categories": ["businesses", "symbols"]
 }

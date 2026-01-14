@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"medium",
-		"blogging",
-		"writing",
-		"social media",
-		"brand",
-		"logo",
-		"M"
-	],
-	"categories": ["logos", "social-media"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "medium",
+    "blogging",
+    "writing",
+    "social media",
+    "brand",
+    "logo",
+    "M"
+  ],
+  "categories": ["logos", "social-media"]
 }

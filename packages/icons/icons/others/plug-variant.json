@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"plug",
-		"power",
-		"electrical",
-		"cord",
-		"socket",
-		"device",
-		"electronics",
-		"connect"
-	],
-	"categories": ["devices", "electronics"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "plug",
+    "power",
+    "electrical",
+    "cord",
+    "socket",
+    "device",
+    "electronics",
+    "connect"
+  ],
+  "categories": ["devices", "electronics"]
 }

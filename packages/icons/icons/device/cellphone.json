@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"cellphone",
-		"mobile",
-		"device",
-		"phone",
-		"communication",
-		"technology",
-		"handheld",
-		"screen"
-	],
-	"categories": ["devices", "technologies"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "cellphone",
+    "mobile",
+    "device",
+    "phone",
+    "communication",
+    "technology",
+    "handheld",
+    "screen"
+  ],
+  "categories": ["devices", "technologies"]
 }

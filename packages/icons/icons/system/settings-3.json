@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"gear",
-		"cog",
-		"settings",
-		"configuration",
-		"preferences",
-		"tool",
-		"control",
-		"gearwheel"
-	],
-	"categories": ["systems", "settings"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "gear",
+    "cog",
+    "settings",
+    "configuration",
+    "preferences",
+    "tool",
+    "control",
+    "gearwheel"
+  ],
+  "categories": ["systems", "settings"]
 }

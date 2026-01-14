@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"apple",
-		"fruit",
-		"logo",
-		"brand",
-		"technology",
-		"symbol",
-		"company",
-		"icon"
-	],
-	"categories": ["logos"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "apple",
+    "fruit",
+    "logo",
+    "brand",
+    "technology",
+    "symbol",
+    "company",
+    "icon"
+  ],
+  "categories": ["logos"]
 }

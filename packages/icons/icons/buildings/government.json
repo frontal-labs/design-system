@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"government",
-		"building",
-		"city",
-		"office",
-		"municipal",
-		"architecture",
-		"public",
-		"courthouse"
-	],
-	"categories": ["buildings", "government"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "government",
+    "building",
+    "city",
+    "office",
+    "municipal",
+    "architecture",
+    "public",
+    "courthouse"
+  ],
+  "categories": ["buildings", "government"]
 }

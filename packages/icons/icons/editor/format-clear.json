@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"clear",
-		"format",
-		"eraser",
-		"delete",
-		"remove",
-		"reset",
-		"text",
-		"editor"
-	],
-	"categories": ["editor", "actions"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "clear",
+    "format",
+    "eraser",
+    "delete",
+    "remove",
+    "reset",
+    "text",
+    "editor"
+  ],
+  "categories": ["editor", "actions"]
 }

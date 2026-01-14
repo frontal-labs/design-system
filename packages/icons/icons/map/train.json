@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"train",
-		"railway",
-		"transportation",
-		"vehicle",
-		"rail",
-		"locomotive",
-		"map",
-		"station"
-	],
-	"categories": ["maps", "vehicles"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "train",
+    "railway",
+    "transportation",
+    "vehicle",
+    "rail",
+    "locomotive",
+    "map",
+    "station"
+  ],
+  "categories": ["maps", "vehicles"]
 }

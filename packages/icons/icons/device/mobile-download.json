@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"mobile",
-		"phone",
-		"download",
-		"arrow-down",
-		"file",
-		"action",
-		"device"
-	],
-	"categories": ["devices", "arrows"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "mobile",
+    "phone",
+    "download",
+    "arrow-down",
+    "file",
+    "action",
+    "device"
+  ],
+  "categories": ["devices", "arrows"]
 }

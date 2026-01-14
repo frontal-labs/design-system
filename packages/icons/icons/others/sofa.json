@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"sofa",
-		"couch",
-		"furniture",
-		"seating",
-		"living room",
-		"home decor",
-		"interior",
-		"comfort"
-	],
-	"categories": ["furniture", "home"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "sofa",
+    "couch",
+    "furniture",
+    "seating",
+    "living room",
+    "home decor",
+    "interior",
+    "comfort"
+  ],
+  "categories": ["furniture", "home"]
 }

@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"nurse",
-		"medical",
-		"healthcare",
-		"person",
-		"hat",
-		"stethoscope",
-		"uniform"
-	],
-	"categories": ["health", "people"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "nurse",
+    "medical",
+    "healthcare",
+    "person",
+    "hat",
+    "stethoscope",
+    "uniform"
+  ],
+  "categories": ["health", "people"]
 }

@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"projector",
-		"presentation",
-		"screen",
-		"display",
-		"electronics",
-		"business",
-		"office",
-		"technology"
-	],
-	"categories": ["devices", "business"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "projector",
+    "presentation",
+    "screen",
+    "display",
+    "electronics",
+    "business",
+    "office",
+    "technology"
+  ],
+  "categories": ["devices", "business"]
 }

@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"flip",
-		"horizontal",
-		"arrow",
-		"double-arrow",
-		"mirror",
-		"transform",
-		"design"
-	],
-	"categories": ["design", "arrows"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "flip",
+    "horizontal",
+    "arrow",
+    "double-arrow",
+    "mirror",
+    "transform",
+    "design"
+  ],
+  "categories": ["design", "arrows"]
 }

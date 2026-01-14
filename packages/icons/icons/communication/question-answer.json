@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"question",
-		"answer",
-		"speech-bubble",
-		"chat",
-		"dialogue",
-		"communication",
-		"support",
-		"help",
-		"conversation"
-	],
-	"categories": ["communications", "dialogs"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "question",
+    "answer",
+    "speech-bubble",
+    "chat",
+    "dialogue",
+    "communication",
+    "support",
+    "help",
+    "conversation"
+  ],
+  "categories": ["communications", "dialogs"]
 }

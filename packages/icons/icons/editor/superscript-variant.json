@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"superscript",
-		"number",
-		"2",
-		"text formatting",
-		"editor",
-		"font",
-		"numeric",
-		"type"
-	],
-	"categories": ["editors", "formatting"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "superscript",
+    "number",
+    "2",
+    "text formatting",
+    "editor",
+    "font",
+    "numeric",
+    "type"
+  ],
+  "categories": ["editors", "formatting"]
 }

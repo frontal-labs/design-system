@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"sidebar",
-		"layout",
-		"panel",
-		"navigation",
-		"ui",
-		"split",
-		"window",
-		"interface"
-	],
-	"categories": ["navigation", "design"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "sidebar",
+    "layout",
+    "panel",
+    "navigation",
+    "ui",
+    "split",
+    "window",
+    "interface"
+  ],
+  "categories": ["navigation", "design"]
 }

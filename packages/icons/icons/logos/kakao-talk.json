@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"kakao",
-		"talk",
-		"messaging",
-		"chat",
-		"logo",
-		"brand",
-		"speech bubble",
-		"social media"
-	],
-	"categories": ["logos", "brands"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "kakao",
+    "talk",
+    "messaging",
+    "chat",
+    "logo",
+    "brand",
+    "speech bubble",
+    "social media"
+  ],
+  "categories": ["logos", "brands"]
 }

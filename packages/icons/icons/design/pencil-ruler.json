@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"pencil",
-		"ruler",
-		"design",
-		"drafting",
-		"measurement",
-		"tool",
-		"edit"
-	],
-	"categories": ["design", "tools"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "pencil",
+    "ruler",
+    "design",
+    "drafting",
+    "measurement",
+    "tool",
+    "edit"
+  ],
+  "categories": ["design", "tools"]
 }

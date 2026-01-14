@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"pushpin",
-		"pin",
-		"marker",
-		"map",
-		"location",
-		"navigation",
-		"point"
-	],
-	"categories": ["navigation", "map"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "pushpin",
+    "pin",
+    "marker",
+    "map",
+    "location",
+    "navigation",
+    "point"
+  ],
+  "categories": ["navigation", "map"]
 }

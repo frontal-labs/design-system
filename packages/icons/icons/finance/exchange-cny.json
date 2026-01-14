@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"exchange",
-		"currency",
-		"cny",
-		"yuan",
-		"money",
-		"swap",
-		"arrows",
-		"finance"
-	],
-	"categories": ["arrows", "finance"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "exchange",
+    "currency",
+    "cny",
+    "yuan",
+    "money",
+    "swap",
+    "arrows",
+    "finance"
+  ],
+  "categories": ["arrows", "finance"]
 }

@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"flag",
-		"triangular",
-		"business",
-		"document",
-		"emblem",
-		"symbol",
-		"shape"
-	],
-	"categories": ["business", "flags"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "flag",
+    "triangular",
+    "business",
+    "document",
+    "emblem",
+    "symbol",
+    "shape"
+  ],
+  "categories": ["business", "flags"]
 }

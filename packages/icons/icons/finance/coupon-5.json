@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"coupon",
-		"voucher",
-		"discount",
-		"price",
-		"receipt",
-		"document",
-		"finance",
-		"money",
-		"bar"
-	],
-	"categories": ["finance", "documents"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "coupon",
+    "voucher",
+    "discount",
+    "price",
+    "receipt",
+    "document",
+    "finance",
+    "money",
+    "bar"
+  ],
+  "categories": ["finance", "documents"]
 }

@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"mickey",
-		"mouse",
-		"cartoon",
-		"face",
-		"character",
-		"animal",
-		"cartoon character"
-	],
-	"categories": ["faces", "animals"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "mickey",
+    "mouse",
+    "cartoon",
+    "face",
+    "character",
+    "animal",
+    "cartoon character"
+  ],
+  "categories": ["faces", "animals"]
 }

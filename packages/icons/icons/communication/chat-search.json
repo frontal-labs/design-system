@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"chat",
-		"message",
-		"search",
-		"magnifying glass",
-		"conversation",
-		"communication",
-		"speech bubble",
-		"filter",
-		"query"
-	],
-	"categories": ["communication", "search"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "chat",
+    "message",
+    "search",
+    "magnifying glass",
+    "conversation",
+    "communication",
+    "speech bubble",
+    "filter",
+    "query"
+  ],
+  "categories": ["communication", "search"]
 }

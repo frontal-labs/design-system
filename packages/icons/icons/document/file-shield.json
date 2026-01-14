@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"file",
-		"shield",
-		"document",
-		"security",
-		"protected",
-		"lock",
-		"file‑shield"
-	],
-	"categories": ["documents", "security"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "file",
+    "shield",
+    "document",
+    "security",
+    "protected",
+    "lock",
+    "file‑shield"
+  ],
+  "categories": ["documents", "security"]
 }

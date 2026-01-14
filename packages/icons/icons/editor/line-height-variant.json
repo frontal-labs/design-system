@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"line-height",
-		"text",
-		"spacing",
-		"editor",
-		"formatting",
-		"typography",
-		"font",
-		"layout"
-	],
-	"categories": ["editors", "typography"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "line-height",
+    "text",
+    "spacing",
+    "editor",
+    "formatting",
+    "typography",
+    "font",
+    "layout"
+  ],
+  "categories": ["editors", "typography"]
 }

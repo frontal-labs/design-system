@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"ram",
-		"memory",
-		"chip",
-		"device",
-		"hardware",
-		"storage",
-		"computer",
-		"electronics"
-	],
-	"categories": ["devices", "electronics"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "ram",
+    "memory",
+    "chip",
+    "device",
+    "hardware",
+    "storage",
+    "computer",
+    "electronics"
+  ],
+  "categories": ["devices", "electronics"]
 }

@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"disqus",
-		"logo",
-		"comment",
-		"discussion",
-		"social",
-		"communication",
-		"forum",
-		"website"
-	],
-	"categories": ["logos", "communications"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "disqus",
+    "logo",
+    "comment",
+    "discussion",
+    "social",
+    "communication",
+    "forum",
+    "website"
+  ],
+  "categories": ["logos", "communications"]
 }

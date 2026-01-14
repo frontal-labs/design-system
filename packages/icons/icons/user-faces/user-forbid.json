@@ -1,16 +1,16 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"user",
-		"person",
-		"avatar",
-		"forbid",
-		"ban",
-		"no entry",
-		"prohibition",
-		"cross",
-		"lock",
-		"restricted"
-	],
-	"categories": ["users", "prohibitions"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "user",
+    "person",
+    "avatar",
+    "forbid",
+    "ban",
+    "no entry",
+    "prohibition",
+    "cross",
+    "lock",
+    "restricted"
+  ],
+  "categories": ["users", "prohibitions"]
 }

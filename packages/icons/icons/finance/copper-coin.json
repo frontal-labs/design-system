@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"coin",
-		"money",
-		"currency",
-		"finance",
-		"copper",
-		"round",
-		"metallic"
-	],
-	"categories": ["finances", "currencies"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "coin",
+    "money",
+    "currency",
+    "finance",
+    "copper",
+    "round",
+    "metallic"
+  ],
+  "categories": ["finances", "currencies"]
 }

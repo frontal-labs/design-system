@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"home",
-		"house",
-		"smile",
-		"building",
-		"happy",
-		"facial expression",
-		"roof"
-	],
-	"categories": ["buildings", "faces"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "home",
+    "house",
+    "smile",
+    "building",
+    "happy",
+    "facial expression",
+    "roof"
+  ],
+  "categories": ["buildings", "faces"]
 }

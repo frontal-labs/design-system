@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"folder",
-		"warning",
-		"exclamation",
-		"document",
-		"alert",
-		"file",
-		"notification"
-	],
-	"categories": ["folders", "alerts"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "folder",
+    "warning",
+    "exclamation",
+    "document",
+    "alert",
+    "file",
+    "notification"
+  ],
+  "categories": ["folders", "alerts"]
 }

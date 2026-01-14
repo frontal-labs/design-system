@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"coupon",
-		"discount",
-		"voucher",
-		"paper",
-		"split",
-		"finance",
-		"receipt"
-	],
-	"categories": ["finance", "design"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "coupon",
+    "discount",
+    "voucher",
+    "paper",
+    "split",
+    "finance",
+    "receipt"
+  ],
+  "categories": ["finance", "design"]
 }

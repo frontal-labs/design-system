@@ -1,5 +1,5 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": ["list", "check", "task", "todo", "bullet", "document", "selection"],
-	"categories": ["lists", "editor"]
+  "$schema": "../../icon.schema.json",
+  "tags": ["list", "check", "task", "todo", "bullet", "document", "selection"],
+  "categories": ["lists", "editor"]
 }

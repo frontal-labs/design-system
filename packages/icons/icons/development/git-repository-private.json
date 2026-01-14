@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"git",
-		"repository",
-		"private",
-		"lock",
-		"source control",
-		"folder",
-		"code",
-		"shield",
-		"version control"
-	],
-	"categories": ["software", "development"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "git",
+    "repository",
+    "private",
+    "lock",
+    "source control",
+    "folder",
+    "code",
+    "shield",
+    "version control"
+  ],
+  "categories": ["software", "development"]
 }

@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"store",
-		"shop",
-		"building",
-		"retail",
-		"commerce",
-		"storefront",
-		"window",
-		"sign"
-	],
-	"categories": ["buildings", "business"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "store",
+    "shop",
+    "building",
+    "retail",
+    "commerce",
+    "storefront",
+    "window",
+    "sign"
+  ],
+  "categories": ["buildings", "business"]
 }

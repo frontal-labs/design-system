@@ -1,16 +1,16 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"bell",
-		"notification",
-		"alert",
-		"sound",
-		"icon",
-		"notification bell",
-		"alert icon",
-		"bell shape",
-		"bell icon",
-		"notification bell icon"
-	],
-	"categories": ["notifications", "communication"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "bell",
+    "notification",
+    "alert",
+    "sound",
+    "icon",
+    "notification bell",
+    "alert icon",
+    "bell shape",
+    "bell icon",
+    "notification bell icon"
+  ],
+  "categories": ["notifications", "communication"]
 }

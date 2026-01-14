@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"bitcoin",
-		"cryptocurrency",
-		"currency",
-		"money",
-		"coin",
-		"finance",
-		"digital currency"
-	],
-	"categories": ["finance", "currency"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "bitcoin",
+    "cryptocurrency",
+    "currency",
+    "money",
+    "coin",
+    "finance",
+    "digital currency"
+  ],
+  "categories": ["finance", "currency"]
 }

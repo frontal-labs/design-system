@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"computer",
-		"monitor",
-		"device",
-		"screen",
-		"technology",
-		"desktop",
-		"stand",
-		"display"
-	],
-	"categories": ["devices", "technology"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "computer",
+    "monitor",
+    "device",
+    "screen",
+    "technology",
+    "desktop",
+    "stand",
+    "display"
+  ],
+  "categories": ["devices", "technology"]
 }

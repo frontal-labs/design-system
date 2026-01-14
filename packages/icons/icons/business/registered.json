@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"registered",
-		"circle",
-		"letter",
-		"R",
-		"badge",
-		"symbol",
-		"trademark",
-		"intellectual property"
-	],
-	"categories": ["symbols", "business"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "registered",
+    "circle",
+    "letter",
+    "R",
+    "badge",
+    "symbol",
+    "trademark",
+    "intellectual property"
+  ],
+  "categories": ["symbols", "business"]
 }

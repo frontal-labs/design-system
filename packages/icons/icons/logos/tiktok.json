@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"tiktok",
-		"social media",
-		"video",
-		"music",
-		"app",
-		"logo",
-		"brand",
-		"platform"
-	],
-	"categories": ["logos", "social media"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "tiktok",
+    "social media",
+    "video",
+    "music",
+    "app",
+    "logo",
+    "brand",
+    "platform"
+  ],
+  "categories": ["logos", "social media"]
 }

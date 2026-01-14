@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"gift",
-		"present",
-		"box",
-		"wrapped",
-		"ribbon",
-		"holiday",
-		"celebration",
-		"christmas",
-		"finance"
-	],
-	"categories": ["design", "finance"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "gift",
+    "present",
+    "box",
+    "wrapped",
+    "ribbon",
+    "holiday",
+    "celebration",
+    "christmas",
+    "finance"
+  ],
+  "categories": ["design", "finance"]
 }

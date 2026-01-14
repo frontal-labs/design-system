@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"file",
-		"add",
-		"plus",
-		"document",
-		"new",
-		"create",
-		"folder",
-		"icon"
-	],
-	"categories": ["documents", "actions"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "file",
+    "add",
+    "plus",
+    "document",
+    "new",
+    "create",
+    "folder",
+    "icon"
+  ],
+  "categories": ["documents", "actions"]
 }

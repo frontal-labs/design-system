@@ -1,12 +1,12 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"gatsby",
-		"logo",
-		"react",
-		"static-site-generator",
-		"open-source",
-		"web-development"
-	],
-	"categories": ["logos"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "gatsby",
+    "logo",
+    "react",
+    "static-site-generator",
+    "open-source",
+    "web-development"
+  ],
+  "categories": ["logos"]
 }

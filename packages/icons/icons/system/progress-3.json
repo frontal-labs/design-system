@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"progress",
-		"circle",
-		"loading",
-		"status",
-		"indicator",
-		"pie",
-		"chart"
-	],
-	"categories": ["indicators", "status"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "progress",
+    "circle",
+    "loading",
+    "status",
+    "indicator",
+    "pie",
+    "chart"
+  ],
+  "categories": ["indicators", "status"]
 }

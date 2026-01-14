@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"collage",
-		"photo",
-		"image",
-		"grid",
-		"layout",
-		"design",
-		"art",
-		"collection"
-	],
-	"categories": ["design", "media"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "collage",
+    "photo",
+    "image",
+    "grid",
+    "layout",
+    "design",
+    "art",
+    "collection"
+  ],
+  "categories": ["design", "media"]
 }

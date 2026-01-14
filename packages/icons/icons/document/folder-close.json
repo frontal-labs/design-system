@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"folder",
-		"close",
-		"document",
-		"x",
-		"cancel",
-		"file",
-		"action",
-		"folder-close"
-	],
-	"categories": ["folders", "actions"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "folder",
+    "close",
+    "document",
+    "x",
+    "cancel",
+    "file",
+    "action",
+    "folder-close"
+  ],
+  "categories": ["folders", "actions"]
 }

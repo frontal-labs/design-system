@@ -1,16 +1,16 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"clockwise",
-		"rotate",
-		"arrow",
-		"circular",
-		"refresh",
-		"redo",
-		"loop",
-		"spin",
-		"navigation",
-		"design"
-	],
-	"categories": ["arrows", "navigation"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "clockwise",
+    "rotate",
+    "arrow",
+    "circular",
+    "refresh",
+    "redo",
+    "loop",
+    "spin",
+    "navigation",
+    "design"
+  ],
+  "categories": ["arrows", "navigation"]
 }

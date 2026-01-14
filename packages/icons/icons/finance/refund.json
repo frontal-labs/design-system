@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"refund",
-		"return",
-		"arrow-left",
-		"document",
-		"box",
-		"finance",
-		"payment",
-		"reversal",
-		"transaction"
-	],
-	"categories": ["finance", "arrows"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "refund",
+    "return",
+    "arrow-left",
+    "document",
+    "box",
+    "finance",
+    "payment",
+    "reversal",
+    "transaction"
+  ],
+  "categories": ["finance", "arrows"]
 }

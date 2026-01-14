@@ -1,16 +1,16 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"fog",
-		"cloud",
-		"weather",
-		"cloudy",
-		"mist",
-		"foggy",
-		"sky",
-		"overcast",
-		"weather icon",
-		"weather conditions"
-	],
-	"categories": ["weather"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "fog",
+    "cloud",
+    "weather",
+    "cloudy",
+    "mist",
+    "foggy",
+    "sky",
+    "overcast",
+    "weather icon",
+    "weather conditions"
+  ],
+  "categories": ["weather"]
 }

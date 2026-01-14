@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"t-shirt",
-		"clothing",
-		"air",
-		"fashion",
-		"garment",
-		"style",
-		"design"
-	],
-	"categories": ["clothing", "designs"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "t-shirt",
+    "clothing",
+    "air",
+    "fashion",
+    "garment",
+    "style",
+    "design"
+  ],
+  "categories": ["clothing", "designs"]
 }

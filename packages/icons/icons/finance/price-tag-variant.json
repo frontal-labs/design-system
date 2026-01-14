@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"price",
-		"tag",
-		"finance",
-		"money",
-		"label",
-		"currency",
-		"shopping",
-		"sale"
-	],
-	"categories": ["finance"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "price",
+    "tag",
+    "finance",
+    "money",
+    "label",
+    "currency",
+    "shopping",
+    "sale"
+  ],
+  "categories": ["finance"]
 }

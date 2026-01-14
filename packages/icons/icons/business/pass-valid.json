@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"check",
-		"valid",
-		"pass",
-		"document",
-		"card",
-		"approval",
-		"success",
-		"confirmation",
-		"security"
-	],
-	"categories": ["business", "checkmarks"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "check",
+    "valid",
+    "pass",
+    "document",
+    "card",
+    "approval",
+    "success",
+    "confirmation",
+    "security"
+  ],
+  "categories": ["business", "checkmarks"]
 }

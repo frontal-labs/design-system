@@ -1,13 +1,13 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"game controller",
-		"gaming",
-		"d-pad",
-		"buttons",
-		"video game",
-		"controller",
-		"arcade"
-	],
-	"categories": ["gaming", "electronics"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "game controller",
+    "gaming",
+    "d-pad",
+    "buttons",
+    "video game",
+    "controller",
+    "arcade"
+  ],
+  "categories": ["gaming", "electronics"]
 }

@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"surround-sound",
-		"audio",
-		"speaker",
-		"sound",
-		"media",
-		"music",
-		"volume",
-		"audio-device"
-	],
-	"categories": ["media", "audio"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "surround-sound",
+    "audio",
+    "speaker",
+    "sound",
+    "media",
+    "music",
+    "volume",
+    "audio-device"
+  ],
+  "categories": ["media", "audio"]
 }

@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"mail",
-		"envelope",
-		"spam",
-		"email",
-		"message",
-		"text",
-		"document",
-		"communication"
-	],
-	"categories": ["mail", "communications"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "mail",
+    "envelope",
+    "spam",
+    "email",
+    "message",
+    "text",
+    "document",
+    "communication"
+  ],
+  "categories": ["mail", "communications"]
 }

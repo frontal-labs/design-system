@@ -1,15 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"npm",
-		"logo",
-		"square",
-		"grid",
-		"package manager",
-		"node.js",
-		"technology",
-		"web",
-		"developer tools"
-	],
-	"categories": ["logos", "software"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "npm",
+    "logo",
+    "square",
+    "grid",
+    "package manager",
+    "node.js",
+    "technology",
+    "web",
+    "developer tools"
+  ],
+  "categories": ["logos", "software"]
 }

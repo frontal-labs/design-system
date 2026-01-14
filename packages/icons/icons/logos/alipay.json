@@ -1,14 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"tags": [
-		"alipay",
-		"payment",
-		"finance",
-		"logo",
-		"brand",
-		"digital payment",
-		"mobile payment",
-		"currency"
-	],
-	"categories": ["logos", "finance"]
+  "$schema": "../../icon.schema.json",
+  "tags": [
+    "alipay",
+    "payment",
+    "finance",
+    "logo",
+    "brand",
+    "digital payment",
+    "mobile payment",
+    "currency"
+  ],
+  "categories": ["logos", "finance"]
 }
