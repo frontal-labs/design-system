@@ -1,0 +1,15 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"skipLibCheck": true,
+		"declaration": true,
+		"declarationMap": true,
+		"emitDeclarationOnly": true,
+		"noEmit": false,
+		"outDir": "dist",
+		"jsx": "react-jsx",
+		"esModuleInterop": true
+	},
+	"include": ["index.ts"],
+	"exclude": ["node_modules", "dist", "build.ts", "tests", "packages", "apps", "example", "tools"]
+}
