@@ -1,5 +1,3 @@
-import { mergeProps } from "@base-ui/react/merge-props";
-import { useRender } from "@base-ui/react/use-render";
 import { Slot } from "@radix-ui/react-slot";
 import { cva, type VariantProps } from "class-variance-authority";
 import type { ButtonHTMLAttributes } from "react";
@@ -52,7 +50,7 @@ const buttonVariants = cva(
   }
 );
 
-type ButtonProps = useRender.ComponentProps<"button"> &
+type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> &
   VariantProps<typeof buttonVariants> & {
     asChild?: boolean;
   };
@@ -62,41 +60,24 @@ function Button({
   variant,
   size,
   shape,
-  render,
   asChild,
   children,
   ...props
 }: ButtonProps) {
+  const Comp = asChild ? Slot : "button";
   const typeValue: ButtonHTMLAttributes<HTMLButtonElement>["type"] =
-    render || asChild ? undefined : "button";
+    asChild ? undefined : "button";
 
-  const defaultProps = {
-    className: cn(buttonVariants({ className, size, variant, shape })),
-    "data-slot": "button",
-    type: typeValue,
-  };
-
-  // Support render pattern (Base UI style) - must be called unconditionally
-  const renderResult = useRender({
-    defaultTagName: "button",
-    props: mergeProps<"button">(defaultProps, props),
-    render,
-  });
-
-  // Support asChild pattern (Radix UI style)
-  if (asChild && children) {
-    return (
-      <Slot
-        className={cn(buttonVariants({ className, size, variant, shape }))}
-        data-slot="button"
-        {...props}
-      >
-        {children}
-      </Slot>
-    );
-  }
-
-  return renderResult;
+  return (
+    <Comp
+      className={cn(buttonVariants({ className, size, variant, shape }))}
+      data-slot="button"
+      type={typeValue}
+      {...props}
+    >
+      {children}
+    </Comp>
+  );
 }
 
 export { Button, buttonVariants, type ButtonProps };

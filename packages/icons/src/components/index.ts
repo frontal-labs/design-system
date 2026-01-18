@@ -1,4 +1,4 @@
-// @frontal-ds/icons - Components index
+// @frontal-labs/icons - Components index
 // Auto-generated file - do not edit manually
 
 // biome-ignore lint/performance/noBarrelFile: Auto-generated barrel file for icon exports

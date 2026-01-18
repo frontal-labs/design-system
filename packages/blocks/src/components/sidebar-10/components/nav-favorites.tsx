@@ -6,7 +6,7 @@ import {
   LinkIcon,
   MoreIcon,
   StarOffIcon,
-} from "@frontal-ds/icons";
+} from "@frontal-labs/icons";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -20,7 +20,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 
 export function NavFavorites({
   favorites,

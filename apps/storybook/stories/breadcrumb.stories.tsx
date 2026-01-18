@@ -1,3 +1,4 @@
+import { Button } from "@frontal-labs/design-system";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -5,7 +6,7 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@frontal/design-system";
+} from "@frontal-labs/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 import { ArrowRightSquare } from "lucide-react";
 

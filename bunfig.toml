@@ -13,7 +13,7 @@ lockfile = true
 
 [install.scopes]
 # Scope-specific configurations
-"@frontal" = { token = "" }
+"@frontal-labs" = { token = "" }
 
 [test]
 # Test configuration

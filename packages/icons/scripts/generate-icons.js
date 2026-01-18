@@ -281,7 +281,7 @@ export default ${componentName};
 
 // Generate index.ts that re-exports all icons
 const indexPath = path.resolve(process.cwd(), "src", "index.ts");
-const indexContent = `// @frontal-ds/icons
+const indexContent = `// @frontal-labs/icons
 // Icon library for the Frontal design system
 
 // Export utilities, helpers, and types
@@ -303,7 +303,7 @@ const componentsIndexPath = path.resolve(
   "components",
   "index.ts"
 );
-const componentsIndexContent = `// @frontal-ds/icons - Components index
+const componentsIndexContent = `// @frontal-labs/icons - Components index
 // Auto-generated file - do not edit manually
 
 ${componentExports.join("\n")}

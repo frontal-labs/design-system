@@ -1,6 +1,6 @@
 "use client";
 
-import { AddIcon, ArrowDownChevronIcon } from "@frontal-ds/icons";
+import { AddIcon, ArrowDownChevronIcon } from "@frontal-labs/icons";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -12,7 +12,7 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import * as React from "react";
 
 export function TeamSwitcher({

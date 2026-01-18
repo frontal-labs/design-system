@@ -15,9 +15,9 @@
     "incremental": false,
     "paths": {
       "@/*": ["./src/*"],
-      "@frontal-ds/charts/*": ["./src/*"],
-      "@frontal-ds/icons": ["../icons/src/index.ts"],
-      "@frontal-ds/ui": ["../ui/src/index.ts"]
+      "@frontal-labs/charts/*": ["./src/*"],
+      "@frontal-labs/icons": ["../icons/src/index.ts"],
+      "@frontal-labs/ui": ["../ui/src/index.ts"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],

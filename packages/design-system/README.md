@@ -17,21 +17,21 @@ import { Button, Card, colors, icons } from "@frontal/design-system";
 Or import directly from individual packages if you prefer:
 
 ```tsx
-import { Button } from "@frontal-ds/ui";
-import { colors } from "@frontal-ds/colors";
-import { Icon } from "@frontal-ds/icons";
+import { Button } from "@frontal-labs/ui";
+import { colors } from "@frontal-labs/colors";
+import { Icon } from "@frontal-labs/icons";
 ```
 
 ## Exports
 
 This package re-exports all exports from:
 
-- `@frontal-ds/blocks` - UI blocks and components
-- `@frontal-ds/charts` - Chart and visualization components
-- `@frontal-ds/colors` - Color system and utilities
-- `@frontal-ds/icons` - Icon library
-- `@frontal-ds/typeface` - Typeface and fonts
-- `@frontal-ds/ui` - UI component library
+- `@frontal-labs/blocks` - UI blocks and components
+- `@frontal-labs/charts` - Chart and visualization components
+- `@frontal-labs/colors` - Color system and utilities
+- `@frontal-labs/icons` - Icon library
+- `@frontal-labs/typeface` - Typeface and fonts
+- `@frontal-labs/ui` - UI component library
 
 ## Styles
 

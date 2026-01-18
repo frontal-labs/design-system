@@ -43,7 +43,7 @@ bun --version
 
 ### Workspace Resolution Issues
 
-**Error**: `Cannot find module '@frontal-ds/ui'`
+**Error**: `Cannot find module '@frontal-labs/ui'`
 
 **Solutions**:
 

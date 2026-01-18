@@ -60,7 +60,7 @@ import {
   TabsList,
   TabsTrigger,
   useIsMobile,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import {
   IconChevronDown,
   IconChevronLeft,

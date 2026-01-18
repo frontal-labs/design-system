@@ -1,6 +1,6 @@
 {
   "name": "storybook",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "packageManager": "bun@1.3.3",
   "engines": {
@@ -19,7 +19,7 @@
     "spell:fix": "bunx cspell lint \"**/*.{ts,tsx,js,json,md}\" --fix"
   },
   "dependencies": {
-    "@frontal-ds/design-system": "workspace:*",
+    "@frontal-labs/design-system": "workspace:*",
     "@hookform/resolvers": "^5.2.2",
     "cmdk": "^1.1.1",
     "date-fns": "^4.1.0",
@@ -51,7 +51,7 @@
     "chromatic": "^13.3.4",
     "postcss": "^8.5.6",
     "puppeteer": "^24.26.1",
-    "storybook": "^10.1.4",
+    "storybook": "^0.1.2",
     "tailwindcss": "^4.1.14",
     "typescript": "^5.9.3",
     "webpack": "^5.104.1"

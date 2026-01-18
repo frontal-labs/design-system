@@ -1,6 +1,6 @@
-import { SearchForm } from "@frontal-ds/blocks/sidebar-02/components/search-form";
-import { VersionSwitcher } from "@frontal-ds/blocks/sidebar-02/components/version-switcher";
-import { ArrowRightChevronIcon } from "@frontal-ds/icons";
+import { SearchForm } from "@frontal-labs/blocks/sidebar-02/components/search-form";
+import { VersionSwitcher } from "@frontal-labs/blocks/sidebar-02/components/version-switcher";
+import { ArrowRightChevronIcon } from "@frontal-labs/icons";
 import {
   Collapsible,
   CollapsibleContent,
@@ -15,7 +15,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   SidebarRail,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import type * as React from "react";
 
 // This is sample data.

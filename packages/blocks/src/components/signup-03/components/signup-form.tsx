@@ -11,7 +11,7 @@ import {
   FieldLabel,
   Fieldset,
   Input,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 
 export function SignupForm({
   className,

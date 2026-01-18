@@ -12,14 +12,14 @@ const withNextMDX = createNextMDX({
 
 const nextConfig: NextConfig = {
 	transpilePackages: [
-		"@frontal/design-system",
-		"@frontal-ds/ui",
-		"@frontal-ds/icons",
-		"@frontal-ds/colors",
+		"@frontal-labs/design-system",
+		"@frontal-labs/ui",
+		"@frontal-labs/icons",
+		"@frontal-labs/colors",
 	],
 	pageExtensions: ["ts", "tsx", "md", "mdx"],
 	experimental: {
-		optimizePackageImports: ["@frontal/design-system", "lucide-react"],
+		optimizePackageImports: ["@frontal-labs/design-system", "lucide-react"],
 	},
 };
 

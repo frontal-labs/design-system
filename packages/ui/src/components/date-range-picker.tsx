@@ -1,6 +1,6 @@
 "use client";
 
-import { CalendarIcon } from "@frontal-ds/icons";
+import { CalendarIcon } from "@frontal-labs/icons";
 import { type ComponentProps, useState } from "react";
 import type { DateRange } from "react-day-picker";
 import { cn } from "../utils";

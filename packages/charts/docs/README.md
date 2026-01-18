@@ -1,15 +1,15 @@
-# @frontal-ds/charts Documentation
+# @frontal-labs/charts Documentation
 
 ## Overview
 
-The `@frontal-ds/charts` package provides a comprehensive collection of chart and data visualization components built on top of Recharts. These components are example implementations demonstrating various chart types, configurations, and customization options.
+The `@frontal-labs/charts` package provides a comprehensive collection of chart and data visualization components built on top of Recharts. These components are example implementations demonstrating various chart types, configurations, and customization options.
 
 ## Installation
 
 This package is part of the Frontal monorepo and is available as a workspace dependency.
 
 ```bash
-bun install @frontal-ds/charts
+bun install @frontal-labs/charts
 ```
 
 ## Available Chart Types
@@ -105,15 +105,15 @@ bun install @frontal-ds/charts
 Chart components are example implementations that can be imported directly:
 
 ```tsx
-import { ChartAreaDefault } from '@frontal-ds/charts/components/chart-area-default';
-import { ChartBarDefault } from '@frontal-ds/charts/components/chart-bar-default';
-import { ChartLineDefault } from '@frontal-ds/charts/components/chart-line-default';
+import { ChartAreaDefault } from '@frontal-labs/charts/components/chart-area-default';
+import { ChartBarDefault } from '@frontal-labs/charts/components/chart-bar-default';
+import { ChartLineDefault } from '@frontal-labs/charts/components/chart-line-default';
 ```
 
 ### Basic Example
 
 ```tsx
-import { ChartAreaDefault } from '@frontal-ds/charts/components/chart-area-default';
+import { ChartAreaDefault } from '@frontal-labs/charts/components/chart-area-default';
 
 function MyDashboard() {
   return (
@@ -129,7 +129,7 @@ function MyDashboard() {
 All chart components accept standard Recharts props and can be customized:
 
 ```tsx
-import { ChartAreaDefault } from '@frontal-ds/charts/components/chart-area-default';
+import { ChartAreaDefault } from '@frontal-labs/charts/components/chart-area-default';
 
 // Modify the component to customize data, colors, etc.
 function CustomChart() {
@@ -147,8 +147,8 @@ function CustomChart() {
 
 Charts are built on:
 - **recharts**: Primary charting library
-- **@frontal-ds/icons**: Icon library (replaces lucide-react)
-- **@frontal-ds/ui**: UI components (Card, etc.)
+- **@frontal-labs/icons**: Icon library (replaces lucide-react)
+- **@frontal-labs/ui**: UI components (Card, etc.)
 
 ## Styling
 
@@ -158,7 +158,7 @@ Charts use Tailwind CSS and the Frontal design system. Import the consolidated C
 import '@frontal/design-system/styles/globals.css';
 ```
 
-Chart-specific styles are included in `@frontal-ds/charts/styles/charts.css` and are automatically imported through the design system.
+Chart-specific styles are included in `@frontal-labs/charts/styles/charts.css` and are automatically imported through the design system.
 
 ## Chart Configuration
 
@@ -169,7 +169,7 @@ const chartConfig = {
   desktop: {
     label: "Desktop",
     color: "var(--chart-1)",
-    icon: ArrowUpIcon, // From @frontal-ds/icons
+    icon: ArrowUpIcon, // From @frontal-labs/icons
   },
   mobile: {
     label: "Mobile",
@@ -181,7 +181,7 @@ const chartConfig = {
 
 ## Icons
 
-All charts use icons from `@frontal-ds/icons`:
+All charts use icons from `@frontal-labs/icons`:
 - `ArrowUpIcon`: For trending up indicators
 - `ArrowDownIcon`: For trending down indicators
 - `PulseIcon`: For activity indicators
@@ -243,7 +243,7 @@ These are defined in the design system's color palette.
 
 When adding new chart components:
 1. Create the component in `src/components/`
-2. Use `@frontal-ds/icons` for all icons
+2. Use `@frontal-labs/icons` for all icons
 3. Follow the existing chart structure
 4. Include proper TypeScript types
 5. Add appropriate tests

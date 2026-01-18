@@ -108,7 +108,7 @@ This directory contains example applications demonstrating the Frontal Design Sy
 
 ## Notes
 
-- All examples use the `@frontal-ds/ui` package
+- All examples use the `@frontal-labs/ui` package
 - TypeScript is configured with strict mode
 - The app runs on port 3001 to avoid conflicts with Storybook
 - Components are fully responsive and accessible

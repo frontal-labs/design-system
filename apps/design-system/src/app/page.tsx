@@ -1,4 +1,4 @@
-import { Button, Card, CardContent, CardDescription, CardHeader, CardTitle } from "@frontal/design-system";
+import { Button, Card, CardContent, CardDescription, CardHeader, CardTitle } from "@frontal-labs/design-system";
 import Link from "next/link";
 
 const categories = [

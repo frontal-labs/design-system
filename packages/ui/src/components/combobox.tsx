@@ -1,7 +1,7 @@
 "use client";
 
 import { Combobox as ComboboxPrimitive } from "@base-ui/react/combobox";
-import { ArrowUpDownIcon, CloseIcon } from "@frontal-ds/icons";
+import { ArrowUpDownIcon, CloseIcon } from "@frontal-labs/icons";
 import {
   createContext,
   type ReactNode,

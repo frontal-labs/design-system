@@ -1,4 +1,4 @@
-import { AppSidebar } from "@frontal-ds/blocks/sidebar-14/components/app-sidebar";
+import { AppSidebar } from "@frontal-labs/blocks/sidebar-14/components/app-sidebar";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -9,7 +9,7 @@ import {
   SidebarInset,
   SidebarProvider,
   SidebarTrigger,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 
 export default function Page() {
   return (

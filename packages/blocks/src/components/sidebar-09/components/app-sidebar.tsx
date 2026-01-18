@@ -1,6 +1,6 @@
 "use client";
 
-import { NavUser } from "@frontal-ds/blocks/sidebar-09/components/nav-user";
+import { NavUser } from "@frontal-labs/blocks/sidebar-09/components/nav-user";
 import {
   ArchiveIcon,
   CommandIcon,
@@ -8,7 +8,7 @@ import {
   FileIcon,
   InboxIcon,
   SendIcon,
-} from "@frontal-ds/icons";
+} from "@frontal-labs/icons";
 import {
   Label,
   Sidebar,
@@ -23,7 +23,7 @@ import {
   SidebarMenuItem,
   Switch,
   useSidebar,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import * as React from "react";
 
 // This is sample data

@@ -1,4 +1,4 @@
-import { SignupForm } from "@frontal-ds/blocks/signup-04/components/signup-form";
+import { SignupForm } from "@frontal-labs/blocks/signup-04/components/signup-form";
 
 export default function SignupPage() {
   return (

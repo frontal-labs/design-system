@@ -1,5 +1,5 @@
-import { LoginForm } from "@frontal-ds/blocks/login-03/components/login-form";
-import { MoreVariantIcon } from "@frontal-ds/icons";
+import { LoginForm } from "@frontal-labs/blocks/login-03/components/login-form";
+import { MoreVariantIcon } from "@frontal-labs/icons";
 
 export default function LoginPage() {
   return (

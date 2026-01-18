@@ -1,6 +1,6 @@
 "use client";
 
-import { FootprintIcon, WaterFlashIcon } from "@frontal-ds/icons";
+import { FootprintIcon, WaterFlashIcon } from "@frontal-labs/icons";
 import {
   Card,
   CardContent,
@@ -11,7 +11,7 @@ import {
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import { Bar, BarChart, XAxis } from "recharts";
 
 export const description = "A stacked bar chart with a legend";

@@ -1,6 +1,6 @@
 # Colors API Reference
 
-Complete API documentation for `@frontal-ds/colors`.
+Complete API documentation for `@frontal-labs/colors`.
 
 ## Color Scales
 
@@ -42,7 +42,7 @@ type ColorScale = {
 ### Example: Gray Scale
 
 ```typescript
-import { gray, grayDark } from '@frontal-ds/colors';
+import { gray, grayDark } from '@frontal-labs/colors';
 
 // Light mode
 gray.gray50   // "oklch(0.95 0 0)"
@@ -62,7 +62,7 @@ grayDark.gray900  // "oklch(0.985 0 0)"
 ### Light Mode Semantic Colors
 
 ```typescript
-import { semantic } from '@frontal-ds/colors';
+import { semantic } from '@frontal-labs/colors';
 
 semantic.background              // "oklch(1 0 0)"
 semantic.foreground              // "oklch(0.145 0 0)"
@@ -110,7 +110,7 @@ semantic.selectionForeground   // "oklch(1 0 0)"
 ### Dark Mode Semantic Colors
 
 ```typescript
-import { semanticDark } from '@frontal-ds/colors';
+import { semanticDark } from '@frontal-labs/colors';
 
 // Same structure as semantic, optimized for dark backgrounds
 semanticDark.background         // "oklch(0 0 0)"
@@ -135,7 +135,7 @@ Get a specific color from a color scale.
 
 **Example:**
 ```typescript
-import { getColor } from '@frontal-ds/colors';
+import { getColor } from '@frontal-labs/colors';
 
 getColor('blue', 500)        // "oklch(...)"
 getColor('blue', 500, true)  // Dark mode variant
@@ -156,7 +156,7 @@ Get an entire color scale object.
 
 **Example:**
 ```typescript
-import { getScale } from '@frontal-ds/colors';
+import { getScale } from '@frontal-labs/colors';
 
 const blueScale = getScale('blue');
 const blueDarkScale = getScale('blue', true);
@@ -173,7 +173,7 @@ Get all color scales as an object.
 
 **Example:**
 ```typescript
-import { getAllScales } from '@frontal-ds/colors';
+import { getAllScales } from '@frontal-labs/colors';
 
 const allScales = getAllScales();
 // Returns: { gray: {...}, blue: {...}, ... }
@@ -194,7 +194,7 @@ Convert a color value to a CSS custom property reference.
 
 **Example:**
 ```typescript
-import { toCSSVar } from '@frontal-ds/colors';
+import { toCSSVar } from '@frontal-labs/colors';
 
 toCSSVar('oklch(0.57 0.2145 258.25)', 'primary-color')
 // Returns: 'var(--primary-color)'
@@ -295,7 +295,7 @@ CSS file containing color scale custom properties, built to `dist/styles/styles.
 
 **Usage:**
 ```tsx
-import '@frontal-ds/colors/styles.css';
+import '@frontal-labs/colors/styles.css';
 ```
 
 **Exports CSS variables:**
@@ -309,7 +309,7 @@ CSS file containing semantic color tokens, built to `dist/styles/theme.css`.
 
 **Usage:**
 ```tsx
-import '@frontal-ds/colors/theme.css';
+import '@frontal-labs/colors/theme.css';
 ```
 
 **Exports CSS variables:**

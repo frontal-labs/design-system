@@ -1,7 +1,7 @@
-import { Calendars } from "@frontal-ds/blocks/sidebar-12/components/calendars";
-import { DatePicker } from "@frontal-ds/blocks/sidebar-12/components/date-picker";
-import { NavUser } from "@frontal-ds/blocks/sidebar-12/components/nav-user";
-import { AddIcon } from "@frontal-ds/icons";
+import { Calendars } from "@frontal-labs/blocks/sidebar-12/components/calendars";
+import { DatePicker } from "@frontal-labs/blocks/sidebar-12/components/date-picker";
+import { NavUser } from "@frontal-labs/blocks/sidebar-12/components/nav-user";
+import { AddIcon } from "@frontal-labs/icons";
 import {
   Sidebar,
   SidebarContent,
@@ -12,7 +12,7 @@ import {
   SidebarMenuItem,
   SidebarRail,
   SidebarSeparator,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import type * as React from "react";
 
 // This is sample data.

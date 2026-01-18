@@ -1,9 +1,10 @@
+import { Button } from "@frontal-labs/design-system";
 import {
   InputOTP,
   InputOTPGroup,
   InputOTPSeparator,
   InputOTPSlot,
-} from "@frontal/design-system";
+} from "@frontal-labs/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 import { REGEXP_ONLY_DIGITS_AND_CHARS } from "input-otp";
 

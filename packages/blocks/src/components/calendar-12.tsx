@@ -13,7 +13,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import * as React from "react";
 import type { DateRange } from "react-day-picker";
 import { enUS, es } from "react-day-picker/locale";

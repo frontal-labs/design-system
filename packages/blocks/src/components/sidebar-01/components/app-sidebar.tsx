@@ -1,5 +1,5 @@
-import { SearchForm } from "@frontal-ds/blocks/sidebar-01/components/search-form";
-import { VersionSwitcher } from "@frontal-ds/blocks/sidebar-01/components/version-switcher";
+import { SearchForm } from "@frontal-labs/blocks/sidebar-01/components/search-form";
+import { VersionSwitcher } from "@frontal-labs/blocks/sidebar-01/components/version-switcher";
 import {
   Sidebar,
   SidebarContent,
@@ -11,7 +11,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   SidebarRail,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import type * as React from "react";
 
 // This is sample data.

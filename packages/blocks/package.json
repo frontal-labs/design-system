@@ -1,8 +1,7 @@
 {
-  "name": "@frontal-ds/blocks",
+  "name": "@frontal-labs/blocks",
   "description": "Frontal's UI blocks and components",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.0.2",
   "type": "module",
   "packageManager": "bun@1.3.3",
   "engines": {
@@ -38,8 +37,8 @@
     "clean": "git clean -xdf -- node_modules .next .cache"
   },
   "dependencies": {
-    "@frontal-ds/icons": "workspace:*",
-    "@frontal-ds/ui": "workspace:*",
+    "@frontal-labs/icons": "workspace:*",
+    "@frontal-labs/ui": "workspace:*",
     "@dnd-kit/core": "^6.1.0",
     "@dnd-kit/sortable": "^8.0.0",
     "@dnd-kit/modifiers": "^7.0.0",
@@ -71,5 +70,10 @@
     "blocks",
     "components",
     "ui"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "@frontal-labs:registry": "https://npm.pkg.github.com",
+    "access": "public"
+  }
 }

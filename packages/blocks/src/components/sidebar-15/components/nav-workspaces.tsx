@@ -1,4 +1,4 @@
-import { AddIcon, ArrowRightChevronIcon, MoreIcon } from "@frontal-ds/icons";
+import { AddIcon, ArrowRightChevronIcon, MoreIcon } from "@frontal-labs/icons";
 import {
   Collapsible,
   CollapsibleContent,
@@ -13,7 +13,7 @@ import {
   SidebarMenuSub,
   SidebarMenuSubButton,
   SidebarMenuSubItem,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 
 export function NavWorkspaces({
   workspaces,

@@ -1,4 +1,4 @@
-// @frontal-ds/colors - Teal color scale
+// @frontal-labs/colors - Teal color scale
 
 /**
  * Teal color scale values in OKLCH format

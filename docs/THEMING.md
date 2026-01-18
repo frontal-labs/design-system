@@ -215,9 +215,9 @@ function ThemedComponent() {
 ### Theme Toggle Button
 
 ```tsx
-import { Button } from "@frontal-ds/ui";
+import { Button } from "@frontal-labs/ui";
 import { useTheme } from "next-themes";
-import { MoonIcon, SunIcon } from "@frontal-ds/icons";
+import { MoonIcon, SunIcon } from "@frontal-labs/icons";
 
 function ThemeToggle() {
   const { theme, setTheme } = useTheme();

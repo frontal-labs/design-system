@@ -9,7 +9,7 @@ import {
   toCSSVar,
 } from "../src/index";
 
-describe("@frontal-ds/colors", () => {
+describe("@frontal-labs/colors", () => {
   test("color scales are exported", () => {
     expect(gray).toBeDefined();
     expect(blue).toBeDefined();

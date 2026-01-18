@@ -1,6 +1,6 @@
 "use client";
 
-import { TooltipProvider } from "@frontal/design-system";
+import { TooltipProvider } from "@frontal-labs/design-system";
 import { ThemeProvider } from "next-themes";
 import { Toaster } from "sonner";
 

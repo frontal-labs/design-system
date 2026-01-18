@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 /// <reference types="bun-types" />
 /**
- * Build script for @frontal/design-system
+ * Build script for @frontal-labs/design-system
  * Uses Bun's native bundler API
  * @see https://bun.com/docs/bundler
  */
@@ -13,11 +13,11 @@ const minify =
 async function build() {
   // biome-ignore lint/suspicious/noConsole: Build scripts need console output
   console.log(
-    `Building @frontal/design-system${minify ? " (minified)" : ""}...`
+    `Building @frontal-labs/design-system${minify ? " (minified)" : ""}...`
   );
 
   // Build ESM format
-  // Bundle @frontal/* packages but keep React and other runtime deps external
+  // Bundle @frontal-labs/* packages but keep React and other runtime deps external
   // biome-ignore lint/correctness/noUndeclaredVariables: Bun is a global in Bun runtime
   const esmResult = await Bun.build({
     entrypoints: [entrypoint],
@@ -54,7 +54,7 @@ async function build() {
   }
 
   // Build CJS format
-  // Bundle @frontal/* packages but keep React and other runtime deps external
+  // Bundle @frontal-labs/* packages but keep React and other runtime deps external
   // biome-ignore lint/correctness/noUndeclaredVariables: Bun is a global in Bun runtime
   const cjsResult = await Bun.build({
     entrypoints: [entrypoint],
@@ -62,7 +62,7 @@ async function build() {
     format: "cjs",
     target: "bun",
     sourcemap: "linked",
-    packages: "external", // Bundle all @frontal/* dependencies
+    packages: "external", // Bundle all @frontal-labs/* dependencies
     minify,
   });
 

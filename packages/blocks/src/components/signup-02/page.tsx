@@ -1,5 +1,5 @@
-import { SignupForm } from "@frontal-ds/blocks/signup-02/components/signup-form";
-import { MoreVariantIcon } from "@frontal-ds/icons";
+import { SignupForm } from "@frontal-labs/blocks/signup-02/components/signup-form";
+import { MoreVariantIcon } from "@frontal-labs/icons";
 
 export default function SignupPage() {
   return (

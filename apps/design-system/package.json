@@ -1,6 +1,6 @@
 {
 	"name": "design-system",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"private": true,
 	"packageManager": "bun@1.3.3",
 	"engines": {
@@ -14,7 +14,7 @@
 		"type-check": "tsc --noEmit"
 	},
 	"dependencies": {
-		"@frontal-ds/design-system": "workspace:*",
+		"@frontal-labs/design-system": "workspace:*",
 		"@hookform/resolvers": "^5.2.2",
 		"@mdx-js/loader": "^3.1.1",
 		"@mdx-js/react": "^3.1.1",

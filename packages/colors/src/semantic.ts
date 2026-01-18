@@ -1,4 +1,4 @@
-// @frontal-ds/colors - Semantic color tokens
+// @frontal-labs/colors - Semantic color tokens
 
 /**
  * Semantic color tokens for light mode

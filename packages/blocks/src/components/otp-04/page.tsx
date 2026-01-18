@@ -1,4 +1,4 @@
-import { OTPForm } from "@frontal-ds/blocks/otp-04/components/otp-form";
+import { OTPForm } from "@frontal-labs/blocks/otp-04/components/otp-form";
 
 export default function OTPPage() {
   return (

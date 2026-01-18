@@ -1,3 +1,4 @@
+import { Button } from "@frontal-labs/design-system";
 import {
   Sheet,
   SheetClose,
@@ -7,7 +8,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@frontal/design-system";
+} from "@frontal-labs/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

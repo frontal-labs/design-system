@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowUpIcon } from "@frontal-ds/icons";
+import { ArrowUpIcon } from "@frontal-labs/icons";
 import {
   Card,
   CardContent,
@@ -12,7 +12,7 @@ import {
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import { PolarGrid, RadialBar, RadialBarChart } from "recharts";
 
 export const description = "A radial chart with a grid";

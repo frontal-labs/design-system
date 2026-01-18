@@ -1,6 +1,6 @@
 "use client";
 
-import { Calendar } from "@frontal-ds/ui";
+import { Calendar } from "@frontal-labs/ui";
 import type { ButtonHTMLAttributes } from "react";
 import * as React from "react";
 import type { CalendarDay, DateRange, Modifiers } from "react-day-picker";

@@ -30,7 +30,7 @@ import {
 	TabsList,
 	TabsPanel,
 	TabsTab,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import Link from "next/link";
 
 export default function LayoutsPage() {

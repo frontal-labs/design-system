@@ -1,8 +1,7 @@
 {
-  "name": "@frontal-ds/charts",
+  "name": "@frontal-labs/charts",
   "description": "Frontal's chart and visualization components",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.0.2",
   "type": "module",
   "packageManager": "bun@1.3.3",
   "engines": {
@@ -38,8 +37,8 @@
     "test": "bun test tests/"
   },
   "dependencies": {
-    "@frontal-ds/icons": "workspace:*",
-    "@frontal-ds/ui": "workspace:*",
+    "@frontal-labs/icons": "workspace:*",
+    "@frontal-labs/ui": "workspace:*",
     "recharts": "^2.15.4"
   },
   "peerDependencies": {
@@ -59,5 +58,10 @@
     "charts",
     "visualization",
     "data-viz"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "@frontal-labs:registry": "https://npm.pkg.github.com",
+    "access": "public"
+  }
 }

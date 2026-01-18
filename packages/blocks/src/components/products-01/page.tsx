@@ -1,4 +1,4 @@
-import { ProductsTable } from "@frontal-ds/blocks/products-01/components/products-table";
+import { ProductsTable } from "@frontal-labs/blocks/products-01/components/products-table";
 
 // Load from database.
 const products = [

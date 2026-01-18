@@ -3,7 +3,7 @@ import {
   ArrowUpDownIcon,
   FilterIcon,
   MoreIcon,
-} from "@frontal-ds/icons";
+} from "@frontal-labs/icons";
 import {
   Badge,
   Button,
@@ -33,7 +33,7 @@ import {
   Tabs,
   TabsList,
   TabsTrigger,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 
 export function ProductsTable({
   products,

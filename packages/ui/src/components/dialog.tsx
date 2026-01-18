@@ -1,7 +1,7 @@
 "use client";
 
 import { Dialog as DialogPrimitive } from "@base-ui/react/dialog";
-import { CloseIcon } from "@frontal-ds/icons";
+import { CloseIcon } from "@frontal-labs/icons";
 import type { ComponentProps } from "react";
 import { cn } from "../utils";
 import { Button } from "./button";

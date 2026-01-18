@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowUpIcon } from "@frontal-ds/icons";
+import { ArrowUpIcon } from "@frontal-labs/icons";
 import {
   Card,
   CardContent,
@@ -14,7 +14,7 @@ import {
   ChartLegendContent,
   ChartTooltip,
   ChartTooltipContent,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import { Bar, BarChart, CartesianGrid, XAxis } from "recharts";
 
 export const description = "A stacked bar chart with a legend";

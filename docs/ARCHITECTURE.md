@@ -39,14 +39,14 @@ Workspaces are configured in `package.json` and include:
 
 ```
 @frontal/design-system (core)
-  ├── @frontal-ds/ui
-  │   └── @frontal-ds/icons
-  ├── @frontal-ds/blocks
-  │   └── @frontal-ds/icons
-  ├── @frontal-ds/charts
-  │   └── @frontal-ds/icons
-  ├── @frontal-ds/colors
-  └── @frontal-ds/typeface
+  ├── @frontal-labs/ui
+  │   └── @frontal-labs/icons
+  ├── @frontal-labs/blocks
+  │   └── @frontal-labs/icons
+  ├── @frontal-labs/charts
+  │   └── @frontal-labs/icons
+  ├── @frontal-labs/colors
+  └── @frontal-labs/typeface
 ```
 
 ### Package Responsibilities
@@ -57,37 +57,37 @@ Workspaces are configured in `package.json` and include:
 - **Dependencies**: All other packages
 - **Usage**: Primary import for consumers
 
-#### @frontal-ds/ui
+#### @frontal-labs/ui
 - **Purpose**: Base UI components
 - **Components**: 70+ components (Button, Card, Input, etc.)
 - **Dependencies**: Icons, Components
 - **Usage**: Individual component imports
 
-#### @frontal-ds/blocks
+#### @frontal-labs/blocks
 - **Purpose**: Pre-built UI blocks and patterns
 - **Components**: Login forms, sidebars, dashboards, calendars
 - **Dependencies**: Icons
 - **Usage**: Complete UI patterns
 
-#### @frontal-ds/charts
+#### @frontal-labs/charts
 - **Purpose**: Data visualization components
 - **Components**: Area charts, bar charts, line charts
 - **Dependencies**: Icons
 - **Usage**: Chart components
 
-#### @frontal-ds/icons
+#### @frontal-labs/icons
 - **Purpose**: Icon library
 - **Icons**: 1800+ SVG icons
 - **Dependencies**: None
 - **Usage**: Icon components
 
-#### @frontal-ds/colors
+#### @frontal-labs/colors
 - **Purpose**: Color system and design tokens
 - **Exports**: Color scales, semantic colors, utilities
 - **Dependencies**: None
 - **Usage**: Color tokens and utilities
 
-#### @frontal-ds/typeface
+#### @frontal-labs/typeface
 - **Purpose**: Typography system
 - **Exports**: Font definitions, CSS variables
 - **Dependencies**: None

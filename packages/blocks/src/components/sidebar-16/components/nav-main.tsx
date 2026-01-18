@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRightIcon, type IconComponent } from "@frontal-ds/icons";
+import { ArrowRightIcon, type IconComponent } from "@frontal-labs/icons";
 import {
   Collapsible,
   CollapsibleContent,
@@ -14,7 +14,7 @@ import {
   SidebarMenuSub,
   SidebarMenuSubButton,
   SidebarMenuSubItem,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 
 export function NavMain({
   items,

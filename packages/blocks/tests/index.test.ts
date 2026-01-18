@@ -1,7 +1,7 @@
 import { describe, expect, test } from "bun:test";
 import { blocks } from "../src/index";
 
-describe("@frontal-ds/blocks", () => {
+describe("@frontal-labs/blocks", () => {
   test("blocks registry exists", () => {
     expect(blocks).toBeDefined();
     expect(Array.isArray(blocks)).toBe(true);

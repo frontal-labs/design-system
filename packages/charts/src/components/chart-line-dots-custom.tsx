@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowUpIcon, GitCommitIcon } from "@frontal-ds/icons";
+import { ArrowUpIcon, GitCommitIcon } from "@frontal-labs/icons";
 import {
   Card,
   CardContent,
@@ -12,7 +12,7 @@ import {
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import { CartesianGrid, Line, LineChart, XAxis } from "recharts";
 
 export const description = "A line chart with custom dots";

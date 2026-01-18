@@ -1,4 +1,4 @@
-// @frontal-ds/colors - Purple color scale
+// @frontal-labs/colors - Purple color scale
 
 /**
  * Purple color scale values in OKLCH format

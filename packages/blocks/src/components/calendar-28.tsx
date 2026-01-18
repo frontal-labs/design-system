@@ -1,6 +1,6 @@
 "use client";
 
-import { CalendarIcon } from "@frontal-ds/icons";
+import { CalendarIcon } from "@frontal-labs/icons";
 import {
   Button,
   Calendar,
@@ -9,7 +9,7 @@ import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import * as React from "react";
 
 function formatDate(date: Date | undefined) {

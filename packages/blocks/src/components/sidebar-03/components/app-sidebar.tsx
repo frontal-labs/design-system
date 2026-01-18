@@ -1,4 +1,4 @@
-import { MoreVariantIcon } from "@frontal-ds/icons";
+import { MoreVariantIcon } from "@frontal-labs/icons";
 import {
   Sidebar,
   SidebarContent,
@@ -11,7 +11,7 @@ import {
   SidebarMenuSubButton,
   SidebarMenuSubItem,
   SidebarRail,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import type * as React from "react";
 
 // This is sample data.

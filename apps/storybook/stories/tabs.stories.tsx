@@ -1,9 +1,10 @@
+import { Button } from "@frontal-labs/design-system";
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from "@frontal/design-system";
+} from "@frontal-labs/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

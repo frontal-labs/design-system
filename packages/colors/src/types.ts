@@ -1,4 +1,4 @@
-// @frontal-ds/colors - Type definitions
+// @frontal-labs/colors - Type definitions
 
 /**
  * Color shade levels (50-900)

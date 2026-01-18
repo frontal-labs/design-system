@@ -1,6 +1,6 @@
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
-import { ArrowRightChevronIcon, MoreIcon } from "@frontal-ds/icons";
+import { ArrowRightChevronIcon, MoreIcon } from "@frontal-labs/icons";
 import type { ComponentProps } from "react";
 import { cn } from "../utils";
 

@@ -1,10 +1,10 @@
 "use client";
 
-import { NavFavorites } from "@frontal-ds/blocks/sidebar-15/components/nav-favorites";
-import { NavMain } from "@frontal-ds/blocks/sidebar-15/components/nav-main";
-import { NavSecondary } from "@frontal-ds/blocks/sidebar-15/components/nav-secondary";
-import { NavWorkspaces } from "@frontal-ds/blocks/sidebar-15/components/nav-workspaces";
-import { TeamSwitcher } from "@frontal-ds/blocks/sidebar-15/components/team-switcher";
+import { NavFavorites } from "@frontal-labs/blocks/sidebar-15/components/nav-favorites";
+import { NavMain } from "@frontal-labs/blocks/sidebar-15/components/nav-main";
+import { NavSecondary } from "@frontal-labs/blocks/sidebar-15/components/nav-secondary";
+import { NavWorkspaces } from "@frontal-labs/blocks/sidebar-15/components/nav-workspaces";
+import { TeamSwitcher } from "@frontal-labs/blocks/sidebar-15/components/team-switcher";
 import {
   AudioLinesIcon,
   CalendarIcon,
@@ -17,13 +17,13 @@ import {
   SearchIcon,
   SettingsIcon,
   SparklingIcon,
-} from "@frontal-ds/icons";
+} from "@frontal-labs/icons";
 import {
   Sidebar,
   SidebarContent,
   SidebarHeader,
   SidebarRail,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import type * as React from "react";
 
 // This is sample data.

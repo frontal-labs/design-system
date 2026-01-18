@@ -1,5 +1,5 @@
-import { OTPForm } from "@frontal-ds/blocks/otp-03/components/otp-form";
-import { MoreVariantIcon } from "@frontal-ds/icons";
+import { OTPForm } from "@frontal-labs/blocks/otp-03/components/otp-form";
+import { MoreVariantIcon } from "@frontal-labs/icons";
 
 export default function OTPPage() {
   return (

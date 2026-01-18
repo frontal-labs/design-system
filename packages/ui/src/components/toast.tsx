@@ -7,7 +7,7 @@ import {
   ErrorWarningIcon,
   InformationIcon,
   LoaderIcon,
-} from "@frontal-ds/icons";
+} from "@frontal-labs/icons";
 import { cn } from "../utils";
 import { buttonVariants } from "./button";
 

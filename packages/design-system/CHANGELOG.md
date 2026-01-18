@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.0.3
+
+### Patch Changes
+
+- Initial release with @frontal-labs scope
+- Updated dependencies
+  - @frontal-labs/blocks@0.0.2
+  - @frontal-labs/charts@0.0.2
+  - @frontal-labs/colors@0.0.2
+  - @frontal-labs/icons@0.0.2
+  - @frontal-labs/typeface@0.0.2
+  - @frontal-labs/ui@0.0.2
+
 ## 0.0.2
 
 ### Patch Changes

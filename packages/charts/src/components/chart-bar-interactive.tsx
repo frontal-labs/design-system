@@ -10,7 +10,7 @@ import {
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import * as React from "react";
 import { Bar, BarChart, CartesianGrid, XAxis } from "recharts";
 

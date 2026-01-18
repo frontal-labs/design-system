@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowDownChevronIcon } from "@frontal-ds/icons";
+import { ArrowDownChevronIcon } from "@frontal-labs/icons";
 import {
   Button,
   Calendar,
@@ -8,7 +8,7 @@ import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import * as React from "react";
 
 export default function Calendar22() {

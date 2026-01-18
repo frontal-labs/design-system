@@ -53,7 +53,7 @@ jobs:
       - name: Configure npm for GitHub Packages
         working-directory: packages/design-system
         run: |
-          echo "@frontal:registry=https://npm.pkg.github.com" >> .npmrc
+          echo "@frontal-labs:registry=https://npm.pkg.github.com" >> .npmrc
           # npm automatically uses NODE_AUTH_TOKEN for GitHub Packages authentication
 
       - name: Verify package contents
@@ -108,7 +108,7 @@ jobs:
             const pkg = JSON.parse(fs.readFileSync('package.json', 'utf8'));
             pkg.publishConfig = {
               registry: 'https://npm.pkg.github.com',
-              '@frontal:registry': 'https://npm.pkg.github.com'
+              '@frontal-labs:registry': 'https://npm.pkg.github.com'
             };
             // Ensure repository field is set correctly - this links the package to the repo
             pkg.repository = {
@@ -120,7 +120,7 @@ jobs:
           "
           
           # Configure npm for GitHub Packages
-          echo "@frontal:registry=https://npm.pkg.github.com" > .npmrc
+          echo "@frontal-labs:registry=https://npm.pkg.github.com" > .npmrc
           npm config set //npm.pkg.github.com/:_authToken $NODE_AUTH_TOKEN
           
           # Note: GitHub Packages creates packages automatically on first publish
@@ -139,6 +139,6 @@ jobs:
           echo "  npm install @frontal/design-system"
           echo ""
           echo "Make sure to configure .npmrc in your project:"
-          echo "  @frontal:registry=https://npm.pkg.github.com"
+          echo "  @frontal-labs:registry=https://npm.pkg.github.com"
           echo "  //npm.pkg.github.com/:_authToken=\${GITHUB_TOKEN}"
 

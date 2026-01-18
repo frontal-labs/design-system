@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowDownChevronIcon } from "@frontal-ds/icons";
+import { ArrowDownChevronIcon } from "@frontal-labs/icons";
 import type { ComponentProps, ReactNode } from "react";
 import { cn } from "../utils";
 import { Button, type ButtonProps } from "./button";

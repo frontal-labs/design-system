@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 /// <reference types="bun-types" />
 /**
- * Build script for @frontal-ds/typeface
+ * Build script for @frontal-labs/typeface
  * Uses Bun's native bundler API
  * @see https://bun.com/docs/bundler
  */

@@ -1,6 +1,6 @@
 "use client";
 
-import { Calendar } from "@frontal-ds/ui";
+import { Calendar } from "@frontal-labs/ui";
 import * as React from "react";
 
 export default function Calendar14() {

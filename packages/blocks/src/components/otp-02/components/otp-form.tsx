@@ -9,7 +9,7 @@ import {
   InputOTPGroup,
   InputOTPSeparator,
   InputOTPSlot,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 
 export function OTPForm({ className, ...props }: React.ComponentProps<"div">) {
   return (

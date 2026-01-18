@@ -1,4 +1,4 @@
-// @frontal-ds/colors - Pink color scale
+// @frontal-labs/colors - Pink color scale
 
 /**
  * Pink color scale values in OKLCH format

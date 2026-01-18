@@ -1,8 +1,7 @@
 {
-  "name": "@frontal-ds/ui",
+  "name": "@frontal-labs/ui",
   "description": "Frontal's UI component library",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.0.2",
   "type": "module",
   "packageManager": "bun@1.3.3",
   "engines": {
@@ -39,7 +38,7 @@
   },
   "dependencies": {
     "@base-ui/react": "^1.0.0",
-    "@frontal-ds/icons": "workspace:*",
+    "@frontal-labs/icons": "workspace:*",
     "@radix-ui/react-slot": "^1.2.4",
     "@tailwindcss/postcss": "^4.1.14",
     "class-variance-authority": "^0.7.1",
@@ -79,5 +78,10 @@
     "ui",
     "components",
     "react"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "@frontal-labs:registry": "https://npm.pkg.github.com",
+    "access": "public"
+  }
 }

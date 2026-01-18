@@ -1,4 +1,4 @@
-// @frontal-ds/colors - Green color scale
+// @frontal-labs/colors - Green color scale
 
 /**
  * Green color scale values in OKLCH format

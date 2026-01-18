@@ -1,4 +1,4 @@
-import { Button, Separator, SidebarTrigger } from "@frontal-ds/ui";
+import { Button, Separator, SidebarTrigger } from "@frontal-labs/ui";
 
 export function SiteHeader() {
   return (

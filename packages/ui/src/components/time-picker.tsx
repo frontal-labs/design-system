@@ -1,6 +1,6 @@
 "use client";
 
-import { TimeIcon } from "@frontal-ds/icons";
+import { TimeIcon } from "@frontal-labs/icons";
 import {
   type ChangeEvent,
   type ComponentProps,

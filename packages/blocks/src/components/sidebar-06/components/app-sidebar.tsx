@@ -1,6 +1,6 @@
-import { NavMain } from "@frontal-ds/blocks/sidebar-06/components/nav-main";
-import { SidebarOptInForm } from "@frontal-ds/blocks/sidebar-06/components/sidebar-opt-in-form";
-import { MoreVariantIcon } from "@frontal-ds/icons";
+import { NavMain } from "@frontal-labs/blocks/sidebar-06/components/nav-main";
+import { SidebarOptInForm } from "@frontal-labs/blocks/sidebar-06/components/sidebar-opt-in-form";
+import { MoreVariantIcon } from "@frontal-labs/icons";
 import {
   Sidebar,
   SidebarContent,
@@ -10,7 +10,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   SidebarRail,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import type * as React from "react";
 
 // This is sample data.

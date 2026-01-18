@@ -10,7 +10,7 @@ import {
   ChartContainer,
   ChartLegend,
   ChartLegendContent,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import { Pie, PieChart } from "recharts";
 
 export const description = "A pie chart with a legend";

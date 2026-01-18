@@ -1,4 +1,4 @@
-// @frontal-ds/colors - Utility functions
+// @frontal-labs/colors - Utility functions
 
 import * as scales from "./scales";
 import type { ColorScale, ColorScaleName, ColorShade } from "./types";

@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowUpIcon } from "@frontal-ds/icons";
+import { ArrowUpIcon } from "@frontal-labs/icons";
 import {
   Card,
   CardContent,
@@ -10,7 +10,7 @@ import {
   CardTitle,
   type ChartConfig,
   ChartContainer,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import {
   Label,
   PolarGrid,

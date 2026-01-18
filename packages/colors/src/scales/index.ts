@@ -1,4 +1,4 @@
-// @frontal-ds/colors - Color scales index
+// @frontal-labs/colors - Color scales index
 
 // biome-ignore lint/performance/noBarrelFile: This package intentionally uses barrel exports
 export * from "./blue";

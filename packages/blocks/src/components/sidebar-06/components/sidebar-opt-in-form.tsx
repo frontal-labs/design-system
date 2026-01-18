@@ -6,7 +6,7 @@ import {
   CardHeader,
   CardTitle,
   SidebarInput,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 
 export function SidebarOptInForm() {
   return (

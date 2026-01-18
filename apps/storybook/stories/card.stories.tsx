@@ -1,3 +1,4 @@
+import { Button } from "@frontal-labs/design-system";
 import {
   Card,
   CardContent,
@@ -5,7 +6,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@frontal/design-system";
+} from "@frontal-labs/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 import { BellRing } from "lucide-react";
 

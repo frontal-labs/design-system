@@ -1,4 +1,5 @@
-import { Calendar } from "@frontal/design-system";
+import { Button } from "@frontal-labs/design-system";
+import { Calendar } from "@frontal-labs/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 import { fn } from "@storybook/test";
 import { addDays } from "date-fns";

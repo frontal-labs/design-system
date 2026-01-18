@@ -1,4 +1,4 @@
-# @frontal-ds/ui
+# @frontal-labs/ui
 
 Frontal's UI component library package.
 
@@ -11,14 +11,14 @@ This package provides a comprehensive collection of UI components for building m
 This package is part of the Frontal monorepo and is installed automatically as a workspace dependency.
 
 ```bash
-bun install @frontal-ds/ui
+bun install @frontal-labs/ui
 ```
 
 ## Usage
 
 ```tsx
-import { /* UI components */ } from '@frontal-ds/ui';
-import '@frontal-ds/ui/styles.css';
+import { /* UI components */ } from '@frontal-labs/ui';
+import '@frontal-labs/ui/styles.css';
 ```
 
 ## Styles
@@ -26,7 +26,7 @@ import '@frontal-ds/ui/styles.css';
 Import the UI component styles:
 
 ```tsx
-import '@frontal-ds/ui/styles.css';
+import '@frontal-labs/ui/styles.css';
 ```
 
 Or use the consolidated design system styles:

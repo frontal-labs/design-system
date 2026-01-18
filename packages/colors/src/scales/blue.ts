@@ -1,4 +1,4 @@
-// @frontal-ds/colors - Blue color scale
+// @frontal-labs/colors - Blue color scale
 
 /**
  * Blue color scale values in OKLCH format

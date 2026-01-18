@@ -1,9 +1,9 @@
 "use client";
 
-import { NavDocuments } from "@frontal-ds/blocks/dashboard-01/components/nav-documents";
-import { NavMain } from "@frontal-ds/blocks/dashboard-01/components/nav-main";
-import { NavSecondary } from "@frontal-ds/blocks/dashboard-01/components/nav-secondary";
-import { NavUser } from "@frontal-ds/blocks/dashboard-01/components/nav-user";
+import { NavDocuments } from "@frontal-labs/blocks/dashboard-01/components/nav-documents";
+import { NavMain } from "@frontal-labs/blocks/dashboard-01/components/nav-main";
+import { NavSecondary } from "@frontal-labs/blocks/dashboard-01/components/nav-secondary";
+import { NavUser } from "@frontal-labs/blocks/dashboard-01/components/nav-user";
 import {
   Sidebar,
   SidebarContent,
@@ -12,7 +12,7 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import {
   IconCamera,
   IconChartBar,

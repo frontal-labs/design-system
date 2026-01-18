@@ -1,7 +1,7 @@
 "use client";
 
 import { Dialog as CommandDialogPrimitive } from "@base-ui/react/dialog";
-import { SearchIcon } from "@frontal-ds/icons";
+import { SearchIcon } from "@frontal-labs/icons";
 import {
   type ComponentProps,
   createContext,

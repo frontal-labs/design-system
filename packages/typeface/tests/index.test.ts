@@ -9,7 +9,7 @@ mock.module("next/font/local", () => ({
   }),
 }));
 
-describe("@frontal-ds/typeface", () => {
+describe("@frontal-labs/typeface", () => {
   test("package can be imported", async () => {
     const mod = await import("../src/index");
     expect(mod).toBeDefined();

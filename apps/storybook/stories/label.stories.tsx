@@ -1,4 +1,5 @@
-import { Label } from "@frontal/design-system";
+import { Button } from "@frontal-labs/design-system";
+import { Label } from "@frontal-labs/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

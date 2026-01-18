@@ -36,7 +36,7 @@ import {
 	TabsTab,
 	XAxis,
 	YAxis,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import { useState } from "react";
 
 const salesData = [

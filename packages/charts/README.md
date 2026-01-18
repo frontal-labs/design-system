@@ -1,4 +1,4 @@
-# @frontal-ds/charts
+# @frontal-labs/charts
 
 Frontal's chart and visualization components package.
 
@@ -11,14 +11,14 @@ This package provides chart and data visualization components for building analy
 This package is part of the Frontal monorepo and is installed automatically as a workspace dependency.
 
 ```bash
-bun install @frontal-ds/charts
+bun install @frontal-labs/charts
 ```
 
 ## Usage
 
 ```tsx
-import { /* chart components */ } from '@frontal-ds/charts';
-import '@frontal-ds/charts/styles.css';
+import { /* chart components */ } from '@frontal-labs/charts';
+import '@frontal-labs/charts/styles.css';
 ```
 
 ## Styles
@@ -26,7 +26,7 @@ import '@frontal-ds/charts/styles.css';
 Import the chart styles:
 
 ```tsx
-import '@frontal-ds/charts/styles.css';
+import '@frontal-labs/charts/styles.css';
 ```
 
 Or use the consolidated design system styles:

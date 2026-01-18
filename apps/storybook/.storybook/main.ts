@@ -247,41 +247,45 @@ const config: StorybookConfig = {
         packagesDir,
         "design-system/src/index.ts"
       ),
-      "@frontal-ds/ui": resolve(packagesDir, "ui/src/index.ts"),
-      "@frontal-ds/icons": resolve(packagesDir, "icons/src/index.ts"),
-      "@frontal-ds/blocks": resolve(packagesDir, "blocks/src/index.ts"),
-      "@frontal-ds/charts": resolve(packagesDir, "charts/src/index.ts"),
-      "@frontal-ds/colors": resolve(packagesDir, "colors/src/index.ts"),
+      "@frontal-labs/ui": resolve(packagesDir, "ui/src/index.ts"),
+      "@frontal-labs/icons": resolve(packagesDir, "icons/src/index.ts"),
+      "@frontal-labs/blocks": resolve(packagesDir, "blocks/src/index.ts"),
+      "@frontal-labs/charts": resolve(packagesDir, "charts/src/index.ts"),
+      "@frontal-labs/colors": resolve(packagesDir, "colors/src/index.ts"),
       "@frontal/components": resolve(packagesDir, "components/src/index.ts"),
-      "@frontal-ds/typeface": resolve(packagesDir, "typeface/src/index.ts"),
-      // CSS subpath exports
-      "@frontal-ds/colors/styles.css": resolve(
+      "@frontal-labs/typeface": resolve(packagesDir, "typeface/src/index.ts"),
+      // CSS subpath exports - point directly to src instead of dist
+      "@frontal-labs/colors/styles.css": resolve(
         packagesDir,
         "colors/src/styles/styles.css"
       ),
-      "@frontal-ds/colors/theme.css": resolve(
+      "@frontal-labs/colors/theme.css": resolve(
         packagesDir,
         "colors/src/styles/theme.css"
       ),
-      "@frontal-ds/typeface/styles.css": resolve(
+      "@frontal-labs/typeface/styles.css": resolve(
         packagesDir,
         "typeface/src/styles/styles.css"
       ),
-      "@frontal-ds/ui/styles.css": resolve(
+      "@frontal-labs/ui/styles.css": resolve(
         packagesDir,
         "ui/src/styles/styles.css"
       ),
-      "@frontal-ds/charts/styles.css": resolve(
+      "@frontal-labs/charts/styles.css": resolve(
         packagesDir,
         "charts/src/styles/styles.css"
       ),
-      "@frontal-ds/blocks/styles.css": resolve(
+      "@frontal-labs/blocks/styles.css": resolve(
         packagesDir,
         "blocks/src/styles/styles.css"
       ),
       "@frontal/design-system/styles/globals.css": resolve(
         packagesDir,
         "design-system/src/styles/globals.css"
+      ),
+      "@frontal/design-system": resolve(
+        packagesDir,
+        "design-system/src/index.ts"
       ),
     };
 

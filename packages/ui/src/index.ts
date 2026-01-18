@@ -1,4 +1,4 @@
-// @frontal-ds/ui
+// @frontal-labs/ui
 // UI component library for the Frontal design system
 
 // Accordion

@@ -1,4 +1,4 @@
-// @frontal-ds/colors - Orange color scale
+// @frontal-labs/colors - Orange color scale
 
 /**
  * Orange color scale values in OKLCH format

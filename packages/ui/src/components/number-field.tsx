@@ -1,7 +1,7 @@
 "use client";
 
 import { NumberField as NumberFieldPrimitive } from "@base-ui/react/number-field";
-import { AddIcon, SubtractIcon } from "@frontal-ds/icons";
+import { AddIcon, SubtractIcon } from "@frontal-labs/icons";
 import { type ComponentProps, createContext, useContext, useId } from "react";
 import { cn } from "../utils";
 import { Label } from "./label";

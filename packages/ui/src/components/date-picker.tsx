@@ -1,6 +1,6 @@
 "use client";
 
-import { CalendarIcon } from "@frontal-ds/icons";
+import { CalendarIcon } from "@frontal-labs/icons";
 import { type ComponentProps, useState } from "react";
 import { cn } from "../utils";
 import { Button } from "./button";

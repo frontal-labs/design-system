@@ -1,6 +1,6 @@
 "use client";
 
-import { CheckIcon } from "@frontal-ds/icons";
+import { CheckIcon } from "@frontal-labs/icons";
 import { cva, type VariantProps } from "class-variance-authority";
 import type { ComponentProps } from "react";
 import { cn } from "../utils";

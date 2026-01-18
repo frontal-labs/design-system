@@ -7,7 +7,7 @@ import {
   NoCreditCardIcon,
   ShieldCheckIcon,
   SparklingIcon,
-} from "@frontal-ds/icons";
+} from "@frontal-labs/icons";
 import {
   Avatar,
   AvatarFallback,
@@ -23,7 +23,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 
 export function NavUser({
   user,

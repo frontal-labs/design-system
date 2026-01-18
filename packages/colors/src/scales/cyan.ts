@@ -1,4 +1,4 @@
-// @frontal-ds/colors - Cyan color scale
+// @frontal-labs/colors - Cyan color scale
 
 /**
  * Cyan color scale values in OKLCH format

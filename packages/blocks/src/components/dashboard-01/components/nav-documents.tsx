@@ -13,7 +13,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import {
   type Icon,
   IconDots,

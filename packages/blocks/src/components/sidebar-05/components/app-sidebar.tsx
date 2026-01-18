@@ -1,5 +1,5 @@
-import { SearchForm } from "@frontal-ds/blocks/sidebar-05/components/search-form";
-import { AddIcon, MoreVariantIcon, SubtractIcon } from "@frontal-ds/icons";
+import { SearchForm } from "@frontal-labs/blocks/sidebar-05/components/search-form";
+import { AddIcon, MoreVariantIcon, SubtractIcon } from "@frontal-labs/icons";
 import {
   Collapsible,
   CollapsibleContent,
@@ -15,7 +15,7 @@ import {
   SidebarMenuSubButton,
   SidebarMenuSubItem,
   SidebarRail,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import type * as React from "react";
 
 // This is sample data.

@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowDownIcon, ArrowUpIcon } from "@frontal-ds/icons";
+import { ArrowDownIcon, ArrowUpIcon } from "@frontal-labs/icons";
 import {
   Card,
   CardContent,
@@ -14,7 +14,7 @@ import {
   ChartLegendContent,
   ChartTooltip,
   ChartTooltipContent,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import { PolarAngleAxis, PolarGrid, Radar, RadarChart } from "recharts";
 
 export const description = "A radar chart with icons";

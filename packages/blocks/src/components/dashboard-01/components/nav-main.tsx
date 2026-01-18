@@ -7,7 +7,7 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import { type Icon, IconCirclePlusFilled, IconMail } from "@tabler/icons-react";
 
 export function NavMain({

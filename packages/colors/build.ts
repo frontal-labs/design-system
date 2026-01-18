@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 /// <reference types="bun-types" />
 /**
- * Build script for @frontal-ds/colors
+ * Build script for @frontal-labs/colors
  * Uses Bun's native bundler API
  * @see https://bun.com/docs/bundler
  */

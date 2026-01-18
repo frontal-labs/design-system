@@ -1,4 +1,5 @@
-import { ToggleGroup, ToggleGroupItem } from "@frontal/design-system";
+import { Button } from "@frontal-labs/design-system";
+import { ToggleGroup, ToggleGroupItem } from "@frontal-labs/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 import { Bold, Italic, Underline } from "lucide-react";
 

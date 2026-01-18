@@ -1,5 +1,5 @@
 /**
- * CSS fallback for @frontal-ds/typeface fonts
+ * CSS fallback for @frontal-labs/typeface fonts
  *
  * This file provides traditional @font-face declarations as a fallback
  * for environments that don't use Next.js font optimization.
@@ -9,7 +9,7 @@
  * if you need to load fonts in a non-Next.js environment.
  *
  * Usage:
- *   import '@frontal-ds/typeface/styles/fonts.css';
+ *   import '@frontal-labs/typeface/styles/fonts.css';
  *   // Then use font-family: 'Maison Neue' or 'Maison Neue Mono'
  */
 

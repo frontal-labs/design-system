@@ -1,8 +1,7 @@
 {
-  "name": "@frontal-ds/icons",
+  "name": "@frontal-labs/icons",
   "description": "Frontal's icon library",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.0.2",
   "type": "module",
   "packageManager": "bun@1.3.3",
   "engines": {
@@ -52,5 +51,10 @@
     "icons",
     "svg",
     "ui"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "@frontal-labs:registry": "https://npm.pkg.github.com",
+    "access": "public"
+  }
 }

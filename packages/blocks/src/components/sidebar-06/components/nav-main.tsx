@@ -1,6 +1,6 @@
 "use client";
 
-import { type IconComponent, MoreIcon } from "@frontal-ds/icons";
+import { type IconComponent, MoreIcon } from "@frontal-labs/icons";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -11,7 +11,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 
 export function NavMain({
   items,

@@ -1,4 +1,4 @@
-import { LoaderIcon } from "@frontal-ds/icons";
+import { LoaderIcon } from "@frontal-labs/icons";
 import type { ComponentProps } from "react";
 import { cn } from "../utils";
 

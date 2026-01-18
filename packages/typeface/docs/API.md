@@ -1,6 +1,6 @@
 # API Reference
 
-Complete API documentation for `@frontal-ds/typeface`.
+Complete API documentation for `@frontal-labs/typeface`.
 
 ## Exports
 
@@ -20,7 +20,7 @@ A merged CSS class string that includes both font variables and default typograp
 
 **Example**:
 ```tsx
-import { fonts } from '@frontal-ds/typeface';
+import { fonts } from '@frontal-labs/typeface';
 
 <div className={fonts}>Content with fonts applied</div>
 ```
@@ -45,7 +45,7 @@ A Next.js `LocalFont` instance for the Maison Neue font family.
 
 **Example**:
 ```tsx
-import { MaisonNeue } from '@frontal-ds/typeface';
+import { MaisonNeue } from '@frontal-labs/typeface';
 
 // Apply to HTML element
 <html className={MaisonNeue.variable}>
@@ -76,7 +76,7 @@ A Next.js `LocalFont` instance for the Maison Neue Mono font family.
 
 **Example**:
 ```tsx
-import { MaisonNeueMono } from '@frontal-ds/typeface';
+import { MaisonNeueMono } from '@frontal-labs/typeface';
 
 // Apply to HTML element
 <html className={MaisonNeueMono.variable}>

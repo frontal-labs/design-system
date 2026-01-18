@@ -1,6 +1,6 @@
-# Contributing to @frontal-ds/charts
+# Contributing to @frontal-labs/charts
 
-Thank you for your interest in contributing to `@frontal-ds/charts`!
+Thank you for your interest in contributing to `@frontal-labs/charts`!
 
 This package is part of the Frontal Design System monorepo. For general contribution guidelines, please refer to the [root CONTRIBUTING.md](../../CONTRIBUTING.md).
 

@@ -1,8 +1,7 @@
 {
-  "name": "@frontal-ds/typeface",
+  "name": "@frontal-labs/typeface",
   "description": "Frontal's typeface",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.0.2",
   "type": "module",
   "packageManager": "bun@1.3.3",
   "engines": {
@@ -63,5 +62,10 @@
     "typeface",
     "fonts",
     "typography"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "@frontal-labs:registry": "https://npm.pkg.github.com",
+    "access": "public"
+  }
 }

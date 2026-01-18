@@ -1,9 +1,10 @@
+import { Button } from "@frontal-labs/design-system";
 import {
   type ChartConfig,
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-} from "@frontal/design-system";
+} from "@frontal-labs/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 import { useMemo } from "react";
 import {

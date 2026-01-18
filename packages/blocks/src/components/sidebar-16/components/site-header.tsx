@@ -1,7 +1,7 @@
 "use client";
 
-import { SearchForm } from "@frontal-ds/blocks/sidebar-16/components/search-form";
-import { SideBarIcon } from "@frontal-ds/icons";
+import { SearchForm } from "@frontal-labs/blocks/sidebar-16/components/search-form";
+import { SideBarIcon } from "@frontal-labs/icons";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -12,7 +12,7 @@ import {
   Button,
   Separator,
   useSidebar,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 
 export function SiteHeader() {
   const { toggleSidebar } = useSidebar();

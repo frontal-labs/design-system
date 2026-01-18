@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowDownChevronIcon } from "@frontal-ds/icons";
+import { ArrowDownChevronIcon } from "@frontal-labs/icons";
 import {
   Button,
   Calendar,
@@ -8,7 +8,7 @@ import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import { formatDateRange } from "little-date";
 import * as React from "react";
 import type { DateRange } from "react-day-picker";

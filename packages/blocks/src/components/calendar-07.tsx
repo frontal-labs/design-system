@@ -1,6 +1,6 @@
 "use client";
 
-import { Calendar } from "@frontal-ds/ui";
+import { Calendar } from "@frontal-labs/ui";
 import * as React from "react";
 import type { DateRange } from "react-day-picker";
 

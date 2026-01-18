@@ -1,13 +1,13 @@
 "use client";
 
-import { AddIcon } from "@frontal-ds/icons";
+import { AddIcon } from "@frontal-labs/icons";
 import {
   Button,
   Calendar,
   Card,
   CardContent,
   CardFooter,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import { formatDateRange } from "little-date";
 import * as React from "react";
 

@@ -1,7 +1,7 @@
 "use client";
 
 import { Autocomplete as AutocompletePrimitive } from "@base-ui/react/autocomplete";
-import { ArrowUpDownIcon, CloseIcon } from "@frontal-ds/icons";
+import { ArrowUpDownIcon, CloseIcon } from "@frontal-labs/icons";
 import type { ReactNode, Ref } from "react";
 import { cn } from "../utils";
 import { Input } from "./input";

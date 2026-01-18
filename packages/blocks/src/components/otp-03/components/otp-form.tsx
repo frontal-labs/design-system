@@ -12,7 +12,7 @@ import {
   InputOTP,
   InputOTPGroup,
   InputOTPSlot,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 
 export function OTPForm({ ...props }: React.ComponentProps<typeof Card>) {
   return (

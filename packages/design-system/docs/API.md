@@ -6,19 +6,19 @@ Complete API documentation for `@frontal/design-system` barrel package.
 
 The `@frontal/design-system` package is a centralized barrel package that re-exports all exports from the Frontal design system packages:
 
-- `@frontal-ds/blocks`
-- `@frontal-ds/charts`
-- `@frontal-ds/colors`
-- `@frontal-ds/icons`
-- `@frontal-ds/typeface`
-- `@frontal-ds/ui`
+- `@frontal-labs/blocks`
+- `@frontal-labs/charts`
+- `@frontal-labs/colors`
+- `@frontal-labs/icons`
+- `@frontal-labs/typeface`
+- `@frontal-labs/ui`
 
 ## Re-Exported Packages
 
-### @frontal-ds/blocks
+### @frontal-labs/blocks
 
 ```typescript
-export { blocks } from '@frontal-ds/blocks';
+export { blocks } from '@frontal-labs/blocks';
 ```
 
 **Type:** `Block[]`
@@ -30,15 +30,15 @@ import { blocks } from '@frontal/design-system';
 const dashboardBlock = blocks.find(b => b.name === 'dashboard-01');
 ```
 
-### @frontal-ds/charts
+### @frontal-labs/charts
 
-Chart components are available via direct import from `@frontal-ds/charts`:
+Chart components are available via direct import from `@frontal-labs/charts`:
 
 ```tsx
-import { ChartAreaDefault } from '@frontal-ds/charts/components/chart-area-default';
+import { ChartAreaDefault } from '@frontal-labs/charts/components/chart-area-default';
 ```
 
-### @frontal-ds/colors
+### @frontal-labs/colors
 
 All color scales, semantic colors, types, and utilities:
 
@@ -56,10 +56,10 @@ export {
   purple, purpleDark,
   orange, orangeDark,
   red, redDark,
-} from '@frontal-ds/colors';
+} from '@frontal-labs/colors';
 
 // Semantic colors
-export { semantic, semanticDark } from '@frontal-ds/colors';
+export { semantic, semanticDark } from '@frontal-labs/colors';
 
 // Types
 export type {
@@ -72,13 +72,13 @@ export type {
   CSSColor,
   SemanticColors,
   SemanticDarkColors,
-} from '@frontal-ds/colors';
+} from '@frontal-labs/colors';
 
 // Utilities
-export { getColor, getScale, getAllScales, toCSSVar } from '@frontal-ds/colors';
+export { getColor, getScale, getAllScales, toCSSVar } from '@frontal-labs/colors';
 ```
 
-### @frontal-ds/icons
+### @frontal-labs/icons
 
 Icon library with 1600+ icons:
 
@@ -93,7 +93,7 @@ export {
   ArrowDownIcon,
   SearchIcon,
   // ... all icons
-} from '@frontal-ds/icons';
+} from '@frontal-labs/icons';
 
 // Icon helpers
 export {
@@ -101,14 +101,14 @@ export {
   groupIconsByCategory,
   searchIcons,
   getCategories,
-} from '@frontal-ds/icons';
+} from '@frontal-labs/icons';
 
 // Icon types
 export type {
   IconProps,
   IconMetadata,
   IconComponent,
-} from '@frontal-ds/icons';
+} from '@frontal-labs/icons';
 
 // Icon utils
 export {
@@ -117,10 +117,10 @@ export {
   getIconProps,
   extractIconName,
   extractCategory,
-} from '@frontal-ds/icons';
+} from '@frontal-labs/icons';
 ```
 
-### @frontal-ds/typeface
+### @frontal-labs/typeface
 
 Typography and fonts:
 
@@ -129,10 +129,10 @@ export {
   fonts,
   MaisonNeue,
   MaisonNeueMono,
-} from '@frontal-ds/typeface';
+} from '@frontal-labs/typeface';
 ```
 
-### @frontal-ds/ui
+### @frontal-labs/ui
 
 All UI components (80+ components):
 
@@ -148,7 +148,7 @@ export {
   DatePicker,
   Form,
   // ... all form components
-} from '@frontal-ds/ui';
+} from '@frontal-labs/ui';
 
 // Layout Components
 export {
@@ -157,7 +157,7 @@ export {
   Grid,
   Flex,
   // ... all layout components
-} from '@frontal-ds/ui';
+} from '@frontal-labs/ui';
 
 // Navigation Components
 export {
@@ -166,7 +166,7 @@ export {
   Tabs,
   Menu,
   // ... all navigation components
-} from '@frontal-ds/ui';
+} from '@frontal-labs/ui';
 
 // Feedback Components
 export {
@@ -175,7 +175,7 @@ export {
   Dialog,
   Progress,
   // ... all feedback components
-} from '@frontal-ds/ui';
+} from '@frontal-labs/ui';
 
 // Data Display Components
 export {
@@ -183,24 +183,24 @@ export {
   Avatar,
   Badge,
   // ... all data display components
-} from '@frontal-ds/ui';
+} from '@frontal-labs/ui';
 
 // Hooks
 export {
   useSidebar,
   useFormContext,
   useIsMobile,
-} from '@frontal-ds/ui';
+} from '@frontal-labs/ui';
 
 // Utilities
-export { cn } from '@frontal-ds/ui';
+export { cn } from '@frontal-labs/ui';
 
 // Variants
 export {
   buttonVariants,
   badgeVariants,
   // ... all variant functions
-} from '@frontal-ds/ui';
+} from '@frontal-labs/ui';
 
 // Types
 export type {
@@ -208,7 +208,7 @@ export type {
   CardProps,
   InputProps,
   // ... all component prop types
-} from '@frontal-ds/ui';
+} from '@frontal-labs/ui';
 ```
 
 ## Style Exports
@@ -235,11 +235,11 @@ import '@frontal/design-system/styles/globals.css';
 
 ```typescript
 // src/index.ts
-export * from '@frontal-ds/blocks';
-export * from '@frontal-ds/colors';
-export * from '@frontal-ds/icons';
-export * from '@frontal-ds/typeface';
-export * from '@frontal-ds/ui';
+export * from '@frontal-labs/blocks';
+export * from '@frontal-labs/colors';
+export * from '@frontal-labs/icons';
+export * from '@frontal-labs/typeface';
+export * from '@frontal-labs/ui';
 ```
 
 ### Style Export
@@ -248,13 +248,13 @@ The `styles/globals.css` file is built to `dist/styles/globals.css` and consolid
 
 ```css
 /* dist/styles/globals.css */
-@import '@frontal-ds/colors/styles.css';
-@import '@frontal-ds/colors/theme.css';
-@import '@frontal-ds/typeface/styles.css';
-@import '@frontal-ds/typeface/fonts.css';
-@import '@frontal-ds/ui/styles.css';
-@import '@frontal-ds/charts/styles.css';
-@import '@frontal-ds/blocks/styles.css';
+@import '@frontal-labs/colors/styles.css';
+@import '@frontal-labs/colors/theme.css';
+@import '@frontal-labs/typeface/styles.css';
+@import '@frontal-labs/typeface/fonts.css';
+@import '@frontal-labs/ui/styles.css';
+@import '@frontal-labs/charts/styles.css';
+@import '@frontal-labs/blocks/styles.css';
 ```
 
 **Note:** CSS files are automatically copied to `dist/styles/` during the build process.
@@ -265,18 +265,18 @@ All types from underlying packages are re-exported:
 
 ```typescript
 export type {
-  // From @frontal-ds/colors
+  // From @frontal-labs/colors
   ColorScale,
   ColorScaleName,
   ColorShade,
   // ...
   
-  // From @frontal-ds/icons
+  // From @frontal-labs/icons
   IconProps,
   IconMetadata,
   IconComponent,
   
-  // From @frontal-ds/ui
+  // From @frontal-labs/ui
   ButtonProps,
   CardProps,
   InputProps,
@@ -316,8 +316,8 @@ The barrel package includes all exports, which may impact tree-shaking. For opti
 **Example:**
 ```typescript
 // Better tree-shaking
-import { Button } from '@frontal-ds/ui';
-import { gray } from '@frontal-ds/colors';
+import { Button } from '@frontal-labs/ui';
+import { gray } from '@frontal-labs/colors';
 
 // May include more than needed
 import { Button, gray } from '@frontal/design-system';
@@ -328,12 +328,12 @@ import { Button, gray } from '@frontal/design-system';
 ```json
 {
   "dependencies": {
-    "@frontal-ds/blocks": "workspace:*",
-    "@frontal-ds/charts": "workspace:*",
-    "@frontal-ds/colors": "workspace:*",
-    "@frontal-ds/icons": "workspace:*",
-    "@frontal-ds/typeface": "workspace:*",
-    "@frontal-ds/ui": "workspace:*"
+    "@frontal-labs/blocks": "workspace:*",
+    "@frontal-labs/charts": "workspace:*",
+    "@frontal-labs/colors": "workspace:*",
+    "@frontal-labs/icons": "workspace:*",
+    "@frontal-labs/typeface": "workspace:*",
+    "@frontal-labs/ui": "workspace:*"
   }
 }
 ```
@@ -345,9 +345,9 @@ All packages in the design system are versioned together and maintained for comp
 ## Exports Summary
 
 ### Components
-- 80+ UI components from `@frontal-ds/ui`
-- Pre-built blocks from `@frontal-ds/blocks`
-- Chart components from `@frontal-ds/charts`
+- 80+ UI components from `@frontal-labs/ui`
+- Pre-built blocks from `@frontal-labs/blocks`
+- Chart components from `@frontal-labs/charts`
 
 ### Colors
 - 11 color scales (light and dark variants)

@@ -1,4 +1,4 @@
-# @frontal-ds/blocks
+# @frontal-labs/blocks
 
 Frontal's UI blocks and components package.
 
@@ -11,14 +11,14 @@ This package provides reusable UI blocks and components for building consistent 
 This package is part of the Frontal monorepo and is installed automatically as a workspace dependency.
 
 ```bash
-bun install @frontal-ds/blocks
+bun install @frontal-labs/blocks
 ```
 
 ## Usage
 
 ```tsx
-import { /* components */ } from '@frontal-ds/blocks';
-import '@frontal-ds/blocks/styles.css';
+import { /* components */ } from '@frontal-labs/blocks';
+import '@frontal-labs/blocks/styles.css';
 ```
 
 ## Styles
@@ -26,7 +26,7 @@ import '@frontal-ds/blocks/styles.css';
 Import the block styles:
 
 ```tsx
-import '@frontal-ds/blocks/styles.css';
+import '@frontal-labs/blocks/styles.css';
 ```
 
 Or use the consolidated design system styles:

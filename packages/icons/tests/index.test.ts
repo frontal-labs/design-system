@@ -1,6 +1,6 @@
 import { describe, expect, test } from "bun:test";
 
-describe("@frontal-ds/icons", () => {
+describe("@frontal-labs/icons", () => {
   test("package can be imported", async () => {
     const mod = await import("../src/index");
     expect(mod).toBeDefined();

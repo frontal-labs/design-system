@@ -30,7 +30,7 @@ Changesets are stored in `.changeset/` directory:
 
 ```markdown
 ---
-"@frontal-ds/ui": patch
+"@frontal-labs/ui": patch
 ---
 
 Fixed button variant styling issue
@@ -257,7 +257,7 @@ Release notes are automatically generated from changesets and included in:
 
 ```markdown
 ---
-"@frontal-ds/ui": minor
+"@frontal-labs/ui": minor
 ---
 
 Added new Button variant: "outline-secondary"
@@ -273,7 +273,7 @@ If a release has issues:
 
 1. **Immediate**: Unpublish from npm (if within 72 hours)
    ```bash
-   npm unpublish @frontal-ds/ui@1.2.3
+   npm unpublish @frontal-labs/ui@1.2.3
    ```
 
 2. **Git**: Revert the version commit

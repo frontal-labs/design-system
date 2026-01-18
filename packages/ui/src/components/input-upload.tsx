@@ -1,6 +1,6 @@
 "use client";
 
-import { CloseIcon, UploadIcon } from "@frontal-ds/icons";
+import { CloseIcon, UploadIcon } from "@frontal-labs/icons";
 import { cva, type VariantProps } from "class-variance-authority";
 import {
   type ChangeEvent,

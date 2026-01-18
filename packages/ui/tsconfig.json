@@ -16,8 +16,8 @@
     "composite": false,
     "paths": {
       "@/*": ["./src/*"],
-      "@frontal-ds/ui/*": ["./src/*"],
-      "@frontal-ds/icons": ["../icons/src/index.ts"]
+      "@frontal-labs/ui/*": ["./src/*"],
+      "@frontal-labs/icons": ["../icons/src/index.ts"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],

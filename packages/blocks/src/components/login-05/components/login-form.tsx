@@ -1,4 +1,4 @@
-import { MoreVariantIcon } from "@frontal-ds/icons";
+import { MoreVariantIcon } from "@frontal-labs/icons";
 import {
   Button,
   cn,
@@ -8,7 +8,7 @@ import {
   Fieldset,
   Input,
   Separator,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 
 export function LoginForm({
   className,

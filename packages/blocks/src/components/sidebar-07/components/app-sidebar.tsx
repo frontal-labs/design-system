@@ -1,9 +1,9 @@
 "use client";
 
-import { NavMain } from "@frontal-ds/blocks/sidebar-07/components/nav-main";
-import { NavProjects } from "@frontal-ds/blocks/sidebar-07/components/nav-projects";
-import { NavUser } from "@frontal-ds/blocks/sidebar-07/components/nav-user";
-import { TeamSwitcher } from "@frontal-ds/blocks/sidebar-07/components/team-switcher";
+import { NavMain } from "@frontal-labs/blocks/sidebar-07/components/nav-main";
+import { NavProjects } from "@frontal-labs/blocks/sidebar-07/components/nav-projects";
+import { NavUser } from "@frontal-labs/blocks/sidebar-07/components/nav-user";
+import { TeamSwitcher } from "@frontal-labs/blocks/sidebar-07/components/team-switcher";
 import {
   ArtboardIcon,
   AudioLinesIcon,
@@ -14,14 +14,14 @@ import {
   PieChartIcon,
   SettingsIcon,
   TerminalBoxIcon,
-} from "@frontal-ds/icons";
+} from "@frontal-labs/icons";
 import {
   Sidebar,
   SidebarContent,
   SidebarFooter,
   SidebarHeader,
   SidebarRail,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import type * as React from "react";
 
 // This is sample data.

@@ -1,4 +1,4 @@
-// @frontal-ds/colors - Gray color scale
+// @frontal-labs/colors - Gray color scale
 
 /**
  * Gray color scale values in OKLCH format

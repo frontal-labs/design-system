@@ -5,7 +5,7 @@ import {
   ArrowDownChevronIcon,
   ArrowUpChevronIcon,
   ArrowUpDownIcon,
-} from "@frontal-ds/icons";
+} from "@frontal-labs/icons";
 import { cn } from "../utils";
 
 const Select = SelectPrimitive.Root;

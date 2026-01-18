@@ -1,5 +1,5 @@
-import { AppSidebar } from "@frontal-ds/blocks/sidebar-10/components/app-sidebar";
-import { NavActions } from "@frontal-ds/blocks/sidebar-10/components/nav-actions";
+import { AppSidebar } from "@frontal-labs/blocks/sidebar-10/components/app-sidebar";
+import { NavActions } from "@frontal-labs/blocks/sidebar-10/components/nav-actions";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -9,7 +9,7 @@ import {
   SidebarInset,
   SidebarProvider,
   SidebarTrigger,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 
 export default function Page() {
   return (

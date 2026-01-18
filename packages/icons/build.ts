@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 /// <reference types="bun-types" />
 /**
- * Build script for @frontal-ds/icons
+ * Build script for @frontal-labs/icons
  * Uses Bun's native bundler API
  * @see https://bun.com/docs/bundler
  */
@@ -17,7 +17,7 @@ async function build() {
   }
 
   // biome-ignore lint/suspicious/noConsole: Build scripts need console output
-  console.log(`Building @frontal-ds/icons${minify ? " (minified)" : ""}...`);
+  console.log(`Building @frontal-labs/icons${minify ? " (minified)" : ""}...`);
 
   // Build ESM format
   // biome-ignore lint/correctness/noUndeclaredVariables: Bun is a global in Bun runtime

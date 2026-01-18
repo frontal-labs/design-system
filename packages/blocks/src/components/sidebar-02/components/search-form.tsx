@@ -1,10 +1,10 @@
-import { SearchIcon } from "@frontal-ds/icons";
+import { SearchIcon } from "@frontal-labs/icons";
 import {
   Label,
   SidebarGroup,
   SidebarGroupContent,
   SidebarInput,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 
 export function SearchForm({ ...props }: React.ComponentProps<"form">) {
   return (

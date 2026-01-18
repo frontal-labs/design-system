@@ -1,4 +1,5 @@
-import { Badge } from "@frontal/design-system";
+import { Button } from "@frontal-labs/design-system";
+import { Badge } from "@frontal-labs/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

@@ -9,7 +9,7 @@ import {
   Fieldset,
   Input,
   Separator,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 
 export function LoginForm({
   className,

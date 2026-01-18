@@ -1,6 +1,6 @@
-# Contributing to @frontal-ds/colors
+# Contributing to @frontal-labs/colors
 
-Thank you for your interest in contributing to `@frontal-ds/colors`!
+Thank you for your interest in contributing to `@frontal-labs/colors`!
 
 This package is part of the Frontal Design System monorepo. For general contribution guidelines, please refer to the [root CONTRIBUTING.md](../../CONTRIBUTING.md).
 

@@ -1,4 +1,4 @@
-import { LoginForm } from "@frontal-ds/blocks/login-05/components/login-form";
+import { LoginForm } from "@frontal-labs/blocks/login-05/components/login-form";
 
 export default function LoginPage() {
   return (

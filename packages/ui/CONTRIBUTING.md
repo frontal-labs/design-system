@@ -1,6 +1,6 @@
-# Contributing to @frontal-ds/ui
+# Contributing to @frontal-labs/ui
 
-Thank you for your interest in contributing to `@frontal-ds/ui`!
+Thank you for your interest in contributing to `@frontal-labs/ui`!
 
 This package is part of the Frontal Design System monorepo. For general contribution guidelines, please refer to the [root CONTRIBUTING.md](../../CONTRIBUTING.md).
 

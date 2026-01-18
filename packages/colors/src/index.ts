@@ -1,4 +1,4 @@
-// @frontal-ds/colors
+// @frontal-labs/colors
 // Color system and utilities for the Frontal design system
 
 // Export all color scales

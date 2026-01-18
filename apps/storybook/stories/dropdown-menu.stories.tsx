@@ -1,3 +1,4 @@
+import { Button } from "@frontal-labs/design-system";
 import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
@@ -14,7 +15,7 @@ import {
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
-} from "@frontal/design-system";
+} from "@frontal-labs/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 import { Mail, Plus, PlusCircle, Search, UserPlus } from "lucide-react";
 

@@ -1,4 +1,4 @@
-// @frontal-ds/colors - Red color scale
+// @frontal-labs/colors - Red color scale
 
 /**
  * Red color scale values in OKLCH format

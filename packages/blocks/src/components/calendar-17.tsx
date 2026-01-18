@@ -7,7 +7,7 @@ import {
   CardFooter,
   Input,
   Label,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import * as React from "react";
 
 export default function Calendar17() {

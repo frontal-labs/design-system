@@ -6,7 +6,7 @@ import {
   Card,
   CardContent,
   CardFooter,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import * as React from "react";
 
 export default function Calendar20() {

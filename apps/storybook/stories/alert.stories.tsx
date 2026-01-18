@@ -1,4 +1,4 @@
-import { Alert, AlertDescription, AlertTitle } from "@frontal/design-system";
+import { Alert, AlertDescription, AlertTitle, Button } from "@frontal-labs/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 import { AlertCircle } from "lucide-react";
 

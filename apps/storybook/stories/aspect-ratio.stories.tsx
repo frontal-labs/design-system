@@ -1,4 +1,5 @@
-import { AspectRatio } from "@frontal/design-system";
+import { Button } from "@frontal-labs/design-system";
+import { AspectRatio } from "@frontal-labs/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 import Image from "next/image";
 

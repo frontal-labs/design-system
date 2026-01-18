@@ -6,7 +6,7 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import type { Icon } from "@tabler/icons-react";
 import type * as React from "react";
 

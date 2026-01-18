@@ -1,4 +1,4 @@
-// @frontal-ds/colors - Brown color scale
+// @frontal-labs/colors - Brown color scale
 
 /**
  * Brown color scale values in OKLCH format

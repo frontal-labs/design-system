@@ -1,7 +1,7 @@
 import { describe, expect, test } from "bun:test";
 import { cn } from "../src/utils";
 
-describe("@frontal-ds/ui", () => {
+describe("@frontal-labs/ui", () => {
   test("package can be imported", async () => {
     const mod = await import("../src/index");
     expect(mod).toBeDefined();

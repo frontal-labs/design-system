@@ -1,7 +1,7 @@
 "use client";
 
 import { Menu as MenuPrimitive } from "@base-ui/react/menu";
-import { ArrowRightChevronIcon } from "@frontal-ds/icons";
+import { ArrowRightChevronIcon } from "@frontal-labs/icons";
 import type { ComponentProps } from "react";
 import { cn } from "../utils";
 

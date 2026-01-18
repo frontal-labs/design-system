@@ -1,9 +1,9 @@
-import { AppSidebar } from "@frontal-ds/blocks/dashboard-01/components/app-sidebar";
-import { ChartAreaInteractive } from "@frontal-ds/blocks/dashboard-01/components/chart-area-interactive";
-import { DataTable } from "@frontal-ds/blocks/dashboard-01/components/data-table";
-import { SectionCards } from "@frontal-ds/blocks/dashboard-01/components/section-cards";
-import { SiteHeader } from "@frontal-ds/blocks/dashboard-01/components/site-header";
-import { SidebarInset, SidebarProvider } from "@frontal-ds/ui";
+import { AppSidebar } from "@frontal-labs/blocks/dashboard-01/components/app-sidebar";
+import { ChartAreaInteractive } from "@frontal-labs/blocks/dashboard-01/components/chart-area-interactive";
+import { DataTable } from "@frontal-labs/blocks/dashboard-01/components/data-table";
+import { SectionCards } from "@frontal-labs/blocks/dashboard-01/components/section-cards";
+import { SiteHeader } from "@frontal-labs/blocks/dashboard-01/components/site-header";
+import { SidebarInset, SidebarProvider } from "@frontal-labs/ui";
 
 import data from "./data.json";
 

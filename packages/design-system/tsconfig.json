@@ -16,10 +16,10 @@
     "composite": false,
     "paths": {
       "@/*": ["./src/*"],
-      "@frontal-ds/blocks": ["../blocks/src/index.ts"],
-      "@frontal-ds/blocks/*": ["../blocks/src/*"],
-      "@frontal-ds/ui": ["../ui/src/index.ts"],
-      "@frontal-ds/ui/*": ["../ui/src/*"]
+      "@frontal-labs/blocks": ["../blocks/src/index.ts"],
+      "@frontal-labs/blocks/*": ["../blocks/src/*"],
+      "@frontal-labs/ui": ["../ui/src/index.ts"],
+      "@frontal-labs/ui/*": ["../ui/src/*"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],

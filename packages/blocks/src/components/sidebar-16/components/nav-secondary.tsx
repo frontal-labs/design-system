@@ -1,11 +1,11 @@
-import type { IconComponent } from "@frontal-ds/icons";
+import type { IconComponent } from "@frontal-labs/icons";
 import {
   SidebarGroup,
   SidebarGroupContent,
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import type * as React from "react";
 
 export function NavSecondary({

@@ -34,7 +34,7 @@ import {
 	TabsPanel,
 	TabsTab,
 	Textarea,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import { useState } from "react";
 
 export default function ComponentsPage() {

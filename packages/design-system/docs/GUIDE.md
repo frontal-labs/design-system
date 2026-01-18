@@ -49,22 +49,22 @@ import '@frontal/design-system/styles/globals.css';
 
 This single import includes:
 - Tailwind CSS base styles
-- Color system from `@frontal-ds/colors`
-- Typography from `@frontal-ds/typeface`
-- UI component styles from `@frontal-ds/ui`
-- Chart styles from `@frontal-ds/charts`
-- Block styles from `@frontal-ds/blocks`
+- Color system from `@frontal-labs/colors`
+- Typography from `@frontal-labs/typeface`
+- UI component styles from `@frontal-labs/ui`
+- Chart styles from `@frontal-labs/charts`
+- Block styles from `@frontal-labs/blocks`
 
 ## Package Structure
 
 The `@frontal/design-system` package is a barrel package that re-exports from:
 
-- `@frontal-ds/blocks` - Pre-built UI blocks
-- `@frontal-ds/charts` - Chart components
-- `@frontal-ds/colors` - Color system
-- `@frontal-ds/icons` - Icon library
-- `@frontal-ds/typeface` - Typography
-- `@frontal-ds/ui` - UI component library
+- `@frontal-labs/blocks` - Pre-built UI blocks
+- `@frontal-labs/charts` - Chart components
+- `@frontal-labs/colors` - Color system
+- `@frontal-labs/icons` - Icon library
+- `@frontal-labs/typeface` - Typography
+- `@frontal-labs/ui` - UI component library
 
 ## Usage Patterns
 
@@ -89,9 +89,9 @@ function MyComponent() {
 ### Pattern 2: Direct Package Imports (Better Tree-Shaking)
 
 ```tsx
-import { Button, Card } from '@frontal-ds/ui';
-import { gray } from '@frontal-ds/colors';
-import { ArrowUpIcon } from '@frontal-ds/icons';
+import { Button, Card } from '@frontal-labs/ui';
+import { gray } from '@frontal-labs/colors';
+import { ArrowUpIcon } from '@frontal-labs/icons';
 
 function MyComponent() {
   return (
@@ -112,8 +112,8 @@ function MyComponent() {
 import { Button, Card, Input } from '@frontal/design-system';
 
 // Import specialized items directly
-import { ChartAreaDefault } from '@frontal-ds/charts/components/chart-area-default';
-import { blocks } from '@frontal-ds/blocks';
+import { ChartAreaDefault } from '@frontal-labs/charts/components/chart-area-default';
+import { blocks } from '@frontal-labs/blocks';
 ```
 
 ## Component Categories
@@ -309,7 +309,7 @@ function MyPage() {
 ### Direct Block Import
 
 ```tsx
-import Dashboard01 from '@frontal-ds/blocks/components/dashboard-01/page';
+import Dashboard01 from '@frontal-labs/blocks/components/dashboard-01/page';
 
 function MyPage() {
   return <Dashboard01 />;
@@ -413,8 +413,8 @@ function Dashboard() {
 import { Button, Card } from '@frontal/design-system';
 
 // ✅ Better for production (tree-shaking)
-import { Button } from '@frontal-ds/ui';
-import { Card } from '@frontal-ds/ui';
+import { Button } from '@frontal-labs/ui';
+import { Card } from '@frontal-labs/ui';
 ```
 
 ### 2. Import Styles Once
@@ -470,8 +470,8 @@ For better bundle size, import directly from individual packages:
 
 ```tsx
 // Smaller bundle
-import { Button } from '@frontal-ds/ui';
-import { gray } from '@frontal-ds/colors';
+import { Button } from '@frontal-labs/ui';
+import { gray } from '@frontal-labs/colors';
 
 // Larger bundle (includes everything)
 import { Button, gray } from '@frontal/design-system';

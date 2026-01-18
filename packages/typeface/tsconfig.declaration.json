@@ -18,7 +18,7 @@
     "strict": true,
     "paths": {
       "@/*": ["./src/*"],
-      "@frontal-ds/typeface/*": ["./src/*"]
+      "@frontal-labs/typeface/*": ["./src/*"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],

@@ -14,7 +14,7 @@
     "incremental": false,
     "paths": {
       "@/*": ["./src/*"],
-      "@frontal-ds/colors/*": ["./src/*"]
+      "@frontal-labs/colors/*": ["./src/*"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],

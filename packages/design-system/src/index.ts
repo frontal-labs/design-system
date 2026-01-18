@@ -1,9 +1,9 @@
-// @frontal/design-system
+// @frontal-labs/design-system
 // Centralized barrel package that exports all Frontal design system packages
 
 // Export blocks
 // biome-ignore lint/performance/noBarrelFile: This is intentionally a barrel package that re-exports everything
-export { blocks } from "@frontal-ds/blocks";
+export { blocks } from "@frontal-labs/blocks";
 
 // Export charts
 // Charts package has no exports currently
@@ -70,7 +70,7 @@ import {
   type YellowScale,
   yellow,
   yellowDark,
-} from "@frontal-ds/colors";
+} from "@frontal-labs/colors";
 
 export {
   gray,
@@ -136,8 +136,8 @@ export {
 
 // Export icons
 // Since icons has 1600+ exports, we import everything and re-export via namespace
-// Individual icons can be accessed via Icons.* or imported directly from @frontal-ds/icons
-import * as IconsModule from "@frontal-ds/icons";
+// Individual icons can be accessed via Icons.* or imported directly from @frontal-labs/icons
+import * as IconsModule from "@frontal-labs/icons";
 import {
   extractCategory,
   extractIconName,
@@ -151,7 +151,7 @@ import {
   normalizeColor,
   normalizeSize,
   searchIcons,
-} from "@frontal-ds/icons";
+} from "@frontal-labs/icons";
 
 // Export icons namespace for accessing all icons
 export const Icons = IconsModule;
@@ -177,7 +177,7 @@ export {
   fonts,
   MaisonNeue,
   MaisonNeueMono,
-} from "@frontal-ds/typeface";
+} from "@frontal-labs/typeface";
 
 // Export UI components
 export {
@@ -923,4 +923,4 @@ export {
   useSidebar,
   Video,
   type VideoProps,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";

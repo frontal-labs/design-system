@@ -2,17 +2,17 @@
 /* This file aggregates styles from all design system packages */
 
 /* Colors and theme variables */
-@import "@frontal-ds/colors/styles.css";
-@import "@frontal-ds/colors/theme.css";
+@import "@frontal-labs/colors/styles.css";
+@import "@frontal-labs/colors/theme.css";
 
 /* Typography */
-@import "@frontal-ds/typeface/styles.css";
+@import "@frontal-labs/typeface/styles.css";
 
 /* UI Component styles */
-@import "@frontal-ds/ui/styles.css";
+@import "@frontal-labs/ui/styles.css";
 
 /* Chart styles */
-@import "@frontal-ds/charts/styles.css";
+@import "@frontal-labs/charts/styles.css";
 
 /* Block styles */
-@import "@frontal-ds/blocks/styles.css";
+@import "@frontal-labs/blocks/styles.css";

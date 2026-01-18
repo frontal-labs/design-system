@@ -1,6 +1,6 @@
-import { AppSidebar } from "@frontal-ds/blocks/sidebar-16/components/app-sidebar";
-import { SiteHeader } from "@frontal-ds/blocks/sidebar-16/components/site-header";
-import { SidebarInset, SidebarProvider } from "@frontal-ds/ui";
+import { AppSidebar } from "@frontal-labs/blocks/sidebar-16/components/app-sidebar";
+import { SiteHeader } from "@frontal-labs/blocks/sidebar-16/components/site-header";
+import { SidebarInset, SidebarProvider } from "@frontal-labs/ui";
 
 export const iframeHeight = "800px";
 

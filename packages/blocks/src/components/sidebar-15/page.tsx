@@ -1,5 +1,5 @@
-import { SidebarLeft } from "@frontal-ds/blocks/sidebar-15/components/sidebar-left";
-import { SidebarRight } from "@frontal-ds/blocks/sidebar-15/components/sidebar-right";
+import { SidebarLeft } from "@frontal-labs/blocks/sidebar-15/components/sidebar-left";
+import { SidebarRight } from "@frontal-labs/blocks/sidebar-15/components/sidebar-right";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -9,7 +9,7 @@ import {
   SidebarInset,
   SidebarProvider,
   SidebarTrigger,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 
 export default function Page() {
   return (

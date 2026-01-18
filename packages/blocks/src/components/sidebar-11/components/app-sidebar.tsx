@@ -1,4 +1,4 @@
-import { ArrowRightIcon, FileIcon, FolderIcon } from "@frontal-ds/icons";
+import { ArrowRightIcon, FileIcon, FolderIcon } from "@frontal-labs/icons";
 import {
   Collapsible,
   CollapsibleContent,
@@ -14,7 +14,7 @@ import {
   SidebarMenuItem,
   SidebarMenuSub,
   SidebarRail,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import type * as React from "react";
 
 // This is sample data.

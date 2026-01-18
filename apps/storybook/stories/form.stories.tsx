@@ -1,3 +1,4 @@
+import { Button } from "@frontal-labs/design-system";
 import {
   Form,
   FormControl,
@@ -6,7 +7,7 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@frontal/design-system";
+} from "@frontal-labs/design-system";
 import { zodResolver } from "@hookform/resolvers/zod";
 import type { Meta, StoryObj } from "@storybook/react";
 import { fn } from "@storybook/test";

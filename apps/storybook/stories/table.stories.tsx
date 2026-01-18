@@ -1,3 +1,4 @@
+import { Button } from "@frontal-labs/design-system";
 import {
   Table,
   TableBody,
@@ -6,7 +7,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@frontal/design-system";
+} from "@frontal-labs/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 const invoices = [

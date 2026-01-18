@@ -1,4 +1,4 @@
-import { SettingsDialog } from "@frontal-ds/blocks/sidebar-13/components/settings-dialog";
+import { SettingsDialog } from "@frontal-labs/blocks/sidebar-13/components/settings-dialog";
 
 export default function Page() {
   return (

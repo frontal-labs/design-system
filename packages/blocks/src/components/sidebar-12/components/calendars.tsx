@@ -1,4 +1,4 @@
-import { ArrowRightChevronIcon, CheckIcon } from "@frontal-ds/icons";
+import { ArrowRightChevronIcon, CheckIcon } from "@frontal-labs/icons";
 import {
   Collapsible,
   CollapsibleContent,
@@ -10,7 +10,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   SidebarSeparator,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import * as React from "react";
 
 export function Calendars({

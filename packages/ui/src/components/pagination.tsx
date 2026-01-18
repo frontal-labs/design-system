@@ -4,7 +4,7 @@ import {
   ArrowLeftChevronIcon,
   ArrowRightChevronIcon,
   MoreIcon,
-} from "@frontal-ds/icons";
+} from "@frontal-labs/icons";
 import type { ComponentProps } from "react";
 import { cn } from "../utils";
 import { type Button, buttonVariants } from "./button";

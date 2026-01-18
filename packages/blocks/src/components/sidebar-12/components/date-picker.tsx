@@ -1,4 +1,4 @@
-import { Calendar, SidebarGroup, SidebarGroupContent } from "@frontal-ds/ui";
+import { Calendar, SidebarGroup, SidebarGroupContent } from "@frontal-labs/ui";
 
 export function DatePicker() {
   return (

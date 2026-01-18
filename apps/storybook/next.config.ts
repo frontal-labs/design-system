@@ -2,12 +2,13 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   transpilePackages: [
-    "@frontal-ds/ui",
-    "@frontal-ds/icons",
-    "@frontal-ds/colors",
+    "@frontal-labs/design-system",
+    "@frontal-labs/ui",
+    "@frontal-labs/icons",
+    "@frontal-labs/colors",
   ],
   experimental: {
-    optimizePackageImports: ["@frontal-ds/ui", "lucide-react"],
+    optimizePackageImports: ["@frontal-labs/design-system", "lucide-react"],
   },
 };
 

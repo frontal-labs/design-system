@@ -1,7 +1,7 @@
 "use client";
 
 import { Accordion as AccordionPrimitive } from "@base-ui/react/accordion";
-import { ArrowDownChevronIcon } from "@frontal-ds/icons";
+import { ArrowDownChevronIcon } from "@frontal-labs/icons";
 import { cn } from "../utils";
 
 type AccordionProps = AccordionPrimitive.Root.Props & {

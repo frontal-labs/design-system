@@ -15,7 +15,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import {
   IconCreditCard,
   IconDotsVertical,

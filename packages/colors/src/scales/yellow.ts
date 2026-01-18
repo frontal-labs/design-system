@@ -1,4 +1,4 @@
-// @frontal-ds/colors - Yellow color scale
+// @frontal-labs/colors - Yellow color scale
 
 /**
  * Yellow color scale values in OKLCH format

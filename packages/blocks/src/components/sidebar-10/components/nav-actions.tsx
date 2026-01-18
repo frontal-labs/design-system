@@ -15,7 +15,7 @@ import {
   MoreVariantIcon,
   SettingsIcon,
   StarIcon,
-} from "@frontal-ds/icons";
+} from "@frontal-labs/icons";
 import {
   Button,
   Popover,
@@ -28,7 +28,7 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import * as React from "react";
 
 const data = [

@@ -1,5 +1,5 @@
 {
-	"name": "@frontal-ds/root",
+	"name": "@frontal-labs/root",
 	"description": "A modular design system for consistent, scalable, high-quality UI across Frontal platforms.",
 	"author": "Frontal Labs",
 	"private": true,
@@ -68,7 +68,7 @@
 	},
 	"dependencies": {
 		"@clack/prompts": "^0.11.0",
-		"@frontal-ds/design-system": "workspace:*",
+		"@frontal-labs/design-system": "workspace:*",
 		"commander": "^14.0.2",
 		"object-assign": "^4.1.1",
 		"styled-jsx": "^5.1.7"

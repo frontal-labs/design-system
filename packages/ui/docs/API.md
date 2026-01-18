@@ -1,6 +1,6 @@
 # UI Components API Reference
 
-Complete API documentation for `@frontal-ds/ui` components.
+Complete API documentation for `@frontal-labs/ui` components.
 
 ## Component Index
 

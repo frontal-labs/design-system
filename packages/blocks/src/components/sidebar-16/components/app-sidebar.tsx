@@ -1,9 +1,9 @@
 "use client";
 
-import { NavMain } from "@frontal-ds/blocks/sidebar-16/components/nav-main";
-import { NavProjects } from "@frontal-ds/blocks/sidebar-16/components/nav-projects";
-import { NavSecondary } from "@frontal-ds/blocks/sidebar-16/components/nav-secondary";
-import { NavUser } from "@frontal-ds/blocks/sidebar-16/components/nav-user";
+import { NavMain } from "@frontal-labs/blocks/sidebar-16/components/nav-main";
+import { NavProjects } from "@frontal-labs/blocks/sidebar-16/components/nav-projects";
+import { NavSecondary } from "@frontal-labs/blocks/sidebar-16/components/nav-secondary";
+import { NavUser } from "@frontal-labs/blocks/sidebar-16/components/nav-user";
 import {
   ArtboardIcon,
   BookOpenIcon,
@@ -14,7 +14,7 @@ import {
   SendIcon,
   SettingsIcon,
   TerminalBoxIcon,
-} from "@frontal-ds/icons";
+} from "@frontal-labs/icons";
 import {
   Sidebar,
   SidebarContent,
@@ -23,7 +23,7 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import type * as React from "react";
 
 const data = {

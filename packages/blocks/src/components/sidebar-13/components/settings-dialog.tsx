@@ -13,7 +13,7 @@ import {
   PaintBrushIcon,
   SettingsIcon,
   VideoIcon,
-} from "@frontal-ds/icons";
+} from "@frontal-labs/icons";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -35,7 +35,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   SidebarProvider,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import * as React from "react";
 
 const data = {

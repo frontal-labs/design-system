@@ -16,7 +16,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@frontal-ds/ui";
+} from "@frontal-labs/ui";
 import * as React from "react";
 import { Label, Pie, PieChart, Sector } from "recharts";
 import type { Props as LabelProps } from "recharts/types/component/Label";

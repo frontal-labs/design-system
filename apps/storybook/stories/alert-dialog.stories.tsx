@@ -1,3 +1,4 @@
+import { Button } from "@frontal-labs/design-system";
 import {
   AlertDialog,
   AlertDialogClose,
@@ -7,7 +8,7 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "@frontal/design-system";
+} from "@frontal-labs/design-system";
 import type { Meta, StoryObj } from "@storybook/react";
 
 /**

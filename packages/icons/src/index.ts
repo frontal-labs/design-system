@@ -1,4 +1,4 @@
-// @frontal-ds/icons
+// @frontal-labs/icons
 // Icon library for the Frontal design system
 
 // biome-ignore lint/performance/noBarrelFile: This package intentionally uses barrel exports

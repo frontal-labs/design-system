@@ -1,11 +1,11 @@
 # Icons Usage Guide
 
-Comprehensive guide for using `@frontal-ds/icons` in your applications.
+Comprehensive guide for using `@frontal-labs/icons` in your applications.
 
 ## Installation
 
 ```bash
-bun install @frontal-ds/icons
+bun install @frontal-labs/icons
 ```
 
 ## Quick Start
@@ -13,7 +13,7 @@ bun install @frontal-ds/icons
 ### Basic Usage
 
 ```tsx
-import { ArrowUpIcon, SearchIcon } from '@frontal-ds/icons';
+import { ArrowUpIcon, SearchIcon } from '@frontal-labs/icons';
 
 function MyComponent() {
   return (
@@ -45,7 +45,7 @@ function MyComponent() {
 ### Standard Sizes
 
 ```tsx
-import { ArrowUpIcon } from '@frontal-ds/icons';
+import { ArrowUpIcon } from '@frontal-labs/icons';
 
 // Small (16px) - Inline with text
 <ArrowUpIcon size={16} />
@@ -66,7 +66,7 @@ import { ArrowUpIcon } from '@frontal-ds/icons';
 ### Responsive Sizes
 
 ```tsx
-import { ArrowUpIcon } from '@frontal-ds/icons';
+import { ArrowUpIcon } from '@frontal-labs/icons';
 
 // Using Tailwind classes
 <ArrowUpIcon className="w-4 h-4 sm:w-6 sm:h-6" />
@@ -94,7 +94,7 @@ Icons inherit color from their parent element:
 ### Custom Colors
 
 ```tsx
-import { ArrowUpIcon } from '@frontal-ds/icons';
+import { ArrowUpIcon } from '@frontal-labs/icons';
 
 // Using color prop
 <ArrowUpIcon color="#ff0000" />
@@ -109,7 +109,7 @@ import { ArrowUpIcon } from '@frontal-ds/icons';
 ### Theme-Aware Colors
 
 ```tsx
-import { ArrowUpIcon } from '@frontal-ds/icons';
+import { ArrowUpIcon } from '@frontal-labs/icons';
 
 <ArrowUpIcon className="text-foreground" />
 <ArrowUpIcon className="text-primary" />
@@ -121,8 +121,8 @@ import { ArrowUpIcon } from '@frontal-ds/icons';
 ### Icons in Buttons
 
 ```tsx
-import { Button } from '@frontal-ds/ui';
-import { ArrowUpIcon, SearchIcon } from '@frontal-ds/icons';
+import { Button } from '@frontal-labs/ui';
+import { ArrowUpIcon, SearchIcon } from '@frontal-labs/icons';
 
 function ButtonExamples() {
   return (
@@ -148,8 +148,8 @@ function ButtonExamples() {
 ### Icons in Navigation
 
 ```tsx
-import { SidebarMenuButton } from '@frontal-ds/ui';
-import { HomeIcon, SettingsIcon, UserIcon } from '@frontal-ds/icons';
+import { SidebarMenuButton } from '@frontal-labs/ui';
+import { HomeIcon, SettingsIcon, UserIcon } from '@frontal-labs/icons';
 
 function NavigationExample() {
   return (
@@ -174,8 +174,8 @@ function NavigationExample() {
 ### Icons in Forms
 
 ```tsx
-import { Input } from '@frontal-ds/ui';
-import { SearchIcon, MailIcon } from '@frontal-ds/icons';
+import { Input } from '@frontal-labs/ui';
+import { SearchIcon, MailIcon } from '@frontal-labs/icons';
 
 function FormExamples() {
   return (
@@ -197,8 +197,8 @@ function FormExamples() {
 ### Icons in Cards
 
 ```tsx
-import { Card, CardHeader, CardTitle, CardContent } from '@frontal-ds/ui';
-import { CheckIcon, AlertIcon } from '@frontal-ds/icons';
+import { Card, CardHeader, CardTitle, CardContent } from '@frontal-labs/ui';
+import { CheckIcon, AlertIcon } from '@frontal-labs/icons';
 
 function CardExamples() {
   return (
@@ -232,7 +232,7 @@ function CardExamples() {
 ### Searching Icons
 
 ```tsx
-import { searchIcons, getIconMetadata } from '@frontal-ds/icons';
+import { searchIcons, getIconMetadata } from '@frontal-labs/icons';
 
 // Get metadata for all icons
 const allIcons = [
@@ -249,7 +249,7 @@ const searchResults = searchIcons(allIcons, 'search');
 ### Grouping by Category
 
 ```tsx
-import { groupIconsByCategory, getIconMetadata } from '@frontal-ds/icons';
+import { groupIconsByCategory, getIconMetadata } from '@frontal-labs/icons';
 
 const icons = [
   getIconMetadata('ArrowUpIcon', 'Arrows/arrow-up'),
@@ -265,8 +265,8 @@ const grouped = groupIconsByCategory(icons);
 
 ```tsx
 import { useState } from 'react';
-import { searchIcons, getCategories, getIconMetadata } from '@frontal-ds/icons';
-import * as Icons from '@frontal-ds/icons';
+import { searchIcons, getCategories, getIconMetadata } from '@frontal-labs/icons';
+import * as Icons from '@frontal-labs/icons';
 
 function IconPicker() {
   const [search, setSearch] = useState('');
@@ -316,7 +316,7 @@ function IconPicker() {
 ### Hover Effects
 
 ```tsx
-import { ArrowUpIcon } from '@frontal-ds/icons';
+import { ArrowUpIcon } from '@frontal-labs/icons';
 
 <ArrowUpIcon className="transition-transform hover:scale-110" />
 <ArrowUpIcon className="transition-colors hover:text-blue-500" />
@@ -325,7 +325,7 @@ import { ArrowUpIcon } from '@frontal-ds/icons';
 ### Rotation
 
 ```tsx
-import { ArrowUpIcon } from '@frontal-ds/icons';
+import { ArrowUpIcon } from '@frontal-labs/icons';
 
 // Rotate on hover
 <ArrowUpIcon className="transition-transform hover:rotate-180" />
@@ -337,7 +337,7 @@ import { ArrowUpIcon } from '@frontal-ds/icons';
 ### Pulse
 
 ```tsx
-import { NotificationIcon } from '@frontal-ds/icons';
+import { NotificationIcon } from '@frontal-labs/icons';
 
 <NotificationIcon className="animate-pulse text-red-500" />
 ```
@@ -347,7 +347,7 @@ import { NotificationIcon } from '@frontal-ds/icons';
 ### With Labels
 
 ```tsx
-import { SearchIcon } from '@frontal-ds/icons';
+import { SearchIcon } from '@frontal-labs/icons';
 
 <button aria-label="Search">
   <SearchIcon aria-hidden="true" />
@@ -357,7 +357,7 @@ import { SearchIcon } from '@frontal-ds/icons';
 ### Decorative Icons
 
 ```tsx
-import { ArrowUpIcon } from '@frontal-ds/icons';
+import { ArrowUpIcon } from '@frontal-labs/icons';
 
 <div>
   <ArrowUpIcon aria-hidden="true" />
@@ -368,7 +368,7 @@ import { ArrowUpIcon } from '@frontal-ds/icons';
 ### Interactive Icons
 
 ```tsx
-import { EditIcon } from '@frontal-ds/icons';
+import { EditIcon } from '@frontal-labs/icons';
 
 <button 
   onClick={handleEdit}
@@ -447,17 +447,17 @@ import { EditIcon } from '@frontal-ds/icons';
 
 ```tsx
 // ✅ Good - Tree-shakeable
-import { ArrowUpIcon } from '@frontal-ds/icons';
+import { ArrowUpIcon } from '@frontal-labs/icons';
 
 // ❌ Avoid - Importing everything
-import * as Icons from '@frontal-ds/icons';
+import * as Icons from '@frontal-labs/icons';
 ```
 
 ## Migration from lucide-react
 
 If migrating from `lucide-react`:
 
-1. Find equivalent icon in `@frontal-ds/icons`
+1. Find equivalent icon in `@frontal-labs/icons`
 2. Update import statement
 3. Icon names follow same PascalCase convention
 4. Props are compatible (size, color, className)
@@ -469,8 +469,8 @@ Example migration:
 import { ArrowUp } from 'lucide-react';
 <ArrowUp size={20} />
 
-// After (@frontal-ds/icons)
-import { ArrowUpIcon } from '@frontal-ds/icons';
+// After (@frontal-labs/icons)
+import { ArrowUpIcon } from '@frontal-labs/icons';
 <ArrowUpIcon size={20} />
 ```
 
@@ -478,7 +478,7 @@ import { ArrowUpIcon } from '@frontal-ds/icons';
 
 ### Icons Not Rendering
 
-- Check import path: `import { IconName } from '@frontal-ds/icons'`
+- Check import path: `import { IconName } from '@frontal-labs/icons'`
 - Verify icon name ends with "Icon" suffix
 - Ensure icon exists in the package
 
@@ -496,7 +496,7 @@ import { ArrowUpIcon } from '@frontal-ds/icons';
 
 ### TypeScript Errors
 
-- Import types: `import type { IconProps } from '@frontal-ds/icons'`
+- Import types: `import type { IconProps } from '@frontal-labs/icons'`
 - Use correct icon name format
 - Check that icon is exported
 
